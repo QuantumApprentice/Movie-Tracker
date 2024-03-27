@@ -1,0 +1,50 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+marquee {
+  font-size: 48px;
+}
+
+.trailer {
+  text-align: left;
+  align-items: flex-start;
+}
+
+.credits {
+  text-align: left;
+  align-items: flex-end;
+
+}
+
+th {
+  font-size: 1.2em;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.title {
+  text-align: left;
+}
+
+
+.movie_list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+
+
+
+
