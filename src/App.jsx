@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react'
 import './App.css'
-// import movieJson from './movieList.json'
+import movieJson from './movieList.json'
 import { Link, Outlet, useParams } from 'react-router-dom';
 
-import text from './Movie Night.txt?raw'
-let movieJson;
+// import text from './Movie Night.txt?raw'
+// let movieJson;
 export async function parseList3()
 {
   let movieList = [];
@@ -14,7 +14,7 @@ export async function parseList3()
   // let regex = /^.+?\((\d{4})?\).*/gm  //bakerstaunch
   // let regex = /^(?!\n)(?!\r)[^#].*/gm;
   let regex = /^(?<watched>-)?(?<watchdate>(?:[\d\/]*\.){3})?(?<title>[^#\s].*?) *\((?<year>\d{4})?\) *(?:\[(?<runtime>\d+h\d+m)\])?(.*)/gm;
-  let linkRegex = /(?:(?<type>\w+): )?(?<url>http[\w+\S]+)+/gm
+  let linkRegex = /(?:(?<type>[\w\() ]+): )?(?<url>http[\w+\S]+)+/gm
 
   //store trailer links if there are any
   let arr;
@@ -27,7 +27,6 @@ export async function parseList3()
       let type = links.groups.type || 'trailer';
       if (!tempMovie.links[type]) {
         tempMovie.links[type] = [];
-
       }
       tempMovie.links[type].push(links.groups.url);
       // console.log(tempMovie);
@@ -51,13 +50,13 @@ export async function parseList3()
   let movie_json;
   movie_json = JSON.stringify(movieList,null,' ');
   movieJson = JSON.parse(movie_json);
-  // let file = new Blob([movie_json]);
-  // let a = document.createElement("a");
-  // a.href = URL.createObjectURL(file);
-  // a.download = 'movieList.json';
-  // a.click();
+  let file = new Blob([movie_json]);
+  let a = document.createElement("a");
+  a.href = URL.createObjectURL(file);
+  a.download = 'movieList.json';
+  a.click();
 }
-parseList3();
+// parseList3();
 
 async function parseList2()
 {
@@ -383,37 +382,19 @@ function MovieTitle({movie})
 
 function Trailer({movie})
 {
-  // console.log("links: ", movie.links);
-  console.log(Object.entries(movie.links));
+  console.log("movie: ", movie);
 
-  for (const type_arr of Object.entries(movie.links)) {
-    let link_type = type_arr[0];
-    console.log("type?: ", link_type);
-
-    type_arr[1].map
-    // type.map((arr)=>{
-    //   console.log("???", arr);
-    // })
-
-  }
-
-  // for (const link of movie.links) {
-  //   console.log("link: ", link);
-  //   for (const i of link) {
-  //     return (
-  //       <YTlink type={i} url={i.trailer} />
-  //     )
-  //   }
-  // }
-
-  // return (
-  //   <div className='trailer'>
-  //     {!!movie.links.links.trailer  && <YTlink type="Trailer:"  url={movie.links.trailer}  />}
-  //     {!!movie.links.links.modern   && <YTlink type="Modern:"   url={movie.links.modern}   />}
-  //     {!!movie.links.links.movie    && <YTlink type="Movie:"    url={movie.links.movie}    />}
-  //     {!!movie.links.links.original && <YTlink type="Original:" url={movie.links.original} />}
-  //   </div>
-  // )
+  return (
+    <div>
+      {Object.entries(movie.links).map((type_arr)=>{
+        let link_type = type_arr[0];
+        let link_urls = type_arr[1];
+        return (
+          <YTlink key={link_type} type={link_type} url={link_urls} />
+        )
+      })}
+    </div>
+  )
 }
 
 function YTlink({type, url})
@@ -427,6 +408,7 @@ function YTlink({type, url})
           let name = tra.slice(idx+1);
           return (
             <iframe width="560" height="315"
+              key={name}
               src={`http://www.youtube.com/embed/${name}`}
               title="YouTube video player"
               allowFullScreen>
