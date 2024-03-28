@@ -1,8 +1,11 @@
 #root {
-  max-width: 1280px;
+  /* max-width: 1280px; */
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
 }
 
 .info {
@@ -24,6 +27,7 @@ marquee {
 .credits {
   text-align: left;
   align-items: flex-end;
+  backdrop-filter: blur(40px);
 
 }
 
@@ -42,8 +46,9 @@ th {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-
 }
+
+
 
 
 

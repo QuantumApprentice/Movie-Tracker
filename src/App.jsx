@@ -2,10 +2,13 @@ import { useEffect, useState } from 'react'
 import './App.css'
 import movieJson from './movieList.json'
 import { Link, Outlet, useParams } from 'react-router-dom';
+const token = import.meta.env.VITE_TMDB_TOKEN;
+const acct_id  = import.meta.env.VITE_TMDB_ACCTID;
+// const {token: VITE_TMDB_TOKEN} = import.meta.env
 
 // import text from './Movie Night.txt?raw'
 // let movieJson;
-export async function parseList3()
+async function parseList3()
 {
   let movieList = [];
   // let regex = /^-?(?<date>[\d.]+\.)?(?<title>[-'&:(). \w]+)\((?<year>\d{4})\) \[(?<runtime>\dh\d{0,2}m)] (?<links>.+$)/gm;
@@ -295,6 +298,9 @@ export function DisplayList()
   let movieList = movieJson;
   // console.log(movieList);
 
+
+
+
   return (
     <>
       <table>
@@ -334,6 +340,8 @@ export function DisplayList()
 
 export function DisplayMovie()
 {
+  const [info, setInfo] = useState(null);
+
   let {movieId} = useParams();
   // console.log("movieId", movieId);
 
@@ -345,16 +353,28 @@ export function DisplayMovie()
     }
   }
 
+
+  useEffect(()=>{
+    get_movie_info(currentMovie.title, currentMovie.year).then((e)=>{
+      setInfo(e);
+    });
+  }, [currentMovie]);
+
   // console.log(currentMovie);
   // console.log(currentMovie.trailer);
 
   return (
     <>
-      <MovieTitle movie={currentMovie} />
-      <div className="info">
-        {!!currentMovie.links && 
-        <Trailer movie={currentMovie}  />}
-        <Credits movie={currentMovie}  />
+      <div style={ {height:"100vh",
+        background: `linear-gradient(rgba(0, 0, 0, 0.5),
+                                     rgba(0, 0, 0, 1.0)),
+                      url("https://image.tmdb.org/t/p/w1280/${info?.results[0].backdrop_path}") no-repeat center / cover`}}>
+        <MovieTitle movie={currentMovie} />
+        <div className="info">
+          {!!currentMovie.links && 
+          <Trailer movie={currentMovie}  />}
+          <Credits movie={currentMovie}  />
+        </div>
       </div>
     </>
   )
@@ -382,7 +402,7 @@ function MovieTitle({movie})
 
 function Trailer({movie})
 {
-  console.log("movie: ", movie);
+  // console.log("movie: ", movie);
 
   return (
     <div>
@@ -420,13 +440,90 @@ function YTlink({type, url})
   )
 }
 
+async function get_movie_info(title, year)
+{
+  const get_options = {
+    method: 'GET',
+    headers: {
+      accept: 'application/json',
+      Authorization: `Bearer ${token}`
+    }
+  }
+  const post_options = {
+    method: 'POST',
+    headers: {
+      accept: 'application/json',
+      'content-type': 'application/json',
+      Authorization: `Bearer ${token}`
+    },
+    // body: JSON.stringify({media_type: 'movie', media_id: 550, favorite: true}),
+  }
+
+  let searchParams = {};
+  searchParams.query = title;
+  if (year) {
+    searchParams.year = year;
+  }
+
+  let url = new URL("https://api.themoviedb.org/3/search/movie");
+  url.search = new URLSearchParams(searchParams);
+
+  // let title = "star wars empire";
+  //Search Movie
+  let search_movie = await fetch(url.toString(), get_options);
+  let movie_info_json = await search_movie.json();
+  // console.log(movie_info_json);
+  return movie_info_json;
+
+  // //Authenticate
+  // fetch('https://api.themoviedb.org/3/authentication', options)
+  //   .then(r=>r.json())
+  //   .then(re=>console.log(re))
+  //   .catch(err=>console.error(err));
+
+  // //Authenticate
+  // let api = await fetch('https://api.themoviedb.org/3/authentication', get_options);
+  // let api_json = await api.json();
+  // console.log(api_json);
+
+  // //Details
+  // let acct = await fetch(`https://api.themoviedb.org/3/account/${acct_id}`, get_options);
+  // let api_acct = await acct.json();
+  // console.log(api_acct);
+
+  // //Add Favorite
+  // let add_fav = await fetch(`https://api.themoviedb.org/3/account/${acct_id}/favorite`, post_options);
+  // let api_add_fav = await add_fav.json();
+  // console.log(api_add_fav);
+
+  // //Get Favorite Movies
+  // let get_fav = await fetch(`https://api.themoviedb.org/3/account/${acct_id}/favorite/movies?language=fr`, get_options);
+  // let api_get_fav = await get_fav.json();
+  // console.log(api_get_fav);
+
+
+}
+
 function Credits({movie})
 {
+  const [info, setInfo] = useState(null);
+
+  useEffect(()=>{
+    get_movie_info(movie.title, movie.year).then((e)=>{
+      setInfo(e);
+    });
+  }, [movie]);
+
+  // let poster = info?.results[0].poster_path;
+
+  // console.log(info)
+
   return (
     <div className="credits">
       <h1>Last Watched: </h1>
       <h2>{movie.watchdate}</h2>
-      <h2>{movie.imdbPlaceholder}</h2>
+      <h3>{info?.results[0].overview}</h3>
+      <img src={`https://image.tmdb.org/t/p/w300/${info?.results[0].poster_path}`} />
     </div>
   )
 }
