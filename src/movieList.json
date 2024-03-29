@@ -1875,13 +1875,13 @@
  {
   "watched": false,
   "title": "Shadow of the Vampire",
-  "year": "1984",
+  "year": "2000",
   "links": {
    "trailer": [
     "https://youtu.be/_B15iesNMa8"
    ]
   },
-  "id": "shadow-of-the-vampire-1984"
+  "id": "shadow-of-the-vampire-2000"
  },
  {
   "watched": false,
@@ -1921,14 +1921,14 @@
  {
   "watched": false,
   "title": "The Lone Ranger",
-  "year": "2012",
+  "year": "2013",
   "runtime": "2h30m",
   "links": {
    " trailer": [
     "https://youtu.be/JjFsNSoDZK8"
    ]
   },
-  "id": "the-lone-ranger-2012"
+  "id": "the-lone-ranger-2013"
  },
  {
   "watched": false,
@@ -2027,13 +2027,13 @@
  {
   "watched": false,
   "title": "Beyond Re-Animator",
-  "year": "2006",
+  "year": "2003",
   "links": {
    "trailer": [
     "https://youtu.be/An1lkL3OraY"
    ]
   },
-  "id": "beyond-re-animator-2006"
+  "id": "beyond-re-animator-2003"
  },
  {
   "watched": false,
@@ -2667,7 +2667,7 @@
  {
   "watched": false,
   "title": "Blast From the Past",
-  "year": "2001",
+  "year": "1999",
   "links": {
    "trailer": [
     "https://youtu.be/Xq29uTtKW4M"
@@ -2676,7 +2676,7 @@
     "https://www.youtube.com/watch?v=dGEwZzJEhRA"
    ]
   },
-  "id": "blast-from-the-past-2001"
+  "id": "blast-from-the-past-1999"
  },
  {
   "watched": true,
@@ -6083,10 +6083,10 @@
  {
   "watched": false,
   "title": "Field of Lost Shoes",
-  "year": "2014",
+  "year": "2015",
   "runtime": "1h36m",
   "links": {},
-  "id": "field-of-lost-shoes-2014"
+  "id": "field-of-lost-shoes-2015"
  },
  {
   "watched": false,
@@ -7834,8 +7834,15 @@
   "title": "Spaceballs",
   "year": "1987",
   "links": {
-   "movie": [
-    "https://youtu.be/LnG7LdAsbnw"
+   "teaser": [
+    "https://youtu.be/Zi8ZJBrHT0A"
+   ],
+   " teaser": [
+    "https://youtu.be/VQJIywSsk5o"
+   ],
+   " trailer": [
+    "https://youtu.be/-JE-v9TvYdg",
+    "https://youtu.be/tecRUFHrhGQ"
    ]
   },
   "id": "spaceballs-1987"
@@ -7981,8 +7988,16 @@
  {
   "watched": false,
   "title": "The Time Machine",
+  "year": "1960",
   "links": {},
-  "id": "the-time-machine-undefined"
+  "id": "the-time-machine-1960"
+ },
+ {
+  "watched": false,
+  "title": "The Time Machine",
+  "year": "2002",
+  "links": {},
+  "id": "the-time-machine-2002"
  },
  {
   "watched": false,
@@ -8527,14 +8542,14 @@
  },
  {
   "watched": false,
-  "title": "Fitzcaraldo",
+  "title": "Fitzcarraldo",
   "year": "1982",
   "links": {
    "trailer": [
     "https://youtu.be/xWeb7i8IjYs"
    ]
   },
-  "id": "fitzcaraldo-1982"
+  "id": "fitzcarraldo-1982"
  },
  {
   "watched": false,
@@ -8607,7 +8622,7 @@
  {
   "watched": false,
   "title": "Mom and Dad Save the World",
-  "year": "1989",
+  "year": "1992",
   "links": {
    "trailer": [
     "https://youtu.be/stZpmjnB3ro"
@@ -8616,7 +8631,7 @@
     "https://youtu.be/3MCC8eqQ1Vk"
    ]
   },
-  "id": "mom-and-dad-save-the-world-1989"
+  "id": "mom-and-dad-save-the-world-1992"
  },
  {
   "watched": false,
@@ -9137,13 +9152,13 @@
  {
   "watched": false,
   "title": "Teenage Mutant Ninja Turtles III: Turtles in Time",
-  "year": "1991",
+  "year": "1993",
   "links": {
    "trailer": [
     "https://youtu.be/w2dNvVdz3js"
    ]
   },
-  "id": "teenage-mutant-ninja-turtles-iii-turtles-in-time-1991"
+  "id": "teenage-mutant-ninja-turtles-iii-turtles-in-time-1993"
  },
  {
   "watched": true,
@@ -9659,13 +9674,13 @@
   "watched": true,
   "watchdate": "12.24.22",
   "title": "Home Alone 2: Lost in New York",
-  "year": "1994",
+  "year": "1992",
   "links": {
    "trailer": [
     "https://youtu.be/5h9VDUNtoto"
    ]
   },
-  "id": "home-alone-2-lost-in-new-york-1994"
+  "id": "home-alone-2-lost-in-new-york-1992"
  },
  {
   "watched": false,
@@ -9769,10 +9784,10 @@
  },
  {
   "watched": false,
-  "title": "Christmas With the Cranks",
+  "title": "Christmas With the Kranks",
   "year": "2004",
   "links": {},
-  "id": "christmas-with-the-cranks-2004"
+  "id": "christmas-with-the-kranks-2004"
  },
  {
   "watched": false,

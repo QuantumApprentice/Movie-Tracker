@@ -10,14 +10,21 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <Route  path="/"
             element={<App />}
+            errorElement={<ErrorPage />}
     >
-      <Route path="/movies/:movieId"
-             element={<DisplayMovie />}
-             errorElement={<ErrorPage />}
-      />
-      <Route path="/"
-             element={<DisplayList />}
-      />
+      <Route errorElement={<ErrorPage />}>
+
+        <Route path="/movies/:movieId"
+              element={<DisplayMovie />}
+        />
+        <Route path="/"
+              element={<DisplayList />}
+        />
+
+
+
+      </Route>
+
     </Route>
   )
 )

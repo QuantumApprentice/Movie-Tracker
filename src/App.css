@@ -1,7 +1,7 @@
 #root {
   /* max-width: 1280px; */
-  margin: 0 auto;
-  padding: 2rem;
+  /* margin: 0 auto; */
+  /* padding: 2rem; */
   text-align: center;
   position: relative;
   width: 100vw;
@@ -10,6 +10,7 @@
 
 .info {
   display: flex;
+  flex: 1 1 75%;
   flex-direction: row;
   justify-content: space-between;
   gap: 50px;
@@ -19,9 +20,43 @@ marquee {
   font-size: 48px;
 }
 
-.trailer {
+/*
+Flex is 1-dimensional, so if you used flex you 
+would need two "layers" of flex, the "top level"
+would be column-oriented, i.e. you would have 
+one box at the top for the header, then another
+box below to hold both the trailers and info.
+Then inside that flex container, you would 
+have a second one for the bottom row which 
+would be row-oriented, with the trailers and 
+the info inside that container
+*/
+
+/*
+So in the JSX, something like 
+  data-poster-url={`https://......`} 
+then in the CSS something like 
+  background: linear-gradient(...), 
+  url(attr(data-poster-url));
+ */
+
+.display-movie {
+  height: 100vh;
+  background: linear-gradient(
+              rgba(0, 0, 0, 0.5),
+              rgba(0, 0, 0, 1.0)),
+  var(--data-backdrop-url);
+  background-size: cover;
+  background-position: center;
+}
+
+.trailer-container {
+  flex-grow: 1;
+  flex: 0 0 25%;
   text-align: left;
   align-items: flex-start;
+  width: fit-content;
+  overflow-y: auto;
 }
 
 .credits {
