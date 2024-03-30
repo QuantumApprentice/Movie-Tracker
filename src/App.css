@@ -1,38 +1,24 @@
 #root {
   /* max-width: 1280px; */
-  /* margin: 0 auto; */
-  /* padding: 2rem; */
   text-align: center;
   position: relative;
   width: 100vw;
   height: 100vh;
 }
 
-.info {
-  display: flex;
-  flex: 1 1 75%;
-  flex-direction: row;
-  justify-content: space-between;
-  gap: 50px;
+*{
+  border: solid 1px red;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 marquee {
   font-size: 48px;
 }
 
-/*
-Flex is 1-dimensional, so if you used flex you 
-would need two "layers" of flex, the "top level"
-would be column-oriented, i.e. you would have 
-one box at the top for the header, then another
-box below to hold both the trailers and info.
-Then inside that flex container, you would 
-have a second one for the bottom row which 
-would be row-oriented, with the trailers and 
-the info inside that container
-*/
-
-/*
+/*  assign css variables with attr
+   (experimental as of 2024)
 So in the JSX, something like 
   data-poster-url={`https://......`} 
 then in the CSS something like 
@@ -40,7 +26,15 @@ then in the CSS something like
   url(attr(data-poster-url));
  */
 
-.display-movie {
+.movie-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.movie-display {
+  display: flex;
+  flex-direction: column;
   height: 100vh;
   background: linear-gradient(
               rgba(0, 0, 0, 0.5),
@@ -50,20 +44,40 @@ then in the CSS something like
   background-position: center;
 }
 
-.trailer-container {
-  flex-grow: 1;
-  flex: 0 0 25%;
+.movie-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.movie-trailer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 45vw;
+  height: 75vh;
   text-align: left;
   align-items: flex-start;
   width: fit-content;
   overflow-y: auto;
 }
 
-.credits {
+.movie-credits {
+  display: flex;
+  flex-direction: row;
+  width: 45vw;
+  max-width: 560px;
+  height: 75vh;
   text-align: left;
-  align-items: flex-end;
+  align-items: flex-start;
   backdrop-filter: blur(40px);
+  overflow-y: auto;
+}
 
+.movie-title-disp {
+  height: 25vh;
+  margin-bottom: 1rem;
 }
 
 th {
@@ -72,15 +86,16 @@ th {
   text-decoration: underline;
 }
 
-.title {
+.movie-title-list {
   text-align: left;
 }
 
-
-.movie_list {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+iframe {
+  --trailer-width: 48vw;
+  max-width: 560px;
+  max-height: 315px;
+  width: var(--trailer-width);
+  height: calc(var(--trailer-width)/1.77777);
 }
 
 

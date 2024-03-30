@@ -17,6 +17,7 @@ export default function App()
   )
 }
 
+/**displays list of movies to click on */
 export function DisplayList()
 {
   let movieList = movieJson;
@@ -27,7 +28,7 @@ export function DisplayList()
       <table>
         <thead>
           <tr>
-            <th className='title'>Title</th>
+            <th className='movie-title-list'>Title</th>
             <th>(Release Year)</th>
             <th>[Runtime]</th>
           </tr>
@@ -35,7 +36,7 @@ export function DisplayList()
         <tbody>
           {movieList.map((movie, idx)=>(
             <tr key={idx}>
-              <td className='title'>
+              <td className='movie-title-list'>
                 <Link to={`/movies/${movie.id}`}>
                   {movie.title}</Link>
               </td>
@@ -70,10 +71,10 @@ export function DisplayMovie()
 
   return (
     <>
-      <div className='display-movie'
+      <div className='movie-display'
           style={{"--data-backdrop-url": `url("https://image.tmdb.org/t/p/w1280/${currentDB?.backdrop_path}")`}}>
         <MovieTitle movie={currentMovie} />
-        <div className="info">
+        <div className="movie-info">
           {!!currentMovie.links && 
           <Trailer movie={currentMovie}  />}
           <Credits movie={currentMovie} tmdb={currentDB}  />
@@ -88,18 +89,18 @@ function MovieTitle({movie})
   const [count, setCount] = useState(0);
 
   return (
-    <>
-    <div>
-      <h1>{movie.title}</h1>
-      <h2>({movie.year})</h2>
-      <h2>{movie.runtime}</h2>
+    <div className='movie-title-disp'>
+      <div>
+        <h1>{movie.title}</h1>
+        <h2>({movie.year})</h2>
+        <h2>{movie.runtime}</h2>
+      </div>
+      <div className="vote">
+        <button onClick={() => setCount((count) => count + 1)}>
+          Vote for this movie! {count}
+        </button>
+      </div>
     </div>
-    <div className="vote">
-      <button onClick={() => setCount((count) => count + 1)}>
-        Vote for this movie! {count}
-      </button>
-    </div>
-    </>
   )
 }
 
@@ -108,7 +109,7 @@ function Trailer({movie})
   // console.log("movie: ", movie);
 
   return (
-    <div className="trailer-container">
+    <div className="movie-trailer">
       {Object.entries(movie.links).map((type_arr)=>{
         let link_type = type_arr[0];
         let link_urls = type_arr[1];
@@ -130,7 +131,7 @@ function YTlink({type, url})
           let idx = tra.lastIndexOf('/');
           let name = tra.slice(idx+1);
           return (
-            <iframe width="560" height="315"
+            <iframe
               key={name}
               src={`http://www.youtube.com/embed/${name}`}
               title="YouTube video player"
@@ -148,8 +149,8 @@ function Credits({movie, tmdb})
 {
 
   return (
-    <div className="credits">
-      <h1>Last Watched: </h1>
+    <div className="movie-credits">
+      {/* <h1>Last Watched: </h1> */}
       <h2>{movie.watchdate}</h2>
       <h3>{tmdb?.overview}</h3>
       <img src={`https://image.tmdb.org/t/p/w300/${tmdb?.poster_path}`} />

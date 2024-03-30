@@ -362,8 +362,8 @@ async function tmdb_json()
     // console.log(entry.results[0]);
     let entry = await get_movie_info(movie.title, movie.year);
     if (entry?.results[0]) {
+      //attach tmdb movie id to local movieList.json
       movie.dbid = entry.results[0].id;
-      // console.log(movie);
       db_json.push({...entry.results[0], found: true});
     } else {
       db_json.push({title: movie.title, found: false});
@@ -372,8 +372,6 @@ async function tmdb_json()
   // db_json = [...finalJson, ...db_json]
 
   let db_write = JSON.stringify(db_json,null,' ');
-  console.log(movieJson);
-  // db_json = await Promise.all(entry);
   try {
     fs.writeFileSync('src/tmdbList.json', db_write);
     fs.writeFileSync('src/movieList.json', JSON.stringify(movieJson,null,' '));
