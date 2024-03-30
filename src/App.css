@@ -76,6 +76,8 @@ then in the CSS something like
 }
 
 .movie-title-disp {
+  display: flex;
+  flex-direction: col;
   height: 25vh;
   margin-bottom: 1rem;
 }

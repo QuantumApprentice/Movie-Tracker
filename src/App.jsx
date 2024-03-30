@@ -90,15 +90,20 @@ function MovieTitle({movie})
 
   return (
     <div className='movie-title-disp'>
-      <div>
-        <h1>{movie.title}</h1>
-        <h2>({movie.year})</h2>
-        <h2>{movie.runtime}</h2>
+      <div className='title'>
+        <div>
+          <h1>{movie.title}</h1>
+          <h2>({movie.year})</h2>
+          <h2>{movie.runtime}</h2>
+        </div>
+
       </div>
       <div className="vote">
         <button onClick={() => setCount((count) => count + 1)}>
           Vote for this movie! {count}
         </button>
+          <h3>Last Watched: </h3>
+          <h2>{movie.watchdate}</h2>
       </div>
     </div>
   )
@@ -150,10 +155,8 @@ function Credits({movie, tmdb})
 
   return (
     <div className="movie-credits">
-      {/* <h1>Last Watched: </h1> */}
-      <h2>{movie.watchdate}</h2>
-      <h3>{tmdb?.overview}</h3>
       <img src={`https://image.tmdb.org/t/p/w300/${tmdb?.poster_path}`} />
+      <h3>{tmdb?.overview}</h3>
     </div>
   )
 }
