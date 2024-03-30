@@ -19,11 +19,8 @@ export default function App()
 
 export function DisplayList()
 {
-
   let movieList = movieJson;
   // console.log(movieList);
-
-
 
   return (
     <>
@@ -68,7 +65,7 @@ export function DisplayMovie()
 
   let {movieId} = useParams();
   let currentMovie = movieJson.find(m=>m.id === movieId)
-  let currentDB = tmdbList?.find(m=>(m.title === currentMovie.title));
+  let currentDB = tmdbList?.find(m=>(m.id === currentMovie.dbid));
   // console.log(currentDB);
 
   return (
@@ -154,7 +151,7 @@ function Credits({movie, tmdb})
     <div className="credits">
       <h1>Last Watched: </h1>
       <h2>{movie.watchdate}</h2>
-      <h3>{tmdb.overview}</h3>
+      <h3>{tmdb?.overview}</h3>
       <img src={`https://image.tmdb.org/t/p/w300/${tmdb?.poster_path}`} />
     </div>
   )

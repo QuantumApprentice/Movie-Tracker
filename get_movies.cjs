@@ -1,10 +1,12 @@
 // import text from './Movie Night.txt?raw'
-// import {movieJson} from './movieList.json'
+// import {finalJson} from './movieList.json'
 // const token = import.meta.env.VITE_TMDB_TOKEN;
 // const acct_id  = import.meta.env.VITE_TMDB_ACCTID;
 // const {token: VITE_TMDB_TOKEN} = import.meta.env
 const fs = require('node:fs');
 const text = fs.readFileSync('./src/Movie Night.txt', 'utf8');
+const temp = fs.readFileSync('./src/tmdbList.json', 'utf8');
+const finalJson = JSON.parse(temp);
 
 require('dotenv').config({path: ['.env.local']});
 const token = process.env.VITE_TMDB_TOKEN;
@@ -55,7 +57,7 @@ async function parseList3()
   }
   let movie_json;
   movie_json = JSON.stringify(movieList,null,' ');
-  // fs.writeFileSync('src/movieList.json', movie_json);
+  fs.writeFileSync('src/movieList.json', movie_json);
 
 
   movieJson = JSON.parse(movie_json);
@@ -325,29 +327,59 @@ async function get_movie_info(title, year)
 
 async function tmdb_json()
 {
+  // console.log(movieJson);
+
   let db_json = [];
   // let entry = [];
   for (const movie of movieJson) {
     // entry.push(get_movie_info(movie.title, movie.year));
-    let entry = await get_movie_info(movie.title,movie.year);
-    if (entry.results[0]) {
+    // let entry = finalJson.find(m=>
+    //   {
+    //     if (m.title === movie.title) {
+    //       console.log("tmdb.title: ", m.title);
+    //       return true;
+    //     }
+    //     return false;
+    //   });
+    // console.log("entry: ", entry);
+    // console.log("movie.title: ", movie.title);
+    // // console.log("tmdb.title: ", m.title);
+    // if (!entry) {
+    //   // entry = await get_movie_info(movie.title, movie.year);
+    //   // entry = finalJson.find(m=>m.title == movie.title);
+    //   // console.log(entry);
+    //   // if (!entry) {
+    //   // console.log(entry);
+    //   console.log(" huh?", movie);
+    //   if (entry?.results) {
+    //     if (entry?.results[0]) {
+    //       db_json.push({...entry.results[0], found: true});
+    //     } else {
+    //       db_json.push({title: movie.title, found: false});
+    //     }
+    //   }
+    // }
+    // console.log(entry.results[0]);
+    let entry = await get_movie_info(movie.title, movie.year);
+    if (entry?.results[0]) {
+      movie.dbid = entry.results[0].id;
+      // console.log(movie);
       db_json.push({...entry.results[0], found: true});
     } else {
       db_json.push({title: movie.title, found: false});
     }
-
-    // console.log(entry.results[0]);
   }
+  // db_json = [...finalJson, ...db_json]
 
   let db_write = JSON.stringify(db_json,null,' ');
-
+  console.log(movieJson);
   // db_json = await Promise.all(entry);
   try {
     fs.writeFileSync('src/tmdbList.json', db_write);
+    fs.writeFileSync('src/movieList.json', JSON.stringify(movieJson,null,' '));
   } catch (err) {
     console.error(err);
   }
-
 
   // let out = JSON.stringify(db_json,null,' ');
   // let file = new Blob([out]);

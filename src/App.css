@@ -45,7 +45,7 @@ then in the CSS something like
   background: linear-gradient(
               rgba(0, 0, 0, 0.5),
               rgba(0, 0, 0, 1.0)),
-  var(--data-backdrop-url);
+              var(--data-backdrop-url);
   background-size: cover;
   background-position: center;
 }

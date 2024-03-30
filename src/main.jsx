@@ -21,10 +21,7 @@ const router = createBrowserRouter(
               element={<DisplayList />}
         />
 
-
-
       </Route>
-
     </Route>
   )
 )

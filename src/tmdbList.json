@@ -49,7 +49,7 @@
   "original_language": "en",
   "original_title": "Angel Heart",
   "overview": "Harry Angel, a down-and-out Brooklyn detective, is hired to track down a singer on an odyssey that will take him through the desperate streets of Harlem, the smoke-filled jazz clubs of New Orleans, and the swamps of Louisiana and its seedy underworld of voodoo.",
-  "popularity": 21.458,
+  "popularity": 30.041,
   "poster_path": "/h5v3wjJQNB7q2RntEnKDLhKtTFE.jpg",
   "release_date": "1987-03-06",
   "title": "Angel Heart",
@@ -128,7 +128,7 @@
   "original_language": "en",
   "original_title": "A Nightmare on Elm Street 4: The Dream Master",
   "overview": "Freddy Krueger is resurrected from his apparent demise, and rapidly tracks down and kills the remainder of the Elm Street kids. However, Kristen, who can draw others into her dreams, wills her special ability to her new friend, Alice.",
-  "popularity": 31.686,
+  "popularity": 25.503,
   "poster_path": "/boStYG7jKdoIZTduiOOsUVknD13.jpg",
   "release_date": "1988-08-19",
   "title": "A Nightmare on Elm Street 4: The Dream Master",
@@ -251,13 +251,13 @@
   "original_language": "en",
   "original_title": "Beetlejuice",
   "overview": "A newly dead New England couple seek help from a deranged demon exorcist to scare an affluent New York family out of their home.",
-  "popularity": 152.576,
+  "popularity": 169.636,
   "poster_path": "/nnl6OWkyPpuMm595hmAxNW3rZFn.jpg",
   "release_date": "1988-03-30",
   "title": "Beetlejuice",
   "video": false,
   "vote_average": 7.38,
-  "vote_count": 6396,
+  "vote_count": 6397,
   "found": true
  },
  {
@@ -271,7 +271,7 @@
   "original_language": "en",
   "original_title": "Bram Stoker's Dracula",
   "overview": "In the 19th century, Dracula travels to London and meets Mina, a young woman who appears as the reincarnation of his lost love.",
-  "popularity": 35.405,
+  "popularity": 49.567,
   "poster_path": "/scFDS0U5uYAjcVTyjNc7GmcZw1q.jpg",
   "release_date": "1992-11-13",
   "title": "Bram Stoker's Dracula",
@@ -370,7 +370,7 @@
   "original_language": "en",
   "original_title": "Creepshow",
   "overview": "Five tales in the style of classic '50s horror comics, involving a murdered man emerging from the grave, a meteor's ooze that makes everything grow, a snack for a crated creature, a scheming husband, and a malevolent millionaire with an insect phobia.",
-  "popularity": 19.89,
+  "popularity": 27.846,
   "poster_path": "/4SoyTCEpsgLjX6yAyMsx3AsAyRQ.jpg",
   "release_date": "1982-11-10",
   "title": "Creepshow",
@@ -432,7 +432,7 @@
   "original_language": "en",
   "original_title": "Cujo",
   "overview": "A friendly St. Bernard named \"Cujo\" contracts rabies and conducts a reign of terror on a small American town.",
-  "popularity": 36.166,
+  "popularity": 38.925,
   "poster_path": "/uNBt2YxrQdyOjnm2rDQ5QiCmQ0K.jpg",
   "release_date": "1983-08-10",
   "title": "Cujo",
@@ -562,7 +562,7 @@
   "original_language": "en",
   "original_title": "Dreamscape",
   "overview": "A government funded project looks into using psychics to enter people's dreams, with some mechanical help. When a subject dies in their sleep from a heart attack, Alex Gardner becomes suspicious that another of the psychics is killing people in the dreams somehow and that is causing them to die in real life. He must find a way to stop the abuse of the power to enter dreams.",
-  "popularity": 17.305,
+  "popularity": 17.346,
   "poster_path": "/yTx46x6Aa2uNW8fRSyOnro7PISf.jpg",
   "release_date": "1984-08-15",
   "title": "Dreamscape",
@@ -590,7 +590,7 @@
   "title": "From Dusk Till Dawn",
   "video": false,
   "vote_average": 7.021,
-  "vote_count": 5625,
+  "vote_count": 5626,
   "found": true
  },
  {
@@ -707,7 +707,7 @@
   "original_language": "en",
   "original_title": "Evil Dead II",
   "overview": "Ash Williams and his girlfriend Linda find a log cabin in the woods with a voice recording from an archeologist who had recorded himself reciting ancient chants from \"The Book of the Dead.\" As they play the recording an evil power is unleashed taking over Linda's body.",
-  "popularity": 35.138,
+  "popularity": 49.193,
   "poster_path": "/4zqCKJVHUolGs6C5AZwAZqLWixW.jpg",
   "release_date": "1987-03-13",
   "title": "Evil Dead II",
@@ -749,7 +749,7 @@
   "original_language": "en",
   "original_title": "The Exorcist",
   "overview": "When a charming 12-year-old girl takes on the characteristics and voices of others, doctors say there is nothing they can do. As people begin to die, the girl's mother realizes her daughter has been possessed by the devil--and that her daughter's only possible hope lies with two priests and the ancient rite of demonic exorcism.",
-  "popularity": 55.936,
+  "popularity": 58.14,
   "poster_path": "/5x0CeVHJI8tcDx8tUUwYHQSNILq.jpg",
   "release_date": "1973-12-26",
   "title": "The Exorcist",
@@ -790,13 +790,13 @@
   "original_language": "en",
   "original_title": "The Exorcist III",
   "overview": "On the fifteenth anniversary of the exorcism that claimed Father Damien Karras' life, Police Lieutenant Kinderman's world is once again shattered when a boy is found decapitated and savagely crucified.",
-  "popularity": 26.349,
+  "popularity": 33.702,
   "poster_path": "/bl6nSPcyqz6xD2Igd2VQvz8qWo0.jpg",
   "release_date": "1990-08-17",
   "title": "The Exorcist III",
   "video": false,
-  "vote_average": 6.2,
-  "vote_count": 703,
+  "vote_average": 6.234,
+  "vote_count": 704,
   "found": true
  },
  {
@@ -835,8 +835,8 @@
   "release_date": "1980-05-09",
   "title": "Friday the 13th",
   "video": false,
-  "vote_average": 6.4,
-  "vote_count": 2748,
+  "vote_average": 6.395,
+  "vote_count": 2749,
   "found": true
  },
  {
@@ -875,8 +875,8 @@
   "release_date": "1982-08-13",
   "title": "Friday the 13th Part III",
   "video": false,
-  "vote_average": 5.865,
-  "vote_count": 1297,
+  "vote_average": 5.866,
+  "vote_count": 1298,
   "found": true
  },
  {
@@ -890,7 +890,7 @@
   "original_language": "en",
   "original_title": "Friday the 13th: The Final Chapter",
   "overview": "After his revival in a hospital morgue, Jason fixes his vengeful attention on the Jarvis family and a group of hitherto carefree teenagers.",
-  "popularity": 31.633,
+  "popularity": 32.245,
   "poster_path": "/5KRBkaF6PdorcFjWiDY4tJy67Jf.jpg",
   "release_date": "1984-04-13",
   "title": "Friday the 13th: The Final Chapter",
@@ -916,8 +916,8 @@
   "release_date": "1985-03-22",
   "title": "Friday the 13th: A New Beginning",
   "video": false,
-  "vote_average": 5.3,
-  "vote_count": 1061,
+  "vote_average": 5.29,
+  "vote_count": 1063,
   "found": true
  },
  {
@@ -936,8 +936,8 @@
   "release_date": "1986-08-01",
   "title": "Friday the 13th Part VI: Jason Lives",
   "video": false,
-  "vote_average": 6.2,
-  "vote_count": 1090,
+  "vote_average": 6.203,
+  "vote_count": 1091,
   "found": true
  },
  {
@@ -957,8 +957,8 @@
   "release_date": "1988-05-13",
   "title": "Friday the 13th Part VII: The New Blood",
   "video": false,
-  "vote_average": 5.4,
-  "vote_count": 966,
+  "vote_average": 5.431,
+  "vote_count": 967,
   "found": true
  },
  {
@@ -977,8 +977,8 @@
   "release_date": "1989-07-28",
   "title": "Friday the 13th Part VIII: Jason Takes Manhattan",
   "video": false,
-  "vote_average": 4.9,
-  "vote_count": 975,
+  "vote_average": 4.93,
+  "vote_count": 976,
   "found": true
  },
  {
@@ -992,7 +992,7 @@
   "original_language": "en",
   "original_title": "Fright Night",
   "overview": "Charley Brewster, a high school student, accidentally discovers the true and creepy nature of Jerry Dandrige, his dashing and enigmatic new neighbor; but no one seems willing to believe him.",
-  "popularity": 27.106,
+  "popularity": 37.948,
   "poster_path": "/upVMb3s1RugX4J0O40zfERjPE5N.jpg",
   "release_date": "1985-08-02",
   "title": "Fright Night",
@@ -1012,7 +1012,7 @@
   "original_language": "en",
   "original_title": "Frightmare",
   "overview": "Drama students decide to pay tribute to their favorite horror star by stealing his body from his crypt for a farewell party. They fail to realize their violation of the tomb has triggered powerful black magic, and Conrad hasn't taken his final bows yet.",
-  "popularity": 4.378,
+  "popularity": 3.327,
   "poster_path": "/5yDBja3xzLQgUbOrokzHjnUwSi5.jpg",
   "release_date": "1981-09-09",
   "title": "Frightmare",
@@ -1122,7 +1122,7 @@
   "title": "Ghostbusters",
   "video": false,
   "vote_average": 7.481,
-  "vote_count": 8477,
+  "vote_count": 8478,
   "found": true
  },
  {
@@ -1146,8 +1146,25 @@
   "found": true
  },
  {
+  "adult": false,
+  "backdrop_path": "/f01AbhKF4GSAxUxxBnXqk1012Ga.jpg",
+  "genre_ids": [
+   35,
+   27,
+   14
+  ],
+  "id": 18498,
+  "original_language": "en",
+  "original_title": "Ghoulies",
+  "overview": "A young man and his girlfriend move into the man's old mansion home, where he becomes possessed by a need to control ancient demons.",
+  "popularity": 7.625,
+  "poster_path": "/yV8z6deULhH4oJAUj2YdhITPwfc.jpg",
+  "release_date": "1985-01-18",
   "title": "Ghoulies",
-  "found": false
+  "video": false,
+  "vote_average": 4.7,
+  "vote_count": 224,
+  "found": true
  },
  {
   "adult": false,
@@ -1247,8 +1264,8 @@
   "release_date": "1981-10-30",
   "title": "Halloween II",
   "video": false,
-  "vote_average": 6.6,
-  "vote_count": 1902,
+  "vote_average": 6.555,
+  "vote_count": 1903,
   "found": true
  },
  {
@@ -1268,8 +1285,8 @@
   "release_date": "1982-10-22",
   "title": "Halloween III: Season of the Witch",
   "video": false,
-  "vote_average": 5.2,
-  "vote_count": 1290,
+  "vote_average": 5.202,
+  "vote_count": 1291,
   "found": true
  },
  {
@@ -1288,8 +1305,8 @@
   "release_date": "1988-10-21",
   "title": "Halloween 4: The Return of Michael Myers",
   "video": false,
-  "vote_average": 6.2,
-  "vote_count": 1810,
+  "vote_average": 6.189,
+  "vote_count": 1811,
   "found": true
  },
  {
@@ -1367,7 +1384,7 @@
   "original_language": "ja",
   "original_title": "ハウス",
   "overview": "Hoping to find a sense of connection to her late mother, Gorgeous takes a trip to the countryside to visit her aunt at their ancestral house. She invites her six friends, Prof, Melody, Mac, Fantasy, Kung Fu, and Sweet, to join her. The girls soon discover that there is more to the old house than meets the eye.",
-  "popularity": 15.553,
+  "popularity": 14.083,
   "poster_path": "/myMnHnG6kxYaQYknnW76VCHBpYT.jpg",
   "release_date": "1977-08-26",
   "title": "House",
@@ -1449,7 +1466,7 @@
   "original_language": "en",
   "original_title": "Interview with the Vampire",
   "overview": "A vampire relates his epic life story of love, betrayal, loneliness, and dark hunger to an over-curious reporter.",
-  "popularity": 42.949,
+  "popularity": 48.442,
   "poster_path": "/2162lAT2MP36MyJd2sttmj5du5T.jpg",
   "release_date": "1994-11-11",
   "title": "Interview with the Vampire",
@@ -1600,8 +1617,8 @@
   "release_date": "1993-01-08",
   "title": "Leprechaun",
   "video": false,
-  "vote_average": 5.5,
-  "vote_count": 728,
+  "vote_average": 5.538,
+  "vote_count": 729,
   "found": true
  },
  {
@@ -1636,7 +1653,7 @@
   "original_language": "en",
   "original_title": "Leprechaun 3",
   "overview": "It was a normal night in Las Vegas, Nevada, all the lights were flashing brightly, until a man with one hand, one eye, and one leg walks into a pawn shop with a statue of a hideous looking Leprechaun. The owner claims it's a good luck charm. The statue also wore a medallion around it's neck. The careless pawn shop owner took off the medallion setting the Leprechaun free...",
-  "popularity": 25.922,
+  "popularity": 27.138,
   "poster_path": "/z9NT2smK66pYOjBtmZuKFFTZ478.jpg",
   "release_date": "1995-07-04",
   "title": "Leprechaun 3",
@@ -1680,7 +1697,7 @@
   "original_language": "en",
   "original_title": "Leviathan",
   "overview": "Underwater deep-sea miners encounter a Soviet wreck and bring back a dangerous cargo to their base on the ocean floor with horrifying results. The crew of the mining base must fight to survive against a genetic mutation that hunts them down one by one.",
-  "popularity": 19.219,
+  "popularity": 23.883,
   "poster_path": "/gKGYpj6ggU6rsUbR5H0Xuroj50O.jpg",
   "release_date": "1989-03-17",
   "title": "Leviathan",
@@ -1948,7 +1965,7 @@
   "original_language": "en",
   "original_title": "Night of the Creeps",
   "overview": "In 1959, an alien experiment crashes to earth and infects a fraternity member. They freeze the body, but in the modern day, two geeks pledging a fraternity accidentally thaw the corpse, which proceeds to infect the campus with parasites that transform their hosts into killer zombies.",
-  "popularity": 16.889,
+  "popularity": 20.033,
   "poster_path": "/A3s2tQGNb6mhlr1hPZeE5F8IUwp.jpg",
   "release_date": "1986-08-21",
   "title": "Night of the Creeps",
@@ -2035,7 +2052,7 @@
   "title": "North by Northwest",
   "video": false,
   "vote_average": 7.982,
-  "vote_count": 3886,
+  "vote_count": 3887,
   "found": true
  },
  {
@@ -2048,7 +2065,7 @@
   "original_language": "de",
   "original_title": "Nosferatu, eine Symphonie des Grauens",
   "overview": "In this highly influential silent horror film, the mysterious Count Orlok (Max Schreck) summons Thomas Hutter (Gustav von Wangenheim) to his remote Transylvanian castle in the mountains. The eerie Orlok seeks to buy a house near Hutter and his wife, Ellen (Greta Schroeder). After Orlok reveals his vampire nature, Hutter struggles to escape the castle, knowing that Ellen is in grave danger. Meanwhile Orlok's servant, Knock (Alexander Granach), prepares for his master to arrive at his new home.",
-  "popularity": 29.332,
+  "popularity": 26.401,
   "poster_path": "/zv7J85D8CC9qYagAEhPM63CIG6j.jpg",
   "release_date": "1922-02-16",
   "title": "Nosferatu",
@@ -2139,8 +2156,24 @@
   "found": true
  },
  {
-  "title": "Pet Cemetary",
-  "found": false
+  "adult": false,
+  "backdrop_path": "/xWq3T9P4NU2pTdZ3hXFygsNnAq4.jpg",
+  "genre_ids": [
+   27,
+   18
+  ],
+  "id": 8913,
+  "original_language": "en",
+  "original_title": "Pet Sematary",
+  "overview": "After the Creed family's cat is accidentally killed, a friendly neighbor advises its burial in a mysterious nearby cemetery.",
+  "popularity": 43.353,
+  "poster_path": "/8ZtH1V4rhrtP53ezlEWrCaMALXF.jpg",
+  "release_date": "1989-04-21",
+  "title": "Pet Sematary",
+  "video": false,
+  "vote_average": 6.6,
+  "vote_count": 2037,
+  "found": true
  },
  {
   "adult": false,
@@ -2157,8 +2190,8 @@
   "release_date": "1982-06-04",
   "title": "Poltergeist",
   "video": false,
-  "vote_average": 7.1,
-  "vote_count": 2819,
+  "vote_average": 7.144,
+  "vote_count": 2821,
   "found": true
  },
  {
@@ -2401,8 +2434,8 @@
   "release_date": "1991-02-14",
   "title": "The Silence of the Lambs",
   "video": false,
-  "vote_average": 8.3,
-  "vote_count": 15618,
+  "vote_average": 8.347,
+  "vote_count": 15619,
   "found": true
  },
  {
@@ -2496,7 +2529,7 @@
   "original_language": "en",
   "original_title": "Tales from the Darkside: The Movie",
   "overview": "A young boy tells three stories of horror to distract a witch who plans to eat him.",
-  "popularity": 14.687,
+  "popularity": 17.953,
   "poster_path": "/5q8WK4gW45Knxhpb29IVOCbbfI7.jpg",
   "release_date": "1990-05-03",
   "title": "Tales from the Darkside: The Movie",
@@ -2522,7 +2555,7 @@
   "release_date": "1985-08-23",
   "title": "Teen Wolf",
   "video": false,
-  "vote_average": 6.2,
+  "vote_average": 6.18,
   "vote_count": 1065,
   "found": true
  },
@@ -2559,7 +2592,7 @@
   "original_language": "en",
   "original_title": "The Blob",
   "overview": "In Arborville, California, three high school students try to protect their hometown from a gelatinous alien life form that engulfs everything it touches. The first to discover the substance and live to tell about it, the trio witness the Blob destroying an elderly man, then it growing to a terrifying size. But no one else has seen the goo, and the police refuse to believe the kids without proof.",
-  "popularity": 18.942,
+  "popularity": 22.841,
   "poster_path": "/zXXDmz5cPuSo9LveCNjZ1j16szC.jpg",
   "release_date": "1988-08-05",
   "title": "The Blob",
@@ -2705,8 +2738,8 @@
   "release_date": "1986-08-15",
   "title": "The Fly",
   "video": false,
-  "vote_average": 7.402,
-  "vote_count": 4174,
+  "vote_average": 7.401,
+  "vote_count": 4175,
   "found": true
  },
  {
@@ -2720,7 +2753,7 @@
   "original_language": "en",
   "original_title": "The Fly II",
   "overview": "Martin Brundle, born of the human/fly, is adopted by his father's place of employment (Bartok Inc.) while the employees simply wait for his mutant chromosomes to come out of their dormant state.",
-  "popularity": 21.779,
+  "popularity": 23.017,
   "poster_path": "/gORksEPahEgO409HYJOZlNVyEpe.jpg",
   "release_date": "1989-02-10",
   "title": "The Fly II",
@@ -2803,7 +2836,7 @@
   "original_language": "en",
   "original_title": "The Monster Squad",
   "overview": "Count Dracula adjourns to Earth, accompanied by Frankenstein's Monster, the Wolfman, the Mummy, and the Gillman. The uglies are in search of a powerful amulet that will grant them power to rule the world. Our heroes - the Monster Squad are the only ones daring to stand in their way.",
-  "popularity": 16.023,
+  "popularity": 22.432,
   "poster_path": "/8EVuqCcqFzQvc7X8E3fx3w4B5Td.jpg",
   "release_date": "1987-08-14",
   "title": "The Monster Squad",
@@ -2830,7 +2863,7 @@
   "title": "The Others",
   "video": false,
   "vote_average": 7.614,
-  "vote_count": 6189,
+  "vote_count": 6190,
   "found": true
  },
  {
@@ -2844,7 +2877,7 @@
   "original_language": "en",
   "original_title": "The People Under the Stairs",
   "overview": "Trapped inside a fortified home owned by a mysterious couple, a young boy quickly learns the true nature of the homicidal inhabitants, and secret creatures hidden deep within the walls.",
-  "popularity": 17.572,
+  "popularity": 24.601,
   "poster_path": "/8OWDBVmGdM7HwaDtbDsdn6Rlzqj.jpg",
   "release_date": "1991-11-01",
   "title": "The People Under the Stairs",
@@ -2931,7 +2964,7 @@
   "title": "The Shining",
   "video": false,
   "vote_average": 8.216,
-  "vote_count": 16787,
+  "vote_count": 16788,
   "found": true
  },
  {
@@ -2944,7 +2977,7 @@
   "original_language": "en",
   "original_title": "The Texas Chain Saw Massacre",
   "overview": "A group of five young friends face a nightmare of torment at the hands of a depraved Texas clan.",
-  "popularity": 44.174,
+  "popularity": 38.126,
   "poster_path": "/9s8uSm5K1W0vhGPHv2icM6SFib8.jpg",
   "release_date": "1974-10-01",
   "title": "The Texas Chain Saw Massacre",
@@ -2964,7 +2997,7 @@
   "original_language": "en",
   "original_title": "The Texas Chainsaw Massacre 2",
   "overview": "With the help of a radio DJ, Texas ranger Lefty Enright finds his way to the cannibalistic Sawyer family's underground slaughter shop, where he seeks to avenge the brutal murder of his kin.",
-  "popularity": 29.727,
+  "popularity": 31.959,
   "poster_path": "/3HdDJ8ahSRsUiJmf9CHMq4hQDtx.jpg",
   "release_date": "1986-08-22",
   "title": "The Texas Chainsaw Massacre 2",
@@ -2985,13 +3018,13 @@
   "original_language": "en",
   "original_title": "The Thing",
   "overview": "In the winter of 1982, a twelve-man research team at a remote Antarctic research station discovers an alien buried in the snow for over 100,000 years. Soon unfrozen, the form-changing creature wreaks havoc, creates terror... and becomes one of them.",
-  "popularity": 51.896,
+  "popularity": 61.784,
   "poster_path": "/tzGY49kseSE9QAKk47uuDGwnSCu.jpg",
   "release_date": "1982-06-25",
   "title": "The Thing",
   "video": false,
   "vote_average": 8.1,
-  "vote_count": 6564,
+  "vote_count": 6565,
   "found": true
  },
  {
@@ -3025,7 +3058,7 @@
   "original_language": "en",
   "original_title": "Transylvania 6-5000",
   "overview": "Two reporters travel to a strange castle in Transylvania to investigate the apparent reappearance of Frankenstein, and encounter the sensitive Wolfman, the Vampiress Odette and a whole cast of other weirdos.",
-  "popularity": 10.895,
+  "popularity": 9.134,
   "poster_path": "/5Avsb4cCfGdPrd6gt94EOG4pLgr.jpg",
   "release_date": "1985-11-08",
   "title": "Transylvania 6-5000",
@@ -3067,7 +3100,7 @@
   "original_language": "en",
   "original_title": "Village of the Damned",
   "overview": "An American village is visited by some unknown life form which leaves the women of the village pregnant. Nine months later, the babies are born, and they all look normal, but it doesn't take the \"parents\" long to realize that the kids are not human or humane.",
-  "popularity": 14.415,
+  "popularity": 15.662,
   "poster_path": "/vnK68SPMQTvLWVYaNMINJOismEr.jpg",
   "release_date": "1995-04-28",
   "title": "Village of the Damned",
@@ -3129,7 +3162,7 @@
   "original_language": "en",
   "original_title": "Strangers on a Train",
   "overview": "Two strangers meet on a train. They’ve never met before. Both of whom have someone they’d like to murder. So, they swap murders. A psychopath shares this concept with tennis star Guy Haines, whose wife refuses to get a divorce. He agrees, thinking it is a joke. But now his wife is dead, Haines finds himself a prime suspect and the man wants Guy to kill his father.",
-  "popularity": 19.581,
+  "popularity": 27.413,
   "poster_path": "/ihC083U7ef56Ui4x0P0dobojrZ1.jpg",
   "release_date": "1951-06-27",
   "title": "Strangers on a Train",
@@ -3374,7 +3407,7 @@
   "original_language": "en",
   "original_title": "Antitrust",
   "overview": "A computer programmer's dream job at a hot Portland-based firm turns nightmarish when he discovers his boss has a secret and ruthless means of dispatching anti-trust problems.",
-  "popularity": 20.769,
+  "popularity": 18.116,
   "poster_path": "/9PXyfcJe53A9qFkcj5dkTJwIWoS.jpg",
   "release_date": "2001-01-11",
   "title": "Antitrust",
@@ -3441,7 +3474,7 @@
   "title": "Reservoir Dogs",
   "video": false,
   "vote_average": 8.128,
-  "vote_count": 13748,
+  "vote_count": 13749,
   "found": true
  },
  {
@@ -3498,7 +3531,7 @@
   "original_language": "en",
   "original_title": "Beyond Re-Animator",
   "overview": "Once again tampering with mother nature to disastrous results, Dr. Herbert West continues his research while serving time in a maximum security prison for his previous exploits. West's limited prison-cell experiments are suddenly interrupted by the arrival of a new prison doctor and the brother of the girl who suffered from West's experiments 13 years earlier.",
-  "popularity": 15.125,
+  "popularity": 15.77,
   "poster_path": "/48qmbk9lflVQuKOMAn4AKvp13tc.jpg",
   "release_date": "2003-04-04",
   "title": "Beyond Re-Animator",
@@ -3559,7 +3592,7 @@
   "original_language": "en",
   "original_title": "Frankenstein",
   "overview": "Tampering with life and death, Henry Frankenstein pieces together salvaged body parts to bring a human monster to life; the mad scientist's dreams are shattered by his creation's violent rage as the monster awakens to a world in which he is unwelcome.",
-  "popularity": 17.052,
+  "popularity": 23.059,
   "poster_path": "/mu6wHwH0IwCCaEYtpqujuPJYat1.jpg",
   "release_date": "1931-11-21",
   "title": "Frankenstein",
@@ -3569,8 +3602,24 @@
   "found": true
  },
  {
+  "adult": false,
+  "backdrop_path": "/haPU3dCyYUTRN34ceyJrX4DAjZq.jpg",
+  "genre_ids": [
+   27,
+   878
+  ],
+  "id": 229,
+  "original_language": "en",
+  "original_title": "Bride of Frankenstein",
+  "overview": "Dr. Frankenstein and his monster both turn out to be alive, not killed as previously believed. Dr. Frankenstein wants to get out of the evil experiment business, but when a mad scientist, Dr. Pretorius, kidnaps his wife, Dr. Frankenstein agrees to help him create a new creature.",
+  "popularity": 17.834,
+  "poster_path": "/5241zUwe7rC17MNc2QpCBKKdp1N.jpg",
+  "release_date": "1935-04-20",
   "title": "Bride of Frankenstein",
-  "found": false
+  "video": false,
+  "vote_average": 7.5,
+  "vote_count": 896,
+  "found": true
  },
  {
   "adult": false,
@@ -3582,7 +3631,7 @@
   "original_language": "en",
   "original_title": "Young Frankenstein",
   "overview": "A young neurosurgeon inherits the castle of his grandfather, the famous Dr. Victor von Frankenstein. In the castle he finds a funny hunchback, a pretty lab assistant and the elderly housekeeper. Young Frankenstein believes that the work of his grandfather was delusional, but when he discovers the book where the mad doctor described his reanimation experiment, he suddenly changes his mind.",
-  "popularity": 21.732,
+  "popularity": 26.26,
   "poster_path": "/tQJAWbIjvvqVKLLbIZHtwGw2HTf.jpg",
   "release_date": "1974-12-15",
   "title": "Young Frankenstein",
@@ -3624,7 +3673,7 @@
   "original_language": "ja",
   "original_title": "フランケンシュタイン対地底怪獣",
   "overview": "During WWII, Germans obtain the immortal heart of Frankenstein's monster and transport it to Japan to prevent it being seized by the Allies. Kept in a Hiroshima laboratory, it is seeming lost when the United States destroys the city with the atomic bomb. Years later a wild boy is discovered wandering the streets of the city alone, born of the immortal heart.",
-  "popularity": 8.197,
+  "popularity": 10.201,
   "poster_path": "/t7M67DCXc8T3R86ICja3kHOn9i1.jpg",
   "release_date": "1965-08-08",
   "title": "Frankenstein Conquers the World",
@@ -3651,7 +3700,7 @@
   "title": "Dr. No",
   "video": false,
   "vote_average": 6.999,
-  "vote_count": 3411,
+  "vote_count": 3412,
   "found": true
  },
  {
@@ -3671,8 +3720,8 @@
   "release_date": "1963-10-10",
   "title": "From Russia with Love",
   "video": false,
-  "vote_average": 7.074,
-  "vote_count": 2824,
+  "vote_average": 7.073,
+  "vote_count": 2825,
   "found": true
  },
  {
@@ -3714,7 +3763,7 @@
   "title": "You Only Live Twice",
   "video": false,
   "vote_average": 6.565,
-  "vote_count": 2053,
+  "vote_count": 2055,
   "found": true
  },
  {
@@ -3731,7 +3780,7 @@
   "original_language": "en",
   "original_title": "48 Hrs.",
   "overview": "A hard-nosed cop reluctantly teams up with a wise-cracking criminal temporarily paroled to him, in order to track down a killer.",
-  "popularity": 24.833,
+  "popularity": 28.225,
   "poster_path": "/rvvjXHzEDBIvIVDBHNOwHS7hVPu.jpg",
   "release_date": "1982-12-07",
   "title": "48 Hrs.",
@@ -3778,8 +3827,8 @@
   "release_date": "1987-12-17",
   "title": "A Better Tomorrow II",
   "video": false,
-  "vote_average": 7.1,
-  "vote_count": 240,
+  "vote_average": 7.06,
+  "vote_count": 241,
   "found": true
  },
  {
@@ -3860,7 +3909,7 @@
   "title": "Beverly Hills Cop",
   "video": false,
   "vote_average": 7.19,
-  "vote_count": 3788,
+  "vote_count": 3789,
   "found": true
  },
  {
@@ -3901,8 +3950,8 @@
   "release_date": "1986-05-30",
   "title": "Big Trouble in Little China",
   "video": false,
-  "vote_average": 7.2,
-  "vote_count": 2810,
+  "vote_average": 7.205,
+  "vote_count": 2811,
   "found": true
  },
  {
@@ -3943,8 +3992,8 @@
   "release_date": "1986-05-22",
   "title": "Cobra",
   "video": false,
-  "vote_average": 6.1,
-  "vote_count": 1636,
+  "vote_average": 6.068,
+  "vote_count": 1637,
   "found": true
  },
  {
@@ -3964,34 +4013,51 @@
   "release_date": "1974-07-24",
   "title": "Death Wish",
   "video": false,
-  "vote_average": 6.9,
-  "vote_count": 776,
+  "vote_average": 6.898,
+  "vote_count": 777,
   "found": true
  },
  {
   "adult": false,
-  "backdrop_path": "/aT2mSasUNwIQUgZbYi6fqC8v7AF.jpg",
+  "backdrop_path": "/3M9R151YTk7ZYAZN0vr89c5010u.jpg",
   "genre_ids": [
    28,
    80,
    18
   ],
-  "id": 26263,
+  "id": 14373,
   "original_language": "en",
-  "original_title": "Death Wish 4: The Crackdown",
-  "overview": "After the death of his girlfriend's daughter from a drug overdose, Paul Kersey takes on the local drug cartel.",
-  "popularity": 21.235,
-  "poster_path": "/r8HwJQJyKRyJ2JypwiVR5p0ZV84.jpg",
-  "release_date": "1987-06-11",
-  "title": "Death Wish 4: The Crackdown",
+  "original_title": "Death Wish II",
+  "overview": "Paul Kersey is again a vigilante trying to find five punks who murdered his housekeeper and daughter in Los Angeles.",
+  "popularity": 17.009,
+  "poster_path": "/1bhSCZAifl229B1vCLCiE9BZp7l.jpg",
+  "release_date": "1982-02-20",
+  "title": "Death Wish II",
   "video": false,
-  "vote_average": 5.7,
-  "vote_count": 269,
+  "vote_average": 6.3,
+  "vote_count": 427,
   "found": true
  },
  {
+  "adult": false,
+  "backdrop_path": "/q8WH2ue8GTckObot0iIjOBll7Qa.jpg",
+  "genre_ids": [
+   28,
+   80,
+   18
+  ],
+  "id": 24873,
+  "original_language": "en",
+  "original_title": "Death Wish 3",
+  "overview": "Architect/vigilante Paul Kersey arrives back in New York City and is forcibly recruited by a crooked police chief to fight street crime caused by a large gang terrorizing the neighborhoods.",
+  "popularity": 30.988,
+  "poster_path": "/mc33TytXxkC9cSKyztDJzwF3lbn.jpg",
+  "release_date": "1985-11-01",
   "title": "Death Wish 3",
-  "found": false
+  "video": false,
+  "vote_average": 6.2,
+  "vote_count": 381,
+  "found": true
  },
  {
   "adult": false,
@@ -4004,7 +4070,7 @@
   "original_language": "en",
   "original_title": "Escape from New York",
   "overview": "In a world ravaged by crime, the entire island of Manhattan has been converted into a walled prison where brutal prisoners roam. After the US president crash-lands inside, war hero Snake Plissken has 24 hours to bring him back.",
-  "popularity": 33.188,
+  "popularity": 39.728,
   "poster_path": "/yreqWiQ7IOkXWVB2Tz4LJIs7xqA.jpg",
   "release_date": "1981-05-23",
   "title": "Escape from New York",
@@ -4044,7 +4110,7 @@
   "original_language": "en",
   "original_title": "Martial Law",
   "overview": "An undercover cop teams up with a martial-arts expert to stop a gang of drug smugglers and car thieves.",
-  "popularity": 7.183,
+  "popularity": 7.797,
   "poster_path": "/h1BlNztDoAk7BNzYwx1ar2PGYTJ.jpg",
   "release_date": "1990-10-01",
   "title": "Martial Law",
@@ -4281,7 +4347,7 @@
   "original_language": "en",
   "original_title": "Moscow on the Hudson",
   "overview": "A Russian circus visits the US. A clown wants to defect, but doesn't have the nerve. His saxophone playing friend however comes to the decision to defect in the middle of Bloomingdales. He is befriended by the black security guard and falls in love with the Italian immigrant from behind the perfume counter. We follow his life as he works his way through the American dream and tries to find work as a musician.",
-  "popularity": 8.983,
+  "popularity": 8.597,
   "poster_path": "/wPcKa5M9C0QKZuAfVe5cfv58Njb.jpg",
   "release_date": "1984-04-06",
   "title": "Moscow on the Hudson",
@@ -4307,7 +4373,7 @@
   "title": "The Hitman's Bodyguard",
   "video": false,
   "vote_average": 6.891,
-  "vote_count": 5921,
+  "vote_count": 5922,
   "found": true
  },
  {
@@ -4340,7 +4406,7 @@
   "original_language": "hu",
   "original_title": "PiRâMΐdas 1972-1984",
   "overview": "Ivan Ladislav hides a true chamber of wonders behind the clear, mathematically abstract structure of his films and videos, meticulously compiled rhythmically frame for frame, each work likewise presenting an analysis of the film medium. Concealed therein, culled from deep in the medium’s prehistory, are hermetic parallel universes in whose number ranges and symbolic spaces, Galeta’s precisely constructed film compositions find a formalist anchor.",
-  "popularity": 0.6,
+  "popularity": 0.62,
   "poster_path": null,
   "release_date": "1984-01-01",
   "title": "Piramides 1972-1984",
@@ -4366,8 +4432,8 @@
   "release_date": "1968-04-02",
   "title": "2001: A Space Odyssey",
   "video": false,
-  "vote_average": 8.076,
-  "vote_count": 10987,
+  "vote_average": 8.075,
+  "vote_count": 10989,
   "found": true
  },
  {
@@ -4401,7 +4467,7 @@
   "original_language": "en",
   "original_title": "Alien",
   "overview": "During its return to the earth, commercial spaceship Nostromo intercepts a distress signal from a distant planet. When a three-member team of the crew discovers a chamber containing thousands of eggs on the planet, a creature inside one of the eggs attacks an explorer. The entire crew is unaware of the impending nightmare set to descend upon them when the alien parasite planted inside its unfortunate host is birthed.",
-  "popularity": 103.162,
+  "popularity": 144.427,
   "poster_path": "/vfrQk5IPloGg1v9Rzbh2Eg3VGyM.jpg",
   "release_date": "1979-05-25",
   "title": "Alien",
@@ -4427,8 +4493,8 @@
   "release_date": "1986-07-18",
   "title": "Aliens",
   "video": false,
-  "vote_average": 7.935,
-  "vote_count": 9110,
+  "vote_average": 7.936,
+  "vote_count": 9111,
   "found": true
  },
  {
@@ -4449,7 +4515,7 @@
   "release_date": "1987-06-12",
   "title": "Predator",
   "video": false,
-  "vote_average": 7.5,
+  "vote_average": 7.521,
   "vote_count": 7622,
   "found": true
  },
@@ -4597,7 +4663,7 @@
   "release_date": "1989-08-09",
   "title": "The Abyss",
   "video": false,
-  "vote_average": 7.3,
+  "vote_average": 7.343,
   "vote_count": 2771,
   "found": true
  },
@@ -4619,7 +4685,7 @@
   "title": "A.I. Artificial Intelligence",
   "video": false,
   "vote_average": 7.044,
-  "vote_count": 5898,
+  "vote_count": 5899,
   "found": true
  },
  {
@@ -4639,7 +4705,7 @@
   "title": "Apocalypse Now",
   "video": false,
   "vote_average": 8.283,
-  "vote_count": 7820,
+  "vote_count": 7821,
   "found": true
  },
  {
@@ -4658,7 +4724,7 @@
   "release_date": "1997-07-25",
   "title": "Air Force One",
   "video": false,
-  "vote_average": 6.5,
+  "vote_average": 6.474,
   "vote_count": 2783,
   "found": true
  },
@@ -4673,7 +4739,7 @@
   "original_language": "en",
   "original_title": "Annihilation",
   "overview": "A biologist signs up for a dangerous, secret expedition into a mysterious zone where the laws of nature don't apply.",
-  "popularity": 33.149,
+  "popularity": 46.409,
   "poster_path": "/4YRplSk6BhH6PRuE9gfyw9byUJ6.jpg",
   "release_date": "2018-02-22",
   "title": "Annihilation",
@@ -4700,7 +4766,7 @@
   "release_date": "1987-12-18",
   "title": "*batteries not included",
   "video": false,
-  "vote_average": 6.6,
+  "vote_average": 6.645,
   "vote_count": 655,
   "found": true
  },
@@ -4784,7 +4850,7 @@
   "release_date": "1959-11-18",
   "title": "Ben-Hur",
   "video": false,
-  "vote_average": 7.891,
+  "vote_average": 7.9,
   "vote_count": 2589,
   "found": true
  },
@@ -4824,7 +4890,7 @@
   "title": "Blade",
   "video": false,
   "vote_average": 6.778,
-  "vote_count": 5677,
+  "vote_count": 5678,
   "found": true
  },
  {
@@ -4844,8 +4910,8 @@
   "release_date": "1982-06-25",
   "title": "Blade Runner",
   "video": false,
-  "vote_average": 7.935,
-  "vote_count": 13229,
+  "vote_average": 7.936,
+  "vote_count": 13231,
   "found": true
  },
  {
@@ -4865,7 +4931,7 @@
   "title": "Blade Runner 2049",
   "video": false,
   "vote_average": 7.556,
-  "vote_count": 12932,
+  "vote_count": 12933,
   "found": true
  },
  {
@@ -4900,7 +4966,7 @@
   "original_language": "en",
   "original_title": "Blazing Saddles",
   "overview": "A town—where everyone seems to be named Johnson—stands in the way of the railroad. In order to grab their land, robber baron Hedley Lamarr sends his henchmen to make life in the town unbearable. After the sheriff is killed, the town demands a new sheriff from the Governor, so Hedley convinces him to send the town the first black sheriff in the west.",
-  "popularity": 26.845,
+  "popularity": 37.583,
   "poster_path": "/vNw1gOEDdYTDeNMuuq8OmiEHrfH.jpg",
   "release_date": "1974-02-07",
   "title": "Blazing Saddles",
@@ -4947,7 +5013,7 @@
   "title": "Kick-Ass",
   "video": false,
   "vote_average": 7.123,
-  "vote_count": 11250,
+  "vote_count": 11251,
   "found": true
  },
  {
@@ -4983,7 +5049,7 @@
   "original_language": "en",
   "original_title": "The Blues Brothers",
   "overview": "Jake Blues, just released from prison, puts his old band back together to save the Catholic home where he and his brother Elwood were raised.",
-  "popularity": 25.605,
+  "popularity": 35.847,
   "poster_path": "/rhYJKOt6UrQq7JQgLyQcSWW5R86.jpg",
   "release_date": "1980-06-16",
   "title": "The Blues Brothers",
@@ -5011,7 +5077,7 @@
   "release_date": "1980-07-25",
   "title": "Caddyshack",
   "video": false,
-  "vote_average": 6.6,
+  "vote_average": 6.635,
   "vote_count": 1091,
   "found": true
  },
@@ -5116,8 +5182,8 @@
   "release_date": "1996-08-02",
   "title": "Chain Reaction",
   "video": false,
-  "vote_average": 5.7,
-  "vote_count": 1010,
+  "vote_average": 5.725,
+  "vote_count": 1011,
   "found": true
  },
  {
@@ -5136,8 +5202,8 @@
   "release_date": "1977-12-14",
   "title": "Close Encounters of the Third Kind",
   "video": false,
-  "vote_average": 7.4,
-  "vote_count": 3995,
+  "vote_average": 7.356,
+  "vote_count": 3996,
   "found": true
  },
  {
@@ -5153,7 +5219,7 @@
   "original_language": "en",
   "original_title": "Clue",
   "overview": "Clue finds six colorful dinner guests gathered at the mansion of their host, Mr. Boddy -- who turns up dead after his secret is exposed: He was blackmailing all of them. With the killer among them, the guests and Boddy's chatty butler must suss out the culprit before the body count rises.",
-  "popularity": 25.948,
+  "popularity": 36.142,
   "poster_path": "/aRxbYOYHS8T73nzR8hsLousoplR.jpg",
   "release_date": "1985-12-13",
   "title": "Clue",
@@ -5174,18 +5240,37 @@
   "original_language": "ko",
   "original_title": "추격자",
   "overview": "Joong-ho is a dirty detective turned pimp in financial trouble as several of his girls have recently disappeared without clearing their debts. While trying to track them down, he finds a clue that the vanished girls were all called up by the same client whom one of his girls is meeting with right now.",
-  "popularity": 16.684,
+  "popularity": 21.755,
   "poster_path": "/hy49xJiKN1nakkN1ZmKuOf6vQYR.jpg",
   "release_date": "2008-02-14",
   "title": "The Chaser",
   "video": false,
-  "vote_average": 7.754,
+  "vote_average": 7.8,
   "vote_count": 1233,
   "found": true
  },
  {
-  "title": "The Dambusters",
-  "found": false
+  "adult": false,
+  "backdrop_path": "/udcO3A9ch2z1LMSyC5aDNa00Sgg.jpg",
+  "genre_ids": [
+   18,
+   28,
+   36,
+   53,
+   10752
+  ],
+  "id": 13210,
+  "original_language": "en",
+  "original_title": "The Dam Busters",
+  "overview": "The story of the conception of a new British weapon for smashing the German dams in the Ruhr industrial complex and the execution of the raid by 617 Squadron 'The Dam Busters'.",
+  "popularity": 10.877,
+  "poster_path": "/bZKmBxzy5O5PjguhfMYgSaUxUmi.jpg",
+  "release_date": "1955-05-16",
+  "title": "The Dam Busters",
+  "video": false,
+  "vote_average": 6.8,
+  "vote_count": 130,
+  "found": true
  },
  {
   "adult": false,
@@ -5199,7 +5284,7 @@
   "original_language": "de",
   "original_title": "Das Boot",
   "overview": "A German submarine hunts allied ships during the Second World War, but it soon becomes the hunted. The crew tries to survive below the surface, while stretching both the boat and themselves to their limits.",
-  "popularity": 29.576,
+  "popularity": 35.186,
   "poster_path": "/spE9nbdqhoKoTaCNp4H9Tj6Xcrm.jpg",
   "release_date": "1981-09-17",
   "title": "Das Boot",
@@ -5237,7 +5322,7 @@
   "original_language": "en",
   "original_title": "McHale's Navy",
   "overview": "Retired Lieutenant Commander Quinton McHale spends his days puttering around the Caribbean in the old PT-73 selling homebrew, ice cream, and swimsuit calendars. He's brought out of retirement when his old nemesis turned the second best terrorist in the world, Major Vladikov, takes over the island of San Moreno and starts building a nuclear launch silo on it. With help from his old crew and hindrances from Captain Wallace B. Binghampton, who sank a cruise liner a while back, McHale tries to put Vladikov out of business.",
-  "popularity": 7.623,
+  "popularity": 10.672,
   "poster_path": "/tg9qzqF349j526pNZnjPB4p2UED.jpg",
   "release_date": "1997-04-18",
   "title": "McHale's Navy",
@@ -5363,7 +5448,7 @@
   "original_language": "en",
   "original_title": "The Wraith",
   "overview": "Packard Walsh and his motorized gang control and terrorize an Arizona desert town where they force drivers to drag-race so they can 'win' their vehicles. After Walsh beats the decent teenager Jamie Hankins to death after finding him with his girlfriend, a mysterious power creates Jake Kesey, an extremely cool motor-biker who has a car which is invincible. Jake befriends Jamie's girlfriend Keri Johnson, takes Jamie's sweet brother Bill under his wing and manages what Sheriff Loomis couldn't; eliminate Packard's criminal gang the hard way...",
-  "popularity": 25.224,
+  "popularity": 34.784,
   "poster_path": "/vHrNnqqRYWzkkrJV8MtmUGgC4Kk.jpg",
   "release_date": "1986-11-21",
   "title": "The Wraith",
@@ -5468,7 +5553,7 @@
   "original_language": "en",
   "original_title": "Demolition Man",
   "overview": "Simon Phoenix, a violent criminal cryogenically frozen in 1996, escapes during a parole hearing in 2032 in the utopia of San Angeles. Police are incapable of dealing with his violent ways and turn to his captor, who had also been cryogenically frozen after being wrongfully accused of killing 30 innocent people while apprehending Phoenix.",
-  "popularity": 33.938,
+  "popularity": 45.341,
   "poster_path": "/dq6AmlVFo92PRuoLCcIyFdoRuxf.jpg",
   "release_date": "1993-10-08",
   "title": "Demolition Man",
@@ -5495,7 +5580,7 @@
   "title": "Bullet Train",
   "video": false,
   "vote_average": 7.481,
-  "vote_count": 5456,
+  "vote_count": 5457,
   "found": true
  },
  {
@@ -5519,8 +5604,23 @@
   "found": true
  },
  {
-  "title": "When Worlds Colide",
-  "found": false
+  "adult": false,
+  "backdrop_path": "/ws8eX1paKpgEVetOTg6OUlKtLXw.jpg",
+  "genre_ids": [
+   878
+  ],
+  "id": 16380,
+  "original_language": "en",
+  "original_title": "When Worlds Collide",
+  "overview": "When a group of astronomers calculate a star is on a course to slam into Earth, a few days before, it's accompanying planet will first pass close enough to the Earth to cause havoc on land and sea. They set about building a rocket so a few selected individuals can escape to the planet.",
+  "popularity": 7.936,
+  "poster_path": "/xUd6NOABGlU3TSNP42toxWhmMQ3.jpg",
+  "release_date": "1951-09-14",
+  "title": "When Worlds Collide",
+  "video": false,
+  "vote_average": 6.3,
+  "vote_count": 165,
+  "found": true
  },
  {
   "adult": false,
@@ -5559,8 +5659,8 @@
   "release_date": "1951-04-05",
   "title": "The Thing from Another World",
   "video": false,
-  "vote_average": 6.7,
-  "vote_count": 546,
+  "vote_average": 6.746,
+  "vote_count": 547,
   "found": true
  },
  {
@@ -5574,7 +5674,7 @@
   "original_language": "en",
   "original_title": "The War of the Worlds",
   "overview": "The residents of a small town are excited when a flaming meteor lands in the hills, until they discover it is the first of many transport devices from Mars bringing an army of invaders invincible to any man-made weapon, even the atomic bomb.",
-  "popularity": 21.19,
+  "popularity": 20.43,
   "poster_path": "/gzc75Za4ArqfXIIr7STNnIE5rnA.jpg",
   "release_date": "1953-08-13",
   "title": "The War of the Worlds",
@@ -5594,7 +5694,7 @@
   "original_language": "en",
   "original_title": "Tarantula",
   "overview": "A rogue scientist near a small desert town arouses the suspicion of the town's doctor when his lab assistant is found dead from a case of acromegaly, which took only four days to develop.  As the doctor investigates, aided by the scientist's new female assistant, they discover that something is devouring local cattle and humans in increasingly large quantities.",
-  "popularity": 14.265,
+  "popularity": 12.641,
   "poster_path": "/gPjlVSys2CJP1aQKXnhj4kKDxrB.jpg",
   "release_date": "1955-12-14",
   "title": "Tarantula",
@@ -5635,7 +5735,7 @@
   "original_language": "en",
   "original_title": "Robot Monster",
   "overview": "Ro-Man, an alien robot who greatly resembles a gorilla in a diving helmet, is sent to earth to destroy all human life. Ro-Man falls in love with one of the last six remaining humans, and struggles to understand how his programming can instruct him to kill her while his heart demands that he can't.",
-  "popularity": 6.068,
+  "popularity": 8.361,
   "poster_path": "/5b4SKRHdSHCm2SZmrP26lnVC44x.jpg",
   "release_date": "1953-06-25",
   "title": "Robot Monster",
@@ -5942,7 +6042,7 @@
   "original_language": "en",
   "original_title": "Lawrence of Arabia",
   "overview": "The story of British officer T.E. Lawrence's mission to aid the Arab tribes in their revolt against the Ottoman Empire during the First World War. Lawrence becomes a flamboyant, messianic figure in the cause of Arab unity but his psychological instability threatens to undermine his achievements.",
-  "popularity": 40.107,
+  "popularity": 56.15,
   "poster_path": "/AiAm0EtDvyGqNpVoieRw4u65vD1.jpg",
   "release_date": "1962-12-11",
   "title": "Lawrence of Arabia",
@@ -5952,12 +6052,30 @@
   "found": true
  },
  {
-  "title": "The Saint-The Fiction Makers",
+  "title": "The Saint - The Fiction-Makers",
   "found": false
  },
  {
+  "adult": false,
+  "backdrop_path": "/elfVwrfn5goenMteFuYboz5q2BN.jpg",
+  "genre_ids": [
+   14,
+   12,
+   16,
+   35
+  ],
+  "id": 41213,
+  "original_language": "cs",
+  "original_title": "Baron Prášil",
+  "overview": "The 20th century's first man lands on the moon and discovers - that Baron Munchausen has already beaten him to it, along with Cyrano and characters from Jules Verne's lunar-landing novel.  The Baron spirits the young cosmonaut by horse-drawn ship back to an ancient \"Earth\", where they insult a sultan, rescue a princess, fall in love with the princess, and then as a trio have further experiences in a world of pastel colors, ornate dreamlike settings, and the inevitable angry disrupters of  peacefulness and love.",
+  "popularity": 8.238,
+  "poster_path": "/azAhyBd8netxD18VdYo7C4oUvbR.jpg",
+  "release_date": "1962-09-21",
   "title": "The Fabulous Baron Munchausen",
-  "found": false
+  "video": false,
+  "vote_average": 7.5,
+  "vote_count": 70,
+  "found": true
  },
  {
   "adult": false,
@@ -5992,7 +6110,7 @@
   "original_language": "en",
   "original_title": "Cool Hand Luke",
   "overview": "When petty criminal Luke Jackson is sentenced to two years in a Florida prison farm, he doesn't play by the rules of either the sadistic warden or the yard's resident heavy, Dragline, who ends up admiring the new guy's unbreakable will. Luke's bravado, even in the face of repeated stints in the prison's dreaded solitary confinement cell, \"the box,\" make him a rebel hero to his fellow convicts and a thorn in the side of the prison officers.",
-  "popularity": 27.002,
+  "popularity": 30.051,
   "poster_path": "/4ykzTiHKLamh3eZJ8orVICtU2Jp.jpg",
   "release_date": "1967-11-01",
   "title": "Cool Hand Luke",
@@ -6184,7 +6302,7 @@
   "original_language": "en",
   "original_title": "Commando",
   "overview": "John Matrix, the former leader of a special commando strike force that always got the toughest jobs done, is forced back into action when his young daughter is kidnapped. To find her, Matrix has to fight his way through an array of punks, killers, one of his former commandos, and a fully equipped private army. With the help of a feisty stewardess and an old friend, Matrix has only a few hours to overcome his greatest challenge: finding his daughter before she's killed.",
-  "popularity": 29.103,
+  "popularity": 39.115,
   "poster_path": "/ollPAAAgZ7euU8VisfqU3cuXhZ6.jpg",
   "release_date": "1985-10-03",
   "title": "Commando",
@@ -6205,7 +6323,7 @@
   "original_language": "en",
   "original_title": "Raw Deal",
   "overview": "Mark Kaminsky is kicked out of the FBI for his rough treatment of a suspect. He winds up as the sheriff of a small town in North Carolina. FBI Chief Harry Shannon, whose son has been killed by a mobster named Patrovina, enlists Kaminsky in a personal vendetta with a promise of reinstatement into the FBI if Patrovina is taken down. To accomplish this, he must go undercover and join Patrovina's gang.",
-  "popularity": 17.843,
+  "popularity": 19.176,
   "poster_path": "/1Y2GgDyNJFELoSIVlRhFQSs23Uo.jpg",
   "release_date": "1986-06-06",
   "title": "Raw Deal",
@@ -6275,8 +6393,8 @@
   "release_date": "1987-11-13",
   "title": "The Running Man",
   "video": false,
-  "vote_average": 6.5,
-  "vote_count": 2215,
+  "vote_average": 6.528,
+  "vote_count": 2216,
   "found": true
  },
  {
@@ -6290,7 +6408,7 @@
   "original_language": "en",
   "original_title": "Red Heat",
   "overview": "A tough Russian policeman is forced to partner up with a cocky Chicago police detective when he is sent to Chicago to apprehend a Georgian drug lord who killed his partner and fled the country.",
-  "popularity": 26.838,
+  "popularity": 26.276,
   "poster_path": "/AoJTHXmO01EZgT0p1YTsGBEQxLj.jpg",
   "release_date": "1988-06-17",
   "title": "Red Heat",
@@ -6368,7 +6486,7 @@
   "original_language": "en",
   "original_title": "Dave",
   "overview": "A sweet-natured Temp Agency operator and amateur Presidential look-alike is recruited by the Secret Service to become a temporary stand-in for the President of the United States.",
-  "popularity": 18.129,
+  "popularity": 19.219,
   "poster_path": "/wIUuf1NFchdCJe833JBTiSMzqfv.jpg",
   "release_date": "1993-05-07",
   "title": "Dave",
@@ -6442,8 +6560,24 @@
   "found": true
  },
  {
+  "adult": false,
+  "backdrop_path": "/qe2w7OSeAtiLGrKhNoZcGSwHVA7.jpg",
+  "genre_ids": [
+   28,
+   53
+  ],
+  "id": 4954,
+  "original_language": "en",
+  "original_title": "Drop Zone",
+  "overview": "A daring prison break from an airliner at 30,000 feet leaves U.S. Marshal Pete Nessip mourning a brother and gunning for revenge. After being ordered to turn in his badge, he seeks out Jessie Crossman, a noted skydiver, and offers to sponsor her crew for the annual Independence Day parachuting show in Washington, D.C., if she trains him. Meanwhile, the mastermind behind the mid-air jailbreak is planning a daring computer theft on Independence Day.",
+  "popularity": 20.559,
+  "poster_path": "/bbveyfmq6pGrzKL0l4waeA2WHHp.jpg",
+  "release_date": "1994-12-08",
   "title": "Drop Zone",
-  "found": false
+  "video": false,
+  "vote_average": 5.7,
+  "vote_count": 373,
+  "found": true
  },
  {
   "adult": false,
@@ -6484,7 +6618,7 @@
   "title": "E.T. the Extra-Terrestrial",
   "video": false,
   "vote_average": 7.516,
-  "vote_count": 10789,
+  "vote_count": 10790,
   "found": true
  },
  {
@@ -6522,8 +6656,8 @@
   "release_date": "2022-04-08",
   "title": "Navalny",
   "video": false,
-  "vote_average": 7.3,
-  "vote_count": 184,
+  "vote_average": 7.265,
+  "vote_count": 185,
   "found": true
  },
  {
@@ -6564,8 +6698,8 @@
   "release_date": "1996-03-15",
   "title": "Executive Decision",
   "video": false,
-  "vote_average": 6.3,
-  "vote_count": 871,
+  "vote_average": 6.293,
+  "vote_count": 872,
   "found": true
  },
  {
@@ -6608,7 +6742,7 @@
   "release_date": "1980-09-01",
   "title": "Flash Gordon",
   "video": false,
-  "vote_average": 6.2,
+  "vote_average": 6.192,
   "vote_count": 907,
   "found": true
  },
@@ -6666,13 +6800,13 @@
   "original_language": "en",
   "original_title": "Footloose",
   "overview": "When teenager Ren and his family move from big-city Chicago to a small town in the West, he's in for a real case of culture shock after discovering he's living in a place where music and dancing are illegal.",
-  "popularity": 29.84,
+  "popularity": 31.476,
   "poster_path": "/9JEDjBCXCx3eKTSkXwispf0UN3O.jpg",
   "release_date": "1984-02-17",
   "title": "Footloose",
   "video": false,
-  "vote_average": 6.7,
-  "vote_count": 1924,
+  "vote_average": 6.663,
+  "vote_count": 1925,
   "found": true
  },
  {
@@ -6713,8 +6847,8 @@
   "release_date": "1987-06-26",
   "title": "Full Metal Jacket",
   "video": false,
-  "vote_average": 8.1,
-  "vote_count": 10021,
+  "vote_average": 8.134,
+  "vote_count": 10022,
   "found": true
  },
  {
@@ -6738,12 +6872,28 @@
   "found": true
  },
  {
-  "title": "Ghandi",
-  "found": false
+  "adult": false,
+  "backdrop_path": "/gum3tuO1zKHBdElSQPS08PJ1w67.jpg",
+  "genre_ids": [
+   18,
+   36
+  ],
+  "id": 783,
+  "original_language": "en",
+  "original_title": "Gandhi",
+  "overview": "In the early years of the 20th century, Mohandas K. Gandhi, a British-trained lawyer, forsakes all worldly possessions to take up the cause of Indian independence. Faced with armed resistance from the British government, Gandhi adopts a policy of 'passive resistance', endeavouring to win freedom for his people without resorting to bloodshed.",
+  "popularity": 21.437,
+  "poster_path": "/rOXftt7SluxskrFrvU7qFJa5zeN.jpg",
+  "release_date": "1982-12-01",
+  "title": "Gandhi",
+  "video": false,
+  "vote_average": 7.5,
+  "vote_count": 2190,
+  "found": true
  },
  {
   "adult": false,
-  "backdrop_path": "/3Q8RLOraAukMbXtUHmi9Hr7f5J6.jpg",
+  "backdrop_path": "/dfkE2LppPbJ1qUzi3tdND5iuMFp.jpg",
   "genre_ids": [
    35
   ],
@@ -6757,7 +6907,7 @@
   "title": "Don't Be a Menace to South Central While Drinking Your Juice in the Hood",
   "video": false,
   "vote_average": 7,
-  "vote_count": 1221,
+  "vote_count": 1222,
   "found": true
  },
  {
@@ -6835,7 +6985,7 @@
   "original_language": "en",
   "original_title": "Hangar 18",
   "overview": "During a Space Shuttle mission a satellite rams a unidentified flying object. The UFO afterwards performs an emergency landing in the deserts of Arizona. However the White House denies its existence because of the near presidential elections. The UFO is brought to the secret Hangar 18 and the accident is blamed on the incompetence of the astronauts Bancroff and Price. But the two fight against this and try to hunt down the UFO.",
-  "popularity": 4.967,
+  "popularity": 5.595,
   "poster_path": "/13RRt6myJcaccQCtmOxLvwq3OQX.jpg",
   "release_date": "1980-07-01",
   "title": "Hangar 18",
@@ -6949,8 +7099,26 @@
   "found": true
  },
  {
-  "title": "Highlander II: The Qickening",
-  "found": false
+  "adult": false,
+  "backdrop_path": "/yojuIhDC46KAzRV3tTvdAb9m4fc.jpg",
+  "genre_ids": [
+   14,
+   28,
+   12,
+   53
+  ],
+  "id": 8010,
+  "original_language": "en",
+  "original_title": "Highlander II: The Quickening",
+  "overview": "In the year 2024, the ozone layer is believed to have been destroyed, and it's up to MacLeod and Ramirez to set things right. Opposition comes from both the planet Ziest (MacLeod and Ramirez's homeworld) and a corporation profiting from the supposed lack of ozone. Also, flashbacks show the story behind MacLeod and Ramirez's exile from Ziest.",
+  "popularity": 17.599,
+  "poster_path": "/qxKeykPNGbKAK0DJijMUaZ5cVPo.jpg",
+  "release_date": "1991-01-13",
+  "title": "Highlander II: The Quickening",
+  "video": false,
+  "vote_average": 4.7,
+  "vote_count": 802,
+  "found": true
  },
  {
   "adult": false,
@@ -7009,8 +7177,8 @@
   "release_date": "1986-08-01",
   "title": "Howard the Duck",
   "video": false,
-  "vote_average": 5.401,
-  "vote_count": 951,
+  "vote_average": 5.399,
+  "vote_count": 952,
   "found": true
  },
  {
@@ -7030,8 +7198,8 @@
   "release_date": "1990-03-02",
   "title": "The Hunt for Red October",
   "video": false,
-  "vote_average": 7.4,
-  "vote_count": 3081,
+  "vote_average": 7.395,
+  "vote_count": 3082,
   "found": true
  },
  {
@@ -7057,7 +7225,7 @@
  },
  {
   "adult": false,
-  "backdrop_path": "/z3tAdLDRWqoMgtl349aStimMtIs.jpg",
+  "backdrop_path": "/afqQvvyoSboNAL0jpxxIM8huEqs.jpg",
   "genre_ids": [
    35,
    28,
@@ -7067,7 +7235,7 @@
   "original_language": "en",
   "original_title": "I'm Gonna Git You Sucka",
   "overview": "Jack Spade returns from the army in his old ghetto neighbourhood when his brother, June Bug, dies. Jack declares war on Mr. Big, powerful local crimelord. His army is led by John Slade, his childhood idol who used to fight bad guys in the 70s.",
-  "popularity": 14.617,
+  "popularity": 13.943,
   "poster_path": "/gL7g9gPrzeq7HpZTlnc6k1kHx1y.jpg",
   "release_date": "1988-11-10",
   "title": "I'm Gonna Git You Sucka",
@@ -7108,13 +7276,13 @@
   "original_language": "en",
   "original_title": "Raiders of the Lost Ark",
   "overview": "When Dr. Indiana Jones – the tweed-suited professor who just happens to be a celebrated archaeologist – is hired by the government to locate the legendary Ark of the Covenant, he finds himself up against the entire Nazi regime.",
-  "popularity": 56.46,
+  "popularity": 70.719,
   "poster_path": "/ceG9VzoRAVGwivFU403Wc3AHRys.jpg",
   "release_date": "1981-06-12",
   "title": "Raiders of the Lost Ark",
   "video": false,
-  "vote_average": 7.9,
-  "vote_count": 11930,
+  "vote_average": 7.926,
+  "vote_count": 11931,
   "found": true
  },
  {
@@ -7128,13 +7296,13 @@
   "original_language": "en",
   "original_title": "Indiana Jones and the Temple of Doom",
   "overview": "After arriving in India, Indiana Jones is asked by a desperate village to find a mystical stone. He agrees – and stumbles upon a secret cult plotting a terrible plan in the catacombs of an ancient palace.",
-  "popularity": 45.084,
+  "popularity": 56.013,
   "poster_path": "/om61eim8XwLfh6QXzh2r0Q4blBz.jpg",
   "release_date": "1984-05-23",
   "title": "Indiana Jones and the Temple of Doom",
   "video": false,
-  "vote_average": 7.3,
-  "vote_count": 8852,
+  "vote_average": 7.295,
+  "vote_count": 8853,
   "found": true
  },
  {
@@ -7173,8 +7341,8 @@
   "release_date": "2008-05-21",
   "title": "Indiana Jones and the Kingdom of the Crystal Skull",
   "video": false,
-  "vote_average": 6,
-  "vote_count": 7938,
+  "vote_average": 6.006,
+  "vote_count": 7939,
   "found": true
  },
  {
@@ -7235,8 +7403,8 @@
   "release_date": "1975-06-20",
   "title": "Jaws",
   "video": false,
-  "vote_average": 7.7,
-  "vote_count": 9911,
+  "vote_average": 7.661,
+  "vote_count": 9912,
   "found": true
  },
  {
@@ -7396,7 +7564,7 @@
   "original_language": "en",
   "original_title": "King Solomon's Mines",
   "overview": "Ever in search of adventure, explorer Allan Quatermain agrees to join the beautiful Jesse Huston on a mission to locate her archaeologist father, who has been abducted for his knowledge of the legendary mines of King Solomon. As the kidnappers, led by sinister German military officer Bockner, journey into the wilds of Africa, Allan and Jesse track the party and must contend with fierce natives and dangerous creatures, among other perils.",
-  "popularity": 18.991,
+  "popularity": 20.099,
   "poster_path": "/kO5o42Nln0Y3syiv46TrE22lJdM.jpg",
   "release_date": "1985-11-22",
   "title": "King Solomon's Mines",
@@ -7457,7 +7625,7 @@
   "original_language": "en",
   "original_title": "Fail Safe",
   "overview": "Because of a technical defect an American bomber team mistakenly orders the destruction of Moscow. The President of the United States has but little time to prevent an atomic catastrophe from occurring.",
-  "popularity": 16.072,
+  "popularity": 18.412,
   "poster_path": "/qrsj5hort5xkLOKw9NyraGMnlVP.jpg",
   "release_date": "1964-10-07",
   "title": "Fail Safe",
@@ -7498,7 +7666,7 @@
   "original_language": "en",
   "original_title": "The Big Lebowski",
   "overview": "Jeffrey 'The Dude' Lebowski, a Los Angeles slacker who only wants to bowl and drink White Russians, is mistaken for another Jeffrey Lebowski, a wheelchair-bound millionaire, and finds himself dragged into a strange series of events involving nihilists, adult film producers, ferrets, errant toes, and large sums of money.",
-  "popularity": 35.137,
+  "popularity": 38.272,
   "poster_path": "/9mprbw31MGdd66LR0AQKoDMoFRv.jpg",
   "release_date": "1998-03-06",
   "title": "The Big Lebowski",
@@ -7524,8 +7692,8 @@
   "release_date": "1998-05-19",
   "title": "Fear and Loathing in Las Vegas",
   "video": false,
-  "vote_average": 7.2,
-  "vote_count": 4387,
+  "vote_average": 7.216,
+  "vote_count": 4388,
   "found": true
  },
  {
@@ -7563,13 +7731,30 @@
   "release_date": "1986-12-19",
   "title": "Little Shop of Horrors",
   "video": false,
-  "vote_average": 6.9,
-  "vote_count": 1359,
+  "vote_average": 6.906,
+  "vote_count": 1360,
   "found": true
  },
  {
-  "title": "Marry Poppins",
-  "found": false
+  "adult": false,
+  "backdrop_path": "/prVH6SyQ6yDmzVxxkcr57zhLM5C.jpg",
+  "genre_ids": [
+   35,
+   10751,
+   14
+  ],
+  "id": 433,
+  "original_language": "en",
+  "original_title": "Mary Poppins",
+  "overview": "Mr Banks is looking for a nanny for his two mischievous children and comes across Mary Poppins, an angelic nanny. She not only brings a change in their lives but also spreads happiness.",
+  "popularity": 37.394,
+  "poster_path": "/ei8hhYCMfURfPOXKBnyl61be2iV.jpg",
+  "release_date": "1964-12-17",
+  "title": "Mary Poppins",
+  "video": false,
+  "vote_average": 7.6,
+  "vote_count": 4481,
+  "found": true
  },
  {
   "adult": false,
@@ -7609,8 +7794,8 @@
   "release_date": "1939-08-15",
   "title": "The Wizard of Oz",
   "video": false,
-  "vote_average": 7.6,
-  "vote_count": 5286,
+  "vote_average": 7.583,
+  "vote_count": 5287,
   "found": true
  },
  {
@@ -7625,7 +7810,7 @@
   "original_language": "en",
   "original_title": "The Wiz",
   "overview": "Dorothy Gale, a shy kindergarten teacher, is swept away to the magic land of Oz where she embarks on a quest to return home.",
-  "popularity": 13.262,
+  "popularity": 17.739,
   "poster_path": "/rgKukXAbkpIv8pYKwKaj8IDunPq.jpg",
   "release_date": "1978-10-24",
   "title": "The Wiz",
@@ -7651,7 +7836,7 @@
   "title": "Singin' in the Rain",
   "video": false,
   "vote_average": 8.162,
-  "vote_count": 2975,
+  "vote_count": 2976,
   "found": true
  },
  {
@@ -7689,13 +7874,13 @@
   "original_language": "en",
   "original_title": "The Sound of Music",
   "overview": "In the years before the Second World War, a tomboyish postulant at an Austrian abbey is hired as a governess in the home of a widowed naval captain with seven children, and brings a new love of life and music into the home.",
-  "popularity": 29.283,
+  "popularity": 40.996,
   "poster_path": "/c6CrUZypAsBCaRWX0M3RVRDbhNS.jpg",
   "release_date": "1965-03-29",
   "title": "The Sound of Music",
   "video": false,
-  "vote_average": 7.7,
-  "vote_count": 3097,
+  "vote_average": 7.72,
+  "vote_count": 3098,
   "found": true
  },
  {
@@ -7773,7 +7958,7 @@
   "original_language": "en",
   "original_title": "The Pirate Movie",
   "overview": "A comedy/musical utilizing both new songs and parodies from the original (Gilbert and Sullivan's Pirates of Penzance), as well as references to popular films of the time, including Star Wars and Raiders of the Lost Ark. In your typical boy meets girl, boy loses girl, boy fights girl with swords plot, the story revolves around Mabel ...",
-  "popularity": 2.983,
+  "popularity": 4.176,
   "poster_path": "/9tIR7zyExuzhJ9c9ZWHqCkJsSPB.jpg",
   "release_date": "1982-08-06",
   "title": "The Pirate Movie",
@@ -7858,8 +8043,8 @@
   "release_date": "1979-08-17",
   "title": "Life of Brian",
   "video": false,
-  "vote_average": 7.8,
-  "vote_count": 4170,
+  "vote_average": 7.761,
+  "vote_count": 4171,
   "found": true
  },
  {
@@ -7937,13 +8122,13 @@
   "original_language": "en",
   "original_title": "Grease",
   "overview": "Australian good girl Sandy and greaser Danny fell in love over the summer. But when they unexpectedly discover they're now in the same high school, will they be able to rekindle their romance despite their eccentric friends?",
-  "popularity": 44.993,
+  "popularity": 62.99,
   "poster_path": "/6IGgKZh0ONwtGtr9iDW3M8ZUziO.jpg",
   "release_date": "1978-07-07",
   "title": "Grease",
   "video": false,
   "vote_average": 7.396,
-  "vote_count": 6947,
+  "vote_count": 6948,
   "found": true
  },
  {
@@ -8041,7 +8226,7 @@
   "original_language": "en",
   "original_title": "Funny Girl",
   "overview": "The life of Fanny Brice, famed comedian and entertainer of the early 1900s. We see her rise to fame as a Ziegfeld girl, her subsequent career, and her personal life, particularly her relationship with Nick Arnstein.",
-  "popularity": 13.623,
+  "popularity": 15.294,
   "poster_path": "/rXFRIv35SgcmaUqRjmGniwSopRW.jpg",
   "release_date": "1968-09-19",
   "title": "Funny Girl",
@@ -8062,7 +8247,7 @@
   "original_language": "en",
   "original_title": "Guys and Dolls",
   "overview": "Gambler Nathan Detroit has few options for the location of his big craps game. Needing $1,000 to pay a garage owner to host the game, Nathan bets Sky Masterson that Sky cannot get virtuous Sarah Brown out on a date. Despite some resistance, Sky negotiates a date with her in exchange for bringing people into her mission. Meanwhile, Nathan's longtime fiancée, Adelaide, wants him to go legit and marry her.",
-  "popularity": 16.576,
+  "popularity": 19.487,
   "poster_path": "/3FB9wKoPNkA4MSYRX9GnMqCp4td.jpg",
   "release_date": "1955-12-23",
   "title": "Guys and Dolls",
@@ -8166,7 +8351,7 @@
   "original_language": "en",
   "original_title": "The Wedding Singer",
   "overview": "Robbie, a local rock star turned wedding singer, is dumped on the day of his wedding. Meanwhile, waitress Julia finally sets a wedding date with her fiancée Glenn. When Julia and Robbie meet and hit it off, they find that things are more complicated than anybody thought.",
-  "popularity": 21.225,
+  "popularity": 23.935,
   "poster_path": "/zVvyTrcZQb7kC2DPDzyo25WcxXp.jpg",
   "release_date": "1998-02-13",
   "title": "The Wedding Singer",
@@ -8253,7 +8438,7 @@
   "title": "You've Got Mail",
   "video": false,
   "vote_average": 6.682,
-  "vote_count": 3106,
+  "vote_count": 3107,
   "found": true
  },
  {
@@ -8362,8 +8547,8 @@
   "release_date": "1990-07-13",
   "title": "Ghost",
   "video": false,
-  "vote_average": 7.216,
-  "vote_count": 5296,
+  "vote_average": 7.215,
+  "vote_count": 5297,
   "found": true
  },
  {
@@ -8378,13 +8563,13 @@
   "original_language": "en",
   "original_title": "Dirty Dancing",
   "overview": "Expecting the usual tedium that accompanies a summer in the Catskills with her family, 17-year-old Frances 'Baby' Houseman is surprised to find herself stepping into the shoes of a professional hoofer—and unexpectedly falling in love.",
-  "popularity": 34.202,
+  "popularity": 47.883,
   "poster_path": "/9Jw6jys7q9gjzVX5zm1z0gC8gY9.jpg",
   "release_date": "1987-08-21",
   "title": "Dirty Dancing",
   "video": false,
-  "vote_average": 7.3,
-  "vote_count": 5873,
+  "vote_average": 7.34,
+  "vote_count": 5874,
   "found": true
  },
  {
@@ -8438,13 +8623,13 @@
   "original_language": "en",
   "original_title": "Casablanca",
   "overview": "In Casablanca, Morocco in December 1941, a cynical American expatriate meets a former lover, with unforeseen complications.",
-  "popularity": 37.335,
+  "popularity": 52.269,
   "poster_path": "/5K7cOHoay2mZusSLezBOY0Qxh8a.jpg",
   "release_date": "1943-01-15",
   "title": "Casablanca",
   "video": false,
-  "vote_average": 8.2,
-  "vote_count": 5149,
+  "vote_average": 8.164,
+  "vote_count": 5150,
   "found": true
  },
  {
@@ -8458,7 +8643,7 @@
   "original_language": "en",
   "original_title": "Crocodile Dundee",
   "overview": "When a New York reporter plucks crocodile hunter Mick Dundee from the Australian Outback for a visit to the Big Apple, it's a clash of cultures and a recipe for good-natured comedy as naïve Dundee negotiates the concrete jungle. He proves that his instincts are quite useful in the city and adeptly handles everything from wily muggers to high-society snoots without breaking a sweat.",
-  "popularity": 22.415,
+  "popularity": 31.381,
   "poster_path": "/pduPduL1ub5kok3lPYT15ryC9L6.jpg",
   "release_date": "1986-09-26",
   "title": "Crocodile Dundee",
@@ -8571,8 +8756,8 @@
   "release_date": "1997-09-07",
   "title": "Gattaca",
   "video": false,
-  "vote_average": 7.558,
-  "vote_count": 6025,
+  "vote_average": 7.557,
+  "vote_count": 6026,
   "found": true
  },
  {
@@ -8591,8 +8776,8 @@
   "release_date": "2000-11-10",
   "title": "Little Nicky",
   "video": false,
-  "vote_average": 5.9,
-  "vote_count": 1707,
+  "vote_average": 5.874,
+  "vote_count": 1708,
   "found": true
  },
  {
@@ -8708,7 +8893,7 @@
   "title": "Leaving Las Vegas",
   "video": false,
   "vote_average": 7.256,
-  "vote_count": 1349,
+  "vote_count": 1350,
   "found": true
  },
  {
@@ -8751,8 +8936,8 @@
   "release_date": "2007-12-13",
   "title": "National Treasure: Book of Secrets",
   "video": false,
-  "vote_average": 6.347,
-  "vote_count": 4922,
+  "vote_average": 6.346,
+  "vote_count": 4923,
   "found": true
  },
  {
@@ -8935,7 +9120,7 @@
   "title": "Parasite",
   "video": false,
   "vote_average": 8.5,
-  "vote_count": 17327,
+  "vote_count": 17329,
   "found": true
  },
  {
@@ -8954,8 +9139,8 @@
   "release_date": "2021-07-05",
   "title": "Boiling Point",
   "video": false,
-  "vote_average": 7.2,
-  "vote_count": 477,
+  "vote_average": 7.227,
+  "vote_count": 478,
   "found": true
  },
  {
@@ -9099,7 +9284,7 @@
   "title": "The Godfather",
   "video": false,
   "vote_average": 8.695,
-  "vote_count": 19627,
+  "vote_count": 19628,
   "found": true
  },
  {
@@ -9119,7 +9304,7 @@
   "title": "The Godfather Part II",
   "video": false,
   "vote_average": 8.575,
-  "vote_count": 11862,
+  "vote_count": 11863,
   "found": true
  },
  {
@@ -9139,7 +9324,7 @@
   "title": "Apocalypse Now",
   "video": false,
   "vote_average": 8.283,
-  "vote_count": 7820,
+  "vote_count": 7821,
   "found": true
  },
  {
@@ -9258,7 +9443,7 @@
   "original_language": "en",
   "original_title": "eXistenZ",
   "overview": "A game designer on the run from assassins must play her latest virtual reality creation with a marketing trainee to determine if the game has been damaged.",
-  "popularity": 17.983,
+  "popularity": 24.698,
   "poster_path": "/kETKF0JhdTPn1knci8CAdYL0d79.jpg",
   "release_date": "1999-04-14",
   "title": "eXistenZ",
@@ -9365,7 +9550,7 @@
   "release_date": "1995-12-09",
   "title": "Four Rooms",
   "video": false,
-  "vote_average": 5.8,
+  "vote_average": 5.819,
   "vote_count": 2536,
   "found": true
  },
@@ -9379,7 +9564,7 @@
   "original_language": "en",
   "original_title": "Top Secret!",
   "overview": "Popular and dashing American singer Nick Rivers travels to East Germany to perform in a music festival. When he loses his heart to the gorgeous Hillary Flammond, he finds himself caught up in an underground resistance movement. Rivers joins forces with Agent Cedric and Flammond to attempt the rescue of her father, Dr. Paul, from the Germans, who have captured the scientist in hopes of coercing him into building a new naval mine.",
-  "popularity": 17.528,
+  "popularity": 16.129,
   "poster_path": "/hRTbfR27xghnVMs3ZJ3EhK3zzud.jpg",
   "release_date": "1984-06-08",
   "title": "Top Secret!",
@@ -9421,7 +9606,7 @@
   "original_language": "en",
   "original_title": "Mutiny on the Bounty",
   "overview": "The Bounty leaves Portsmouth in 1787. Its destination: to sail to Tahiti and load bread-fruit. Captain Bligh will do anything to get there as fast as possible, using any means to keep up a strict discipline. When they arrive at Tahiti, it is like a paradise for the crew, something completely different than the living hell aboard the ship. On the way back to England, officer Fletcher Christian becomes the leader of a mutiny.",
-  "popularity": 16.386,
+  "popularity": 18.709,
   "poster_path": "/caxk06SANEacvycZFiApv1LA6Kl.jpg",
   "release_date": "1962-11-08",
   "title": "Mutiny on the Bounty",
@@ -9512,8 +9697,8 @@
   "release_date": "1988-06-03",
   "title": "Big",
   "video": false,
-  "vote_average": 7.2,
-  "vote_count": 3431,
+  "vote_average": 7.157,
+  "vote_count": 3432,
   "found": true
  },
  {
@@ -9567,7 +9752,7 @@
   "original_language": "en",
   "original_title": "The Money Pit",
   "overview": "After being evicted from their Manhattan apartment, a couple buy what looks like the home of their dreams—only to find themselves saddled with a bank-account-draining nightmare. Struggling to keep their relationship together as their rambling mansion falls to pieces around them, the two watch in hilarious horror as everything—including the kitchen sink—disappears into the Money Pit.",
-  "popularity": 35.284,
+  "popularity": 28.043,
   "poster_path": "/bohhidIi1WWU5NNYF9l5wLQu3Ii.jpg",
   "release_date": "1986-03-26",
   "title": "The Money Pit",
@@ -9635,7 +9820,7 @@
   "title": "The Terminal",
   "video": false,
   "vote_average": 7.34,
-  "vote_count": 7535,
+  "vote_count": 7537,
   "found": true
  },
  {
@@ -9648,7 +9833,7 @@
   "original_language": "en",
   "original_title": "The Secret of My Success",
   "overview": "Brantley Foster, a well-educated kid from Kansas, has always dreamed of making it big in New York, but once in New York, he learns that jobs - and girls - are hard to get. When Brantley visits his uncle, Howard Prescott, who runs a multi-million-dollar company, he is given a job in the company's mail room.",
-  "popularity": 22.085,
+  "popularity": 17.813,
   "poster_path": "/yT4vQVUI4DoQar4elkqbHB1pjf0.jpg",
   "release_date": "1987-04-10",
   "title": "The Secret of My Success",
@@ -9775,7 +9960,7 @@
   "title": "Back to the Future",
   "video": false,
   "vote_average": 8.317,
-  "vote_count": 19130,
+  "vote_count": 19131,
   "found": true
  },
  {
@@ -9796,7 +9981,7 @@
   "title": "Back to the Future Part II",
   "video": false,
   "vote_average": 7.759,
-  "vote_count": 12262,
+  "vote_count": 12263,
   "found": true
  },
  {
@@ -9817,7 +10002,7 @@
   "title": "Back to the Future Part III",
   "video": false,
   "vote_average": 7.47,
-  "vote_count": 10052,
+  "vote_count": 10053,
   "found": true
  },
  {
@@ -9896,7 +10081,7 @@
   "original_language": "en",
   "original_title": "Mac and Me",
   "overview": "A Mysterious Alien Creature (MAC) escaping from nefarious NASA agents, is befriended by a young boy in a wheelchair. Together, they try to find MAC's family from whom he has been separated.",
-  "popularity": 14.582,
+  "popularity": 14.937,
   "poster_path": "/gZsIgK2W9K6e1ebNro3WT7u5yGX.jpg",
   "release_date": "1988-08-12",
   "title": "Mac and Me",
@@ -9943,8 +10128,8 @@
   "release_date": "2003-05-15",
   "title": "The Matrix Reloaded",
   "video": false,
-  "vote_average": 7,
-  "vote_count": 10505,
+  "vote_average": 7.047,
+  "vote_count": 10506,
   "found": true
  },
  {
@@ -9960,7 +10145,7 @@
   "original_language": "en",
   "original_title": "Mad Max",
   "overview": "In the ravaged near-future, a savage motorcycle gang rules the road. Terrorizing innocent civilians while tearing up the streets, the ruthless gang laughs in the face of a police force hell-bent on stopping them.",
-  "popularity": 41.511,
+  "popularity": 44.977,
   "poster_path": "/5LrI4GiCSrChgkdskVZiwv643Kg.jpg",
   "release_date": "1979-04-12",
   "title": "Mad Max",
@@ -10013,7 +10198,7 @@
   "title": "Mad Max: Fury Road",
   "video": false,
   "vote_average": 7.591,
-  "vote_count": 21496,
+  "vote_count": 21497,
   "found": true
  },
  {
@@ -10244,7 +10429,7 @@
   "original_language": "en",
   "original_title": "Fritz the Cat",
   "overview": "A swinging, hypocritical college student cat raises hell in a satirical vision of the 1960s.",
-  "popularity": 12.765,
+  "popularity": 14.665,
   "poster_path": "/llgCW1Y99WO7DNiX3ZOncLJBIAm.jpg",
   "release_date": "1972-04-12",
   "title": "Fritz the Cat",
@@ -10277,8 +10462,25 @@
   "found": true
  },
  {
-  "title": "Rock and Rule",
-  "found": false
+  "adult": false,
+  "backdrop_path": "/zTn9XwSSJkQFrwEQedT1DYkxTjM.jpg",
+  "genre_ids": [
+   12,
+   16,
+   14
+  ],
+  "id": 21356,
+  "original_language": "en",
+  "original_title": "Rock & Rule",
+  "overview": "A malevolent rock star kidnaps a female singer to force her to participate in the summoning of a demon and her band must help her stop him.",
+  "popularity": 8.859,
+  "poster_path": "/aNCN8xBOaEccXS0V93RBdLDSqFh.jpg",
+  "release_date": "1983-04-15",
+  "title": "Rock & Rule",
+  "video": false,
+  "vote_average": 6,
+  "vote_count": 72,
+  "found": true
  },
  {
   "adult": false,
@@ -10398,12 +10600,12 @@
   "original_language": "en",
   "original_title": "The Adventures of Tintin",
   "overview": "Intrepid young reporter, Tintin, and his loyal dog, Snowy, are thrust into a world of high adventure when they discover a ship carrying an explosive secret. As Tintin is drawn into a centuries-old mystery, Ivan Ivanovitch Sakharine suspects him of stealing a priceless treasure. Tintin and Snowy, with the help of salty, cantankerous Captain Haddock and bumbling detectives, Thompson and Thomson, travel half the world, one step ahead of their enemies, as Tintin endeavors to find the Unicorn, a sunken ship that may hold a vast fortune, but also an ancient curse.",
-  "popularity": 32.36,
+  "popularity": 42.357,
   "poster_path": "/mKYkNro2btaWMsnYSuyqrBdHQo3.jpg",
   "release_date": "2011-10-24",
   "title": "The Adventures of Tintin",
   "video": false,
-  "vote_average": 6.895,
+  "vote_average": 6.9,
   "vote_count": 5177,
   "found": true
  },
@@ -10447,8 +10649,8 @@
   "release_date": "1984-03-11",
   "title": "Nausicaä of the Valley of the Wind",
   "video": false,
-  "vote_average": 7.934,
-  "vote_count": 3357,
+  "vote_average": 7.935,
+  "vote_count": 3358,
   "found": true
  },
  {
@@ -10490,7 +10692,7 @@
   "title": "Princess Mononoke",
   "video": false,
   "vote_average": 8.339,
-  "vote_count": 7604,
+  "vote_count": 7605,
   "found": true
  },
  {
@@ -10700,7 +10902,7 @@
   "original_language": "en",
   "original_title": "Metalstorm: The Destruction of Jared-Syn",
   "overview": "A seeker named Dogen rescues Dhyana after her father is murdered by the evil Jared-Syn. To avenge her father's death, Dogen must find Jared-Syn's hideout in the mysterious \"Lost City\", but the only person who knows where it is an aging, burned-out seeker named Rhodes. Along the way, they will need to do battle against the hunter Baal and his Cyclopean minions for engaging Jared-Syn in a final encounter.",
-  "popularity": 6.014,
+  "popularity": 6.702,
   "poster_path": "/8vxTrg2dik0DQdgGjzyUW321xlM.jpg",
   "release_date": "1983-08-19",
   "title": "Metalstorm: The Destruction of Jared-Syn",
@@ -10727,7 +10929,7 @@
   "title": "Monty Python and the Holy Grail",
   "video": false,
   "vote_average": 7.801,
-  "vote_count": 5498,
+  "vote_count": 5499,
   "found": true
  },
  {
@@ -10782,7 +10984,7 @@
   "original_language": "en",
   "original_title": "My Science Project",
   "overview": "His high school teacher issues an ultimatum: turn in a science project or flunk. So Mike Harlan scavenges a military base's junk pile for a suitable gizmo. He finds one... and unwittingly unleashes the awesome power and energy of the unknown. Twisted dimensions. Time warps. A fantastic realm where the past, present, and future collide in a whirling vortex of startling adventure and superlative special effects.",
-  "popularity": 11.491,
+  "popularity": 10.474,
   "poster_path": "/cYdJkEe7YLHhGl7XgVByH7yeoye.jpg",
   "release_date": "1985-08-09",
   "title": "My Science Project",
@@ -10844,12 +11046,12 @@
   "original_language": "en",
   "original_title": "Glory",
   "overview": "Robert Gould Shaw leads the US Civil War's first all-black volunteer company, fighting prejudices of both his own Union army and the Confederates.",
-  "popularity": 23.435,
+  "popularity": 24.265,
   "poster_path": "/tubPIJJah9iJ9eDHXxaxjLdOcQd.jpg",
   "release_date": "1989-12-15",
   "title": "Glory",
   "video": false,
-  "vote_average": 7.481,
+  "vote_average": 7.5,
   "vote_count": 1520,
   "found": true
  },
@@ -10865,7 +11067,7 @@
   "original_language": "en",
   "original_title": "Gettysburg",
   "overview": "In the summer of 1863, General Robert E. Lee leads the Confederate Army of Northern Virginia into Gettysburg, Pennsylvania with the goal of marching through to Washington, D.C. The Union Army of the Potomac, under the command of General George G. Meade, forms a defensive position to confront the rebel forces in what will prove to be the decisive battle of the American Civil War.",
-  "popularity": 18.414,
+  "popularity": 21.512,
   "poster_path": "/k0XKdT3QbycMB8f2H7CEZVx2t4m.jpg",
   "release_date": "1993-10-08",
   "title": "Gettysburg",
@@ -10887,7 +11089,7 @@
   "original_language": "en",
   "original_title": "Field of Lost Shoes",
   "overview": "A group of teenage cadets sheltered from war at the Virginia Military Institute must confront the horrors of an adult world when they are called upon to defend the Shenandoah Valley.",
-  "popularity": 7.52,
+  "popularity": 10.528,
   "poster_path": "/sT0UoBSZ48RbQVqctVAJddyPXdw.jpg",
   "release_date": "2015-03-30",
   "title": "Field of Lost Shoes",
@@ -10975,7 +11177,7 @@
   "original_language": "en",
   "original_title": "Free State of Jones",
   "overview": "In 1863, Mississippi farmer Newt Knight serves as a medic for the Confederate Army. Opposed to slavery, Knight would rather help the wounded than fight the Union. After his nephew dies in battle, Newt returns home to Jones County to safeguard his family but is soon branded an outlaw deserter. Forced to flee, he finds refuge with a group of runaway slaves hiding out in the swamps. Forging an alliance with the slaves and other farmers, Knight leads a rebellion that would forever change history.",
-  "popularity": 16.373,
+  "popularity": 21.211,
   "poster_path": "/pKhJLNHu5Aw8BgxOJ90lCmg0j0f.jpg",
   "release_date": "2016-06-24",
   "title": "Free State of Jones",
@@ -11018,13 +11220,13 @@
   "original_language": "en",
   "original_title": "Gangs of New York",
   "overview": "In 1863, Amsterdam Vallon returns to the Five Points of America to seek vengeance against the psychotic gangland kingpin, Bill the Butcher, who murdered his father years earlier. With an eager pickpocket by his side and a whole new army, Vallon fights his way to seek vengeance on the Butcher and restore peace in the area.",
-  "popularity": 40.87,
+  "popularity": 57.218,
   "poster_path": "/lemqKtcCuAano5aqrzxYiKC8kkn.jpg",
   "release_date": "2002-12-14",
   "title": "Gangs of New York",
   "video": false,
-  "vote_average": 7.3,
-  "vote_count": 6326,
+  "vote_average": 7.32,
+  "vote_count": 6327,
   "found": true
  },
  {
@@ -11059,7 +11261,7 @@
   "original_language": "en",
   "original_title": "True Grit",
   "overview": "The murder of her father sends a teenage tomboy on a mission of 'justice', which involves avenging her father's death. She recruits a tough old marshal, 'Rooster' Cogburn because he has 'true grit', and a reputation of getting the job done.",
-  "popularity": 26.547,
+  "popularity": 23.233,
   "poster_path": "/lmexRC57l39elaIcnxhaHpcaIW2.jpg",
   "release_date": "1969-06-11",
   "title": "True Grit",
@@ -11083,13 +11285,30 @@
   "release_date": "1962-04-13",
   "title": "The Man Who Shot Liberty Valance",
   "video": false,
-  "vote_average": 7.8,
+  "vote_average": 7.779,
   "vote_count": 1054,
   "found": true
  },
  {
-  "title": "Wagon's East",
-  "found": false
+  "adult": false,
+  "backdrop_path": "/5uf31DQxAFPtveULkEC8a70iPQA.jpg",
+  "genre_ids": [
+   12,
+   35,
+   37
+  ],
+  "id": 30114,
+  "original_language": "en",
+  "original_title": "Wagons East!",
+  "overview": "After the 1860s Wild West, a group of misfit settlers - including ex-doctor Phil Taylor, prostitute Belle, and homosexual bookseller Julian - decide they cannot live in their current situation in the west. They hire a grizzled alcoholic wagon master by the name of James Harlow to take them on a journey back to their hometowns in the East.",
+  "popularity": 14.015,
+  "poster_path": "/8Q9ulJq69kO6nT1Xs5XnL0dDjje.jpg",
+  "release_date": "1994-08-16",
+  "title": "Wagons East!",
+  "video": false,
+  "vote_average": 4.8,
+  "vote_count": 89,
+  "found": true
  },
  {
   "adult": false,
@@ -11125,7 +11344,7 @@
   "original_language": "en",
   "original_title": "Giant",
   "overview": "Wealthy rancher Bick Benedict and dirt-poor cowboy Jett Rink both woo Leslie Lynnton, a beautiful young woman from Maryland who is new to Texas. She marries Benedict, but she is shocked by the racial bigotry of the White Texans against the local people of Mexican descent. Rink discovers oil on a small plot of land, and while he uses his vast, new wealth to buy all the land surrounding the Benedict ranch, the Benedict's disagreement over prejudice fuels conflict that runs across generations.",
-  "popularity": 18.509,
+  "popularity": 25.913,
   "poster_path": "/oQ1Arue52pFLSvvwfcNTy16hTCG.jpg",
   "release_date": "1956-11-08",
   "title": "Giant",
@@ -11185,7 +11404,7 @@
   "original_language": "en",
   "original_title": "Bloodsport",
   "overview": "U.S. soldier Frank Dux has come to Hong Kong to be accepted into the Kumite, a highly secret and extremely violent martial arts competition. While trying to gain access into the underground world of clandestine fighters, he also has to avoid military officers who consider him to be AWOL. After enduring a difficult training and beginning a romance with journalist Janice Kent, Frank is given the opportunity to fight. But can he survive?",
-  "popularity": 28.6,
+  "popularity": 40.04,
   "poster_path": "/kndxR9TRK0kJ5hxzDprRSS80F2W.jpg",
   "release_date": "1988-02-26",
   "title": "Bloodsport",
@@ -11268,7 +11487,7 @@
   "original_language": "en",
   "original_title": "Death Warrant",
   "overview": "The Canadian policeman Louis Burke is assigned in a jail to investigate the murders of prisoners and jailors. When in jail, Louis, using his outstandings martial arts skills, is able to save his life and make himself respected in that violent world. At least, helped by two another prisoners, he succeded in finding the truth about the dreadful crimes.  In a violent and corrupt prison, decorated cop Louis Burke must infiltrate the jail to find answers to a number of inside murders. What he finds is a struggle of life and death tied in to his own past.",
-  "popularity": 19.522,
+  "popularity": 24.678,
   "poster_path": "/95mcKAcTgvonhx3BS5psLguyEVu.jpg",
   "release_date": "1990-09-14",
   "title": "Death Warrant",
@@ -11418,7 +11637,7 @@
   "title": "Ferris Bueller's Day Off",
   "video": false,
   "vote_average": 7.593,
-  "vote_count": 4670,
+  "vote_count": 4671,
   "found": true
  },
  {
@@ -11431,7 +11650,7 @@
   "original_language": "en",
   "original_title": "Back to School",
   "overview": "Self-made millionaire Thornton Melon decides to get a better education and enrolls at his son Jason's college. While Jason tries to fit in with his fellow students, Thornton struggles to gain his son's respect, giving way to hilarious antics.",
-  "popularity": 13.982,
+  "popularity": 19.575,
   "poster_path": "/bIQH3dptGaMBtwos7j9lEHt65BV.jpg",
   "release_date": "1986-06-13",
   "title": "Back to School",
@@ -11477,8 +11696,8 @@
   "release_date": "1999-07-09",
   "title": "American Pie",
   "video": false,
-  "vote_average": 6.6,
-  "vote_count": 7375,
+  "vote_average": 6.584,
+  "vote_count": 7376,
   "found": true
  },
  {
@@ -11529,7 +11748,7 @@
   "original_language": "en",
   "original_title": "Meatballs",
   "overview": "Tripper is the head counselor at a budget summer camp called Camp Northstar. In truth, he's young at heart and only marginally more mature than the campers themselves. Tripper befriends Rudy, a loner camper who has trouble fitting in. As Tripper inspires his young charges to defeat rival Camp Mohawk in the annual Olympiad competition, Rudy plays matchmaker between Tripper and Roxanne, a female counselor at Northstar.",
-  "popularity": 18.913,
+  "popularity": 15.087,
   "poster_path": "/9YA2erSNcca9NWd0xePC9ArFWnx.jpg",
   "release_date": "1979-06-28",
   "title": "Meatballs",
@@ -11570,7 +11789,7 @@
   "original_language": "en",
   "original_title": "Beavis and Butt-Head Do America",
   "overview": "Slacker duo Beavis and Butt-Head wake to discover their TV has been stolen. Their search for a new one takes them on a clueless adventure across America, during which they manage to accidentally become America's most wanted.",
-  "popularity": 24.404,
+  "popularity": 24.161,
   "poster_path": "/wEB1GPT7mQcTNuYT73s72ljjbMF.jpg",
   "release_date": "1996-12-20",
   "title": "Beavis and Butt-Head Do America",
@@ -11580,8 +11799,27 @@
   "found": true
  },
  {
+  "adult": false,
+  "backdrop_path": "/uAfGMZr15MIfDSYZOKWeBmOLmMj.jpg",
+  "genre_ids": [
+   28,
+   35,
+   878,
+   12,
+   16
+  ],
+  "id": 109125,
+  "original_language": "en",
+  "original_title": "The Amazing Bulk",
+  "overview": "Henry Howard, an ambitious young scientist struggles to develop a super human serum designed to improve muscle mass and prolong life expectancy. His boss, the grumpy General Darwin, will not allow Hank to marry his daughter, Hannah, until the experiment is a success. Against Darwin's wishes Hank proposes to Hannah anyway, but his life is shattered by a mugger who steals his engagement ring. Dejected, Hank injects himself with the experimental serum and is transformed into the Amazing Bulk. The Bulk goes on a rampage through the city destroying everything in his path. Hank is caught by a relentless detective, imprisoned by Darwin and forced to battle the sadistic Dr. Kantlove, who threatens to blow up the moon with his arsenal of weapons.",
+  "popularity": 5.96,
+  "poster_path": "/bYpMJv6omTE0SwHcpHyA7QIiMEY.jpg",
+  "release_date": "2012-04-17",
   "title": "The Amazing Bulk",
-  "found": false
+  "video": false,
+  "vote_average": 2.5,
+  "vote_count": 62,
+  "found": true
  },
  {
   "adult": false,
@@ -11634,13 +11872,13 @@
   "original_language": "en",
   "original_title": "Mallrats",
   "overview": "Both dumped by their girlfriends, two best friends seek refuge in the local mall. Eventually, they decide to try and win back their significant others and take care of their respective nemeses.",
-  "popularity": 22.17,
+  "popularity": 28.326,
   "poster_path": "/kNm0AQFIc4nlzCd8Nqvbb5gccAV.jpg",
   "release_date": "1995-10-20",
   "title": "Mallrats",
   "video": false,
-  "vote_average": 6.8,
-  "vote_count": 1170,
+  "vote_average": 6.762,
+  "vote_count": 1171,
   "found": true
  },
  {
@@ -11655,7 +11893,7 @@
   "original_language": "en",
   "original_title": "Chasing Amy",
   "overview": "Holden and Banky are comic book artists. Everything is going good for them until they meet Alyssa, also a comic book artist. Holden falls for her, but his hopes are crushed when he finds out she's a lesbian.",
-  "popularity": 20.376,
+  "popularity": 24.307,
   "poster_path": "/eFhPqkNmRDfRHyQiUzUdoQjpwgh.jpg",
   "release_date": "1997-04-04",
   "title": "Chasing Amy",
@@ -11743,8 +11981,27 @@
   "found": true
  },
  {
-  "title": "Cannibal Women in the Avacado Jungle of Death",
-  "found": false
+  "adult": false,
+  "backdrop_path": "/2ISrgCLETLaVSF9UrJjqBv2HFJU.jpg",
+  "genre_ids": [
+   27,
+   35,
+   12,
+   10749,
+   28
+  ],
+  "id": 26369,
+  "original_language": "en",
+  "original_title": "Cannibal Women in the Avocado Jungle of Death",
+  "overview": "The U.S. government, eager to protect the nation's avacado supplies, recruits feminist professor Margo Hunt to make contact with the Piranha Women, an all-female tribe who believe men are only good as a source of food. Accompanying Dr. Hunt on her trip are Jim, a guide of questionable competence, and Bunny, a student of unquestionable incompetence.",
+  "popularity": 8.97,
+  "poster_path": "/98qUwoXF4sGb0pCxkK8S4fLdrSr.jpg",
+  "release_date": "1989-03-15",
+  "title": "Cannibal Women in the Avocado Jungle of Death",
+  "video": false,
+  "vote_average": 4.6,
+  "vote_count": 58,
+  "found": true
  },
  {
   "adult": false,
@@ -11757,7 +12014,7 @@
   "original_language": "en",
   "original_title": "Outland",
   "overview": "An honest marshal in a corrupt mining colony on Io, Jupiter's sunless third moon, is determined to confront a violent drug ring even though it may cost him his life. After his wife angrily deserts him, he waits alone for the arrival of killers hired by the company to eliminate him.",
-  "popularity": 22.914,
+  "popularity": 22.687,
   "poster_path": "/mqHUsbbMoNYp2ibgxIT1qOfKciO.jpg",
   "release_date": "1981-05-22",
   "title": "Outland",
@@ -11861,7 +12118,7 @@
   "original_language": "cn",
   "original_title": "福星高照",
   "overview": "Two Hong Kong cops are sent to Tokyo to catch an ex-cop who stole a large amount of money in diamonds. After one is captured by the Ninja-gang protecting the rogue cop, the other one gets his old Orphanage gang, dubbed the \"Five Lucky Stars,\" to help him. They don't like this much, but they do it.",
-  "popularity": 24.496,
+  "popularity": 34.294,
   "poster_path": "/dZzHBIcJsld2XMvwR75OZGf4NM2.jpg",
   "release_date": "1985-02-10",
   "title": "My Lucky Stars",
@@ -11944,7 +12201,7 @@
   "original_language": "en",
   "original_title": "The Medallion",
   "overview": "A Hong Kong detective suffers a fatal accident involving a mysterious medallion and is transformed into an immortal warrior with superhuman powers.",
-  "popularity": 24.276,
+  "popularity": 26.392,
   "poster_path": "/lbjFWKfe8WdS8Pj6WVPlyEKeVEo.jpg",
   "release_date": "2003-08-15",
   "title": "The Medallion",
@@ -11969,7 +12226,7 @@
   "title": "Fight Club",
   "video": false,
   "vote_average": 8.441,
-  "vote_count": 28261,
+  "vote_count": 28262,
   "found": true
  },
  {
@@ -11983,7 +12240,7 @@
   "original_language": "en",
   "original_title": "They Live",
   "overview": "A lone drifter stumbles upon a harrowing discovery -- a unique pair of sunglasses that reveals that aliens are systematically gaining control of the Earth by masquerading as humans and lulling the public into submission.",
-  "popularity": 25.292,
+  "popularity": 26.544,
   "poster_path": "/ngnybFTuopfbfmmEeX9jjBQQmF6.jpg",
   "release_date": "1988-11-04",
   "title": "They Live",
@@ -12026,7 +12283,7 @@
   "original_language": "en",
   "original_title": "Falling Down",
   "overview": "An ordinary man frustrated with the various flaws he sees in society begins to psychotically and violently lash out against them.",
-  "popularity": 24.473,
+  "popularity": 30.171,
   "poster_path": "/7ujqyF96Zg3rfrsh9M0cEF0Yzqj.jpg",
   "release_date": "1993-02-26",
   "title": "Falling Down",
@@ -12052,7 +12309,7 @@
   "release_date": "1996-05-22",
   "title": "Mission: Impossible",
   "video": false,
-  "vote_average": 6.976,
+  "vote_average": 7,
   "vote_count": 8470,
   "found": true
  },
@@ -12074,7 +12331,7 @@
   "title": "Mission: Impossible II",
   "video": false,
   "vote_average": 6.121,
-  "vote_count": 6407,
+  "vote_count": 6410,
   "found": true
  },
  {
@@ -12095,7 +12352,7 @@
   "title": "Mission: Impossible III",
   "video": false,
   "vote_average": 6.73,
-  "vote_count": 6467,
+  "vote_count": 6468,
   "found": true
  },
  {
@@ -12116,7 +12373,7 @@
   "title": "Mission: Impossible - Ghost Protocol",
   "video": false,
   "vote_average": 7.079,
-  "vote_count": 9528,
+  "vote_count": 9530,
   "found": true
  },
  {
@@ -12136,7 +12393,7 @@
   "title": "Mission: Impossible - Rogue Nation",
   "video": false,
   "vote_average": 7.197,
-  "vote_count": 8465,
+  "vote_count": 8467,
   "found": true
  },
  {
@@ -12156,7 +12413,7 @@
   "title": "Mission: Impossible - Fallout",
   "video": false,
   "vote_average": 7.424,
-  "vote_count": 7840,
+  "vote_count": 7842,
   "found": true
  },
  {
@@ -12175,8 +12432,8 @@
   "release_date": "2023-07-08",
   "title": "Mission: Impossible - Dead Reckoning Part One",
   "video": false,
-  "vote_average": 7.555,
-  "vote_count": 3270,
+  "vote_average": 7.556,
+  "vote_count": 3271,
   "found": true
  },
  {
@@ -12197,7 +12454,7 @@
   "title": "Top Gun",
   "video": false,
   "vote_average": 7.054,
-  "vote_count": 8115,
+  "vote_count": 8116,
   "found": true
  },
  {
@@ -12213,13 +12470,13 @@
   "original_language": "en",
   "original_title": "Risky Business",
   "overview": "Meet Joel Goodson, an industrious, college-bound 17-year-old and a responsible, trustworthy son. However, when his parents go away and leave him home alone in the wealthy Chicago suburbs with the Porsche at his disposal he quickly decides he has been good for too long and it is time to enjoy himself. After an unfortunate incident with the Porsche Joel must raise some cash, in a risky way.",
-  "popularity": 18.411,
+  "popularity": 22.012,
   "poster_path": "/82KOHShH9raGhkcAN3TztVjqjj3.jpg",
   "release_date": "1983-08-05",
   "title": "Risky Business",
   "video": false,
-  "vote_average": 6.6,
-  "vote_count": 1218,
+  "vote_average": 6.599,
+  "vote_count": 1219,
   "found": true
  },
  {
@@ -12291,7 +12548,7 @@
   "original_language": "en",
   "original_title": "Days of Thunder",
   "overview": "Talented but unproven stock car driver Cole Trickle gets a break and with the guidance of veteran Harry Hogge turns heads on the track. The young hotshot develops a rivalry with a fellow racer that threatens his career when the two smash their cars. But with the help of his doctor, Cole just might overcome his injuries-- and his fear.",
-  "popularity": 22.68,
+  "popularity": 31.752,
   "poster_path": "/2xfP227oLToQjBCUg3FI18pWh3G.jpg",
   "release_date": "1990-06-27",
   "title": "Days of Thunder",
@@ -12312,7 +12569,7 @@
   "original_language": "en",
   "original_title": "Jerry Maguire",
   "overview": "Jerry Maguire used to be a typical sports agent: willing to do just about anything he could to get the biggest possible contracts for his clients, plus a nice commission for himself. Then, one day, he suddenly has second thoughts about what he's really doing. When he voices these doubts, he ends up losing his job and all of his clients, save Rod Tidwell, an egomaniacal football player.",
-  "popularity": 26.417,
+  "popularity": 28.713,
   "poster_path": "/lABvGN7fDk5ifnwZoxij6G96t2w.jpg",
   "release_date": "1996-12-13",
   "title": "Jerry Maguire",
@@ -12331,13 +12588,13 @@
   "original_language": "en",
   "original_title": "A Few Good Men",
   "overview": "When cocky military lawyer Lt. Daniel Kaffee and his co-counsel, Lt. Cmdr. JoAnne Galloway, are assigned to a murder case, they uncover a hazing ritual that could implicate high-ranking officials such as shady Col. Nathan Jessep.",
-  "popularity": 42.905,
+  "popularity": 49.936,
   "poster_path": "/rLOk4z9zL1tTukIYV56P94aZXKk.jpg",
   "release_date": "1992-12-11",
   "title": "A Few Good Men",
   "video": false,
   "vote_average": 7.532,
-  "vote_count": 3358,
+  "vote_count": 3359,
   "found": true
  },
  {
@@ -12352,7 +12609,7 @@
   "original_language": "en",
   "original_title": "The Firm",
   "overview": "Mitch McDeere is a young man with a promising future in Law. About to sit his Bar exam, he is approached by 'The Firm' and made an offer he doesn't refuse. Seduced by the money and gifts showered on him, he is totally oblivious to the more sinister side of his company. Then, two Associates are murdered. The FBI contact him, asking him for information and suddenly his life is ruined. He has a choice - work with the FBI, or stay with the Firm. Either way he will lose his life as he knows it. Mitch figures the only way out is to follow his own plan...",
-  "popularity": 26.519,
+  "popularity": 37.127,
   "poster_path": "/i9a4vbkzausnAzH07IOusX3ToTv.jpg",
   "release_date": "1993-06-30",
   "title": "The Firm",
@@ -12401,7 +12658,7 @@
   "title": "Oblivion",
   "video": false,
   "vote_average": 6.63,
-  "vote_count": 10301,
+  "vote_count": 10302,
   "found": true
  },
  {
@@ -12421,7 +12678,7 @@
   "title": "Edge of Tomorrow",
   "video": false,
   "vote_average": 7.616,
-  "vote_count": 13266,
+  "vote_count": 13267,
   "found": true
  },
  {
@@ -12527,8 +12784,8 @@
   "release_date": "1996-02-09",
   "title": "Broken Arrow",
   "video": false,
-  "vote_average": 6,
-  "vote_count": 1411,
+  "vote_average": 6.043,
+  "vote_count": 1412,
   "found": true
  },
  {
@@ -12549,7 +12806,7 @@
   "title": "Face/Off",
   "video": false,
   "vote_average": 7.024,
-  "vote_count": 5024,
+  "vote_count": 5025,
   "found": true
  },
  {
@@ -12632,13 +12889,28 @@
   "release_date": "1982-12-17",
   "title": "The Dark Crystal",
   "video": false,
-  "vote_average": 7.1,
-  "vote_count": 1046,
+  "vote_average": 7.107,
+  "vote_count": 1047,
   "found": true
  },
  {
+  "adult": false,
+  "backdrop_path": "/deK59J0coTXwDZZsa5xltuQ2mCV.jpg",
+  "genre_ids": [
+   14
+  ],
+  "id": 289378,
+  "original_language": "en",
+  "original_title": "To the Ends of Time",
+  "overview": "In a mythical kingdom, a young boy must fight time for the love of his princess and the future of his land.",
+  "popularity": 3.098,
+  "poster_path": "/2JEjiEmBeTgq97M3b88qwCPH10k.jpg",
+  "release_date": "1996-10-21",
   "title": "To the Ends of Time",
-  "found": false
+  "video": false,
+  "vote_average": 5.3,
+  "vote_count": 6,
+  "found": true
  },
  {
   "adult": false,
@@ -12739,7 +13011,7 @@
   "original_language": "en",
   "original_title": "Willow",
   "overview": "The evil Queen Bavmorda hunts the newborn princess Elora Danan, a child prophesied to bring about her downfall. When the royal infant is found by Willow, a timid farmer and aspiring sorcerer, he's entrusted with delivering her from evil.",
-  "popularity": 30.919,
+  "popularity": 37.638,
   "poster_path": "/d9xEILdvVRX8ZgFwPDbco6kKSaS.jpg",
   "release_date": "1988-05-20",
   "title": "Willow",
@@ -12786,7 +13058,7 @@
   "release_date": "1982-04-02",
   "title": "Conan the Barbarian",
   "video": false,
-  "vote_average": 6.8,
+  "vote_average": 6.804,
   "vote_count": 2340,
   "found": true
  },
@@ -12828,8 +13100,8 @@
   "release_date": "1985-04-09",
   "title": "Red Sonja",
   "video": false,
-  "vote_average": 5.3,
-  "vote_count": 774,
+  "vote_average": 5.322,
+  "vote_count": 775,
   "found": true
  },
  {
@@ -12909,7 +13181,7 @@
   "original_language": "en",
   "original_title": "Hawk the Slayer",
   "overview": "Hawk the Slayer, after seeing both his father and bride die at the hands of his malevolent brother, Voltan, sets out for revenge and the chance to live up to his title. Tooling himself up with the \"mind-sword\" and recruiting a motley band of warriors: a giant, a dwarf, a one-armed man with a machine-crossbow and an elf with the fastest bow in the land; Hawk leads the battle against Voltan to free the land from the forces of evil and avenge his loved ones.",
-  "popularity": 7.587,
+  "popularity": 6.448,
   "poster_path": "/wDYo6qgyrAkPDWYaKxXIxeMdki0.jpg",
   "release_date": "1980-08-27",
   "title": "Hawk the Slayer",
@@ -12991,7 +13263,7 @@
   "original_language": "en",
   "original_title": "Excalibur",
   "overview": "A surreal adaptation of Sir Thomas Malory's \"Le Morte d'Arthur\", chronicling Arthur Pendragon's conception, his rise to the throne, the search by his Knights of the Round Table for the Holy Grail, and ultimately his death.",
-  "popularity": 23.159,
+  "popularity": 31.224,
   "poster_path": "/cTWF6zkr5mUOnheowKODIijWYcN.jpg",
   "release_date": "1981-04-10",
   "title": "Excalibur",
@@ -13017,8 +13289,8 @@
   "release_date": "1977-05-25",
   "title": "Star Wars",
   "video": false,
-  "vote_average": 8.205,
-  "vote_count": 19809,
+  "vote_average": 8.2,
+  "vote_count": 19810,
   "found": true
  },
  {
@@ -13038,8 +13310,8 @@
   "release_date": "1980-05-20",
   "title": "The Empire Strikes Back",
   "video": false,
-  "vote_average": 8.391,
-  "vote_count": 16309,
+  "vote_average": 8.4,
+  "vote_count": 16310,
   "found": true
  },
  {
@@ -13059,7 +13331,7 @@
   "release_date": "1983-05-25",
   "title": "Return of the Jedi",
   "video": false,
-  "vote_average": 7.897,
+  "vote_average": 7.9,
   "vote_count": 15057,
   "found": true
  },
@@ -13074,13 +13346,13 @@
   "original_language": "en",
   "original_title": "Over the Top",
   "overview": "Sylvester Stallone stars as hard-luck big-rig trucker Lincoln Hawk and takes us under the glaring Las Vegas lights for all the boisterous action of the World Armwrestling Championship.  Relying on wits and willpower, Hawk tries to rebuild his life by capturing the first-place prize money, and the love of the son he abandoned years earlier into the keeping of his rich, ruthless father-in-law.",
-  "popularity": 25.043,
+  "popularity": 35.06,
   "poster_path": "/yo87I8MxzRf9ZsN6Awc2kM8vGwq.jpg",
   "release_date": "1987-02-13",
   "title": "Over the Top",
   "video": false,
-  "vote_average": 6.391,
-  "vote_count": 1566,
+  "vote_average": 6.389,
+  "vote_count": 1568,
   "found": true
  },
  {
@@ -13093,13 +13365,13 @@
   "original_language": "en",
   "original_title": "The Natural",
   "overview": "An unknown middle-aged batter named Roy Hobbs with a mysterious past appears out of nowhere to take a losing 1930s baseball team to the top of the league.",
-  "popularity": 19.051,
+  "popularity": 26.671,
   "poster_path": "/u2QSNW1OgHRBeifcugmo7pG0uS9.jpg",
   "release_date": "1984-05-11",
   "title": "The Natural",
   "video": false,
-  "vote_average": 6.9,
-  "vote_count": 555,
+  "vote_average": 6.874,
+  "vote_count": 557,
   "found": true
  },
  {
@@ -13113,13 +13385,13 @@
   "original_language": "en",
   "original_title": "Police Academy",
   "overview": "New rules enforced by the Lady Mayoress mean that sex, weight, height and intelligence need no longer be a factor for joining the Police Force. This opens the floodgates for all and sundry to enter the Police Academy, much to the chagrin of the instructors. Not everyone is there through choice, though. Social misfit Mahoney has been forced to sign up as the only alternative to a jail sentence and it doesn't take long before he falls foul of the boorish Lieutenant Harris. But before long, Mahoney realises that he is enjoying being a police cadet and decides he wants to stay... while Harris decides he wants Mahoney out!",
-  "popularity": 31.311,
+  "popularity": 43.835,
   "poster_path": "/m5a1U549gokC1kxsqgQoRb6XpFg.jpg",
   "release_date": "1984-03-22",
   "title": "Police Academy",
   "video": false,
-  "vote_average": 6.7,
-  "vote_count": 2514,
+  "vote_average": 6.67,
+  "vote_count": 2515,
   "found": true
  },
  {
@@ -13260,7 +13532,7 @@
   "title": "Rocky",
   "video": false,
   "vote_average": 7.786,
-  "vote_count": 7460,
+  "vote_count": 7461,
   "found": true
  },
  {
@@ -13297,8 +13569,8 @@
   "release_date": "1982-05-28",
   "title": "Rocky III",
   "video": false,
-  "vote_average": 6.9,
-  "vote_count": 3905,
+  "vote_average": 6.888,
+  "vote_count": 3906,
   "found": true
  },
  {
@@ -13349,7 +13621,7 @@
   "original_language": "en",
   "original_title": "Rocky Balboa",
   "overview": "His Wife is dead and his Son hates him, but this old man still has fight in him!  When he loses a highly publicized virtual boxing match to ex-champ Rocky Balboa, reigning heavyweight titleholder Mason Dixon retaliates by challenging Rocky to a nationally televised, 10-round exhibition bout. To the surprise of his son and friends, Rocky agrees to come out of retirement and face an opponent who's faster, stronger, and thirty years his junior.",
-  "popularity": 42.015,
+  "popularity": 38.054,
   "poster_path": "/xUylDspiTKU3cYzZNeLsN8Krv12.jpg",
   "release_date": "2006-12-20",
   "title": "Rocky Balboa",
@@ -13392,8 +13664,8 @@
   "release_date": "1993-07-28",
   "title": "Robin Hood: Men in Tights",
   "video": false,
-  "vote_average": 6.595,
-  "vote_count": 1969,
+  "vote_average": 6.596,
+  "vote_count": 1970,
   "found": true
  },
  {
@@ -13414,7 +13686,7 @@
   "title": "Robin Hood: Prince of Thieves",
   "video": false,
   "vote_average": 6.851,
-  "vote_count": 3080,
+  "vote_count": 3081,
   "found": true
  },
  {
@@ -13429,13 +13701,13 @@
   "original_language": "en",
   "original_title": "RoboCop",
   "overview": "In a violent, near-apocalyptic Detroit, evil corporation Omni Consumer Products wins a contract from the city government to privatize the police force. To test their crime-eradicating cyborgs, the company leads street cop Alex Murphy into an armed confrontation with crime lord Boddicker so they can use his body to support their untested RoboCop prototype. But when RoboCop learns of the company's nefarious plans, he turns on his masters.",
-  "popularity": 43.704,
+  "popularity": 61.186,
   "poster_path": "/hHtOgGb3NihlyRATHlKPaFApbrd.jpg",
   "release_date": "1987-07-17",
   "title": "RoboCop",
   "video": false,
-  "vote_average": 7.313,
-  "vote_count": 4808,
+  "vote_average": 7.314,
+  "vote_count": 4809,
   "found": true
  },
  {
@@ -13496,7 +13768,7 @@
   "original_language": "en",
   "original_title": "Rush Hour",
   "overview": "When Hong Kong Inspector Lee is summoned to Los Angeles to investigate a kidnapping, the FBI doesn't want any outside help and assigns cocky LAPD Detective James Carter to distract Lee from the case. Not content to watch the action from the sidelines, Lee and Carter form an unlikely partnership and investigate the case themselves.",
-  "popularity": 50.228,
+  "popularity": 68.785,
   "poster_path": "/nwPhAsfnb7f46bZkWLG7IRP5HXr.jpg",
   "release_date": "1998-09-18",
   "title": "Rush Hour",
@@ -13543,8 +13815,8 @@
   "release_date": "2007-08-08",
   "title": "Rush Hour 3",
   "video": false,
-  "vote_average": 6.5,
-  "vote_count": 3066,
+  "vote_average": 6.454,
+  "vote_count": 3067,
   "found": true
  },
  {
@@ -13609,7 +13881,7 @@
   "title": "Speed",
   "video": false,
   "vote_average": 7.13,
-  "vote_count": 5840,
+  "vote_count": 5841,
   "found": true
  },
  {
@@ -13629,8 +13901,8 @@
   "release_date": "1997-06-13",
   "title": "Speed 2: Cruise Control",
   "video": false,
-  "vote_average": 4.6,
-  "vote_count": 1547,
+  "vote_average": 4.583,
+  "vote_count": 1548,
   "found": true
  },
  {
@@ -13645,7 +13917,7 @@
   "original_language": "en",
   "original_title": "Sicario",
   "overview": "An idealistic FBI agent is enlisted by a government task force to aid in the escalating war against drugs at the border area between the U.S. and Mexico.",
-  "popularity": 61.59,
+  "popularity": 72.244,
   "poster_path": "/7P4Pd24PYhIGd8ow47n9ttSTDkY.jpg",
   "release_date": "2015-09-17",
   "title": "Sicario",
@@ -13666,7 +13938,7 @@
   "original_language": "en",
   "original_title": "Scarface",
   "overview": "After getting a green card in exchange for assassinating a Cuban government official, Tony Montana stakes a claim on the drug trade in Miami. Viciously murdering anyone who stands in his way, Tony eventually becomes the biggest drug lord in the state, controlling nearly all the cocaine that comes through Miami. But increased pressure from the police, wars with Colombian drug cartels and his own drug-fueled paranoia serve to fuel the flames of his eventual downfall.",
-  "popularity": 80.933,
+  "popularity": 113.306,
   "poster_path": "/iQ5ztdjvteGeboxtmRdXEChJOHh.jpg",
   "release_date": "1983-12-09",
   "title": "Scarface",
@@ -13686,7 +13958,7 @@
   "original_language": "cn",
   "original_title": "少林足球",
   "overview": "A young Shaolin follower reunites with his discouraged brothers to form a soccer team using their martial art skills to their advantage.",
-  "popularity": 44.381,
+  "popularity": 56.658,
   "poster_path": "/kVpq68NxChzynK7otaymRSaWR8p.jpg",
   "release_date": "2001-07-05",
   "title": "Shaolin Soccer",
@@ -13708,13 +13980,13 @@
   "original_language": "cn",
   "original_title": "功夫",
   "overview": "It's the 1940s, and the notorious Axe Gang terrorizes Shanghai. Small-time criminals Sing and Bone hope to join, but they only manage to make lots of very dangerous enemies. Fortunately for them, kung fu masters and hidden strength can be found in unlikely places. Now they just have to take on the entire Axe Gang.",
-  "popularity": 37.795,
+  "popularity": 49.92,
   "poster_path": "/exbyTbrvRUDKN2mcNEuVor4VFQW.jpg",
   "release_date": "2004-02-10",
   "title": "Kung Fu Hustle",
   "video": false,
-  "vote_average": 7.434,
-  "vote_count": 2636,
+  "vote_average": 7.433,
+  "vote_count": 2637,
   "found": true
  },
  {
@@ -13730,7 +14002,7 @@
   "original_language": "en",
   "original_title": "Spartacus",
   "overview": "The rebellious Thracian Spartacus, born and raised a slave, is sold to Gladiator trainer Batiatus. After weeks of being trained to kill for the arena, Spartacus turns on his owners and leads the other slaves in rebellion. As the rebels move from town to town, their numbers swell as escaped slaves join their ranks. Under the leadership of Spartacus, they make their way to southern Italy, where they will cross the sea and return to their homes.",
-  "popularity": 42.359,
+  "popularity": 53.855,
   "poster_path": "/xLPpQlFWE12cbqNJQ5Vf4eJU8ij.jpg",
   "release_date": "1960-10-13",
   "title": "Spartacus",
@@ -13793,13 +14065,13 @@
   "original_language": "en",
   "original_title": "Scrooged",
   "overview": "Frank Cross is a wildly successful television executive whose cold ambition and curmudgeonly nature has driven away the love of his life. But after firing a staff member on Christmas Eve, Frank is visited by a series of ghosts who give him a chance to re-evaluate his actions and right the wrongs of his past.",
-  "popularity": 21.453,
+  "popularity": 24.968,
   "poster_path": "/uO0znfB2ZzTXA1IS7jkrjNbpkYK.jpg",
   "release_date": "1988-11-22",
   "title": "Scrooged",
   "video": false,
   "vote_average": 6.8,
-  "vote_count": 1428,
+  "vote_count": 1429,
   "found": true
  },
  {
@@ -13836,7 +14108,7 @@
   "original_language": "en",
   "original_title": "Short Circuit 2",
   "overview": "Robot Johnny 5 moves to the city to help his friend Ben Jahrvi with his toy manufacturing enterprise, only to be manipulated by criminals who want to use him for their own nefarious purposes.",
-  "popularity": 15.1,
+  "popularity": 18.515,
   "poster_path": "/gn9Wa1fgrje1uqxiBpFjGOjUT74.jpg",
   "release_date": "1988-07-06",
   "title": "Short Circuit 2",
@@ -13903,8 +14175,8 @@
   "release_date": "2010-07-13",
   "title": "The Sorcerer's Apprentice",
   "video": false,
-  "vote_average": 6.1,
-  "vote_count": 4776,
+  "vote_average": 6.117,
+  "vote_count": 4777,
   "found": true
  },
  {
@@ -13918,7 +14190,7 @@
   "original_language": "en",
   "original_title": "Spaceballs",
   "overview": "When the nefarious Dark Helmet hatches a plan to snatch Princess Vespa and steal her planet's air, space-bum-for-hire Lone Starr and his clueless sidekick fly to the rescue. Along the way, they meet Yogurt, who puts Lone Starr wise to the power of \"The Schwartz.\" Can he master it in time to save the day?",
-  "popularity": 25.886,
+  "popularity": 30.383,
   "poster_path": "/o624HTt93iIJIc1Sg5hNkDTnk5l.jpg",
   "release_date": "1987-06-24",
   "title": "Spaceballs",
@@ -14001,7 +14273,7 @@
   "original_language": "en",
   "original_title": "Spacehunter: Adventures in the Forbidden Zone",
   "overview": "Three women make an emergency landing on a planet plagued with a fatal disease, but are captured by dictator Overdog. Adventurer Wolff goes there to rescue them and meets Niki, the only Earthling left from a medical expedition. Combining their talents, they try to rescue the women.",
-  "popularity": 10.451,
+  "popularity": 10.818,
   "poster_path": "/7RAgXBII8NyApwvX5detCFbH4E3.jpg",
   "release_date": "1983-05-20",
   "title": "Spacehunter: Adventures in the Forbidden Zone",
@@ -14050,8 +14322,8 @@
   "release_date": "1982-06-04",
   "title": "Star Trek II: The Wrath of Khan",
   "video": false,
-  "vote_average": 7.5,
-  "vote_count": 1807,
+  "vote_average": 7.456,
+  "vote_count": 1808,
   "found": true
  },
  {
@@ -14072,7 +14344,7 @@
   "release_date": "1984-06-01",
   "title": "Star Trek III: The Search for Spock",
   "video": false,
-  "vote_average": 6.6,
+  "vote_average": 6.604,
   "vote_count": 1280,
   "found": true
  },
@@ -14087,7 +14359,7 @@
   "original_language": "en",
   "original_title": "Star Trek IV: The Voyage Home",
   "overview": "It's the 23rd century, and a mysterious alien power is threatening Earth by evaporating the oceans and destroying the atmosphere. In a frantic attempt to save mankind, Kirk and his crew must time travel back to 1986 San Francisco where they find a world of punk, pizza and exact-change buses that are as alien as anything they've ever encountered in the far reaches of the galaxy. A thrilling, action-packed Star Trek adventure!",
-  "popularity": 24.823,
+  "popularity": 34.752,
   "poster_path": "/xY5TzGXJOB3L9rhZ1MbbPyVlW5J.jpg",
   "release_date": "1986-11-26",
   "title": "Star Trek IV: The Voyage Home",
@@ -14109,7 +14381,7 @@
   "original_language": "en",
   "original_title": "Starman",
   "overview": "When an alien takes the form of a young widow's husband and asks her to drive him from Wisconsin to Arizona, the government tries to stop them.",
-  "popularity": 20.096,
+  "popularity": 17.764,
   "poster_path": "/cgDeFWkYi6e9FT5RiQPCbQ9HlXZ.jpg",
   "release_date": "1984-12-13",
   "title": "Starman",
@@ -14192,7 +14464,7 @@
   "original_language": "en",
   "original_title": "Stripes",
   "overview": "John Winger, an indolent sad sack in his 30s, impulsively joins the US Army after losing his job, his girlfriend and his apartment.",
-  "popularity": 28.402,
+  "popularity": 35.01,
   "poster_path": "/vP8tPOgmJSNOh4bpOv1bFjid3rZ.jpg",
   "release_date": "1981-06-26",
   "title": "Stripes",
@@ -14236,7 +14508,7 @@
   "original_language": "en",
   "original_title": "The Time Machine",
   "overview": "A Victorian Englishman travels to the far future and finds that humanity has divided into two hostile species.",
-  "popularity": 28.301,
+  "popularity": 30.996,
   "poster_path": "/x3BOzx2rUc5c3gG9UCelzSxv8n4.jpg",
   "release_date": "1960-05-25",
   "title": "The Time Machine",
@@ -14336,7 +14608,7 @@
   "original_language": "en",
   "original_title": "Tropic Thunder",
   "overview": "A group of self-absorbed actors set out to make the most expensive war film ever. After ballooning costs force the studio to cancel the movie, the frustrated director refuses to stop shooting, leading his cast into the jungles of Southeast Asia, where they encounter real bad guys.",
-  "popularity": 48.488,
+  "popularity": 64.775,
   "poster_path": "/zAurB9mNxfYRoVrVjAJJwGV3sPg.jpg",
   "release_date": "2008-08-09",
   "title": "Tropic Thunder",
@@ -14356,13 +14628,13 @@
   "original_language": "en",
   "original_title": "Thank You for Smoking",
   "overview": "Nick Naylor is a charismatic spin-doctor for Big Tobacco who'll fight to protect America's right to smoke -- even if it kills him -- while still remaining a role model for his 12-year old son. When he incurs the wrath of a senator bent on snuffing out cigarettes, Nick's powers of \"filtering the truth\" will be put to the test.",
-  "popularity": 19.748,
+  "popularity": 21.213,
   "poster_path": "/xIlQYkRjpGBMXDkZoS3IRcckScA.jpg",
   "release_date": "2005-09-09",
   "title": "Thank You for Smoking",
   "video": false,
-  "vote_average": 7.2,
-  "vote_count": 2052,
+  "vote_average": 7.193,
+  "vote_count": 2053,
   "found": true
  },
  {
@@ -14385,12 +14657,46 @@
   "found": true
  },
  {
-  "title": "Death Stalker",
-  "found": false
+  "adult": false,
+  "backdrop_path": "/qdBoWf9uHWQyiVciaPKRYHIxMq4.jpg",
+  "genre_ids": [
+   28,
+   14
+  ],
+  "id": 15895,
+  "original_language": "en",
+  "original_title": "Deathstalker",
+  "overview": "The warrior Deathstalker is tasked by an old witch lady to obtain and unite the three powers of creation - a chalice, an amulet, and a sword - lest the evil magician Munkar get them and use them for nefarious purposes. After obtaining the sword, Deathstalker joins with other travelers going to the Big Tournament to determine the strongest warrior. The false king holds the true princess in captivity, and plots to have Deathstalker killed, and Deathstalker must fight to free the princess.",
+  "popularity": 10.109,
+  "poster_path": "/b6q62LelixTe3L3aeJS8khrMf7R.jpg",
+  "release_date": "1983-09-02",
+  "title": "Deathstalker",
+  "video": false,
+  "vote_average": 4.8,
+  "vote_count": 141,
+  "found": true
  },
  {
-  "title": "Death Stalker 2",
-  "found": false
+  "adult": false,
+  "backdrop_path": "/q4gSxWnNMxXqjM8gw4FDcqzWgbu.jpg",
+  "genre_ids": [
+   28,
+   12,
+   35,
+   14
+  ],
+  "id": 28218,
+  "original_language": "en",
+  "original_title": "Deathstalker II",
+  "overview": "Deathstalker helps Reena the Seer out of a few jams, and she solicits his help for a bigger task. She reveals that she is actually Princess Evie, but the evil sorcerer had her abducted and cloned in order to seize control of the kingdom. Together they travel to the evil sorcerer's stronghold to restore the princess to her rightful position, encountering challenges along the way both from the sorcerer's goons and the fierce Amazon women.",
+  "popularity": 15.925,
+  "poster_path": "/uWWGVspUqMezWpXcaaB3yglWp8F.jpg",
+  "release_date": "1987-06-03",
+  "title": "Deathstalker II",
+  "video": false,
+  "vote_average": 5.8,
+  "vote_count": 107,
+  "found": true
  },
  {
   "adult": false,
@@ -14402,7 +14708,7 @@
   "original_language": "en",
   "original_title": "Revenge of the Nerds",
   "overview": "At Adams College, the jocks rule the school from their house on high, the Alpha Beta fraternity. So when a group of socially-challenged misfits try to go Greek, they're instantly rejected by every house on campus. Deciding to start their own fraternity to protect their outcast brothers, the campus nerds soon find themselves in a battle royale as the Alpha Betas try to crush their new rivals.",
-  "popularity": 15.371,
+  "popularity": 19.306,
   "poster_path": "/pi6REVD5Ms8FQSPNzXi6zEqHjUF.jpg",
   "release_date": "1984-07-20",
   "title": "Revenge of the Nerds",
@@ -14486,8 +14792,8 @@
   "release_date": "1986-12-19",
   "title": "Platoon",
   "video": false,
-  "vote_average": 7.7,
-  "vote_count": 4291,
+  "vote_average": 7.745,
+  "vote_count": 4292,
   "found": true
  },
  {
@@ -14503,7 +14809,7 @@
   "original_language": "en",
   "original_title": "Planet of the Apes",
   "overview": "Astronaut Taylor crash lands on a distant planet ruled by apes who use a primitive race of humans for experimentation and sport. Soon Taylor finds himself among the hunted, his life in the hands of a benevolent chimpanzee scientist.",
-  "popularity": 45.228,
+  "popularity": 63.319,
   "poster_path": "/2r9iKnlSYEk4daQadsXfcjHfIjQ.jpg",
   "release_date": "1968-02-07",
   "title": "Planet of the Apes",
@@ -14524,7 +14830,7 @@
   "original_language": "en",
   "original_title": "Beneath the Planet of the Apes",
   "overview": "The sole survivor of an interplanetary rescue mission discovers a planet ruled by apes, and an underground city run by telepathic humans.",
-  "popularity": 36.04,
+  "popularity": 40.656,
   "poster_path": "/szHCeYwi4ubewuYnlnz0YGqWnQC.jpg",
   "release_date": "1970-04-23",
   "title": "Beneath the Planet of the Apes",
@@ -14584,7 +14890,7 @@
   "original_language": "en",
   "original_title": "Battle for the Planet of the Apes",
   "overview": "The fifth and final episode in the Planet of the Apes series. After the collapse of human civilization, a community of intelligent apes led by Caesar lives in harmony with a group of humans. Gorilla General Aldo tries to cause an ape civil war and a community of human mutants who live beneath a destroyed city try to conquer those whom they perceive as enemies. All leading to the finale.",
-  "popularity": 40.338,
+  "popularity": 42.051,
   "poster_path": "/dP5dYjLp5p2CG103cJMio4Nj29d.jpg",
   "release_date": "1973-06-15",
   "title": "Battle for the Planet of the Apes",
@@ -14625,12 +14931,12 @@
   "original_language": "en",
   "original_title": "The Revenant",
   "overview": "In the 1820s, a frontiersman, Hugh Glass, sets out on a path of vengeance against those who left him for dead after a bear mauling.",
-  "popularity": 51.736,
+  "popularity": 64.515,
   "poster_path": "/wkA03WX3IdHYMX2gIxaCwqowQX.jpg",
   "release_date": "2015-12-25",
   "title": "The Revenant",
   "video": false,
-  "vote_average": 7.53,
+  "vote_average": 7.5,
   "vote_count": 17562,
   "found": true
  },
@@ -14654,7 +14960,7 @@
   "title": "Lethal Weapon",
   "video": false,
   "vote_average": 7.29,
-  "vote_count": 4329,
+  "vote_count": 4330,
   "found": true
  },
  {
@@ -14743,8 +15049,8 @@
   "release_date": "2007-04-06",
   "title": "Planet Terror",
   "video": false,
-  "vote_average": 6.7,
-  "vote_count": 3324,
+  "vote_average": 6.665,
+  "vote_count": 3325,
   "found": true
  },
  {
@@ -14864,7 +15170,7 @@
   "original_language": "en",
   "original_title": "Mannequin",
   "overview": "Jonathan Switcher, an unemployed artist, finds a job as an assistant window dresser for a department store. When Jonathan happens upon a beautiful mannequin he previously designed, she springs to life and introduces herself as Emmy, an Egyptian under an ancient spell. Despite interference from the store's devious manager, Jonathan and his mannequin fall in love while creating eye-catching window displays to keep the struggling store in business.",
-  "popularity": 27.85,
+  "popularity": 38.99,
   "poster_path": "/oHMA8euTiZdDFXDi5zaIQQXwl0K.jpg",
   "release_date": "1987-02-13",
   "title": "Mannequin",
@@ -14905,7 +15211,7 @@
   "original_language": "en",
   "original_title": "Navy Seals",
   "overview": "During a rescue mission, a team of Navy Seals discover that a terrorist group have access to deadly US built Stinger missiles, and must set out to locate and destroy them before they can be used.",
-  "popularity": 14.596,
+  "popularity": 18.689,
   "poster_path": "/8SGNGtWDOTbbT9XsMTgfoVHGb2s.jpg",
   "release_date": "1990-07-20",
   "title": "Navy Seals",
@@ -14995,8 +15301,8 @@
   "release_date": "1989-06-21",
   "title": "Batman",
   "video": false,
-  "vote_average": 7.2,
-  "vote_count": 7427,
+  "vote_average": 7.225,
+  "vote_count": 7428,
   "found": true
  },
  {
@@ -15015,8 +15321,8 @@
   "release_date": "1992-06-19",
   "title": "Batman Returns",
   "video": false,
-  "vote_average": 6.9,
-  "vote_count": 6207,
+  "vote_average": 6.923,
+  "vote_count": 6208,
   "found": true
  },
  {
@@ -15031,12 +15337,12 @@
   "original_language": "en",
   "original_title": "Batman Forever",
   "overview": "Batman must battle a disfigured district attorney and a disgruntled former employee with help from an amorous psychologist and a young circus acrobat.",
-  "popularity": 39.796,
+  "popularity": 55.714,
   "poster_path": "/mzzNBVwTiiY94xAXDMWJpNPW2US.jpg",
   "release_date": "1995-06-16",
   "title": "Batman Forever",
   "video": false,
-  "vote_average": 5.4,
+  "vote_average": 5.421,
   "vote_count": 4934,
   "found": true
  },
@@ -15058,8 +15364,8 @@
   "release_date": "1997-06-20",
   "title": "Batman & Robin",
   "video": false,
-  "vote_average": 4.3,
-  "vote_count": 4780,
+  "vote_average": 4.348,
+  "vote_count": 4781,
   "found": true
  },
  {
@@ -15101,7 +15407,7 @@
   "title": "Batman Begins",
   "video": false,
   "vote_average": 7.704,
-  "vote_count": 20202,
+  "vote_count": 20203,
   "found": true
  },
  {
@@ -15117,13 +15423,13 @@
   "original_language": "en",
   "original_title": "The Dark Knight",
   "overview": "Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker.",
-  "popularity": 90.728,
+  "popularity": 100.611,
   "poster_path": "/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
   "release_date": "2008-07-16",
   "title": "The Dark Knight",
   "video": false,
   "vote_average": 8.515,
-  "vote_count": 31666,
+  "vote_count": 31667,
   "found": true
  },
  {
@@ -15144,8 +15450,8 @@
   "release_date": "2012-07-17",
   "title": "The Dark Knight Rises",
   "video": false,
-  "vote_average": 7.8,
-  "vote_count": 21942,
+  "vote_average": 7.778,
+  "vote_count": 21943,
   "found": true
  },
  {
@@ -15166,7 +15472,7 @@
   "title": "The Batman",
   "video": false,
   "vote_average": 7.682,
-  "vote_count": 9366,
+  "vote_count": 9367,
   "found": true
  },
  {
@@ -15229,7 +15535,7 @@
   "title": "Once Upon a Time in America",
   "video": false,
   "vote_average": 8.425,
-  "vote_count": 5114,
+  "vote_count": 5115,
   "found": true
  },
  {
@@ -15247,7 +15553,7 @@
   "release_date": "1964-09-12",
   "title": "A Fistful of Dollars",
   "video": false,
-  "vote_average": 7.845,
+  "vote_average": 7.8,
   "vote_count": 3959,
   "found": true
  },
@@ -15266,7 +15572,7 @@
   "release_date": "1965-12-18",
   "title": "For a Few Dollars More",
   "video": false,
-  "vote_average": 8.023,
+  "vote_average": 8,
   "vote_count": 3736,
   "found": true
  },
@@ -15286,7 +15592,7 @@
   "title": "The Good, the Bad and the Ugly",
   "video": false,
   "vote_average": 8.5,
-  "vote_count": 8160,
+  "vote_count": 8161,
   "found": true
  },
  {
@@ -15306,8 +15612,8 @@
   "release_date": "2003-12-01",
   "title": "The Lord of the Rings: The Return of the King",
   "video": false,
-  "vote_average": 8.5,
-  "vote_count": 23192,
+  "vote_average": 8.479,
+  "vote_count": 23193,
   "found": true
  },
  {
@@ -15368,7 +15674,7 @@
   "release_date": "1983-03-25",
   "title": "The Outsiders",
   "video": false,
-  "vote_average": 7.2,
+  "vote_average": 7.221,
   "vote_count": 1269,
   "found": true
  },
@@ -15563,7 +15869,7 @@
   "release_date": "1980-12-09",
   "title": "Superman II",
   "video": false,
-  "vote_average": 6.7,
+  "vote_average": 6.734,
   "vote_count": 2149,
   "found": true
  },
@@ -15580,7 +15886,7 @@
   "original_language": "en",
   "original_title": "Superman III",
   "overview": "Aiming to defeat the Man of Steel, wealthy executive Ross Webster hires bumbling but brilliant Gus Gorman to develop synthetic kryptonite, which yields some unexpected psychological effects in the third installment of the 1980s Superman franchise. Between rekindling romance with his high school sweetheart and saving himself, Superman must contend with a powerful supercomputer.",
-  "popularity": 22.339,
+  "popularity": 26.101,
   "poster_path": "/jyUk4HG6Kk85k0FdjB9dmatqkRZ.jpg",
   "release_date": "1983-06-17",
   "title": "Superman III",
@@ -15606,8 +15912,8 @@
   "release_date": "1987-07-24",
   "title": "Superman IV: The Quest for Peace",
   "video": false,
-  "vote_average": 4.6,
-  "vote_count": 1174,
+  "vote_average": 4.553,
+  "vote_count": 1175,
   "found": true
  },
  {
@@ -15628,8 +15934,8 @@
   "release_date": "1984-07-01",
   "title": "Supergirl",
   "video": false,
-  "vote_average": 5.3,
-  "vote_count": 556,
+  "vote_average": 5.347,
+  "vote_count": 557,
   "found": true
  },
  {
@@ -15644,7 +15950,7 @@
   "original_language": "en",
   "original_title": "Superman Returns",
   "overview": "Superman returns to discover his 5-year absence has allowed Lex Luthor to walk free, and that those he was closest to felt abandoned and have moved on. Luthor plots his ultimate revenge that could see millions killed and change the face of the planet forever, as well as ridding himself of the Man of Steel.",
-  "popularity": 30.537,
+  "popularity": 41.083,
   "poster_path": "/385XwTQZDpRX2d3kxtnpiLrjBXw.jpg",
   "release_date": "2006-06-28",
   "title": "Superman Returns",
@@ -15748,7 +16054,7 @@
   "release_date": "1980-07-02",
   "title": "Airplane!",
   "video": false,
-  "vote_average": 7.3,
+  "vote_average": 7.296,
   "vote_count": 4240,
   "found": true
  },
@@ -15846,7 +16152,7 @@
   "original_language": "en",
   "original_title": "Soldier",
   "overview": "Sergeant Todd is a veteran soldier for an elite group of the armed forces. After being defeated by a new breed of genetically engineered soldiers, he is dumped on a waste planet and left for dead. He soon interacts with a group of crash survivors who lead out a peaceful existence. The peace is broken as the new soldiers land on the planet to eliminate the colony, which Sergeant Todd must defend.",
-  "popularity": 17.982,
+  "popularity": 17.948,
   "poster_path": "/rYy5m4nnjdlvB6dyGkP9ELZbUZz.jpg",
   "release_date": "1998-10-23",
   "title": "Soldier",
@@ -15929,7 +16235,7 @@
   "original_language": "en",
   "original_title": "Wayne's World",
   "overview": "The adventures of two amiably aimless metal-head friends, Wayne and Garth. From Wayne's basement, the pair broadcast a talk-show called \"Wayne's World\" on local public access television. The show comes to the attention of a sleazy network executive who wants to produce a big-budget version of \"Wayne's World\"—and he also wants Wayne's girlfriend, a rock singer named Cassandra. Wayne and Garth have to battle the executive not only to save their show, but also Cassandra.",
-  "popularity": 20.077,
+  "popularity": 25.262,
   "poster_path": "/nhQtlLVl2z5ywu2uDnXjVqi08On.jpg",
   "release_date": "1992-02-14",
   "title": "Wayne's World",
@@ -15970,13 +16276,13 @@
   "original_language": "en",
   "original_title": "Weird Science",
   "overview": "Two unpopular teenagers, Gary and Wyatt, fail at all attempts to be accepted by their peers. Their desperation to be liked leads them to \"create\" a woman via their computer. Their living and breathing creation is a gorgeous woman, Lisa, whose purpose is to boost their confidence level by putting them into situations which require Gary and Wyatt to act like men.",
-  "popularity": 21.674,
+  "popularity": 26.501,
   "poster_path": "/jaEauZd2joSAKn42D83gm3S0y3F.jpg",
   "release_date": "1985-08-01",
   "title": "Weird Science",
   "video": false,
-  "vote_average": 6.5,
-  "vote_count": 1304,
+  "vote_average": 6.541,
+  "vote_count": 1305,
   "found": true
  },
  {
@@ -15996,7 +16302,7 @@
   "release_date": "1968-12-04",
   "title": "Where Eagles Dare",
   "video": false,
-  "vote_average": 7.5,
+  "vote_average": 7.535,
   "vote_count": 837,
   "found": true
  },
@@ -16081,7 +16387,7 @@
   "release_date": "1964-01-22",
   "title": "Zulu",
   "video": false,
-  "vote_average": 7.4,
+  "vote_average": 7.377,
   "vote_count": 482,
   "found": true
  },
@@ -16096,13 +16402,13 @@
   "original_language": "en",
   "original_title": "Casablanca",
   "overview": "In Casablanca, Morocco in December 1941, a cynical American expatriate meets a former lover, with unforeseen complications.",
-  "popularity": 37.335,
+  "popularity": 52.269,
   "poster_path": "/5K7cOHoay2mZusSLezBOY0Qxh8a.jpg",
   "release_date": "1943-01-15",
   "title": "Casablanca",
   "video": false,
-  "vote_average": 8.2,
-  "vote_count": 5149,
+  "vote_average": 8.164,
+  "vote_count": 5150,
   "found": true
  },
  {
@@ -16162,7 +16468,7 @@
   "title": "Ted",
   "video": false,
   "vote_average": 6.421,
-  "vote_count": 11893,
+  "vote_count": 11894,
   "found": true
  },
  {
@@ -16176,7 +16482,7 @@
   "original_language": "en",
   "original_title": "Tin Cup",
   "overview": "A washed up golf pro working at a driving range tries to qualify for the US Open in order to win the heart of his succesful rival's girlfriend.",
-  "popularity": 20.314,
+  "popularity": 14.047,
   "poster_path": "/rB7OvMmjcBFoogleORaUqrRgp8g.jpg",
   "release_date": "1996-08-16",
   "title": "Tin Cup",
@@ -16292,8 +16598,8 @@
   "release_date": "1984-10-26",
   "title": "The Terminator",
   "video": false,
-  "vote_average": 7.7,
-  "vote_count": 12386,
+  "vote_average": 7.66,
+  "vote_count": 12387,
   "found": true
  },
  {
@@ -16313,8 +16619,8 @@
   "release_date": "1991-07-03",
   "title": "Terminator 2: Judgment Day",
   "video": false,
-  "vote_average": 8.111,
-  "vote_count": 12258,
+  "vote_average": 8.112,
+  "vote_count": 12259,
   "found": true
  },
  {
@@ -16457,7 +16763,7 @@
   "original_language": "ru",
   "original_title": "Иди и смотри",
   "overview": "The invasion of a village in Byelorussia by German forces sends young Florya into the forest to join the weary Resistance fighters, against his family's wishes. There he meets a girl, Glasha, who accompanies him back to his village. On returning home, Florya finds his family and fellow peasants massacred. His continued survival amidst the brutal debris of war becomes increasingly nightmarish, a battle between despair and hope.",
-  "popularity": 20.509,
+  "popularity": 28.713,
   "poster_path": "/qNbMsKVzigERgJUbwf8pKyZogpb.jpg",
   "release_date": "1985-10-17",
   "title": "Come and See",
@@ -16502,7 +16808,7 @@
   "release_date": "1970-06-22",
   "title": "Kelly's Heroes",
   "video": false,
-  "vote_average": 7.4,
+  "vote_average": 7.355,
   "vote_count": 681,
   "found": true
  },
@@ -16517,7 +16823,7 @@
   "original_language": "ru",
   "original_title": "Он - дракон",
   "overview": "In the midst of the wedding princess Miroslava is kidnapped by a dragon and carried away into his castle on the remote island. Mira left everything behind in the past - family, friends and groom. Now the only things she had were a stone cage and a mysterious young man named Arman ... but who is he and what is he doing on that island? Miroslava will know the truth too late: loving a dragon will reveal the bitter truth - love is scary.",
-  "popularity": 26.949,
+  "popularity": 31.797,
   "poster_path": "/9R9mwkXs0W78WMzh4M1yFP7v7RP.jpg",
   "release_date": "2015-12-03",
   "title": "I Am Dragon",
@@ -16536,7 +16842,7 @@
   "original_language": "en",
   "original_title": "Up in Smoke",
   "overview": "An unemployed pot-smoking slacker and amateur drummer, Anthony Stoner ditches his strict parents and hits the road, eventually meeting kindred spirit Pedro de Pacas. While the drug-ingesting duo is soon arrested for possession of marijuana, Anthony and Pedro get released on a technicality, allowing them to continue their many misadventures and ultimately compete in a rock band contest, where they perform the raucous tune \"Earache My Eye.\"",
-  "popularity": 17.502,
+  "popularity": 14.875,
   "poster_path": "/lKXINU3ApbhFPQJ3pqgMzGPCYnH.jpg",
   "release_date": "1978-05-16",
   "title": "Up in Smoke",
@@ -16601,7 +16907,7 @@
   "release_date": "1988-12-02",
   "title": "The Naked Gun: From the Files of Police Squad!",
   "video": false,
-  "vote_average": 7.3,
+  "vote_average": 7.253,
   "vote_count": 3460,
   "found": true
  },
@@ -16621,7 +16927,7 @@
   "release_date": "1991-06-28",
   "title": "The Naked Gun 2½: The Smell of Fear",
   "video": false,
-  "vote_average": 6.8,
+  "vote_average": 6.788,
   "vote_count": 2086,
   "found": true
  },
@@ -16641,8 +16947,8 @@
   "release_date": "1994-03-18",
   "title": "Naked Gun 33⅓: The Final Insult",
   "video": false,
-  "vote_average": 6.5,
-  "vote_count": 1930,
+  "vote_average": 6.476,
+  "vote_count": 1931,
   "found": true
  },
  {
@@ -16679,7 +16985,7 @@
   "release_date": "1987-11-26",
   "title": "Planes, Trains and Automobiles",
   "video": false,
-  "vote_average": 7.2,
+  "vote_average": 7.234,
   "vote_count": 1802,
   "found": true
  },
@@ -16700,7 +17006,7 @@
   "release_date": "1996-11-21",
   "title": "Jingle All the Way",
   "video": false,
-  "vote_average": 6,
+  "vote_average": 6.035,
   "vote_count": 2497,
   "found": true
  },
@@ -16721,8 +17027,8 @@
   "release_date": "2003-10-09",
   "title": "Elf",
   "video": false,
-  "vote_average": 6.7,
-  "vote_count": 3842,
+  "vote_average": 6.652,
+  "vote_count": 3843,
   "found": true
  },
  {
@@ -16819,7 +17125,7 @@
   "original_language": "en",
   "original_title": "Die Hard 2",
   "overview": "Off-duty cop John McClane is gripped with a feeling of déjà vu when, on a snowy Christmas Eve in the nation’s capital, terrorists seize a major international airport, holding thousands of holiday travelers hostage. Renegade military commandos led by a murderous rogue officer plot to rescue a drug lord from justice and are prepared for every contingency except one: McClane’s smart-mouthed heroics.",
-  "popularity": 40.145,
+  "popularity": 45.022,
   "poster_path": "/2rto4EhQrUsJoGGgWcwiRv6hB3H.jpg",
   "release_date": "1990-07-03",
   "title": "Die Hard 2",
@@ -16849,8 +17155,24 @@
   "found": true
  },
  {
-  "title": "Die Hard 4: Live Free or Die Hard",
-  "found": false
+  "adult": false,
+  "backdrop_path": "/6b1dUAKrZZDpgWmpUshKyJNgS8g.jpg",
+  "genre_ids": [
+   28,
+   53
+  ],
+  "id": 1571,
+  "original_language": "en",
+  "original_title": "Live Free or Die Hard",
+  "overview": "John McClane is back and badder than ever, and this time he's working for Homeland Security. He calls on the services of a young hacker in his bid to stop a ring of Internet terrorists intent on taking control of America's computer infrastructure.",
+  "popularity": 46.786,
+  "poster_path": "/wplG0vWnpnzkIBDxBhTfIygqfoK.jpg",
+  "release_date": "2007-06-20",
+  "title": "Live Free or Die Hard",
+  "video": false,
+  "vote_average": 6.622,
+  "vote_count": 5559,
+  "found": true
  },
  {
   "adult": false,
@@ -17015,13 +17337,30 @@
   "release_date": "1992-12-10",
   "title": "The Muppet Christmas Carol",
   "video": false,
-  "vote_average": 7.4,
-  "vote_count": 914,
+  "vote_average": 7.387,
+  "vote_count": 915,
   "found": true
  },
  {
-  "title": "Dr. Seuss' How the Grinch Stole Christmas",
-  "found": false
+  "adult": false,
+  "backdrop_path": "/sy0vo1cmpKqwPRiMUiJ45jyLsX7.jpg",
+  "genre_ids": [
+   10751,
+   35,
+   14
+  ],
+  "id": 8871,
+  "original_language": "en",
+  "original_title": "How the Grinch Stole Christmas",
+  "overview": "The Grinch decides to rob Whoville of Christmas - but a dash of kindness from little Cindy Lou Who and her family may be enough to melt his heart...",
+  "popularity": 64.947,
+  "poster_path": "/14HBFGNQHSl6zsTrCbzDg8aRK0J.jpg",
+  "release_date": "2000-11-17",
+  "title": "How the Grinch Stole Christmas",
+  "video": false,
+  "vote_average": 6.77,
+  "vote_count": 7144,
+  "found": true
  },
  {
   "adult": false,
@@ -17041,8 +17380,8 @@
   "release_date": "1994-11-11",
   "title": "The Santa Clause",
   "video": false,
-  "vote_average": 6.5,
-  "vote_count": 1947,
+  "vote_average": 6.473,
+  "vote_count": 1948,
   "found": true
  },
  {
@@ -17057,7 +17396,7 @@
   "original_language": "en",
   "original_title": "The Santa Clause 2",
   "overview": "Better watch out! The big guy in red is coming to town once again. This time, Scott Calvin -- also known as Santa Claus -- finds out there's an obscure clause in his contract requiring him to take on a wife. He has to leave the North Pole to fulfill his obligations, or else he'll be forced to give up his Yuletide gig.",
-  "popularity": 15.569,
+  "popularity": 20.836,
   "poster_path": "/g8snUzCS8JhRAzAxZUCAktEGU7d.jpg",
   "release_date": "2002-10-31",
   "title": "The Santa Clause 2",
@@ -17124,8 +17463,8 @@
   "release_date": "1990-11-16",
   "title": "Home Alone",
   "video": false,
-  "vote_average": 7.4,
-  "vote_count": 10730,
+  "vote_average": 7.43,
+  "vote_count": 10731,
   "found": true
  },
  {
@@ -17145,8 +17484,8 @@
   "release_date": "1992-11-15",
   "title": "Home Alone 2: Lost in New York",
   "video": false,
-  "vote_average": 6.7,
-  "vote_count": 9181,
+  "vote_average": 6.738,
+  "vote_count": 9182,
   "found": true
  },
  {
@@ -17167,8 +17506,8 @@
   "release_date": "1965-12-09",
   "title": "A Charlie Brown Christmas",
   "video": false,
-  "vote_average": 7.7,
-  "vote_count": 637,
+  "vote_average": 7.71,
+  "vote_count": 638,
   "found": true
  },
  {
@@ -17267,7 +17606,7 @@
   "original_language": "en",
   "original_title": "Four Christmases",
   "overview": "Brad and Kate have made something of an art form out of avoiding their families during the holidays, but this year their foolproof plan is about go bust -- big time. Stuck at the city airport after all departing flights are canceled, the couple is embarrassed to see their ruse exposed to the world by an overzealous television reporter. Now, Brad and Kate are left with precious little choice other than to swallow their pride and suffer the rounds.",
-  "popularity": 15.221,
+  "popularity": 17.035,
   "poster_path": "/zixj44TC7rwzpxtJAG5OzFJnEqe.jpg",
   "release_date": "2008-11-26",
   "title": "Four Christmases",
@@ -17293,8 +17632,8 @@
   "release_date": "2000-02-25",
   "title": "Reindeer Games",
   "video": false,
-  "vote_average": 5.668,
-  "vote_count": 614,
+  "vote_average": 5.667,
+  "vote_count": 615,
   "found": true
  },
  {
@@ -17307,7 +17646,7 @@
   "original_language": "en",
   "original_title": "Friday After Next",
   "overview": "Craig and his cousin Day Day have finally moved out of their parents' houses and into their own crib, working nights at a local mall as security guards. When their house is robbed on Christmas Eve they set out to track down the culprit.",
-  "popularity": 22.892,
+  "popularity": 21.685,
   "poster_path": "/sxHFGPKLWj9e3aaA6wGVxghoiPE.jpg",
   "release_date": "2002-11-22",
   "title": "Friday After Next",
@@ -17473,13 +17812,13 @@
   "original_language": "en",
   "original_title": "Scrooged",
   "overview": "Frank Cross is a wildly successful television executive whose cold ambition and curmudgeonly nature has driven away the love of his life. But after firing a staff member on Christmas Eve, Frank is visited by a series of ghosts who give him a chance to re-evaluate his actions and right the wrongs of his past.",
-  "popularity": 21.453,
+  "popularity": 24.968,
   "poster_path": "/uO0znfB2ZzTXA1IS7jkrjNbpkYK.jpg",
   "release_date": "1988-11-22",
   "title": "Scrooged",
   "video": false,
   "vote_average": 6.8,
-  "vote_count": 1428,
+  "vote_count": 1429,
   "found": true
  },
  {
@@ -17594,7 +17933,7 @@
   "original_language": "it",
   "original_title": "Django",
   "overview": "A coffin-dragging gunslinger and a prostitute become embroiled in a bitter feud between a merciless masked clan and a band of Mexican revolutionaries.",
-  "popularity": 27.945,
+  "popularity": 27.693,
   "poster_path": "/vs4vieNstSEfbgLFEelXXOPvr6h.jpg",
   "release_date": "1966-04-06",
   "title": "Django",
