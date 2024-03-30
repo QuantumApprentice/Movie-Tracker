@@ -155,8 +155,10 @@ function Credits({movie, tmdb})
 
   return (
     <div className="movie-credits">
-      <img src={`https://image.tmdb.org/t/p/w300/${tmdb?.poster_path}`} />
-      <h3>{tmdb?.overview}</h3>
+      <h3>
+        <img style={{float:'right'}} src={`https://image.tmdb.org/t/p/w300/${tmdb?.poster_path}`} />
+        {tmdb?.overview}
+      </h3>
     </div>
   )
 }

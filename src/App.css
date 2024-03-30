@@ -1,5 +1,6 @@
 #root {
   /* max-width: 1280px; */
+  
   text-align: center;
   position: relative;
   width: 100vw;
@@ -78,8 +79,9 @@ then in the CSS something like
 .movie-title-disp {
   display: flex;
   flex-direction: col;
-  height: 25vh;
   margin-bottom: 1rem;
+  justify-content: flex-end;
+
 }
 
 th {
@@ -98,6 +100,14 @@ iframe {
   max-height: 315px;
   width: var(--trailer-width);
   height: calc(var(--trailer-width)/1.77777);
+}
+
+.title {
+  flex-grow: 1;
+  text-align: center;
+}
+.vote {
+  align-items: end;
 }
 
 
