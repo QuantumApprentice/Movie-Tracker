@@ -59,9 +59,7 @@ async function parseList3()
   movie_json = JSON.stringify(movieList,null,' ');
   fs.writeFileSync('src/movieList.json', movie_json);
 
-
   movieJson = JSON.parse(movie_json);
-
 
   // let file = new Blob([movie_json]);
   // let a = document.createElement("a");
@@ -322,51 +320,61 @@ async function get_movie_info(title, year)
   // let get_fav = await fetch(`https://api.themoviedb.org/3/account/${acct_id}/favorite/movies?language=fr`, get_options);
   // let api_get_fav = await get_fav.json();
   // console.log(api_get_fav);
-
 }
 
-async function tmdb_json()
+async function get_movie_details(movie)
+{
+  const get_options = {
+    method: 'GET',
+    headers: {
+      accept: 'application/json',
+      Authorization: `Bearer ${token}`
+    }
+  }
+  let url = new URL(`https://api.themoviedb.org/3/movie/${movie.dbid}`);
+  // url.search = new URLSearchParams(searchParams);
+  let movie_details_json;
+  try {
+    let movie_details = await fetch(url.toString(), get_options);
+    movie_details_json = await movie_details.json();
+
+    return movie_details_json;
+
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+async function build_tmdb_json()
 {
   // console.log(movieJson);
 
   let db_json = [];
   // let entry = [];
   for (const movie of movieJson) {
-    // entry.push(get_movie_info(movie.title, movie.year));
-    // let entry = finalJson.find(m=>
-    //   {
-    //     if (m.title === movie.title) {
-    //       console.log("tmdb.title: ", m.title);
-    //       return true;
-    //     }
-    //     return false;
-    //   });
-    // console.log("entry: ", entry);
-    // console.log("movie.title: ", movie.title);
-    // // console.log("tmdb.title: ", m.title);
-    // if (!entry) {
-    //   // entry = await get_movie_info(movie.title, movie.year);
-    //   // entry = finalJson.find(m=>m.title == movie.title);
-    //   // console.log(entry);
-    //   // if (!entry) {
-    //   // console.log(entry);
-    //   console.log(" huh?", movie);
-    //   if (entry?.results) {
-    //     if (entry?.results[0]) {
-    //       db_json.push({...entry.results[0], found: true});
-    //     } else {
-    //       db_json.push({title: movie.title, found: false});
-    //     }
-    //   }
-    // }
-    // console.log(entry.results[0]);
     let entry = await get_movie_info(movie.title, movie.year);
     if (entry?.results[0]) {
       //attach tmdb movie id to local movieList.json
       movie.dbid = entry.results[0].id;
-      db_json.push({...entry.results[0], found: true});
+
+      let movie_details_json = await get_movie_details(movie);
+
+      let hours = Math.floor(movie_details_json.runtime/60);
+      let minutes = (movie_details_json.runtime % 60);
+      if (hours > 0) {
+        movie_details_json.runtime = hours.toString() + "h" + minutes.toString() + "m";
+      } else {
+        movie_details_json.runtime = minutes.toString() + "m";
+      }
+
+      db_json.push({...entry.results[0], tagline: movie_details_json.tagline, runtime: movie_details_json.runtime, found: true});
+
+      //TODO: check if this works to link tmdbJson to movieJson
+      // movie.tmdb_link = db_json;
     } else {
-      db_json.push({title: movie.title, found: false});
+      db_json.push({title: movie.title, year: movie.year, found: false});
+      //TODO: check if this works to link tmdbJson to movieJson
+      // movie.tmdb_link = db_json;
     }
   }
   // db_json = [...finalJson, ...db_json]
@@ -386,4 +394,4 @@ async function tmdb_json()
   // a.download = 'tmdbList.json';
   // a.click();
 }
-tmdb_json();
+build_tmdb_json();

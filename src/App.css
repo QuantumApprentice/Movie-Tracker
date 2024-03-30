@@ -1,14 +1,12 @@
 #root {
   /* max-width: 1280px; */
-  
+
   text-align: center;
   position: relative;
-  width: 100vw;
-  height: 100vh;
 }
 
 *{
-  border: solid 1px red;
+  /* border: solid 1px red; */
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -33,10 +31,16 @@ then in the CSS something like
   align-items: flex-start;
 }
 
+.movie-title-list {
+  text-align: left;
+}
+
 .movie-display {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   height: 100vh;
+  width: 100vw;
   background: linear-gradient(
               rgba(0, 0, 0, 0.5),
               rgba(0, 0, 0, 1.0)),
@@ -59,26 +63,35 @@ then in the CSS something like
   width: 45vw;
   height: 75vh;
   text-align: left;
-  align-items: flex-start;
+  /* align-items: flex-start; */
   width: fit-content;
   overflow-y: auto;
 }
 
+.movie-trailer-list {
+  height: 1vh;
+  font-size: 4px;
+}
+
 .movie-credits {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 45vw;
   max-width: 560px;
   height: 75vh;
   text-align: left;
-  align-items: flex-start;
+  align-items: flex-end;
   backdrop-filter: blur(40px);
   overflow-y: auto;
 }
 
+.tagline {
+  text-align: center;
+}
+
 .movie-title-disp {
   display: flex;
-  flex-direction: col;
+  flex-direction: row;
   margin-bottom: 1rem;
   justify-content: flex-end;
 
@@ -90,9 +103,7 @@ th {
   text-decoration: underline;
 }
 
-.movie-title-list {
-  text-align: left;
-}
+
 
 iframe {
   --trailer-width: 48vw;
@@ -104,7 +115,8 @@ iframe {
 
 .title {
   flex-grow: 1;
-  text-align: center;
+  /* text-align: center; */
+  /* align-self: center; */
 }
 .vote {
   align-items: end;
