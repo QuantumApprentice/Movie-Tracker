@@ -102,7 +102,9 @@ th {
   text-decoration: underline;
 }
 
-
+.next-prev-btn {
+  font-size: 45px;
+}
 
 iframe {
   --trailer-width: 48vw;

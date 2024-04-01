@@ -70,7 +70,8 @@ export function DisplayMovie()
   // const [info, setInfo] = useState(null);
 
   let {movieId} = useParams();
-  let currentMovie = movieJson.find(m=>m.id === movieId)
+  let currentMovie = movieJson.find(m=>m.id === movieId);
+  let currentIdx   = movieJson.findIndex(m=>m.dbid === currentMovie.dbid);
   let currentDB    = tmdbList?.find(m=>m.id === currentMovie.dbid);
   // console.log(currentDB);
 
@@ -81,8 +82,8 @@ export function DisplayMovie()
         <MovieTitle movie={currentMovie} tmdb={currentDB} />
         <div className="movie-info">
           {!!currentMovie.links && 
-          <Trailer movie={currentMovie} css={"movie-trailer"} />}
-          <Credits movie={currentMovie} tmdb={currentDB}  />
+          <Trailer movie={currentMovie} idx={currentIdx} css={"movie-trailer"} />}
+          <Credits movie={currentMovie} idx={currentIdx} tmdb={currentDB}  />
         </div>
       </div>
     </>
@@ -180,12 +181,14 @@ function MovieTitle({movie, tmdb})
   )
 }
 
-function Trailer({movie, css})
+function Trailer({movie, idx, css})
 {
   // console.log("movie: ", movie);
+  let moviePrev = movieJson[idx-1];
 
   return (
     <div className={`${css}`}>
+      <Link to={`/movies/${moviePrev.id}`} className='next-prev-btn'>PREV</Link>
       {Object.entries(movie.links).map((type_arr)=>{
         let link_type = type_arr[0];
         let link_urls = type_arr[1];
@@ -221,12 +224,15 @@ function YTlink({type, url})
 }
 
 
-function Credits({movie, tmdb})
+function Credits({movie, idx, tmdb})
 {
   // get_details(movie).then(d=>console.log(d));
 
+  let movieNext = movieJson[idx+1];
+
   return (
     <div className="movie-credits">
+      <Link to={`/movies/${movieNext.id}`} className='next-prev-btn'>NEXT</Link>
         <h2 className='tagline'>{tmdb?.tagline}</h2>
       <h3>
         <img style={{float:'right'}} src={`https://image.tmdb.org/t/p/w300/${tmdb?.poster_path}`} />
