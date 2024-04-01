@@ -91,9 +91,9 @@ export function DisplayMovie()
 
 //temporary function to get the details of one item
 //used to test tmdb access without doing a complete pull
-async function get_details(id)
+async function get_details(movie, type)
 {
-  console.log("dbid: ", id);
+  // console.log("dbid: ", movie.id);
   const get_options = {
     method: 'GET',
     headers: {
@@ -101,34 +101,70 @@ async function get_details(id)
       Authorization: `Bearer ${token}`
     }
   }
-  let url = new URL(`https://api.themoviedb.org/3/movie/${id}`);
-  // url.search = new URLSearchParams(searchParams);
-  try {
-    let movie_details = await fetch(url.toString(), get_options);
-    let movie_details_json = await movie_details.json();
-    return movie_details_json;
 
+
+  // //Authenticate
+  // let api = await fetch('https://api.themoviedb.org/3/authentication', get_options);
+  // let api_json = await api.json();
+  // console.log(api_json);
+
+  let searchParams = {};
+  searchParams.query = movie.title;
+  if (movie.year) {
+    searchParams.year = movie.year;
+  }
+
+  let url;
+  if (type == "ratings") {
+    url = new URL(`https://api.themoviedb.org/3/movie/${movie.dbid}/release_dates`);
+  } else {
+    url = new URL(`https://api.themoviedb.org/3/movie/${movie.dbid}`);
+    url.search = new URLSearchParams(searchParams);
+  }
+
+  let movie_details_json;
+  let movie_details;
+  try {
+    movie_details = await fetch(url.toString(), get_options);
+    movie_details_json = await movie_details.json();
   } catch (error) {
     console.log(error);
   }
+
+  if (type==="ratings") {
+    let rating_by_country = movie_details_json.results.map((r)=>{
+      let country = r.iso_3166_1;
+      let rating = r.release_dates[0].certification;
+      let temp = {"country" : country, "rating" : rating}
+      return temp;
+    });
+    return rating_by_country
+  } else {
+    return movie_details_json;
+  }
+
 }
 
 function MovieTitle({movie, tmdb})
 {
   const [count, setCount] = useState(0);
 
-  // get_details(movie.dbid).then(d=>console.log(d));
-
+  // get_details(movie.dbid, "details").then(d=>console.log(d));
+  // get_details(movie, "ratings").then(d=>console.log(d));
+  let USrating = tmdb.ratings?.find(f=>f.country=="US");
+  // console.log(USrating);
   return (
     <div className='movie-title-disp'>
       <div className='title'>
+        <h2></h2>
         <div>
           <h1>{movie.title}</h1>
           <h2>({movie.year ||
-            tmdb.release_date.slice(0,4)}
-          )</h2>
+                tmdb.release_date.slice(0,4)})
+          </h2>
+          <h1>{USrating?.rating}</h1>
           <h2>{movie.runtime || 
-            tmdb.runtime
+                tmdb.runtime
           }</h2>
         </div>
       </div>
@@ -187,6 +223,7 @@ function YTlink({type, url})
 
 function Credits({movie, tmdb})
 {
+  // get_details(movie).then(d=>console.log(d));
 
   return (
     <div className="movie-credits">

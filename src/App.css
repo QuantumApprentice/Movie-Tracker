@@ -59,12 +59,11 @@ then in the CSS something like
 .movie-trailer {
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  width: 45vw;
+  /* height: 100vh; */
+  width: 48vw;
+  max-width: 560px;
   height: 75vh;
   text-align: left;
-  /* align-items: flex-start; */
-  width: fit-content;
   overflow-y: auto;
 }
 

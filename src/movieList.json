@@ -2320,9 +2320,33 @@
  },
  {
   "watched": false,
+  "title": "Mafia vs Ninja",
+  "year": "1985",
+  "runtime": "1h24m",
+  "links": {
+   " trailer(German)": [
+    "https://youtu.be/RSE99Zgxi1Q"
+   ],
+   " movie(380p)": [
+    "https://www.dailymotion.com/video/x8ml1ww"
+   ]
+  },
+  "id": "mafia-vs-ninja-1985",
+  "dbid": 121985
+ },
+ {
+  "watched": false,
   "title": "48 Hours",
   "year": "1982",
-  "links": {},
+  "links": {
+   " trailer": [
+    "https://youtu.be/tzzKUTQVXSM",
+    "https://youtu.be/iKMpn9mTV_w"
+   ],
+   " tvspot": [
+    "https://youtu.be/kYFb2C44qME"
+   ]
+  },
   "id": "48-hours-1982",
   "dbid": 150
  },
@@ -2330,7 +2354,15 @@
   "watched": false,
   "title": "A Better Tomorrow",
   "year": "1986",
-  "links": {},
+  "runtime": "1h39m",
+  "links": {
+   " trailer(English)": [
+    "https://youtu.be/VRscdJCAM8o"
+   ],
+   " trailer(Chinese)": [
+    "https://youtu.be/M7ZBsUf986E"
+   ]
+  },
   "id": "a-better-tomorrow-1986",
   "dbid": 11471
  },
@@ -2338,7 +2370,14 @@
   "watched": false,
   "title": "A Better Tomorrow 2",
   "year": "1987",
-  "links": {},
+  "links": {
+   " trailer": [
+    "https://youtu.be/OOm6zGG8cvk"
+   ],
+   " trailer(Chinese)": [
+    "https://youtu.be/p5CfkEB1RaA"
+   ]
+  },
   "id": "a-better-tomorrow-2-1987",
   "dbid": 18305
  },
@@ -2346,15 +2385,39 @@
   "watched": false,
   "title": "Above the Law",
   "year": "1988",
-  "links": {},
+  "links": {
+   " trailer": [
+    "https://youtu.be/oiQi0WvS6Sc"
+   ]
+  },
   "id": "above-the-law-1988",
   "dbid": 9395
  },
  {
   "watched": false,
+  "title": "Above the Law",
+  "year": "1986",
+  "links": {
+   " trailer": [
+    "https://youtu.be/jJK0cMB7nMs"
+   ]
+  },
+  "id": "above-the-law-1986",
+  "dbid": 66212
+ },
+ {
+  "watched": false,
   "title": "Action Jackson",
   "year": "1988",
-  "links": {},
+  "links": {
+   " trailer": [
+    "https://youtu.be/lnnA33SPYXU",
+    "https://youtu.be/MN0sV-WuB-g"
+   ],
+   " modern": [
+    "https://youtu.be/PEaxFvHuW4k"
+   ]
+  },
   "id": "action-jackson-1988",
   "dbid": 10117
  },
@@ -2362,30 +2425,92 @@
   "watched": true,
   "title": "American Ninja",
   "year": "1985",
-  "links": {},
+  "links": {
+   " trailer": [
+    "https://youtu.be/6xrzqPLwOio"
+   ]
+  },
   "id": "american-ninja-1985",
   "dbid": 12500
  },
  {
+  "watched": false,
+  "title": "American Ninja 2: The Confrontation",
+  "year": "1987",
+  "links": {
+   " trailer": [
+    "https://youtu.be/ImIJwinvey4"
+   ]
+  },
+  "id": "american-ninja-2-the-confrontation-1987",
+  "dbid": 25678
+ },
+ {
   "watched": true,
   "title": "Beverly Hills Cop",
-  "links": {},
-  "id": "beverly-hills-cop-undefined",
+  "year": "1984",
+  "runtime": "1h45m",
+  "links": {
+   " trailer": [
+    "https://youtu.be/oc3sPICXZLs"
+   ]
+  },
+  "id": "beverly-hills-cop-1984",
   "dbid": 90
  },
  {
   "watched": true,
   "title": "Beverly Hills Cop 2",
   "year": "1987",
-  "links": {},
+  "runtime": "1h43m",
+  "links": {
+   " trailer": [
+    "https://youtu.be/2QHk337vv4Y"
+   ],
+   " tvspot": [
+    "https://youtu.be/7dadoWHEE34"
+   ]
+  },
   "id": "beverly-hills-cop-2-1987",
   "dbid": 96
+ },
+ {
+  "watched": false,
+  "title": "Beverly Hills Cop 3",
+  "year": "1994",
+  "links": {
+   " trailer": [
+    "https://youtu.be/DbP7Ptyr1sA"
+   ]
+  },
+  "id": "beverly-hills-cop-3-1994",
+  "dbid": 306
+ },
+ {
+  "watched": false,
+  "title": "Beverly Hills Cop: Axel F",
+  "year": "2024",
+  "links": {
+   " teaser": [
+    "https://youtu.be/qBG3iyr5N70"
+   ]
+  },
+  "id": "beverly-hills-cop-axel-f-2024",
+  "dbid": 280180
  },
  {
   "watched": true,
   "title": "Big Trouble in Little China",
   "year": "1986",
-  "links": {},
+  "runtime": "1h40m",
+  "links": {
+   " trailer": [
+    "https://youtu.be/AXsBBqPb5YE"
+   ],
+   " modern": [
+    "https://youtu.be/eEd3-ILpR-8"
+   ]
+  },
   "id": "big-trouble-in-little-china-1986",
   "dbid": 6978
  },
@@ -2452,7 +2577,14 @@
   "watched": false,
   "title": "Invasion U.S.A.",
   "year": "1985",
-  "links": {},
+  "links": {
+   " trailer": [
+    "https://youtu.be/MEJMnLZKuVU"
+   ],
+   " tvspot": [
+    "https://youtu.be/c2CsxlXx7y0"
+   ]
+  },
   "id": "invasion-u-s-a-1985",
   "dbid": 15983
  },
@@ -2468,9 +2600,25 @@
   "watched": false,
   "title": "Missing in Action",
   "year": "1984",
-  "links": {},
+  "links": {
+   " trailer": [
+    "https://youtu.be/RElbbV8iWKQ"
+   ]
+  },
   "id": "missing-in-action-1984",
   "dbid": 15379
+ },
+ {
+  "watched": false,
+  "title": "Missing in Action 2: The Beginning",
+  "year": "1985",
+  "links": {
+   " trailer": [
+    "https://youtu.be/dtukSidHyV0"
+   ]
+  },
+  "id": "missing-in-action-2-the-beginning-1985",
+  "dbid": 12764
  },
  {
   "watched": true,
@@ -3814,7 +3962,8 @@
   "dbid": 9604
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "03.30.24",
   "title": "Twins",
   "year": "1988",
   "runtime": "1h46m",
@@ -4758,8 +4907,9 @@
   "watched": true,
   "title": "The Wizard of Speed and Time",
   "year": "1979",
+  "runtime": "1h35m",
   "links": {
-   "trailer": [
+   " trailer": [
     "https://youtu.be/zSB6ZRC-dyQ"
    ],
    " movie": [
@@ -5339,7 +5489,8 @@
   "dbid": 2059
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "03.30.24",
   "title": "National Treasure: Book of Secrets",
   "year": "2007",
   "runtime": "2h4m",
@@ -7850,6 +8001,9 @@
   "links": {
    " trailer": [
     "https://youtu.be/spg-9_OsjdU"
+   ],
+   " modern": [
+    "https://youtu.be/wP0MLnUKhWU"
    ]
   },
   "id": "red-sonja-1985",

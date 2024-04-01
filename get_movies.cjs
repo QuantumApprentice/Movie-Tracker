@@ -322,7 +322,7 @@ async function get_movie_info(title, year)
   // console.log(api_get_fav);
 }
 
-async function get_movie_details(movie)
+async function get_movie_details(id)
 {
   const get_options = {
     method: 'GET',
@@ -331,7 +331,7 @@ async function get_movie_details(movie)
       Authorization: `Bearer ${token}`
     }
   }
-  let url = new URL(`https://api.themoviedb.org/3/movie/${movie.dbid}`);
+  let url = new URL(`https://api.themoviedb.org/3/movie/${id}`);
   // url.search = new URLSearchParams(searchParams);
   let movie_details_json;
   try {
@@ -339,6 +339,36 @@ async function get_movie_details(movie)
     movie_details_json = await movie_details.json();
 
     return movie_details_json;
+
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+async function get_movie_ratings(id)
+{
+  const get_options = {
+    method: 'GET',
+    headers: {
+      accept: 'application/json',
+      Authorization: `Bearer ${token}`
+    }
+  }
+  let url = new URL(`https://api.themoviedb.org/3/movie/${id}/release_dates`)
+  try {
+    let release_dates = await fetch(url.toString(), get_options);
+
+
+    //TODO: need to parse out ratings from this wacky release dates array
+    let ratings_json = await release_dates.json();
+    let rating_by_country = ratings_json.results.map((r)=>{
+      let country = r.iso_3166_1;
+      let rating = r.release_dates[0].certification;
+      let country_rating = {"country" : country, "rating" : rating}
+      return country_rating;
+    });
+
+    return rating_by_country;
 
   } catch (error) {
     console.log(error);
@@ -357,17 +387,24 @@ async function build_tmdb_json()
       //attach tmdb movie id to local movieList.json
       movie.dbid = entry.results[0].id;
 
-      let movie_details_json = await get_movie_details(movie);
+      let movie_details_json = await get_movie_details(movie.dbid);
+
+      let movie_ratings = await get_movie_ratings(movie.dbid);
 
       let hours = Math.floor(movie_details_json.runtime/60);
       let minutes = (movie_details_json.runtime % 60);
       if (hours > 0) {
-        movie_details_json.runtime = hours.toString() + "h" + minutes.toString() + "m";
+        movie_details_json.runtime = hours.toString() + "h"
+                                  + minutes.toString() + "m";
       } else {
         movie_details_json.runtime = minutes.toString() + "m";
       }
 
-      db_json.push({...entry.results[0], tagline: movie_details_json.tagline, runtime: movie_details_json.runtime, found: true});
+      db_json.push({...entry.results[0],
+                    tagline: movie_details_json.tagline,
+                    runtime: movie_details_json.runtime,
+                    ratings: movie_ratings,
+                    found: true});
 
       //TODO: check if this works to link tmdbJson to movieJson
       // movie.tmdb_link = db_json;
