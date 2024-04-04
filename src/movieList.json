@@ -2310,12 +2310,13 @@
  {
   "watched": false,
   "title": "You Only Live Twice",
+  "year": "1967",
   "links": {
    " trailer": [
     "https://youtu.be/WbvZvDTTaZ8"
    ]
   },
-  "id": "you-only-live-twice-undefined",
+  "id": "you-only-live-twice-1967",
   "dbid": 667
  },
  {
@@ -2803,14 +2804,14 @@
   "watched": true,
   "watchdate": "9.24.2022",
   "title": "Alien 3",
-  "year": "1991",
+  "year": "1992",
   "links": {
    "trailer": [
     "https://youtu.be/Ipv1y-Phi7A"
    ]
   },
-  "id": "alien-3-1991",
-  "dbid": 106
+  "id": "alien-3-1992",
+  "dbid": 8077
  },
  {
   "watched": false,
@@ -2906,18 +2907,6 @@
   },
   "id": "a-i-artificial-intelligence-2001",
   "dbid": 644
- },
- {
-  "watched": false,
-  "title": "Apocalypse Now",
-  "year": "1979",
-  "links": {
-   "trailer": [
-    "https://youtu.be/9l-ViOOFH-s"
-   ]
-  },
-  "id": "apocalypse-now-1979",
-  "dbid": 28
  },
  {
   "watched": false,
@@ -3096,7 +3085,8 @@
     "https://youtu.be/tLj_Bzw8n90"
    ]
   },
-  "id": "super-undefined",
+  "id": "super-2010",
+  "year": "2010",
   "dbid": 45132
  },
  {
@@ -3107,7 +3097,8 @@
     "https://youtu.be/2rpXHqnGDXo"
    ]
   },
-  "id": "kickass-undefined",
+  "id": "kickass-2010",
+  "year": "2010",
   "dbid": 23483
  },
  {
@@ -3138,7 +3129,7 @@
  },
  {
   "watched": true,
-  "title": "The Adventures of Buckaroo Bonzai",
+  "title": "The Adventures of Buckaroo Banzai",
   "year": "1984",
   "links": {
    "trailer": [
@@ -3151,7 +3142,8 @@
     "https://youtu.be/XbUE0uahrBE"
    ]
   },
-  "id": "the-adventures-of-buckaroo-bonzai-1984"
+  "id": "the-adventures-of-buckaroo-banzai-1984",
+  "dbid": 11379
  },
  {
   "watched": true,
@@ -3601,7 +3593,8 @@
   "watched": false,
   "title": "Earth vs the Flying Saucers",
   "links": {},
-  "id": "earth-vs-the-flying-saucers-undefined",
+  "id": "earth-vs-the-flying-saucers-1956",
+  "year": "1956",
   "dbid": 18158
  },
  {
@@ -5660,6 +5653,20 @@
  },
  {
   "watched": false,
+  "title": "Dodgeball",
+  "year": "2004",
+  "runtime": "1h32m",
+  "links": {
+   " trailer": [
+    "https://youtu.be/rZfmbdpVLAA",
+    "https://youtu.be/eDqXTWu5rew"
+   ]
+  },
+  "id": "dodgeball-2004",
+  "dbid": 9472
+ },
+ {
+  "watched": false,
   "title": "Troma's War",
   "year": "1988",
   "links": {
@@ -5713,15 +5720,9 @@
   "watched": false,
   "title": "The Godfather Part II",
   "links": {},
-  "id": "the-godfather-part-ii-undefined",
+  "id": "the-godfather-part-ii-1974",
+  "year": "1974",
   "dbid": 240
- },
- {
-  "watched": false,
-  "title": "Apocalypse Now",
-  "links": {},
-  "id": "apocalypse-now-undefined",
-  "dbid": 28
  },
  {
   "watched": false,
@@ -5734,6 +5735,18 @@
   },
   "id": "supernova-2000",
   "dbid": 10384
+ },
+ {
+  "watched": false,
+  "title": "Apocalypse Now",
+  "year": "1979",
+  "links": {
+   "trailer": [
+    "https://youtu.be/9l-ViOOFH-s"
+   ]
+  },
+  "id": "apocalypse-now-1979",
+  "dbid": 28
  },
  {
   "watched": false,
@@ -5786,7 +5799,8 @@
   "watched": false,
   "title": "Existenz",
   "links": {},
-  "id": "existenz-undefined",
+  "id": "existenz-1999",
+  "year": "1999",
   "dbid": 1946
  },
  {
@@ -7638,7 +7652,8 @@
     "https://youtu.be/XIs0WjaDBRY"
    ]
   },
-  "id": "coctail-undefined",
+  "id": "coctail-1983",
+  "year": "1983",
   "dbid": 705811
  },
  {
@@ -8719,8 +8734,7 @@
     "https://youtu.be/UjjiE0OD4K0"
    ]
   },
-  "id": "space-cop-2016",
-  "dbid": 1213187
+  "id": "space-cop-2016"
  },
  {
   "watched": false,
@@ -11012,7 +11026,8 @@
   "watched": false,
   "title": "Hajime no Ippo",
   "links": {},
-  "id": "hajime-no-ippo-undefined",
+  "id": "hajime-no-ippo-2003",
+  "year": "2003",
   "dbid": 45287
  }
 ]

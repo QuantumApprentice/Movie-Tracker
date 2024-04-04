@@ -23,6 +23,7 @@ export function DisplayList()
 {
   let movieList = movieJson;
   // console.log(movieList);
+  // console.log(movieJson);
 
   return (
     <>
@@ -41,7 +42,7 @@ export function DisplayList()
                 <Link to={`/movies/${movie.id}`}>
                   {movie.title}</Link>
               </td>
-              <td>({movie.year || tmdbList.find(m=>m.id===movie.dbid).release_date.slice(0,4)})</td>
+              <td>({movie.year || tmdbList.find(m=>m.id===movie.dbid)?.release_date?.slice(0,4)})</td>
               <td>[{movie.runtime || tmdbList.find(m=>m.id===movie.dbid).runtime}]</td>
               <td>({movie.watchdate || (movie.watched ? "watched": "")})</td>
               <td>
@@ -71,14 +72,14 @@ export function DisplayMovie()
 
   let {movieId} = useParams();
   let currentMovie = movieJson.find(m=>m.id === movieId);
-  let currentIdx   = movieJson.findIndex(m=>m.dbid === currentMovie.dbid);
+  let currentIdx   = movieJson.findIndex(m=>m === currentMovie);
   let currentDB    = tmdbList?.find(m=>m.id === currentMovie.dbid);
-  // console.log(currentDB);
 
+  console.log(currentDB);
   return (
     <>
       <div className='movie-display'
-          style={{"--data-backdrop-url": `url("https://image.tmdb.org/t/p/w1280/${currentDB?.backdrop_path}")`}}>
+          style={{"--data-backdrop-url": `url("/bg/${currentDB?.bg || currentDB?.backdrop_path}")`}}>
         <MovieTitle movie={currentMovie} tmdb={currentDB} />
         <div className="movie-info">
           {!!currentMovie.links && 
@@ -128,6 +129,7 @@ async function get_details(movie, type)
   try {
     movie_details = await fetch(url.toString(), get_options);
     movie_details_json = await movie_details.json();
+    console.log(movie_details_json);
   } catch (error) {
     console.log(error);
   }
@@ -161,7 +163,7 @@ function MovieTitle({movie, tmdb})
         <div>
           <h1>{movie.title}</h1>
           <h2>({movie.year ||
-                tmdb.release_date.slice(0,4)})
+                tmdb?.release_date?.slice(0,4)})
           </h2>
           <h1>{USrating?.rating}</h1>
           <h2>{movie.runtime || 
@@ -184,6 +186,9 @@ function MovieTitle({movie, tmdb})
 function Trailer({movie, idx, css})
 {
   // console.log("movie: ", movie);
+  if (idx-1 < 0) {
+    idx = movieJson.length;
+  }
   let moviePrev = movieJson[idx-1];
 
   return (
@@ -227,7 +232,9 @@ function YTlink({type, url})
 function Credits({movie, idx, tmdb})
 {
   // get_details(movie).then(d=>console.log(d));
-
+  if ((idx+1) >= movieJson.length) {
+    idx = -1;
+  }
   let movieNext = movieJson[idx+1];
 
   return (
@@ -235,7 +242,7 @@ function Credits({movie, idx, tmdb})
       <Link to={`/movies/${movieNext.id}`} className='next-prev-btn'>NEXT</Link>
         <h2 className='tagline'>{tmdb?.tagline}</h2>
       <h3>
-        <img style={{float:'right'}} src={`https://image.tmdb.org/t/p/w300/${tmdb?.poster_path}`} />
+        <img style={{float:'right'}} src={`/pstr/${tmdb.poster}` || `https://image.tmdb.org/t/p/w300/${tmdb?.poster_path}`} />
         {tmdb?.overview}
       </h3>
     </div>

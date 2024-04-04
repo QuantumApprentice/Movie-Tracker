@@ -4,6 +4,7 @@
 // const acct_id  = import.meta.env.VITE_TMDB_ACCTID;
 // const {token: VITE_TMDB_TOKEN} = import.meta.env
 const fs = require('node:fs');
+const stream = require('node:stream');
 const text = fs.readFileSync('./src/Movie Night.txt', 'utf8');
 const temp = fs.readFileSync('./src/tmdbList.json', 'utf8');
 const finalJson = JSON.parse(temp);
@@ -45,19 +46,13 @@ async function parseList3()
       tempMovie.watchdate = tempMovie.watchdate.slice(0,-1);
     }
 
-    //create and store unique id for every movie in the list
-    let regRep = /[^a-z0-9]+/gi;
-    let regDel = /[\?\:']+/g;
-    let tempURL = `${tempMovie.title} ${tempMovie.year}`;
-    let finalURL = tempURL.replace(regDel, "").replace(regRep, "-").toLowerCase();
-    tempMovie.id = finalURL;
-
+    tempMovie.id = get_movie_id(tempMovie);
     tempMovie.watched = !!tempMovie.watched;
     movieList.push(tempMovie);
   }
   let movie_json;
   movie_json = JSON.stringify(movieList,null,' ');
-  fs.writeFileSync('src/movieList.json', movie_json);
+  // fs.writeFileSync('src/movieList.json', movie_json);
 
   movieJson = JSON.parse(movie_json);
 
@@ -254,32 +249,39 @@ async function parseList()
 }
 // parseList();
 
-
-
-
-async function get_movie_info(title, year)
+function get_movie_id(movie)
 {
-  const get_options = {
-    method: 'GET',
-    headers: {
-      accept: 'application/json',
-      Authorization: `Bearer ${token}`
-    }
-  }
-  const post_options = {
-    method: 'POST',
-    headers: {
-      accept: 'application/json',
-      'content-type': 'application/json',
-      Authorization: `Bearer ${token}`
-    },
-    // body: JSON.stringify({media_type: 'movie', media_id: 550, favorite: true}),
-  }
+  //create and store unique id for every movie in the list
+  let regRep = /[^a-z0-9]+/gi;
+  let regDel = /[\?\:']+/g;
+  let tempURL = `${movie.title} ${movie.year}`;
+  let finalURL = tempURL.replace(regDel, "").replace(regRep, "-").toLowerCase();
+  return finalURL;
+}
 
+const get_options = {
+  method: 'GET',
+  headers: {
+    accept: 'application/json',
+    Authorization: `Bearer ${token}`
+  }
+}
+const post_options = {
+  method: 'POST',
+  headers: {
+    accept: 'application/json',
+    'content-type': 'application/json',
+    Authorization: `Bearer ${token}`
+  },
+  // body: JSON.stringify({media_type: 'movie', media_id: 550, favorite: true}),
+}
+
+async function get_movie_info(movie)
+{
   let searchParams = {};
-  searchParams.query = title;
-  if (year) {
-    searchParams.year = year;
+  searchParams.query = movie.title;
+  if (movie?.year) {
+    searchParams.year = movie.year;
   }
 
   let url = new URL("https://api.themoviedb.org/3/search/movie");
@@ -289,7 +291,16 @@ async function get_movie_info(title, year)
   try {
     let search_movie = await fetch(url.toString(), get_options);
     let movie_info_json = await search_movie.json();
-    return movie_info_json;
+    if (movie.year) {
+      return movie_info_json;
+    } else {
+      // console.log(movie_info_json);
+      movie.year = movie_info_json.results[0].release_date.slice(0,4);
+      movie.id = get_movie_id(movie);
+      console.log("movie.year: ", movie.year);
+      console.log("movie.id: ", movie.id, "\n\n");
+      return movie_info_json;
+    }
   } catch (error) {
     console.log(error);
   }
@@ -324,13 +335,7 @@ async function get_movie_info(title, year)
 
 async function get_movie_details(id)
 {
-  const get_options = {
-    method: 'GET',
-    headers: {
-      accept: 'application/json',
-      Authorization: `Bearer ${token}`
-    }
-  }
+
   let url = new URL(`https://api.themoviedb.org/3/movie/${id}`);
   // url.search = new URLSearchParams(searchParams);
   let movie_details_json;
@@ -347,23 +352,25 @@ async function get_movie_details(id)
 
 async function get_movie_ratings(id)
 {
-  const get_options = {
-    method: 'GET',
-    headers: {
-      accept: 'application/json',
-      Authorization: `Bearer ${token}`
-    }
-  }
   let url = new URL(`https://api.themoviedb.org/3/movie/${id}/release_dates`)
   try {
     let release_dates = await fetch(url.toString(), get_options);
 
-
-    //TODO: need to parse out ratings from this wacky release dates array
     let ratings_json = await release_dates.json();
     let rating_by_country = ratings_json.results.map((r)=>{
       let country = r.iso_3166_1;
-      let rating = r.release_dates[0].certification;
+
+      let rating;
+      for (const release of r.release_dates) {
+        if (release.certification) {
+          rating = release.certification;
+          // console.log("release.cert: ", release.certification);
+          // console.log("rating: ", rating);
+          break;
+        }
+      }
+
+      // let rating = r.release_dates[0].certification;
       let country_rating = {"country" : country, "rating" : rating}
       return country_rating;
     });
@@ -375,21 +382,210 @@ async function get_movie_ratings(id)
   }
 }
 
-async function build_tmdb_json()
+async function get_background(id, backdrop_path)
+{
+  if (!backdrop_path) {
+    return null;
+  }
+  try {
+    let idx = backdrop_path.lastIndexOf('.');
+    let ext = backdrop_path.slice(idx+1);
+
+    //check if image file exists locally
+    if (fs.existsSync(`public/bg/${id}.${ext}`)) {
+      // console.log(`${id} bg already exists...`);
+      return `${id}.${ext}`;
+    }
+
+    // console.log(`\n\n${id} bg doesn't exist...fetching...`);
+    let url = new URL(`https://image.tmdb.org/t/p/w1280/${backdrop_path}`)
+    let bg_raw = await fetch(url.toString(), get_options);
+
+    //using node.js 'node:stream' stream.Writable.toWeb()
+    //to convert Write Stream to Writable stream,
+    //then use ReadableStream.pipeTo() to write files out
+    let bg_stream = fs.createWriteStream(`public/bg/${id}.${ext}`);
+    let wb_stream = stream.Writable.toWeb(bg_stream);
+    await bg_raw.body.pipeTo(wb_stream);
+
+    // //using node.js WritableStream() to
+    // //create new WritableStream from ReadableStream
+    // //then use ReadableStream.pipeTo() to write files out
+    // let bg_stream = fs.createWriteStream(`public/bg/${id}.${ext}`);
+    // let wr_stream = new WritableStream({...bg_stream});
+    // await bg_raw.body.pipeTo(bg_stream);
+
+    // //use buffer method to create saveable image buffer for fs.writefile etc
+    // let bg_arr_buff = await bg_raw.arrayBuffer();
+    // let bg_buff = Buffer.from(bg_arr_buff);
+    // fs.writeFileSync(`public/bg/${id}.${ext}`, bg_buff);
+
+    return `${id}.${ext}`;
+  } catch (error) {
+    console.log("background: ", error, "\n\n");
+  }
+}
+
+async function get_poster(id, poster_path)
+{
+  if (!poster_path) {
+    return null;
+  }
+  try {
+
+    let idx = poster_path.lastIndexOf('.');
+    let ext = poster_path.slice(idx+1);
+
+    //check if image file exists locally
+    if (fs.existsSync(`public/pstr/${id}.${ext}`)) {
+      // console.log(`${id} pstr already exists...`);
+      return `${id}.${ext}`;
+    }
+
+    // console.log(`${id} pstr doesn't exist...fetching...\n`);
+    let url = new URL(`https://image.tmdb.org/t/p/w300/${poster_path}`)
+    let pstr_raw = await fetch(url.toString(), get_options);
+    //use buffer method to create saveable image buffer for fs.writefile etc
+    let pstr_arr_buff = await pstr_raw.arrayBuffer();
+    let pstr_buff = Buffer.from(pstr_arr_buff);
+
+    fs.writeFileSync(`public/pstr/${id}.${ext}`, pstr_buff);
+
+    return `${id}.${ext}`;
+
+  } catch (error) {
+    console.log("poster: ", error);
+  }
+}
+
+async function build_tmdb_json2()
 {
   // console.log(movieJson);
+  fs.mkdirSync("public/bg/",   { recursive: true });
+  fs.mkdirSync("public/pstr/", { recursive: true });
 
   let db_json = [];
-  // let entry = [];
-  for (const movie of movieJson) {
-    let entry = await get_movie_info(movie.title, movie.year);
+
+  async function load_movie(idx) {
+    let movie = movieJson[idx];
+    let entry = await get_movie_info(movie);
+
     if (entry?.results[0]) {
       //attach tmdb movie id to local movieList.json
       movie.dbid = entry.results[0].id;
 
-      let movie_details_json = await get_movie_details(movie.dbid);
+      let movie_details_json  = await get_movie_details(movie.dbid);
+      let movie_ratings       = await get_movie_ratings(movie.dbid);
+      let movie_bg_filename   = await get_background(movie.id, entry.results[0].backdrop_path);
+      let movie_pstr_filename = await get_poster(movie.id, entry.results[0].poster_path);
 
-      let movie_ratings = await get_movie_ratings(movie.dbid);
+      let hours = Math.floor(movie_details_json.runtime/60);
+      let minutes = (movie_details_json.runtime % 60);
+      if (hours > 0) {
+        movie_details_json.runtime = hours.toString() + "h"
+                                  + minutes.toString() + "m";
+      } else {
+        movie_details_json.runtime = minutes.toString() + "m";
+      }
+
+      return {
+        ...entry.results[0],
+        tagline: movie_details_json.tagline,
+        runtime: movie_details_json.runtime,
+        ratings: movie_ratings,
+        poster:  movie_pstr_filename,
+        bg:      movie_bg_filename,
+        found: true
+      };
+    } else {
+      console.log("couldn't find movie", movie.title);
+      return {title: movie.title, year: movie.year, found: false};
+    }
+  }
+
+  let number_to_load_in_parallel = 20;
+  let next_idx_to_load = number_to_load_in_parallel;
+
+  function start_loading_movie(idx) {
+    let movie = movieJson[idx];
+    if (!movie) return;
+    movie.promise = load_movie(idx).then(r=>{
+      start_loading_movie(next_idx_to_load);
+      next_idx_to_load++;
+      return r;
+    });
+  }
+  for (let i = 0; i < number_to_load_in_parallel; i++) {
+    start_loading_movie(i);
+  }
+
+  for (const movie of movieJson) {
+    // console.log("promising future? ", movie.promise);
+    let db_json_item = await movie.promise;
+    db_json.push(db_json_item);
+    delete movie.promise;
+  }
+
+  try {
+    fs.writeFileSync('src/tmdbList.json', JSON.stringify(db_json,null,' '));
+    fs.writeFileSync('src/movieList.json', JSON.stringify(movieJson,null,' '));
+  } catch (err) {
+    console.error(err);
+  }
+}
+build_tmdb_json2();
+
+async function build_tmdb_json()
+{
+  // console.log(movieJson);
+  fs.mkdirSync("public/bg/",   { recursive: true });
+  fs.mkdirSync("public/pstr/", { recursive: true });
+
+  let db_json = [];
+  // movieJson[0].infoPromise = get_movie_info(movieJson[0]);
+
+  function loadInfo(idx) {
+    movieJson[idx].infoPromise = get_movie_info(movieJson[idx])
+          .then(r=>{
+            if (idx+1 < movieJson.length) {
+              loadInfo(idx+1);
+            }
+            return r;
+          });
+  }
+  loadInfo(0);
+
+  for (let index = 0; index < movieJson.length; index++) {
+    // if (index+1 < movieJson.length) {
+    //   movieJson[index+1].infoPromise = get_movie_info(movieJson[index+1]);
+    // }
+    const movie = movieJson[index];
+  // for (const movie of movieJson) {
+    // let entry = await get_movie_info(movie);
+    console.log("promise? or not? ", movie.infoPromise);
+    let entry = await movie.infoPromise;
+    if (entry?.results[0]) {
+      //attach tmdb movie id to local movieList.json
+      movie.dbid = entry.results[0].id;
+
+      // let movie_details_json  = await get_movie_details(movie.dbid);
+      // let movie_ratings       = await get_movie_ratings(movie.dbid);
+      // let movie_bg_filename   = await get_background(movie.id, entry.results[0].backdrop_path);
+      // let movie_pstr_filename = await get_poster(movie.id, entry.results[0].poster_path);
+
+      // console.log(movie_bg_filename);
+
+      let [
+        movie_details_json,
+        movie_ratings,
+        movie_bg_filename,
+        movie_pstr_filename
+      ] = await Promise.all([
+          get_movie_details(movie.dbid),
+          get_movie_ratings(movie.dbid),
+          get_background(movie.id, entry.results[0].backdrop_path),
+          get_poster(movie.id, entry.results[0].poster_path)
+          ]);
 
       let hours = Math.floor(movie_details_json.runtime/60);
       let minutes = (movie_details_json.runtime % 60);
@@ -404,21 +600,24 @@ async function build_tmdb_json()
                     tagline: movie_details_json.tagline,
                     runtime: movie_details_json.runtime,
                     ratings: movie_ratings,
+                    poster:  movie_pstr_filename,
+                    bg:      movie_bg_filename,
+                    // bg:      `${movie.id}.jpg`,
                     found: true});
 
+      // console.log(db_json);
+
       //TODO: check if this works to link tmdbJson to movieJson
-      // movie.tmdb_link = db_json;
+      // movie.tmdb_indx = db_json.length-1;
     } else {
       db_json.push({title: movie.title, year: movie.year, found: false});
       //TODO: check if this works to link tmdbJson to movieJson
-      // movie.tmdb_link = db_json;
+      // movie.tmdb_indx = db_json.length-1;
     }
   }
-  // db_json = [...finalJson, ...db_json]
 
-  let db_write = JSON.stringify(db_json,null,' ');
   try {
-    fs.writeFileSync('src/tmdbList.json', db_write);
+    fs.writeFileSync('src/tmdbList.json', JSON.stringify(db_json,null,' '));
     fs.writeFileSync('src/movieList.json', JSON.stringify(movieJson,null,' '));
   } catch (err) {
     console.error(err);
@@ -431,4 +630,4 @@ async function build_tmdb_json()
   // a.download = 'tmdbList.json';
   // a.click();
 }
-build_tmdb_json();
+// build_tmdb_json();
