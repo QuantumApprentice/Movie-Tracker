@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App, { DisplayList, DisplayMovie} from './App.jsx'
+import App, { DisplayList, DisplayMoviePage} from './App.jsx'
 import {createBrowserRouter, createRoutesFromElements, Route, RouterProvider} from "react-router-dom"
 import './index.css'
 import ErrorPage from './ErrorPage.jsx'
@@ -15,7 +15,7 @@ const router = createBrowserRouter(
       <Route errorElement={<ErrorPage />}>
 
         <Route path="/movies/:movieId"
-              element={<DisplayMovie />}
+              element={<DisplayMoviePage />}
         />
         <Route path="/"
               element={<DisplayList />}

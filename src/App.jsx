@@ -66,27 +66,62 @@ export function DisplayList()
 //   window.location.replace(global_hash);
 // }
 
-export function DisplayMovie()
-{
-  // const [info, setInfo] = useState(null);
 
+export function DisplayMoviePage()
+{
   let {movieId} = useParams();
-  let currentMovie = movieJson.find(m=>m.id === movieId);
-  let currentIdx   = movieJson.findIndex(m=>m === currentMovie);
+
+  // let currentMovie = movieJson.find(m=>m.id === movieId);
+  // let currentIdx   = movieJson.findIndex(m=>m === currentMovie);
+  let currentIdx   = movieJson.findIndex(m=>m.id === movieId);
+  let currentMovie = movieJson[currentIdx];
   let currentDB    = tmdbList?.find(m=>m.id === currentMovie.dbid);
 
-  console.log(currentDB);
   return (
     <>
+      <DisplayMovie key={movieId} movie={currentMovie} idx={currentIdx} tmdb={currentDB} />
+    </>
+  )
+}
+
+let failedImages = new Set();
+
+export function DisplayMovie({movie, idx, tmdb})
+{
+  let [err, setErr] = useState(failedImages.has(tmdb.bg))
+  let src = err ? `https://image.tmdb.org/t/p/w1280/${tmdb?.backdrop_path}`
+                : `/bg/${tmdb.bg}`;
+
+  if (idx-1 < 0) {
+    idx = movieJson.length;
+  }
+  let moviePrev = movieJson[idx-1];
+
+  if ((idx+1) >= movieJson.length) {
+    idx = -1;
+  }
+  let movieNext = movieJson[idx+1];
+
+
+  return (
+    <>
+      <Link to={`/movies/${moviePrev.id}`} className='arrow prev-btn'></Link>
       <div className='movie-display'
-          style={{"--data-backdrop-url": `url("/bg/${currentDB?.bg || currentDB?.backdrop_path}")`}}>
-        <MovieTitle movie={currentMovie} tmdb={currentDB} />
+          style={{"--data-backdrop-url": `url(${src})`}}
+          onError={()=>{
+            failedImages.add(tmdb.bg);
+            setErr(true);
+            }
+          }>
+
+        <MovieTitle movie={movie} tmdb={tmdb} />
         <div className="movie-info">
-          {!!currentMovie.links && 
-          <Trailer movie={currentMovie} idx={currentIdx} css={"movie-trailer"} />}
-          <Credits movie={currentMovie} idx={currentIdx} tmdb={currentDB}  />
+          {!!movie.links && 
+          <Trailer movie={movie} idx={idx} css={"movie-trailer"} />}
+          <Credits movie={movie} idx={idx} tmdb={tmdb}  />
         </div>
       </div>
+      <Link to={`/movies/${movieNext.id}`} className='arrow next-btn'> </Link>
     </>
   )
 }
@@ -156,16 +191,49 @@ function MovieTitle({movie, tmdb})
   // get_details(movie, "ratings").then(d=>console.log(d));
   let USrating = tmdb.ratings?.find(f=>f.country=="US");
   // console.log(USrating);
+
+
+  console.log(window.innerWidth);
+  let window_width = window.innerWidth;
+  let title_length = movie.title.length;
+  console.log("title length: ", title_length);
+  function fontSize() {
+    let max_size = "3.2em"
+    let final_size = 0;
+    if (window_width > title_length*40) {
+      final_size = max_size;
+    } else {
+      final_size = window_width/(title_length*40).toString() + "em";
+    }
+    return final_size;
+  }
+
+  //font size should be ____ when window width > string length
+  //if the window width is larger than the string length
+  //font size should max out at that point
+  //as window width shrinks lower than string length
+  //font size should shrink down to a minimum setting
+
   return (
-    <div className='movie-title-disp'>
-      <div className='title'>
-        <h2></h2>
+    <div className='movie-top-bar'>
+      <div>
+        <Link to={"/"} className='to-list'>
+          Back to list
+        </Link>
+        <div className='movie-rating'>
+          {USrating?.rating}
+        </div>
+      </div>
+
+      <div className='movie-title-block'>
         <div>
-          <h1>{movie.title}</h1>
+          <h1 className='movie-title-only'
+              // style={{"--font_size": `${fontSize}px`}}
+              >{movie.title}
+          </h1>
           <h2>({movie.year ||
                 tmdb?.release_date?.slice(0,4)})
           </h2>
-          <h1>{USrating?.rating}</h1>
           <h2>{movie.runtime || 
                 tmdb.runtime
           }</h2>
@@ -186,14 +254,8 @@ function MovieTitle({movie, tmdb})
 function Trailer({movie, idx, css})
 {
   // console.log("movie: ", movie);
-  if (idx-1 < 0) {
-    idx = movieJson.length;
-  }
-  let moviePrev = movieJson[idx-1];
-
   return (
     <div className={`${css}`}>
-      <Link to={`/movies/${moviePrev.id}`} className='next-prev-btn'>PREV</Link>
       {Object.entries(movie.links).map((type_arr)=>{
         let link_type = type_arr[0];
         let link_urls = type_arr[1];
@@ -228,21 +290,38 @@ function YTlink({type, url})
   )
 }
 
+// let failedImages = new Set();
+// before your credits component,
+// then change
+// let [err, setErr] = useState(false)
+// to
+// let [err, setErr] = useState(failedImages.has(tmdb.poster))
+// and change your onError handler to
+// onError={()=>{failedImages.add(tmdb.poster);setErr(true)}}
+
 
 function Credits({movie, idx, tmdb})
 {
   // get_details(movie).then(d=>console.log(d));
-  if ((idx+1) >= movieJson.length) {
-    idx = -1;
-  }
-  let movieNext = movieJson[idx+1];
+  // const [err, setErr] = useState(false);
+  let [err, setErr] = useState(failedImages.has(tmdb.poster))
+
+  let src = err ? `https://image.tmdb.org/t/p/w300/${tmdb?.poster_path}`
+                : `/pstr/${tmdb.poster}`;
 
   return (
     <div className="movie-credits">
-      <Link to={`/movies/${movieNext.id}`} className='next-prev-btn'>NEXT</Link>
-        <h2 className='tagline'>{tmdb?.tagline}</h2>
-      <h3>
-        <img style={{float:'right'}} src={`/pstr/${tmdb.poster}` || `https://image.tmdb.org/t/p/w300/${tmdb?.poster_path}`} />
+      <h2 className='tagline'>{tmdb?.tagline}</h2>
+      <h3 className='poster'>
+        <img  style={{float:'right'}}
+              src={src}
+              onError={()=>{failedImages.add(tmdb.poster);
+                            setErr(true)}}
+              // onError={({target})=>{
+              //   target.onError=null;
+              //   target.src=`https://image.tmdb.org/t/p/w300/${tmdb?.poster_path}`;
+              // }}
+              />
         {tmdb?.overview}
       </h3>
     </div>

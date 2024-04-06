@@ -12,10 +12,6 @@
   box-sizing: border-box;
 }
 
-marquee {
-  font-size: 48px;
-}
-
 /*  assign css variables with attr
    (experimental as of 2024)
 So in the JSX, something like 
@@ -35,6 +31,20 @@ then in the CSS something like
   text-align: left;
 }
 
+/*text size for movie list*/
+th {
+  font-size: 1.2em;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+/*not used - should probably delete */
+.movie-trailer-list {
+  height: 1vh;
+  font-size: 4px;
+}
+
+/*contains movie-title, movie-info, movie-trailer */
 .movie-display {
   display: flex;
   flex-direction: column;
@@ -50,13 +60,16 @@ then in the CSS something like
   background-position: center;
 }
 
+/*contains movie-trailer, movie-credits*/
 .movie-info {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 50px;
+  align-items: end;
+  padding-bottom: 25vh;
 }
 
+/*contains iframe (for youtube links) */
 .movie-trailer {
   display: flex;
   flex-direction: column;
@@ -66,45 +79,7 @@ then in the CSS something like
   height: 75vh;
   text-align: left;
   overflow-y: auto;
-}
-
-.movie-trailer-list {
-  height: 1vh;
-  font-size: 4px;
-}
-
-.movie-credits {
-  display: flex;
-  flex-direction: column;
-  width: 45vw;
-  max-width: 560px;
-  height: 75vh;
-  text-align: left;
-  align-items: flex-end;
-  backdrop-filter: blur(40px);
-  overflow-y: auto;
-}
-
-.tagline {
-  text-align: center;
-}
-
-.movie-title-disp {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 1rem;
-  justify-content: flex-end;
-
-}
-
-th {
-  font-size: 1.2em;
-  font-style: italic;
-  text-decoration: underline;
-}
-
-.next-prev-btn {
-  font-size: 45px;
+  padding-bottom: 25vh;
 }
 
 iframe {
@@ -115,13 +90,100 @@ iframe {
   height: calc(var(--trailer-width)/1.77777);
 }
 
-.title {
-  flex-grow: 1;
-  /* text-align: center; */
-  /* align-self: center; */
+
+/*contains poster, tagline, description*/
+.movie-credits {
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  width: 45vw;
+  max-width: 560px;
+  height: 75vh;
+  text-align: left;
+  backdrop-filter: blur(40px);
+  overflow-y: auto;
+  padding-bottom: 25vh;
+
+  /* used for prev/next buttons */
+  position: relative;
 }
-.vote {
-  align-items: end;
+
+.tagline {
+  font-size: max(3vw, 1.8em);
+  line-height: .85em;
+  letter-spacing: -.04em;
+  text-align: center;
+}
+
+.poster {
+  margin-top: 10px;
+}
+
+/*contains title, movie-rating, vote-button */
+.movie-top-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/*contains movie-title-only, year, runtime */
+.movie-title-block {
+  font-size: 1.5em;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.movie-title-only {
+  /* --font_size: 3vw; */
+  /* font-size: var(--font_size); */
+  font-size: max(3vw, 1.8em);
+  letter-spacing: -.04em;
+  line-height: .9em;
+
+}
+
+.movie-rating {
+  background: radial-gradient(
+              rgba(0, 0, 0, 1.0),
+              rgba(0, 0, 0, 0.0));
+  font-size: max(7vw, 3em);
+  font-weight: bold;
+  margin-top: -2rem;
+  letter-spacing: -.04em;
+}
+
+.to-list {
+  font-size: 2em;
+  line-height: .85em;
+}
+
+.vote-button {
+  /* align-items: end; */
+}
+
+
+
+.arrow {
+  border: solid rgba(255, 255, 255, 0.25);
+  border-width: 0 50px 50px 0;
+  padding: 50px;
+}
+
+.next-btn {
+  transform: rotate(-45deg);
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+}
+
+.prev-btn {
+  transform: rotate(135deg);
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
 }
 
 

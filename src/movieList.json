@@ -2173,6 +2173,45 @@
  },
  {
   "watched": false,
+  "title": "Rad",
+  "year": "1986",
+  "links": {
+   " trailer": [
+    "https://youtu.be/1iLuySHQkPU"
+   ],
+   " modern": [
+    "https://youtu.be/eoDn_Os4DkY"
+   ]
+  },
+  "id": "rad-1986",
+  "dbid": 13841
+ },
+ {
+  "watched": false,
+  "title": "Pump Up the Volume",
+  "year": "1990",
+  "links": {
+   " trailer": [
+    "https://youtu.be/xLDehtTqyig"
+   ]
+  },
+  "id": "pump-up-the-volume-1990",
+  "dbid": 8428
+ },
+ {
+  "watched": false,
+  "title": "Gleaming the Cube",
+  "year": "1989",
+  "links": {
+   " trailer": [
+    "https://youtu.be/_pYsi8T1Yv4"
+   ]
+  },
+  "id": "gleaming-the-cube-1989",
+  "dbid": 1380
+ },
+ {
+  "watched": false,
   "title": "Troll",
   "year": "1986",
   "links": {
@@ -2731,15 +2770,15 @@
  },
  {
   "watched": false,
-  "title": "1984",
+  "title": "Nineteen Eighty-Four",
   "year": "1984",
   "links": {
    "trailer": [
     "https://youtu.be/urrqW4_3IBg"
    ]
   },
-  "id": "1984-1984",
-  "dbid": 393190
+  "id": "nineteen-eighty-four-1984",
+  "dbid": 9314
  },
  {
   "watched": true,
@@ -3249,8 +3288,8 @@
   "title": "Clue",
   "year": "1985",
   "links": {
-   "movie": [
-    "https://youtu.be/PT02T3kXDJY"
+   "trailer": [
+    "https://youtu.be/KEXdWfsKZ1k"
    ]
   },
   "id": "clue-1985",
@@ -3349,14 +3388,14 @@
  {
   "watched": true,
   "watchdate": "4.09.22",
-  "title": "Der Untergang (The Downfall)",
-  "year": "2004",
+  "title": "The Downfall (Der Untergang)",
+  "year": "2005",
   "links": {
    "trailer": [
     "https://youtu.be/ShCpiOjjy18"
    ]
   },
-  "id": "der-untergang-the-downfall-2004"
+  "id": "the-downfall-der-untergang-2005"
  },
  {
   "watched": false,
@@ -4261,12 +4300,11 @@
   "watched": false,
   "title": "Grandma's Boy",
   "year": "2006",
+  "runtime": "1h34m",
   "links": {
-   "trailer": [
-    "https://youtu.be/Bi5CfCHknZs"
-   ],
-   " movie": [
-    "https://youtu.be/z7uLkpRU1Yk"
+   " trailer": [
+    "https://youtu.be/_3Sa_n_a0c4",
+    "https://youtu.be/LgZ3a5dxRms"
    ]
   },
   "id": "grandmas-boy-2006",
@@ -6529,6 +6567,9 @@
   "links": {
    "trailer": [
     "https://youtu.be/_25RK5GbJIc"
+   ],
+   " movie": [
+    "https://youtu.be/3RNzyYurjHg"
    ]
   },
   "id": "transformers-the-movie-1986",
@@ -7421,15 +7462,15 @@
  },
  {
   "watched": false,
-  "title": "The Prisoner",
+  "title": "Island of Fire",
   "year": "1990",
   "links": {
    "movie": [
     "https://youtu.be/la-J5K_dJA4"
    ]
   },
-  "id": "the-prisoner-1990",
-  "dbid": 288147
+  "id": "island-of-fire-1990",
+  "dbid": 18767
  },
  {
   "watched": false,

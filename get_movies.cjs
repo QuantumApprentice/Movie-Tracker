@@ -297,8 +297,7 @@ async function get_movie_info(movie)
       // console.log(movie_info_json);
       movie.year = movie_info_json.results[0].release_date.slice(0,4);
       movie.id = get_movie_id(movie);
-      console.log("movie.year: ", movie.year);
-      console.log("movie.id: ", movie.id, "\n\n");
+      console.log("Can't find ", movie.id, "year: ", movie.year, "\n\n");
       return movie_info_json;
     }
   } catch (error) {
@@ -397,7 +396,7 @@ async function get_background(id, backdrop_path)
       return `${id}.${ext}`;
     }
 
-    // console.log(`\n\n${id} bg doesn't exist...fetching...`);
+    console.log(`\n\n${id} bg doesn't exist...fetching...`);
     let url = new URL(`https://image.tmdb.org/t/p/w1280/${backdrop_path}`)
     let bg_raw = await fetch(url.toString(), get_options);
 
@@ -442,7 +441,7 @@ async function get_poster(id, poster_path)
       return `${id}.${ext}`;
     }
 
-    // console.log(`${id} pstr doesn't exist...fetching...\n`);
+    console.log(`${id} pstr doesn't exist...fetching...\n`);
     let url = new URL(`https://image.tmdb.org/t/p/w300/${poster_path}`)
     let pstr_raw = await fetch(url.toString(), get_options);
     //use buffer method to create saveable image buffer for fs.writefile etc
@@ -488,7 +487,7 @@ async function build_tmdb_json2()
         movie_details_json.runtime = minutes.toString() + "m";
       }
 
-      return {
+      return {  //object with all the info I want in it
         ...entry.results[0],
         tagline: movie_details_json.tagline,
         runtime: movie_details_json.runtime,
@@ -498,7 +497,7 @@ async function build_tmdb_json2()
         found: true
       };
     } else {
-      console.log("couldn't find movie", movie.title);
+      //search does not find a movie, so just return what we know
       return {title: movie.title, year: movie.year, found: false};
     }
   }
@@ -511,7 +510,7 @@ async function build_tmdb_json2()
     if (!movie) return;
     movie.promise = load_movie(idx).then(r=>{
       start_loading_movie(next_idx_to_load);
-      next_idx_to_load++;
+      next_idx_to_load+=1;
       return r;
     });
   }
