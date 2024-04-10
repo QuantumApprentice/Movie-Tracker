@@ -2173,45 +2173,6 @@
  },
  {
   "watched": false,
-  "title": "Rad",
-  "year": "1986",
-  "links": {
-   " trailer": [
-    "https://youtu.be/1iLuySHQkPU"
-   ],
-   " modern": [
-    "https://youtu.be/eoDn_Os4DkY"
-   ]
-  },
-  "id": "rad-1986",
-  "dbid": 13841
- },
- {
-  "watched": false,
-  "title": "Pump Up the Volume",
-  "year": "1990",
-  "links": {
-   " trailer": [
-    "https://youtu.be/xLDehtTqyig"
-   ]
-  },
-  "id": "pump-up-the-volume-1990",
-  "dbid": 8428
- },
- {
-  "watched": false,
-  "title": "Gleaming the Cube",
-  "year": "1989",
-  "links": {
-   " trailer": [
-    "https://youtu.be/_pYsi8T1Yv4"
-   ]
-  },
-  "id": "gleaming-the-cube-1989",
-  "dbid": 1380
- },
- {
-  "watched": false,
   "title": "Troll",
   "year": "1986",
   "links": {
@@ -2311,6 +2272,45 @@
   "links": {},
   "id": "frankenstein-conquers-the-world-1965",
   "dbid": 3160
+ },
+ {
+  "watched": false,
+  "title": "Rad",
+  "year": "1986",
+  "links": {
+   " trailer": [
+    "https://youtu.be/1iLuySHQkPU"
+   ],
+   " modern": [
+    "https://youtu.be/eoDn_Os4DkY"
+   ]
+  },
+  "id": "rad-1986",
+  "dbid": 13841
+ },
+ {
+  "watched": false,
+  "title": "Pump Up the Volume",
+  "year": "1990",
+  "links": {
+   " trailer": [
+    "https://youtu.be/xLDehtTqyig"
+   ]
+  },
+  "id": "pump-up-the-volume-1990",
+  "dbid": 8428
+ },
+ {
+  "watched": false,
+  "title": "Gleaming the Cube",
+  "year": "1989",
+  "links": {
+   " trailer": [
+    "https://youtu.be/_pYsi8T1Yv4"
+   ]
+  },
+  "id": "gleaming-the-cube-1989",
+  "dbid": 1380
  },
  {
   "watched": false,
@@ -2583,7 +2583,11 @@
   "title": "Death Wish 1",
   "year": "1974",
   "runtime": "1h33m",
-  "links": {},
+  "links": {
+   " trailer": [
+    "https://youtu.be/2YPzSrb0NPI"
+   ]
+  },
   "id": "death-wish-1-1974",
   "dbid": 13939
  },
@@ -2592,7 +2596,11 @@
   "title": "Death Wish 2",
   "year": "1982",
   "runtime": "1h32m",
-  "links": {},
+  "links": {
+   " trailer": [
+    "https://youtu.be/y4L65odzonc"
+   ]
+  },
   "id": "death-wish-2-1982",
   "dbid": 14373
  },
@@ -2601,7 +2609,11 @@
   "title": "Death Wish 3",
   "year": "1985",
   "runtime": "1h32m",
-  "links": {},
+  "links": {
+   " trailer": [
+    "https://youtu.be/IR-zUUOcf74"
+   ]
+  },
   "id": "death-wish-3-1985",
   "dbid": 24873
  },
@@ -2609,9 +2621,29 @@
   "watched": true,
   "title": "Escape from New York",
   "year": "1981",
-  "links": {},
+  "links": {
+   " teaser": [
+    "https://youtu.be/10OoccK7dIw"
+   ],
+   " trailer": [
+    "https://youtu.be/PYYZFcvQfRg",
+    "https://youtu.be/bqT09APfNKI"
+   ]
+  },
   "id": "escape-from-new-york-1981",
   "dbid": 1103
+ },
+ {
+  "watched": true,
+  "title": "Escape from L.A.",
+  "year": "1996",
+  "links": {
+   " trailer": [
+    "https://youtu.be/EMvoxhtPXXA"
+   ]
+  },
+  "id": "escape-from-l-a-1996",
+  "dbid": 10061
  },
  {
   "watched": false,
@@ -2632,9 +2664,25 @@
   "watched": false,
   "title": "Martial Law",
   "year": "1990",
-  "links": {},
+  "links": {
+   " trailer": [
+    "https://youtu.be/0DwgaCoVpqU"
+   ]
+  },
   "id": "martial-law-1990",
   "dbid": 65497
+ },
+ {
+  "watched": false,
+  "title": "Martial Law II: Undercover",
+  "year": "1991",
+  "links": {
+   " trailer": [
+    "https://youtu.be/3A9pBgFyEgQ"
+   ]
+  },
+  "id": "martial-law-ii-undercover-1991",
+  "dbid": 61802
  },
  {
   "watched": false,
@@ -2664,7 +2712,18 @@
   "watched": true,
   "title": "Rambo: First Blood",
   "year": "1982",
-  "links": {},
+  "links": {
+   " trailer": [
+    "https://youtu.be/-dTDmrJXXoA"
+   ],
+   " modern": [
+    "https://youtu.be/oXngES_l_HQ",
+    "https://youtu.be/M9Fy2Vq_SX8"
+   ],
+   " trilogy": [
+    "https://youtu.be/d2anWtDXeR8"
+   ]
+  },
   "id": "rambo-first-blood-1982",
   "dbid": 1368
  },
@@ -2672,7 +2731,11 @@
   "watched": true,
   "title": "Rambo: First Blood Part 2",
   "year": "1985",
-  "links": {},
+  "links": {
+   " trailer": [
+    "https://youtu.be/jtPNhGWxY4g"
+   ]
+  },
   "id": "rambo-first-blood-part-2-1985",
   "dbid": 1369
  },
@@ -2680,7 +2743,17 @@
   "watched": true,
   "title": "Rambo 3",
   "year": "1988",
-  "links": {},
+  "links": {
+   " teaser": [
+    "https://youtu.be/AtB9-HhfgPw"
+   ],
+   " trailer": [
+    "https://youtu.be/Xt972U5z77w"
+   ],
+   " modern": [
+    "https://youtu.be/veH_vVKrcWo"
+   ]
+  },
   "id": "rambo-3-1988",
   "dbid": 1370
  },
@@ -2688,7 +2761,11 @@
   "watched": false,
   "title": "Road House",
   "year": "1989",
-  "links": {},
+  "links": {
+   " trailer": [
+    "https://youtu.be/oByMeAfwARs"
+   ]
+  },
   "id": "road-house-1989",
   "dbid": 10135
  },
@@ -2696,7 +2773,11 @@
   "watched": false,
   "title": "Shakedown",
   "year": "1988",
-  "links": {},
+  "links": {
+   " trailer": [
+    "https://youtu.be/_AXktztitJA"
+   ]
+  },
   "id": "shakedown-1988",
   "dbid": 38558
  },
@@ -2704,7 +2785,11 @@
   "watched": false,
   "title": "Streets of Fire",
   "year": "1984",
-  "links": {},
+  "links": {
+   " trailer": [
+    "https://youtu.be/lEOvn2IaLMM"
+   ]
+  },
   "id": "streets-of-fire-1984",
   "dbid": 14746
  },
@@ -2712,7 +2797,11 @@
   "watched": false,
   "title": "Tango & Cash",
   "year": "1989",
-  "links": {},
+  "links": {
+   " trailer": [
+    "https://youtu.be/Wo4tkWAJwk4"
+   ]
+  },
   "id": "tango-cash-1989",
   "dbid": 9618
  },
@@ -2720,15 +2809,39 @@
   "watched": false,
   "title": "The Delta Force",
   "year": "1986",
-  "links": {},
+  "links": {
+   " trailer": [
+    "https://youtu.be/b34DjSfCvr0",
+    "https://youtu.be/ZIl1Abs7iCk"
+   ]
+  },
   "id": "the-delta-force-1986",
   "dbid": 16113
+ },
+ {
+  "watched": false,
+  "title": "Delta Force 2",
+  "year": "1990",
+  "links": {
+   " trailer": [
+    "https://youtu.be/SVlMbxVjswg"
+   ]
+  },
+  "id": "delta-force-2-1990",
+  "dbid": 19086
  },
  {
   "watched": true,
   "title": "The Punisher",
   "year": "1989",
-  "links": {},
+  "links": {
+   " trailer": [
+    "https://youtu.be/Rio64bK74BY"
+   ],
+   " tvspot": [
+    "https://youtu.be/NZqnyJ6gzWc"
+   ]
+  },
   "id": "the-punisher-1989",
   "dbid": 8867
  },
@@ -4008,7 +4121,8 @@
   "dbid": 9493
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "04.06.24",
   "title": "Total Recall",
   "year": "1990",
   "runtime": "1h53m",
@@ -6231,6 +6345,30 @@
   "dbid": 20196
  },
  {
+  "watched": false,
+  "title": "High Fidelity",
+  "year": "2000",
+  "links": {
+   " trailer": [
+    "https://youtu.be/OA9gPtWDiww"
+   ]
+  },
+  "id": "high-fidelity-2000",
+  "dbid": 243
+ },
+ {
+  "watched": false,
+  "title": "Empire Records",
+  "year": "1995",
+  "links": {
+   " trailer": [
+    "https://youtu.be/uvIsvZlk4GE"
+   ]
+  },
+  "id": "empire-records-1995",
+  "dbid": 13531
+ },
+ {
   "watched": true,
   "watchdate": "4.02.2022",
   "title": "The Matrix",
@@ -7688,14 +7826,13 @@
  {
   "watched": false,
   "title": "Coctail",
+  "year": "1988",
   "links": {
    "trailer": [
     "https://youtu.be/XIs0WjaDBRY"
    ]
   },
-  "id": "coctail-1983",
-  "year": "1983",
-  "dbid": 705811
+  "id": "coctail-1988"
  },
  {
   "watched": false,
@@ -8952,14 +9089,14 @@
   "watched": true,
   "watchdate": "11.19.23",
   "title": "Twister",
-  "year": "1995",
+  "year": "1996",
   "links": {
    "trailer": [
     "https://youtu.be/IeokJIGsAyM"
    ]
   },
-  "id": "twister-1995",
-  "dbid": 639234
+  "id": "twister-1996",
+  "dbid": 664
  },
  {
   "watched": true,

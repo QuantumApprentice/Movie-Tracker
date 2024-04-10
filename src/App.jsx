@@ -21,7 +21,20 @@ export default function App()
 /**displays list of movies to click on */
 export function DisplayList()
 {
-  let movieList = movieJson;
+  // let movieList = movieJson;
+  let movieList = movieJson.sort((a,b)=>{
+    return (a?.watchdate-b?.watchdate);
+    // if (a.watchdate && b.watchdate) {
+    // console.log(a.watchdate);
+    //   if (a.watchdate < b.watchdate) {
+    //     return -1;
+    //   }
+    //   if (a.watchdate > b.watchdate) {
+    //     return 1;
+    //   }
+    // }
+    // return 0;
+  });
   // console.log(movieList);
   // console.log(movieJson);
 
@@ -196,7 +209,7 @@ function MovieTitle({movie, tmdb})
   console.log(window.innerWidth);
   let window_width = window.innerWidth;
   let title_length = movie.title.length;
-  console.log("title length: ", title_length);
+  // console.log("title length: ", title_length);
   function fontSize() {
     let max_size = "3.2em"
     let final_size = 0;

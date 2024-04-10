@@ -297,7 +297,7 @@ async function get_movie_info(movie)
       // console.log(movie_info_json);
       movie.year = movie_info_json.results[0].release_date.slice(0,4);
       movie.id = get_movie_id(movie);
-      console.log("Can't find ", movie.id, "year: ", movie.year, "\n\n");
+      console.log("Can't find ", movie.id + "\n");
       return movie_info_json;
     }
   } catch (error) {
