@@ -3,6 +3,7 @@ import './App.css'
 import movieJson from './movieList.json'
 import tmdbList from './tmdbList.json'
 import { Link, Outlet, useParams } from 'react-router-dom';
+import { element } from 'prop-types';
 
 const token = import.meta.env.VITE_TMDB_TOKEN;
 
@@ -23,17 +24,28 @@ export function DisplayList()
 {
   // let movieList = movieJson;
   let movieList = movieJson.sort((a,b)=>{
-    return (a?.watchdate-b?.watchdate);
+    // return (a.title > b.title);
+    // return (a.watchdate > b.watchdate);
     // if (a.watchdate && b.watchdate) {
-    // console.log(a.watchdate);
-    //   if (a.watchdate < b.watchdate) {
-    //     return -1;
-    //   }
-    //   if (a.watchdate > b.watchdate) {
-    //     return 1;
-    //   }
+      // if ((a?.watchdate || 0) < (b?.watchdate || 0)) {
+      //   return -1;
+      // }
+
+      if (a.watchdate && b.watchdate) {
+        if (a.watchdate < b.watchdate) return -1;
+        if (b.watchdate < a.watchdate) return 1;
+      }
+      else if (a.watchdate) return 1;
+      else if (b.watchdate) return -1;
+      return 0;
+
+
+
+      // if (a.watchdate > b.watchdate) {
+      //   return 1;
+      // }
     // }
-    // return 0;
+    return 0;
   });
   // console.log(movieList);
   // console.log(movieJson);
@@ -56,7 +68,7 @@ export function DisplayList()
                   {movie.title}</Link>
               </td>
               <td>({movie.year || tmdbList.find(m=>m.id===movie.dbid)?.release_date?.slice(0,4)})</td>
-              <td>[{movie.runtime || tmdbList.find(m=>m.id===movie.dbid).runtime}]</td>
+              <td>[{movie.runtime || tmdbList.find(m=>m.id===movie.dbid).runtime_hm}]</td>
               <td>({movie.watchdate || (movie.watched ? "watched": "")})</td>
               <td>
                 {/* {<Trailer movie={movie} css={"movie-trailer-list"} />} */}
@@ -205,21 +217,30 @@ function MovieTitle({movie, tmdb})
   let USrating = tmdb.ratings?.find(f=>f.country=="US");
   // console.log(USrating);
 
+  // useEffect(()=>{
+  //   console.log(
+  //     document.getElementsByClassName('.movie-rating')
+  //                 .getAttribute('z-index')
+  //   );
+  // })
 
-  console.log(window.innerWidth);
-  let window_width = window.innerWidth;
-  let title_length = movie.title.length;
+  //TODO: delete? this was originally supposed
+  //to set size of font based on window width but
+  //font-size: ##vw worked better, so maybe delete?
+  // console.log(window.innerWidth);
+  // let window_width = window.innerWidth;
+  // let title_length = movie.title.length;
   // console.log("title length: ", title_length);
-  function fontSize() {
-    let max_size = "3.2em"
-    let final_size = 0;
-    if (window_width > title_length*40) {
-      final_size = max_size;
-    } else {
-      final_size = window_width/(title_length*40).toString() + "em";
-    }
-    return final_size;
-  }
+  // function fontSize() {
+  //   let max_size = "3.2em"
+  //   let final_size = 0;
+  //   if (window_width > title_length*40) {
+  //     final_size = max_size;
+  //   } else {
+  //     final_size = window_width/(title_length*40).toString() + "em";
+  //   }
+  //   return final_size;
+  // }
 
   //font size should be ____ when window width > string length
   //if the window width is larger than the string length
@@ -248,7 +269,7 @@ function MovieTitle({movie, tmdb})
                 tmdb?.release_date?.slice(0,4)})
           </h2>
           <h2>{movie.runtime || 
-                tmdb.runtime
+                tmdb.runtime_hm
           }</h2>
         </div>
       </div>
@@ -325,8 +346,8 @@ function Credits({movie, idx, tmdb})
   return (
     <div className="movie-credits">
       <h2 className='tagline'>{tmdb?.tagline}</h2>
-      <h3 className='poster'>
-        <img  style={{float:'right'}}
+      <h3>
+        <img className='poster'
               src={src}
               onError={()=>{failedImages.add(tmdb.poster);
                             setErr(true)}}

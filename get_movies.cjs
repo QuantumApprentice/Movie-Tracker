@@ -13,6 +13,41 @@ require('dotenv').config({path: ['.env.local']});
 const token = process.env.VITE_TMDB_TOKEN;
 // const acct_id = process.env.VITE_TMDB_ACCTID;
 
+
+function get_watch_date(date)
+{
+  if (!date) {
+    return;
+  }
+
+  let idx1 = date.indexOf('.');
+  let idx2 = date.indexOf('.', idx1+1);
+
+  let month = date.slice(0,idx1);
+  let day   = date.slice(idx1+1, idx2);
+  let year  = date.slice(idx2+1);
+  // console.log(month, "mm", day, "dd", year, "yy");
+
+
+  if (year.length < 4) {
+    year = 20 + year;
+  }
+  if (!day) {
+    day = '00';
+  }
+
+  if (day.length < 2) {
+    day = '0' + day;
+  }
+  if (month.length < 2) {
+    month = '0' + month;
+  }
+
+  let iso3339_date = year + month + day;
+  // console.log(iso3339_date);
+  return (iso3339_date);
+}
+
 let movieJson;
 async function parseList3()
 {
@@ -22,13 +57,25 @@ async function parseList3()
   // let regex = /^(?<comment>\([\w ]+\))?-?(?<watchdate>\d{1,2}.(\d{1,2}(\/\d{2})?)?.\d{2,4}.)?(?<title>[\w,' :&!./-]+[\w,':&!.]( \((?!\d{2,4})[\w ]+\))?) (?<year>\(\d{4}\))? *(?<runtime>\[(\d+h\d+m)?\] *)?(?<allurls>(?:([a-zA-Z?]+: )?http.+)*)/gm; //tvjosh
   // let regex = /^.+?\((\d{4})?\).*/gm  //bakerstaunch
   // let regex = /^(?!\n)(?!\r)[^#].*/gm;
-  let regex = /^(?<watched>-)?(?<watchdate>(?:[\d\/]*\.){3})?(?<title>[^#\s].*?) *\((?<year>\d{4})?\) *(?:\[(?<runtime>\d+h\d+m)\])?(.*)/gm;
+
+  //  (\d{1,2}\.){2}(\d{2,4}) ?
+  //  (<first_date>[0-9.]+)(<secound_date>/[0-9.])?
+  // let regex = /^(?<watched>-)?(?<watchdate>(?:[\d\/]*\.){3})?(?<title>[^#\s].*?) *\((?<year>\d{4})?\) *(?:\[(?<runtime>\d+h\d+m)\])?(.*)/gm;
+  // let watchdate_reg = /^(?<watched>-)?(?<watchdate>(?:[\d\/]*\.){3})?/;
+
+  let watchdate_reg = /^(?<watched>-)?(?<watchdate>(?:[.\d/]+))\|?/;
+
+  let the_rest = /(?<title>[^#\s].*?) *\((?<year>\d{4})?\) *(?:\[(?<runtime>\d+h\d+m)\])?(.*)/;
+
+  let regex = new RegExp(watchdate_reg.source + the_rest.source, 'gm');
   let linkRegex = /(?:(?<type>[\w\() ]+): )?(?<url>http[\w+\S]+)+/gm
 
   //store trailer links if there are any
   let arr;
   while (arr = regex.exec(text)) {
+    // console.log(arr + "\n");
     let tempMovie = {...arr.groups};
+    // console.log(tempMovie);
 
     tempMovie.links = {};
     let links;
@@ -38,13 +85,25 @@ async function parseList3()
         tempMovie.links[type] = [];
       }
       tempMovie.links[type].push(links.groups.url);
-      // console.log(tempMovie);
     }
 
     // store the last watch date for this movie
     if (tempMovie.watchdate) {
+
+      tempMovie.watchdate_arr = [];
+
+      let date_arr = tempMovie.watchdate.split('/');
+      // console.log("arr: ", date_arr);
+      for (const date of date_arr) {
+        let current = get_watch_date(date.slice(0,-1));
+        tempMovie.watchdate_arr.push(current);
+      }
+      console.log(tempMovie.watchdate_arr, tempMovie.title);
+
       tempMovie.watchdate = tempMovie.watchdate.slice(0,-1);
     }
+
+
 
     tempMovie.id = get_movie_id(tempMovie);
     tempMovie.watched = !!tempMovie.watched;
@@ -297,7 +356,7 @@ async function get_movie_info(movie)
       // console.log(movie_info_json);
       movie.year = movie_info_json.results[0].release_date.slice(0,4);
       movie.id = get_movie_id(movie);
-      console.log("Can't find ", movie.id + "\n");
+      console.log("Release year missing for ", movie.id);
       return movie_info_json;
     }
   } catch (error) {
@@ -341,7 +400,6 @@ async function get_movie_details(id)
   try {
     let movie_details = await fetch(url.toString(), get_options);
     movie_details_json = await movie_details.json();
-
     return movie_details_json;
 
   } catch (error) {
@@ -442,7 +500,7 @@ async function get_poster(id, poster_path)
     }
 
     console.log(`${id} pstr doesn't exist...fetching...\n`);
-    let url = new URL(`https://image.tmdb.org/t/p/w300/${poster_path}`)
+    let url = new URL(`https://image.tmdb.org/t/p/w300/${poster_path}`);
     let pstr_raw = await fetch(url.toString(), get_options);
     //use buffer method to create saveable image buffer for fs.writefile etc
     let pstr_arr_buff = await pstr_raw.arrayBuffer();
@@ -454,6 +512,18 @@ async function get_poster(id, poster_path)
 
   } catch (error) {
     console.log("poster: ", error);
+  }
+}
+
+function get_runtime(movie_details_json)
+{
+  let hours = Math.floor(movie_details_json.runtime/60);
+  let minutes = (movie_details_json.runtime % 60);
+  if (hours > 0) {
+    movie_details_json.runtime_hm = hours.toString() + "h"
+                                + minutes.toString() + "m";
+  } else {
+    movie_details_json.runtime_hm = minutes.toString() + "m";
   }
 }
 
@@ -477,23 +547,18 @@ async function build_tmdb_json2()
       let movie_ratings       = await get_movie_ratings(movie.dbid);
       let movie_bg_filename   = await get_background(movie.id, entry.results[0].backdrop_path);
       let movie_pstr_filename = await get_poster(movie.id, entry.results[0].poster_path);
+      get_runtime(movie_details_json);
+      get_watch_date(movie.watchdate);
 
-      let hours = Math.floor(movie_details_json.runtime/60);
-      let minutes = (movie_details_json.runtime % 60);
-      if (hours > 0) {
-        movie_details_json.runtime = hours.toString() + "h"
-                                  + minutes.toString() + "m";
-      } else {
-        movie_details_json.runtime = minutes.toString() + "m";
-      }
 
       return {  //object with all the info I want in it
         ...entry.results[0],
-        tagline: movie_details_json.tagline,
-        runtime: movie_details_json.runtime,
-        ratings: movie_ratings,
-        poster:  movie_pstr_filename,
-        bg:      movie_bg_filename,
+        tagline:    movie_details_json.tagline,
+        runtime:    movie_details_json.runtime,
+        runtime_hm: movie_details_json.runtime_hm,
+        ratings:    movie_ratings,
+        poster:     movie_pstr_filename,
+        bg:         movie_bg_filename,
         found: true
       };
     } else {

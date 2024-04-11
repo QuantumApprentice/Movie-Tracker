@@ -101,23 +101,39 @@ iframe {
   height: 75vh;
   text-align: left;
   backdrop-filter: blur(40px);
-  overflow-y: auto;
+  overflow-y: scroll;
   padding-bottom: 25vh;
 
   /* used for prev/next buttons */
   position: relative;
 }
+/* .movie-credits:hover {
+  overflow-y: unset;
+} */
 
 .tagline {
-  font-size: max(3vw, 1.8em);
+  font-size: max(3vw, 29px);
   line-height: .85em;
   letter-spacing: -.04em;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .poster {
-  margin-top: 10px;
+  float: right;
+  width: 100%;
+  max-width: 300px;
+  transition: all .2s ease-out;
 }
+.poster:hover {
+  clear: both;
+  overflow-x: visible;
+  transform-origin: right;
+  transform: scale(1.0);
+  max-width: 400px;
+}
+
+
 
 /*contains title, movie-rating, vote-button */
 .movie-top-bar {
@@ -130,7 +146,7 @@ iframe {
 
 /*contains movie-title-only, year, runtime */
 .movie-title-block {
-  font-size: 1.5em;
+  font-size: 24px;
   height: 100%;
   display: flex;
   align-items: center;
@@ -139,7 +155,7 @@ iframe {
 .movie-title-only {
   /* --font_size: 3vw; */
   /* font-size: var(--font_size); */
-  font-size: max(3vw, 1.8em);
+  font-size: max(3vw, 44px);
   letter-spacing: -.04em;
   line-height: .9em;
 
@@ -149,14 +165,13 @@ iframe {
   background: radial-gradient(
               rgba(0, 0, 0, 1.0),
               rgba(0, 0, 0, 0.0));
-  font-size: max(7vw, 3em);
+  font-size: max(7vw, 64px);
   font-weight: bold;
-  margin-top: -2rem;
   letter-spacing: -.04em;
 }
 
 .to-list {
-  font-size: 2em;
+  font-size: 32px;
   line-height: .85em;
 }
 
