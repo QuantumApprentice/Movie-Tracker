@@ -63,8 +63,8 @@ async function parseList3()
   // let regex = /^(?<watched>-)?(?<watchdate>(?:[\d\/]*\.){3})?(?<title>[^#\s].*?) *\((?<year>\d{4})?\) *(?:\[(?<runtime>\d+h\d+m)\])?(.*)/gm;
   // let watchdate_reg = /^(?<watched>-)?(?<watchdate>(?:[\d\/]*\.){3})?/;
 
-  let watchdate_reg = /^(?<watched>-)?(?<watchdate>(?:[.\d/]+))\|?/;
-
+  let watchdate_reg = /^(?<watched>-?)(?:(?<watchdate>(?:[.\d/]+))?\|)?/;
+  //             <-- title          --> <-- year         --><--     runtime               -->
   let the_rest = /(?<title>[^#\s].*?) *\((?<year>\d{4})?\) *(?:\[(?<runtime>\d+h\d+m)\])?(.*)/;
 
   let regex = new RegExp(watchdate_reg.source + the_rest.source, 'gm');
@@ -98,6 +98,7 @@ async function parseList3()
         let current = get_watch_date(date.slice(0,-1));
         tempMovie.watchdate_arr.push(current);
       }
+      tempMovie.watchdate_arr.reverse();
       console.log(tempMovie.watchdate_arr, tempMovie.title);
 
       tempMovie.watchdate = tempMovie.watchdate.slice(0,-1);

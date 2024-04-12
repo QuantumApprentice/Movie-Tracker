@@ -24,28 +24,15 @@ export function DisplayList()
 {
   // let movieList = movieJson;
   let movieList = movieJson.sort((a,b)=>{
-    // return (a.title > b.title);
-    // return (a.watchdate > b.watchdate);
-    // if (a.watchdate && b.watchdate) {
-      // if ((a?.watchdate || 0) < (b?.watchdate || 0)) {
-      //   return -1;
-      // }
 
-      if (a.watchdate && b.watchdate) {
-        if (a.watchdate < b.watchdate) return -1;
-        if (b.watchdate < a.watchdate) return 1;
+      if (a.watchdate_arr && b.watchdate_arr) {
+        if (a.watchdate_arr[0] < b.watchdate_arr[0]) return -1;
+        if (b.watchdate_arr[0] < a.watchdate_arr[0]) return 1;
       }
-      else if (a.watchdate) return 1;
-      else if (b.watchdate) return -1;
+      else if (a.watchdate_arr) return 1;
+      else if (b.watchdate_arr) return -1;
       return 0;
 
-
-
-      // if (a.watchdate > b.watchdate) {
-      //   return 1;
-      // }
-    // }
-    return 0;
   });
   // console.log(movieList);
   // console.log(movieJson);
