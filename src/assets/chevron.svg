@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke-width="1.5"
+    stroke="currentColor"
+    class="w-6 h-6">
+  <path stroke-linecap="round"
+    stroke="currentColor"
+    stroke-linejoin="round"
+    d="m4.5 18.75 7.5-7.5 7.5 7.5" />
+  <path stroke-linecap="round"
+    stroke="currentColor"
+    stroke-linejoin="round"
+    d="m4.5 12.75 7.5-7.5 7.5 7.5" />
+</svg>
+
+<!-- Try this: import React from 'react'; import { ReactComponent as GoogleLogo } from './assets/google.svg'; // Assuming you're using SVGR for SVG importing const 
+StyledSVGComponent = ({ color, width, height }) => {
+   return (
+    <div style={{ width, height }}>
+    <GoogleLogo style={{ fill: color }} // Dynamically set the fill color 
+    width="100%"
+    height="100%"
+    viewBox="0 0 24 24"
+    /> </div> );
+  };// export default StyledSVGComponent;
+
+  Just structure wise, I suggest you to do a constants.jsx file, then create the so called StyledSvgComponent, then in the same file import the logos you need as we spoke, and export object called logos = { navLogo: <StyledSvgComponent fill={yourSettings} width={settings} height={settings}> } -->

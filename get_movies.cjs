@@ -65,7 +65,7 @@ async function parseList3()
 
   let watchdate_reg = /^(?<watched>-?)(?:(?<watchdate>(?:[.\d/]+))?\|)?/;
   //             <-- title          --> <-- year         --><--     runtime               -->
-  let the_rest = /(?<title>[^#\s].*?) *\((?<year>\d{4})?\) *(?:\[(?<runtime>\d+h\d+m)\])?(.*)/;
+  let the_rest = /(?<title>[^#\s].*?) *\((?<year>\d{4})?\) *(?:\[(?<runtime_hm>\d+h\d+m)\])?(.*)/;
 
   let regex = new RegExp(watchdate_reg.source + the_rest.source, 'gm');
   let linkRegex = /(?:(?<type>[\w\() ]+): )?(?<url>http[\w+\S]+)+/gm
@@ -99,7 +99,7 @@ async function parseList3()
         tempMovie.watchdate_arr.push(current);
       }
       tempMovie.watchdate_arr.reverse();
-      console.log(tempMovie.watchdate_arr, tempMovie.title);
+      // console.log(tempMovie.watchdate_arr, tempMovie.title);
 
       tempMovie.watchdate = tempMovie.watchdate.slice(0,-1);
     }
@@ -112,7 +112,7 @@ async function parseList3()
   }
   let movie_json;
   movie_json = JSON.stringify(movieList,null,' ');
-  // fs.writeFileSync('src/movieList.json', movie_json);
+  fs.writeFileSync('src/movieList.json', movie_json);
 
   movieJson = JSON.parse(movie_json);
 
@@ -336,6 +336,22 @@ const post_options = {
   // body: JSON.stringify({media_type: 'movie', media_id: 550, favorite: true}),
 }
 
+async function fetch_wError(url, options)
+{
+  let attempts = 0;
+  let response;
+  while (attempts < 3) {
+    response = await fetch(url, options);
+    if (response.ok) return response;
+
+    attempts += 1;
+    console.log("Error: ", response.status, "retrying...");
+    await new Promise(r=>setTimeout(r, attempts*1000));
+  }
+  console.log(`Error: unable to fetch ${url} after ${attempts} tries.`)
+  return response;
+}
+
 async function get_movie_info(movie)
 {
   let searchParams = {};
@@ -349,12 +365,12 @@ async function get_movie_info(movie)
 
   //Search Movie
   try {
-    let search_movie = await fetch(url.toString(), get_options);
+    let search_movie = await fetch_wError(url.toString(), get_options);
     let movie_info_json = await search_movie.json();
+    // console.log("movie_info_json: ", movie_info_json);
     if (movie.year) {
       return movie_info_json;
     } else {
-      // console.log(movie_info_json);
       movie.year = movie_info_json.results[0].release_date.slice(0,4);
       movie.id = get_movie_id(movie);
       console.log("Release year missing for ", movie.id);
@@ -366,28 +382,28 @@ async function get_movie_info(movie)
   // console.log(movie_info_json);
 
   // //Authenticate
-  // fetch('https://api.themoviedb.org/3/authentication', options)
+  // fetch_wError('https://api.themoviedb.org/3/authentication', options)
   //   .then(r=>r.json())
   //   .then(re=>console.log(re))
   //   .catch(err=>console.error(err));
 
   // //Authenticate
-  // let api = await fetch('https://api.themoviedb.org/3/authentication', get_options);
+  // let api = await fetch_wError('https://api.themoviedb.org/3/authentication', get_options);
   // let api_json = await api.json();
   // console.log(api_json);
 
   // //Details
-  // let acct = await fetch(`https://api.themoviedb.org/3/account/${acct_id}`, get_options);
+  // let acct = await fetch_wError(`https://api.themoviedb.org/3/account/${acct_id}`, get_options);
   // let api_acct = await acct.json();
   // console.log(api_acct);
 
   // //Add Favorite
-  // let add_fav = await fetch(`https://api.themoviedb.org/3/account/${acct_id}/favorite`, post_options);
+  // let add_fav = await fetch_wError(`https://api.themoviedb.org/3/account/${acct_id}/favorite`, post_options);
   // let api_add_fav = await add_fav.json();
   // console.log(api_add_fav);
 
   // //Get Favorite Movies
-  // let get_fav = await fetch(`https://api.themoviedb.org/3/account/${acct_id}/favorite/movies?language=fr`, get_options);
+  // let get_fav = await fetch_wError(`https://api.themoviedb.org/3/account/${acct_id}/favorite/movies?language=fr`, get_options);
   // let api_get_fav = await get_fav.json();
   // console.log(api_get_fav);
 }
@@ -399,8 +415,10 @@ async function get_movie_details(id)
   // url.search = new URLSearchParams(searchParams);
   let movie_details_json;
   try {
-    let movie_details = await fetch(url.toString(), get_options);
+    let movie_details = await fetch_wError(url.toString(), get_options);
     movie_details_json = await movie_details.json();
+    // console.log("movie_details: ", movie_details_json);
+    // console.log(movie_details_json.title, ":::", movie_details_json.belongs_to_collection?.name);
     return movie_details_json;
 
   } catch (error) {
@@ -412,7 +430,8 @@ async function get_movie_ratings(id)
 {
   let url = new URL(`https://api.themoviedb.org/3/movie/${id}/release_dates`)
   try {
-    let release_dates = await fetch(url.toString(), get_options);
+    let release_dates = await fetch_wError(url.toString(), get_options);
+    // console.log("release_dates: ", release_dates);
 
     let ratings_json = await release_dates.json();
     let rating_by_country = ratings_json.results.map((r)=>{
@@ -457,7 +476,7 @@ async function get_background(id, backdrop_path)
 
     console.log(`\n\n${id} bg doesn't exist...fetching...`);
     let url = new URL(`https://image.tmdb.org/t/p/w1280/${backdrop_path}`)
-    let bg_raw = await fetch(url.toString(), get_options);
+    let bg_raw = await fetch_wError(url.toString(), get_options);
 
     //using node.js 'node:stream' stream.Writable.toWeb()
     //to convert Write Stream to Writable stream,
@@ -502,7 +521,7 @@ async function get_poster(id, poster_path)
 
     console.log(`${id} pstr doesn't exist...fetching...\n`);
     let url = new URL(`https://image.tmdb.org/t/p/w300/${poster_path}`);
-    let pstr_raw = await fetch(url.toString(), get_options);
+    let pstr_raw = await fetch_wError(url.toString(), get_options);
     //use buffer method to create saveable image buffer for fs.writefile etc
     let pstr_arr_buff = await pstr_raw.arrayBuffer();
     let pstr_buff = Buffer.from(pstr_arr_buff);
@@ -551,12 +570,14 @@ async function build_tmdb_json2()
       get_runtime(movie_details_json);
       get_watch_date(movie.watchdate);
 
+      movie.runtime_m = movie_details_json.runtime;
 
       return {  //object with all the info I want in it
         ...entry.results[0],
         tagline:    movie_details_json.tagline,
         runtime:    movie_details_json.runtime,
         runtime_hm: movie_details_json.runtime_hm,
+        collection: movie_details_json.belongs_to_collection?.name,
         ratings:    movie_ratings,
         poster:     movie_pstr_filename,
         bg:         movie_bg_filename,

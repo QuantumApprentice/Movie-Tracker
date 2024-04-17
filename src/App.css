@@ -1,5 +1,11 @@
+/* marfrenzzz */
+/* * {padding: 0, margin: 0, box-sizing: border-box} html {font-size: 10px, font-family: system-ui} body: {font-size: 1.4rem; color, vh100, flex;} h1,h2,h3,h4.h5: {font-weight: normal} ul[role='list'],ol[role='list'] {list-style: none} */
+/* Nirfse */
+/* body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, fieldset, form, input, textarea, p, textarea { padding: 0; margin: 0; } */
+
 #root {
   /* max-width: 1280px; */
+  margin: 0 auto;
 
   text-align: center;
   position: relative;
@@ -24,7 +30,7 @@ then in the CSS something like
 .movie-list {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  /* align-items: flex-start; */
 }
 
 .movie-title-list {
@@ -36,6 +42,48 @@ th {
   font-size: 1.2em;
   font-style: italic;
   text-decoration: underline;
+}
+
+.movie-list-sticky {
+  position: sticky;
+  top: 0;
+  background-color: rgb(98, 98, 98);
+}
+
+.movie-list-sticky button {
+  white-space: nowrap;
+  border-radius: 0;
+  width: 100%;
+  padding: 0.2em;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.sort_up {
+  display: inline-block;
+  width: 1em;
+  color: yellow;
+  rotate: 180deg;
+  flex-shrink: 0;
+  white-space: nowrap;
+  /* mask: url(/src/assets/chevron.svg); */
+}
+.sort_dn {
+  flex-shrink: 0;
+  white-space: nowrap;
+  display: inline-block;
+  width: 1em;
+  color: yellow;
+  /* mask: url(/src/assets/chevron.svg); */
+}
+
+
+
+td:not(:first-child) {
+  text-align: right !important;
+  
 }
 
 /*not used - should probably delete */
@@ -90,7 +138,6 @@ iframe {
   height: calc(var(--trailer-width)/1.77777);
 }
 
-
 /*contains poster, tagline, description*/
 .movie-credits {
   display: flex;
@@ -132,6 +179,7 @@ iframe {
   transform: scale(1.0);
   max-width: 400px;
 }
+
 
 
 

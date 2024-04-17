@@ -3,7 +3,7 @@ import './App.css'
 import movieJson from './movieList.json'
 import tmdbList from './tmdbList.json'
 import { Link, Outlet, useParams } from 'react-router-dom';
-import { element } from 'prop-types';
+import Chevron from './assets/chevron.svg?react'
 
 const token = import.meta.env.VITE_TMDB_TOKEN;
 
@@ -22,29 +22,65 @@ export default function App()
 /**displays list of movies to click on */
 export function DisplayList()
 {
-  // let movieList = movieJson;
-  let movieList = movieJson.sort((a,b)=>{
+  let [movieList, setMovieList] = useState(movieJson);
+  let [sortDir, setSortDir]     = useState("invisible");
+  let [whichSort, setWhichSort] = useState("none");
+  // movieList = movieJson;
 
-      if (a.watchdate_arr && b.watchdate_arr) {
-        if (a.watchdate_arr[0] < b.watchdate_arr[0]) return -1;
-        if (b.watchdate_arr[0] < a.watchdate_arr[0]) return 1;
-      }
-      else if (a.watchdate_arr) return 1;
-      else if (b.watchdate_arr) return -1;
-      return 0;
-
-  });
   // console.log(movieList);
   // console.log(movieJson);
+
+  function set_sort(sort_type) {
+    setMovieList(()=>{
+      return sort_type(sortDir === "sort_dn");
+    });
+    setSortDir((dir)=>{
+      if (dir === "sort_dn") {
+        dir = "sort_up";
+      } else {
+        dir = "sort_dn";
+      }
+      return dir;
+    });
+  }
 
   return (
     <>
       <table>
         <thead>
-          <tr>
-            <th className='movie-title-list'>Title</th>
-            <th>(Release Year)</th>
-            <th>[Runtime]</th>
+          <tr className='movie-list-sticky'>
+            <th><button onClick={()=>{
+                set_sort(sort_title);
+                setWhichSort("title");
+              }}>Title&nbsp;{
+                (whichSort === "title") ? <Chevron className={sortDir} /> : null
+              }
+              </button>
+            </th>
+            <th><button onClick={()=>{
+                set_sort(sort_release);
+                setWhichSort("year");
+              }}>Release Year&nbsp;{
+                (whichSort === "year") ? <Chevron className={sortDir} /> : null
+              }
+              </button>
+            </th>
+            <th><button onClick={()=>{
+                set_sort(sort_runtime);
+                setWhichSort("runtime");
+              }}>[Runtime]&nbsp;{
+                (whichSort === "runtime") ? <Chevron className={sortDir} /> : null
+              }
+              </button>
+            </th>
+            <th><button onClick={()=>{
+                set_sort(sort_watchdate);
+                setWhichSort("watchdate");
+              }}>Watch Date&nbsp;{
+                (whichSort === "watchdate") ? <Chevron className={sortDir} /> : null
+              }
+              </button>
+            </th>
           </tr>
         </thead>
         <tbody>
@@ -55,7 +91,7 @@ export function DisplayList()
                   {movie.title}</Link>
               </td>
               <td>({movie.year || tmdbList.find(m=>m.id===movie.dbid)?.release_date?.slice(0,4)})</td>
-              <td>[{movie.runtime || tmdbList.find(m=>m.id===movie.dbid).runtime_hm}]</td>
+              <td>[{movie.runtime_hm || tmdbList.find(m=>m.id===movie.dbid).runtime_hm}]</td>
               <td>({movie.watchdate || (movie.watched ? "watched": "")})</td>
               <td>
                 {/* {<Trailer movie={movie} css={"movie-trailer-list"} />} */}
@@ -68,6 +104,105 @@ export function DisplayList()
   )
 }
 
+function compare_strings(a, b) {
+  let compare;
+  if (a && b) {
+    if (a < b) {
+      compare = -1;
+    }
+    if (a > b) {
+      compare = 1;
+    }
+    return compare;
+  }
+  else if (a) return  1;
+  else if (b) return -1;
+  return 0;
+}
+
+function sort_title(reverse)
+{
+  let movieList = [...movieJson];
+
+  function drop_The(title) {
+    if (title.slice(0,4) == 'The ') {
+      // console.log(title.slice(4,));
+      return title.slice(4,);
+    }
+    return title;
+  }
+
+  movieList.sort((a,b)=>{
+    let title_a = drop_The(a.title);
+    let title_b = drop_The(b.title);
+
+    let compare = compare_strings(title_a, title_b);
+    return compare;
+
+  });
+
+  if (reverse) {
+    movieList.reverse();
+  }
+
+  return movieList;
+}
+
+function sort_watchdate(reverse)
+{
+  let movieList = [...movieJson];
+
+  movieList.sort((a,b)=>{
+    if (a.watchdate_arr && b.watchdate_arr) {
+      if (a.watchdate_arr[0] < b.watchdate_arr[0]) return -1;
+      if (b.watchdate_arr[0] < a.watchdate_arr[0]) return 1;
+    }
+    else if (a.watchdate_arr) return 1;
+    else if (b.watchdate_arr) return -1;
+    return 0;
+  });
+
+  if (reverse) {
+    movieList.reverse();
+  }
+
+  return movieList;
+}
+
+function sort_release(reverse)
+{
+  let movieList = [...movieJson];
+
+  movieList.sort((a,b)=>{
+    let compare = compare_strings(a.year,b.year);
+    return compare;
+  });
+
+  if (reverse) {
+    movieList.reverse();
+  }
+
+  return movieList;
+}
+
+function sort_runtime(reverse)
+{
+  // let dbList = [...tmdbList];
+  let movieList = [...movieJson];
+
+  movieList.sort((a,b)=>{
+    let compare = compare_strings(a.runtime_m,b.runtime_m);
+    // console.log(a.title, a.runtime_m);
+    return compare;
+  });
+
+  if (reverse) {
+    movieList.reverse();
+  }
+
+  return movieList;
+}
+
 // // we don't want to remove the # if it's the only item in parts as the entire
 // // page will reload if the string we pass to window.location.replace is empty
 // if (parts.length > 1) parts = parts.slice(0, -1);
@@ -77,7 +212,6 @@ export function DisplayList()
 // } else {
 //   window.location.replace(global_hash);
 // }
-
 
 export function DisplayMoviePage()
 {
@@ -90,9 +224,7 @@ export function DisplayMoviePage()
   let currentDB    = tmdbList?.find(m=>m.id === currentMovie.dbid);
 
   return (
-    <>
       <DisplayMovie key={movieId} movie={currentMovie} idx={currentIdx} tmdb={currentDB} />
-    </>
   )
 }
 
@@ -114,15 +246,13 @@ export function DisplayMovie({movie, idx, tmdb})
   }
   let movieNext = movieJson[idx+1];
 
-
   return (
     <>
       <Link to={`/movies/${moviePrev.id}`} className='arrow prev-btn'></Link>
       <div className='movie-display'
           style={{"--data-backdrop-url": `url(${src})`}}
           onError={()=>{
-            failedImages.add(tmdb.bg);
-            setErr(true);
+            failedImages.add(tmdb.bg);setErr(true);
             }
           }>
 
@@ -255,7 +385,7 @@ function MovieTitle({movie, tmdb})
           <h2>({movie.year ||
                 tmdb?.release_date?.slice(0,4)})
           </h2>
-          <h2>{movie.runtime || 
+          <h2>{movie.runtime_hm || 
                 tmdb.runtime_hm
           }</h2>
         </div>

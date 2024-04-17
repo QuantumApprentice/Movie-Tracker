@@ -1,61 +1,5 @@
 [
  {
-  "watched": true,
-  "watchdate": "10.1.2022",
-  "title": "Christine",
-  "year": "1983",
-  "links": {
-   "teaser": [
-    "https://youtu.be/ieBmy6qjiCI"
-   ],
-   " trailer": [
-    "https://youtu.be/0Xq75RR7otQ"
-   ]
-  },
-  "watchdate_arr": [
-   "20221001"
-  ],
-  "id": "christine-1983",
-  "dbid": 8769
- },
- {
-  "watched": true,
-  "watchdate": "10.15.22",
-  "title": "An American Werewolf in London",
-  "year": "1981",
-  "links": {
-   "trailer": [
-    "https://youtu.be/ArJhUEAeiw0"
-   ],
-   " modern": [
-    "https://youtu.be/Tfz9AhPnM8c"
-   ]
-  },
-  "watchdate_arr": [
-   "20221015"
-  ],
-  "id": "an-american-werewolf-in-london-1981",
-  "dbid": 814
- },
- {
-  "watched": true,
-  "watchdate": "12.17.21./12.23.22",
-  "title": "Scrooged",
-  "year": "1988",
-  "runtime": "1h41m",
-  "links": {
-   " trailer": [
-    "https://youtu.be/3OLRQfMOXOw"
-   ]
-  },
-  "watchdate_arr": [
-   "20221223",
-   "20211217"
-  ],
-  "id": "scrooged-1988",
-  "dbid": 9647
- },
- {
   "watched": false,
   "title": "Adams Family",
   "year": "1991",
@@ -65,20 +9,22 @@
    ]
   },
   "id": "adams-family-1991",
-  "dbid": 2907
+  "dbid": 2907,
+  "runtime_m": 102
  },
  {
   "watched": false,
   "title": "Angel Heart",
   "year": "1987",
-  "runtime": "1h53m",
+  "runtime_hm": "1h53m",
   "links": {
    " trailer": [
     "https://youtu.be/0iKzekw3xn8"
    ]
   },
   "id": "angel-heart-1987",
-  "dbid": 635
+  "dbid": 635,
+  "runtime_m": 113
  },
  {
   "watched": true,
@@ -94,7 +40,8 @@
    "20211000"
   ],
   "id": "a-nightmare-on-elm-street-1984",
-  "dbid": 377
+  "dbid": 377,
+  "runtime_m": 91
  },
  {
   "watched": true,
@@ -110,7 +57,8 @@
    "20211000"
   ],
   "id": "a-nightmare-on-elm-street-2-freddys-revenge-1985",
-  "dbid": 10014
+  "dbid": 10014,
+  "runtime_m": 87
  },
  {
   "watched": true,
@@ -126,7 +74,8 @@
    "20211000"
   ],
   "id": "a-nightmare-on-elm-street-3-dream-warriors-1987",
-  "dbid": 10072
+  "dbid": 10072,
+  "runtime_m": 96
  },
  {
   "watched": false,
@@ -139,7 +88,8 @@
    ]
   },
   "id": "a-nightmare-on-elm-street-4-the-dream-master-1988",
-  "dbid": 10131
+  "dbid": 10131,
+  "runtime_m": 93
  },
  {
   "watched": false,
@@ -152,7 +102,8 @@
    ]
   },
   "id": "a-nightmare-on-elm-street-5-the-dream-child-1989",
-  "dbid": 10160
+  "dbid": 10160,
+  "runtime_m": 89
  },
  {
   "watched": true,
@@ -171,7 +122,8 @@
    "20221015"
   ],
   "id": "an-american-werewolf-in-london-1981",
-  "dbid": 814
+  "dbid": 814,
+  "runtime_m": 97
  },
  {
   "watched": false,
@@ -183,7 +135,8 @@
    ]
   },
   "id": "an-american-werewolf-in-paris-1997",
-  "dbid": 9406
+  "dbid": 9406,
+  "runtime_m": 98
  },
  {
   "watched": false,
@@ -195,7 +148,8 @@
    ]
   },
   "id": "bad-taste-1987",
-  "dbid": 9964
+  "dbid": 9964,
+  "runtime_m": 92
  },
  {
   "watched": false,
@@ -207,7 +161,8 @@
    ]
   },
   "id": "basket-case-1982",
-  "dbid": 27813
+  "dbid": 27813,
+  "runtime_m": 91
  },
  {
   "watched": true,
@@ -223,7 +178,8 @@
    "20211000"
   ],
   "id": "beetlejuice-1988",
-  "dbid": 4011
+  "dbid": 4011,
+  "runtime_m": 92
  },
  {
   "watched": true,
@@ -239,7 +195,8 @@
    "20231022"
   ],
   "id": "bram-stokers-dracula-1992",
-  "dbid": 6114
+  "dbid": 6114,
+  "runtime_m": 127
  },
  {
   "watched": false,
@@ -251,7 +208,8 @@
    ]
   },
   "id": "children-of-the-corn-1984",
-  "dbid": 10823
+  "dbid": 10823,
+  "runtime_m": 92
  },
  {
   "watched": false,
@@ -263,7 +221,8 @@
    ]
   },
   "id": "childs-play-1988",
-  "dbid": 10585
+  "dbid": 10585,
+  "runtime_m": 87
  },
  {
   "watched": true,
@@ -282,7 +241,8 @@
    "20221001"
   ],
   "id": "christine-1983",
-  "dbid": 8769
+  "dbid": 8769,
+  "runtime_m": 110
  },
  {
   "watched": false,
@@ -294,7 +254,8 @@
    ]
   },
   "id": "c-h-u-d-1984",
-  "dbid": 23730
+  "dbid": 23730,
+  "runtime_m": 97
  },
  {
   "watched": false,
@@ -306,7 +267,8 @@
    ]
   },
   "id": "creature-1985",
-  "dbid": 58903
+  "dbid": 58903,
+  "runtime_m": 97
  },
  {
   "watched": false,
@@ -318,7 +280,8 @@
    ]
   },
   "id": "creepshow-1982",
-  "dbid": 16281
+  "dbid": 16281,
+  "runtime_m": 120
  },
  {
   "watched": false,
@@ -330,7 +293,8 @@
    ]
   },
   "id": "critters-1986",
-  "dbid": 3980
+  "dbid": 3980,
+  "runtime_m": 86
  },
  {
   "watched": false,
@@ -342,7 +306,8 @@
    ]
   },
   "id": "critters-2-1988",
-  "dbid": 10127
+  "dbid": 10127,
+  "runtime_m": 86
  },
  {
   "watched": false,
@@ -354,7 +319,8 @@
    ]
   },
   "id": "cujo-1983",
-  "dbid": 10489
+  "dbid": 10489,
+  "runtime_m": 93
  },
  {
   "watched": false,
@@ -366,7 +332,8 @@
    ]
   },
   "id": "the-curse-1987",
-  "dbid": 74747
+  "dbid": 74747,
+  "runtime_m": 92
  },
  {
   "watched": true,
@@ -382,7 +349,8 @@
    "20211000"
   ],
   "id": "day-of-the-dead-1985",
-  "dbid": 8408
+  "dbid": 8408,
+  "runtime_m": 101
  },
  {
   "watched": false,
@@ -394,7 +362,8 @@
    ]
   },
   "id": "dead-buried-1981",
-  "dbid": 24274
+  "dbid": 24274,
+  "runtime_m": 94
  },
  {
   "watched": true,
@@ -422,7 +391,8 @@
    ]
   },
   "id": "dead-heat-1988",
-  "dbid": 40095
+  "dbid": 40095,
+  "runtime_m": 84
  },
  {
   "watched": false,
@@ -434,7 +404,8 @@
    ]
   },
   "id": "deadly-friend-1986",
-  "dbid": 33278
+  "dbid": 33278,
+  "runtime_m": 91
  },
  {
   "watched": false,
@@ -449,7 +420,8 @@
    ]
   },
   "id": "dreamscape-1984",
-  "dbid": 24099
+  "dbid": 24099,
+  "runtime_m": 99
  },
  {
   "watched": false,
@@ -461,7 +433,8 @@
    ]
   },
   "id": "from-dusk-till-dawn-1996",
-  "dbid": 755
+  "dbid": 755,
+  "runtime_m": 108
  },
  {
   "watched": true,
@@ -477,7 +450,8 @@
    "20231000"
   ],
   "id": "dracula-dead-and-loving-it-1995",
-  "dbid": 12110
+  "dbid": 12110,
+  "runtime_m": 88
  },
  {
   "watched": false,
@@ -492,7 +466,8 @@
    ]
   },
   "id": "ed-wood-1994",
-  "dbid": 522
+  "dbid": 522,
+  "runtime_m": 127
  },
  {
   "watched": true,
@@ -507,7 +482,8 @@
    ]
   },
   "id": "elvira-mistress-of-the-dark-1988",
-  "dbid": 5680
+  "dbid": 5680,
+  "runtime_m": 96
  },
  {
   "watched": false,
@@ -519,7 +495,8 @@
    ]
   },
   "id": "ernest-scared-stupid-1991",
-  "dbid": 32685
+  "dbid": 32685,
+  "runtime_m": 91
  },
  {
   "watched": false,
@@ -531,7 +508,8 @@
    ]
   },
   "id": "evil-dead-1981",
-  "dbid": 764
+  "dbid": 764,
+  "runtime_m": 85
  },
  {
   "watched": false,
@@ -546,7 +524,8 @@
    ]
   },
   "id": "evil-dead-2-1987",
-  "dbid": 765
+  "dbid": 765,
+  "runtime_m": 84
  },
  {
   "watched": false,
@@ -558,7 +537,8 @@
    ]
   },
   "id": "army-of-darkness-1993",
-  "dbid": 766
+  "dbid": 766,
+  "runtime_m": 81
  },
  {
   "watched": true,
@@ -574,7 +554,8 @@
    "20221029"
   ],
   "id": "the-exorcist-1973",
-  "dbid": 9552
+  "dbid": 9552,
+  "runtime_m": 122
  },
  {
   "watched": false,
@@ -586,7 +567,8 @@
    ]
   },
   "id": "exorcist-ii-the-heretic-1977",
-  "dbid": 11586
+  "dbid": 11586,
+  "runtime_m": 117
  },
  {
   "watched": false,
@@ -598,7 +580,8 @@
    ]
   },
   "id": "the-exorcist-iii-1990",
-  "dbid": 11587
+  "dbid": 11587,
+  "runtime_m": 110
  },
  {
   "watched": true,
@@ -614,7 +597,8 @@
    "20221022"
   ],
   "id": "firestarter-1984",
-  "dbid": 11495
+  "dbid": 11495,
+  "runtime_m": 115
  },
  {
   "watched": true,
@@ -630,7 +614,8 @@
    "20211000"
   ],
   "id": "friday-the-13th-1980",
-  "dbid": 4488
+  "dbid": 4488,
+  "runtime_m": 94
  },
  {
   "watched": true,
@@ -646,7 +631,8 @@
    "20211000"
   ],
   "id": "friday-the-13th-part-2-1981",
-  "dbid": 9725
+  "dbid": 9725,
+  "runtime_m": 86
  },
  {
   "watched": false,
@@ -658,7 +644,8 @@
    ]
   },
   "id": "friday-the-13th-part-3-1982",
-  "dbid": 9728
+  "dbid": 9728,
+  "runtime_m": 95
  },
  {
   "watched": false,
@@ -670,7 +657,8 @@
    ]
   },
   "id": "friday-the-13th-the-final-chapter-1984",
-  "dbid": 9730
+  "dbid": 9730,
+  "runtime_m": 91
  },
  {
   "watched": false,
@@ -682,7 +670,8 @@
    ]
   },
   "id": "friday-the-13th-part-5-a-new-beginning-1985",
-  "dbid": 9731
+  "dbid": 9731,
+  "runtime_m": 92
  },
  {
   "watched": false,
@@ -694,7 +683,8 @@
    ]
   },
   "id": "friday-the-13th-part-6-jason-lives-1986",
-  "dbid": 10225
+  "dbid": 10225,
+  "runtime_m": 86
  },
  {
   "watched": false,
@@ -706,7 +696,8 @@
    ]
   },
   "id": "friday-the-13th-part-7-the-new-blood-1988",
-  "dbid": 10281
+  "dbid": 10281,
+  "runtime_m": 88
  },
  {
   "watched": false,
@@ -718,7 +709,8 @@
    ]
   },
   "id": "friday-the-13th-part-8-jason-takes-manhattan-1989",
-  "dbid": 10283
+  "dbid": 10283,
+  "runtime_m": 100
  },
  {
   "watched": false,
@@ -730,7 +722,8 @@
    ]
   },
   "id": "fright-night-1985",
-  "dbid": 11797
+  "dbid": 11797,
+  "runtime_m": 107
  },
  {
   "watched": false,
@@ -742,7 +735,8 @@
    ]
   },
   "id": "frightmare-1983",
-  "dbid": 85198
+  "dbid": 85198,
+  "runtime_m": 86
  },
  {
   "watched": false,
@@ -754,7 +748,8 @@
    ]
   },
   "id": "from-beyond-1986",
-  "dbid": 14510
+  "dbid": 14510,
+  "runtime_m": 85
  },
  {
   "watched": false,
@@ -767,7 +762,8 @@
    ]
   },
   "id": "galaxy-of-terror-1981",
-  "dbid": 28893
+  "dbid": 28893,
+  "runtime_m": 81
  },
  {
   "watched": false,
@@ -779,7 +775,8 @@
    ]
   },
   "id": "gremlins-1984",
-  "dbid": 927
+  "dbid": 927,
+  "runtime_m": 106
  },
  {
   "watched": false,
@@ -791,7 +788,8 @@
    ]
   },
   "id": "gremlins-2-the-new-batch-1990",
-  "dbid": 928
+  "dbid": 928,
+  "runtime_m": 106
  },
  {
   "watched": true,
@@ -803,20 +801,22 @@
    ]
   },
   "id": "ghostbusters-1984",
-  "dbid": 620
+  "dbid": 620,
+  "runtime_m": 107
  },
  {
   "watched": true,
   "title": "Ghostbusters II",
   "year": "1989",
-  "runtime": "1h48m",
+  "runtime_hm": "1h48m",
   "links": {
    " trailer": [
     "https://youtu.be/weIqC-oUGmA"
    ]
   },
   "id": "ghostbusters-ii-1989",
-  "dbid": 2978
+  "dbid": 2978,
+  "runtime_m": 108
  },
  {
   "watched": true,
@@ -832,7 +832,8 @@
    "20221008"
   ],
   "id": "ghoulies-1985",
-  "dbid": 18498
+  "dbid": 18498,
+  "runtime_m": 81
  },
  {
   "watched": false,
@@ -844,7 +845,8 @@
    ]
   },
   "id": "ghoulies-ii-1988",
-  "dbid": 28605
+  "dbid": 28605,
+  "runtime_m": 90
  },
  {
   "watched": false,
@@ -856,7 +858,8 @@
    ]
   },
   "id": "ghoulies-iii-ghoulies-go-to-college-1991",
-  "dbid": 44909
+  "dbid": 44909,
+  "runtime_m": 94
  },
  {
   "watched": false,
@@ -868,7 +871,8 @@
    ]
   },
   "id": "ghoulies-iv-1994",
-  "dbid": 30654
+  "dbid": 30654,
+  "runtime_m": 84
  },
  {
   "watched": true,
@@ -884,7 +888,8 @@
    "20211000"
   ],
   "id": "halloween-1978",
-  "dbid": 948
+  "dbid": 948,
+  "runtime_m": 91
  },
  {
   "watched": false,
@@ -896,7 +901,8 @@
    ]
   },
   "id": "halloween-2-1981",
-  "dbid": 11281
+  "dbid": 11281,
+  "runtime_m": 92
  },
  {
   "watched": false,
@@ -908,7 +914,8 @@
    ]
   },
   "id": "halloween-3-season-of-the-witch-1982",
-  "dbid": 10676
+  "dbid": 10676,
+  "runtime_m": 99
  },
  {
   "watched": false,
@@ -920,7 +927,8 @@
    ]
   },
   "id": "halloween-4-the-return-of-michael-myers-1988",
-  "dbid": 11357
+  "dbid": 11357,
+  "runtime_m": 88
  },
  {
   "watched": true,
@@ -936,7 +944,8 @@
    "20231008"
   ],
   "id": "hellraiser-1987",
-  "dbid": 9003
+  "dbid": 9003,
+  "runtime_m": 94
  },
  {
   "watched": false,
@@ -948,7 +957,8 @@
    ]
   },
   "id": "hellraiser-2-hellbound-1988",
-  "dbid": 9064
+  "dbid": 9064,
+  "runtime_m": 97
  },
  {
   "watched": false,
@@ -960,7 +970,8 @@
    ]
   },
   "id": "hobgoblins-1988",
-  "dbid": 31245
+  "dbid": 31245,
+  "runtime_m": 92
  },
  {
   "watched": false,
@@ -972,7 +983,8 @@
    ]
   },
   "id": "house-1977",
-  "dbid": 25623
+  "dbid": 25623,
+  "runtime_m": 88
  },
  {
   "watched": false,
@@ -984,7 +996,8 @@
    ]
   },
   "id": "house-ii-the-second-story-1987",
-  "dbid": 37530
+  "dbid": 37530,
+  "runtime_m": 88
  },
  {
   "watched": false,
@@ -996,7 +1009,8 @@
    ]
   },
   "id": "house-iii-the-horror-show-1989",
-  "dbid": 38084
+  "dbid": 38084,
+  "runtime_m": 95
  },
  {
   "watched": false,
@@ -1008,7 +1022,8 @@
    ]
   },
   "id": "house-1985",
-  "dbid": 58083
+  "dbid": 58083,
+  "runtime_m": 95
  },
  {
   "watched": false,
@@ -1020,7 +1035,8 @@
    ]
   },
   "id": "interview-with-the-vampire-1994",
-  "dbid": 628
+  "dbid": 628,
+  "runtime_m": 123
  },
  {
   "watched": false,
@@ -1032,7 +1048,8 @@
    ]
   },
   "id": "in-the-mouth-of-madness-1995",
-  "dbid": 2654
+  "dbid": 2654,
+  "runtime_m": 95
  },
  {
   "watched": true,
@@ -1048,7 +1065,8 @@
    "20221001"
   ],
   "id": "invasion-of-the-body-snatchers-1956",
-  "dbid": 11549
+  "dbid": 11549,
+  "runtime_m": 80
  },
  {
   "watched": true,
@@ -1064,7 +1082,8 @@
    "20221008"
   ],
   "id": "invasion-of-the-body-snatchers-1978",
-  "dbid": 11850
+  "dbid": 11850,
+  "runtime_m": 116
  },
  {
   "watched": false,
@@ -1076,7 +1095,8 @@
    ]
   },
   "id": "killer-klowns-from-outer-space-1988",
-  "dbid": 16296
+  "dbid": 16296,
+  "runtime_m": 88
  },
  {
   "watched": true,
@@ -1092,7 +1112,8 @@
    "20211000"
   ],
   "id": "the-lawnmower-man-1992",
-  "dbid": 10163
+  "dbid": 10163,
+  "runtime_m": 108
  },
  {
   "watched": false,
@@ -1107,7 +1128,8 @@
    ]
   },
   "id": "lawnmower-man-2-1996",
-  "dbid": 11525
+  "dbid": 11525,
+  "runtime_m": 92
  },
  {
   "watched": false,
@@ -1123,7 +1145,8 @@
    ]
   },
   "id": "leprechaun-1993",
-  "dbid": 11811
+  "dbid": 11811,
+  "runtime_m": 91
  },
  {
   "watched": false,
@@ -1135,7 +1158,8 @@
    ]
   },
   "id": "leprechaun-2-1994",
-  "dbid": 18009
+  "dbid": 18009,
+  "runtime_m": 85
  },
  {
   "watched": false,
@@ -1147,7 +1171,8 @@
    ]
   },
   "id": "leprechaun-3-1995",
-  "dbid": 19286
+  "dbid": 19286,
+  "runtime_m": 94
  },
  {
   "watched": false,
@@ -1159,7 +1184,8 @@
    ]
   },
   "id": "leprechaun-4-in-space-1996",
-  "dbid": 19287
+  "dbid": 19287,
+  "runtime_m": 95
  },
  {
   "watched": true,
@@ -1175,7 +1201,8 @@
    "20211000"
   ],
   "id": "leviathan-1989",
-  "dbid": 14372
+  "dbid": 14372,
+  "runtime_m": 98
  },
  {
   "watched": false,
@@ -1187,7 +1214,8 @@
    ]
   },
   "id": "leviathan-2014",
-  "dbid": 14372
+  "dbid": 14372,
+  "runtime_m": 98
  },
  {
   "watched": true,
@@ -1204,7 +1232,8 @@
    "20211000"
   ],
   "id": "lifeforce-1985",
-  "dbid": 11954
+  "dbid": 11954,
+  "runtime_m": 102
  },
  {
   "watched": false,
@@ -1216,7 +1245,8 @@
    ]
   },
   "id": "loose-shoes-1978",
-  "dbid": 44805
+  "dbid": 44805,
+  "runtime_m": 84
  },
  {
   "watched": true,
@@ -1232,7 +1262,8 @@
    "20221001"
   ],
   "id": "maximum-overdrive-1986",
-  "dbid": 9980
+  "dbid": 9980,
+  "runtime_m": 97
  },
  {
   "watched": false,
@@ -1247,7 +1278,8 @@
    ]
   },
   "id": "motel-hell-1980",
-  "dbid": 30924
+  "dbid": 30924,
+  "runtime_m": 102
  },
  {
   "watched": false,
@@ -1259,7 +1291,8 @@
    ]
   },
   "id": "munchies-1987",
-  "dbid": 4365
+  "dbid": 4365,
+  "runtime_m": 87
  },
  {
   "watched": false,
@@ -1271,7 +1304,8 @@
    ]
   },
   "id": "my-best-friend-is-a-vampire-1987",
-  "dbid": 21151
+  "dbid": 21151,
+  "runtime_m": 89
  },
  {
   "watched": false,
@@ -1283,7 +1317,8 @@
    ]
   },
   "id": "my-bloody-valentine-1981",
-  "dbid": 39874
+  "dbid": 39874,
+  "runtime_m": 90
  },
  {
   "watched": false,
@@ -1295,7 +1330,8 @@
    ]
   },
   "id": "my-name-is-bruce-2007",
-  "dbid": 1961
+  "dbid": 1961,
+  "runtime_m": 86
  },
  {
   "watched": false,
@@ -1307,7 +1343,8 @@
    ]
   },
   "id": "near-dark-1987",
-  "dbid": 11879
+  "dbid": 11879,
+  "runtime_m": 94
  },
  {
   "watched": false,
@@ -1319,7 +1356,8 @@
    ]
   },
   "id": "nightmares-1983",
-  "dbid": 42114
+  "dbid": 42114,
+  "runtime_m": 99
  },
  {
   "watched": false,
@@ -1331,7 +1369,8 @@
    ]
   },
   "id": "night-of-the-comet-1984",
-  "dbid": 18462
+  "dbid": 18462,
+  "runtime_m": 95
  },
  {
   "watched": false,
@@ -1343,7 +1382,8 @@
    ]
   },
   "id": "night-of-the-creeps-1986",
-  "dbid": 15762
+  "dbid": 15762,
+  "runtime_m": 88
  },
  {
   "watched": false,
@@ -1355,7 +1395,8 @@
    ]
   },
   "id": "night-of-the-demons-1988",
-  "dbid": 24924
+  "dbid": 24924,
+  "runtime_m": 90
  },
  {
   "watched": false,
@@ -1367,7 +1408,8 @@
    ]
   },
   "id": "night-of-the-living-dead-1968",
-  "dbid": 10331
+  "dbid": 10331,
+  "runtime_m": 96
  },
  {
   "watched": false,
@@ -1379,7 +1421,8 @@
    ]
   },
   "id": "night-of-the-living-dead-1990",
-  "dbid": 19185
+  "dbid": 19185,
+  "runtime_m": 88
  },
  {
   "watched": true,
@@ -1395,7 +1438,8 @@
    "20221022"
   ],
   "id": "north-by-northwest-1959",
-  "dbid": 213
+  "dbid": 213,
+  "runtime_m": 136
  },
  {
   "watched": false,
@@ -1407,7 +1451,8 @@
    ]
   },
   "id": "nosferatu-1922",
-  "dbid": 653
+  "dbid": 653,
+  "runtime_m": 95
  },
  {
   "watched": false,
@@ -1419,7 +1464,8 @@
    ]
   },
   "id": "nosferatu-1979",
-  "dbid": 6404
+  "dbid": 6404,
+  "runtime_m": 107
  },
  {
   "watched": true,
@@ -1438,7 +1484,8 @@
    "20211000"
   ],
   "id": "once-bitten-1985",
-  "dbid": 19064
+  "dbid": 19064,
+  "runtime_m": 94
  },
  {
   "watched": true,
@@ -1454,7 +1501,8 @@
    "20230211"
   ],
   "id": "one-hour-photo-2002",
-  "dbid": 9357
+  "dbid": 9357,
+  "runtime_m": 96
  },
  {
   "watched": false,
@@ -1466,7 +1514,8 @@
    ]
   },
   "id": "orca-1977",
-  "dbid": 12707
+  "dbid": 12707,
+  "runtime_m": 95
  },
  {
   "watched": false,
@@ -1478,7 +1527,8 @@
    ]
   },
   "id": "pet-sematary-1989",
-  "dbid": 8913
+  "dbid": 8913,
+  "runtime_m": 102
  },
  {
   "watched": true,
@@ -1494,7 +1544,8 @@
    "20211000"
   ],
   "id": "poltergeist-1982",
-  "dbid": 609
+  "dbid": 609,
+  "runtime_m": 114
  },
  {
   "watched": false,
@@ -1506,7 +1557,8 @@
    ]
   },
   "id": "poltergeist-ii-the-other-side-1986",
-  "dbid": 11133
+  "dbid": 11133,
+  "runtime_m": 91
  },
  {
   "watched": false,
@@ -1518,7 +1570,8 @@
    ]
   },
   "id": "poltergeist-iii-1988",
-  "dbid": 10306
+  "dbid": 10306,
+  "runtime_m": 98
  },
  {
   "watched": false,
@@ -1530,7 +1583,8 @@
    ]
   },
   "id": "prince-of-darkness-1987",
-  "dbid": 8852
+  "dbid": 8852,
+  "runtime_m": 102
  },
  {
   "watched": false,
@@ -1542,7 +1596,8 @@
    ]
   },
   "id": "pumpkinhead-1988",
-  "dbid": 26515
+  "dbid": 26515,
+  "runtime_m": 86
  },
  {
   "watched": true,
@@ -1558,7 +1613,8 @@
    "20231014"
   ],
   "id": "re-animator-1985",
-  "dbid": 1694
+  "dbid": 1694,
+  "runtime_m": 86
  },
  {
   "watched": true,
@@ -1574,7 +1630,8 @@
    "20221029"
   ],
   "id": "repossessed-1990",
-  "dbid": 11510
+  "dbid": 11510,
+  "runtime_m": 80
  },
  {
   "watched": false,
@@ -1586,7 +1643,8 @@
    ]
   },
   "id": "return-of-the-living-dead-1985",
-  "dbid": 10925
+  "dbid": 10925,
+  "runtime_m": 91
  },
  {
   "watched": false,
@@ -1601,7 +1659,8 @@
    ]
   },
   "id": "return-of-the-living-dead-part-ii-1988",
-  "dbid": 24929
+  "dbid": 24929,
+  "runtime_m": 89
  },
  {
   "watched": false,
@@ -1613,7 +1672,8 @@
    ]
   },
   "id": "r-o-t-o-r-1987",
-  "dbid": 31127
+  "dbid": 31127,
+  "runtime_m": 90
  },
  {
   "watched": false,
@@ -1625,7 +1685,8 @@
    ]
   },
   "id": "rubber-2010",
-  "dbid": 45649
+  "dbid": 45649,
+  "runtime_m": 82
  },
  {
   "watched": false,
@@ -1637,7 +1698,8 @@
    ]
   },
   "id": "scanners-1981",
-  "dbid": 9538
+  "dbid": 9538,
+  "runtime_m": 103
  },
  {
   "watched": false,
@@ -1649,7 +1711,8 @@
    ]
   },
   "id": "silence-of-the-lambs-1991",
-  "dbid": 274
+  "dbid": 274,
+  "runtime_m": 119
  },
  {
   "watched": false,
@@ -1661,7 +1724,8 @@
    ]
   },
   "id": "silent-night-deadly-night-1984",
-  "dbid": 27414
+  "dbid": 27414,
+  "runtime_m": 79
  },
  {
   "watched": false,
@@ -1673,7 +1737,8 @@
    ]
   },
   "id": "silent-night-deadly-night-part-2-1987",
-  "dbid": 50719
+  "dbid": 50719,
+  "runtime_m": 88
  },
  {
   "watched": true,
@@ -1689,7 +1754,8 @@
    "20211000"
   ],
   "id": "sleepaway-camp-1983",
-  "dbid": 13567
+  "dbid": 13567,
+  "runtime_m": 84
  },
  {
   "watched": true,
@@ -1705,7 +1771,8 @@
    "20221015"
   ],
   "id": "silver-bullet-1985",
-  "dbid": 17898
+  "dbid": 17898,
+  "runtime_m": 95
  },
  {
   "watched": false,
@@ -1717,7 +1784,8 @@
    ]
   },
   "id": "tales-from-the-darkside-1990",
-  "dbid": 20701
+  "dbid": 20701,
+  "runtime_m": 93
  },
  {
   "watched": true,
@@ -1736,7 +1804,8 @@
    "20221015"
   ],
   "id": "teen-wolf-1985",
-  "dbid": 11824
+  "dbid": 11824,
+  "runtime_m": 91
  },
  {
   "watched": false,
@@ -1748,7 +1817,8 @@
    ]
   },
   "id": "terrorvision-1986",
-  "dbid": 24194
+  "dbid": 24194,
+  "runtime_m": 81
  },
  {
   "watched": true,
@@ -1764,7 +1834,8 @@
    "20211000"
   ],
   "id": "the-blob-1988",
-  "dbid": 9599
+  "dbid": 9599,
+  "runtime_m": 95
  },
  {
   "watched": true,
@@ -1780,7 +1851,8 @@
    "20211000"
   ],
   "id": "the-burbs-1989",
-  "dbid": 11974
+  "dbid": 11974,
+  "runtime_m": 102
  },
  {
   "watched": false,
@@ -1792,7 +1864,8 @@
    ]
   },
   "id": "the-burning-1981",
-  "dbid": 24124
+  "dbid": 24124,
+  "runtime_m": 91
  },
  {
   "watched": false,
@@ -1804,7 +1877,8 @@
    ]
   },
   "id": "the-changeling-1980",
-  "dbid": 13550
+  "dbid": 13550,
+  "runtime_m": 103
  },
  {
   "watched": false,
@@ -1816,7 +1890,8 @@
    ]
   },
   "id": "the-car-1977",
-  "dbid": 24655
+  "dbid": 24655,
+  "runtime_m": 96
  },
  {
   "watched": false,
@@ -1828,7 +1903,8 @@
    ]
   },
   "id": "the-company-of-wolves-1984",
-  "dbid": 11905
+  "dbid": 11905,
+  "runtime_m": 95
  },
  {
   "watched": false,
@@ -1840,7 +1916,8 @@
    ]
   },
   "id": "the-fly-1958",
-  "dbid": 11815
+  "dbid": 11815,
+  "runtime_m": 94
  },
  {
   "watched": true,
@@ -1856,7 +1933,8 @@
    "20211000"
   ],
   "id": "the-fly-1986",
-  "dbid": 9426
+  "dbid": 9426,
+  "runtime_m": 96
  },
  {
   "watched": false,
@@ -1868,7 +1946,8 @@
    ]
   },
   "id": "the-fly-ii-1989",
-  "dbid": 10344
+  "dbid": 10344,
+  "runtime_m": 105
  },
  {
   "watched": false,
@@ -1880,7 +1959,8 @@
    ]
   },
   "id": "the-fog-1980",
-  "dbid": 790
+  "dbid": 790,
+  "runtime_m": 90
  },
  {
   "watched": false,
@@ -1892,7 +1972,8 @@
    ]
   },
   "id": "the-gate-1987",
-  "dbid": 6917
+  "dbid": 6917,
+  "runtime_m": 86
  },
  {
   "watched": true,
@@ -1908,7 +1989,8 @@
    "20231007"
   ],
   "id": "the-lost-boys-1987",
-  "dbid": 1547
+  "dbid": 1547,
+  "runtime_m": 97
  },
  {
   "watched": true,
@@ -1924,7 +2006,8 @@
    "20211000"
   ],
   "id": "the-monster-squad-1987",
-  "dbid": 13509
+  "dbid": 13509,
+  "runtime_m": 82
  },
  {
   "watched": false,
@@ -1936,7 +2019,8 @@
    ]
   },
   "id": "the-others-2001",
-  "dbid": 1933
+  "dbid": 1933,
+  "runtime_m": 104
  },
  {
   "watched": false,
@@ -1948,7 +2032,8 @@
    ]
   },
   "id": "the-people-under-the-stairs-1991",
-  "dbid": 13122
+  "dbid": 13122,
+  "runtime_m": 103
  },
  {
   "watched": false,
@@ -1960,7 +2045,8 @@
    ]
   },
   "id": "suspiria-1977",
-  "dbid": 11906
+  "dbid": 11906,
+  "runtime_m": 99
  },
  {
   "watched": false,
@@ -1972,7 +2058,8 @@
    ]
   },
   "id": "the-rocky-horror-picture-show-1975",
-  "dbid": 36685
+  "dbid": 36685,
+  "runtime_m": 100
  },
  {
   "watched": true,
@@ -1988,7 +2075,8 @@
    "20231028"
   ],
   "id": "the-serpent-and-the-rainbow-1988",
-  "dbid": 11503
+  "dbid": 11503,
+  "runtime_m": 98
  },
  {
   "watched": true,
@@ -2007,7 +2095,8 @@
    "20221008"
   ],
   "id": "the-shining-1980",
-  "dbid": 694
+  "dbid": 694,
+  "runtime_m": 144
  },
  {
   "watched": false,
@@ -2019,7 +2108,8 @@
    ]
   },
   "id": "the-texas-chainsaw-massacre-1974",
-  "dbid": 30497
+  "dbid": 30497,
+  "runtime_m": 83
  },
  {
   "watched": false,
@@ -2031,7 +2121,8 @@
    ]
   },
   "id": "the-texas-chainsaw-massacre-2-1986",
-  "dbid": 16337
+  "dbid": 16337,
+  "runtime_m": 101
  },
  {
   "watched": true,
@@ -2047,7 +2138,8 @@
    "20211000"
   ],
   "id": "the-thing-1982",
-  "dbid": 1091
+  "dbid": 1091,
+  "runtime_m": 109
  },
  {
   "watched": true,
@@ -2063,7 +2155,8 @@
    "20231001"
   ],
   "id": "the-witches-of-eastwick-1987",
-  "dbid": 6069
+  "dbid": 6069,
+  "runtime_m": 118
  },
  {
   "watched": false,
@@ -2075,7 +2168,8 @@
    ]
   },
   "id": "transylvania-6-5000-1985",
-  "dbid": 25133
+  "dbid": 25133,
+  "runtime_m": 93
  },
  {
   "watched": false,
@@ -2087,7 +2181,8 @@
    ]
   },
   "id": "videodrome-1983",
-  "dbid": 837
+  "dbid": 837,
+  "runtime_m": 88
  },
  {
   "watched": false,
@@ -2099,7 +2194,8 @@
    ]
   },
   "id": "village-of-the-damned-1995",
-  "dbid": 12122
+  "dbid": 12122,
+  "runtime_m": 99
  },
  {
   "watched": true,
@@ -2115,7 +2211,8 @@
    "20231002"
   ],
   "id": "wolf-1994",
-  "dbid": 10395
+  "dbid": 10395,
+  "runtime_m": 125
  },
  {
   "watched": false,
@@ -2127,7 +2224,18 @@
    ]
   },
   "id": "xtro-1982",
-  "dbid": 25834
+  "dbid": 25834,
+  "runtime_m": 86
+ },
+ {
+  "watched": false,
+  "title": "Scary Movie",
+  "year": "2000",
+  "runtime_hm": "1h28m",
+  "links": {},
+  "id": "scary-movie-2000",
+  "dbid": 4247,
+  "runtime_m": 88
  },
  {
   "watched": false,
@@ -2142,7 +2250,8 @@
    ]
   },
   "id": "strangers-on-a-train-1951",
-  "dbid": 845
+  "dbid": 845,
+  "runtime_m": 101
  },
  {
   "watched": true,
@@ -2161,7 +2270,8 @@
    "20231007"
   ],
   "id": "the-birds-1963",
-  "dbid": 571
+  "dbid": 571,
+  "runtime_m": 120
  },
  {
   "watched": true,
@@ -2180,7 +2290,8 @@
    "20231001"
   ],
   "id": "vertigo-1958",
-  "dbid": 426
+  "dbid": 426,
+  "runtime_m": 129
  },
  {
   "watched": false,
@@ -2197,27 +2308,29 @@
   "watched": false,
   "title": "Triangle",
   "year": "2009",
-  "runtime": "1h39m",
+  "runtime_hm": "1h39m",
   "links": {
    " trailer": [
     "https://youtu.be/9aCdzjCftgs"
    ]
   },
   "id": "triangle-2009",
-  "dbid": 26466
+  "dbid": 26466,
+  "runtime_m": 98
  },
  {
   "watched": false,
   "title": "Oculus",
   "year": "2013",
-  "runtime": "1h45m",
+  "runtime_hm": "1h45m",
   "links": {
    " trailer": [
     "https://youtu.be/66RBsIsWJBQ"
    ]
   },
   "id": "oculus-2013",
-  "dbid": 157547
+  "dbid": 157547,
+  "runtime_m": 104
  },
  {
   "watched": false,
@@ -2229,7 +2342,8 @@
    ]
   },
   "id": "shadow-of-the-vampire-2000",
-  "dbid": 10873
+  "dbid": 10873,
+  "runtime_m": 92
  },
  {
   "watched": false,
@@ -2241,7 +2355,8 @@
    ]
   },
   "id": "thinner-1996",
-  "dbid": 10280
+  "dbid": 10280,
+  "runtime_m": 92
  },
  {
   "watched": true,
@@ -2257,7 +2372,8 @@
    "20231028"
   ],
   "id": "slither-2006",
-  "dbid": 9035
+  "dbid": 9035,
+  "runtime_m": 95
  },
  {
   "watched": false,
@@ -2269,14 +2385,15 @@
    ]
   },
   "id": "special-bulletin-1983",
-  "dbid": 69266
+  "dbid": 69266,
+  "runtime_m": 103
  },
  {
   "watched": true,
   "watchdate": "12.02.23",
   "title": "Blue Sky",
   "year": "1994",
-  "runtime": "1h41m",
+  "runtime_hm": "1h41m",
   "links": {
    " trailer": [
     "https://youtu.be/DEumw-eXW7w"
@@ -2289,46 +2406,50 @@
    "20231202"
   ],
   "id": "blue-sky-1994",
-  "dbid": 57834
+  "dbid": 57834,
+  "runtime_m": 101
  },
  {
   "watched": false,
   "title": "Antitrust",
   "year": "2001",
-  "runtime": "1h49m",
+  "runtime_hm": "1h49m",
   "links": {
    " trailer": [
     "https://youtu.be/I7hhqX1PANU"
    ]
   },
   "id": "antitrust-2001",
-  "dbid": 9989
+  "dbid": 9989,
+  "runtime_m": 108
  },
  {
   "watched": false,
   "title": "Last Samurai",
   "year": "2004",
-  "runtime": "2h34m",
+  "runtime_hm": "2h34m",
   "links": {
    " trailer": [
     "https://youtu.be/3b5aD1bm7eI"
    ]
   },
   "id": "last-samurai-2004",
-  "dbid": 616
+  "dbid": 616,
+  "runtime_m": 154
  },
  {
   "watched": false,
   "title": "I Bought A Vampire Motorcycle",
   "year": "1990",
-  "runtime": "1h45m",
+  "runtime_hm": "1h45m",
   "links": {
    " trailer": [
     "https://youtu.be/43rAACwFPRk"
    ]
   },
   "id": "i-bought-a-vampire-motorcycle-1990",
-  "dbid": 41153
+  "dbid": 41153,
+  "runtime_m": 101
  },
  {
   "watched": false,
@@ -2340,7 +2461,8 @@
    ]
   },
   "id": "troll-1986",
-  "dbid": 33061
+  "dbid": 33061,
+  "runtime_m": 82
  },
  {
   "watched": true,
@@ -2356,7 +2478,8 @@
    "20231028"
   ],
   "id": "bride-of-re-animator-1990",
-  "dbid": 18111
+  "dbid": 18111,
+  "runtime_m": 96
  },
  {
   "watched": false,
@@ -2368,7 +2491,8 @@
    ]
   },
   "id": "beyond-re-animator-2003",
-  "dbid": 11429
+  "dbid": 11429,
+  "runtime_m": 95
  },
  {
   "watched": false,
@@ -2380,7 +2504,8 @@
    ]
   },
   "id": "vampires-kiss-1988",
-  "dbid": 7091
+  "dbid": 7091,
+  "runtime_m": 103
  },
  {
   "watched": false,
@@ -2392,24 +2517,37 @@
    ]
   },
   "id": "ringu-1998",
-  "dbid": 2671
+  "dbid": 2671,
+  "runtime_m": 96
  },
  {
   "watched": false,
   "title": "Frankenstein",
   "year": "1931",
-  "links": {},
+  "links": {
+   " trailer": [
+    "https://youtu.be/BN8K-4osNb0",
+    "https://youtu.be/XD7Gn9grers"
+   ]
+  },
   "id": "frankenstein-1931",
-  "dbid": 3035
+  "dbid": 3035,
+  "runtime_m": 71
  },
  {
   "watched": false,
   "title": "Bride of Frankenstein",
   "year": "1935",
-  "runtime": "1h15m",
-  "links": {},
+  "runtime_hm": "1h15m",
+  "links": {
+   " trailer": [
+    "https://youtu.be/mPT2R1g5MGY",
+    "https://youtu.be/rYD3-pIF9jQ"
+   ]
+  },
   "id": "bride-of-frankenstein-1935",
-  "dbid": 229
+  "dbid": 229,
+  "runtime_m": 75
  },
  {
   "watched": false,
@@ -2417,7 +2555,8 @@
   "year": "1974",
   "links": {},
   "id": "young-frankenstein-1974",
-  "dbid": 3034
+  "dbid": 3034,
+  "runtime_m": 106
  },
  {
   "watched": false,
@@ -2425,7 +2564,8 @@
   "year": "1994",
   "links": {},
   "id": "mary-shelleys-frankenstein-1994",
-  "dbid": 3036
+  "dbid": 3036,
+  "runtime_m": 123
  },
  {
   "watched": false,
@@ -2433,7 +2573,8 @@
   "year": "1965",
   "links": {},
   "id": "frankenstein-conquers-the-world-1965",
-  "dbid": 3160
+  "dbid": 3160,
+  "runtime_m": 90
  },
  {
   "watched": false,
@@ -2448,7 +2589,8 @@
    ]
   },
   "id": "rad-1986",
-  "dbid": 13841
+  "dbid": 13841,
+  "runtime_m": 93
  },
  {
   "watched": false,
@@ -2460,7 +2602,8 @@
    ]
   },
   "id": "pump-up-the-volume-1990",
-  "dbid": 8428
+  "dbid": 8428,
+  "runtime_m": 105
  },
  {
   "watched": false,
@@ -2472,20 +2615,22 @@
    ]
   },
   "id": "gleaming-the-cube-1989",
-  "dbid": 1380
+  "dbid": 1380,
+  "runtime_m": 101
  },
  {
   "watched": false,
   "title": "Spies Like Us",
   "year": "1985",
-  "runtime": "1h49m",
+  "runtime_hm": "1h49m",
   "links": {
    " trailer": [
     "https://youtu.be/fO293MCVmnY"
    ]
   },
   "id": "spies-like-us-1985",
-  "dbid": 9080
+  "dbid": 9080,
+  "runtime_m": 102
  },
  {
   "watched": false,
@@ -2497,36 +2642,39 @@
    ]
   },
   "id": "overboard-1987",
-  "dbid": 10780
+  "dbid": 10780,
+  "runtime_m": 112
  },
  {
   "watched": false,
   "title": "Reservoir Dogs",
   "year": "1992",
-  "runtime": "1h39m",
+  "runtime_hm": "1h39m",
   "links": {},
   "id": "reservoir-dogs-1992",
-  "dbid": 500
+  "dbid": 500,
+  "runtime_m": 99
  },
  {
   "watched": false,
   "title": "Waiting for the Barbarians",
   "year": "2020",
-  "runtime": "1h52m",
+  "runtime_hm": "1h52m",
   "links": {
    " trailer": [
     "https://youtu.be/PHE5iHeYBqw"
    ]
   },
   "id": "waiting-for-the-barbarians-2020",
-  "dbid": 505707
+  "dbid": 505707,
+  "runtime_m": 114
  },
  {
   "watched": true,
   "watchdate": "03.09.24",
   "title": "The Lone Ranger",
   "year": "2013",
-  "runtime": "2h30m",
+  "runtime_hm": "2h30m",
   "links": {
    " trailer": [
     "https://youtu.be/JjFsNSoDZK8"
@@ -2536,13 +2684,14 @@
    "20240309"
   ],
   "id": "the-lone-ranger-2013",
-  "dbid": 57201
+  "dbid": 57201,
+  "runtime_m": 149
  },
  {
   "watched": false,
   "title": "Dr. No",
   "year": "1962",
-  "runtime": "1h49m",
+  "runtime_hm": "1h49m",
   "links": {
    " trailer": [
     "https://youtu.be/MI-6lRb0MG0"
@@ -2552,25 +2701,28 @@
    ]
   },
   "id": "dr-no-1962",
-  "dbid": 646
+  "dbid": 646,
+  "runtime_m": 110
  },
  {
   "watched": false,
   "title": "From Russia With Love",
   "year": "1963",
-  "runtime": "1h55m",
+  "runtime_hm": "1h55m",
   "links": {},
   "id": "from-russia-with-love-1963",
-  "dbid": 657
+  "dbid": 657,
+  "runtime_m": 115
  },
  {
   "watched": false,
   "title": "Goldfinger",
   "year": "1964",
-  "runtime": "1h50m",
+  "runtime_hm": "1h50m",
   "links": {},
   "id": "goldfinger-1964",
-  "dbid": 658
+  "dbid": 658,
+  "runtime_m": 110
  },
  {
   "watched": false,
@@ -2582,13 +2734,15 @@
    ]
   },
   "id": "you-only-live-twice-1967",
-  "dbid": 667
+  "dbid": 667,
+  "runtime_m": 117
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "04.13.24",
   "title": "Mafia vs Ninja",
   "year": "1985",
-  "runtime": "1h24m",
+  "runtime_hm": "1h24m",
   "links": {
    " trailer(German)": [
     "https://youtu.be/RSE99Zgxi1Q"
@@ -2597,8 +2751,12 @@
     "https://www.dailymotion.com/video/x8ml1ww"
    ]
   },
+  "watchdate_arr": [
+   "20240413"
+  ],
   "id": "mafia-vs-ninja-1985",
-  "dbid": 121985
+  "dbid": 121985,
+  "runtime_m": 90
  },
  {
   "watched": false,
@@ -2614,13 +2772,14 @@
    ]
   },
   "id": "48-hours-1982",
-  "dbid": 150
+  "dbid": 150,
+  "runtime_m": 96
  },
  {
   "watched": false,
   "title": "A Better Tomorrow",
   "year": "1986",
-  "runtime": "1h39m",
+  "runtime_hm": "1h39m",
   "links": {
    " trailer(English)": [
     "https://youtu.be/VRscdJCAM8o"
@@ -2630,7 +2789,8 @@
    ]
   },
   "id": "a-better-tomorrow-1986",
-  "dbid": 11471
+  "dbid": 11471,
+  "runtime_m": 95
  },
  {
   "watched": false,
@@ -2645,7 +2805,8 @@
    ]
   },
   "id": "a-better-tomorrow-2-1987",
-  "dbid": 18305
+  "dbid": 18305,
+  "runtime_m": 105
  },
  {
   "watched": false,
@@ -2657,7 +2818,8 @@
    ]
   },
   "id": "above-the-law-1988",
-  "dbid": 9395
+  "dbid": 9395,
+  "runtime_m": 99
  },
  {
   "watched": false,
@@ -2669,7 +2831,8 @@
    ]
   },
   "id": "above-the-law-1986",
-  "dbid": 66212
+  "dbid": 66212,
+  "runtime_m": 102
  },
  {
   "watched": false,
@@ -2685,7 +2848,8 @@
    ]
   },
   "id": "action-jackson-1988",
-  "dbid": 10117
+  "dbid": 10117,
+  "runtime_m": 96
  },
  {
   "watched": true,
@@ -2697,7 +2861,8 @@
    ]
   },
   "id": "american-ninja-1985",
-  "dbid": 12500
+  "dbid": 12500,
+  "runtime_m": 95
  },
  {
   "watched": false,
@@ -2709,26 +2874,28 @@
    ]
   },
   "id": "american-ninja-2-the-confrontation-1987",
-  "dbid": 25678
+  "dbid": 25678,
+  "runtime_m": 90
  },
  {
   "watched": true,
   "title": "Beverly Hills Cop",
   "year": "1984",
-  "runtime": "1h45m",
+  "runtime_hm": "1h45m",
   "links": {
    " trailer": [
     "https://youtu.be/oc3sPICXZLs"
    ]
   },
   "id": "beverly-hills-cop-1984",
-  "dbid": 90
+  "dbid": 90,
+  "runtime_m": 105
  },
  {
   "watched": true,
   "title": "Beverly Hills Cop 2",
   "year": "1987",
-  "runtime": "1h43m",
+  "runtime_hm": "1h43m",
   "links": {
    " trailer": [
     "https://youtu.be/2QHk337vv4Y"
@@ -2738,7 +2905,8 @@
    ]
   },
   "id": "beverly-hills-cop-2-1987",
-  "dbid": 96
+  "dbid": 96,
+  "runtime_m": 103
  },
  {
   "watched": false,
@@ -2750,7 +2918,8 @@
    ]
   },
   "id": "beverly-hills-cop-3-1994",
-  "dbid": 306
+  "dbid": 306,
+  "runtime_m": 105
  },
  {
   "watched": false,
@@ -2762,13 +2931,14 @@
    ]
   },
   "id": "beverly-hills-cop-axel-f-2024",
-  "dbid": 280180
+  "dbid": 280180,
+  "runtime_m": 0
  },
  {
   "watched": true,
   "title": "Big Trouble in Little China",
   "year": "1986",
-  "runtime": "1h40m",
+  "runtime_hm": "1h40m",
   "links": {
    " trailer": [
     "https://youtu.be/AXsBBqPb5YE"
@@ -2778,7 +2948,8 @@
    ]
   },
   "id": "big-trouble-in-little-china-1986",
-  "dbid": 6978
+  "dbid": 6978,
+  "runtime_m": 100
  },
  {
   "watched": false,
@@ -2790,7 +2961,8 @@
    ]
   },
   "id": "black-rain-1989",
-  "dbid": 4105
+  "dbid": 4105,
+  "runtime_m": 125
  },
  {
   "watched": false,
@@ -2802,46 +2974,50 @@
    ]
   },
   "id": "cobra-1986",
-  "dbid": 9874
+  "dbid": 9874,
+  "runtime_m": 87
  },
  {
   "watched": false,
   "title": "Death Wish 1",
   "year": "1974",
-  "runtime": "1h33m",
+  "runtime_hm": "1h33m",
   "links": {
    " trailer": [
     "https://youtu.be/2YPzSrb0NPI"
    ]
   },
   "id": "death-wish-1-1974",
-  "dbid": 13939
+  "dbid": 13939,
+  "runtime_m": 93
  },
  {
   "watched": false,
   "title": "Death Wish 2",
   "year": "1982",
-  "runtime": "1h32m",
+  "runtime_hm": "1h32m",
   "links": {
    " trailer": [
     "https://youtu.be/y4L65odzonc"
    ]
   },
   "id": "death-wish-2-1982",
-  "dbid": 14373
+  "dbid": 14373,
+  "runtime_m": 92
  },
  {
   "watched": false,
   "title": "Death Wish 3",
   "year": "1985",
-  "runtime": "1h32m",
+  "runtime_hm": "1h32m",
   "links": {
    " trailer": [
     "https://youtu.be/IR-zUUOcf74"
    ]
   },
   "id": "death-wish-3-1985",
-  "dbid": 24873
+  "dbid": 24873,
+  "runtime_m": 92
  },
  {
   "watched": true,
@@ -2857,7 +3033,8 @@
    ]
   },
   "id": "escape-from-new-york-1981",
-  "dbid": 1103
+  "dbid": 1103,
+  "runtime_m": 99
  },
  {
   "watched": true,
@@ -2869,7 +3046,8 @@
    ]
   },
   "id": "escape-from-l-a-1996",
-  "dbid": 10061
+  "dbid": 10061,
+  "runtime_m": 100
  },
  {
   "watched": false,
@@ -2884,7 +3062,8 @@
    ]
   },
   "id": "invasion-u-s-a-1985",
-  "dbid": 15983
+  "dbid": 15983,
+  "runtime_m": 107
  },
  {
   "watched": false,
@@ -2896,7 +3075,8 @@
    ]
   },
   "id": "martial-law-1990",
-  "dbid": 65497
+  "dbid": 65497,
+  "runtime_m": 89
  },
  {
   "watched": false,
@@ -2908,7 +3088,8 @@
    ]
   },
   "id": "martial-law-ii-undercover-1991",
-  "dbid": 61802
+  "dbid": 61802,
+  "runtime_m": 91
  },
  {
   "watched": false,
@@ -2920,7 +3101,8 @@
    ]
   },
   "id": "missing-in-action-1984",
-  "dbid": 15379
+  "dbid": 15379,
+  "runtime_m": 101
  },
  {
   "watched": false,
@@ -2932,7 +3114,8 @@
    ]
   },
   "id": "missing-in-action-2-the-beginning-1985",
-  "dbid": 12764
+  "dbid": 12764,
+  "runtime_m": 100
  },
  {
   "watched": true,
@@ -2951,7 +3134,8 @@
    ]
   },
   "id": "rambo-first-blood-1982",
-  "dbid": 1368
+  "dbid": 1368,
+  "runtime_m": 93
  },
  {
   "watched": true,
@@ -2963,7 +3147,8 @@
    ]
   },
   "id": "rambo-first-blood-part-2-1985",
-  "dbid": 1369
+  "dbid": 1369,
+  "runtime_m": 96
  },
  {
   "watched": true,
@@ -2981,7 +3166,8 @@
    ]
   },
   "id": "rambo-3-1988",
-  "dbid": 1370
+  "dbid": 1370,
+  "runtime_m": 102
  },
  {
   "watched": false,
@@ -2993,7 +3179,8 @@
    ]
   },
   "id": "road-house-1989",
-  "dbid": 10135
+  "dbid": 10135,
+  "runtime_m": 114
  },
  {
   "watched": false,
@@ -3005,7 +3192,8 @@
    ]
   },
   "id": "shakedown-1988",
-  "dbid": 38558
+  "dbid": 38558,
+  "runtime_m": 93
  },
  {
   "watched": false,
@@ -3017,7 +3205,8 @@
    ]
   },
   "id": "streets-of-fire-1984",
-  "dbid": 14746
+  "dbid": 14746,
+  "runtime_m": 93
  },
  {
   "watched": false,
@@ -3029,7 +3218,8 @@
    ]
   },
   "id": "tango-cash-1989",
-  "dbid": 9618
+  "dbid": 9618,
+  "runtime_m": 104
  },
  {
   "watched": false,
@@ -3042,7 +3232,8 @@
    ]
   },
   "id": "the-delta-force-1986",
-  "dbid": 16113
+  "dbid": 16113,
+  "runtime_m": 129
  },
  {
   "watched": false,
@@ -3054,7 +3245,8 @@
    ]
   },
   "id": "delta-force-2-1990",
-  "dbid": 19086
+  "dbid": 19086,
+  "runtime_m": 111
  },
  {
   "watched": true,
@@ -3069,7 +3261,8 @@
    ]
   },
   "id": "the-punisher-1989",
-  "dbid": 8867
+  "dbid": 8867,
+  "runtime_m": 89
  },
  {
   "watched": false,
@@ -3081,7 +3274,8 @@
    ]
   },
   "id": "moscow-on-the-hudson-1984",
-  "dbid": 23111
+  "dbid": 23111,
+  "runtime_m": 115
  },
  {
   "watched": false,
@@ -3093,7 +3287,8 @@
    ]
   },
   "id": "the-hitmans-bodyguard-2017",
-  "dbid": 390043
+  "dbid": 390043,
+  "runtime_m": 118
  },
  {
   "watched": false,
@@ -3105,7 +3300,8 @@
    ]
   },
   "id": "dark-star-1974",
-  "dbid": 1410
+  "dbid": 1410,
+  "runtime_m": 83
  },
  {
   "watched": false,
@@ -3117,7 +3313,8 @@
    ]
   },
   "id": "nineteen-eighty-four-1984",
-  "dbid": 9314
+  "dbid": 9314,
+  "runtime_m": 113
  },
  {
   "watched": true,
@@ -3135,7 +3332,8 @@
    ]
   },
   "id": "2001-a-space-odyssey-1968",
-  "dbid": 62
+  "dbid": 62,
+  "runtime_m": 149
  },
  {
   "watched": true,
@@ -3150,7 +3348,8 @@
    ]
   },
   "id": "2010-the-year-we-make-contact-1984",
-  "dbid": 4437
+  "dbid": 4437,
+  "runtime_m": 116
  },
  {
   "watched": true,
@@ -3166,7 +3365,8 @@
    "20220903"
   ],
   "id": "alien-1979",
-  "dbid": 348
+  "dbid": 348,
+  "runtime_m": 117
  },
  {
   "watched": true,
@@ -3182,7 +3382,8 @@
    "20220917"
   ],
   "id": "aliens-1986",
-  "dbid": 679
+  "dbid": 679,
+  "runtime_m": 137
  },
  {
   "watched": true,
@@ -3198,7 +3399,8 @@
    "20220924"
   ],
   "id": "alien-3-1992",
-  "dbid": 8077
+  "dbid": 8077,
+  "runtime_m": 114
  },
  {
   "watched": false,
@@ -3210,7 +3412,8 @@
    ]
   },
   "id": "alien-resurrection-1997",
-  "dbid": 8078
+  "dbid": 8078,
+  "runtime_m": 109
  },
  {
   "watched": false,
@@ -3218,7 +3421,8 @@
   "year": "1994",
   "links": {},
   "id": "a-low-down-dirty-shame-1994",
-  "dbid": 26352
+  "dbid": 26352,
+  "runtime_m": 100
  },
  {
   "watched": false,
@@ -3230,7 +3434,8 @@
    ]
   },
   "id": "allan-quatermain-and-the-lost-city-of-gold-1987",
-  "dbid": 9710
+  "dbid": 9710,
+  "runtime_m": 99
  },
  {
   "watched": false,
@@ -3242,7 +3447,8 @@
    ]
   },
   "id": "all-quiet-on-the-western-front-1979",
-  "dbid": 10912
+  "dbid": 10912,
+  "runtime_m": 150
  },
  {
   "watched": true,
@@ -3258,7 +3464,8 @@
    "20220514"
   ],
   "id": "almost-heroes-1998",
-  "dbid": 14342
+  "dbid": 14342,
+  "runtime_m": 90
  },
  {
   "watched": false,
@@ -3270,20 +3477,22 @@
    ]
   },
   "id": "a-bridge-too-far-1977",
-  "dbid": 5902
+  "dbid": 5902,
+  "runtime_m": 175
  },
  {
   "watched": false,
   "title": "The Abyss",
   "year": "1989",
-  "runtime": "2h20m",
+  "runtime_hm": "2h20m",
   "links": {
    " trailer": [
     "https://youtu.be/uhdvaybv1Jw"
    ]
   },
   "id": "the-abyss-1989",
-  "dbid": 2756
+  "dbid": 2756,
+  "runtime_m": 140
  },
  {
   "watched": true,
@@ -3299,7 +3508,8 @@
    "20230812"
   ],
   "id": "a-i-artificial-intelligence-2001",
-  "dbid": 644
+  "dbid": 644,
+  "runtime_m": 146
  },
  {
   "watched": false,
@@ -3311,7 +3521,8 @@
    ]
   },
   "id": "air-force-one-1997",
-  "dbid": 9772
+  "dbid": 9772,
+  "runtime_m": 124
  },
  {
   "watched": false,
@@ -3323,7 +3534,8 @@
    ]
   },
   "id": "annihilation-2018",
-  "dbid": 300668
+  "dbid": 300668,
+  "runtime_m": 115
  },
  {
   "watched": false,
@@ -3335,7 +3547,8 @@
    ]
   },
   "id": "batteries-not-included-1987",
-  "dbid": 11548
+  "dbid": 11548,
+  "runtime_m": 106
  },
  {
   "watched": true,
@@ -3343,7 +3556,8 @@
   "year": "2000",
   "links": {},
   "id": "battle-royale-2000",
-  "dbid": 3176
+  "dbid": 3176,
+  "runtime_m": 113
  },
  {
   "watched": true,
@@ -3355,7 +3569,8 @@
    ]
   },
   "id": "battle-beyond-the-stars-1980",
-  "dbid": 14460
+  "dbid": 14460,
+  "runtime_m": 104
  },
  {
   "watched": true,
@@ -3371,7 +3586,8 @@
    "20220507"
   ],
   "id": "beverly-hills-ninja-1997",
-  "dbid": 9622
+  "dbid": 9622,
+  "runtime_m": 88
  },
  {
   "watched": false,
@@ -3386,7 +3602,8 @@
    ]
   },
   "id": "ben-hur-1959",
-  "dbid": 665
+  "dbid": 665,
+  "runtime_m": 212
  },
  {
   "watched": true,
@@ -3405,7 +3622,8 @@
    "20220430"
   ],
   "id": "black-sheep-1996",
-  "dbid": 13997
+  "dbid": 13997,
+  "runtime_m": 87
  },
  {
   "watched": false,
@@ -3420,7 +3638,8 @@
    ]
   },
   "id": "blade-1998",
-  "dbid": 36647
+  "dbid": 36647,
+  "runtime_m": 121
  },
  {
   "watched": true,
@@ -3432,7 +3651,8 @@
    ]
   },
   "id": "blade-runner-1982",
-  "dbid": 78
+  "dbid": 78,
+  "runtime_m": 118
  },
  {
   "watched": false,
@@ -3444,7 +3664,8 @@
    ]
   },
   "id": "blade-runner-2049-2017",
-  "dbid": 335984
+  "dbid": 335984,
+  "runtime_m": 164
  },
  {
   "watched": false,
@@ -3459,7 +3680,8 @@
    ]
   },
   "id": "blast-from-the-past-1999",
-  "dbid": 11622
+  "dbid": 11622,
+  "runtime_m": 112
  },
  {
   "watched": true,
@@ -3474,7 +3696,8 @@
    ]
   },
   "id": "blazing-saddles-1974",
-  "dbid": 11072
+  "dbid": 11072,
+  "runtime_m": 93
  },
  {
   "watched": false,
@@ -3486,7 +3709,8 @@
    ]
   },
   "id": "super-2010",
-  "dbid": 45132
+  "dbid": 45132,
+  "runtime_m": 96
  },
  {
   "watched": false,
@@ -3498,7 +3722,8 @@
    ]
   },
   "id": "kickass-2010",
-  "dbid": 23483
+  "dbid": 23483,
+  "runtime_m": 117
  },
  {
   "watched": true,
@@ -3514,7 +3739,8 @@
    "20220925"
   ],
   "id": "brazil-1985",
-  "dbid": 68
+  "dbid": 68,
+  "runtime_m": 143
  },
  {
   "watched": true,
@@ -3530,7 +3756,8 @@
    "20220618"
   ],
   "id": "blues-brothers-1980",
-  "dbid": 525
+  "dbid": 525,
+  "runtime_m": 133
  },
  {
   "watched": true,
@@ -3548,7 +3775,8 @@
    ]
   },
   "id": "the-adventures-of-buckaroo-banzai-1984",
-  "dbid": 11379
+  "dbid": 11379,
+  "runtime_m": 103
  },
  {
   "watched": true,
@@ -3564,7 +3792,8 @@
    "20220618"
   ],
   "id": "caddyshack-1980",
-  "dbid": 11977
+  "dbid": 11977,
+  "runtime_m": 98
  },
  {
   "watched": true,
@@ -3580,7 +3809,8 @@
    "20220702"
   ],
   "id": "cherry-2000-1987",
-  "dbid": 15785
+  "dbid": 15785,
+  "runtime_m": 99
  },
  {
   "watched": false,
@@ -3592,7 +3822,8 @@
    ]
   },
   "id": "cocoon-1985",
-  "dbid": 10328
+  "dbid": 10328,
+  "runtime_m": 117
  },
  {
   "watched": true,
@@ -3608,27 +3839,29 @@
    "20220430"
   ],
   "id": "coneheads-1993",
-  "dbid": 9612
+  "dbid": 9612,
+  "runtime_m": 87
  },
  {
   "watched": false,
   "title": "Sex and the Future",
   "year": "2020",
-  "runtime": "1h30m",
+  "runtime_hm": "1h30m",
   "links": {
    " trailer": [
     "https://youtu.be/MebuwemqMWU"
    ]
   },
   "id": "sex-and-the-future-2020",
-  "dbid": 685309
+  "dbid": 685309,
+  "runtime_m": 90
  },
  {
   "watched": true,
   "watchdate": "03.16.24",
   "title": "Chain Reaction",
   "year": "1996",
-  "runtime": "1h47m",
+  "runtime_hm": "1h47m",
   "links": {
    " trailer": [
     "https://youtu.be/PeBKlFokiTw"
@@ -3641,7 +3874,8 @@
    "20240316"
   ],
   "id": "chain-reaction-1996",
-  "dbid": 12123
+  "dbid": 12123,
+  "runtime_m": 107
  },
  {
   "watched": true,
@@ -3659,7 +3893,8 @@
    ]
   },
   "id": "close-encounters-of-the-third-kind-1977",
-  "dbid": 840
+  "dbid": 840,
+  "runtime_m": 135
  },
  {
   "watched": false,
@@ -3671,7 +3906,8 @@
    ]
   },
   "id": "clue-1985",
-  "dbid": 15196
+  "dbid": 15196,
+  "runtime_m": 94
  },
  {
   "watched": false,
@@ -3683,7 +3919,8 @@
    ]
   },
   "id": "the-chaser-2008",
-  "dbid": 13855
+  "dbid": 13855,
+  "runtime_m": 125
  },
  {
   "watched": true,
@@ -3699,7 +3936,8 @@
    "20220903"
   ],
   "id": "the-dam-busters-1955",
-  "dbid": 13210
+  "dbid": 13210,
+  "runtime_m": 124
  },
  {
   "watched": false,
@@ -3711,7 +3949,8 @@
    ]
   },
   "id": "das-boot-1981",
-  "dbid": 387
+  "dbid": 387,
+  "runtime_m": 150
  },
  {
   "watched": false,
@@ -3723,7 +3962,8 @@
    ]
   },
   "id": "down-periscope-1996",
-  "dbid": 9101
+  "dbid": 9101,
+  "runtime_m": 92
  },
  {
   "watched": true,
@@ -3739,7 +3979,8 @@
    "20220910"
   ],
   "id": "mchales-navy-1997",
-  "dbid": 14908
+  "dbid": 14908,
+  "runtime_m": 108
  },
  {
   "watched": true,
@@ -3754,7 +3995,8 @@
    ]
   },
   "id": "the-day-the-earth-stood-still-1951",
-  "dbid": 828
+  "dbid": 828,
+  "runtime_m": 92
  },
  {
   "watched": true,
@@ -3770,7 +4012,8 @@
    "20230708"
   ],
   "id": "d-a-r-y-l-1985",
-  "dbid": 16248
+  "dbid": 16248,
+  "runtime_m": 100
  },
  {
   "watched": true,
@@ -3797,7 +4040,8 @@
    ]
   },
   "id": "dude-wheres-my-car-2000",
-  "dbid": 8859
+  "dbid": 8859,
+  "runtime_m": 83
  },
  {
   "watched": false,
@@ -3809,7 +4053,8 @@
    ]
   },
   "id": "something-wild-1986",
-  "dbid": 11300
+  "dbid": 11300,
+  "runtime_m": 114
  },
  {
   "watched": false,
@@ -3821,7 +4066,8 @@
    ]
   },
   "id": "slipstream-1989",
-  "dbid": 22379
+  "dbid": 22379,
+  "runtime_m": 102
  },
  {
   "watched": false,
@@ -3833,7 +4079,8 @@
    ]
   },
   "id": "the-wraith-1986",
-  "dbid": 10017
+  "dbid": 10017,
+  "runtime_m": 93
  },
  {
   "watched": false,
@@ -3845,7 +4092,8 @@
    ]
   },
   "id": "looker-1981",
-  "dbid": 21874
+  "dbid": 21874,
+  "runtime_m": 94
  },
  {
   "watched": false,
@@ -3857,7 +4105,8 @@
    ]
   },
   "id": "miracle-mile-1988",
-  "dbid": 24739
+  "dbid": 24739,
+  "runtime_m": 88
  },
  {
   "watched": false,
@@ -3869,7 +4118,8 @@
    ]
   },
   "id": "virus-1981",
-  "dbid": 21380
+  "dbid": 21380,
+  "runtime_m": 101
  },
  {
   "watched": false,
@@ -3881,7 +4131,8 @@
    ]
   },
   "id": "virus-1999",
-  "dbid": 9423
+  "dbid": 9423,
+  "runtime_m": 99
  },
  {
   "watched": true,
@@ -3897,16 +4148,18 @@
    "20231125"
   ],
   "id": "demolition-man-1993",
-  "dbid": 9739
+  "dbid": 9739,
+  "runtime_m": 115
  },
  {
   "watched": false,
   "title": "Bullet Train",
   "year": "2022",
-  "runtime": "2h6m",
+  "runtime_hm": "2h6m",
   "links": {},
   "id": "bullet-train-2022",
-  "dbid": 1006540
+  "dbid": 1006540,
+  "runtime_m": 86
  },
  {
   "watched": false,
@@ -3918,7 +4171,8 @@
    ]
   },
   "id": "the-blob-1958",
-  "dbid": 8851
+  "dbid": 8851,
+  "runtime_m": 83
  },
  {
   "watched": false,
@@ -3926,7 +4180,8 @@
   "year": "1951",
   "links": {},
   "id": "when-worlds-collide-1951",
-  "dbid": 16380
+  "dbid": 16380,
+  "runtime_m": 83
  },
  {
   "watched": false,
@@ -3934,7 +4189,8 @@
   "year": "1954",
   "links": {},
   "id": "them-1954",
-  "dbid": 11071
+  "dbid": 11071,
+  "runtime_m": 94
  },
  {
   "watched": false,
@@ -3942,7 +4198,8 @@
   "year": "1951",
   "links": {},
   "id": "the-thing-1951",
-  "dbid": 10785
+  "dbid": 10785,
+  "runtime_m": 87
  },
  {
   "watched": false,
@@ -3954,16 +4211,18 @@
    ]
   },
   "id": "the-war-of-the-worlds-1953",
-  "dbid": 8974
+  "dbid": 8974,
+  "runtime_m": 85
  },
  {
   "watched": false,
   "title": "Tarantula",
   "year": "1955",
-  "runtime": "1h20m",
+  "runtime_hm": "1h20m",
   "links": {},
   "id": "tarantula-1955",
-  "dbid": 9077
+  "dbid": 9077,
+  "runtime_m": 80
  },
  {
   "watched": false,
@@ -3971,7 +4230,8 @@
   "year": "1958",
   "links": {},
   "id": "attack-of-the-50ft-woman-1958",
-  "dbid": 18724
+  "dbid": 18724,
+  "runtime_m": 66
  },
  {
   "watched": false,
@@ -3979,7 +4239,8 @@
   "year": "1953",
   "links": {},
   "id": "robot-monster-1953",
-  "dbid": 43353
+  "dbid": 43353,
+  "runtime_m": 66
  },
  {
   "watched": false,
@@ -3987,7 +4248,8 @@
   "year": "1958",
   "links": {},
   "id": "the-trollenberg-terror-the-crawling-eye-1958",
-  "dbid": 43143
+  "dbid": 43143,
+  "runtime_m": 84
  },
  {
   "watched": false,
@@ -3995,7 +4257,8 @@
   "year": "1955",
   "links": {},
   "id": "it-came-from-beneath-the-sea-1955",
-  "dbid": 29959
+  "dbid": 29959,
+  "runtime_m": 79
  },
  {
   "watched": false,
@@ -4003,7 +4266,8 @@
   "year": "1953",
   "links": {},
   "id": "invaders-from-mars-1953",
-  "dbid": 20424
+  "dbid": 20424,
+  "runtime_m": 78
  },
  {
   "watched": false,
@@ -4011,7 +4275,8 @@
   "year": "1959",
   "links": {},
   "id": "battle-in-outer-space-1959",
-  "dbid": 62472
+  "dbid": 62472,
+  "runtime_m": 90
  },
  {
   "watched": false,
@@ -4019,7 +4284,8 @@
   "year": "1953",
   "links": {},
   "id": "it-came-from-outer-space-1953",
-  "dbid": 19483
+  "dbid": 19483,
+  "runtime_m": 81
  },
  {
   "watched": false,
@@ -4027,7 +4293,8 @@
   "year": "1956",
   "links": {},
   "id": "earth-vs-the-flying-saucers-1956",
-  "dbid": 18158
+  "dbid": 18158,
+  "runtime_m": 83
  },
  {
   "watched": false,
@@ -4035,7 +4302,8 @@
   "year": "1955",
   "links": {},
   "id": "the-quatermass-experiment-1955",
-  "dbid": 24580
+  "dbid": 24580,
+  "runtime_m": 82
  },
  {
   "watched": false,
@@ -4043,7 +4311,8 @@
   "year": "1954",
   "links": {},
   "id": "the-creature-from-the-black-lagoon-1954",
-  "dbid": 10973
+  "dbid": 10973,
+  "runtime_m": 79
  },
  {
   "watched": false,
@@ -4051,7 +4320,8 @@
   "year": "1954",
   "links": {},
   "id": "20-000-leagues-under-the-sea-1954",
-  "dbid": 173
+  "dbid": 173,
+  "runtime_m": 127
  },
  {
   "watched": false,
@@ -4059,7 +4329,8 @@
   "year": "1950",
   "links": {},
   "id": "destination-moon-1950",
-  "dbid": 25392
+  "dbid": 25392,
+  "runtime_m": 91
  },
  {
   "watched": false,
@@ -4067,7 +4338,8 @@
   "year": "1957",
   "links": {},
   "id": "the-incredible-shrinking-man-1957",
-  "dbid": 31682
+  "dbid": 31682,
+  "runtime_m": 81
  },
  {
   "watched": false,
@@ -4075,7 +4347,8 @@
   "year": "1955",
   "links": {},
   "id": "this-island-earth-1955",
-  "dbid": 831
+  "dbid": 831,
+  "runtime_m": 85
  },
  {
   "watched": false,
@@ -4090,7 +4363,8 @@
    ]
   },
   "id": "the-computer-wore-tennis-shoes-1969",
-  "dbid": 29228
+  "dbid": 29228,
+  "runtime_m": 91
  },
  {
   "watched": true,
@@ -4105,7 +4379,8 @@
    ]
   },
   "id": "dr-strangelove-1964",
-  "dbid": 935
+  "dbid": 935,
+  "runtime_m": 95
  },
  {
   "watched": true,
@@ -4124,7 +4399,8 @@
    "20230422"
   ],
   "id": "lawrence-of-arabia-1962",
-  "dbid": 947
+  "dbid": 947,
+  "runtime_m": 228
  },
  {
   "watched": false,
@@ -4150,7 +4426,8 @@
    ]
   },
   "id": "the-fabulous-baron-munchausen-1962",
-  "dbid": 41213
+  "dbid": 41213,
+  "runtime_m": 83
  },
  {
   "watched": true,
@@ -4162,7 +4439,8 @@
    ]
   },
   "id": "the-dirty-dozen-1967",
-  "dbid": 1654
+  "dbid": 1654,
+  "runtime_m": 150
  },
  {
   "watched": false,
@@ -4174,7 +4452,8 @@
    ]
   },
   "id": "cool-hand-luke-1967",
-  "dbid": 903
+  "dbid": 903,
+  "runtime_m": 127
  },
  {
   "watched": true,
@@ -4190,7 +4469,8 @@
    "20220917"
   ],
   "id": "barbarella-1968",
-  "dbid": 8069
+  "dbid": 8069,
+  "runtime_m": 98
  },
  {
   "watched": true,
@@ -4206,14 +4486,15 @@
    "20231112"
   ],
   "id": "greystoke-the-legend-of-tarzan-lord-of-the-apes-1984",
-  "dbid": 11002
+  "dbid": 11002,
+  "runtime_m": 143
  },
  {
   "watched": true,
   "watchdate": "02.03.24",
   "title": "The Venture Bros: Radiant is the Blood of the Baboon Heart",
   "year": "2023",
-  "runtime": "1h24m",
+  "runtime_hm": "1h24m",
   "links": {
    " trailer": [
     "https://youtu.be/jxkGUWRJV24"
@@ -4223,7 +4504,8 @@
    "20240203"
   ],
   "id": "the-venture-bros-radiant-is-the-blood-of-the-baboon-heart-2023",
-  "dbid": 828898
+  "dbid": 828898,
+  "runtime_m": 84
  },
  {
   "watched": true,
@@ -4239,7 +4521,8 @@
    "20230610"
   ],
   "id": "the-dungeonmaster-1984",
-  "dbid": 27244
+  "dbid": 27244,
+  "runtime_m": 73
  },
  {
   "watched": true,
@@ -4258,7 +4541,8 @@
    "20230701"
   ],
   "id": "judge-dredd-1995",
-  "dbid": 9482
+  "dbid": 9482,
+  "runtime_m": 96
  },
  {
   "watched": true,
@@ -4274,7 +4558,8 @@
    "20230701"
   ],
   "id": "dredd-2012",
-  "dbid": 49049
+  "dbid": 49049,
+  "runtime_m": 95
  },
  {
   "watched": false,
@@ -4286,14 +4571,15 @@
    ]
   },
   "id": "hard-to-kill-1990",
-  "dbid": 9569
+  "dbid": 9569,
+  "runtime_m": 95
  },
  {
   "watched": true,
   "watchdate": "01.27.24",
   "title": "Hercules in New York",
   "year": "1970",
-  "runtime": "1h32m",
+  "runtime_hm": "1h32m",
   "links": {
    " trailer": [
     "https://youtu.be/X9qAR-Jnbug"
@@ -4306,14 +4592,15 @@
    "20240127"
   ],
   "id": "hercules-in-new-york-1970",
-  "dbid": 5227
+  "dbid": 5227,
+  "runtime_m": 92
  },
  {
   "watched": true,
   "watchdate": "02.03.24",
   "title": "The Villain",
   "year": "1979",
-  "runtime": "1h29m",
+  "runtime_hm": "1h29m",
   "links": {
    " trailer": [
     "https://youtu.be/QM62ZGjrbgs"
@@ -4323,14 +4610,15 @@
    "20240203"
   ],
   "id": "the-villain-1979",
-  "dbid": 163907
+  "dbid": 163907,
+  "runtime_m": 89
  },
  {
   "watched": true,
   "watchdate": "02.24.24",
   "title": "Commando",
   "year": "1985",
-  "runtime": "1h30m",
+  "runtime_hm": "1h30m",
   "links": {
    " trailer": [
     "https://youtu.be/m264f4tfG2s"
@@ -4340,14 +4628,15 @@
    "20240224"
   ],
   "id": "commando-1985",
-  "dbid": 10999
+  "dbid": 10999,
+  "runtime_m": 90
  },
  {
   "watched": true,
   "watchdate": "03.02.24",
   "title": "Raw Deal",
   "year": "1986",
-  "runtime": "1h46m",
+  "runtime_hm": "1h46m",
   "links": {
    " trailer": [
     "https://youtu.be/qMSQtrsbj-c"
@@ -4360,14 +4649,15 @@
    "20240302"
   ],
   "id": "raw-deal-1986",
-  "dbid": 2099
+  "dbid": 2099,
+  "runtime_m": 106
  },
  {
   "watched": true,
   "watchdate": "03.09.24",
   "title": "Predator",
   "year": "1987",
-  "runtime": "1h47m",
+  "runtime_hm": "1h47m",
   "links": {
    " trailer": [
     "https://youtu.be/X2hBYGwKh3I"
@@ -4377,7 +4667,8 @@
    "20240309"
   ],
   "id": "predator-1987",
-  "dbid": 106
+  "dbid": 106,
+  "runtime_m": 107
  },
  {
   "watched": true,
@@ -4389,14 +4680,15 @@
    ]
   },
   "id": "predator-2-1990",
-  "dbid": 169
+  "dbid": 169,
+  "runtime_m": 108
  },
  {
   "watched": true,
   "watchdate": "03.16.24",
   "title": "The Running Man",
   "year": "1987",
-  "runtime": "1h41m",
+  "runtime_hm": "1h41m",
   "links": {
    " trailer": [
     "https://youtu.be/pkAN5rGGP1M"
@@ -4406,14 +4698,15 @@
    "20240316"
   ],
   "id": "the-running-man-1987",
-  "dbid": 865
+  "dbid": 865,
+  "runtime_m": 101
  },
  {
   "watched": true,
   "watchdate": "03.23.24",
   "title": "Red Heat",
   "year": "1988",
-  "runtime": "1h44m",
+  "runtime_hm": "1h44m",
   "links": {
    " trailer": [
     "https://youtu.be/N1m5nHD7iMk"
@@ -4426,14 +4719,15 @@
    "20240323"
   ],
   "id": "red-heat-1988",
-  "dbid": 9604
+  "dbid": 9604,
+  "runtime_m": 104
  },
  {
   "watched": true,
   "watchdate": "03.30.24",
   "title": "Twins",
   "year": "1988",
-  "runtime": "1h46m",
+  "runtime_hm": "1h46m",
   "links": {
    " trailer": [
     "https://youtu.be/OG-CQgtcbqg"
@@ -4443,14 +4737,15 @@
    "20240330"
   ],
   "id": "twins-1988",
-  "dbid": 9493
+  "dbid": 9493,
+  "runtime_m": 107
  },
  {
   "watched": true,
   "watchdate": "04.06.24",
   "title": "Total Recall",
   "year": "1990",
-  "runtime": "1h53m",
+  "runtime_hm": "1h53m",
   "links": {
    " teaser": [
     "https://youtu.be/P5HKzf5OWWc"
@@ -4466,65 +4761,96 @@
    "20240406"
   ],
   "id": "total-recall-1990",
-  "dbid": 861
+  "dbid": 861,
+  "runtime_m": 113
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "04.13.24",
   "title": "Kindergarten Cop",
   "year": "1990",
-  "runtime": "1h51m",
+  "runtime_hm": "1h51m",
   "links": {
    " trailer": [
     "https://youtu.be/T4gV5yDqFqc",
     "https://youtu.be/8YdY6sbtQPg"
    ]
   },
+  "watchdate_arr": [
+   "20240413"
+  ],
   "id": "kindergarten-cop-1990",
-  "dbid": 951
- },
- {
-  "watched": false,
-  "title": "Dave",
-  "year": "1993",
-  "runtime": "1h50m",
-  "links": {
-   " trailer": [
-    "https://youtu.be/ynC1hITFIzQ"
-   ]
-  },
-  "id": "dave-1993",
-  "dbid": 11566
+  "dbid": 951,
+  "runtime_m": 111
  },
  {
   "watched": false,
   "title": "Last Action Hero",
   "year": "1993",
-  "runtime": "2h10m",
-  "links": {},
+  "runtime_hm": "2h10m",
+  "links": {
+   " teaser": [
+    "https://youtu.be/Kx0ApCyC_cg"
+   ],
+   " trailer": [
+    "https://youtu.be/QJ4B_NxsHCI"
+   ]
+  },
   "id": "last-action-hero-1993",
-  "dbid": 9593
+  "dbid": 9593,
+  "runtime_m": 131
  },
  {
   "watched": false,
   "title": "Shaun of the Dead",
   "year": "2004",
-  "runtime": "1h37m",
+  "runtime_hm": "1h37m",
   "links": {},
   "id": "shaun-of-the-dead-2004",
-  "dbid": 747
+  "dbid": 747,
+  "runtime_m": 99
  },
  {
   "watched": false,
   "title": "Hot Fuzz",
   "year": "2007",
-  "runtime": "2h1m",
+  "runtime_hm": "2h1m",
   "links": {
    " trailer": [
     "https://youtu.be/ayTnvVpj9t4"
    ]
   },
   "id": "hot-fuzz-2007",
-  "dbid": 4638
+  "dbid": 4638,
+  "runtime_m": 121
+ },
+ {
+  "watched": false,
+  "title": "Encino Man",
+  "year": "1992",
+  "links": {
+   " trailer": [
+    "https://youtu.be/L6tdW5k3tZk",
+    "https://youtu.be/1xkTN1Z1rTQ"
+   ]
+  },
+  "id": "encino-man-1992",
+  "dbid": 10406,
+  "runtime_m": 88
+ },
+ {
+  "watched": false,
+  "title": "Dave",
+  "year": "1993",
+  "runtime_hm": "1h50m",
+  "links": {
+   " trailer": [
+    "https://youtu.be/ynC1hITFIzQ"
+   ]
+  },
+  "id": "dave-1993",
+  "dbid": 11566,
+  "runtime_m": 110
  },
  {
   "watched": true,
@@ -4540,7 +4866,8 @@
    "20220423"
   ],
   "id": "drop-zone-1994",
-  "dbid": 4954
+  "dbid": 4954,
+  "runtime_m": 101
  },
  {
   "watched": true,
@@ -4552,7 +4879,8 @@
    ]
   },
   "id": "earth-girls-are-easy-1989",
-  "dbid": 2210
+  "dbid": 2210,
+  "runtime_m": 100
  },
  {
   "watched": true,
@@ -4568,7 +4896,8 @@
    "20220924"
   ],
   "id": "e-t-the-extra-terrestrial-1982",
-  "dbid": 601
+  "dbid": 601,
+  "runtime_m": 115
  },
  {
   "watched": true,
@@ -4584,7 +4913,8 @@
    "20220611"
   ],
   "id": "macgruber-2010",
-  "dbid": 37931
+  "dbid": 37931,
+  "runtime_m": 90
  },
  {
   "watched": false,
@@ -4596,7 +4926,8 @@
    ]
   },
   "id": "navalny-2022",
-  "dbid": 926676
+  "dbid": 926676,
+  "runtime_m": 98
  },
  {
   "watched": true,
@@ -4608,7 +4939,8 @@
    ]
   },
   "id": "enemy-mine-1986",
-  "dbid": 11864
+  "dbid": 11864,
+  "runtime_m": 108
  },
  {
   "watched": true,
@@ -4620,7 +4952,8 @@
    ]
   },
   "id": "executive-decision-1996",
-  "dbid": 2320
+  "dbid": 2320,
+  "runtime_m": 132
  },
  {
   "watched": true,
@@ -4636,7 +4969,8 @@
    "20230826"
   ],
   "id": "firefox-1982",
-  "dbid": 10724
+  "dbid": 10724,
+  "runtime_m": 136
  },
  {
   "watched": true,
@@ -4649,7 +4983,8 @@
    ]
   },
   "id": "flash-gordon-1980",
-  "dbid": 3604
+  "dbid": 3604,
+  "runtime_m": 111
  },
  {
   "watched": true,
@@ -4665,7 +5000,8 @@
    "20230304"
   ],
   "id": "flight-of-the-navigator-1986",
-  "dbid": 10122
+  "dbid": 10122,
+  "runtime_m": 90
  },
  {
   "watched": true,
@@ -4680,7 +5016,8 @@
    ]
   },
   "id": "forbidden-planet-1956",
-  "dbid": 830
+  "dbid": 830,
+  "runtime_m": 98
  },
  {
   "watched": false,
@@ -4692,20 +5029,22 @@
    ]
   },
   "id": "footloose-1984",
-  "dbid": 1788
+  "dbid": 1788,
+  "runtime_m": 107
  },
  {
   "watched": true,
   "title": "Freejack",
   "year": "1992",
-  "runtime": "1h50m",
+  "runtime_hm": "1h50m",
   "links": {
    " trailer": [
     "https://youtu.be/59I5my1zYus"
    ]
   },
   "id": "freejack-1992",
-  "dbid": 9278
+  "dbid": 9278,
+  "runtime_m": 110
  },
  {
   "watched": true,
@@ -4721,7 +5060,8 @@
    "20220618"
   ],
   "id": "full-metal-jacket-1987",
-  "dbid": 600
+  "dbid": 600,
+  "runtime_m": 117
  },
  {
   "watched": false,
@@ -4734,7 +5074,8 @@
    ]
   },
   "id": "galaxina-1980",
-  "dbid": 33155
+  "dbid": 33155,
+  "runtime_m": 95
  },
  {
   "watched": true,
@@ -4746,7 +5087,8 @@
    ]
   },
   "id": "gandhi-1982",
-  "dbid": 783
+  "dbid": 783,
+  "runtime_m": 191
  },
  {
   "watched": false,
@@ -4754,13 +5096,14 @@
   "year": "1996",
   "links": {},
   "id": "ghetto-blaster-1996",
-  "dbid": 10607
+  "dbid": 10607,
+  "runtime_m": 89
  },
  {
   "watched": false,
   "title": "Grandma's Boy",
   "year": "2006",
-  "runtime": "1h34m",
+  "runtime_hm": "1h34m",
   "links": {
    " trailer": [
     "https://youtu.be/_3Sa_n_a0c4",
@@ -4768,7 +5111,8 @@
    ]
   },
   "id": "grandmas-boy-2006",
-  "dbid": 9900
+  "dbid": 9900,
+  "runtime_m": 94
  },
  {
   "watched": true,
@@ -4780,7 +5124,8 @@
    ]
   },
   "id": "groundhog-day-1993",
-  "dbid": 137
+  "dbid": 137,
+  "runtime_m": 101
  },
  {
   "watched": false,
@@ -4792,7 +5137,8 @@
    ]
   },
   "id": "hackers-1995",
-  "dbid": 10428
+  "dbid": 10428,
+  "runtime_m": 107
  },
  {
   "watched": false,
@@ -4805,7 +5151,8 @@
    ]
   },
   "id": "hangar-18-1980",
-  "dbid": 54287
+  "dbid": 54287,
+  "runtime_m": 97
  },
  {
   "watched": false,
@@ -4818,7 +5165,8 @@
    ]
   },
   "id": "hell-comes-to-frogtown-1988",
-  "dbid": 22572
+  "dbid": 22572,
+  "runtime_m": 88
  },
  {
   "watched": false,
@@ -4830,7 +5178,8 @@
    ]
   },
   "id": "heathers-1989",
-  "dbid": 2640
+  "dbid": 2640,
+  "runtime_m": 103
  },
  {
   "watched": true,
@@ -4846,7 +5195,8 @@
    "20230128"
   ],
   "id": "hercules-1983",
-  "dbid": 26452
+  "dbid": 26452,
+  "runtime_m": 98
  },
  {
   "watched": true,
@@ -4862,7 +5212,8 @@
    "20230204"
   ],
   "id": "the-adventures-of-hercules-ii-1985",
-  "dbid": 30577
+  "dbid": 30577,
+  "runtime_m": 88
  },
  {
   "watched": true,
@@ -4874,7 +5225,8 @@
    ]
   },
   "id": "highlander-1986",
-  "dbid": 8009
+  "dbid": 8009,
+  "runtime_m": 116
  },
  {
   "watched": true,
@@ -4889,7 +5241,8 @@
    ]
   },
   "id": "highlander-ii-the-quickening-1991",
-  "dbid": 8010
+  "dbid": 8010,
+  "runtime_m": 90
  },
  {
   "watched": false,
@@ -4901,7 +5254,8 @@
    ]
   },
   "id": "highlander-iii-the-final-dimension-2003",
-  "dbid": 8011
+  "dbid": 8011,
+  "runtime_m": 99
  },
  {
   "watched": true,
@@ -4913,7 +5267,8 @@
    ]
   },
   "id": "history-of-the-world-part-1-1981",
-  "dbid": 10156
+  "dbid": 10156,
+  "runtime_m": 92
  },
  {
   "watched": true,
@@ -4925,7 +5280,8 @@
    ]
   },
   "id": "howard-the-duck-1986",
-  "dbid": 10658
+  "dbid": 10658,
+  "runtime_m": 110
  },
  {
   "watched": true,
@@ -4944,7 +5300,8 @@
    "20220903"
   ],
   "id": "the-hunt-for-red-october-1990",
-  "dbid": 1669
+  "dbid": 1669,
+  "runtime_m": 135
  },
  {
   "watched": true,
@@ -4959,7 +5316,8 @@
    ]
   },
   "id": "idiocracy-2006",
-  "dbid": 7512
+  "dbid": 7512,
+  "runtime_m": 84
  },
  {
   "watched": false,
@@ -4971,7 +5329,8 @@
    ]
   },
   "id": "im-gonna-git-you-sucka-1988",
-  "dbid": 17006
+  "dbid": 17006,
+  "runtime_m": 88
  },
  {
   "watched": false,
@@ -4983,7 +5342,8 @@
    ]
   },
   "id": "immortal-2004",
-  "dbid": 5552
+  "dbid": 5552,
+  "runtime_m": 103
  },
  {
   "watched": true,
@@ -4995,7 +5355,8 @@
    ]
   },
   "id": "indiana-jones-and-the-raiders-of-the-lost-ark-1981",
-  "dbid": 85
+  "dbid": 85,
+  "runtime_m": 115
  },
  {
   "watched": true,
@@ -5007,7 +5368,8 @@
    ]
   },
   "id": "indiana-jones-and-the-temple-of-doom-1984",
-  "dbid": 87
+  "dbid": 87,
+  "runtime_m": 118
  },
  {
   "watched": true,
@@ -5019,7 +5381,8 @@
    ]
   },
   "id": "indiana-jones-and-the-last-crusade-1989",
-  "dbid": 89
+  "dbid": 89,
+  "runtime_m": 127
  },
  {
   "watched": true,
@@ -5031,7 +5394,8 @@
    ]
   },
   "id": "indiana-jones-and-the-kingdom-of-the-crystal-skull-2008",
-  "dbid": 217
+  "dbid": 217,
+  "runtime_m": 122
  },
  {
   "watched": true,
@@ -5043,7 +5407,8 @@
    ]
   },
   "id": "innerspace-1987",
-  "dbid": 2614
+  "dbid": 2614,
+  "runtime_m": 120
  },
  {
   "watched": false,
@@ -5055,7 +5420,8 @@
    ]
   },
   "id": "invaders-from-mars-1986",
-  "dbid": 31909
+  "dbid": 31909,
+  "runtime_m": 100
  },
  {
   "watched": true,
@@ -5071,7 +5437,8 @@
    "20220702"
   ],
   "id": "jaws-1975",
-  "dbid": 578
+  "dbid": 578,
+  "runtime_m": 124
  },
  {
   "watched": true,
@@ -5087,7 +5454,8 @@
    "20220716"
   ],
   "id": "jaws-2-1978",
-  "dbid": 579
+  "dbid": 579,
+  "runtime_m": 117
  },
  {
   "watched": false,
@@ -5099,7 +5467,8 @@
    ]
   },
   "id": "jaws-3-1983",
-  "dbid": 17692
+  "dbid": 17692,
+  "runtime_m": 99
  },
  {
   "watched": false,
@@ -5111,7 +5480,8 @@
    ]
   },
   "id": "salute-of-the-jugger-1989",
-  "dbid": 21512
+  "dbid": 21512,
+  "runtime_m": 100
  },
  {
   "watched": true,
@@ -5130,7 +5500,8 @@
    "20230204"
   ],
   "id": "second-sight-1989",
-  "dbid": 55492
+  "dbid": 55492,
+  "runtime_m": 83
  },
  {
   "watched": true,
@@ -5142,7 +5513,8 @@
    ]
   },
   "id": "johnny-mnemonic-1995",
-  "dbid": 9886
+  "dbid": 9886,
+  "runtime_m": 97
  },
  {
   "watched": false,
@@ -5154,7 +5526,8 @@
    ]
   },
   "id": "journey-to-the-west-2014",
-  "dbid": 170657
+  "dbid": 170657,
+  "runtime_m": 110
  },
  {
   "watched": true,
@@ -5166,7 +5539,8 @@
    ]
   },
   "id": "krull-1983",
-  "dbid": 849
+  "dbid": 849,
+  "runtime_m": 117
  },
  {
   "watched": false,
@@ -5178,7 +5552,8 @@
    ]
   },
   "id": "king-solomons-mines-1985",
-  "dbid": 9838
+  "dbid": 9838,
+  "runtime_m": 100
  },
  {
   "watched": true,
@@ -5194,7 +5569,8 @@
    "20220514"
   ],
   "id": "kung-pow-enter-the-fist-2002",
-  "dbid": 11891
+  "dbid": 11891,
+  "runtime_m": 81
  },
  {
   "watched": true,
@@ -5213,7 +5589,8 @@
    "20221217"
   ],
   "id": "logans-run-1976",
-  "dbid": 10803
+  "dbid": 10803,
+  "runtime_m": 119
  },
  {
   "watched": false,
@@ -5225,7 +5602,8 @@
    ]
   },
   "id": "fail-safe-1964",
-  "dbid": 502
+  "dbid": 502,
+  "runtime_m": 112
  },
  {
   "watched": false,
@@ -5237,16 +5615,18 @@
    ]
   },
   "id": "city-of-lost-children-1995",
-  "dbid": 902
+  "dbid": 902,
+  "runtime_m": 108
  },
  {
   "watched": false,
   "title": "The Big Lebowski",
   "year": "1998",
-  "runtime": "1h57m",
+  "runtime_hm": "1h57m",
   "links": {},
   "id": "the-big-lebowski-1998",
-  "dbid": 115
+  "dbid": 115,
+  "runtime_m": 117
  },
  {
   "watched": false,
@@ -5254,20 +5634,22 @@
   "year": "1998",
   "links": {},
   "id": "fear-and-loathing-in-las-vegas-1998",
-  "dbid": 1878
+  "dbid": 1878,
+  "runtime_m": 118
  },
  {
   "watched": false,
   "title": "Where the Buffalo Roam",
   "year": "1980",
-  "runtime": "1h30m",
+  "runtime_hm": "1h30m",
   "links": {
    " trailer": [
     "https://youtu.be/KVcgcTCg3Dg"
    ]
   },
   "id": "where-the-buffalo-roam-1980",
-  "dbid": 13005
+  "dbid": 13005,
+  "runtime_m": 99
  },
  {
   "watched": true,
@@ -5283,7 +5665,8 @@
    "20221112"
   ],
   "id": "little-shop-of-horrors-1986",
-  "dbid": 10776
+  "dbid": 10776,
+  "runtime_m": 94
  },
  {
   "watched": false,
@@ -5295,23 +5678,8 @@
    ]
   },
   "id": "mary-poppins-1964",
-  "dbid": 433
- },
- {
-  "watched": true,
-  "watchdate": "12..22",
-  "title": "Charlie and the Chocolate Factory",
-  "year": "1971",
-  "links": {
-   "trailer": [
-    "https://youtu.be/2cBja3AbahY"
-   ]
-  },
-  "watchdate_arr": [
-   "20221200"
-  ],
-  "id": "charlie-and-the-chocolate-factory-1971",
-  "dbid": 252
+  "dbid": 433,
+  "runtime_m": 139
  },
  {
   "watched": true,
@@ -5327,7 +5695,8 @@
    "20221126"
   ],
   "id": "wizard-of-oz-1939",
-  "dbid": 630
+  "dbid": 630,
+  "runtime_m": 102
  },
  {
   "watched": false,
@@ -5339,7 +5708,8 @@
    ]
   },
   "id": "the-wiz-1978",
-  "dbid": 24961
+  "dbid": 24961,
+  "runtime_m": 134
  },
  {
   "watched": true,
@@ -5355,7 +5725,8 @@
    "20221105"
   ],
   "id": "singin-in-the-rain-1952",
-  "dbid": 872
+  "dbid": 872,
+  "runtime_m": 103
  },
  {
   "watched": true,
@@ -5371,7 +5742,8 @@
    "20221119"
   ],
   "id": "the-music-man-1962",
-  "dbid": 13671
+  "dbid": 13671,
+  "runtime_m": 151
  },
  {
   "watched": false,
@@ -5383,7 +5755,8 @@
    ]
   },
   "id": "the-sound-of-music-1965",
-  "dbid": 15121
+  "dbid": 15121,
+  "runtime_m": 174
  },
  {
   "watched": false,
@@ -5395,7 +5768,8 @@
    ]
   },
   "id": "xanadu-1980",
-  "dbid": 15668
+  "dbid": 15668,
+  "runtime_m": 96
  },
  {
   "watched": false,
@@ -5407,7 +5781,8 @@
    ]
   },
   "id": "all-that-jazz-1979",
-  "dbid": 16858
+  "dbid": 16858,
+  "runtime_m": 123
  },
  {
   "watched": false,
@@ -5419,7 +5794,8 @@
    ]
   },
   "id": "tommy-1975",
-  "dbid": 11326
+  "dbid": 11326,
+  "runtime_m": 111
  },
  {
   "watched": false,
@@ -5431,13 +5807,14 @@
    ]
   },
   "id": "the-pirate-movie-1982",
-  "dbid": 25872
+  "dbid": 25872,
+  "runtime_m": 98
  },
  {
   "watched": true,
   "title": "The Wizard of Speed and Time",
-  "year": "1979",
-  "runtime": "1h35m",
+  "year": "1989",
+  "runtime_hm": "1h35m",
   "links": {
    " trailer": [
     "https://youtu.be/zSB6ZRC-dyQ"
@@ -5446,8 +5823,9 @@
     "https://youtu.be/j5a_00YVVkQ"
    ]
   },
-  "id": "the-wizard-of-speed-and-time-1979",
-  "dbid": 86527
+  "id": "the-wizard-of-speed-and-time-1989",
+  "dbid": 44276,
+  "runtime_m": 95
  },
  {
   "watched": false,
@@ -5459,7 +5837,8 @@
    ]
   },
   "id": "voyage-of-the-rock-aliens-1984",
-  "dbid": 38265
+  "dbid": 38265,
+  "runtime_m": 97
  },
  {
   "watched": false,
@@ -5472,7 +5851,8 @@
    ]
   },
   "id": "monty-pythons-the-meaning-of-life-1983",
-  "dbid": 4543
+  "dbid": 4543,
+  "runtime_m": 107
  },
  {
   "watched": true,
@@ -5488,7 +5868,8 @@
    "20240224"
   ],
   "id": "the-life-of-brian-1979",
-  "dbid": 583
+  "dbid": 583,
+  "runtime_m": 94
  },
  {
   "watched": true,
@@ -5500,7 +5881,8 @@
    ]
   },
   "id": "history-of-the-world-part-1-1981",
-  "dbid": 10156
+  "dbid": 10156,
+  "runtime_m": 92
  },
  {
   "watched": false,
@@ -5512,7 +5894,8 @@
    ]
   },
   "id": "the-return-of-captain-invincible-1983",
-  "dbid": 71016
+  "dbid": 71016,
+  "runtime_m": 96
  },
  {
   "watched": false,
@@ -5524,7 +5907,8 @@
    ]
   },
   "id": "the-great-muppet-caper-1981",
-  "dbid": 14900
+  "dbid": 14900,
+  "runtime_m": 98
  },
  {
   "watched": true,
@@ -5540,7 +5924,8 @@
    "20221119"
   ],
   "id": "grease-1978",
-  "dbid": 621
+  "dbid": 621,
+  "runtime_m": 110
  },
  {
   "watched": false,
@@ -5548,20 +5933,22 @@
   "year": "1948",
   "links": {},
   "id": "easter-parade-1948",
-  "dbid": 29380
+  "dbid": 29380,
+  "runtime_m": 103
  },
  {
   "watched": false,
   "title": "My Fair Lady",
   "year": "1964",
-  "runtime": "2h53m",
+  "runtime_hm": "2h53m",
   "links": {
    " trailer": [
     "https://youtu.be/ZJBM6qs22sE"
    ]
   },
   "id": "my-fair-lady-1964",
-  "dbid": 11113
+  "dbid": 11113,
+  "runtime_m": 170
  },
  {
   "watched": false,
@@ -5569,7 +5956,8 @@
   "year": "1949",
   "links": {},
   "id": "on-the-town-1949",
-  "dbid": 31516
+  "dbid": 31516,
+  "runtime_m": 98
  },
  {
   "watched": false,
@@ -5577,7 +5965,8 @@
   "year": "1953",
   "links": {},
   "id": "gentlemen-prefer-blondes-1953",
-  "dbid": 759
+  "dbid": 759,
+  "runtime_m": 91
  },
  {
   "watched": false,
@@ -5585,7 +5974,8 @@
   "year": "1968",
   "links": {},
   "id": "funny-girl-1968",
-  "dbid": 16085
+  "dbid": 16085,
+  "runtime_m": 155
  },
  {
   "watched": false,
@@ -5603,7 +5993,8 @@
    ]
   },
   "id": "guys-and-dolls-1955",
-  "dbid": 4825
+  "dbid": 4825,
+  "runtime_m": 150
  },
  {
   "watched": false,
@@ -5611,7 +6002,8 @@
   "year": "1951",
   "links": {},
   "id": "an-american-in-paris-1951",
-  "dbid": 2769
+  "dbid": 2769,
+  "runtime_m": 113
  },
  {
   "watched": true,
@@ -5627,7 +6019,8 @@
    "20221126"
   ],
   "id": "mary-poppins-1964",
-  "dbid": 433
+  "dbid": 433,
+  "runtime_m": 139
  },
  {
   "watched": false,
@@ -5639,7 +6032,8 @@
    ]
   },
   "id": "meet-me-in-st-louis-1944",
-  "dbid": 909
+  "dbid": 909,
+  "runtime_m": 113
  },
  {
   "watched": true,
@@ -5658,7 +6052,8 @@
    "20230225"
   ],
   "id": "roxanne-1987",
-  "dbid": 11584
+  "dbid": 11584,
+  "runtime_m": 107
  },
  {
   "watched": true,
@@ -5674,7 +6069,8 @@
    "20230204"
   ],
   "id": "the-wedding-singer-1998",
-  "dbid": 11003
+  "dbid": 11003,
+  "runtime_m": 97
  },
  {
   "watched": true,
@@ -5690,7 +6086,8 @@
    "20230218"
   ],
   "id": "50-first-dates-2004",
-  "dbid": 1824
+  "dbid": 1824,
+  "runtime_m": 99
  },
  {
   "watched": true,
@@ -5706,7 +6103,8 @@
    "20230311"
   ],
   "id": "joe-versus-the-volcano-1990",
-  "dbid": 2565
+  "dbid": 2565,
+  "runtime_m": 102
  },
  {
   "watched": false,
@@ -5718,7 +6116,8 @@
    ]
   },
   "id": "sleepless-in-seattle-1993",
-  "dbid": 858
+  "dbid": 858,
+  "runtime_m": 105
  },
  {
   "watched": false,
@@ -5731,7 +6130,8 @@
    ]
   },
   "id": "youve-got-mail-1998",
-  "dbid": 9489
+  "dbid": 9489,
+  "runtime_m": 119
  },
  {
   "watched": false,
@@ -5743,7 +6143,8 @@
    ]
   },
   "id": "an-affair-to-remember-1957",
-  "dbid": 8356
+  "dbid": 8356,
+  "runtime_m": 111
  },
  {
   "watched": true,
@@ -5759,7 +6160,8 @@
    "20230211"
   ],
   "id": "romancing-the-stone-1984",
-  "dbid": 9326
+  "dbid": 9326,
+  "runtime_m": 106
  },
  {
   "watched": true,
@@ -5775,7 +6177,8 @@
    "20230218"
   ],
   "id": "the-jewel-of-the-nile-1985",
-  "dbid": 10303
+  "dbid": 10303,
+  "runtime_m": 106
  },
  {
   "watched": true,
@@ -5791,7 +6194,8 @@
    "20230311"
   ],
   "id": "the-princess-bride-1987",
-  "dbid": 2493
+  "dbid": 2493,
+  "runtime_m": 99
  },
  {
   "watched": false,
@@ -5803,7 +6207,8 @@
    ]
   },
   "id": "ghost-1990",
-  "dbid": 251
+  "dbid": 251,
+  "runtime_m": 127
  },
  {
   "watched": false,
@@ -5815,7 +6220,8 @@
    ]
   },
   "id": "dirty-dancing-1987",
-  "dbid": 88
+  "dbid": 88,
+  "runtime_m": 100
  },
  {
   "watched": false,
@@ -5827,7 +6233,8 @@
    ]
   },
   "id": "one-from-the-heart-1981",
-  "dbid": 41291
+  "dbid": 41291,
+  "runtime_m": 107
  },
  {
   "watched": false,
@@ -5839,7 +6246,8 @@
    ]
   },
   "id": "pretty-woman-1990",
-  "dbid": 114
+  "dbid": 114,
+  "runtime_m": 119
  },
  {
   "watched": true,
@@ -5858,7 +6266,8 @@
    "20230218"
   ],
   "id": "casablanca-1942",
-  "dbid": 289
+  "dbid": 289,
+  "runtime_m": 102
  },
  {
   "watched": false,
@@ -5870,7 +6279,8 @@
    ]
   },
   "id": "crocodile-dundee-1986",
-  "dbid": 9671
+  "dbid": 9671,
+  "runtime_m": 104
  },
  {
   "watched": false,
@@ -5882,7 +6292,8 @@
    ]
   },
   "id": "crocodile-dundee-ii-1988",
-  "dbid": 9396
+  "dbid": 9396,
+  "runtime_m": 110
  },
  {
   "watched": false,
@@ -5894,7 +6305,8 @@
    ]
   },
   "id": "crocodile-dundee-in-los-angeles-2001",
-  "dbid": 9290
+  "dbid": 9290,
+  "runtime_m": 95
  },
  {
   "watched": false,
@@ -5920,7 +6332,8 @@
    ]
   },
   "id": "say-anything-1989",
-  "dbid": 2028
+  "dbid": 2028,
+  "runtime_m": 100
  },
  {
   "watched": false,
@@ -5932,7 +6345,8 @@
    ]
   },
   "id": "breakfast-at-tiffanys-1961",
-  "dbid": 164
+  "dbid": 164,
+  "runtime_m": 115
  },
  {
   "watched": true,
@@ -5948,7 +6362,8 @@
    "20230304"
   ],
   "id": "gattaca-1997",
-  "dbid": 782
+  "dbid": 782,
+  "runtime_m": 106
  },
  {
   "watched": true,
@@ -5964,7 +6379,8 @@
    "20230304"
   ],
   "id": "little-nicky-2000",
-  "dbid": 9678
+  "dbid": 9678,
+  "runtime_m": 90
  },
  {
   "watched": true,
@@ -5980,7 +6396,8 @@
    "20230311"
   ],
   "id": "the-ridiculous-6-2015",
-  "dbid": 347969
+  "dbid": 347969,
+  "runtime_m": 119
  },
  {
   "watched": true,
@@ -5996,7 +6413,8 @@
    "20230318"
   ],
   "id": "the-waterboy-1998",
-  "dbid": 10663
+  "dbid": 10663,
+  "runtime_m": 90
  },
  {
   "watched": true,
@@ -6012,7 +6430,8 @@
    "20230415"
   ],
   "id": "billy-madison-1995",
-  "dbid": 11017
+  "dbid": 11017,
+  "runtime_m": 90
  },
  {
   "watched": true,
@@ -6024,7 +6443,8 @@
    ]
   },
   "id": "happy-gilmore-1996",
-  "dbid": 9614
+  "dbid": 9614,
+  "runtime_m": 92
  },
  {
   "watched": false,
@@ -6036,14 +6456,15 @@
    ]
   },
   "id": "going-overboard-1989",
-  "dbid": 19157
+  "dbid": 19157,
+  "runtime_m": 97
  },
  {
   "watched": true,
   "watchdate": "03.02.24",
   "title": "Leaving Las Vegas",
   "year": "1996",
-  "runtime": "1h52m",
+  "runtime_hm": "1h52m",
   "links": {
    " trailer": [
     "https://youtu.be/O4HrGa2-RLc"
@@ -6053,14 +6474,15 @@
    "20240302"
   ],
   "id": "leaving-las-vegas-1996",
-  "dbid": 451
+  "dbid": 451,
+  "runtime_m": 111
  },
  {
   "watched": true,
   "watchdate": "03.23.24",
   "title": "National Treasure",
   "year": "2004",
-  "runtime": "2h20m",
+  "runtime_hm": "2h20m",
   "links": {
    " trailer": [
     "https://youtu.be/vqUPxNT8io4"
@@ -6070,14 +6492,15 @@
    "20240323"
   ],
   "id": "national-treasure-2004",
-  "dbid": 2059
+  "dbid": 2059,
+  "runtime_m": 131
  },
  {
   "watched": true,
   "watchdate": "03.30.24",
   "title": "National Treasure: Book of Secrets",
   "year": "2007",
-  "runtime": "2h4m",
+  "runtime_hm": "2h4m",
   "links": {
    " trailer": [
     "https://youtu.be/lq6MlrkFHG0",
@@ -6088,42 +6511,46 @@
    "20240330"
   ],
   "id": "national-treasure-book-of-secrets-2007",
-  "dbid": 6637
+  "dbid": 6637,
+  "runtime_m": 124
  },
  {
   "watched": false,
   "title": "Anchorman",
   "year": "2004",
-  "runtime": "1h34m",
+  "runtime_hm": "1h34m",
   "links": {},
   "id": "anchorman-2004",
-  "dbid": 8699
+  "dbid": 8699,
+  "runtime_m": 95
  },
  {
   "watched": false,
   "title": "Semi-Pro",
   "year": "2008",
-  "runtime": "1h39m",
+  "runtime_hm": "1h39m",
   "links": {
    " trailer": [
     "https://youtu.be/QdoODXShjss"
    ]
   },
   "id": "semi-pro-2008",
-  "dbid": 13260
+  "dbid": 13260,
+  "runtime_m": 91
  },
  {
   "watched": false,
   "title": "Blades of Glory",
   "year": "2007",
-  "runtime": "1h33m",
+  "runtime_hm": "1h33m",
   "links": {
    " trailer": [
     "https://youtu.be/UrZb-dZKCIQ"
    ]
   },
   "id": "blades-of-glory-2007",
-  "dbid": 9955
+  "dbid": 9955,
+  "runtime_m": 93
  },
  {
   "watched": false,
@@ -6131,7 +6558,8 @@
   "year": "1994",
   "links": {},
   "id": "chungking-express-1994",
-  "dbid": 11104
+  "dbid": 11104,
+  "runtime_m": 103
  },
  {
   "watched": false,
@@ -6143,7 +6571,8 @@
    ]
   },
   "id": "plague-doctor-2021",
-  "dbid": 529106
+  "dbid": 529106,
+  "runtime_m": 136
  },
  {
   "watched": false,
@@ -6155,7 +6584,8 @@
    ]
   },
   "id": "the-black-lightning-2009",
-  "dbid": 31162
+  "dbid": 31162,
+  "runtime_m": 102
  },
  {
   "watched": true,
@@ -6171,7 +6601,8 @@
    "20230610"
   ],
   "id": "missing-1982",
-  "dbid": 15600
+  "dbid": 15600,
+  "runtime_m": 123
  },
  {
   "watched": true,
@@ -6187,7 +6618,8 @@
    "20230430"
   ],
   "id": "the-china-syndrome-1979",
-  "dbid": 988
+  "dbid": 988,
+  "runtime_m": 122
  },
  {
   "watched": false,
@@ -6199,7 +6631,8 @@
    ]
   },
   "id": "parasite-2019",
-  "dbid": 496243
+  "dbid": 496243,
+  "runtime_m": 133
  },
  {
   "watched": false,
@@ -6211,7 +6644,8 @@
    ]
   },
   "id": "boiling-point-2021",
-  "dbid": 807196
+  "dbid": 807196,
+  "runtime_m": 92
  },
  {
   "watched": false,
@@ -6223,7 +6657,8 @@
    ]
   },
   "id": "snatch-2000",
-  "dbid": 107
+  "dbid": 107,
+  "runtime_m": 103
  },
  {
   "watched": true,
@@ -6239,7 +6674,8 @@
    "20230624"
   ],
   "id": "conspiracy-theory-1997",
-  "dbid": 8834
+  "dbid": 8834,
+  "runtime_m": 135
  },
  {
   "watched": true,
@@ -6255,13 +6691,14 @@
    "20230708"
   ],
   "id": "12-monkeys-1995",
-  "dbid": 63
+  "dbid": 63,
+  "runtime_m": 129
  },
  {
   "watched": false,
   "title": "Dodgeball",
   "year": "2004",
-  "runtime": "1h32m",
+  "runtime_hm": "1h32m",
   "links": {
    " trailer": [
     "https://youtu.be/rZfmbdpVLAA",
@@ -6269,7 +6706,8 @@
    ]
   },
   "id": "dodgeball-2004",
-  "dbid": 9472
+  "dbid": 9472,
+  "runtime_m": 92
  },
  {
   "watched": false,
@@ -6281,14 +6719,15 @@
    ]
   },
   "id": "tromas-war-1988",
-  "dbid": 28173
+  "dbid": 28173,
+  "runtime_m": 105
  },
  {
   "watched": true,
   "watchdate": "12.31.23",
   "title": "Once Were Warriors",
   "year": "1994",
-  "runtime": "1h43m",
+  "runtime_hm": "1h43m",
   "links": {
    " trailer": [
     "https://youtu.be/N0-Q3ChKcfE"
@@ -6298,20 +6737,22 @@
    "20231231"
   ],
   "id": "once-were-warriors-1994",
-  "dbid": 527
+  "dbid": 527,
+  "runtime_m": 99
  },
  {
   "watched": false,
   "title": "The Conversation",
   "year": "1974",
-  "runtime": "1h53m",
+  "runtime_hm": "1h53m",
   "links": {
    " trailer": [
     "https://youtu.be/VD_CAJHIIQE"
    ]
   },
   "id": "the-conversation-1974",
-  "dbid": 592
+  "dbid": 592,
+  "runtime_m": 113
  },
  {
   "watched": true,
@@ -6323,7 +6764,8 @@
    ]
   },
   "id": "the-godfather-1972",
-  "dbid": 238
+  "dbid": 238,
+  "runtime_m": 175
  },
  {
   "watched": false,
@@ -6331,7 +6773,8 @@
   "year": "1974",
   "links": {},
   "id": "the-godfather-part-ii-1974",
-  "dbid": 240
+  "dbid": 240,
+  "runtime_m": 202
  },
  {
   "watched": false,
@@ -6343,7 +6786,8 @@
    ]
   },
   "id": "supernova-2000",
-  "dbid": 10384
+  "dbid": 10384,
+  "runtime_m": 91
  },
  {
   "watched": false,
@@ -6355,7 +6799,8 @@
    ]
   },
   "id": "apocalypse-now-1979",
-  "dbid": 28
+  "dbid": 28,
+  "runtime_m": 147
  },
  {
   "watched": false,
@@ -6363,7 +6808,8 @@
   "year": "1989",
   "links": {},
   "id": "communion-1989",
-  "dbid": 28774
+  "dbid": 28774,
+  "runtime_m": 103
  },
  {
   "watched": false,
@@ -6375,13 +6821,14 @@
    ]
   },
   "id": "grand-canyon-1991",
-  "dbid": 13697
+  "dbid": 13697,
+  "runtime_m": 134
  },
  {
   "watched": false,
   "title": "The Core",
   "year": "2003",
-  "runtime": "2h15m",
+  "runtime_hm": "2h15m",
   "links": {
    " trailer": [
     "https://youtu.be/zcjj6ZSjtNU",
@@ -6389,20 +6836,22 @@
    ]
   },
   "id": "the-core-2003",
-  "dbid": 9341
+  "dbid": 9341,
+  "runtime_m": 136
  },
  {
   "watched": true,
   "title": "Brainstorm",
   "year": "1983",
-  "runtime": "1h46m",
+  "runtime_hm": "1h46m",
   "links": {
    " trailer": [
     "https://youtu.be/ueYcVmH0edk"
    ]
   },
   "id": "brainstorm-1983",
-  "dbid": 15050
+  "dbid": 15050,
+  "runtime_m": 106
  },
  {
   "watched": false,
@@ -6410,7 +6859,8 @@
   "year": "1999",
   "links": {},
   "id": "existenz-1999",
-  "dbid": 1946
+  "dbid": 1946,
+  "runtime_m": 97
  },
  {
   "watched": false,
@@ -6422,7 +6872,8 @@
    ]
   },
   "id": "a-piece-of-the-action-1977",
-  "dbid": 29493
+  "dbid": 29493,
+  "runtime_m": 135
  },
  {
   "watched": false,
@@ -6434,7 +6885,8 @@
    ]
   },
   "id": "elite-squad-2007",
-  "dbid": 7347
+  "dbid": 7347,
+  "runtime_m": 115
  },
  {
   "watched": false,
@@ -6446,7 +6898,8 @@
    ]
   },
   "id": "elite-squad-the-enemy-within-2010",
-  "dbid": 47931
+  "dbid": 47931,
+  "runtime_m": 115
  },
  {
   "watched": true,
@@ -6462,7 +6915,8 @@
    "20230325"
   ],
   "id": "hot-rod-2007",
-  "dbid": 10074
+  "dbid": 10074,
+  "runtime_m": 88
  },
  {
   "watched": false,
@@ -6474,7 +6928,8 @@
    ]
   },
   "id": "four-rooms-1995",
-  "dbid": 5
+  "dbid": 5,
+  "runtime_m": 98
  },
  {
   "watched": true,
@@ -6486,7 +6941,8 @@
    ]
   },
   "id": "top-secret-1984",
-  "dbid": 8764
+  "dbid": 8764,
+  "runtime_m": 90
  },
  {
   "watched": false,
@@ -6498,7 +6954,8 @@
    ]
   },
   "id": "mutiny-on-the-bounty-1935",
-  "dbid": 12311
+  "dbid": 12311,
+  "runtime_m": 132
  },
  {
   "watched": true,
@@ -6514,7 +6971,8 @@
    "20221105"
   ],
   "id": "mutiny-on-the-bounty-1962",
-  "dbid": 11085
+  "dbid": 11085,
+  "runtime_m": 185
  },
  {
   "watched": false,
@@ -6526,7 +6984,8 @@
    ]
   },
   "id": "the-bounty-1984",
-  "dbid": 2669
+  "dbid": 2669,
+  "runtime_m": 132
  },
  {
   "watched": false,
@@ -6538,7 +6997,8 @@
    ]
   },
   "id": "sunny-2011",
-  "dbid": 77117
+  "dbid": 77117,
+  "runtime_m": 135
  },
  {
   "watched": false,
@@ -6546,7 +7006,8 @@
   "year": "2008",
   "links": {},
   "id": "the-good-the-bad-and-the-weird-2008",
-  "dbid": 15067
+  "dbid": 15067,
+  "runtime_m": 130
  },
  {
   "watched": true,
@@ -6562,7 +7023,8 @@
    "20230325"
   ],
   "id": "big-1988",
-  "dbid": 2280
+  "dbid": 2280,
+  "runtime_m": 104
  },
  {
   "watched": true,
@@ -6578,7 +7040,8 @@
    "20230506"
   ],
   "id": "splash-1984",
-  "dbid": 2619
+  "dbid": 2619,
+  "runtime_m": 111
  },
  {
   "watched": true,
@@ -6595,7 +7058,8 @@
    "20230422"
   ],
   "id": "volunteers-1985",
-  "dbid": 19259
+  "dbid": 19259,
+  "runtime_m": 107
  },
  {
   "watched": true,
@@ -6611,7 +7075,8 @@
    "20230408"
   ],
   "id": "the-money-pit-1986",
-  "dbid": 10466
+  "dbid": 10466,
+  "runtime_m": 91
  },
  {
   "watched": false,
@@ -6624,7 +7089,8 @@
    ]
   },
   "id": "nothing-in-common-1986",
-  "dbid": 29968
+  "dbid": 29968,
+  "runtime_m": 118
  },
  {
   "watched": true,
@@ -6640,7 +7106,8 @@
    "20230318"
   ],
   "id": "dragnet-1987",
-  "dbid": 10023
+  "dbid": 10023,
+  "runtime_m": 106
  },
  {
   "watched": false,
@@ -6652,7 +7119,18 @@
    ]
   },
   "id": "the-terminal-2004",
-  "dbid": 594
+  "dbid": 594,
+  "runtime_m": 128
+ },
+ {
+  "watched": false,
+  "title": "Cast Away",
+  "year": "2000",
+  "runtime_hm": "2h23m",
+  "links": {},
+  "id": "cast-away-2000",
+  "dbid": 8358,
+  "runtime_m": 143
  },
  {
   "watched": true,
@@ -6668,7 +7146,8 @@
    "20230430"
   ],
   "id": "the-secret-of-my-success-1987",
-  "dbid": 10021
+  "dbid": 10021,
+  "runtime_m": 111
  },
  {
   "watched": true,
@@ -6684,7 +7163,8 @@
    "20230604"
   ],
   "id": "bright-lights-big-city-1988",
-  "dbid": 17170
+  "dbid": 17170,
+  "runtime_m": 107
  },
  {
   "watched": true,
@@ -6700,7 +7180,8 @@
    "20230715"
   ],
   "id": "doc-hollywood-1991",
-  "dbid": 11821
+  "dbid": 11821,
+  "runtime_m": 104
  },
  {
   "watched": true,
@@ -6716,7 +7197,8 @@
    "20230729"
   ],
   "id": "the-hard-way-1991",
-  "dbid": 11384
+  "dbid": 11384,
+  "runtime_m": 111
  },
  {
   "watched": true,
@@ -6732,7 +7214,8 @@
    "20230805"
   ],
   "id": "for-love-or-money-1993",
-  "dbid": 9024
+  "dbid": 9024,
+  "runtime_m": 94
  },
  {
   "watched": true,
@@ -6748,7 +7231,8 @@
    "20230812"
   ],
   "id": "the-frighteners-1996",
-  "dbid": 10779
+  "dbid": 10779,
+  "runtime_m": 110
  },
  {
   "watched": true,
@@ -6764,7 +7248,8 @@
    "20230819"
   ],
   "id": "back-to-the-future-1985",
-  "dbid": 105
+  "dbid": 105,
+  "runtime_m": 116
  },
  {
   "watched": true,
@@ -6780,7 +7265,8 @@
    "20230826"
   ],
   "id": "back-to-the-future-ii-1989",
-  "dbid": 165
+  "dbid": 165,
+  "runtime_m": 108
  },
  {
   "watched": true,
@@ -6796,7 +7282,8 @@
    "20230902"
   ],
   "id": "back-to-the-future-iii-1990",
-  "dbid": 196
+  "dbid": 196,
+  "runtime_m": 119
  },
  {
   "watched": true,
@@ -6812,7 +7299,8 @@
    "20240217"
   ],
   "id": "waterworld-1995",
-  "dbid": 9804
+  "dbid": 9804,
+  "runtime_m": 135
  },
  {
   "watched": false,
@@ -6824,7 +7312,8 @@
    ]
   },
   "id": "the-postman-1997",
-  "dbid": 9922
+  "dbid": 9922,
+  "runtime_m": 178
  },
  {
   "watched": true,
@@ -6840,7 +7329,8 @@
    "20221224"
   ],
   "id": "mr-smith-goes-to-washington-1939",
-  "dbid": 3083
+  "dbid": 3083,
+  "runtime_m": 129
  },
  {
   "watched": true,
@@ -6856,7 +7346,8 @@
    "20230401"
   ],
   "id": "mac-and-me-1988",
-  "dbid": 20196
+  "dbid": 20196,
+  "runtime_m": 95
  },
  {
   "watched": false,
@@ -6868,7 +7359,8 @@
    ]
   },
   "id": "high-fidelity-2000",
-  "dbid": 243
+  "dbid": 243,
+  "runtime_m": 113
  },
  {
   "watched": false,
@@ -6880,7 +7372,8 @@
    ]
   },
   "id": "empire-records-1995",
-  "dbid": 13531
+  "dbid": 13531,
+  "runtime_m": 90
  },
  {
   "watched": true,
@@ -6896,7 +7389,8 @@
    "20220402"
   ],
   "id": "the-matrix-1999",
-  "dbid": 603
+  "dbid": 603,
+  "runtime_m": 136
  },
  {
   "watched": false,
@@ -6908,7 +7402,8 @@
    ]
   },
   "id": "the-matrix-reloaded-2003",
-  "dbid": 604
+  "dbid": 604,
+  "runtime_m": 138
  },
  {
   "watched": true,
@@ -6921,7 +7416,8 @@
    ]
   },
   "id": "mad-max-1979",
-  "dbid": 9659
+  "dbid": 9659,
+  "runtime_m": 91
  },
  {
   "watched": true,
@@ -6933,7 +7429,8 @@
    ]
   },
   "id": "mad-max-2-the-road-warrior-1982",
-  "dbid": 8810
+  "dbid": 8810,
+  "runtime_m": 96
  },
  {
   "watched": true,
@@ -6956,7 +7453,8 @@
    ]
   },
   "id": "mad-max-fury-road-2015",
-  "dbid": 76341
+  "dbid": 76341,
+  "runtime_m": 121
  },
  {
   "watched": true,
@@ -6968,20 +7466,22 @@
    ]
   },
   "id": "making-mr-right-1987",
-  "dbid": 32058
+  "dbid": 32058,
+  "runtime_m": 98
  },
  {
   "watched": false,
   "title": "Red Line",
   "year": "2011",
-  "runtime": "1h42m",
+  "runtime_hm": "1h42m",
   "links": {
    " trailer": [
     "https://youtu.be/2t26m_Q6ENo"
    ]
   },
   "id": "red-line-2011",
-  "dbid": 8741
+  "dbid": 8741,
+  "runtime_m": 171
  },
  {
   "watched": true,
@@ -6995,7 +7495,8 @@
    ]
   },
   "id": "akira-1988",
-  "dbid": 149
+  "dbid": 149,
+  "runtime_m": 124
  },
  {
   "watched": true,
@@ -7011,20 +7512,22 @@
    "20230401"
   ],
   "id": "heavy-metal-1981",
-  "dbid": 11827
+  "dbid": 11827,
+  "runtime_m": 90
  },
  {
   "watched": false,
   "title": "Cool World",
   "year": "1992",
-  "runtime": "1h42m",
+  "runtime_hm": "1h42m",
   "links": {
    " trailer": [
     "https://youtu.be/_kJAVgY8DMk"
    ]
   },
   "id": "cool-world-1992",
-  "dbid": 14239
+  "dbid": 14239,
+  "runtime_m": 102
  },
  {
   "watched": true,
@@ -7040,13 +7543,14 @@
    "20230415"
   ],
   "id": "who-framed-roger-rabbit-1988",
-  "dbid": 856
+  "dbid": 856,
+  "runtime_m": 104
  },
  {
   "watched": false,
   "title": "Wicked City",
   "year": "1987",
-  "runtime": "1h22m",
+  "runtime_hm": "1h22m",
   "links": {
    " trailer(English)": [
     "https://youtu.be/-ay_M09bkXw"
@@ -7056,26 +7560,28 @@
    ]
   },
   "id": "wicked-city-1987",
-  "dbid": 21453
+  "dbid": 21453,
+  "runtime_m": 82
  },
  {
   "watched": false,
   "title": "Fire and Ice",
   "year": "1983",
-  "runtime": "1h21m",
+  "runtime_hm": "1h21m",
   "links": {
    " trailer": [
     "https://youtu.be/Q7wjqtTnegE"
    ]
   },
   "id": "fire-and-ice-1983",
-  "dbid": 15035
+  "dbid": 15035,
+  "runtime_m": 81
  },
  {
   "watched": false,
   "title": "Project A-Ko",
   "year": "1986",
-  "runtime": "1h26m",
+  "runtime_hm": "1h26m",
   "links": {
    " trailer(English)": [
     "https://youtu.be/8oxCHtzmKdo"
@@ -7085,7 +7591,8 @@
    ]
   },
   "id": "project-a-ko-1986",
-  "dbid": 42025
+  "dbid": 42025,
+  "runtime_m": 83
  },
  {
   "watched": true,
@@ -7101,33 +7608,36 @@
    "20230408"
   ],
   "id": "american-pop-1981",
-  "dbid": 29204
+  "dbid": 29204,
+  "runtime_m": 96
  },
  {
   "watched": false,
   "title": "Fritz the Cat",
   "year": "1972",
-  "runtime": "1h20m",
+  "runtime_hm": "1h20m",
   "links": {
    " trailer": [
     "https://youtu.be/z2SDNLxYQlY"
    ]
   },
   "id": "fritz-the-cat-1972",
-  "dbid": 12593
+  "dbid": 12593,
+  "runtime_m": 78
  },
  {
   "watched": false,
   "title": "Ducktales the Movie",
   "year": "1990",
-  "runtime": "1h14m",
+  "runtime_hm": "1h14m",
   "links": {
    " trailer": [
     "https://youtu.be/lcpCapjKT9I"
    ]
   },
   "id": "ducktales-the-movie-1990",
-  "dbid": 10837
+  "dbid": 10837,
+  "runtime_m": 74
  },
  {
   "watched": true,
@@ -7143,40 +7653,43 @@
    "20230415"
   ],
   "id": "rock-rule-1983",
-  "dbid": 21356
+  "dbid": 21356,
+  "runtime_m": 77
  },
  {
   "watched": false,
   "title": "Captain Harlock: Arcadia of My Youth",
   "year": "1982",
-  "runtime": "2h10m",
+  "runtime_hm": "2h10m",
   "links": {
    " trailer": [
     "https://youtu.be/r03M1yUjCwQ"
    ]
   },
   "id": "captain-harlock-arcadia-of-my-youth-1982",
-  "dbid": 42137
+  "dbid": 42137,
+  "runtime_m": 130
  },
  {
   "watched": false,
   "title": "Space Pirate Captain Harlock",
   "year": "2013",
-  "runtime": "1h55m",
+  "runtime_hm": "1h55m",
   "links": {
    " trailer": [
     "https://youtu.be/1vdw0If6Zzg"
    ]
   },
   "id": "space-pirate-captain-harlock-2013",
-  "dbid": 192577
+  "dbid": 192577,
+  "runtime_m": 115
  },
  {
   "watched": true,
   "watchdate": "05.13.23",
   "title": "Ghost in the Shell",
   "year": "1995",
-  "runtime": "1h22m",
+  "runtime_hm": "1h22m",
   "links": {
    " trailer": [
     "https://youtu.be/8RF09G8Ymqg"
@@ -7186,13 +7699,14 @@
    "20230513"
   ],
   "id": "ghost-in-the-shell-1995",
-  "dbid": 9323
+  "dbid": 9323,
+  "runtime_m": 82
  },
  {
   "watched": false,
   "title": "Ninja Scroll",
   "year": "1993",
-  "runtime": "1h39m",
+  "runtime_hm": "1h39m",
   "links": {
    " trailer": [
     "https://youtu.be/fwc7wNCvDs4"
@@ -7202,33 +7716,36 @@
    ]
   },
   "id": "ninja-scroll-1993",
-  "dbid": 14282
+  "dbid": 14282,
+  "runtime_m": 94
  },
  {
   "watched": false,
   "title": "Metropolis",
   "year": "2001",
-  "runtime": "1h47m",
+  "runtime_hm": "1h47m",
   "links": {
    " trailer": [
     "https://youtu.be/lj9ruL8B310"
    ]
   },
   "id": "metropolis-2001",
-  "dbid": 9606
+  "dbid": 9606,
+  "runtime_m": 108
  },
  {
   "watched": false,
   "title": "The Adventures of Tintin",
   "year": "2011",
-  "runtime": "1h47m",
+  "runtime_hm": "1h47m",
   "links": {
    " trailer": [
     "https://youtu.be/fE5IQybGRPc"
    ]
   },
   "id": "the-adventures-of-tintin-2011",
-  "dbid": 17578
+  "dbid": 17578,
+  "runtime_m": 107
  },
  {
   "watched": true,
@@ -7243,7 +7760,8 @@
    ]
   },
   "id": "transformers-the-movie-1986",
-  "dbid": 1857
+  "dbid": 1857,
+  "runtime_m": 84
  },
  {
   "watched": true,
@@ -7259,33 +7777,36 @@
    "20230416"
   ],
   "id": "nausicaa-of-the-valley-of-the-wind-1984",
-  "dbid": 81
+  "dbid": 81,
+  "runtime_m": 117
  },
  {
   "watched": false,
   "title": "Howl's Moving Castle",
   "year": "2004",
-  "runtime": "1h59m",
+  "runtime_hm": "1h59m",
   "links": {
    " trailer": [
     "https://youtu.be/iwROgK94zcM"
    ]
   },
   "id": "howls-moving-castle-2004",
-  "dbid": 4935
+  "dbid": 4935,
+  "runtime_m": 119
  },
  {
   "watched": false,
   "title": "Princess Mononoke",
   "year": "1997",
-  "runtime": "2h13m",
+  "runtime_hm": "2h13m",
   "links": {
    " trailer": [
     "https://youtu.be/4OiMOHRDs14"
    ]
   },
   "id": "princess-mononoke-1997",
-  "dbid": 128
+  "dbid": 128,
+  "runtime_m": 134
  },
  {
   "watched": false,
@@ -7297,26 +7818,28 @@
    ]
   },
   "id": "empire-of-corpses-2016",
-  "dbid": 342588
+  "dbid": 342588,
+  "runtime_m": 120
  },
  {
   "watched": false,
   "title": "Spirited Away",
   "year": "2001",
-  "runtime": "2h5m",
+  "runtime_hm": "2h5m",
   "links": {
    " trailer": [
     "https://youtu.be/ByXuk9QqQkk"
    ]
   },
   "id": "spirited-away-2001",
-  "dbid": 129
+  "dbid": 129,
+  "runtime_m": 125
  },
  {
   "watched": false,
   "title": "No Game No Life",
   "year": "2017",
-  "runtime": "1h47m",
+  "runtime_hm": "1h47m",
   "links": {
    " trailer": [
     "https://youtu.be/quj8sK3Phh8",
@@ -7324,51 +7847,56 @@
    ]
   },
   "id": "no-game-no-life-2017",
-  "dbid": 445030
+  "dbid": 445030,
+  "runtime_m": 106
  },
  {
   "watched": false,
   "title": "Highlander: The Search for Vengeance",
   "year": "2007",
-  "runtime": "1h26m",
+  "runtime_hm": "1h26m",
   "links": {
    " trailer": [
     "https://youtu.be/wvrT9boajOQ"
    ]
   },
   "id": "highlander-the-search-for-vengeance-2007",
-  "dbid": 13194
+  "dbid": 13194,
+  "runtime_m": 86
  },
  {
   "watched": false,
   "title": "Heavy Traffic",
   "year": "1973",
-  "runtime": "1h20m",
+  "runtime_hm": "1h20m",
   "links": {
    " trailer": [
     "https://youtu.be/vraUu632PIY"
    ]
   },
   "id": "heavy-traffic-1973",
-  "dbid": 30593
+  "dbid": 30593,
+  "runtime_m": 76
  },
  {
   "watched": false,
   "title": "An American Tail",
   "year": "1986",
-  "runtime": "1h20m",
+  "runtime_hm": "1h20m",
   "links": {},
   "id": "an-american-tail-1986",
-  "dbid": 4978
+  "dbid": 4978,
+  "runtime_m": 80
  },
  {
   "watched": false,
   "title": "An American Tail: Fievel Goes West",
   "year": "1991",
-  "runtime": "1h16m",
+  "runtime_hm": "1h16m",
   "links": {},
   "id": "an-american-tail-fievel-goes-west-1991",
-  "dbid": 10380
+  "dbid": 10380,
+  "runtime_m": 75
  },
  {
   "watched": true,
@@ -7387,20 +7915,22 @@
    "20220611"
   ],
   "id": "men-at-work-1990",
-  "dbid": 10169
+  "dbid": 10169,
+  "runtime_m": 98
  },
  {
   "watched": false,
   "title": "Megaforce",
   "year": "1982",
-  "runtime": "1h39m",
+  "runtime_hm": "1h39m",
   "links": {
    "trailer": [
     "https://youtu.be/gJC6mblA9-Q"
    ]
   },
   "id": "megaforce-1982",
-  "dbid": 27380
+  "dbid": 27380,
+  "runtime_m": 99
  },
  {
   "watched": false,
@@ -7412,7 +7942,8 @@
    ]
   },
   "id": "metalstorm-the-destruction-of-jared-syn-1983",
-  "dbid": 47364
+  "dbid": 47364,
+  "runtime_m": 84
  },
  {
   "watched": true,
@@ -7425,7 +7956,8 @@
    ]
   },
   "id": "monty-python-and-the-holy-grail-1975",
-  "dbid": 762
+  "dbid": 762,
+  "runtime_m": 91
  },
  {
   "watched": true,
@@ -7442,7 +7974,8 @@
    "20230909"
   ],
   "id": "moontrap-1989",
-  "dbid": 14916
+  "dbid": 14916,
+  "runtime_m": 92
  },
  {
   "watched": true,
@@ -7450,7 +7983,8 @@
   "year": "1989",
   "links": {},
   "id": "millennium-1989",
-  "dbid": 4296
+  "dbid": 4296,
+  "runtime_m": 105
  },
  {
   "watched": true,
@@ -7458,7 +7992,8 @@
   "year": "1985",
   "links": {},
   "id": "my-science-project-1985",
-  "dbid": 18252
+  "dbid": 18252,
+  "runtime_m": 91
  },
  {
   "watched": true,
@@ -7466,13 +8001,14 @@
   "year": "1988",
   "links": {},
   "id": "my-stepmother-is-an-alien-1988",
-  "dbid": 12120
+  "dbid": 12120,
+  "runtime_m": 108
  },
  {
   "watched": false,
   "title": "Gone With the Wind",
   "year": "1939",
-  "runtime": "3h42m",
+  "runtime_hm": "3h42m",
   "links": {
    " trailer": [
     "https://youtu.be/0X94oZgJis4"
@@ -7482,100 +8018,110 @@
    ]
   },
   "id": "gone-with-the-wind-1939",
-  "dbid": 770
+  "dbid": 770,
+  "runtime_m": 233
  },
  {
   "watched": false,
   "title": "Glory",
   "year": "1989",
-  "runtime": "2h2m",
+  "runtime_hm": "2h2m",
   "links": {
    " trailer": [
     "https://youtu.be/zmxmQZmUBmI"
    ]
   },
   "id": "glory-1989",
-  "dbid": 9665
+  "dbid": 9665,
+  "runtime_m": 122
  },
  {
   "watched": false,
   "title": "Gettysburg",
   "year": "1993",
-  "runtime": "4h31m",
+  "runtime_hm": "4h31m",
   "links": {
    " trailer": [
     "https://youtu.be/9Vz5f9NOVuk"
    ]
   },
   "id": "gettysburg-1993",
-  "dbid": 10655
+  "dbid": 10655,
+  "runtime_m": 254
  },
  {
   "watched": false,
   "title": "Field of Lost Shoes",
   "year": "2015",
-  "runtime": "1h36m",
+  "runtime_hm": "1h36m",
   "links": {},
   "id": "field-of-lost-shoes-2015",
-  "dbid": 291851
+  "dbid": 291851,
+  "runtime_m": 96
  },
  {
   "watched": false,
   "title": "Gods and Generals",
   "year": "2003",
-  "runtime": "3h39m",
+  "runtime_hm": "3h39m",
   "links": {},
   "id": "gods-and-generals-2003",
-  "dbid": 16072
+  "dbid": 16072,
+  "runtime_m": 219
  },
  {
   "watched": false,
   "title": "Cold Mountain",
   "year": "2003",
-  "runtime": "2h34m",
+  "runtime_hm": "2h34m",
   "links": {},
   "id": "cold-mountain-2003",
-  "dbid": 2289
+  "dbid": 2289,
+  "runtime_m": 154
  },
  {
   "watched": false,
   "title": "Ride with the Devil",
   "year": "1999",
-  "runtime": "2h40m",
+  "runtime_hm": "2h40m",
   "links": {},
   "id": "ride-with-the-devil-1999",
-  "dbid": 22267
+  "dbid": 22267,
+  "runtime_m": 138
  },
  {
   "watched": false,
   "title": "Free State of Jones",
   "year": "2016",
-  "runtime": "2h19m",
+  "runtime_hm": "2h19m",
   "links": {},
   "id": "free-state-of-jones-2016",
-  "dbid": 316152
+  "dbid": 316152,
+  "runtime_m": 140
  },
  {
   "watched": false,
   "title": "The Patriot",
   "year": "2000",
-  "runtime": "2h45m",
+  "runtime_hm": "2h45m",
   "links": {},
   "id": "the-patriot-2000",
-  "dbid": 2024
+  "dbid": 2024,
+  "runtime_m": 165
  },
  {
   "watched": false,
   "title": "Gangs Of New York",
   "year": "2002",
-  "runtime": "2h47m",
+  "runtime_hm": "2h47m",
   "links": {
    " trailer": [
     "https://youtu.be/1bjh979vVG0"
    ]
   },
   "id": "gangs-of-new-york-2002",
-  "dbid": 3131
+  "dbid": 3131,
+  "runtime_m": 168
  },
  {
   "watched": false,
@@ -7587,7 +8133,8 @@
    ]
   },
   "id": "el-topo-1970",
-  "dbid": 13041
+  "dbid": 13041,
+  "runtime_m": 125
  },
  {
   "watched": false,
@@ -7599,7 +8146,8 @@
    ]
   },
   "id": "true-grit-1969",
-  "dbid": 17529
+  "dbid": 17529,
+  "runtime_m": 128
  },
  {
   "watched": true,
@@ -7615,7 +8163,8 @@
    "20220917"
   ],
   "id": "the-man-who-shot-liberty-valance-1962",
-  "dbid": 11697
+  "dbid": 11697,
+  "runtime_m": 123
  },
  {
   "watched": false,
@@ -7627,7 +8176,8 @@
    ]
   },
   "id": "wagons-east-1994",
-  "dbid": 30114
+  "dbid": 30114,
+  "runtime_m": 107
  },
  {
   "watched": false,
@@ -7642,7 +8192,8 @@
    ]
   },
   "id": "maverick-1994",
-  "dbid": 9359
+  "dbid": 9359,
+  "runtime_m": 127
  },
  {
   "watched": false,
@@ -7654,7 +8205,8 @@
    ]
   },
   "id": "giant-1956",
-  "dbid": 1712
+  "dbid": 1712,
+  "runtime_m": 201
  },
  {
   "watched": false,
@@ -7666,16 +8218,18 @@
    ]
   },
   "id": "the-outlaw-josey-wales-1976",
-  "dbid": 10747
+  "dbid": 10747,
+  "runtime_m": 135
  },
  {
   "watched": false,
   "title": "The Assassination of Jesse James by the Coward Robert Ford",
   "year": "2007",
-  "runtime": "2h40m",
+  "runtime_hm": "2h40m",
   "links": {},
   "id": "the-assassination-of-jesse-james-by-the-coward-robert-ford-2007",
-  "dbid": 4512
+  "dbid": 4512,
+  "runtime_m": 160
  },
  {
   "watched": true,
@@ -7691,7 +8245,8 @@
    "20220507"
   ],
   "id": "bloodsport-1988",
-  "dbid": 11690
+  "dbid": 11690,
+  "runtime_m": 92
  },
  {
   "watched": true,
@@ -7707,7 +8262,8 @@
    "20220529"
   ],
   "id": "cyborg-1989",
-  "dbid": 10134
+  "dbid": 10134,
+  "runtime_m": 86
  },
  {
   "watched": true,
@@ -7723,7 +8279,8 @@
    "20220716"
   ],
   "id": "kickboxer-1989",
-  "dbid": 10222
+  "dbid": 10222,
+  "runtime_m": 97
  },
  {
   "watched": true,
@@ -7739,7 +8296,8 @@
    "20220820"
   ],
   "id": "lionheart-1990",
-  "dbid": 9399
+  "dbid": 9399,
+  "runtime_m": 105
  },
  {
   "watched": true,
@@ -7755,7 +8313,8 @@
    "20230902"
   ],
   "id": "death-warrant-1990",
-  "dbid": 17466
+  "dbid": 17466,
+  "runtime_m": 89
  },
  {
   "watched": true,
@@ -7771,14 +8330,15 @@
    "20230923"
   ],
   "id": "double-impact-1991",
-  "dbid": 9594
+  "dbid": 9594,
+  "runtime_m": 110
  },
  {
   "watched": true,
   "watchdate": "10.01.23",
   "title": "Universal Soldier",
   "year": "1992",
-  "runtime": "1h42m",
+  "runtime_hm": "1h42m",
   "links": {
    " trailer": [
     "https://youtu.be/5Y7BWfIEfuo"
@@ -7788,7 +8348,8 @@
    "20231001"
   ],
   "id": "universal-soldier-1992",
-  "dbid": 9349
+  "dbid": 9349,
+  "runtime_m": 102
  },
  {
   "watched": false,
@@ -7800,7 +8361,8 @@
    ]
   },
   "id": "double-team-1997",
-  "dbid": 9405
+  "dbid": 9405,
+  "runtime_m": 93
  },
  {
   "watched": false,
@@ -7812,7 +8374,8 @@
    ]
   },
   "id": "knock-off-1998",
-  "dbid": 37498
+  "dbid": 37498,
+  "runtime_m": 91
  },
  {
   "watched": true,
@@ -7831,7 +8394,8 @@
    "20220402"
   ],
   "id": "national-lampoons-loaded-weapon-1-1993",
-  "dbid": 9644
+  "dbid": 9644,
+  "runtime_m": 84
  },
  {
   "watched": true,
@@ -7847,7 +8411,8 @@
    "20220625"
   ],
   "id": "animal-house-1978",
-  "dbid": 8469
+  "dbid": 8469,
+  "runtime_m": 109
  },
  {
   "watched": true,
@@ -7863,7 +8428,8 @@
    "20220820"
   ],
   "id": "ferris-buellers-day-off-1986",
-  "dbid": 9377
+  "dbid": 9377,
+  "runtime_m": 103
  },
  {
   "watched": true,
@@ -7879,7 +8445,8 @@
    "20220723"
   ],
   "id": "back-to-school-1986",
-  "dbid": 15596
+  "dbid": 15596,
+  "runtime_m": 96
  },
  {
   "watched": true,
@@ -7895,7 +8462,8 @@
    "20220730"
   ],
   "id": "real-genius-1985",
-  "dbid": 14370
+  "dbid": 14370,
+  "runtime_m": 106
  },
  {
   "watched": false,
@@ -7907,7 +8475,8 @@
    ]
   },
   "id": "american-pie-1999",
-  "dbid": 2105
+  "dbid": 2105,
+  "runtime_m": 95
  },
  {
   "watched": false,
@@ -7919,7 +8488,8 @@
    ]
   },
   "id": "old-school-2003",
-  "dbid": 11635
+  "dbid": 11635,
+  "runtime_m": 88
  },
  {
   "watched": false,
@@ -7931,7 +8501,8 @@
    ]
   },
   "id": "accepted-2006",
-  "dbid": 9788
+  "dbid": 9788,
+  "runtime_m": 93
  },
  {
   "watched": false,
@@ -7946,7 +8517,8 @@
    ]
   },
   "id": "meatballs-1979",
-  "dbid": 14035
+  "dbid": 14035,
+  "runtime_m": 92
  },
  {
   "watched": true,
@@ -7962,7 +8534,8 @@
    "20230204"
   ],
   "id": "hitchhikers-guide-to-the-galaxy-2005",
-  "dbid": 7453
+  "dbid": 7453,
+  "runtime_m": 109
  },
  {
   "watched": false,
@@ -7974,7 +8547,8 @@
    ]
   },
   "id": "beavis-and-butt-head-do-america-1996",
-  "dbid": 3179
+  "dbid": 3179,
+  "runtime_m": 80
  },
  {
   "watched": true,
@@ -7990,7 +8564,8 @@
    "20220806"
   ],
   "id": "the-amazing-bulk-2012",
-  "dbid": 109125
+  "dbid": 109125,
+  "runtime_m": 75
  },
  {
   "watched": false,
@@ -8002,7 +8577,8 @@
    ]
   },
   "id": "who-killed-captain-alex-2010",
-  "dbid": 316776
+  "dbid": 316776,
+  "runtime_m": 68
  },
  {
   "watched": true,
@@ -8014,7 +8590,8 @@
    ]
   },
   "id": "clerks-1994",
-  "dbid": 2292
+  "dbid": 2292,
+  "runtime_m": 92
  },
  {
   "watched": true,
@@ -8030,7 +8607,8 @@
    "20220423"
   ],
   "id": "mallrats-1995",
-  "dbid": 2293
+  "dbid": 2293,
+  "runtime_m": 94
  },
  {
   "watched": true,
@@ -8046,7 +8624,8 @@
    "20220529"
   ],
   "id": "chasing-amy-1997",
-  "dbid": 2255
+  "dbid": 2255,
+  "runtime_m": 114
  },
  {
   "watched": true,
@@ -8062,7 +8641,8 @@
    "20220604"
   ],
   "id": "dogma-1999",
-  "dbid": 1832
+  "dbid": 1832,
+  "runtime_m": 130
  },
  {
   "watched": true,
@@ -8081,7 +8661,8 @@
    "20220625"
   ],
   "id": "jay-and-silent-bob-strike-back-2001",
-  "dbid": 2294
+  "dbid": 2294,
+  "runtime_m": 104
  },
  {
   "watched": false,
@@ -8093,7 +8674,8 @@
    ]
   },
   "id": "clerks-ii-2006",
-  "dbid": 2295
+  "dbid": 2295,
+  "runtime_m": 97
  },
  {
   "watched": false,
@@ -8105,7 +8687,8 @@
    ]
   },
   "id": "jay-and-silent-bob-reboot-2019",
-  "dbid": 440762
+  "dbid": 440762,
+  "runtime_m": 105
  },
  {
   "watched": true,
@@ -8117,33 +8700,36 @@
    ]
   },
   "id": "cannibal-women-in-the-avocado-jungle-of-death-1989",
-  "dbid": 26369
+  "dbid": 26369,
+  "runtime_m": 90
  },
  {
   "watched": true,
   "title": "Outland",
   "year": "1981",
-  "runtime": "1h52m",
+  "runtime_hm": "1h52m",
   "links": {
    " trailer": [
     "https://youtu.be/g0ua0Z5duXU"
    ]
   },
   "id": "outland-1981",
-  "dbid": 10540
+  "dbid": 10540,
+  "runtime_m": 109
  },
  {
   "watched": false,
   "title": "Zardoz",
   "year": "1974",
-  "runtime": "1h45m",
+  "runtime_hm": "1h45m",
   "links": {
    " trailer": [
     "https://youtu.be/FSjCkISrJfQ"
    ]
   },
   "id": "zardoz-1974",
-  "dbid": 4923
+  "dbid": 4923,
+  "runtime_m": 105
  },
  {
   "watched": true,
@@ -8159,7 +8745,8 @@
    "20220528"
   ],
   "id": "drunken-master-1978",
-  "dbid": 11230
+  "dbid": 11230,
+  "runtime_m": 111
  },
  {
   "watched": true,
@@ -8175,7 +8762,8 @@
    "20220604"
   ],
   "id": "the-legend-of-the-drunken-master-1994",
-  "dbid": 12207
+  "dbid": 12207,
+  "runtime_m": 102
  },
  {
   "watched": true,
@@ -8187,7 +8775,8 @@
    ]
   },
   "id": "rumble-in-the-bronx-1995",
-  "dbid": 33542
+  "dbid": 33542,
+  "runtime_m": 104
  },
  {
   "watched": true,
@@ -8203,7 +8792,8 @@
    "20220827"
   ],
   "id": "my-lucky-stars-1985",
-  "dbid": 10044
+  "dbid": 10044,
+  "runtime_m": 96
  },
  {
   "watched": false,
@@ -8215,7 +8805,8 @@
    ]
   },
   "id": "island-of-fire-1990",
-  "dbid": 18767
+  "dbid": 18767,
+  "runtime_m": 95
  },
  {
   "watched": false,
@@ -8227,7 +8818,8 @@
    ]
   },
   "id": "city-hunter-1993",
-  "dbid": 11198
+  "dbid": 11198,
+  "runtime_m": 105
  },
  {
   "watched": false,
@@ -8239,7 +8831,8 @@
    ]
   },
   "id": "thunderbolt-1995",
-  "dbid": 10348
+  "dbid": 10348,
+  "runtime_m": 108
  },
  {
   "watched": false,
@@ -8251,20 +8844,22 @@
    ]
   },
   "id": "the-medallion-2003",
-  "dbid": 10610
+  "dbid": 10610,
+  "runtime_m": 89
  },
  {
   "watched": true,
   "title": "Fight Club",
   "year": "1999",
-  "runtime": "2h19m",
+  "runtime_hm": "2h19m",
   "links": {
    " trailer": [
     "https://youtu.be/6JnN1DmbqoU"
    ]
   },
   "id": "fight-club-1999",
-  "dbid": 550
+  "dbid": 550,
+  "runtime_m": 139
  },
  {
   "watched": true,
@@ -8276,7 +8871,8 @@
    ]
   },
   "id": "they-live-1988",
-  "dbid": 8337
+  "dbid": 8337,
+  "runtime_m": 93
  },
  {
   "watched": true,
@@ -8288,20 +8884,22 @@
    ]
   },
   "id": "strange-days-1995",
-  "dbid": 281
+  "dbid": 281,
+  "runtime_m": 145
  },
  {
   "watched": false,
   "title": "Falling Down",
   "year": "1993",
-  "runtime": "1h53m",
+  "runtime_hm": "1h53m",
   "links": {
    " trailer": [
     "https://youtu.be/BD5ofrSNDFA"
    ]
   },
   "id": "falling-down-1993",
-  "dbid": 37094
+  "dbid": 37094,
+  "runtime_m": 113
  },
  {
   "watched": true,
@@ -8317,7 +8915,8 @@
    "20230715"
   ],
   "id": "mission-impossible-1996",
-  "dbid": 954
+  "dbid": 954,
+  "runtime_m": 110
  },
  {
   "watched": true,
@@ -8333,7 +8932,8 @@
    "20230722"
   ],
   "id": "mission-impossible-ii-2000",
-  "dbid": 955
+  "dbid": 955,
+  "runtime_m": 123
  },
  {
   "watched": true,
@@ -8349,7 +8949,8 @@
    "20230729"
   ],
   "id": "mission-impossible-3-2006",
-  "dbid": 956
+  "dbid": 956,
+  "runtime_m": 126
  },
  {
   "watched": true,
@@ -8365,7 +8966,8 @@
    "20230805"
   ],
   "id": "mission-impossible-4-ghost-protocol-2011",
-  "dbid": 56292
+  "dbid": 56292,
+  "runtime_m": 133
  },
  {
   "watched": true,
@@ -8381,7 +8983,8 @@
    "20230812"
   ],
   "id": "mission-impossible-5-rogue-nation-2015",
-  "dbid": 177677
+  "dbid": 177677,
+  "runtime_m": 131
  },
  {
   "watched": true,
@@ -8397,7 +9000,8 @@
    "20230819"
   ],
   "id": "mission-impossible-6-fallout-2018",
-  "dbid": 353081
+  "dbid": 353081,
+  "runtime_m": 147
  },
  {
   "watched": false,
@@ -8409,7 +9013,8 @@
    ]
   },
   "id": "mission-impossible-7-dead-reckoning-2023",
-  "dbid": 575264
+  "dbid": 575264,
+  "runtime_m": 164
  },
  {
   "watched": true,
@@ -8425,7 +9030,8 @@
    "20230909"
   ],
   "id": "top-gun-1986",
-  "dbid": 744
+  "dbid": 744,
+  "runtime_m": 110
  },
  {
   "watched": false,
@@ -8437,7 +9043,8 @@
    ]
   },
   "id": "risky-business-1983",
-  "dbid": 9346
+  "dbid": 9346,
+  "runtime_m": 98
  },
  {
   "watched": false,
@@ -8449,7 +9056,8 @@
    ]
   },
   "id": "the-color-of-money-1986",
-  "dbid": 11873
+  "dbid": 11873,
+  "runtime_m": 119
  },
  {
   "watched": false,
@@ -8461,7 +9069,8 @@
    ]
   },
   "id": "cocktail-1988",
-  "dbid": 7520
+  "dbid": 7520,
+  "runtime_m": 104
  },
  {
   "watched": false,
@@ -8473,7 +9082,8 @@
    ]
   },
   "id": "rain-man-1988",
-  "dbid": 380
+  "dbid": 380,
+  "runtime_m": 134
  },
  {
   "watched": false,
@@ -8485,7 +9095,8 @@
    ]
   },
   "id": "days-of-thunder-1990",
-  "dbid": 2119
+  "dbid": 2119,
+  "runtime_m": 107
  },
  {
   "watched": false,
@@ -8497,7 +9108,8 @@
    ]
   },
   "id": "jerry-maguire-1996",
-  "dbid": 9390
+  "dbid": 9390,
+  "runtime_m": 139
  },
  {
   "watched": false,
@@ -8509,7 +9121,8 @@
    ]
   },
   "id": "a-few-good-men-1992",
-  "dbid": 881
+  "dbid": 881,
+  "runtime_m": 138
  },
  {
   "watched": false,
@@ -8521,7 +9134,8 @@
    ]
   },
   "id": "the-firm-1993",
-  "dbid": 37233
+  "dbid": 37233,
+  "runtime_m": 154
  },
  {
   "watched": false,
@@ -8533,7 +9147,8 @@
    ]
   },
   "id": "collateral-2004",
-  "dbid": 1538
+  "dbid": 1538,
+  "runtime_m": 120
  },
  {
   "watched": false,
@@ -8545,7 +9160,8 @@
    ]
   },
   "id": "oblivion-2013",
-  "dbid": 75612
+  "dbid": 75612,
+  "runtime_m": 124
  },
  {
   "watched": false,
@@ -8557,7 +9173,8 @@
    ]
   },
   "id": "edge-of-tomorrow-2014",
-  "dbid": 137113
+  "dbid": 137113,
+  "runtime_m": 114
  },
  {
   "watched": true,
@@ -8573,7 +9190,8 @@
    "20230916"
   ],
   "id": "iron-eagle-1986",
-  "dbid": 11037
+  "dbid": 11037,
+  "runtime_m": 117
  },
  {
   "watched": true,
@@ -8589,7 +9207,8 @@
    "20230916"
   ],
   "id": "red-dawn-1984",
-  "dbid": 1880
+  "dbid": 1880,
+  "runtime_m": 114
  },
  {
   "watched": false,
@@ -8601,7 +9220,8 @@
    ]
   },
   "id": "hard-boiled-1991",
-  "dbid": 45460
+  "dbid": 45460,
+  "runtime_m": 90
  },
  {
   "watched": false,
@@ -8613,7 +9233,8 @@
    ]
   },
   "id": "hard-target-1993",
-  "dbid": 2019
+  "dbid": 2019,
+  "runtime_m": 97
  },
  {
   "watched": false,
@@ -8625,7 +9246,8 @@
    ]
   },
   "id": "broken-arrow-1996",
-  "dbid": 9208
+  "dbid": 9208,
+  "runtime_m": 108
  },
  {
   "watched": true,
@@ -8641,7 +9263,8 @@
    "20230923"
   ],
   "id": "face-off-1997",
-  "dbid": 754
+  "dbid": 754,
+  "runtime_m": 138
  },
  {
   "watched": false,
@@ -8653,7 +9276,8 @@
    ]
   },
   "id": "once-a-thief-1991",
-  "dbid": 47423
+  "dbid": 47423,
+  "runtime_m": 103
  },
  {
   "watched": true,
@@ -8669,7 +9293,8 @@
    "20231119"
   ],
   "id": "the-rock-1996",
-  "dbid": 9802
+  "dbid": 9802,
+  "runtime_m": 137
  },
  {
   "watched": true,
@@ -8685,7 +9310,8 @@
    "20230506"
   ],
   "id": "legend-1985",
-  "dbid": 11976
+  "dbid": 11976,
+  "runtime_m": 94
  },
  {
   "watched": true,
@@ -8704,7 +9330,8 @@
    "20230527"
   ],
   "id": "the-dark-crystal-1982",
-  "dbid": 11639
+  "dbid": 11639,
+  "runtime_m": 93
  },
  {
   "watched": false,
@@ -8719,7 +9346,8 @@
    ]
   },
   "id": "to-the-ends-of-time-1996",
-  "dbid": 289378
+  "dbid": 289378,
+  "runtime_m": 92
  },
  {
   "watched": true,
@@ -8738,7 +9366,8 @@
    "20230527"
   ],
   "id": "the-neverending-story-1984",
-  "dbid": 34584
+  "dbid": 34584,
+  "runtime_m": 102
  },
  {
   "watched": true,
@@ -8757,7 +9386,8 @@
    "20230610"
   ],
   "id": "the-neverending-story-ii-the-next-chapter-1991",
-  "dbid": 34636
+  "dbid": 34636,
+  "runtime_m": 89
  },
  {
   "watched": true,
@@ -8773,7 +9403,8 @@
    "20230624"
   ],
   "id": "the-neverending-story-iii-escape-from-fantasia-1994",
-  "dbid": 27793
+  "dbid": 27793,
+  "runtime_m": 95
  },
  {
   "watched": true,
@@ -8789,7 +9420,8 @@
    "20230513"
   ],
   "id": "time-bandits-1981",
-  "dbid": 36819
+  "dbid": 36819,
+  "runtime_m": 116
  },
  {
   "watched": true,
@@ -8805,7 +9437,8 @@
    "20230528"
   ],
   "id": "willow-1988",
-  "dbid": 847
+  "dbid": 847,
+  "runtime_m": 126
  },
  {
   "watched": false,
@@ -8817,14 +9450,15 @@
    ]
   },
   "id": "immortals-2011",
-  "dbid": 37958
+  "dbid": 37958,
+  "runtime_m": 110
  },
  {
   "watched": true,
   "watchdate": "05.28.23./01.06.24",
   "title": "Conan the Barbarian",
   "year": "1982",
-  "runtime": "2h10m",
+  "runtime_hm": "2h10m",
   "links": {
    " trailer": [
     "https://youtu.be/Nok-jOYn6Dg"
@@ -8835,14 +9469,15 @@
    "20230528"
   ],
   "id": "conan-the-barbarian-1982",
-  "dbid": 9387
+  "dbid": 9387,
+  "runtime_m": 129
  },
  {
   "watched": true,
   "watchdate": "01.13.24",
   "title": "Conan the Destroyer",
   "year": "1984",
-  "runtime": "1h41m",
+  "runtime_hm": "1h41m",
   "links": {
    " trailer": [
     "https://youtu.be/Q15RX_fayv8"
@@ -8852,14 +9487,15 @@
    "20240113"
   ],
   "id": "conan-the-destroyer-1984",
-  "dbid": 9610
+  "dbid": 9610,
+  "runtime_m": 103
  },
  {
   "watched": true,
   "watchdate": "01.20.24",
   "title": "Red Sonja",
   "year": "1985",
-  "runtime": "1h28m",
+  "runtime_hm": "1h28m",
   "links": {
    " trailer": [
     "https://youtu.be/spg-9_OsjdU"
@@ -8872,7 +9508,8 @@
    "20240120"
   ],
   "id": "red-sonja-1985",
-  "dbid": 9626
+  "dbid": 9626,
+  "runtime_m": 89
  },
  {
   "watched": true,
@@ -8888,7 +9525,8 @@
    "20230521"
   ],
   "id": "ladyhawke-1985",
-  "dbid": 526
+  "dbid": 526,
+  "runtime_m": 121
  },
  {
   "watched": true,
@@ -8904,7 +9542,8 @@
    "20230521"
   ],
   "id": "the-adventures-of-baron-munchausen-1988",
-  "dbid": 14506
+  "dbid": 14506,
+  "runtime_m": 126
  },
  {
   "watched": true,
@@ -8920,7 +9559,8 @@
    "20230527"
   ],
   "id": "dragonslayer-1981",
-  "dbid": 848
+  "dbid": 848,
+  "runtime_m": 108
  },
  {
   "watched": false,
@@ -8943,7 +9583,8 @@
    ]
   },
   "id": "hawk-the-slayer-1980",
-  "dbid": 25628
+  "dbid": 25628,
+  "runtime_m": 93
  },
  {
   "watched": false,
@@ -8955,7 +9596,8 @@
    ]
   },
   "id": "clash-of-the-titans-1981",
-  "dbid": 10323
+  "dbid": 10323,
+  "runtime_m": 118
  },
  {
   "watched": false,
@@ -8967,7 +9609,8 @@
    ]
   },
   "id": "the-beastmaster-1982",
-  "dbid": 16441
+  "dbid": 16441,
+  "runtime_m": 118
  },
  {
   "watched": false,
@@ -8979,14 +9622,15 @@
    ]
   },
   "id": "the-sword-and-the-sorcerer-1982",
-  "dbid": 13945
+  "dbid": 13945,
+  "runtime_m": 100
  },
  {
   "watched": true,
   "watchdate": "01.20.24",
   "title": "Excalibur",
   "year": "1981",
-  "runtime": "1h59m",
+  "runtime_hm": "1h59m",
   "links": {
    " trailer": [
     "https://youtu.be/6QR6_17mn5s"
@@ -8996,34 +9640,38 @@
    "20240120"
   ],
   "id": "excalibur-1981",
-  "dbid": 11527
+  "dbid": 11527,
+  "runtime_m": 141
  },
  {
   "watched": false,
   "title": "Star Wars (Episode IV) - A New Hope",
   "year": "1977",
-  "runtime": "2h1m",
+  "runtime_hm": "2h1m",
   "links": {},
   "id": "star-wars-episode-iv-a-new-hope-1977",
-  "dbid": 11
+  "dbid": 11,
+  "runtime_m": 121
  },
  {
   "watched": false,
   "title": "Star Wars (Episode V) - The Empire Strikes Back",
   "year": "1980",
-  "runtime": "2h4m",
+  "runtime_hm": "2h4m",
   "links": {},
   "id": "star-wars-episode-v-the-empire-strikes-back-1980",
-  "dbid": 1891
+  "dbid": 1891,
+  "runtime_m": 124
  },
  {
   "watched": false,
   "title": "Star Wars (Episode VI) - Return of the Jedi",
   "year": "1983",
-  "runtime": "2h12m",
+  "runtime_hm": "2h12m",
   "links": {},
   "id": "star-wars-episode-vi-return-of-the-jedi-1983",
-  "dbid": 1892
+  "dbid": 1892,
+  "runtime_m": 132
  },
  {
   "watched": false,
@@ -9035,7 +9683,8 @@
    ]
   },
   "id": "over-the-top-1987",
-  "dbid": 1825
+  "dbid": 1825,
+  "runtime_m": 93
  },
  {
   "watched": false,
@@ -9047,7 +9696,8 @@
    ]
   },
   "id": "the-natural-1984",
-  "dbid": 11393
+  "dbid": 11393,
+  "runtime_m": 137
  },
  {
   "watched": false,
@@ -9059,7 +9709,8 @@
    ]
   },
   "id": "police-academy-1984",
-  "dbid": 9336
+  "dbid": 9336,
+  "runtime_m": 97
  },
  {
   "watched": false,
@@ -9071,7 +9722,8 @@
    ]
   },
   "id": "police-academy-2-their-first-assignment-1985",
-  "dbid": 10157
+  "dbid": 10157,
+  "runtime_m": 87
  },
  {
   "watched": false,
@@ -9083,7 +9735,8 @@
    ]
   },
   "id": "police-academy-3-back-in-training-1986",
-  "dbid": 12118
+  "dbid": 12118,
+  "runtime_m": 84
  },
  {
   "watched": true,
@@ -9099,7 +9752,8 @@
    "20220716"
   ],
   "id": "the-rocketeer-1991",
-  "dbid": 10249
+  "dbid": 10249,
+  "runtime_m": 108
  },
  {
   "watched": true,
@@ -9111,7 +9765,8 @@
    ]
   },
   "id": "the-razors-edge-1984",
-  "dbid": 24453
+  "dbid": 24453,
+  "runtime_m": 129
  },
  {
   "watched": false,
@@ -9123,7 +9778,8 @@
    ]
   },
   "id": "radioland-murders-1994",
-  "dbid": 22588
+  "dbid": 22588,
+  "runtime_m": 108
  },
  {
   "watched": true,
@@ -9136,7 +9792,8 @@
    ]
   },
   "id": "repo-man-1984",
-  "dbid": 13820
+  "dbid": 13820,
+  "runtime_m": 92
  },
  {
   "watched": true,
@@ -9149,7 +9806,8 @@
    ]
   },
   "id": "rocky-1977",
-  "dbid": 1366
+  "dbid": 1366,
+  "runtime_m": 120
  },
  {
   "watched": true,
@@ -9161,7 +9819,8 @@
    ]
   },
   "id": "rocky-ii-1979",
-  "dbid": 1367
+  "dbid": 1367,
+  "runtime_m": 119
  },
  {
   "watched": true,
@@ -9173,7 +9832,8 @@
    ]
   },
   "id": "rocky-iii-1982",
-  "dbid": 1371
+  "dbid": 1371,
+  "runtime_m": 100
  },
  {
   "watched": true,
@@ -9185,7 +9845,8 @@
    ]
   },
   "id": "rocky-iv-1985",
-  "dbid": 1374
+  "dbid": 1374,
+  "runtime_m": 91
  },
  {
   "watched": true,
@@ -9197,7 +9858,8 @@
    ]
   },
   "id": "rocky-v-1990",
-  "dbid": 1375
+  "dbid": 1375,
+  "runtime_m": 104
  },
  {
   "watched": true,
@@ -9209,7 +9871,8 @@
    ]
   },
   "id": "rocky-balboa-2006",
-  "dbid": 1246
+  "dbid": 1246,
+  "runtime_m": 102
  },
  {
   "watched": false,
@@ -9221,7 +9884,8 @@
    ]
   },
   "id": "raging-bull-1980",
-  "dbid": 1578
+  "dbid": 1578,
+  "runtime_m": 129
  },
  {
   "watched": true,
@@ -9240,7 +9904,8 @@
    "20220521"
   ],
   "id": "robin-hood-men-in-tights-1993",
-  "dbid": 8005
+  "dbid": 8005,
+  "runtime_m": 104
  },
  {
   "watched": true,
@@ -9256,7 +9921,8 @@
    "20220521"
   ],
   "id": "robin-hood-prince-of-thieves-1991",
-  "dbid": 8367
+  "dbid": 8367,
+  "runtime_m": 143
  },
  {
   "watched": true,
@@ -9272,7 +9938,8 @@
    "20220305"
   ],
   "id": "robocop-1987",
-  "dbid": 5548
+  "dbid": 5548,
+  "runtime_m": 102
  },
  {
   "watched": true,
@@ -9288,7 +9955,8 @@
    "20220319"
   ],
   "id": "robocop-2-1990",
-  "dbid": 5549
+  "dbid": 5549,
+  "runtime_m": 117
  },
  {
   "watched": true,
@@ -9307,7 +9975,8 @@
    "20220326"
   ],
   "id": "robocop-3-1993",
-  "dbid": 5550
+  "dbid": 5550,
+  "runtime_m": 104
  },
  {
   "watched": true,
@@ -9323,7 +9992,8 @@
    "20220319"
   ],
   "id": "rush-hour-1998",
-  "dbid": 2109
+  "dbid": 2109,
+  "runtime_m": 98
  },
  {
   "watched": true,
@@ -9339,7 +10009,8 @@
    "20220402"
   ],
   "id": "rush-hour-2-2001",
-  "dbid": 5175
+  "dbid": 5175,
+  "runtime_m": 90
  },
  {
   "watched": true,
@@ -9355,7 +10026,8 @@
    "20220416"
   ],
   "id": "rush-hour-3-2007",
-  "dbid": 5174
+  "dbid": 5174,
+  "runtime_m": 91
  },
  {
   "watched": true,
@@ -9371,7 +10043,8 @@
    "20220326"
   ],
   "id": "shanghai-noon-2000",
-  "dbid": 8584
+  "dbid": 8584,
+  "runtime_m": 110
  },
  {
   "watched": true,
@@ -9387,7 +10060,8 @@
    "20220416"
   ],
   "id": "shanghai-knights-2003",
-  "dbid": 6038
+  "dbid": 6038,
+  "runtime_m": 115
  },
  {
   "watched": true,
@@ -9403,7 +10077,8 @@
    "20220319"
   ],
   "id": "speed-1994",
-  "dbid": 1637
+  "dbid": 1637,
+  "runtime_m": 116
  },
  {
   "watched": true,
@@ -9419,7 +10094,8 @@
    "20220326"
   ],
   "id": "speed-2-cruise-control-1997",
-  "dbid": 1639
+  "dbid": 1639,
+  "runtime_m": 125
  },
  {
   "watched": false,
@@ -9431,7 +10107,8 @@
    ]
   },
   "id": "sicario-2015",
-  "dbid": 273481
+  "dbid": 273481,
+  "runtime_m": 122
  },
  {
   "watched": true,
@@ -9450,7 +10127,8 @@
    "20230121"
   ],
   "id": "scarface-1983",
-  "dbid": 111
+  "dbid": 111,
+  "runtime_m": 169
  },
  {
   "watched": true,
@@ -9466,7 +10144,8 @@
    "20220730"
   ],
   "id": "shaolin-soccer-2001",
-  "dbid": 11770
+  "dbid": 11770,
+  "runtime_m": 113
  },
  {
   "watched": true,
@@ -9482,7 +10161,8 @@
    "20220813"
   ],
   "id": "kung-fu-hustle-2004",
-  "dbid": 9470
+  "dbid": 9470,
+  "runtime_m": 99
  },
  {
   "watched": true,
@@ -9498,13 +10178,14 @@
    "20230121"
   ],
   "id": "spartacus-1960",
-  "dbid": 967
+  "dbid": 967,
+  "runtime_m": 197
  },
  {
   "watched": true,
   "title": "Runaway",
   "year": "1985",
-  "runtime": "1h39m",
+  "runtime_hm": "1h39m",
   "links": {
    " trailer": [
     "https://youtu.be/zCZY9Z6WvSY"
@@ -9514,14 +10195,15 @@
    ]
   },
   "id": "runaway-1985",
-  "dbid": 9507
+  "dbid": 9507,
+  "runtime_m": 100
  },
  {
   "watched": true,
   "watchdate": "02.10.24",
   "title": "Saturn 3",
   "year": "1980",
-  "runtime": "1h36m",
+  "runtime_hm": "1h36m",
   "links": {
    " trailer": [
     "https://youtu.be/_O-F2fvHFW4"
@@ -9531,26 +10213,8 @@
    "20240210"
   ],
   "id": "saturn-3-1980",
-  "dbid": 19761
- },
- {
-  "watched": true,
-  "watchdate": "12.17.22",
-  "title": "Scrooged",
-  "year": "1988",
-  "links": {
-   "trailer": [
-    "https://youtu.be/3OLRQfMOXOw"
-   ],
-   " movie": [
-    "https://youtu.be/CwNM86sXclE"
-   ]
-  },
-  "watchdate_arr": [
-   "20221217"
-  ],
-  "id": "scrooged-1988",
-  "dbid": 9647
+  "dbid": 19761,
+  "runtime_m": 87
  },
  {
   "watched": true,
@@ -9562,7 +10226,8 @@
    ]
   },
   "id": "short-circuit-1986",
-  "dbid": 2605
+  "dbid": 2605,
+  "runtime_m": 98
  },
  {
   "watched": true,
@@ -9574,7 +10239,8 @@
    ]
   },
   "id": "short-circuit-2-1988",
-  "dbid": 11966
+  "dbid": 11966,
+  "runtime_m": 110
  },
  {
   "watched": false,
@@ -9586,7 +10252,8 @@
    ]
   },
   "id": "slapshot-1977",
-  "dbid": 11590
+  "dbid": 11590,
+  "runtime_m": 123
  },
  {
   "watched": false,
@@ -9598,7 +10265,8 @@
    ]
   },
   "id": "solarbabies-1986",
-  "dbid": 36677
+  "dbid": 36677,
+  "runtime_m": 94
  },
  {
   "watched": false,
@@ -9610,7 +10278,8 @@
    ]
   },
   "id": "the-sorcerers-apprentice-2010",
-  "dbid": 27022
+  "dbid": 27022,
+  "runtime_m": 109
  },
  {
   "watched": true,
@@ -9629,7 +10298,8 @@
    ]
   },
   "id": "spaceballs-1987",
-  "dbid": 957
+  "dbid": 957,
+  "runtime_m": 96
  },
  {
   "watched": true,
@@ -9645,7 +10315,8 @@
    "20230325"
   ],
   "id": "spacecamp-1986",
-  "dbid": 13766
+  "dbid": 13766,
+  "runtime_m": 107
  },
  {
   "watched": true,
@@ -9668,7 +10339,8 @@
    ]
   },
   "id": "space-raiders-1983",
-  "dbid": 7269
+  "dbid": 7269,
+  "runtime_m": 84
  },
  {
   "watched": true,
@@ -9676,7 +10348,8 @@
   "year": "1983",
   "links": {},
   "id": "spacehunter-adventures-in-the-forbidden-zone-1983",
-  "dbid": 26978
+  "dbid": 26978,
+  "runtime_m": 90
  },
  {
   "watched": true,
@@ -9691,7 +10364,8 @@
    ]
   },
   "id": "space-truckers-1996",
-  "dbid": 10690
+  "dbid": 10690,
+  "runtime_m": 95
  },
  {
   "watched": true,
@@ -9699,7 +10373,8 @@
   "year": "1982",
   "links": {},
   "id": "star-trek-ii-the-wrath-of-khan-1982",
-  "dbid": 154
+  "dbid": 154,
+  "runtime_m": 113
  },
  {
   "watched": true,
@@ -9707,7 +10382,8 @@
   "year": "1984",
   "links": {},
   "id": "star-trek-iii-the-search-for-spock-1984",
-  "dbid": 157
+  "dbid": 157,
+  "runtime_m": 105
  },
  {
   "watched": true,
@@ -9715,7 +10391,8 @@
   "year": "1986",
   "links": {},
   "id": "star-trek-iv-the-voyage-home-1986",
-  "dbid": 168
+  "dbid": 168,
+  "runtime_m": 119
  },
  {
   "watched": true,
@@ -9723,7 +10400,8 @@
   "year": "1984",
   "links": {},
   "id": "starman-1984",
-  "dbid": 9663
+  "dbid": 9663,
+  "runtime_m": 115
  },
  {
   "watched": false,
@@ -9738,7 +10416,8 @@
    ]
   },
   "id": "stargate-1994",
-  "dbid": 2164
+  "dbid": 2164,
+  "runtime_m": 116
  },
  {
   "watched": false,
@@ -9746,7 +10425,8 @@
   "year": "1987",
   "links": {},
   "id": "steel-dawn-1987",
-  "dbid": 27786
+  "dbid": 27786,
+  "runtime_m": 97
  },
  {
   "watched": false,
@@ -9758,7 +10438,8 @@
    ]
   },
   "id": "strange-invaders-1983",
-  "dbid": 47892
+  "dbid": 47892,
+  "runtime_m": 92
  },
  {
   "watched": true,
@@ -9770,7 +10451,8 @@
    ]
   },
   "id": "stripes-1981",
-  "dbid": 10890
+  "dbid": 10890,
+  "runtime_m": 106
  },
  {
   "watched": true,
@@ -9783,7 +10465,8 @@
    ]
   },
   "id": "tron-1982",
-  "dbid": 97
+  "dbid": 97,
+  "runtime_m": 96
  },
  {
   "watched": false,
@@ -9791,7 +10474,8 @@
   "year": "1960",
   "links": {},
   "id": "the-time-machine-1960",
-  "dbid": 2134
+  "dbid": 2134,
+  "runtime_m": 103
  },
  {
   "watched": false,
@@ -9799,7 +10483,8 @@
   "year": "2002",
   "links": {},
   "id": "the-time-machine-2002",
-  "dbid": 2135
+  "dbid": 2135,
+  "runtime_m": 96
  },
  {
   "watched": false,
@@ -9811,7 +10496,8 @@
    ]
   },
   "id": "the-last-chase-1981",
-  "dbid": 35453
+  "dbid": 35453,
+  "runtime_m": 101
  },
  {
   "watched": true,
@@ -9830,7 +10516,8 @@
    "20220416"
   ],
   "id": "tommy-boy-1995",
-  "dbid": 11381
+  "dbid": 11381,
+  "runtime_m": 98
  },
  {
   "watched": true,
@@ -9846,7 +10533,8 @@
    "20231119"
   ],
   "id": "twister-1996",
-  "dbid": 664
+  "dbid": 664,
+  "runtime_m": 113
  },
  {
   "watched": true,
@@ -9865,20 +10553,22 @@
    "20220723"
   ],
   "id": "tropic-thunder-2008",
-  "dbid": 7446
+  "dbid": 7446,
+  "runtime_m": 107
  },
  {
   "watched": false,
   "title": "Thank You For Smoking",
   "year": "2005",
-  "runtime": "1h32m",
+  "runtime_hm": "1h32m",
   "links": {
    " trailer": [
     "https://youtu.be/s3eeTjK0qZY"
    ]
   },
   "id": "thank-you-for-smoking-2005",
-  "dbid": 9388
+  "dbid": 9388,
+  "runtime_m": 92
  },
  {
   "watched": false,
@@ -9890,7 +10580,8 @@
    ]
   },
   "id": "up-the-academy-1980",
-  "dbid": 33670
+  "dbid": 33670,
+  "runtime_m": 87
  },
  {
   "watched": true,
@@ -9902,7 +10593,8 @@
    ]
   },
   "id": "deathstalker-1983",
-  "dbid": 15895
+  "dbid": 15895,
+  "runtime_m": 80
  },
  {
   "watched": true,
@@ -9914,7 +10606,8 @@
    ]
   },
   "id": "deathstalker-ii-1987",
-  "dbid": 28218
+  "dbid": 28218,
+  "runtime_m": 85
  },
  {
   "watched": true,
@@ -9926,7 +10619,8 @@
    ]
   },
   "id": "revenge-of-the-nerds-1984",
-  "dbid": 14052
+  "dbid": 14052,
+  "runtime_m": 90
  },
  {
   "watched": true,
@@ -9941,7 +10635,8 @@
    ]
   },
   "id": "revenge-of-the-nerds-ii-nerds-in-paradise-1987",
-  "dbid": 16889
+  "dbid": 16889,
+  "runtime_m": 98
  },
  {
   "watched": true,
@@ -9953,7 +10648,8 @@
    ]
   },
   "id": "revenge-of-the-nerds-iii-the-next-generation-1992",
-  "dbid": 18543
+  "dbid": 18543,
+  "runtime_m": 93
  },
  {
   "watched": true,
@@ -9965,7 +10661,8 @@
    ]
   },
   "id": "revenge-of-the-nerds-4-nerds-in-love-1994",
-  "dbid": 21029
+  "dbid": 21029,
+  "runtime_m": 92
  },
  {
   "watched": true,
@@ -9981,7 +10678,8 @@
    "20230114"
   ],
   "id": "platoon-1986",
-  "dbid": 792
+  "dbid": 792,
+  "runtime_m": 120
  },
  {
   "watched": true,
@@ -9997,7 +10695,8 @@
    ]
   },
   "id": "planet-of-the-apes-1968",
-  "dbid": 871
+  "dbid": 871,
+  "runtime_m": 112
  },
  {
   "watched": true,
@@ -10010,7 +10709,8 @@
    ]
   },
   "id": "beneath-the-planet-of-the-apes-1970",
-  "dbid": 1685
+  "dbid": 1685,
+  "runtime_m": 95
  },
  {
   "watched": true,
@@ -10022,7 +10722,8 @@
    ]
   },
   "id": "escape-from-the-planet-of-the-apes-1971",
-  "dbid": 1687
+  "dbid": 1687,
+  "runtime_m": 98
  },
  {
   "watched": true,
@@ -10037,7 +10738,8 @@
    ]
   },
   "id": "conquest-of-the-planet-of-the-apes-1972",
-  "dbid": 1688
+  "dbid": 1688,
+  "runtime_m": 88
  },
  {
   "watched": true,
@@ -10049,7 +10751,8 @@
    ]
   },
   "id": "battle-for-the-planet-of-the-apes-1973",
-  "dbid": 1705
+  "dbid": 1705,
+  "runtime_m": 93
  },
  {
   "watched": true,
@@ -10065,7 +10768,8 @@
    "20230114"
   ],
   "id": "the-omega-man-1971",
-  "dbid": 11234
+  "dbid": 11234,
+  "runtime_m": 98
  },
  {
   "watched": false,
@@ -10077,7 +10781,8 @@
    ]
   },
   "id": "the-revenant-2015",
-  "dbid": 281957
+  "dbid": 281957,
+  "runtime_m": 157
  },
  {
   "watched": true,
@@ -10089,7 +10794,8 @@
    ]
   },
   "id": "lethal-weapon-1987",
-  "dbid": 941
+  "dbid": 941,
+  "runtime_m": 110
  },
  {
   "watched": true,
@@ -10101,7 +10807,8 @@
    ]
   },
   "id": "lethal-weapon-2-1989",
-  "dbid": 942
+  "dbid": 942,
+  "runtime_m": 114
  },
  {
   "watched": true,
@@ -10114,7 +10821,8 @@
    ]
   },
   "id": "lethal-weapon-3-1992",
-  "dbid": 943
+  "dbid": 943,
+  "runtime_m": 118
  },
  {
   "watched": true,
@@ -10128,7 +10836,8 @@
    ]
   },
   "id": "lethal-weapon-4-1998",
-  "dbid": 944
+  "dbid": 944,
+  "runtime_m": 127
  },
  {
   "watched": true,
@@ -10140,13 +10849,14 @@
    ]
   },
   "id": "planet-terror-2007",
-  "dbid": 1992
+  "dbid": 1992,
+  "runtime_m": 105
  },
  {
   "watched": false,
   "title": "FASTER, PUSSYCAT! KILL! KILL!",
   "year": "1965",
-  "runtime": "1h23m",
+  "runtime_hm": "1h23m",
   "links": {
    "trailer": [
     "https://youtu.be/cNABS8_aNlE",
@@ -10154,7 +10864,8 @@
    ]
   },
   "id": "faster-pussycat-kill-kill-1965",
-  "dbid": 315
+  "dbid": 315,
+  "runtime_m": 84
  },
  {
   "watched": true,
@@ -10162,7 +10873,8 @@
   "year": "1999",
   "links": {},
   "id": "the-barber-of-siberia-1999",
-  "dbid": 51300
+  "dbid": 51300,
+  "runtime_m": 180
  },
  {
   "watched": true,
@@ -10174,7 +10886,8 @@
    ]
   },
   "id": "admiral-2008",
-  "dbid": 13506
+  "dbid": 13506,
+  "runtime_m": 123
  },
  {
   "watched": false,
@@ -10186,7 +10899,8 @@
    ]
   },
   "id": "surf-nazis-must-die-1987",
-  "dbid": 28070
+  "dbid": 28070,
+  "runtime_m": 81
  },
  {
   "watched": true,
@@ -10198,7 +10912,8 @@
    ]
   },
   "id": "the-state-counsellor-2005",
-  "dbid": 59529
+  "dbid": 59529,
+  "runtime_m": 134
  },
  {
   "watched": false,
@@ -10210,7 +10925,8 @@
    ]
   },
   "id": "mannequin-1987",
-  "dbid": 10019
+  "dbid": 10019,
+  "runtime_m": 89
  },
  {
   "watched": false,
@@ -10222,7 +10938,8 @@
    ]
   },
   "id": "mannequin-two-on-the-move-1991",
-  "dbid": 34376
+  "dbid": 34376,
+  "runtime_m": 95
  },
  {
   "watched": false,
@@ -10234,7 +10951,8 @@
    ]
   },
   "id": "navy-seals-1990",
-  "dbid": 427910
+  "dbid": 427910,
+  "runtime_m": 113
  },
  {
   "watched": true,
@@ -10246,7 +10964,8 @@
    ]
   },
   "id": "the-goonies-1985",
-  "dbid": 9340
+  "dbid": 9340,
+  "runtime_m": 114
  },
  {
   "watched": false,
@@ -10254,7 +10973,8 @@
   "year": "1994",
   "links": {},
   "id": "tammy-and-the-t-rex-1994",
-  "dbid": 55563
+  "dbid": 55563,
+  "runtime_m": 90
  },
  {
   "watched": false,
@@ -10269,7 +10989,8 @@
    ]
   },
   "id": "tank-girl-1995",
-  "dbid": 9067
+  "dbid": 9067,
+  "runtime_m": 104
  },
  {
   "watched": true,
@@ -10281,7 +11002,8 @@
    ]
   },
   "id": "batman-1989",
-  "dbid": 268
+  "dbid": 268,
+  "runtime_m": 126
  },
  {
   "watched": true,
@@ -10293,7 +11015,8 @@
    ]
   },
   "id": "batman-returns-1992",
-  "dbid": 364
+  "dbid": 364,
+  "runtime_m": 126
  },
  {
   "watched": true,
@@ -10305,7 +11028,8 @@
    ]
   },
   "id": "batman-forever-1995",
-  "dbid": 414
+  "dbid": 414,
+  "runtime_m": 121
  },
  {
   "watched": false,
@@ -10317,14 +11041,15 @@
    ]
   },
   "id": "batman-robin-1997",
-  "dbid": 415
+  "dbid": 415,
+  "runtime_m": 125
  },
  {
   "watched": true,
   "watchdate": "11.05.23",
   "title": "Batman: The Movie",
   "year": "1966",
-  "runtime": "1h44m",
+  "runtime_hm": "1h44m",
   "links": {
    " trailer": [
     "https://youtu.be/vvY5MgOgDUw"
@@ -10334,14 +11059,15 @@
    "20231105"
   ],
   "id": "batman-the-movie-1966",
-  "dbid": 2661
+  "dbid": 2661,
+  "runtime_m": 105
  },
  {
   "watched": true,
   "watchdate": "11.12.23",
   "title": "Batman Begins",
   "year": "2005",
-  "runtime": "2h20m",
+  "runtime_hm": "2h20m",
   "links": {
    " trailer": [
     "https://youtu.be/neY2xVmOfUM"
@@ -10351,14 +11077,15 @@
    "20231112"
   ],
   "id": "batman-begins-2005",
-  "dbid": 272
+  "dbid": 272,
+  "runtime_m": 140
  },
  {
   "watched": true,
   "watchdate": "11.25.23",
   "title": "The Dark Knight",
   "year": "2008",
-  "runtime": "2h32m",
+  "runtime_hm": "2h32m",
   "links": {
    " trailer": [
     "https://youtu.be/EXeTwQWrcwY"
@@ -10368,14 +11095,15 @@
    "20231125"
   ],
   "id": "the-dark-knight-2008",
-  "dbid": 155
+  "dbid": 155,
+  "runtime_m": 152
  },
  {
   "watched": true,
   "watchdate": "12.02.23",
   "title": "The Dark Knight Rises",
   "year": "2012",
-  "runtime": "2h44m",
+  "runtime_hm": "2h44m",
   "links": {
    " trailer": [
     "https://youtu.be/7gFwvozMHR4"
@@ -10385,14 +11113,15 @@
    "20231202"
   ],
   "id": "the-dark-knight-rises-2012",
-  "dbid": 49026
+  "dbid": 49026,
+  "runtime_m": 165
  },
  {
   "watched": true,
   "watchdate": "12.10.23",
   "title": "The Batman",
   "year": "2022",
-  "runtime": "2h56m",
+  "runtime_hm": "2h56m",
   "links": {
    " trailer": [
     "https://youtu.be/-FZ-pPFAjYY",
@@ -10403,20 +11132,22 @@
    "20231210"
   ],
   "id": "the-batman-2022",
-  "dbid": 414906
+  "dbid": 414906,
+  "runtime_m": 177
  },
  {
   "watched": false,
   "title": "The Saint",
   "year": "1997",
-  "runtime": "1h56m",
+  "runtime_hm": "1h56m",
   "links": {
    " trailer": [
     "https://youtu.be/qkscr4gDcP8"
    ]
   },
   "id": "the-saint-1997",
-  "dbid": 10003
+  "dbid": 10003,
+  "runtime_m": 116
  },
  {
   "watched": false,
@@ -10428,20 +11159,22 @@
    ]
   },
   "id": "fitzcarraldo-1982",
-  "dbid": 9343
+  "dbid": 9343,
+  "runtime_m": 157
  },
  {
   "watched": false,
   "title": "Once Upon a Time in America",
   "year": "1984",
-  "runtime": "3h49m",
+  "runtime_hm": "3h49m",
   "links": {
    " trailer": [
     "https://youtu.be/LcpCRyNo8T8"
    ]
   },
   "id": "once-upon-a-time-in-america-1984",
-  "dbid": 311
+  "dbid": 311,
+  "runtime_m": 229
  },
  {
   "watched": true,
@@ -10460,7 +11193,8 @@
    "20221105"
   ],
   "id": "a-fistful-of-dollars-1964",
-  "dbid": 391
+  "dbid": 391,
+  "runtime_m": 99
  },
  {
   "watched": true,
@@ -10479,7 +11213,8 @@
    "20221112"
   ],
   "id": "for-a-few-dollars-more-1965",
-  "dbid": 938
+  "dbid": 938,
+  "runtime_m": 132
  },
  {
   "watched": true,
@@ -10498,7 +11233,8 @@
    "20221119"
   ],
   "id": "the-good-the-bad-and-the-ugly-1966",
-  "dbid": 429
+  "dbid": 429,
+  "runtime_m": 161
  },
  {
   "watched": true,
@@ -10510,7 +11246,8 @@
    ]
   },
   "id": "the-return-2003",
-  "dbid": 122
+  "dbid": 122,
+  "runtime_m": 201
  },
  {
   "watched": false,
@@ -10525,20 +11262,22 @@
    ]
   },
   "id": "mom-and-dad-save-the-world-1992",
-  "dbid": 27295
+  "dbid": 27295,
+  "runtime_m": 88
  },
  {
   "watched": false,
   "title": "Necessary Roughness",
   "year": "1991",
-  "runtime": "1h48m",
+  "runtime_hm": "1h48m",
   "links": {
    " trailer": [
     "https://youtu.be/tme9N5YBC2w"
    ]
   },
   "id": "necessary-roughness-1991",
-  "dbid": 20704
+  "dbid": 20704,
+  "runtime_m": 108
  },
  {
   "watched": false,
@@ -10550,7 +11289,8 @@
    ]
   },
   "id": "the-outsiders-1983",
-  "dbid": 227
+  "dbid": 227,
+  "runtime_m": 91
  },
  {
   "watched": true,
@@ -10566,7 +11306,8 @@
    "20220806"
   ],
   "id": "mystery-men-1999",
-  "dbid": 9824
+  "dbid": 9824,
+  "runtime_m": 121
  },
  {
   "watched": true,
@@ -10581,7 +11322,8 @@
    ]
   },
   "id": "police-story-1985",
-  "dbid": 9056
+  "dbid": 9056,
+  "runtime_m": 100
  },
  {
   "watched": true,
@@ -10593,7 +11335,8 @@
    ]
   },
   "id": "police-story-2-1988",
-  "dbid": 10753
+  "dbid": 10753,
+  "runtime_m": 122
  },
  {
   "watched": true,
@@ -10605,7 +11348,8 @@
    ]
   },
   "id": "supercop-police-story-3-1992",
-  "dbid": 11134
+  "dbid": 11134,
+  "runtime_m": 95
  },
  {
   "watched": true,
@@ -10617,7 +11361,8 @@
    ]
   },
   "id": "supercop-2-1993",
-  "dbid": 38955
+  "dbid": 38955,
+  "runtime_m": 104
  },
  {
   "watched": true,
@@ -10632,7 +11377,8 @@
    ]
   },
   "id": "first-strike-police-story-4-1996",
-  "dbid": 9404
+  "dbid": 9404,
+  "runtime_m": 107
  },
  {
   "watched": true,
@@ -10644,7 +11390,8 @@
    ]
   },
   "id": "police-story-5-new-police-story-2004",
-  "dbid": 11636
+  "dbid": 11636,
+  "runtime_m": 123
  },
  {
   "watched": true,
@@ -10656,7 +11403,8 @@
    ]
   },
   "id": "superman-1979",
-  "dbid": 1924
+  "dbid": 1924,
+  "runtime_m": 143
  },
  {
   "watched": true,
@@ -10668,7 +11416,8 @@
    ]
   },
   "id": "superman-ii-1980",
-  "dbid": 8536
+  "dbid": 8536,
+  "runtime_m": 127
  },
  {
   "watched": true,
@@ -10680,7 +11429,8 @@
    ]
   },
   "id": "superman-iii-1983",
-  "dbid": 9531
+  "dbid": 9531,
+  "runtime_m": 125
  },
  {
   "watched": true,
@@ -10692,7 +11442,8 @@
    ]
   },
   "id": "superman-iv-1987",
-  "dbid": 11411
+  "dbid": 11411,
+  "runtime_m": 90
  },
  {
   "watched": true,
@@ -10705,7 +11456,8 @@
    ]
   },
   "id": "supergirl-1984",
-  "dbid": 9651
+  "dbid": 9651,
+  "runtime_m": 124
  },
  {
   "watched": true,
@@ -10718,7 +11470,8 @@
    ]
   },
   "id": "superman-returns-2006",
-  "dbid": 1452
+  "dbid": 1452,
+  "runtime_m": 154
  },
  {
   "watched": true,
@@ -10734,7 +11487,8 @@
    "20220409"
   ],
   "id": "terminal-velocity-1994",
-  "dbid": 9057
+  "dbid": 9057,
+  "runtime_m": 102
  },
  {
   "watched": false,
@@ -10746,7 +11500,8 @@
    ]
   },
   "id": "the-super-1991",
-  "dbid": 53287
+  "dbid": 53287,
+  "runtime_m": 84
  },
  {
   "watched": true,
@@ -10758,7 +11513,8 @@
    ]
   },
   "id": "a-boy-and-his-dog-1975",
-  "dbid": 4917
+  "dbid": 4917,
+  "runtime_m": 90
  },
  {
   "watched": true,
@@ -10770,7 +11526,8 @@
    ]
   },
   "id": "the-cable-guy-1996",
-  "dbid": 9894
+  "dbid": 9894,
+  "runtime_m": 96
  },
  {
   "watched": true,
@@ -10785,7 +11542,8 @@
    ]
   },
   "id": "airplane-1980",
-  "dbid": 813
+  "dbid": 813,
+  "runtime_m": 88
  },
  {
   "watched": true,
@@ -10800,7 +11558,8 @@
    ]
   },
   "id": "airplane-ii-1982",
-  "dbid": 2665
+  "dbid": 2665,
+  "runtime_m": 85
  },
  {
   "watched": true,
@@ -10816,7 +11575,8 @@
    "20230107"
   ],
   "id": "network-1976",
-  "dbid": 10774
+  "dbid": 10774,
+  "runtime_m": 122
  },
  {
   "watched": true,
@@ -10828,7 +11588,8 @@
    ]
   },
   "id": "nature-of-the-beast-1995",
-  "dbid": 85564
+  "dbid": 85564,
+  "runtime_m": 91
  },
  {
   "watched": false,
@@ -10840,7 +11601,8 @@
    ]
   },
   "id": "twilight-zone-the-movie-1983",
-  "dbid": 15301
+  "dbid": 15301,
+  "runtime_m": 101
  },
  {
   "watched": true,
@@ -10852,7 +11614,8 @@
    ]
   },
   "id": "soldier-1998",
-  "dbid": 9425
+  "dbid": 9425,
+  "runtime_m": 99
  },
  {
   "watched": false,
@@ -10864,7 +11627,8 @@
    ]
   },
   "id": "the-untouchables-1987",
-  "dbid": 117
+  "dbid": 117,
+  "runtime_m": 119
  },
  {
   "watched": false,
@@ -10876,7 +11640,8 @@
    ]
   },
   "id": "voyage-of-the-damned-1976",
-  "dbid": 75641
+  "dbid": 75641,
+  "runtime_m": 155
  },
  {
   "watched": true,
@@ -10888,7 +11653,8 @@
    ]
   },
   "id": "wargames-1983",
-  "dbid": 860
+  "dbid": 860,
+  "runtime_m": 114
  },
  {
   "watched": true,
@@ -10906,7 +11672,8 @@
    ]
   },
   "id": "waynes-world-1992",
-  "dbid": 8872
+  "dbid": 8872,
+  "runtime_m": 95
  },
  {
   "watched": true,
@@ -10921,7 +11688,8 @@
    ]
   },
   "id": "waynes-world-2-1993",
-  "dbid": 8873
+  "dbid": 8873,
+  "runtime_m": 95
  },
  {
   "watched": true,
@@ -10929,7 +11697,8 @@
   "year": "1985",
   "links": {},
   "id": "weird-science-1985",
-  "dbid": 11814
+  "dbid": 11814,
+  "runtime_m": 93
  },
  {
   "watched": false,
@@ -10941,7 +11710,8 @@
    ]
   },
   "id": "where-eagles-dare-1968",
-  "dbid": 11046
+  "dbid": 11046,
+  "runtime_m": 155
  },
  {
   "watched": true,
@@ -10956,7 +11726,8 @@
    ]
   },
   "id": "white-tiger-2012",
-  "dbid": 111237
+  "dbid": 111237,
+  "runtime_m": 105
  },
  {
   "watched": false,
@@ -10968,7 +11739,8 @@
    ]
   },
   "id": "the-year-of-living-dangerously-1982",
-  "dbid": 11541
+  "dbid": 11541,
+  "runtime_m": 115
  },
  {
   "watched": false,
@@ -10983,7 +11755,8 @@
    ]
   },
   "id": "the-sting-1973",
-  "dbid": 9277
+  "dbid": 9277,
+  "runtime_m": 129
  },
  {
   "watched": false,
@@ -10995,7 +11768,8 @@
    ]
   },
   "id": "zulu-1964",
-  "dbid": 14433
+  "dbid": 14433,
+  "runtime_m": 138
  },
  {
   "watched": true,
@@ -11014,7 +11788,25 @@
    "20230107"
   ],
   "id": "casablanca-1942",
-  "dbid": 289
+  "dbid": 289,
+  "runtime_m": 102
+ },
+ {
+  "watched": false,
+  "title": "Chinatown",
+  "year": "1974",
+  "runtime_hm": "2h11m",
+  "links": {
+   " trailer": [
+    "https://youtu.be/T37QkBc4IGY"
+   ],
+   " modern": [
+    "https://youtu.be/Z70axRwP74Q"
+   ]
+  },
+  "id": "chinatown-1974",
+  "dbid": 829,
+  "runtime_m": 130
  },
  {
   "watched": false,
@@ -11026,29 +11818,32 @@
    ]
   },
   "id": "to-be-or-not-to-be-1983",
-  "dbid": 22998
+  "dbid": 22998,
+  "runtime_m": 107
  },
  {
   "watched": false,
   "title": "Interstellar",
   "year": "2014",
-  "runtime": "2h42m",
+  "runtime_hm": "2h42m",
   "links": {
    " trailer": [
     "https://youtu.be/2LqzF5WauAw"
    ]
   },
   "id": "interstellar-2014",
-  "dbid": 157336
+  "dbid": 157336,
+  "runtime_m": 169
  },
  {
   "watched": false,
   "title": "Ted",
   "year": "2012",
-  "runtime": "1h46m",
+  "runtime_hm": "1h46m",
   "links": {},
   "id": "ted-2012",
-  "dbid": 72105
+  "dbid": 72105,
+  "runtime_m": 107
  },
  {
   "watched": false,
@@ -11060,7 +11855,8 @@
    ]
   },
   "id": "tin-cup-1996",
-  "dbid": 10478
+  "dbid": 10478,
+  "runtime_m": 135
  },
  {
   "watched": false,
@@ -11072,7 +11868,8 @@
    ]
   },
   "id": "tenacious-d-in-the-pick-of-destiny-2006",
-  "dbid": 2179
+  "dbid": 2179,
+  "runtime_m": 93
  },
  {
   "watched": true,
@@ -11088,7 +11885,8 @@
    "20230109"
   ],
   "id": "teenage-mutant-ninja-turtles-1990",
-  "dbid": 1498
+  "dbid": 1498,
+  "runtime_m": 93
  },
  {
   "watched": false,
@@ -11100,7 +11898,8 @@
    ]
   },
   "id": "teenage-mutant-ninja-turtles-ii-the-secret-of-the-ooz-1991",
-  "dbid": 1497
+  "dbid": 1497,
+  "runtime_m": 88
  },
  {
   "watched": false,
@@ -11112,14 +11911,15 @@
    ]
   },
   "id": "teenage-mutant-ninja-turtles-iii-turtles-in-time-1993",
-  "dbid": 1499
+  "dbid": 1499,
+  "runtime_m": 96
  },
  {
   "watched": true,
   "watchdate": "02.10.24",
   "title": "Terminator",
   "year": "1984",
-  "runtime": "1h47m",
+  "runtime_hm": "1h47m",
   "links": {
    " trailer": [
     "https://youtu.be/k64P4l2Wmeg"
@@ -11129,14 +11929,15 @@
    "20240210"
   ],
   "id": "terminator-1984",
-  "dbid": 218
+  "dbid": 218,
+  "runtime_m": 108
  },
  {
   "watched": true,
   "watchdate": "02.17.24",
   "title": "Terminator 2",
   "year": "1991",
-  "runtime": "2h33m",
+  "runtime_hm": "2h33m",
   "links": {
    " trailer": [
     "https://youtu.be/CRRlbK5w8AE"
@@ -11146,20 +11947,22 @@
    "20240217"
   ],
   "id": "terminator-2-1991",
-  "dbid": 280
+  "dbid": 280,
+  "runtime_m": 137
  },
  {
   "watched": false,
   "title": "Snatch",
   "year": "2000",
-  "runtime": "1h42m",
+  "runtime_hm": "1h42m",
   "links": {
    " trailer": [
     "https://youtu.be/9Jar2XkBboo"
    ]
   },
   "id": "snatch-2000",
-  "dbid": 107
+  "dbid": 107,
+  "runtime_m": 103
  },
  {
   "watched": false,
@@ -11171,7 +11974,8 @@
    ]
   },
   "id": "fortress-1992",
-  "dbid": 12088
+  "dbid": 12088,
+  "runtime_m": 95
  },
  {
   "watched": false,
@@ -11183,7 +11987,8 @@
    ]
   },
   "id": "rob-roy-1995",
-  "dbid": 11780
+  "dbid": 11780,
+  "runtime_m": 139
  },
  {
   "watched": false,
@@ -11195,7 +12000,8 @@
    ]
   },
   "id": "braveheart-1995",
-  "dbid": 197
+  "dbid": 197,
+  "runtime_m": 177
  },
  {
   "watched": true,
@@ -11211,7 +12017,8 @@
    "20240127"
   ],
   "id": "ivanhoe-1982",
-  "dbid": 39382
+  "dbid": 39382,
+  "runtime_m": 137
  },
  {
   "watched": false,
@@ -11223,7 +12030,8 @@
    ]
   },
   "id": "a-knights-tale-2001",
-  "dbid": 9476
+  "dbid": 9476,
+  "runtime_m": 132
  },
  {
   "watched": true,
@@ -11242,7 +12050,8 @@
    "20220423"
   ],
   "id": "come-and-see-1985",
-  "dbid": 25237
+  "dbid": 25237,
+  "runtime_m": 142
  },
  {
   "watched": true,
@@ -11254,7 +12063,8 @@
    ]
   },
   "id": "uhf-1989",
-  "dbid": 11959
+  "dbid": 11959,
+  "runtime_m": 97
  },
  {
   "watched": true,
@@ -11270,7 +12080,8 @@
    "20220827"
   ],
   "id": "kellys-heroes-1970",
-  "dbid": 11589
+  "dbid": 11589,
+  "runtime_m": 144
  },
  {
   "watched": false,
@@ -11284,7 +12095,8 @@
    ]
   },
   "id": "i-am-dragon-2015",
-  "dbid": 370964
+  "dbid": 370964,
+  "runtime_m": 110
  },
  {
   "watched": false,
@@ -11297,7 +12109,8 @@
    ]
   },
   "id": "up-in-smoke-1978",
-  "dbid": 11455
+  "dbid": 11455,
+  "runtime_m": 86
  },
  {
   "watched": false,
@@ -11309,7 +12122,8 @@
    ]
   },
   "id": "rude-awakening-1989",
-  "dbid": 24254
+  "dbid": 24254,
+  "runtime_m": 98
  },
  {
   "watched": false,
@@ -11321,7 +12135,8 @@
    ]
   },
   "id": "toxic-avenger-1984",
-  "dbid": 15239
+  "dbid": 15239,
+  "runtime_m": 82
  },
  {
   "watched": true,
@@ -11337,7 +12152,8 @@
    "20230107"
   ],
   "id": "the-naked-gun-1988",
-  "dbid": 37136
+  "dbid": 37136,
+  "runtime_m": 86
  },
  {
   "watched": true,
@@ -11353,7 +12169,8 @@
    "20230114"
   ],
   "id": "the-naked-gun-2-1-2-the-smell-of-fear-1991",
-  "dbid": 37137
+  "dbid": 37137,
+  "runtime_m": 85
  },
  {
   "watched": true,
@@ -11369,7 +12186,8 @@
    "20230211"
   ],
   "id": "the-naked-gun-33-1-3-the-final-insult-1994",
-  "dbid": 36593
+  "dbid": 36593,
+  "runtime_m": 83
  },
  {
   "watched": false,
@@ -11381,7 +12199,8 @@
    ]
   },
   "id": "the-closet-le-placard-2001",
-  "dbid": 11444
+  "dbid": 11444,
+  "runtime_m": 84
  },
  {
   "watched": true,
@@ -11396,7 +12215,8 @@
    ]
   },
   "id": "planes-trains-and-automobiles-1987",
-  "dbid": 2609
+  "dbid": 2609,
+  "runtime_m": 93
  },
  {
   "watched": true,
@@ -11411,14 +12231,15 @@
    ]
   },
   "id": "jingle-all-the-way-1996",
-  "dbid": 9279
+  "dbid": 9279,
+  "runtime_m": 89
  },
  {
   "watched": true,
   "watchdate": "12.17.23",
   "title": "Elf",
   "year": "2003",
-  "runtime": "1h36m",
+  "runtime_hm": "1h36m",
   "links": {
    " trailer": [
     "https://youtu.be/BMlmu18gIDM"
@@ -11428,7 +12249,8 @@
    "20231217"
   ],
   "id": "elf-2003",
-  "dbid": 10719
+  "dbid": 10719,
+  "runtime_m": 97
  },
  {
   "watched": true,
@@ -11440,14 +12262,15 @@
    ]
   },
   "id": "miracle-on-34th-street-1947",
-  "dbid": 11881
+  "dbid": 11881,
+  "runtime_m": 96
  },
  {
   "watched": true,
   "watchdate": "12.24.22",
   "title": "It's a Wonderful Life",
   "year": "1946",
-  "runtime": "2h10m",
+  "runtime_hm": "2h10m",
   "links": {
    " trailer": [
     "https://youtu.be/sFXoAVi4FPk"
@@ -11457,7 +12280,8 @@
    "20221224"
   ],
   "id": "its-a-wonderful-life-1946",
-  "dbid": 1585
+  "dbid": 1585,
+  "runtime_m": 130
  },
  {
   "watched": true,
@@ -11469,14 +12293,15 @@
    ]
   },
   "id": "santa-claus-the-movie-1985",
-  "dbid": 13764
+  "dbid": 13764,
+  "runtime_m": 108
  },
  {
   "watched": true,
   "watchdate": "12.10.21./12.17.22",
   "title": "Die Hard",
   "year": "1988",
-  "runtime": "2h12m",
+  "runtime_hm": "2h12m",
   "links": {
    " trailer": [
     "https://youtu.be/jaJuwKCmJbY"
@@ -11487,14 +12312,15 @@
    "20211210"
   ],
   "id": "die-hard-1988",
-  "dbid": 562
+  "dbid": 562,
+  "runtime_m": 132
  },
  {
   "watched": true,
   "watchdate": "12.17.21./12.23.22",
   "title": "Die Hard 2: Die Harder",
   "year": "1990",
-  "runtime": "2h4m",
+  "runtime_hm": "2h4m",
   "links": {
    " trailer": [
     "https://youtu.be/CvHp7xJZ4_U"
@@ -11505,7 +12331,8 @@
    "20211217"
   ],
   "id": "die-hard-2-die-harder-1990",
-  "dbid": 1573
+  "dbid": 1573,
+  "runtime_m": 124
  },
  {
   "watched": true,
@@ -11517,7 +12344,8 @@
    ]
   },
   "id": "die-hard-3-with-a-vengeance-1995",
-  "dbid": 1572
+  "dbid": 1572,
+  "runtime_m": 128
  },
  {
   "watched": true,
@@ -11529,7 +12357,8 @@
    ]
   },
   "id": "die-hard-4-live-free-or-die-hard-2007",
-  "dbid": 1571
+  "dbid": 1571,
+  "runtime_m": 128
  },
  {
   "watched": true,
@@ -11542,7 +12371,8 @@
    ]
   },
   "id": "die-hard-5-a-good-day-to-die-hard-2013",
-  "dbid": 47964
+  "dbid": 47964,
+  "runtime_m": 98
  },
  {
   "watched": true,
@@ -11554,7 +12384,8 @@
    ]
   },
   "id": "a-christmas-story-1983",
-  "dbid": 850
+  "dbid": 850,
+  "runtime_m": 93
  },
  {
   "watched": true,
@@ -11570,7 +12401,8 @@
    "20221203"
   ],
   "id": "white-christmas-1954",
-  "dbid": 13368
+  "dbid": 13368,
+  "runtime_m": 120
  },
  {
   "watched": true,
@@ -11589,7 +12421,8 @@
    "20221231"
   ],
   "id": "a-christmas-carol-1984",
-  "dbid": 13189
+  "dbid": 13189,
+  "runtime_m": 101
  },
  {
   "watched": false,
@@ -11601,7 +12434,8 @@
    ]
   },
   "id": "a-christmas-carol-1938",
-  "dbid": 25842
+  "dbid": 25842,
+  "runtime_m": 69
  },
  {
   "watched": false,
@@ -11613,7 +12447,8 @@
    ]
   },
   "id": "a-christmas-carol-1999",
-  "dbid": 16716
+  "dbid": 16716,
+  "runtime_m": 97
  },
  {
   "watched": false,
@@ -11625,7 +12460,8 @@
    ]
   },
   "id": "a-christmas-tale-2008",
-  "dbid": 8892
+  "dbid": 8892,
+  "runtime_m": 152
  },
  {
   "watched": true,
@@ -11637,7 +12473,8 @@
    ]
   },
   "id": "the-muppet-christmas-carol-1992",
-  "dbid": 10437
+  "dbid": 10437,
+  "runtime_m": 86
  },
  {
   "watched": false,
@@ -11649,7 +12486,8 @@
    ]
   },
   "id": "dr-seuss-how-the-grinch-stole-christmas-2000",
-  "dbid": 8871
+  "dbid": 8871,
+  "runtime_m": 104
  },
  {
   "watched": true,
@@ -11661,7 +12499,8 @@
    ]
   },
   "id": "the-santa-clause-1994",
-  "dbid": 11395
+  "dbid": 11395,
+  "runtime_m": 97
  },
  {
   "watched": false,
@@ -11673,7 +12512,8 @@
    ]
   },
   "id": "the-santa-clause-2-2002",
-  "dbid": 9021
+  "dbid": 9021,
+  "runtime_m": 104
  },
  {
   "watched": false,
@@ -11685,7 +12525,8 @@
    ]
   },
   "id": "the-santa-clause-3-the-escape-clause-2006",
-  "dbid": 13767
+  "dbid": 13767,
+  "runtime_m": 97
  },
  {
   "watched": false,
@@ -11697,7 +12538,8 @@
    ]
   },
   "id": "rudolph-the-red-nosed-reindeer-1964",
-  "dbid": 13382
+  "dbid": 13382,
+  "runtime_m": 52
  },
  {
   "watched": true,
@@ -11709,7 +12551,8 @@
    ]
   },
   "id": "home-alone-1990",
-  "dbid": 771
+  "dbid": 771,
+  "runtime_m": 103
  },
  {
   "watched": true,
@@ -11725,7 +12568,8 @@
    "20221224"
   ],
   "id": "home-alone-2-lost-in-new-york-1992",
-  "dbid": 772
+  "dbid": 772,
+  "runtime_m": 120
  },
  {
   "watched": false,
@@ -11737,7 +12581,8 @@
    ]
   },
   "id": "a-charlie-brown-christmas-1965",
-  "dbid": 13187
+  "dbid": 13187,
+  "runtime_m": 25
  },
  {
   "watched": false,
@@ -11749,7 +12594,8 @@
    ]
   },
   "id": "nutcracker-the-motion-picture-1986",
-  "dbid": 71316
+  "dbid": 71316,
+  "runtime_m": 85
  },
  {
   "watched": false,
@@ -11761,7 +12607,8 @@
    ]
   },
   "id": "jack-frost-1997",
-  "dbid": 27318
+  "dbid": 27318,
+  "runtime_m": 89
  },
  {
   "watched": false,
@@ -11773,7 +12620,8 @@
    ]
   },
   "id": "jack-frost-1998",
-  "dbid": 9745
+  "dbid": 9745,
+  "runtime_m": 101
  },
  {
   "watched": false,
@@ -11781,7 +12629,8 @@
   "year": "1988",
   "links": {},
   "id": "ernest-saves-christmas-1988",
-  "dbid": 26386
+  "dbid": 26386,
+  "runtime_m": 95
  },
  {
   "watched": false,
@@ -11789,7 +12638,8 @@
   "year": "2008",
   "links": {},
   "id": "four-christmases-2008",
-  "dbid": 12193
+  "dbid": 12193,
+  "runtime_m": 88
  },
  {
   "watched": false,
@@ -11797,7 +12647,8 @@
   "year": "2000",
   "links": {},
   "id": "reindeer-games-2000",
-  "dbid": 2155
+  "dbid": 2155,
+  "runtime_m": 124
  },
  {
   "watched": false,
@@ -11805,7 +12656,8 @@
   "year": "2002",
   "links": {},
   "id": "friday-after-next-2002",
-  "dbid": 10426
+  "dbid": 10426,
+  "runtime_m": 85
  },
  {
   "watched": false,
@@ -11813,7 +12665,8 @@
   "year": "1994",
   "links": {},
   "id": "mixed-nuts-1994",
-  "dbid": 24070
+  "dbid": 24070,
+  "runtime_m": 97
  },
  {
   "watched": false,
@@ -11828,7 +12681,8 @@
    ]
   },
   "id": "trapped-in-paradise-1994",
-  "dbid": 23719
+  "dbid": 23719,
+  "runtime_m": 111
  },
  {
   "watched": false,
@@ -11836,7 +12690,8 @@
   "year": "1985",
   "links": {},
   "id": "one-magic-christmas-1985",
-  "dbid": 13380
+  "dbid": 13380,
+  "runtime_m": 88
  },
  {
   "watched": false,
@@ -11844,7 +12699,8 @@
   "year": "2004",
   "links": {},
   "id": "christmas-with-the-kranks-2004",
-  "dbid": 13673
+  "dbid": 13673,
+  "runtime_m": 99
  },
  {
   "watched": false,
@@ -11859,7 +12715,8 @@
    ]
   },
   "id": "santa-claus-vs-the-devil-1959",
-  "dbid": 13383
+  "dbid": 13383,
+  "runtime_m": 94
  },
  {
   "watched": false,
@@ -11871,7 +12728,8 @@
    ]
   },
   "id": "rapsittie-street-kids-believe-in-santa-2002",
-  "dbid": 413817
+  "dbid": 413817,
+  "runtime_m": 42
  },
  {
   "watched": false,
@@ -11883,17 +12741,21 @@
    ]
   },
   "id": "surviving-christmas-2004",
-  "dbid": 15566
+  "dbid": 15566,
+  "runtime_m": 91
  },
  {
   "watched": true,
   "watchdate": "12.17.21./12.23.22",
   "title": "Scrooged",
   "year": "1988",
-  "runtime": "1h41m",
+  "runtime_hm": "1h41m",
   "links": {
    " trailer": [
     "https://youtu.be/3OLRQfMOXOw"
+   ],
+   " movie": [
+    "https://youtu.be/CwNM86sXclE"
    ]
   },
   "watchdate_arr": [
@@ -11901,7 +12763,40 @@
    "20211217"
   ],
   "id": "scrooged-1988",
-  "dbid": 9647
+  "dbid": 9647,
+  "runtime_m": 101
+ },
+ {
+  "watched": false,
+  "title": "Christmas in Connecticut",
+  "year": "1945",
+  "links": {
+   " tvspot": [
+    "https://youtu.be/F5fILZZlCLg"
+   ],
+   " trailer": [
+    "https://youtu.be/XutjMIKeyF0"
+   ]
+  },
+  "id": "christmas-in-connecticut-1945",
+  "dbid": 13669,
+  "runtime_m": 102
+ },
+ {
+  "watched": false,
+  "title": "Christmas in Connecticut",
+  "year": "1992",
+  "links": {
+   " tvspot": [
+    "https://youtu.be/dK1ZP0IyPws"
+   ],
+   " trailer": [
+    "https://youtu.be/no9o_tF3crs"
+   ]
+  },
+  "id": "christmas-in-connecticut-1992",
+  "dbid": 55596,
+  "runtime_m": 93
  },
  {
   "watched": true,
@@ -11917,7 +12812,8 @@
    "20221203"
   ],
   "id": "lilies-of-the-field-1963",
-  "dbid": 38805
+  "dbid": 38805,
+  "runtime_m": 94
  },
  {
   "watched": true,
@@ -11936,7 +12832,8 @@
    "20221210"
   ],
   "id": "willy-wonka-the-chocolate-factory-1971",
-  "dbid": 252
+  "dbid": 252,
+  "runtime_m": 99
  },
  {
   "watched": true,
@@ -11952,7 +12849,8 @@
    "20230128"
   ],
   "id": "support-your-local-sheriff-1969",
-  "dbid": 11574
+  "dbid": 11574,
+  "runtime_m": 92
  },
  {
   "watched": true,
@@ -11968,7 +12866,8 @@
    "20230225"
   ],
   "id": "support-your-local-gunfighter-1971",
-  "dbid": 18287
+  "dbid": 18287,
+  "runtime_m": 91
  },
  {
   "watched": false,
@@ -11980,7 +12879,8 @@
    ]
   },
   "id": "the-bells-of-st-marys-1945",
-  "dbid": 32430
+  "dbid": 32430,
+  "runtime_m": 126
  },
  {
   "watched": false,
@@ -11992,7 +12892,8 @@
    ]
   },
   "id": "django-1966",
-  "dbid": 10772
+  "dbid": 10772,
+  "runtime_m": 93
  },
  {
   "watched": false,
@@ -12004,7 +12905,8 @@
    ]
   },
   "id": "aguirre-wrath-of-god-1972",
-  "dbid": 2000
+  "dbid": 2000,
+  "runtime_m": 95
  },
  {
   "watched": false,
@@ -12016,7 +12918,8 @@
    ]
   },
   "id": "turbo-kid-2015",
-  "dbid": 310135
+  "dbid": 310135,
+  "runtime_m": 95
  },
  {
   "watched": false,
@@ -12028,7 +12931,8 @@
    ]
   },
   "id": "the-virgin-psychics-2015",
-  "dbid": 350725
+  "dbid": 350725,
+  "runtime_m": 114
  },
  {
   "watched": false,
@@ -12040,7 +12944,8 @@
    ]
   },
   "id": "deadpool-2016",
-  "dbid": 293660
+  "dbid": 293660,
+  "runtime_m": 108
  },
  {
   "watched": false,
@@ -12052,7 +12957,8 @@
    ]
   },
   "id": "deadpool-2-2018",
-  "dbid": 383498
+  "dbid": 383498,
+  "runtime_m": 120
  },
  {
   "watched": false,
@@ -12064,9 +12970,10 @@
  {
   "watched": false,
   "title": "Hajime no Ippo",
+  "year": "2003",
   "links": {},
   "id": "hajime-no-ippo-2003",
-  "year": "2003",
-  "dbid": 45287
+  "dbid": 45287,
+  "runtime_m": 90
  }
 ]
