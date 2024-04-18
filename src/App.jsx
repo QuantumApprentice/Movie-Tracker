@@ -46,7 +46,7 @@ export function DisplayList()
 
   return (
     <>
-      <table>
+      <table className='table-stuff'>
         <thead>
           <tr className='movie-list-sticky'>
             <th><button onClick={()=>{
@@ -85,7 +85,18 @@ export function DisplayList()
         </thead>
         <tbody>
           {movieList.map((movie, idx)=>(
-            <tr key={idx}>
+            <tr  className='movie-list' key={idx}
+              onMouseOver={(e)=>{
+                e.currentTarget.className="movie-list-hover";
+                e.currentTarget.previousElementSibling.className="movie-list-next";
+                e.currentTarget.nextElementSibling.className="movie-list-next";
+              }}
+              onMouseOut={(e)=>{
+                e.currentTarget.className="movie-list";
+                e.currentTarget.previousElementSibling.className="movie-list";
+                e.currentTarget.nextElementSibling.className="movie-list";
+              }}
+            >
               <td className='movie-title-list'>
                 <Link to={`/movies/${movie.id}`}>
                   {movie.title}</Link>
@@ -93,9 +104,9 @@ export function DisplayList()
               <td>({movie.year || tmdbList.find(m=>m.id===movie.dbid)?.release_date?.slice(0,4)})</td>
               <td>[{movie.runtime_hm || tmdbList.find(m=>m.id===movie.dbid).runtime_hm}]</td>
               <td>({movie.watchdate || (movie.watched ? "watched": "")})</td>
-              <td>
-                {/* {<Trailer movie={movie} css={"movie-trailer-list"} />} */}
-              </td>
+              {/* <td>
+                {<Trailer movie={movie} css={"movie-trailer-list"} />}
+              </td> */}
             </tr>
           ))}
         </tbody>

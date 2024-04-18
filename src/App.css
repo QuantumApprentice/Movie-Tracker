@@ -1,6 +1,6 @@
-/* marfrenzzz */
+/* marfrenzzz css zeroing*/
 /* * {padding: 0, margin: 0, box-sizing: border-box} html {font-size: 10px, font-family: system-ui} body: {font-size: 1.4rem; color, vh100, flex;} h1,h2,h3,h4.h5: {font-weight: normal} ul[role='list'],ol[role='list'] {list-style: none} */
-/* Nirfse */
+/* Nirfse css zeroing*/
 /* body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, fieldset, form, input, textarea, p, textarea { padding: 0; margin: 0; } */
 
 #root {
@@ -28,20 +28,36 @@ then in the CSS something like
  */
 
 .movie-list {
-  display: flex;
-  flex-direction: column;
-  /* align-items: flex-start; */
+  transition: all .1s ease-in;
+}
+
+.table-stuff {
+  table-layout: fixed;
+  width: 1000px;
+}
+
+th:not(:first-child) {
+  width: 150px;
+}
+td:not(:first-child) {
+  text-align: right !important;
+}
+
+.movie-list-hover {
+  font-size: 1.8em;
+  background-color: rgb(30, 30, 30);
+  /* transition: all .1s ease-in; */
+}
+
+.movie-list-next {
+  font-size: 1.3em;
+  background-color: rgb(30, 30, 30);
+  transition: all .1s ease-in;
 }
 
 .movie-title-list {
   text-align: left;
-}
-
-/*text size for movie list*/
-th {
-  font-size: 1.2em;
-  font-style: italic;
-  text-decoration: underline;
+  /* width: 500px; */
 }
 
 .movie-list-sticky {
@@ -55,6 +71,9 @@ th {
   border-radius: 0;
   width: 100%;
   padding: 0.2em;
+  font-size: 1.5em;
+  font-style: italic;
+  text-decoration: underline;
 }
 
 .align-right {
@@ -77,13 +96,6 @@ th {
   width: 1em;
   color: yellow;
   /* mask: url(/src/assets/chevron.svg); */
-}
-
-
-
-td:not(:first-child) {
-  text-align: right !important;
-  
 }
 
 /*not used - should probably delete */
