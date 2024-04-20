@@ -44,6 +44,13 @@ export function DisplayList()
     });
   }
 
+  function format_date(date) {
+    let year = date?.slice(0,4);
+    let month = date?.slice(4,6);
+    console.log(month);
+    return date;
+  }
+
   return (
     <>
       <table className='table-stuff'>
@@ -103,10 +110,10 @@ export function DisplayList()
               </td>
               <td>({movie.year || tmdbList.find(m=>m.id===movie.dbid)?.release_date?.slice(0,4)})</td>
               <td>[{movie.runtime_hm || tmdbList.find(m=>m.id===movie.dbid).runtime_hm}]</td>
-              <td>({movie.watchdate || (movie.watched ? "watched": "")})</td>
-              {/* <td>
-                {<Trailer movie={movie} css={"movie-trailer-list"} />}
-              </td> */}
+              <td>({
+              format_date(movie.watchdate_arr?.[0]) || 
+              (movie.watched ? "watched": "")
+              })</td>
             </tr>
           ))}
         </tbody>
