@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useMemo } from 'react'
 import './App.css'
 import movieJson from './movieList.json'
 import tmdbList from './tmdbList.json'
@@ -25,6 +25,53 @@ export function DisplayList()
   let [movieList, setMovieList] = useState(movieJson);
   let [sortDir, setSortDir]     = useState("invisible");
   let [whichSort, setWhichSort] = useState("none");
+  let [buffer, setBuffer]       = useState(false);
+
+  let movieList_map = useMemo(
+    ()=>movieList.map((movie, idx)=>(
+        <tr  className='movie-list' key={idx}
+          onMouseOver={(e)=>{
+            e.currentTarget.className="movie-list-hover";
+            if (e.currentTarget.previousElementSibling) {
+              e.currentTarget.previousElementSibling.className="movie-list-next";
+            }
+            if (e.currentTarget.nextElementSibling) {
+              e.currentTarget.nextElementSibling.className="movie-list-next";
+            }
+          }}
+          onMouseOut={(e)=>{
+            e.currentTarget.className="movie-list";
+            if (e.currentTarget.previousElementSibling) {
+              e.currentTarget.previousElementSibling.className="movie-list";
+            }
+            if (e.currentTarget.nextElementSibling) {
+              e.currentTarget.nextElementSibling.className="movie-list";
+            }
+          }}
+        >
+          <td className='movie-title-list'>
+            <Link to={`/movies/${movie.id}`}>
+              {movie.title}</Link>
+          </td>
+          <td>({movie.year || tmdbList.find(m=>m.id===movie.dbid)?.release_date?.slice(0,4)})</td>
+          <td>[{movie.runtime_hm || tmdbList.find(m=>m.id===movie.dbid).runtime_hm}]</td>
+          <td>({
+          format_date(movie.watchdate_arr?.[0]) || 
+          (movie.watched ? "watched": "")
+          })</td>
+        </tr>
+      ))
+    , [movieList]
+  )
+
+
+
+
+
+
+
+
+
   // movieList = movieJson;
 
   // console.log(movieList);
@@ -47,9 +94,108 @@ export function DisplayList()
   function format_date(date) {
     let year = date?.slice(0,4);
     let month = date?.slice(4,6);
-    console.log(month);
+    // console.log(month);
     return date;
   }
+
+  useEffect(()=>{
+    let targetZoomedLineHeight = 48;
+    let standardLineHeight = 24;
+    let rowHeight = standardLineHeight + 2; //includes 2px cell spacing by default
+    //line height is 1.5 so font size = line height/1.5
+    let table = document.querySelector('.table-stuff');
+    let tbody = table.querySelector('tbody');
+    let adjustedRows = [];
+    let mouseY;
+
+    function animate() {
+      clearStyles();
+      let rect = tbody.getBoundingClientRect();
+      let deltaY = mouseY - rect.y;
+      let rowIndex = Math.floor(deltaY / rowHeight);
+      let ratioWithinRow = (deltaY - rowIndex*rowHeight)/rowHeight;
+      let row = tbody.children[rowIndex];
+
+      if (!row) return;
+
+      //push the excess rows from the center out
+      //instead of from the top down
+      if (rowIndex >= 2) {
+        tbody.style.transform = `translateY(-${targetZoomedLineHeight - standardLineHeight}px)`;
+        // tbody.style.paddingTop = `${targetZoomedLineHeight}px`;
+      } else if (rowIndex === 1) {
+        tbody.style.transform = `translateY(-${Math.floor((targetZoomedLineHeight - standardLineHeight)*ratioWithinRow)}px)`;
+      }
+
+
+      row.style.lineHeight = `${targetZoomedLineHeight}px`;
+      row.style.fontSize   = `${targetZoomedLineHeight/1.5}px`;
+      adjustedRows.push(row);
+
+      let nextRowLineHeight
+        = Math.floor(
+          standardLineHeight
+          + (targetZoomedLineHeight - standardLineHeight)*ratioWithinRow
+        );
+      let nextRow = row.nextElementSibling;
+      if (nextRow) {
+        nextRow.style.lineHeight = `${nextRowLineHeight}px`;
+        nextRow.style.fontSize   = `${nextRowLineHeight/1.5}px`;
+        adjustedRows.push(nextRow);
+      }
+
+      let prevRow = row.previousElementSibling;
+      let prevRowLineHeight
+        = standardLineHeight
+          + targetZoomedLineHeight
+          - nextRowLineHeight;
+      if (prevRow) {
+        prevRow.style.lineHeight = `${prevRowLineHeight}px`;
+        prevRow.style.fontSize   = `${prevRowLineHeight/1.5}px`;
+        adjustedRows.push(prevRow);
+      }
+
+
+
+    }
+    function clearStyles() {
+      for (let row of adjustedRows){
+        row.style.removeProperty('font-size');
+        row.style.removeProperty('line-height');
+      }
+      tbody.style.removeProperty('transform');
+      adjustedRows = [];
+    }
+
+    function handleMouseEvent(e) {
+      mouseY = e.clientY;
+      requestAnimationFrame(animate);
+    }
+    function handleEnter(e) {
+      setBuffer(true);
+      table.addEventListener('mousemove', handleMouseMove);
+      handleMouseEvent(e);
+    }
+    function handleLeave(e) {
+      setBuffer(false);
+      table.removeEventListener('mousemove', handleMouseMove);
+      clearStyles();
+    }
+    function handleMouseMove(e) {
+      handleMouseEvent(e);
+    }
+
+    table.addEventListener('mouseenter', handleEnter);
+    table.addEventListener('mouseleave', handleLeave)
+
+    return () => {
+      table.removeEventListener('mouseenter', handleEnter);
+      table.removeEventListener('mouseleave', handleLeave);
+      table.removeEventListener('mousemove', handleMouseMove);
+      cancelAnimationFrame(animate);
+      clearStyles();
+    }
+  }, []);
 
   return (
     <>
@@ -91,36 +237,114 @@ export function DisplayList()
           </tr>
         </thead>
         <tbody>
-          {movieList.map((movie, idx)=>(
-            <tr  className='movie-list' key={idx}
-              onMouseOver={(e)=>{
-                e.currentTarget.className="movie-list-hover";
-                e.currentTarget.previousElementSibling.className="movie-list-next";
-                e.currentTarget.nextElementSibling.className="movie-list-next";
-              }}
-              onMouseOut={(e)=>{
-                e.currentTarget.className="movie-list";
-                e.currentTarget.previousElementSibling.className="movie-list";
-                e.currentTarget.nextElementSibling.className="movie-list";
-              }}
-            >
-              <td className='movie-title-list'>
-                <Link to={`/movies/${movie.id}`}>
-                  {movie.title}</Link>
-              </td>
-              <td>({movie.year || tmdbList.find(m=>m.id===movie.dbid)?.release_date?.slice(0,4)})</td>
-              <td>[{movie.runtime_hm || tmdbList.find(m=>m.id===movie.dbid).runtime_hm}]</td>
-              <td>({
-              format_date(movie.watchdate_arr?.[0]) || 
-              (movie.watched ? "watched": "")
-              })</td>
-            </tr>
-          ))}
+          {buffer ? <tr><td colSpan={4}>&nbsp;</td></tr> : null}
+          {movieList_map}
         </tbody>
       </table>
     </>
   )
 }
+// export function DisplayList()
+// {
+//   let [movieList, setMovieList] = useState(movieJson);
+//   let [sortDir, setSortDir]     = useState("invisible");
+//   let [whichSort, setWhichSort] = useState("none");
+//   // movieList = movieJson;
+
+//   // console.log(movieList);
+//   // console.log(movieJson);
+
+//   function set_sort(sort_type) {
+//     setMovieList(()=>{
+//       return sort_type(sortDir === "sort_dn");
+//     });
+//     setSortDir((dir)=>{
+//       if (dir === "sort_dn") {
+//         dir = "sort_up";
+//       } else {
+//         dir = "sort_dn";
+//       }
+//       return dir;
+//     });
+//   }
+
+//   function format_date(date) {
+//     let year = date?.slice(0,4);
+//     let month = date?.slice(4,6);
+//     console.log(month);
+//     return date;
+//   }
+
+//   return (
+//     <>
+//       <table className='table-stuff'>
+//         <thead>
+//           <tr className='movie-list-sticky'>
+//             <th><button onClick={()=>{
+//                 set_sort(sort_title);
+//                 setWhichSort("title");
+//               }}>Title&nbsp;{
+//                 (whichSort === "title") ? <Chevron className={sortDir} /> : null
+//               }
+//               </button>
+//             </th>
+//             <th><button onClick={()=>{
+//                 set_sort(sort_release);
+//                 setWhichSort("year");
+//               }}>Release Year&nbsp;{
+//                 (whichSort === "year") ? <Chevron className={sortDir} /> : null
+//               }
+//               </button>
+//             </th>
+//             <th><button onClick={()=>{
+//                 set_sort(sort_runtime);
+//                 setWhichSort("runtime");
+//               }}>[Runtime]&nbsp;{
+//                 (whichSort === "runtime") ? <Chevron className={sortDir} /> : null
+//               }
+//               </button>
+//             </th>
+//             <th><button onClick={()=>{
+//                 set_sort(sort_watchdate);
+//                 setWhichSort("watchdate");
+//               }}>Watch Date&nbsp;{
+//                 (whichSort === "watchdate") ? <Chevron className={sortDir} /> : null
+//               }
+//               </button>
+//             </th>
+//           </tr>
+//         </thead>
+//         <tbody>
+//           {movieList.map((movie, idx)=>(
+//             <tr  className='movie-list' key={idx}
+//               onMouseOver={(e)=>{
+//                 e.currentTarget.className="movie-list-hover";
+//                 e.currentTarget.previousElementSibling.className="movie-list-next";
+//                 e.currentTarget.nextElementSibling.className="movie-list-next";
+//               }}
+//               onMouseOut={(e)=>{
+//                 e.currentTarget.className="movie-list";
+//                 e.currentTarget.previousElementSibling.className="movie-list";
+//                 e.currentTarget.nextElementSibling.className="movie-list";
+//               }}
+//             >
+//               <td className='movie-title-list'>
+//                 <Link to={`/movies/${movie.id}`}>
+//                   {movie.title}</Link>
+//               </td>
+//               <td>({movie.year || tmdbList.find(m=>m.id===movie.dbid)?.release_date?.slice(0,4)})</td>
+//               <td>[{movie.runtime_hm || tmdbList.find(m=>m.id===movie.dbid).runtime_hm}]</td>
+//               <td>({
+//               format_date(movie.watchdate_arr?.[0]) || 
+//               (movie.watched ? "watched": "")
+//               })</td>
+//             </tr>
+//           ))}
+//         </tbody>
+//       </table>
+//     </>
+//   )
+// }
 
 function compare_strings(a, b) {
   let compare;
