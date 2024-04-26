@@ -99,7 +99,7 @@ export function DisplayList()
   }
 
   useEffect(()=>{
-    let targetZoomedLineHeight = 48;
+    let targetZoomedLineHeight = 36;
     let standardLineHeight = 24;
     let rowHeight = standardLineHeight + 2; //includes 2px cell spacing by default
     //line height is 1.5 so font size = line height/1.5
@@ -114,46 +114,219 @@ export function DisplayList()
       let deltaY = mouseY - rect.y;
       let rowIndex = Math.floor(deltaY / rowHeight);
       let ratioWithinRow = (deltaY - rowIndex*rowHeight)/rowHeight;
+      let ratioWithinRowInv = 1-ratioWithinRow;
       let row = tbody.children[rowIndex];
+
+      let minLineHeight = 14;
+
+      let grow_size   = targetZoomedLineHeight - standardLineHeight;
+      let shrink_size = standardLineHeight - minLineHeight;
+
+      // console.log("regular: ", ratioWithinRow);
+      // console.log("inverted: ", ratioWithinRowInv);
 
       if (!row) return;
 
-      //push the excess rows from the center out
-      //instead of from the top down
-      if (rowIndex >= 2) {
-        tbody.style.transform = `translateY(-${targetZoomedLineHeight - standardLineHeight}px)`;
-        // tbody.style.paddingTop = `${targetZoomedLineHeight}px`;
-      } else if (rowIndex === 1) {
-        tbody.style.transform = `translateY(-${Math.floor((targetZoomedLineHeight - standardLineHeight)*ratioWithinRow)}px)`;
-      }
+      // //push the excess rows from the center out
+      // //instead of from the top down
+      // if (rowIndex >= 2) {
+      //   tbody.style.transform = `translateY(-${targetZoomedLineHeight - standardLineHeight}px)`;
+      //   // tbody.style.paddingTop = `${targetZoomedLineHeight}px`;
+      // } else if (rowIndex === 1) {
+      //   tbody.style.transform = `translateY(-${Math.floor((targetZoomedLineHeight - standardLineHeight)*ratioWithinRow)}px)`;
+      // }
 
 
-      row.style.lineHeight = `${targetZoomedLineHeight}px`;
+      // row.style.lineHeight = `${targetZoomedLineHeight}px`;
+      row.style.lineHeight = `${standardLineHeight}px`;
       row.style.fontSize   = `${targetZoomedLineHeight/1.5}px`;
       adjustedRows.push(row);
 
+
+    //this version sets the prevRow first
+    //instead of the nextRow first
+      let prevRowLineHeight
+        = standardLineHeight/2
+          + grow_size * ratioWithinRowInv
+          + standardLineHeight * ratioWithinRowInv/2
+      let prevRow = row.previousElementSibling;
+      if (prevRow) {
+        // prevRow.style.lineHeight = `${prevRowLineHeight}px`;
+        prevRow.style.lineHeight = `${standardLineHeight}px`;
+        prevRow.style.fontSize   = `${prevRowLineHeight/1.5}px`;
+        adjustedRows.push(prevRow);
+      }
+
+console.log(prevRowLineHeight);
+
       let nextRowLineHeight
-        = Math.floor(
-          standardLineHeight
-          + (targetZoomedLineHeight - standardLineHeight)*ratioWithinRow
-        );
+        = standardLineHeight/2
+          + grow_size * ratioWithinRow
+          + standardLineHeight * ratioWithinRow/2
       let nextRow = row.nextElementSibling;
       if (nextRow) {
-        nextRow.style.lineHeight = `${nextRowLineHeight}px`;
+        // nextRow.style.lineHeight = `${nextRowLineHeight}px`;
+        nextRow.style.lineHeight = `${standardLineHeight}px`;
         nextRow.style.fontSize   = `${nextRowLineHeight/1.5}px`;
         adjustedRows.push(nextRow);
       }
 
-      let prevRow = row.previousElementSibling;
-      let prevRowLineHeight
+
+
+      let prevRow2 = prevRow.previousElementSibling;
+      let prevRow2LineHeight
         = standardLineHeight
-          + targetZoomedLineHeight
-          - nextRowLineHeight;
-      if (prevRow) {
-        prevRow.style.lineHeight = `${prevRowLineHeight}px`;
-        prevRow.style.fontSize   = `${prevRowLineHeight/1.5}px`;
-        adjustedRows.push(prevRow);
+          - grow_size * ratioWithinRowInv;
+// console.log(grow_size * ratioWithInRowInv);
+      if (prevRow2) {
+        // prevRow2.style.lineHeight = `${prevRow2LineHeight}px`;
+        prevRow2.style.lineHeight = `${standardLineHeight}px`;
+        prevRow2.style.fontSize   = `${prevRow2LineHeight/1.5}px`;
+        adjustedRows.push(prevRow2);
       }
+
+// console.log(prevRow2LineHeight);
+
+      let nextRow2LineHeight
+        = standardLineHeight
+          - grow_size * ratioWithinRow;
+// console.log(nextRow2LineHeight);
+      let nextRow2 = nextRow.nextElementSibling;
+      if (nextRow2) {
+        // nextRow2.style.lineHeight = `${nextRow2LineHeight}px`;
+        nextRow2.style.lineHeight = `${standardLineHeight}px`;
+        nextRow2.style.fontSize   = `${nextRow2LineHeight/1.5}px`;
+        adjustedRows.push(nextRow2);
+      }
+
+
+      // let prevRow3LineHeight
+      //   = standardLineHeight/4
+      //     - grow_size * ratioWithinRowInv/4
+
+      // let prevRow3 = prevRow2.previousElementSibling;
+      // if (prevRow3) {
+      //   prevRow3.style.lineHeight = `${prevRow3LineHeight}px`;
+      //   prevRow3.style.fontSize   = `${prevRow3LineHeight/1.5}px`;
+      //   adjustedRows.push(prevRow3);
+      // }
+
+
+
+      // let prevRow4LineHeight
+      //   = standardLineHeight
+      //     - grow_size * ratioWithinRowInv/2
+
+      // let prevRow4 = prevRow3.previousElementSibling;
+      // if (prevRow4) {
+      //   prevRow4.style.lineHeight = `${prevRow4LineHeight}px`;
+      //   prevRow4.style.fontSize   = `${prevRow4LineHeight/1.5}px`;
+      //   adjustedRows.push(prevRow4);
+      // }
+
+
+
+
+
+
+
+
+
+
+      // let nextRowLineHeight
+      //   = Math.floor(
+      //     standardLineHeight
+      //     + (targetZoomedLineHeight - standardLineHeight)*ratioWithinRow
+      //     // - (standardLineHeight - minLineHeight)*(ratioWithinRow)
+      //   );
+      // let nextRow = row.nextElementSibling;
+      // if (nextRow) {
+      //   nextRow.style.lineHeight = `${nextRowLineHeight}px`;
+      //   nextRow.style.fontSize   = `${nextRowLineHeight/1.5}px`;
+      //   adjustedRows.push(nextRow);
+      // }
+
+
+      // let prevRowLineHeight
+      //   = standardLineHeight
+      //     + targetZoomedLineHeight
+      //     - nextRowLineHeight;
+      //     // - minLineHeight
+      // let prevRow = row.previousElementSibling;
+      // if (prevRow) {
+      //   prevRow.style.lineHeight = `${prevRowLineHeight}px`;
+      //   prevRow.style.fontSize   = `${prevRowLineHeight/1.5}px`;
+      //   adjustedRows.push(prevRow);
+      // }
+
+
+
+//       let nextRow2LineHeight
+//         = Math.floor(
+//           standardLineHeight
+//           // - (targetZoomedLineHeight - standardLineHeight)*ratioWithinRow
+//           - (standardLineHeight - minLineHeight)*ratioWithinRow
+//         );
+// console.log(nextRow2LineHeight);
+//       if (nextRow2LineHeight < minLineHeight) {
+//         nextRow2LineHeight = minLineHeight;
+//       }
+//       let nextRow2 = nextRow.nextElementSibling;
+//       if (nextRow2) {
+//         nextRow2.style.lineHeight = `${nextRow2LineHeight}px`;
+//         nextRow2.style.fontSize   = `${nextRow2LineHeight/1.5}px`;
+//         adjustedRows.push(nextRow2);
+//       }
+
+
+      // let prevRow2 = prevRow.previousElementSibling;
+      // let prevRow2LineHeight
+      //   = standardLineHeight
+      //     // - nextRow2LineHeight
+      //     + minLineHeight;
+
+// // console.log(prevRow2LineHeight);
+      // if (prevRow2LineHeight < minLineHeight) {
+      //   prevRow2LineHeight = minLineHeight;
+      // }
+      // if (prevRow2) {
+      //   prevRow2.style.lineHeight = `${prevRow2LineHeight}px`;
+      //   // prevRow2.style.fontSize   = `${prevRow2LineHeight/1.5}px`;
+      //   adjustedRows.push(prevRow2);
+      // }
+
+
+
+      // let nextRow3LineHeight
+      //   = Math.floor(
+      //     standardLineHeight
+      //     // - (targetZoomedLineHeight - standardLineHeight)*ratioWithinRow
+      //     - (standardLineHeight - minLineHeight)*ratioWithinRow
+      //   );
+      // if (nextRow3LineHeight < minLineHeight) {
+      //   nextRow3LineHeight = minLineHeight;
+      // }
+      // let nextRow3 = nextRow2.nextElementSibling;
+      // if (nextRow3) {
+      //   nextRow3.style.lineHeight = `${nextRow3LineHeight}px`;
+      //   // nextRow2.style.fontSize   = `${nextRow2LineHeight/1.5}px`;
+      //   adjustedRows.push(nextRow3);
+      // }
+
+
+      // let prevRow3 = prevRow2.previousElementSibling;
+      // let prevRow3LineHeight
+      //   = standardLineHeight
+      //     - nextRow3LineHeight
+      //     + minLineHeight;
+      // if (prevRow3LineHeight < minLineHeight) {
+      //   prevRow3LineHeight = minLineHeight;
+      // }
+      // if (prevRow3) {
+      //   prevRow3.style.lineHeight = `${prevRow3LineHeight}px`;
+      //   // prevRow2.style.fontSize   = `${prevRow2LineHeight/1.5}px`;
+      //   adjustedRows.push(prevRow3);
+      // }
 
 
 
@@ -237,13 +410,15 @@ export function DisplayList()
           </tr>
         </thead>
         <tbody>
-          {buffer ? <tr><td colSpan={4}>&nbsp;</td></tr> : null}
+          {/* {buffer ? <tr><td colSpan={4}>&nbsp;</td></tr> : null} */}
           {movieList_map}
         </tbody>
       </table>
     </>
   )
 }
+
+
 // export function DisplayList()
 // {
 //   let [movieList, setMovieList] = useState(movieJson);
