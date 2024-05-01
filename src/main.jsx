@@ -8,7 +8,7 @@ import ErrorPage from './ErrorPage.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route  path="/"
+    <Route  path="/Movie-Tracker"
             element={<App />}
             errorElement={<ErrorPage />}
     >
@@ -17,7 +17,7 @@ const router = createBrowserRouter(
         <Route path="/movies/:movieId"
               element={<DisplayMoviePage />}
         />
-        <Route path="/"
+        <Route path="/Movie-Tracker"
               element={<DisplayList />}
         />
 
