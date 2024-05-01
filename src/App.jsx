@@ -834,7 +834,7 @@ function YTlink({type, url})
           return (
             <iframe
               key={name}
-              src={`http://www.youtube.com/embed/${name}`}
+              src={`https://www.youtube.com/embed/${name}`}
               title="YouTube video player"
               allowFullScreen>
             </iframe>
