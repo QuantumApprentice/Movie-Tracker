@@ -14,7 +14,7 @@ const router = createBrowserRouter(
     >
       <Route errorElement={<ErrorPage />}>
 
-        <Route path="/movies/:movieId"
+        <Route path="/Movie-Tracker/movies/:movieId"
               element={<DisplayMoviePage />}
         />
         <Route path="/Movie-Tracker/"
