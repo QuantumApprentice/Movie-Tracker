@@ -176,7 +176,7 @@ console.log(prevRowLineHeight);
       let prevRow2 = prevRow.previousElementSibling;
       let prevRow2LineHeight
         = standardLineHeight
-          - grow_size * ratioWithinRowInv;
+          - grow_size;
 // console.log(grow_size * ratioWithInRowInv);
       if (prevRow2) {
         // prevRow2.style.lineHeight = `${prevRow2LineHeight}px`;
@@ -189,7 +189,7 @@ console.log(prevRowLineHeight);
 
       let nextRow2LineHeight
         = standardLineHeight
-          - grow_size * ratioWithinRow;
+          - grow_size;
 // console.log(nextRow2LineHeight);
       let nextRow2 = nextRow.nextElementSibling;
       if (nextRow2) {
@@ -200,16 +200,25 @@ console.log(prevRowLineHeight);
       }
 
 
-      // let prevRow3LineHeight
-      //   = standardLineHeight/4
-      //     - grow_size * ratioWithinRowInv/4
+      let prevRow3LineHeight
+        = standardLineHeight
+          - grow_size * ratioWithinRowInv;
+      let prevRow3 = prevRow2.previousElementSibling;
+      if (prevRow3) {
+        prevRow3.style.lineHeight = `${standardLineHeight}px`;
+        prevRow3.style.fontSize   = `${prevRow3LineHeight/1.5}px`;
+        adjustedRows.push(prevRow3);
+      }
 
-      // let prevRow3 = prevRow2.previousElementSibling;
-      // if (prevRow3) {
-      //   prevRow3.style.lineHeight = `${prevRow3LineHeight}px`;
-      //   prevRow3.style.fontSize   = `${prevRow3LineHeight/1.5}px`;
-      //   adjustedRows.push(prevRow3);
-      // }
+      let nextRow3LineHeight
+        = standardLineHeight
+          - grow_size * ratioWithinRow;
+      let nextRow3 = nextRow2.nextElementSibling;
+      if (nextRow3) {
+        nextRow3.style.lineHeight = `${standardLineHeight}px`;
+        nextRow3.style.fontSize   = `${nextRow3LineHeight/1.5}px`;
+        adjustedRows.push(nextRow3);
+      }
 
 
 
@@ -223,14 +232,6 @@ console.log(prevRowLineHeight);
       //   prevRow4.style.fontSize   = `${prevRow4LineHeight/1.5}px`;
       //   adjustedRows.push(prevRow4);
       // }
-
-
-
-
-
-
-
-
 
 
       // let nextRowLineHeight
@@ -297,21 +298,7 @@ console.log(prevRowLineHeight);
 
 
 
-      // let nextRow3LineHeight
-      //   = Math.floor(
-      //     standardLineHeight
-      //     // - (targetZoomedLineHeight - standardLineHeight)*ratioWithinRow
-      //     - (standardLineHeight - minLineHeight)*ratioWithinRow
-      //   );
-      // if (nextRow3LineHeight < minLineHeight) {
-      //   nextRow3LineHeight = minLineHeight;
-      // }
-      // let nextRow3 = nextRow2.nextElementSibling;
-      // if (nextRow3) {
-      //   nextRow3.style.lineHeight = `${nextRow3LineHeight}px`;
-      //   // nextRow2.style.fontSize   = `${nextRow2LineHeight/1.5}px`;
-      //   adjustedRows.push(nextRow3);
-      // }
+
 
 
       // let prevRow3 = prevRow2.previousElementSibling;
