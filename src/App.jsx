@@ -50,7 +50,7 @@ export function DisplayList()
           }}
         >
           <td className='movie-title-list'>
-            <Link to={`/movies/${movie.id}`}>
+            <Link to={`/Movie-Tracker/movies/${movie.id}`}>
               {movie.title}</Link>
           </td>
           <td>({movie.year || tmdbList.find(m=>m.id===movie.dbid)?.release_date?.slice(0,4)})</td>
@@ -652,7 +652,7 @@ export function DisplayMovie({movie, idx, tmdb})
 
   return (
     <>
-      <Link to={`/movies/${moviePrev.id}`} className='arrow prev-btn'></Link>
+      <Link to={`/Movie-Tracker/movies/${moviePrev.id}`} className='arrow prev-btn'></Link>
       <div className='movie-display'
           style={{"--data-backdrop-url": `url(${src})`}}
           onError={()=>{
@@ -667,7 +667,7 @@ export function DisplayMovie({movie, idx, tmdb})
           <Credits movie={movie} idx={idx} tmdb={tmdb}  />
         </div>
       </div>
-      <Link to={`/movies/${movieNext.id}`} className='arrow next-btn'> </Link>
+      <Link to={`/Movie-Tracker/movies/${movieNext.id}`} className='arrow next-btn'> </Link>
     </>
   )
 }
