@@ -772,7 +772,7 @@ function MovieTitle({movie, tmdb})
   return (
     <div className='movie-top-bar'>
       <div>
-        <Link to={"/"} className='to-list'>
+        <Link to={"/Movie-Tracker/"} className='to-list'>
           Back to list
         </Link>
         <div className='movie-rating'>
