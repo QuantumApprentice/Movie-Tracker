@@ -29,7 +29,18 @@ then in the CSS something like
 
 .movie-list {
   /* transition: all .1s ease-in; */
+  /* background: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 1.0)),
+    var(--data-backdrop-url); */
+  background-color: #05203B;
 }
+
+.movie-list:nth-child(even) {
+  background-color: #05053B;
+}
+
+
 
 
 .table-stuff {
@@ -70,6 +81,10 @@ td:first-child {
   position: unset;
   transform-origin: unset;
   background-color: rgb(30, 30, 30);
+  /* background: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 1.0)),
+    var(--data-backdrop-url); */
 }
 
 /* .movie-list-hover {
@@ -94,6 +109,10 @@ td:first-child {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
+  /* background: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 1.0)),
+    var(--data-backdrop-url); */
 
   /* transition-property: transform;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);

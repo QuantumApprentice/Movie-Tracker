@@ -6,6 +6,7 @@ import { Link, Outlet, useParams } from 'react-router-dom';
 import Chevron from './assets/chevron.svg?react'
 
 const token = import.meta.env.VITE_TMDB_TOKEN;
+let failedImages = new Set();
 
 export default function App()
 {
@@ -19,17 +20,42 @@ export default function App()
   )
 }
 
-/**displays list of movies to click on */
+/*displays list of movies to click on */
 export function DisplayList()
 {
   let [movieList, setMovieList] = useState(movieJson);
   let [sortDir, setSortDir]     = useState("invisible");
   let [whichSort, setWhichSort] = useState("none");
   let [buffer, setBuffer]       = useState(false);
+  // let [err, setErr] = useState(failedImages.has(tmdbList?.find(m=>m.id === currentMovie.dbid)));
+
+  // let tmdb    = tmdbList?.find(m=>m.id === currentMovie.dbid);
+  // let src = err ? `https://image.tmdb.org/t/p/w1280/${tmdb?.backdrop_path}`
+  //           : `/bg/${tmdb.bg}`;
+
 
   let movieList_map = useMemo(
     ()=>movieList.map((movie, idx)=>(
+      // let tmdb    = tmdbList?.find(m=>m.id === movie.dbid);
+      // let src = err ? `https://image.tmdb.org/t/p/w1280/${tmdb?.backdrop_path}`
+      // : `/bg/${tmdb.bg}`;
+
+
+
+
         <tr  className='movie-list' key={idx}
+          style={
+            {"--data-backdrop-url": `url(${
+
+              // err ? 
+              // `https://image.tmdb.org/t/p/w1280/${tmdbList?.find(m=>m.id === movie.dbid)?.poster_path}`
+                  `/Movie-Tracker/bg/${tmdbList?.find(m=>m.id === movie.dbid).bg}`
+
+              // err ? `https://image.tmdb.org/t/p/w1280/${movie.id?.backdrop_path}`
+              //   : `/bg/${movie.id?.bg}`
+              // src
+            })`}
+          }
           onMouseOver={(e)=>{
             e.currentTarget.className="movie-list-hover";
             if (e.currentTarget.previousElementSibling) {
@@ -50,8 +76,13 @@ export function DisplayList()
           }}
         >
           <td className='movie-title-list'>
-            <Link to={`/Movie-Tracker/movies/${movie.id}`}>
-              {movie.title}</Link>
+            <Link to={`/Movie-Tracker/movies/${movie.id}`}
+
+                  // onError={()=>{
+                  //   failedImages.add(tmdb.bg);
+                  //   setErr(true);
+                  //   }}
+            >{movie.title}</Link>
           </td>
           <td>({movie.year || tmdbList.find(m=>m.id===movie.dbid)?.release_date?.slice(0,4)})</td>
           <td>[{movie.runtime_hm || tmdbList.find(m=>m.id===movie.dbid).runtime_hm}]</td>
@@ -63,14 +94,6 @@ export function DisplayList()
       ))
     , [movieList]
   )
-
-
-
-
-
-
-
-
 
   // movieList = movieJson;
 
@@ -127,14 +150,6 @@ export function DisplayList()
 
       if (!row) return;
 
-      // //push the excess rows from the center out
-      // //instead of from the top down
-      // if (rowIndex >= 2) {
-      //   tbody.style.transform = `translateY(-${targetZoomedLineHeight - standardLineHeight}px)`;
-      //   // tbody.style.paddingTop = `${targetZoomedLineHeight}px`;
-      // } else if (rowIndex === 1) {
-      //   tbody.style.transform = `translateY(-${Math.floor((targetZoomedLineHeight - standardLineHeight)*ratioWithinRow)}px)`;
-      // }
 
 
       // row.style.lineHeight = `${targetZoomedLineHeight}px`;
@@ -171,8 +186,6 @@ export function DisplayList()
         adjustedRows.push(nextRow);
       }
 
-
-
       let prevRow2 = prevRow.previousElementSibling;
       let prevRow2LineHeight
         = standardLineHeight
@@ -199,7 +212,6 @@ export function DisplayList()
         adjustedRows.push(nextRow2);
       }
 
-
       let prevRow3LineHeight
         = standardLineHeight
           - grow_size * ratioWithinRowInv;
@@ -221,18 +233,23 @@ export function DisplayList()
       }
 
 
-
-      // let prevRow4LineHeight
-      //   = standardLineHeight
-      //     - grow_size * ratioWithinRowInv/2
-
-      // let prevRow4 = prevRow3.previousElementSibling;
-      // if (prevRow4) {
-      //   prevRow4.style.lineHeight = `${prevRow4LineHeight}px`;
-      //   prevRow4.style.fontSize   = `${prevRow4LineHeight/1.5}px`;
-      //   adjustedRows.push(prevRow4);
+//this old code was used to change the font _&_ the line size
+//at the same time, which caused wacky dom movement,
+//and I couldn't figure out how to adjust the movement
+//to prevent the dom links from moving around
+//(turns out I was making the main hovered link larger than
+// shrinking any single other link could make-up the excess
+// movement)
+//So I removed the code that changed the line size
+//and just changed the font size to grow/shrink
+      // //push the excess rows from the center out
+      // //instead of from the top down
+      // if (rowIndex >= 2) {
+      //   tbody.style.transform = `translateY(-${targetZoomedLineHeight - standardLineHeight}px)`;
+      //   // tbody.style.paddingTop = `${targetZoomedLineHeight}px`;
+      // } else if (rowIndex === 1) {
+      //   tbody.style.transform = `translateY(-${Math.floor((targetZoomedLineHeight - standardLineHeight)*ratioWithinRow)}px)`;
       // }
-
 
       // let nextRowLineHeight
       //   = Math.floor(
@@ -246,8 +263,6 @@ export function DisplayList()
       //   nextRow.style.fontSize   = `${nextRowLineHeight/1.5}px`;
       //   adjustedRows.push(nextRow);
       // }
-
-
       // let prevRowLineHeight
       //   = standardLineHeight
       //     + targetZoomedLineHeight
@@ -259,63 +274,6 @@ export function DisplayList()
       //   prevRow.style.fontSize   = `${prevRowLineHeight/1.5}px`;
       //   adjustedRows.push(prevRow);
       // }
-
-
-
-//       let nextRow2LineHeight
-//         = Math.floor(
-//           standardLineHeight
-//           // - (targetZoomedLineHeight - standardLineHeight)*ratioWithinRow
-//           - (standardLineHeight - minLineHeight)*ratioWithinRow
-//         );
-// console.log(nextRow2LineHeight);
-//       if (nextRow2LineHeight < minLineHeight) {
-//         nextRow2LineHeight = minLineHeight;
-//       }
-//       let nextRow2 = nextRow.nextElementSibling;
-//       if (nextRow2) {
-//         nextRow2.style.lineHeight = `${nextRow2LineHeight}px`;
-//         nextRow2.style.fontSize   = `${nextRow2LineHeight/1.5}px`;
-//         adjustedRows.push(nextRow2);
-//       }
-
-
-      // let prevRow2 = prevRow.previousElementSibling;
-      // let prevRow2LineHeight
-      //   = standardLineHeight
-      //     // - nextRow2LineHeight
-      //     + minLineHeight;
-
-// // console.log(prevRow2LineHeight);
-      // if (prevRow2LineHeight < minLineHeight) {
-      //   prevRow2LineHeight = minLineHeight;
-      // }
-      // if (prevRow2) {
-      //   prevRow2.style.lineHeight = `${prevRow2LineHeight}px`;
-      //   // prevRow2.style.fontSize   = `${prevRow2LineHeight/1.5}px`;
-      //   adjustedRows.push(prevRow2);
-      // }
-
-
-
-
-
-
-      // let prevRow3 = prevRow2.previousElementSibling;
-      // let prevRow3LineHeight
-      //   = standardLineHeight
-      //     - nextRow3LineHeight
-      //     + minLineHeight;
-      // if (prevRow3LineHeight < minLineHeight) {
-      //   prevRow3LineHeight = minLineHeight;
-      // }
-      // if (prevRow3) {
-      //   prevRow3.style.lineHeight = `${prevRow3LineHeight}px`;
-      //   // prevRow2.style.fontSize   = `${prevRow2LineHeight/1.5}px`;
-      //   adjustedRows.push(prevRow3);
-      // }
-
-
 
     }
     function clearStyles() {
@@ -405,17 +363,19 @@ export function DisplayList()
   )
 }
 
-
+//TODO: DELETE
+//This old code used CSS to change the font sizes
+//for the movie list depending on where the mouse
+//was hovering ---- replaced by what is currently
+//running above
 // export function DisplayList()
 // {
 //   let [movieList, setMovieList] = useState(movieJson);
 //   let [sortDir, setSortDir]     = useState("invisible");
 //   let [whichSort, setWhichSort] = useState("none");
 //   // movieList = movieJson;
-
 //   // console.log(movieList);
 //   // console.log(movieJson);
-
 //   function set_sort(sort_type) {
 //     setMovieList(()=>{
 //       return sort_type(sortDir === "sort_dn");
@@ -429,14 +389,12 @@ export function DisplayList()
 //       return dir;
 //     });
 //   }
-
 //   function format_date(date) {
 //     let year = date?.slice(0,4);
 //     let month = date?.slice(4,6);
 //     console.log(month);
 //     return date;
 //   }
-
 //   return (
 //     <>
 //       <table className='table-stuff'>
@@ -632,7 +590,6 @@ export function DisplayMoviePage()
   )
 }
 
-let failedImages = new Set();
 
 export function DisplayMovie({movie, idx, tmdb})
 {
@@ -656,7 +613,8 @@ export function DisplayMovie({movie, idx, tmdb})
       <div className='movie-display'
           style={{"--data-backdrop-url": `url(${src})`}}
           onError={()=>{
-            failedImages.add(tmdb.bg);setErr(true);
+            failedImages.add(tmdb.bg);
+            setErr(true);
             }
           }>
 
@@ -672,6 +630,7 @@ export function DisplayMovie({movie, idx, tmdb})
   )
 }
 
+//TODO: DELETE
 //temporary function to get the details of one item
 //used to test tmdb access without doing a complete pull
 async function get_details(movie, type)
