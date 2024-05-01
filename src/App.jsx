@@ -157,7 +157,7 @@ export function DisplayList()
         adjustedRows.push(prevRow);
       }
 
-console.log(prevRowLineHeight);
+// console.log(prevRowLineHeight);
 
       let nextRowLineHeight
         = standardLineHeight/2
