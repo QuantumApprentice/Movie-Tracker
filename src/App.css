@@ -29,10 +29,10 @@ then in the CSS something like
 
 .movie-list {
   /* transition: all .1s ease-in; */
-  /* background: linear-gradient(
-    rgba(0, 0, 0, 0.5),
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.3),
     rgba(0, 0, 0, 1.0)),
-    var(--data-backdrop-url); */
+    var(--data-backdrop-url);
   background-color: #05203B;
 }
 
@@ -60,7 +60,6 @@ then in the CSS something like
   margin-top: -2px;
 
 
-
 }
 
 th:not(:first-child) {
@@ -73,6 +72,19 @@ td:not(:first-child) {
 }
 td:first-child {
   width: 450px;
+  /* line-height: 32px; */
+
+  /* background-color: rgb(121, 154, 253);
+  background-image: linear-gradient(
+    rgba(121, 154, 253, 1.0),
+    rgba(121, 154, 253, 0.8)
+  );
+  background-size: 100%;
+  background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent; */
+
 }
 
 .movie-list-hover, .movie-list-next {
@@ -80,11 +92,11 @@ td:first-child {
   line-height: unset;
   position: unset;
   transform-origin: unset;
-  background-color: rgb(30, 30, 30);
-  /* background: linear-gradient(
+  /* background-color: rgb(30, 30, 30); */
+  background: linear-gradient(
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 1.0)),
-    var(--data-backdrop-url); */
+    var(--data-backdrop-url);
 }
 
 /* .movie-list-hover {
@@ -158,6 +170,15 @@ td:first-child {
   color: yellow;
   /* mask: url(/src/assets/chevron.svg); */
 }
+
+
+
+
+
+
+
+
+
 
 /*contains movie-title, movie-info, movie-trailer */
 .movie-display {

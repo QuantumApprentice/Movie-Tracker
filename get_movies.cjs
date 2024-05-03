@@ -9,6 +9,10 @@ const text = fs.readFileSync('./src/Movie Night.txt', 'utf8');
 const temp = fs.readFileSync('./src/tmdbList.json', 'utf8');
 const finalJson = JSON.parse(temp);
 
+const blurhash = require('blurhash');
+// console.log('blurhash?: ', blurhash);
+const jpeg_js = require('jpeg-js');
+
 require('dotenv').config({path: ['.env.local']});
 const token = process.env.VITE_TMDB_TOKEN;
 // const acct_id = process.env.VITE_TMDB_ACCTID;
@@ -475,7 +479,7 @@ async function get_background(id, backdrop_path)
     }
 
     console.log(`\n\n${id} bg doesn't exist...fetching...`);
-    let url = new URL(`https://image.tmdb.org/t/p/w1280/${backdrop_path}`)
+    let url = new URL(`https://image.tmdb.org/t/p/w1280/${backdrop_path}`);
     let bg_raw = await fetch_wError(url.toString(), get_options);
 
     //using node.js 'node:stream' stream.Writable.toWeb()
@@ -528,6 +532,9 @@ async function get_poster(id, poster_path)
 
     fs.writeFileSync(`public/pstr/${id}.${ext}`, pstr_buff);
 
+
+
+
     return `${id}.${ext}`;
 
   } catch (error) {
@@ -552,6 +559,7 @@ async function build_tmdb_json2()
   // console.log(movieJson);
   fs.mkdirSync("public/bg/",   { recursive: true });
   fs.mkdirSync("public/pstr/", { recursive: true });
+  fs.mkdirSync("public/strip/", { recursive: true });
 
   let db_json = [];
 
@@ -567,6 +575,50 @@ async function build_tmdb_json2()
       let movie_ratings       = await get_movie_ratings(movie.dbid);
       let movie_bg_filename   = await get_background(movie.id, entry.results[0].backdrop_path);
       let movie_pstr_filename = await get_poster(movie.id, entry.results[0].poster_path);
+
+      let movie_bg_blurhash;
+      if (fs.existsSync(`public/bg/${movie_bg_filename}`)) {
+        try {
+          console.log("cropping ", movie_bg_filename);
+            let jpeg_body = fs.readFileSync(`public/bg/${movie_bg_filename}`);
+            let pixels = jpeg_js.decode(jpeg_body);
+
+            let crop_buffer = pixels.data.subarray(0, pixels.width*64*4);
+
+            let lines=[];
+            // let index;
+            let size = pixels.width*4;
+            for (let line = 0; line < 64; line+=2) {
+              
+              let line_data = crop_buffer.subarray(
+                                line*pixels.width*4,
+                                line*pixels.width*4 + size
+                              );
+              lines.push(line_data);
+            }
+
+
+            let rawImageData = {
+              data: Buffer.concat(lines),
+              // data: crop_buffer,
+              width: pixels.width,
+              height: 30,
+            };
+
+            let output_image = jpeg_js.encode(rawImageData, 50);
+            fs.writeFileSync(`public/strip/${movie_bg_filename}`, output_image.data);
+
+
+            // movie_bg_blurhash = blurhash.encode(crop, 1280, 30, 8,3);
+
+            // console.log(movie_bg_blurhash, `: ${movie_bg_filename}`);
+          } catch (error) {
+          console.log(`${movie_bg_filename} : `, error);
+        }
+      }
+
+
+
       get_runtime(movie_details_json);
       get_watch_date(movie.watchdate);
 
@@ -581,6 +633,7 @@ async function build_tmdb_json2()
         ratings:    movie_ratings,
         poster:     movie_pstr_filename,
         bg:         movie_bg_filename,
+        blurhash:   movie_bg_blurhash,
         found: true
       };
     } else {

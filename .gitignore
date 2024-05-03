@@ -25,3 +25,6 @@ dist-ssr
 /public/bg/
 /public/pstr/
 /public/pstr_large/
+/public/strip=50/
+/public/strip=100/
+blurhash-js-master.zip

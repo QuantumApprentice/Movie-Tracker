@@ -5,6 +5,10 @@ import tmdbList from './tmdbList.json'
 import { Link, Outlet, useParams } from 'react-router-dom';
 import Chevron from './assets/chevron.svg?react'
 
+
+
+import { decode } from 'blurhash';
+
 const token = import.meta.env.VITE_TMDB_TOKEN;
 let failedImages = new Set();
 
@@ -32,28 +36,44 @@ export function DisplayList()
   // let tmdb    = tmdbList?.find(m=>m.id === currentMovie.dbid);
   // let src = err ? `https://image.tmdb.org/t/p/w1280/${tmdb?.backdrop_path}`
   //           : `/bg/${tmdb.bg}`;
-
+  // let trStyle = {}; 
+  // let blurhash = tmdbList?.find(...);
+  // if (blurhash) {
+  //   let pixels = ...;
+  //   ...;
+  //   trStyle['--data-backdrop-url'] = `url(...)`;
+  // } ... style={trStyle}
 
   let movieList_map = useMemo(
-    ()=>movieList.map((movie, idx)=>(
+    ()=>movieList.map((movie, idx)=>{
+
+      let trStyle = {};
+    //   const blurhash = tmdbList?.find(m=>m.id === movie.dbid).blurhash;
+    //   if (blurhash && idx < 200) {
+    //     let pixels = decode(blurhash, 1280, 30, 8,3);
+    //     const canvas = document.createElement("canvas");
+    //     canvas.width  = 1280;
+    //     canvas.height = 30;
+    //     const ctx = canvas.getContext("2d");
+    //     const imageData = ctx.createImageData(1280, 30);
+    //     imageData.data.set(pixels);
+    //     ctx.putImageData(imageData, 0, 0);
+    //     trStyle['--data-backdrop-url'] = `url(${canvas.toDataURL()})`;
+    //     // console.log(trStyle);
+    //     // document.body.append(canvas);
+    // }
+
+
+      return (
       // let tmdb    = tmdbList?.find(m=>m.id === movie.dbid);
       // let src = err ? `https://image.tmdb.org/t/p/w1280/${tmdb?.backdrop_path}`
       // : `/bg/${tmdb.bg}`;
 
-
-
-
         <tr  className='movie-list' key={idx}
           style={
+            // trStyle
             {"--data-backdrop-url": `url(${
-
-              // err ? 
-              // `https://image.tmdb.org/t/p/w1280/${tmdbList?.find(m=>m.id === movie.dbid)?.poster_path}`
-                  `/Movie-Tracker/bg/${tmdbList?.find(m=>m.id === movie.dbid).bg}`
-
-              // err ? `https://image.tmdb.org/t/p/w1280/${movie.id?.backdrop_path}`
-              //   : `/bg/${movie.id?.bg}`
-              // src
+                  `/Movie-Tracker/strip/${tmdbList?.find(m=>m.id === movie.dbid).bg}`
             })`}
           }
           onMouseOver={(e)=>{
@@ -91,7 +111,7 @@ export function DisplayList()
           (movie.watched ? "watched": "")
           })</td>
         </tr>
-      ))
+      )})
     , [movieList]
   )
 

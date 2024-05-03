@@ -4056,22 +4056,6 @@
  },
  {
   "watched": true,
-  "title": "The Day the Earth Stood Still",
-  "year": "1951",
-  "links": {
-   "trailer": [
-    "https://youtu.be/51JoEE_znyI"
-   ],
-   " movie": [
-    "https://youtu.be/t_M5d8cRzl0"
-   ]
-  },
-  "id": "the-day-the-earth-stood-still-1951",
-  "dbid": 828,
-  "runtime_m": 92
- },
- {
-  "watched": true,
   "watchdate": "07.08.23",
   "title": "D.A.R.Y.L.",
   "year": "1985",
@@ -4451,6 +4435,42 @@
   "id": "this-island-earth-1955",
   "dbid": 831,
   "runtime_m": 85
+ },
+ {
+  "watched": false,
+  "title": "Tripoli",
+  "year": "1950",
+  "runtime_hm": "1h35m",
+  "links": {},
+  "id": "tripoli-1950",
+  "dbid": 203272,
+  "runtime_m": 95
+ },
+ {
+  "watched": true,
+  "title": "The Day the Earth Stood Still",
+  "year": "1951",
+  "links": {
+   "trailer": [
+    "https://youtu.be/51JoEE_znyI"
+   ],
+   " movie": [
+    "https://youtu.be/t_M5d8cRzl0"
+   ]
+  },
+  "id": "the-day-the-earth-stood-still-1951",
+  "dbid": 828,
+  "runtime_m": 92
+ },
+ {
+  "watched": false,
+  "title": "Teenagers from Outer Space",
+  "year": "1959",
+  "runtime_hm": "1h26m",
+  "links": {},
+  "id": "teenagers-from-outer-space-1959",
+  "dbid": 35139,
+  "runtime_m": 86
  },
  {
   "watched": false,
@@ -10819,8 +10839,19 @@
  },
  {
   "watched": true,
+  "title": "Star Trek: The Motion Picture",
+  "year": "1979",
+  "runtime_hm": "2h16m",
+  "links": {},
+  "id": "star-trek-the-motion-picture-1979",
+  "dbid": 152,
+  "runtime_m": 132
+ },
+ {
+  "watched": true,
   "title": "Star Trek II: The Wrath of Khan",
   "year": "1982",
+  "runtime_hm": "2h0m",
   "links": {},
   "id": "star-trek-ii-the-wrath-of-khan-1982",
   "dbid": 154,
@@ -10830,6 +10861,7 @@
   "watched": true,
   "title": "Star Trek III: The Search for Spock",
   "year": "1984",
+  "runtime_hm": "1h45m",
   "links": {},
   "id": "star-trek-iii-the-search-for-spock-1984",
   "dbid": 157,
@@ -10839,10 +10871,31 @@
   "watched": true,
   "title": "Star Trek IV: The Voyage Home",
   "year": "1986",
+  "runtime_hm": "1h59m",
   "links": {},
   "id": "star-trek-iv-the-voyage-home-1986",
   "dbid": 168,
   "runtime_m": 119
+ },
+ {
+  "watched": true,
+  "title": "Star Trek V: The Final Frontier",
+  "year": "1989",
+  "runtime_hm": "1h47m",
+  "links": {},
+  "id": "star-trek-v-the-final-frontier-1989",
+  "dbid": 172,
+  "runtime_m": 106
+ },
+ {
+  "watched": true,
+  "title": "Star Trek VI: The Undiscovered Country",
+  "year": "1991",
+  "runtime_hm": "1h53m",
+  "links": {},
+  "id": "star-trek-vi-the-undiscovered-country-1991",
+  "dbid": 174,
+  "runtime_m": 109
  },
  {
   "watched": true,
@@ -11511,8 +11564,8 @@
  },
  {
   "watched": true,
-  "watchdate": "11.05.23",
-  "title": "Batman: The Movie",
+  "watchdate": "11.05.23.23",
+  "title": "Th|Batman: The Movie",
   "year": "1966",
   "runtime_hm": "1h44m",
   "links": {
@@ -11521,11 +11574,9 @@
    ]
   },
   "watchdate_arr": [
-   "20231105"
+   "23.231105"
   ],
-  "id": "batman-the-movie-1966",
-  "dbid": 2661,
-  "runtime_m": 105
+  "id": "th-batman-the-movie-1966"
  },
  {
   "watched": true,
@@ -11547,8 +11598,7 @@
  },
  {
   "watched": true,
-  "watchdate": "11.25.23",
-  "title": "The Dark Knight",
+  "title": "11.25.e Dark Knight",
   "year": "2008",
   "runtime_hm": "2h32m",
   "links": {
@@ -11556,12 +11606,7 @@
     "https://youtu.be/EXeTwQWrcwY"
    ]
   },
-  "watchdate_arr": [
-   "20231125"
-  ],
-  "id": "the-dark-knight-2008",
-  "dbid": 155,
-  "runtime_m": 152
+  "id": "11-25-e-dark-knight-2008"
  },
  {
   "watched": true,
