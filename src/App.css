@@ -94,7 +94,7 @@ td:first-child {
   transform-origin: unset;
   /* background-color: rgb(30, 30, 30); */
   background: linear-gradient(
-    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.3),
     rgba(0, 0, 0, 1.0)),
     var(--data-backdrop-url);
 }
@@ -116,15 +116,23 @@ td:first-child {
   background-color: rgb(30, 30, 30);
 } */
 
+
+/* .movie-title-list:hover {
+  transition: unset;
+} */
+
 .movie-title-list {
   text-align: left;
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
+  /* filter: grayscale(0); */
   /* background: linear-gradient(
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 1.0)),
     var(--data-backdrop-url); */
+
+  /* transition: all linear 1s; */
 
   /* transition-property: transform;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);

@@ -5,10 +5,6 @@ import tmdbList from './tmdbList.json'
 import { Link, Outlet, useParams } from 'react-router-dom';
 import Chevron from './assets/chevron.svg?react'
 
-
-
-import { decode } from 'blurhash';
-
 const token = import.meta.env.VITE_TMDB_TOKEN;
 let failedImages = new Set();
 
@@ -36,33 +32,25 @@ export function DisplayList()
   // let tmdb    = tmdbList?.find(m=>m.id === currentMovie.dbid);
   // let src = err ? `https://image.tmdb.org/t/p/w1280/${tmdb?.backdrop_path}`
   //           : `/bg/${tmdb.bg}`;
-  // let trStyle = {}; 
-  // let blurhash = tmdbList?.find(...);
-  // if (blurhash) {
-  //   let pixels = ...;
-  //   ...;
-  //   trStyle['--data-backdrop-url'] = `url(...)`;
-  // } ... style={trStyle}
 
   let movieList_map = useMemo(
     ()=>movieList.map((movie, idx)=>{
 
-      let trStyle = {};
-    //   const blurhash = tmdbList?.find(m=>m.id === movie.dbid).blurhash;
-    //   if (blurhash && idx < 200) {
-    //     let pixels = decode(blurhash, 1280, 30, 8,3);
-    //     const canvas = document.createElement("canvas");
-    //     canvas.width  = 1280;
-    //     canvas.height = 30;
-    //     const ctx = canvas.getContext("2d");
-    //     const imageData = ctx.createImageData(1280, 30);
-    //     imageData.data.set(pixels);
-    //     ctx.putImageData(imageData, 0, 0);
-    //     trStyle['--data-backdrop-url'] = `url(${canvas.toDataURL()})`;
-    //     // console.log(trStyle);
-    //     // document.body.append(canvas);
-    // }
-
+      // let trStyle = {};
+      //   const blurhash = tmdbList?.find(m=>m.id === movie.dbid).blurhash;
+      //   if (blurhash && idx < 200) {
+      //     let pixels = decode(blurhash, 1280, 30, 8,8);
+      //     const canvas = document.createElement("canvas");
+      //     canvas.width  = 1280;
+      //     canvas.height = 30;
+      //     const ctx = canvas.getContext("2d");
+      //     const imageData = ctx.createImageData(1280, 30);
+      //     imageData.data.set(pixels);
+      //     ctx.putImageData(imageData, 0, 0);
+      //     trStyle['--data-backdrop-url'] = `url(${canvas.toDataURL()})`;
+      //     // console.log(trStyle);
+      //     // document.body.append(canvas);
+      // }
 
       return (
       // let tmdb    = tmdbList?.find(m=>m.id === movie.dbid);
@@ -156,14 +144,14 @@ export function DisplayList()
       let rect = tbody.getBoundingClientRect();
       let deltaY = mouseY - rect.y;
       let rowIndex = Math.floor(deltaY / rowHeight);
-      let ratioWithinRow = (deltaY - rowIndex*rowHeight)/rowHeight;
+      let ratioWithinRow    = (deltaY - rowIndex*rowHeight)/rowHeight;
       let ratioWithinRowInv = 1-ratioWithinRow;
       let row = tbody.children[rowIndex];
 
-      let minLineHeight = 14;
 
       let grow_size   = targetZoomedLineHeight - standardLineHeight;
-      let shrink_size = standardLineHeight - minLineHeight;
+      // let minLineHeight = 14;
+      // let shrink_size = standardLineHeight - minLineHeight;
 
       // console.log("regular: ", ratioWithinRow);
       // console.log("inverted: ", ratioWithinRowInv);
@@ -175,6 +163,7 @@ export function DisplayList()
       // row.style.lineHeight = `${targetZoomedLineHeight}px`;
       row.style.lineHeight = `${standardLineHeight}px`;
       row.style.fontSize   = `${targetZoomedLineHeight/1.5}px`;
+      row.style.filter     = `grayscale(0)`;
       adjustedRows.push(row);
 
 
@@ -183,26 +172,26 @@ export function DisplayList()
       let prevRowLineHeight
         = standardLineHeight/2
           + grow_size * ratioWithinRowInv
-          + standardLineHeight * ratioWithinRowInv/2
+          + standardLineHeight * ratioWithinRowInv/2;
       let prevRow = row.previousElementSibling;
       if (prevRow) {
         // prevRow.style.lineHeight = `${prevRowLineHeight}px`;
         prevRow.style.lineHeight = `${standardLineHeight}px`;
         prevRow.style.fontSize   = `${prevRowLineHeight/1.5}px`;
+        prevRow.style.filter     = `grayscale(${1-(prevRowLineHeight-12)/standardLineHeight})`;
         adjustedRows.push(prevRow);
       }
-
-// console.log(prevRowLineHeight);
 
       let nextRowLineHeight
         = standardLineHeight/2
           + grow_size * ratioWithinRow
-          + standardLineHeight * ratioWithinRow/2
+          + standardLineHeight * ratioWithinRow/2;
       let nextRow = row.nextElementSibling;
       if (nextRow) {
         // nextRow.style.lineHeight = `${nextRowLineHeight}px`;
         nextRow.style.lineHeight = `${standardLineHeight}px`;
         nextRow.style.fontSize   = `${nextRowLineHeight/1.5}px`;
+        nextRow.style.filter     = `grayscale(${1-(nextRowLineHeight-12)/standardLineHeight})`;
         adjustedRows.push(nextRow);
       }
 
@@ -232,23 +221,50 @@ export function DisplayList()
         adjustedRows.push(nextRow2);
       }
 
+
+
+      let prevRowMid = prevRow2.previousElementSibling;
+      let nextRowMid = nextRow2.nextElementSibling;
+
+      for (let i = 0; i < 5; i++) {
+
+        if (prevRowMid) {
+          prevRowMid.style.lineHeight = `${standardLineHeight}px`;
+          prevRowMid.style.fontSize   = `${prevRow2LineHeight/1.5}px`;
+          adjustedRows.push(prevRowMid);
+        }
+        prevRowMid = prevRowMid.previousElementSibling;
+
+        if (nextRowMid) {
+          nextRowMid.style.lineHeight = `${standardLineHeight}px`;
+          nextRowMid.style.fontSize   = `${nextRow2LineHeight/1.5}px`;
+          adjustedRows.push(nextRowMid);
+        }
+        nextRowMid = nextRowMid.nextElementSibling;
+      }
+
+
       let prevRow3LineHeight
         = standardLineHeight
           - grow_size * ratioWithinRowInv;
-      let prevRow3 = prevRow2.previousElementSibling;
+      let prevRow3 = prevRowMid;
+      console.log("pr3 Line height: ", prevRow3LineHeight);
       if (prevRow3) {
         prevRow3.style.lineHeight = `${standardLineHeight}px`;
         prevRow3.style.fontSize   = `${prevRow3LineHeight/1.5}px`;
+        prevRow3.style.filter     = `grayscale(${1-(prevRow3LineHeight-12*ratioWithinRowInv)/standardLineHeight})`;
         adjustedRows.push(prevRow3);
       }
 
       let nextRow3LineHeight
         = standardLineHeight
           - grow_size * ratioWithinRow;
-      let nextRow3 = nextRow2.nextElementSibling;
+      let nextRow3 = nextRowMid;
+      // console.log("nr3 Line height: ", nextRow3LineHeight);
       if (nextRow3) {
         nextRow3.style.lineHeight = `${standardLineHeight}px`;
         nextRow3.style.fontSize   = `${nextRow3LineHeight/1.5}px`;
+        nextRow3.style.filter     = `grayscale(${1-(nextRow3LineHeight-12*ratioWithinRow)/standardLineHeight})`;
         adjustedRows.push(nextRow3);
       }
 

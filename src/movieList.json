@@ -2533,8 +2533,8 @@
    ]
   },
   "id": "ringu-1998",
-  "dbid": 2671,
-  "runtime_m": 96
+  "dbid": 9706,
+  "runtime_m": 97
  },
  {
   "watched": false,
@@ -9054,7 +9054,7 @@
   },
   "id": "cannibal-women-in-the-avocado-jungle-of-death-1989",
   "dbid": 26369,
-  "runtime_m": 90
+  "runtime_m": 89
  },
  {
   "watched": true,
@@ -10081,7 +10081,8 @@
   "runtime_m": 141
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "05.04.24",
   "title": "Star Wars (Episode IV) - A New Hope",
   "year": "1977",
   "runtime_hm": "2h1m",
@@ -10099,12 +10100,16 @@
     "https://youtu.be/7r-kYAHOD7g"
    ]
   },
+  "watchdate_arr": [
+   "20240504"
+  ],
   "id": "star-wars-episode-iv-a-new-hope-1977",
   "dbid": 11,
   "runtime_m": 121
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "05.04.24",
   "title": "Star Wars (Episode V) - The Empire Strikes Back",
   "year": "1980",
   "runtime_hm": "2h4m",
@@ -10117,12 +10122,16 @@
     "https://youtu.be/mSH3n_up6LE"
    ]
   },
+  "watchdate_arr": [
+   "20240504"
+  ],
   "id": "star-wars-episode-v-the-empire-strikes-back-1980",
   "dbid": 1891,
   "runtime_m": 124
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "05.04.24",
   "title": "Star Wars (Episode VI) - Return of the Jedi",
   "year": "1983",
   "runtime_hm": "2h12m",
@@ -10137,9 +10146,66 @@
     "https://youtu.be/XgB4gaY2dWE"
    ]
   },
+  "watchdate_arr": [
+   "20240504"
+  ],
   "id": "star-wars-episode-vi-return-of-the-jedi-1983",
   "dbid": 1892,
   "runtime_m": 132
+ },
+ {
+  "watched": false,
+  "title": "Star Wars (Episode I) - The Phantom Menace",
+  "year": "1999",
+  "runtime_hm": "2h11m",
+  "links": {
+   " trailer": [
+    "https://youtu.be/bD7bpG-zDJQ"
+   ],
+   "trailer": [
+    "https://youtu.be/Fo--sWDK_nU"
+   ]
+  },
+  "id": "star-wars-episode-i-the-phantom-menace-1999",
+  "dbid": 1893,
+  "runtime_m": 136
+ },
+ {
+  "watched": false,
+  "title": "Star Wars (Episode II) - Attack of the Clones",
+  "year": "2002",
+  "links": {
+   " teaser": [
+    "https://youtu.be/SA6q3vHC5L4"
+   ],
+   " trailer": [
+    "https://youtu.be/gYbW1F_c9eM"
+   ],
+   "trailer": [
+    "https://youtu.be/X7DC-kNCS8c",
+    "https://youtu.be/qr19XI5iCKA"
+   ]
+  },
+  "id": "star-wars-episode-ii-attack-of-the-clones-2002",
+  "dbid": 1894,
+  "runtime_m": 142
+ },
+ {
+  "watched": false,
+  "title": "Star Wars (Episode III) - Revenge of the Sith",
+  "year": "2005",
+  "runtime_hm": "2h20m",
+  "links": {
+   " teaser": [
+    "https://youtu.be/opfJIo__ANQ"
+   ],
+   " trailer": [
+    "https://youtu.be/5UnjrG_N8hU"
+   ]
+  },
+  "id": "star-wars-episode-iii-revenge-of-the-sith-2005",
+  "dbid": 1895,
+  "runtime_m": 140
  },
  {
   "watched": false,
@@ -10845,7 +10911,7 @@
   "links": {},
   "id": "star-trek-the-motion-picture-1979",
   "dbid": 152,
-  "runtime_m": 132
+  "runtime_m": 131
  },
  {
   "watched": true,
@@ -10855,7 +10921,7 @@
   "links": {},
   "id": "star-trek-ii-the-wrath-of-khan-1982",
   "dbid": 154,
-  "runtime_m": 113
+  "runtime_m": 112
  },
  {
   "watched": true,
@@ -10875,7 +10941,7 @@
   "links": {},
   "id": "star-trek-iv-the-voyage-home-1986",
   "dbid": 168,
-  "runtime_m": 119
+  "runtime_m": 118
  },
  {
   "watched": true,
@@ -10895,7 +10961,7 @@
   "links": {},
   "id": "star-trek-vi-the-undiscovered-country-1991",
   "dbid": 174,
-  "runtime_m": 109
+  "runtime_m": 113
  },
  {
   "watched": true,

@@ -11,13 +11,14 @@
     "getDB": "node ./get_movies.cjs"
   },
   "dependencies": {
-    "blurhash": "^2.0.5",
     "dotenv": "^16.4.5",
     "jpeg-js": "^0.4.4",
+    "jsfeat": "^0.0.8",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.22.3"
+    "react-router-dom": "^6.22.3",
+    "vite-plugin-top-level-await": "^1.4.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.56",
