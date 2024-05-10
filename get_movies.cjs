@@ -741,7 +741,7 @@ async function build_tmdb_json2()
               height: 32,
             };
 
-            let output_image = jpeg_js.encode(rawImageData, 100);
+            let output_image = jpeg_js.encode(rawImageData, 50);
             fs.writeFileSync(`public/strip/${movie_bg_filename}`, output_image.data);
 
 
