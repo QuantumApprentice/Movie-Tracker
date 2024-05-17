@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "dotenv": "^16.4.5",
+    "express": "^4.19.2",
     "jpeg-js": "^0.4.4",
     "jsfeat": "^0.0.8",
     "prop-types": "^15.8.1",

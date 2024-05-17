@@ -557,95 +557,82 @@ function get_runtime(movie_details_json)
 
 function why_is_this_so_dumb(pixels, movie_bg_filename)
 {
-  //this is the black & white crop I'm still working on
-  // convert_to_grayscale(pixels.data);
+  //convert image to grayscale
+  //then convert to matrix_t data_t type "src"
+  //create output matrix_t "canny"
   let grayscale = convert_to_grayscale(pixels.data);
+  let my_data = new jsfeat.data_t(grayscale.length, grayscale);
+  let src     = new jsfeat.matrix_t(pixels.width, pixels.height, jsfeat.U8_t|jsfeat.C1_t, my_data);
+  let canny   = new jsfeat.matrix_t(pixels.width, pixels.height, jsfeat.U8_t|jsfeat.C1_t);
+  //"canny" edge detect the image (1 per pixel)
+  jsfeat.imgproc.canny(src, canny, 0, 128);
 
-  let high_score = {pos: 0, score: []};
-  // for (let i = 0; i < grayscale.length; i+=stride) {
-
-    // let gray_crop = grayscale.subarray(i, i*stride*64 + stride*64);
-    // let my_data = new jsfeat.data_t(gray_crop.length, gray_crop);
-
-    let my_data = new jsfeat.data_t(grayscale.length, grayscale);
-    let src     = new jsfeat.matrix_t(pixels.width, pixels.height, jsfeat.U8_t|jsfeat.C1_t, my_data);
-    let canny   = new jsfeat.matrix_t(pixels.width, pixels.height, jsfeat.U8_t|jsfeat.C1_t);
-    jsfeat.imgproc.canny(src, canny, 0, 128);
-
-    //save black & white image
-    let rgba_buff = Buffer.alloc(grayscale.length*4);
-    for (let i = 0; i < grayscale.length; i++) {
-      rgba_buff[i*4+0] = grayscale[i];
-      rgba_buff[i*4+1] = grayscale[i];
-      rgba_buff[i*4+2] = grayscale[i];
-      rgba_buff[i*4+3] = 255;
-    }
-    let rawImageData = {
-      data: rgba_buff,
-      // data: crop_buffer,
-      width: pixels.width,
-      height: pixels.height,
-    };
-    let output_image = jpeg_js.encode(rawImageData, 100);
-    fs.writeFileSync(`public/test/${movie_bg_filename}`, output_image.data);
-
-
-    //save canny data as image
-    let canny_buff = Buffer.alloc(canny.data.length*4);
-    for (let i = 0; i < canny.data.length; i++) {
-      canny_buff[i*4+0] = canny.data[i];
-      canny_buff[i*4+1] = canny.data[i];
-      canny_buff[i*4+2] = canny.data[i];
-      canny_buff[i*4+3] = 255;
-    }
-    let cannyImageData = {
-      data: canny_buff,
-      width: pixels.width,
-      height: pixels.height,
-    }
-    let output_canny = jpeg_js.encode(cannyImageData, 100);
-    fs.writeFileSync(`public/test/canny_${movie_bg_filename}`, output_canny.data);
-
-
-    //add up the scores for each row
-    //and store in row_scores[],
-    //one row per array entry
-    let stride     = pixels.width;
-    let row_scores = [];
-    for (let j = 0; j < pixels.height; j++) {
-      let score = 0;
-      for (let k = 0; k < stride; k++) {
-        if (canny.data[j*stride+k] > 0) {
-          score++;
-        }
-      }
-      row_scores.push(score);
-    }
-    // console.log("canny_data: ", canny);
-    // console.log("row_scores: ", row_scores);
-/////////////////////////////////////////////////////
-    //add up the row scores for a range of 64 rows
-    //traveling down the image one pixel row at a time
-    let start_row = 0;
-    let accumulator = 0;
-    let accumulator_high = 0;
-    for (let row = 0; row < row_scores.length; row += 1) {
-      accumulator += row_scores[row];
-      if (row >= 63) {
-        if (accumulator > accumulator_high) {
-          accumulator_high = accumulator;
-          start_row = row - 63;
-        }
-        accumulator -= row_scores[row - 63];
-      }
-    }
-
-
+  // //save black & white image
+  // let rgba_buff = Buffer.alloc(grayscale.length*4);
+  // for (let i = 0; i < grayscale.length; i++) {
+  //   rgba_buff[i*4+0] = grayscale[i];
+  //   rgba_buff[i*4+1] = grayscale[i];
+  //   rgba_buff[i*4+2] = grayscale[i];
+  //   rgba_buff[i*4+3] = 255;
   // }
-  // console.log("highest score: ", high_score);
+  // let rawImageData = {
+  //   data: rgba_buff,
+  //   width: pixels.width,
+  //   height: pixels.height,
+  // };
+  // let output_image = jpeg_js.encode(rawImageData, 100);
+  // fs.writeFileSync(`public/test/${movie_bg_filename}`, output_image.data);
+
+  // //save canny data as image
+  // let canny_buff = Buffer.alloc(canny.data.length*4);
+  // for (let i = 0; i < canny.data.length; i++) {
+  //   canny_buff[i*4+0] = canny.data[i];
+  //   canny_buff[i*4+1] = canny.data[i];
+  //   canny_buff[i*4+2] = canny.data[i];
+  //   canny_buff[i*4+3] = 255;
+  // }
+  // let cannyImageData = {
+  //   data: canny_buff,
+  //   width: pixels.width,
+  //   height: pixels.height,
+  // }
+  // let output_canny = jpeg_js.encode(cannyImageData, 100);
+  // fs.writeFileSync(`public/test/canny_${movie_bg_filename}`, output_canny.data);
+
+  //add up the scores for each row
+  //and store in row_scores[],
+  //one row per array entry
+  let stride     = pixels.width;
+  let row_scores = [];
+  for (let j = 0; j < pixels.height; j++) {
+    let score = 0;
+    for (let k = 0; k < stride; k++) {
+      if (canny.data[j*stride+k] > 0) {
+        score++;
+      }
+    }
+    row_scores.push(score);
+  }
+  // console.log("canny_data: ", canny);
+  // console.log("row_scores: ", row_scores);
+  /**********************************************************/
+  //add up the row scores for a range of 64 rows
+  //traveling down the image one pixel row at a time
+  let start_row = 0;
+  let accumulator = 0;
+  let accumulator_high = 0;
+  for (let row = 0; row < row_scores.length; row += 1) {
+    accumulator += row_scores[row];
+    if (row >= 63) {
+      if (accumulator > accumulator_high) {
+        accumulator_high = accumulator;
+        start_row = row - 63;
+      }
+      accumulator -= row_scores[row - 63];
+    }
+  }
+
   return start_row;
-  // console.log("canny: ", canny);
-  // console.log("lines: ", lines);
 }
 
 
@@ -711,15 +698,16 @@ async function build_tmdb_json2()
             let jpeg_body = fs.readFileSync(`public/bg/${movie_bg_filename}`);
             let pixels = jpeg_js.decode(jpeg_body);
 
-            //attempting to grayscale stuff to get
-            //"canny" edge detection working
+            //grayscale stuff and use "canny" edge detection
+            //to pick the "most interesting" section of the background image
             let start_pos = why_is_this_so_dumb(pixels, movie_bg_filename);
 
             // console.log("pixels.length: ", pixels.data.length);
             // console.log("start_pos: ", start_pos);
             // console.log("pixels.data: ", pixels.data);
 
-            //comment this in for full color crops of bg art
+            //full color crop of bg art
+            //based on starting position from edge detection
             let lines=[];
             let stride = pixels.width*4;
             let crop_buffer = pixels.data.subarray(start_pos*stride, start_pos*stride + stride*64);
@@ -736,7 +724,6 @@ async function build_tmdb_json2()
 
             let rawImageData = {
               data: Buffer.concat(lines),
-              // data: crop_buffer,
               width: pixels.width,
               height: 32,
             };
@@ -744,8 +731,6 @@ async function build_tmdb_json2()
             let output_image = jpeg_js.encode(rawImageData, 50);
             fs.writeFileSync(`public/strip/${movie_bg_filename}`, output_image.data);
 
-
-            // console.log(movie_bg_blurhash, `: ${movie_bg_filename}`);
           } catch (error) {
           console.log(`${movie_bg_filename} : `, error);
         }
@@ -767,7 +752,6 @@ async function build_tmdb_json2()
         ratings:    movie_ratings,
         poster:     movie_pstr_filename,
         bg:         movie_bg_filename,
-        // blurhash:   movie_bg_blurhash,
         found: true
       };
     } else {
