@@ -103,7 +103,7 @@
   },
   "id": "a-nightmare-on-elm-street-5-the-dream-child-1989",
   "dbid": 10160,
-  "runtime_m": 89
+  "runtime_m": 90
  },
  {
   "watched": true,
@@ -617,7 +617,7 @@
   ],
   "id": "friday-the-13th-1980",
   "dbid": 4488,
-  "runtime_m": 94
+  "runtime_m": 95
  },
  {
   "watched": true,
@@ -1024,8 +1024,8 @@
    ]
   },
   "id": "house-1985",
-  "dbid": 58083,
-  "runtime_m": 95
+  "dbid": 11415,
+  "runtime_m": 92
  },
  {
   "watched": false,
@@ -1185,9 +1185,7 @@
     "https://youtu.be/0KyGnEtaG5U"
    ]
   },
-  "id": "leprechaun-4-in-space-1996",
-  "dbid": 19287,
-  "runtime_m": 95
+  "id": "leprechaun-4-in-space-1996"
  },
  {
   "watched": true,
@@ -2383,6 +2381,19 @@
  },
  {
   "watched": false,
+  "title": "Gidget",
+  "year": "1959",
+  "links": {
+   " trailer": [
+    "https://youtu.be/Y5suc-Yexpw"
+   ]
+  },
+  "id": "gidget-1959",
+  "dbid": 43096,
+  "runtime_m": 95
+ },
+ {
+  "watched": false,
   "title": "Shadow Hours",
   "year": "2000",
   "runtime_hm": "1h35m",
@@ -2393,65 +2404,36 @@
  },
  {
   "watched": false,
-  "title": "Special Bulletin",
-  "year": "1983",
-  "links": {
-   "movie": [
-    "https://youtu.be/4i1d1dAcyLo"
-   ]
-  },
-  "id": "special-bulletin-1983",
-  "dbid": 69266,
-  "runtime_m": 103
- },
- {
-  "watched": true,
-  "watchdate": "12.02.23",
-  "title": "Blue Sky",
-  "year": "1994",
-  "runtime_hm": "1h41m",
-  "links": {
-   " trailer": [
-    "https://youtu.be/DEumw-eXW7w"
-   ],
-   " movie": [
-    "https://youtu.be/KCR6_9dtIRs"
-   ]
-  },
-  "watchdate_arr": [
-   "20231202"
-  ],
-  "id": "blue-sky-1994",
-  "dbid": 57834,
-  "runtime_m": 101
+  "title": "Kung Fury",
+  "links": {},
+  "id": "kung-fury-2015",
+  "year": "2015",
+  "dbid": 251516,
+  "runtime_m": 32
  },
  {
   "watched": false,
-  "title": "Antitrust",
-  "year": "2001",
-  "runtime_hm": "1h49m",
-  "links": {
-   " trailer": [
-    "https://youtu.be/I7hhqX1PANU"
-   ]
-  },
-  "id": "antitrust-2001",
-  "dbid": 9989,
-  "runtime_m": 108
+  "title": "Moonwalker",
+  "year": "1988",
+  "runtime_hm": "1h33m",
+  "links": {},
+  "id": "moonwalker-1988",
+  "dbid": 13192,
+  "runtime_m": 93
  },
  {
   "watched": false,
-  "title": "Last Samurai",
-  "year": "2004",
-  "runtime_hm": "2h34m",
+  "title": "One Cut of the Dead",
+  "year": "2017",
+  "runtime_hm": "1h36m",
   "links": {
    " trailer": [
-    "https://youtu.be/3b5aD1bm7eI"
+    "https://youtu.be/4wBImbHqhFk"
    ]
   },
-  "id": "last-samurai-2004",
-  "dbid": 616,
-  "runtime_m": 154
+  "id": "one-cut-of-the-dead-2017",
+  "dbid": 513434,
+  "runtime_m": 96
  },
  {
   "watched": false,
@@ -2538,6 +2520,16 @@
  },
  {
   "watched": false,
+  "title": "Naked Lunch",
+  "year": "1991",
+  "runtime_hm": "1h55m",
+  "links": {},
+  "id": "naked-lunch-1991",
+  "dbid": 2742,
+  "runtime_m": 115
+ },
+ {
+  "watched": false,
   "title": "Frankenstein",
   "year": "1931",
   "links": {
@@ -2564,6 +2556,20 @@
   "id": "bride-of-frankenstein-1935",
   "dbid": 229,
   "runtime_m": 75
+ },
+ {
+  "watched": false,
+  "title": "Frankenstein Meets the Wolf Man",
+  "year": "1943",
+  "runtime_hm": "1h13m",
+  "links": {
+   " movie": [
+    "https://youtu.be/LhArTFocIb0"
+   ]
+  },
+  "id": "frankenstein-meets-the-wolf-man-1943",
+  "dbid": 3076,
+  "runtime_m": 74
  },
  {
   "watched": false,
@@ -2609,6 +2615,95 @@
   "id": "frankenstein-conquers-the-world-1965",
   "dbid": 3160,
   "runtime_m": 90
+ },
+ {
+  "watched": false,
+  "title": "Replicas",
+  "year": "2019",
+  "runtime_hm": "1h47m",
+  "links": {
+   " trailer": [
+    "https://youtu.be/bKdpGHazAqs"
+   ]
+  },
+  "id": "replicas-2019",
+  "dbid": 300681,
+  "runtime_m": 107
+ },
+ {
+  "watched": false,
+  "title": "Chef",
+  "year": "2014",
+  "links": {
+   " trailer": [
+    "https://youtu.be/FF_rYNupPwg"
+   ]
+  },
+  "id": "chef-2014",
+  "dbid": 212778,
+  "runtime_m": 114
+ },
+ {
+  "watched": false,
+  "title": "Special Bulletin",
+  "year": "1983",
+  "links": {
+   "movie": [
+    "https://youtu.be/4i1d1dAcyLo"
+   ]
+  },
+  "id": "special-bulletin-1983",
+  "dbid": 69266,
+  "runtime_m": 103
+ },
+ {
+  "watched": true,
+  "watchdate": "12.02.23",
+  "title": "Blue Sky",
+  "year": "1994",
+  "runtime_hm": "1h41m",
+  "links": {
+   " trailer": [
+    "https://youtu.be/DEumw-eXW7w"
+   ],
+   " movie": [
+    "https://youtu.be/KCR6_9dtIRs"
+   ]
+  },
+  "watchdate_arr": [
+   "20231202"
+  ],
+  "id": "blue-sky-1994",
+  "dbid": 57834,
+  "runtime_m": 101
+ },
+ {
+  "watched": false,
+  "title": "Antitrust",
+  "year": "2001",
+  "runtime_hm": "1h49m",
+  "links": {
+   " trailer": [
+    "https://youtu.be/I7hhqX1PANU"
+   ]
+  },
+  "id": "antitrust-2001",
+  "dbid": 9989,
+  "runtime_m": 108
+ },
+ {
+  "watched": false,
+  "title": "Last Samurai",
+  "year": "2004",
+  "runtime_hm": "2h34m",
+  "links": {
+   " trailer": [
+    "https://youtu.be/3b5aD1bm7eI"
+   ]
+  },
+  "id": "last-samurai-2004",
+  "dbid": 616,
+  "runtime_m": 154
  },
  {
   "watched": false,
@@ -2678,6 +2773,20 @@
   "id": "overboard-1987",
   "dbid": 10780,
   "runtime_m": 112
+ },
+ {
+  "watched": false,
+  "title": "Potop Redivivus",
+  "year": "1974",
+  "runtime_hm": "5h15m",
+  "links": {
+   " trailer": [
+    "https://youtu.be/vBfhvt1zrfU"
+   ]
+  },
+  "id": "potop-redivivus-1974",
+  "dbid": 36627,
+  "runtime_m": 287
  },
  {
   "watched": false,
@@ -2883,19 +2992,6 @@
  {
   "watched": false,
   "title": "Above the Law",
-  "year": "1988",
-  "links": {
-   " trailer": [
-    "https://youtu.be/oiQi0WvS6Sc"
-   ]
-  },
-  "id": "above-the-law-1988",
-  "dbid": 9395,
-  "runtime_m": 99
- },
- {
-  "watched": false,
-  "title": "Above the Law",
   "year": "1986",
   "links": {
    " trailer": [
@@ -2905,6 +3001,19 @@
   "id": "above-the-law-1986",
   "dbid": 66212,
   "runtime_m": 102
+ },
+ {
+  "watched": false,
+  "title": "Above the Law",
+  "year": "1988",
+  "links": {
+   " trailer": [
+    "https://youtu.be/oiQi0WvS6Sc"
+   ]
+  },
+  "id": "above-the-law-1988",
+  "dbid": 9395,
+  "runtime_m": 99
  },
  {
   "watched": false,
@@ -3471,8 +3580,8 @@
    "20220924"
   ],
   "id": "alien-3-1992",
-  "dbid": 8077,
-  "runtime_m": 114
+  "dbid": 1295001,
+  "runtime_m": 100
  },
  {
   "watched": false,
@@ -3553,7 +3662,8 @@
   "runtime_m": 175
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "06.01.24",
   "title": "The Abyss",
   "year": "1989",
   "runtime_hm": "2h20m",
@@ -3562,6 +3672,9 @@
     "https://youtu.be/uhdvaybv1Jw"
    ]
   },
+  "watchdate_arr": [
+   "20240601"
+  ],
   "id": "the-abyss-1989",
   "dbid": 2756,
   "runtime_m": 140
@@ -3675,7 +3788,7 @@
   },
   "id": "ben-hur-1959",
   "dbid": 665,
-  "runtime_m": 212
+  "runtime_m": 222
  },
  {
   "watched": true,
@@ -3796,6 +3909,16 @@
   "id": "kickass-2010",
   "dbid": 23483,
   "runtime_m": 117
+ },
+ {
+  "watched": false,
+  "title": "Dark City",
+  "year": "1998",
+  "runtime_hm": "1h40m",
+  "links": {},
+  "id": "dark-city-1998",
+  "dbid": 2666,
+  "runtime_m": 112
  },
  {
   "watched": true,
@@ -4214,8 +4337,8 @@
   "runtime_hm": "2h6m",
   "links": {},
   "id": "bullet-train-2022",
-  "dbid": 718930,
-  "runtime_m": 126
+  "dbid": 1006540,
+  "runtime_m": 86
  },
  {
   "watched": true,
@@ -4235,6 +4358,23 @@
  },
  {
   "watched": false,
+  "title": "Gone With the Wind",
+  "year": "1939",
+  "runtime_hm": "3h42m",
+  "links": {
+   " trailer": [
+    "https://youtu.be/0X94oZgJis4"
+   ],
+   " modern": [
+    "https://youtu.be/h2oX0zQA67U"
+   ]
+  },
+  "id": "gone-with-the-wind-1939",
+  "dbid": 770,
+  "runtime_m": 233
+ },
+ {
+  "watched": false,
   "title": "The Great Dictator",
   "year": "1940",
   "runtime_hm": "2h5m",
@@ -4246,6 +4386,23 @@
   "id": "the-great-dictator-1940",
   "dbid": 914,
   "runtime_m": 125
+ },
+ {
+  "watched": false,
+  "title": "Citizen Kane",
+  "year": "1941",
+  "runtime_hm": "1h59m",
+  "links": {
+   " trailer": [
+    "https://youtu.be/8dxh3lwdOFw"
+   ],
+   " modern": [
+    "https://youtu.be/2HY35DNYt8g"
+   ]
+  },
+  "id": "citizen-kane-1941",
+  "dbid": 15,
+  "runtime_m": 119
  },
  {
   "watched": false,
@@ -4562,7 +4719,7 @@
   },
   "id": "the-dirty-dozen-1967",
   "dbid": 1654,
-  "runtime_m": 150
+  "runtime_m": 149
  },
  {
   "watched": false,
@@ -4610,6 +4767,81 @@
   "id": "days-of-heaven-1978",
   "dbid": 16642,
   "runtime_m": 94
+ },
+ {
+  "watched": false,
+  "title": "Three Days of the Condor",
+  "year": "1975",
+  "links": {
+   " trailer": [
+    "https://youtu.be/BCZ-HwaWK3o"
+   ]
+  },
+  "id": "three-days-of-the-condor-1975",
+  "dbid": 11963,
+  "runtime_m": 117
+ },
+ {
+  "watched": false,
+  "title": "Westworld",
+  "year": "1973",
+  "runtime_hm": "1h28m",
+  "links": {
+   " trailer": [
+    "https://youtu.be/JoUWNBcBKkA"
+   ],
+   " modern": [
+    "https://youtu.be/dnR5jqiG-og"
+   ]
+  },
+  "id": "westworld-1973",
+  "dbid": 2362,
+  "runtime_m": 89
+ },
+ {
+  "watched": false,
+  "title": "Futureworld",
+  "year": "1976",
+  "runtime_hm": "1h48m",
+  "links": {
+   " trailer": [
+    "https://youtu.be/yr3a2AL62Ak"
+   ]
+  },
+  "id": "futureworld-1976",
+  "dbid": 10640,
+  "runtime_m": 108
+ },
+ {
+  "watched": false,
+  "title": "Inglorious Bastards",
+  "links": {},
+  "id": "inglorious-bastards-1978",
+  "year": "1978",
+  "dbid": 22311,
+  "runtime_m": 99
+ },
+ {
+  "watched": false,
+  "title": "Battle Stations",
+  "year": "1956",
+  "links": {},
+  "id": "battle-stations-1956",
+  "dbid": 396212,
+  "runtime_m": 81
+ },
+ {
+  "watched": false,
+  "title": "The Frogmen",
+  "year": "1951",
+  "links": {
+   " trailer": [
+    "https://youtu.be/XDUSZKFwvI4"
+   ]
+  },
+  "id": "the-frogmen-1951",
+  "dbid": 44890,
+  "runtime_m": 96
  },
  {
   "watched": true,
@@ -4962,7 +5194,8 @@
   "runtime_m": 140
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "05.11.24",
   "title": "Junior",
   "year": "1994",
   "runtime_hm": "1h49m",
@@ -4971,12 +5204,16 @@
     "https://youtu.be/qDxdu_qXPOs"
    ]
   },
+  "watchdate_arr": [
+   "20240511"
+  ],
   "id": "junior-1994",
   "dbid": 6280,
   "runtime_m": 109
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "05.18.24",
   "title": "Eraser",
   "year": "1996",
   "runtime_hm": "1h55m",
@@ -4988,6 +5225,9 @@
     "https://youtu.be/P3nrgwO3R-w"
    ]
   },
+  "watchdate_arr": [
+   "20240518"
+  ],
   "id": "eraser-1996",
   "dbid": 9268,
   "runtime_m": 115
@@ -4996,34 +5236,66 @@
   "watched": false,
   "title": "Jingle All The Way",
   "year": "1996",
-  "links": {},
+  "runtime_hm": "1h29m",
+  "links": {
+   " trailer": [
+    "https://youtu.be/jhJYMEzQA-Q"
+   ]
+  },
   "id": "jingle-all-the-way-1996",
   "dbid": 9279,
   "runtime_m": 89
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "06.08.24",
   "title": "Batman and Robin",
   "year": "1997",
-  "links": {},
+  "runtime_hm": "1h53m",
+  "links": {
+   " trailer": [
+    "https://youtu.be/4RBXypX4qWI"
+   ]
+  },
+  "watchdate_arr": [
+   "20240608"
+  ],
   "id": "batman-and-robin-1997",
   "dbid": 415,
   "runtime_m": 125
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "06.15.14",
   "title": "End of Days",
   "year": "1999",
-  "links": {},
+  "runtime_hm": "2h2m",
+  "links": {
+   " trailer": [
+    "https://youtu.be/1PxCzgsQ7Oc"
+   ]
+  },
+  "watchdate_arr": [
+   "20140615"
+  ],
   "id": "end-of-days-1999",
   "dbid": 9946,
   "runtime_m": 121
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "06.22.24",
   "title": "The 6th Day",
   "year": "2000",
-  "links": {},
+  "runtime_hm": "2h3m",
+  "links": {
+   " trailer": [
+    "https://youtu.be/0VP44dGIi9c"
+   ]
+  },
+  "watchdate_arr": [
+   "20240622"
+  ],
   "id": "the-6th-day-2000",
   "dbid": 8452,
   "runtime_m": 123
@@ -5032,24 +5304,95 @@
   "watched": false,
   "title": "Collateral Damage",
   "year": "2002",
-  "links": {},
+  "runtime_hm": "1h48m",
+  "links": {
+   " trailer": [
+    "https://youtu.be/tkBe-XRtq30",
+    "https://youtu.be/OLlj81YaWFA"
+   ]
+  },
   "id": "collateral-damage-2002",
   "dbid": 9884,
   "runtime_m": 108
  },
  {
   "watched": false,
+  "title": "Terminator 3: Rise of the Machines",
+  "year": "2003",
+  "runtime_hm": "1h49m",
+  "links": {
+   " teaser": [
+    "https://youtu.be/zBD9VKIvJqs"
+   ],
+   " trailer": [
+    "https://youtu.be/5UgPJhyJmlM",
+    "https://youtu.be/5UgPJhyJmlM"
+   ]
+  },
+  "id": "terminator-3-rise-of-the-machines-2003",
+  "dbid": 296,
+  "runtime_m": 109
+ },
+ {
+  "watched": false,
+  "title": "Constantine",
+  "year": "2005",
+  "links": {
+   " trailer": [
+    "https://youtu.be/DEa508Xmmio"
+   ]
+  },
+  "id": "constantine-2005",
+  "dbid": 561,
+  "runtime_m": 121
+ },
+ {
+  "watched": false,
+  "title": "Popeye",
+  "year": "1980",
+  "runtime_hm": "1h54m",
+  "links": {
+   " trailer": [
+    "https://youtu.be/FXTyss9UAwM"
+   ]
+  },
+  "id": "popeye-1980",
+  "dbid": 11335,
+  "runtime_m": 114
+ },
+ {
+  "watched": false,
   "title": "Dead Poets Society",
   "year": "1989",
-  "links": {},
+  "runtime_hm": "2h8m",
+  "links": {
+   " trailer": [
+    "https://youtu.be/ye4KFyWu2do"
+   ]
+  },
   "id": "dead-poets-society-1989",
   "dbid": 207,
   "runtime_m": 128
  },
  {
   "watched": false,
+  "title": "The Fisher King",
+  "year": "1991",
+  "runtime_hm": "2h17m",
+  "links": {
+   " trailer": [
+    "https://youtu.be/E65wgbFGGeM"
+   ]
+  },
+  "id": "the-fisher-king-1991",
+  "dbid": 177,
+  "runtime_m": 138
+ },
+ {
+  "watched": false,
   "title": "Hook",
   "year": "1991",
+  "runtime_hm": "2h22m",
   "links": {},
   "id": "hook-1991",
   "dbid": 879,
@@ -5059,6 +5402,7 @@
   "watched": false,
   "title": "Mrs Doubtfire",
   "year": "1993",
+  "runtime_hm": "2h5m",
   "links": {},
   "id": "mrs-doubtfire-1993",
   "dbid": 788,
@@ -5068,6 +5412,7 @@
   "watched": false,
   "title": "Good Will Hunting",
   "year": "1997",
+  "runtime_hm": "2h6m",
   "links": {},
   "id": "good-will-hunting-1997",
   "dbid": 489,
@@ -5077,6 +5422,7 @@
   "watched": false,
   "title": "Bicentennial Man",
   "year": "1999",
+  "runtime_hm": "2h12m",
   "links": {},
   "id": "bicentennial-man-1999",
   "dbid": 2277,
@@ -5086,6 +5432,7 @@
   "watched": false,
   "title": "Final Cut",
   "year": "2004",
+  "runtime_hm": "1h35m",
   "links": {},
   "id": "final-cut-2004",
   "dbid": 11099,
@@ -5852,7 +6199,7 @@
   },
   "id": "krull-1983",
   "dbid": 849,
-  "runtime_m": 117
+  "runtime_m": 121
  },
  {
   "watched": false,
@@ -5928,14 +6275,18 @@
   },
   "id": "city-of-lost-children-1995",
   "dbid": 902,
-  "runtime_m": 108
+  "runtime_m": 113
  },
  {
   "watched": false,
   "title": "The Big Lebowski",
   "year": "1998",
   "runtime_hm": "1h57m",
-  "links": {},
+  "links": {
+   " trailer": [
+    "https://youtu.be/cd-go0oBF4Y"
+   ]
+  },
   "id": "the-big-lebowski-1998",
   "dbid": 115,
   "runtime_m": 117
@@ -5944,7 +6295,13 @@
   "watched": false,
   "title": "Fear and Loathing in Las Vegas",
   "year": "1998",
-  "links": {},
+  "runtime_hm": "1h58m",
+  "links": {
+   " trailer": [
+    "https://youtu.be/4iOslycQDwQ",
+    "https://youtu.be/CiTllYeJc48"
+   ]
+  },
   "id": "fear-and-loathing-in-las-vegas-1998",
   "dbid": 1878,
   "runtime_m": 118
@@ -6120,7 +6477,7 @@
   },
   "id": "the-pirate-movie-1982",
   "dbid": 25872,
-  "runtime_m": 98
+  "runtime_m": 105
  },
  {
   "watched": true,
@@ -6153,7 +6510,8 @@
   "runtime_m": 97
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "06.08.24",
   "title": "Monty Python's The Meaning of Life",
   "year": "1983",
   "links": {
@@ -6162,6 +6520,9 @@
     "https://youtu.be/wMJ24QwHdCY"
    ]
   },
+  "watchdate_arr": [
+   "20240608"
+  ],
   "id": "monty-pythons-the-meaning-of-life-1983",
   "dbid": 4543,
   "runtime_m": 107
@@ -6306,7 +6667,7 @@
   },
   "id": "guys-and-dolls-1955",
   "dbid": 4825,
-  "runtime_m": 150
+  "runtime_m": 149
  },
  {
   "watched": false,
@@ -7642,17 +8003,23 @@
   "runtime_m": 135
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "06.29.24",
   "title": "The Postman",
   "year": "1997",
+  "runtime_hm": "2h57m",
   "links": {
-   "trailer": [
-    "https://youtu.be/V43K5yFn5GM"
+   " trailer": [
+    "https://youtu.be/V43K5yFn5GM",
+    "https://youtu.be/6iF3FakmIkk"
    ]
   },
+  "watchdate_arr": [
+   "20240629"
+  ],
   "id": "the-postman-1997",
   "dbid": 9922,
-  "runtime_m": 178
+  "runtime_m": 177
  },
  {
   "watched": true,
@@ -7780,7 +8147,9 @@
     "https://youtu.be/9JKZKjFjHDM"
    ]
   },
-  "id": "mad-max-beyond-the-thunderdome-1985"
+  "id": "mad-max-beyond-the-thunderdome-1985",
+  "dbid": 1295430,
+  "runtime_m": 52
  },
  {
   "watched": true,
@@ -8345,23 +8714,6 @@
  },
  {
   "watched": false,
-  "title": "Gone With the Wind",
-  "year": "1939",
-  "runtime_hm": "3h42m",
-  "links": {
-   " trailer": [
-    "https://youtu.be/0X94oZgJis4"
-   ],
-   " modern": [
-    "https://youtu.be/h2oX0zQA67U"
-   ]
-  },
-  "id": "gone-with-the-wind-1939",
-  "dbid": 770,
-  "runtime_m": 233
- },
- {
-  "watched": false,
   "title": "Glory",
   "year": "1989",
   "runtime_hm": "2h2m",
@@ -8568,7 +8920,7 @@
   "links": {},
   "id": "the-assassination-of-jesse-james-by-the-coward-robert-ford-2007",
   "dbid": 4512,
-  "runtime_m": 160
+  "runtime_m": 159
  },
  {
   "watched": true,
@@ -9071,7 +9423,8 @@
   "runtime_m": 109
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "06.15.24",
   "title": "Zardoz",
   "year": "1974",
   "runtime_hm": "1h45m",
@@ -9080,6 +9433,9 @@
     "https://youtu.be/FSjCkISrJfQ"
    ]
   },
+  "watchdate_arr": [
+   "20240615"
+  ],
   "id": "zardoz-1974",
   "dbid": 4923,
   "runtime_m": 105
@@ -9111,7 +9467,7 @@
   },
   "id": "police-story-2-1988",
   "dbid": 10753,
-  "runtime_m": 122
+  "runtime_m": 105
  },
  {
   "watched": true,
@@ -9124,7 +9480,7 @@
   },
   "id": "supercop-police-story-3-1992",
   "dbid": 11134,
-  "runtime_m": 95
+  "runtime_m": 96
  },
  {
   "watched": true,
@@ -10081,6 +10437,58 @@
   "runtime_m": 141
  },
  {
+  "watched": false,
+  "title": "Jabberwocky",
+  "year": "1977",
+  "links": {
+   " trailer": [
+    "https://youtu.be/9CLlFk97FBk"
+   ]
+  },
+  "id": "jabberwocky-1977",
+  "dbid": 11834,
+  "runtime_m": 105
+ },
+ {
+  "watched": false,
+  "title": "The Brothers Grimm",
+  "year": "2005",
+  "links": {
+   " trailer": [
+    "https://youtu.be/ohxNxVlk2GQ"
+   ]
+  },
+  "id": "the-brothers-grimm-2005",
+  "dbid": 4442,
+  "runtime_m": 118
+ },
+ {
+  "watched": false,
+  "title": "The Zero Theorem",
+  "year": "2014",
+  "links": {
+   " trailer": [
+    "https://youtu.be/HWgPnQi-XG4"
+   ]
+  },
+  "id": "the-zero-theorem-2014",
+  "dbid": 157834,
+  "runtime_m": 107
+ },
+ {
+  "watched": false,
+  "title": "The Man Who Killed Don Quixote",
+  "year": "2019",
+  "links": {
+   " trailer": [
+    "https://youtu.be/yiiRZJUTT2k"
+   ]
+  },
+  "id": "the-man-who-killed-don-quixote-2019",
+  "dbid": 297725,
+  "runtime_m": 133
+ },
+ {
   "watched": true,
   "watchdate": "05.04.24",
   "title": "Star Wars (Episode IV) - A New Hope",
@@ -10154,7 +10562,8 @@
   "runtime_m": 132
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "05.11.24",
   "title": "Star Wars (Episode I) - The Phantom Menace",
   "year": "1999",
   "runtime_hm": "2h11m",
@@ -10166,12 +10575,16 @@
     "https://youtu.be/Fo--sWDK_nU"
    ]
   },
+  "watchdate_arr": [
+   "20240511"
+  ],
   "id": "star-wars-episode-i-the-phantom-menace-1999",
   "dbid": 1893,
   "runtime_m": 136
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "05.18.24",
   "title": "Star Wars (Episode II) - Attack of the Clones",
   "year": "2002",
   "links": {
@@ -10186,12 +10599,16 @@
     "https://youtu.be/qr19XI5iCKA"
    ]
   },
+  "watchdate_arr": [
+   "20240518"
+  ],
   "id": "star-wars-episode-ii-attack-of-the-clones-2002",
   "dbid": 1894,
   "runtime_m": 142
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "05.25.24",
   "title": "Star Wars (Episode III) - Revenge of the Sith",
   "year": "2005",
   "runtime_hm": "2h20m",
@@ -10203,9 +10620,82 @@
     "https://youtu.be/5UnjrG_N8hU"
    ]
   },
+  "watchdate_arr": [
+   "20240525"
+  ],
   "id": "star-wars-episode-iii-revenge-of-the-sith-2005",
   "dbid": 1895,
   "runtime_m": 140
+ },
+ {
+  "watched": true,
+  "watchdate": "06.01.24",
+  "title": "Star Wars Rogue One - A Star Wars Story",
+  "year": "2016",
+  "runtime_hm": "2h13m",
+  "links": {
+   " trailer": [
+    "https://youtu.be/Wji-BZ0oCwg"
+   ],
+   "trailer": [
+    "https://youtu.be/sC9abcLLQpI"
+   ]
+  },
+  "watchdate_arr": [
+   "20240601"
+  ],
+  "id": "star-wars-rogue-one-a-star-wars-story-2016",
+  "dbid": 330459,
+  "runtime_m": 133
+ },
+ {
+  "watched": true,
+  "watchdate": "06.29.24",
+  "title": "Caravan of Courage: An Ewok Adventure",
+  "year": "1984",
+  "runtime_hm": "1h37m",
+  "links": {
+   " trailer": [
+    "https://youtu.be/CTwX5LDteo4"
+   ],
+   " modern": [
+    "https://youtu.be/DMGd42hmX4U"
+   ]
+  },
+  "watchdate_arr": [
+   "20240629"
+  ],
+  "id": "caravan-of-courage-an-ewok-adventure-1984",
+  "dbid": 1884,
+  "runtime_m": 96
+ },
+ {
+  "watched": false,
+  "title": "Ewoks: The Battle for Endor",
+  "year": "1985",
+  "runtime_hm": "1h37m",
+  "links": {
+   " trailer": [
+    "https://youtu.be/lfMWlAF5RW0"
+   ]
+  },
+  "id": "ewoks-the-battle-for-endor-1985",
+  "dbid": 10372,
+  "runtime_m": 100
+ },
+ {
+  "watched": false,
+  "title": "Solo: A Star Wars Story",
+  "year": "2018",
+  "runtime_hm": "2h15m",
+  "links": {
+   " trailer": [
+    "https://youtu.be/jPEYpryMp2s"
+   ]
+  },
+  "id": "solo-a-star-wars-story-2018",
+  "dbid": 348350,
+  "runtime_m": 135
  },
  {
   "watched": false,
@@ -10917,7 +11407,6 @@
   "watched": true,
   "title": "Star Trek II: The Wrath of Khan",
   "year": "1982",
-  "runtime_hm": "2h0m",
   "links": {},
   "id": "star-trek-ii-the-wrath-of-khan-1982",
   "dbid": 154,
@@ -10986,7 +11475,7 @@
   },
   "id": "stargate-1994",
   "dbid": 2164,
-  "runtime_m": 116
+  "runtime_m": 121
  },
  {
   "watched": false,
@@ -11361,6 +11850,102 @@
   "runtime_m": 93
  },
  {
+  "watched": false,
+  "title": "Eliminators",
+  "year": "1986",
+  "runtime_hm": "1h34m",
+  "links": {
+   " trailer": [
+    "https://youtu.be/8nHhkYtYDIo"
+   ]
+  },
+  "id": "eliminators-1986",
+  "dbid": 47822,
+  "runtime_m": 96
+ },
+ {
+  "watched": false,
+  "title": "Amanda and the Alien",
+  "year": "1995",
+  "links": {
+   " trailer": [
+    "https://youtu.be/HlvFV4LvJ0U"
+   ]
+  },
+  "id": "amanda-and-the-alien-1995",
+  "dbid": 140176,
+  "runtime_m": 96
+ },
+ {
+  "watched": false,
+  "title": "The Wicked Lady",
+  "year": "1983",
+  "links": {
+   " trailer": [
+    "https://youtu.be/PZnfEUCJGsc"
+   ]
+  },
+  "id": "the-wicked-lady-1983",
+  "dbid": 110683,
+  "runtime_m": 98
+ },
+ {
+  "watched": false,
+  "title": "Gadgetman",
+  "year": "1996",
+  "runtime_hm": "1h30m",
+  "links": {
+   " movie": [
+    "https://tubitv.com/movies/100005517/gadgetman"
+   ]
+  },
+  "id": "gadgetman-1996",
+  "dbid": 128628,
+  "runtime_m": 90
+ },
+ {
+  "watched": false,
+  "title": "Camp Nowhere",
+  "year": "1994",
+  "runtime_hm": "1h36m",
+  "links": {
+   " trailer": [
+    "https://youtu.be/iIm2e94E3a8"
+   ]
+  },
+  "id": "camp-nowhere-1994",
+  "dbid": 17745,
+  "runtime_m": 96
+ },
+ {
+  "watched": false,
+  "title": "Brothers of the Frontier",
+  "year": "1996",
+  "runtime_hm": "1h26m",
+  "links": {
+   " movie": [
+    "https://youtu.be/6etdbQSE45g"
+   ]
+  },
+  "id": "brothers-of-the-frontier-1996",
+  "dbid": 245584,
+  "runtime_m": 91
+ },
+ {
+  "watched": false,
+  "title": "Serial Mom",
+  "year": "1994",
+  "runtime_hm": "1h35m",
+  "links": {
+   " trailer": [
+    "https://youtu.be/OAcimdt8Po0"
+   ]
+  },
+  "id": "serial-mom-1994",
+  "dbid": 11592,
+  "runtime_m": 94
+ },
+ {
   "watched": true,
   "watchdate": "01.14.23",
   "title": "The Omega Man",
@@ -11477,8 +12062,9 @@
   "watched": false,
   "title": "Surf Nazis Must Die",
   "year": "1987",
+  "runtime_hm": "1h23m",
   "links": {
-   "trailer": [
+   " trailer": [
     "https://youtu.be/Fg5IsQKBE4g"
    ]
   },
@@ -12518,6 +13104,16 @@
   "runtime_m": 132
  },
  {
+  "watched": false,
+  "title": "First Knight",
+  "year": "1995",
+  "runtime_hm": "2h14m",
+  "links": {},
+  "id": "first-knight-1995",
+  "dbid": 6520,
+  "runtime_m": 134
+ },
+ {
   "watched": true,
   "watchdate": "4.23.2022",
   "title": "Come and See",
@@ -13186,8 +13782,8 @@
    ]
   },
   "id": "jack-frost-1998",
-  "dbid": 9745,
-  "runtime_m": 101
+  "dbid": 27318,
+  "runtime_m": 89
  },
  {
   "watched": false,
@@ -13363,6 +13959,32 @@
   "id": "christmas-in-connecticut-1992",
   "dbid": 55596,
   "runtime_m": 93
+ },
+ {
+  "watched": false,
+  "title": "Bad Santa",
+  "year": "2003",
+  "links": {
+   " trailer": [
+    "https://youtu.be/cvXyEiIoH2c"
+   ]
+  },
+  "id": "bad-santa-2003",
+  "dbid": 10147,
+  "runtime_m": 92
+ },
+ {
+  "watched": false,
+  "title": "The Holiday",
+  "year": "2006",
+  "links": {
+   " trailer": [
+    "https://youtu.be/j3tlQzBEoXo"
+   ]
+  },
+  "id": "the-holiday-2006",
+  "dbid": 1581,
+  "runtime_m": 136
  },
  {
   "watched": true,
