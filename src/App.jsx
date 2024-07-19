@@ -740,24 +740,6 @@ function MovieTitle({movie, tmdb})
   //   );
   // })
 
-  //TODO: delete? this was originally supposed
-  //to set size of font based on window width but
-  //font-size: ##vw worked better, so maybe delete?
-  // console.log(window.innerWidth);
-  // let window_width = window.innerWidth;
-  // let title_length = movie.title.length;
-  // console.log("title length: ", title_length);
-  // function fontSize() {
-  //   let max_size = "3.2em"
-  //   let final_size = 0;
-  //   if (window_width > title_length*40) {
-  //     final_size = max_size;
-  //   } else {
-  //     final_size = window_width/(title_length*40).toString() + "em";
-  //   }
-  //   return final_size;
-  // }
-
   //font size should be ____ when window width > string length
   //if the window width is larger than the string length
   //font size should max out at that point
@@ -793,7 +775,10 @@ function MovieTitle({movie, tmdb})
       <div className="vote">
         <button onClick={() => setCount((count) => count + 1)}>
           Vote for this movie! {count}
+          Copy this into the movie-vote discord:
+          /vote {movie.dbid}
         </button>
+
         <h3>Last Watched: </h3>
         <h2>{movie.watchdate}</h2>
       </div>
