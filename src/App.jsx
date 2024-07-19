@@ -775,10 +775,9 @@ function MovieTitle({movie, tmdb})
       <div className="vote">
         <button onClick={() => setCount((count) => count + 1)}>
           Vote for this movie! {count}
-          Copy this into the movie-vote discord:
-          /vote {movie.dbid}
         </button>
-
+        Copy this into the movie-vote discord:
+        /vote {movie.dbid}
         <h3>Last Watched: </h3>
         <h2>{movie.watchdate}</h2>
       </div>
