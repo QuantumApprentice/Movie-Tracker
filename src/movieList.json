@@ -267,8 +267,8 @@
    ]
   },
   "id": "creature-1985",
-  "dbid": 58903,
-  "runtime_m": 97
+  "dbid": 84068,
+  "runtime_m": 82
  },
  {
   "watched": false,
@@ -2423,6 +2423,25 @@
  },
  {
   "watched": false,
+  "title": "Sneakers",
+  "year": "1992",
+  "runtime_hm": "2h6m",
+  "links": {},
+  "id": "sneakers-1992",
+  "dbid": 2322,
+  "runtime_m": 126
+ },
+ {
+  "watched": false,
+  "title": "See no Evil Hear no Evil",
+  "links": {},
+  "id": "see-no-evil-hear-no-evil-1989",
+  "year": "1989",
+  "dbid": 11185,
+  "runtime_m": 103
+ },
+ {
+  "watched": false,
   "title": "One Cut of the Dead",
   "year": "2017",
   "runtime_hm": "1h36m",
@@ -2618,6 +2637,20 @@
  },
  {
   "watched": false,
+  "title": "Drive",
+  "year": "2011",
+  "runtime_hm": "1h40m",
+  "links": {
+   " trailer": [
+    "https://youtu.be/KBiOF3y1W0Y"
+   ]
+  },
+  "id": "drive-2011",
+  "dbid": 64690,
+  "runtime_m": 100
+ },
+ {
+  "watched": false,
   "title": "Replicas",
   "year": "2019",
   "runtime_hm": "1h47m",
@@ -2629,6 +2662,15 @@
   "id": "replicas-2019",
   "dbid": 300681,
   "runtime_m": 107
+ },
+ {
+  "watched": false,
+  "title": "Uptown Saturday Night",
+  "links": {},
+  "id": "uptown-saturday-night-1974",
+  "year": "1974",
+  "dbid": 29464,
+  "runtime_m": 104
  },
  {
   "watched": false,
@@ -3113,7 +3155,7 @@
   },
   "id": "beverly-hills-cop-axel-f-2024",
   "dbid": 280180,
-  "runtime_m": 0
+  "runtime_m": 118
  },
  {
   "watched": true,
@@ -3444,19 +3486,6 @@
   "id": "the-punisher-1989",
   "dbid": 8867,
   "runtime_m": 89
- },
- {
-  "watched": false,
-  "title": "Moscow on the Hudson",
-  "year": "1984",
-  "links": {
-   " trailer": [
-    "https://youtu.be/OW6ukDwwXd8"
-   ]
-  },
-  "id": "moscow-on-the-hudson-1984",
-  "dbid": 23111,
-  "runtime_m": 115
  },
  {
   "watched": false,
@@ -4337,8 +4366,8 @@
   "runtime_hm": "2h6m",
   "links": {},
   "id": "bullet-train-2022",
-  "dbid": 1006540,
-  "runtime_m": 86
+  "dbid": 718930,
+  "runtime_m": 126
  },
  {
   "watched": true,
@@ -5301,7 +5330,8 @@
   "runtime_m": 123
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "07.06.24",
   "title": "Collateral Damage",
   "year": "2002",
   "runtime_hm": "1h48m",
@@ -5311,12 +5341,16 @@
     "https://youtu.be/OLlj81YaWFA"
    ]
   },
+  "watchdate_arr": [
+   "20240706"
+  ],
   "id": "collateral-damage-2002",
   "dbid": 9884,
   "runtime_m": 108
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "07.13.24",
   "title": "Terminator 3: Rise of the Machines",
   "year": "2003",
   "runtime_hm": "1h49m",
@@ -5329,8 +5363,131 @@
     "https://youtu.be/5UgPJhyJmlM"
    ]
   },
+  "watchdate_arr": [
+   "20240713"
+  ],
   "id": "terminator-3-rise-of-the-machines-2003",
   "dbid": 296,
+  "runtime_m": 109
+ },
+ {
+  "watched": true,
+  "watchdate": "07.20.24",
+  "title": "The Rundown",
+  "year": "2003",
+  "runtime_hm": "1h44m",
+  "links": {
+   " trailer": [
+    "https://youtu.be/1q7g-MJAnRI"
+   ]
+  },
+  "watchdate_arr": [
+   "20240720"
+  ],
+  "id": "the-rundown-2003",
+  "dbid": 10159,
+  "runtime_m": 104
+ },
+ {
+  "watched": true,
+  "watchdate": "07.27.24",
+  "title": "Around the World in 80 Days",
+  "year": "2004",
+  "links": {
+   " trailer": [
+    "https://youtu.be/k2XNULhMC18"
+   ]
+  },
+  "watchdate_arr": [
+   "20240727"
+  ],
+  "id": "around-the-world-in-80-days-2004",
+  "dbid": 10204,
+  "runtime_m": 120
+ },
+ {
+  "watched": false,
+  "title": "The Kid and I",
+  "year": "2005",
+  "runtime_hm": "1h33m",
+  "links": {
+   " trailer": [
+    "https://youtu.be/avm4rESwujw"
+   ]
+  },
+  "id": "the-kid-and-i-2005",
+  "dbid": 1165673,
+  "runtime_m": 0
+ },
+ {
+  "watched": false,
+  "title": "The Expendables",
+  "year": "2010",
+  "runtime_hm": "1h43m",
+  "links": {
+   " trailer": [
+    "https://youtu.be/UKc_P6iLVwA"
+   ]
+  },
+  "id": "the-expendables-2010",
+  "dbid": 27578,
+  "runtime_m": 103
+ },
+ {
+  "watched": false,
+  "title": "The Expendables 2",
+  "year": "2012",
+  "runtime_hm": "1h43m",
+  "links": {
+   " trailer": [
+    "https://youtu.be/ip_CYHdyUBs"
+   ]
+  },
+  "id": "the-expendables-2-2012",
+  "dbid": 76163,
+  "runtime_m": 103
+ },
+ {
+  "watched": false,
+  "title": "The Last Stand",
+  "year": "2013",
+  "runtime_hm": "1h47m",
+  "links": {
+   " trailer": [
+    "https://youtu.be/oc0x-jiewTE",
+    "https://youtu.be/qUFGVlE1GNQ"
+   ]
+  },
+  "id": "the-last-stand-2013",
+  "dbid": 76640,
+  "runtime_m": 107
+ },
+ {
+  "watched": false,
+  "title": "Escape Plan",
+  "year": "2013",
+  "runtime_hm": "1h55m",
+  "links": {
+   " trailer": [
+    "https://youtu.be/CI4EjV_x_PQ"
+   ]
+  },
+  "id": "escape-plan-2013",
+  "dbid": 107846,
+  "runtime_m": 115
+ },
+ {
+  "watched": false,
+  "title": "Children of Men",
+  "year": "2006",
+  "runtime_hm": "1h49m",
+  "links": {
+   " trailer": [
+    "https://youtu.be/3CdJYhtjEns"
+   ]
+  },
+  "id": "children-of-men-2006",
+  "dbid": 9693,
   "runtime_m": 109
  },
  {
@@ -5345,6 +5502,34 @@
   "id": "constantine-2005",
   "dbid": 561,
   "runtime_m": 121
+ },
+ {
+  "watched": false,
+  "title": "Ninth Gate",
+  "year": "1999",
+  "runtime_hm": "2h13m",
+  "links": {
+   " trailer": [
+    "https://youtu.be/IKc1n-nIIx0"
+   ]
+  },
+  "id": "ninth-gate-1999",
+  "dbid": 622,
+  "runtime_m": 133
+ },
+ {
+  "watched": false,
+  "title": "Moscow on the Hudson",
+  "year": "1984",
+  "runtime_hm": "1h55m",
+  "links": {
+   " trailer": [
+    "https://youtu.be/OW6ukDwwXd8"
+   ]
+  },
+  "id": "moscow-on-the-hudson-1984",
+  "dbid": 23111,
+  "runtime_m": 115
  },
  {
   "watched": false,
@@ -5439,7 +5624,8 @@
   "runtime_m": 95
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "07.27.24",
   "title": "Shaun of the Dead",
   "year": "2004",
   "runtime_hm": "1h37m",
@@ -5448,12 +5634,16 @@
     "https://youtu.be/f9XZqB6pI5E"
    ]
   },
+  "watchdate_arr": [
+   "20240727"
+  ],
   "id": "shaun-of-the-dead-2004",
   "dbid": 747,
   "runtime_m": 99
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "08.03.24",
   "title": "Hot Fuzz",
   "year": "2007",
   "runtime_hm": "2h1m",
@@ -5462,6 +5652,9 @@
     "https://youtu.be/ayTnvVpj9t4"
    ]
   },
+  "watchdate_arr": [
+   "20240803"
+  ],
   "id": "hot-fuzz-2007",
   "dbid": 4638,
   "runtime_m": 121
@@ -6003,6 +6196,16 @@
   "id": "immortal-2004",
   "dbid": 5552,
   "runtime_m": 103
+ },
+ {
+  "watched": false,
+  "title": "V for Vendetta",
+  "year": "2005",
+  "runtime_hm": "2h12m",
+  "links": {},
+  "id": "v-for-vendetta-2005",
+  "dbid": 752,
+  "runtime_m": 132
  },
  {
   "watched": true,
@@ -6706,7 +6909,7 @@
   },
   "id": "meet-me-in-st-louis-1944",
   "dbid": 909,
-  "runtime_m": 113
+  "runtime_m": 114
  },
  {
   "watched": true,
@@ -6905,9 +7108,7 @@
     "https://youtu.be/SczK22jpRvk"
    ]
   },
-  "id": "one-from-the-heart-1981",
-  "dbid": 41291,
-  "runtime_m": 107
+  "id": "one-from-the-heart-1981"
  },
  {
   "watched": false,
@@ -7178,7 +7379,11 @@
   "title": "Anchorman",
   "year": "2004",
   "runtime_hm": "1h34m",
-  "links": {},
+  "links": {
+   " trailer": [
+    "https://youtu.be/QvJ1K0_JzFI"
+   ]
+  },
   "id": "anchorman-2004",
   "dbid": 8699,
   "runtime_m": 95
@@ -7246,6 +7451,16 @@
   "id": "chungking-express-1994",
   "dbid": 11104,
   "runtime_m": 103
+ },
+ {
+  "watched": false,
+  "title": "Mean Girls",
+  "year": "2004",
+  "runtime_hm": "1h37m",
+  "links": {},
+  "id": "mean-girls-2004",
+  "dbid": 10625,
+  "runtime_m": 97
  },
  {
   "watched": false,
@@ -7381,7 +7596,8 @@
   "runtime_m": 129
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "07.21.24",
   "title": "Dodgeball",
   "year": "2004",
   "runtime_hm": "1h32m",
@@ -7391,6 +7607,9 @@
     "https://youtu.be/eDqXTWu5rew"
    ]
   },
+  "watchdate_arr": [
+   "20240721"
+  ],
   "id": "dodgeball-2004",
   "dbid": 9472,
   "runtime_m": 92
@@ -8022,6 +8241,16 @@
   "runtime_m": 177
  },
  {
+  "watched": false,
+  "title": "Born on the Fourth of July",
+  "year": "1989",
+  "runtime_hm": "2h25m",
+  "links": {},
+  "id": "born-on-the-fourth-of-july-1989",
+  "dbid": 2604,
+  "runtime_m": 145
+ },
+ {
   "watched": true,
   "watchdate": "12.24.22",
   "title": "Mr Smith Goes to Washington",
@@ -8408,7 +8637,7 @@
   ],
   "id": "ghost-in-the-shell-1995",
   "dbid": 9323,
-  "runtime_m": 82
+  "runtime_m": 83
  },
  {
   "watched": false,
@@ -9040,7 +9269,7 @@
   ],
   "id": "universal-soldier-1992",
   "dbid": 9349,
-  "runtime_m": 102
+  "runtime_m": 103
  },
  {
   "watched": false,
@@ -9695,6 +9924,26 @@
   "runtime_m": 113
  },
  {
+  "watched": false,
+  "title": "The Sandlot",
+  "year": "1993",
+  "runtime_hm": "1h41m",
+  "links": {},
+  "id": "the-sandlot-1993",
+  "dbid": 11528,
+  "runtime_m": 101
+ },
+ {
+  "watched": false,
+  "title": "Stand By Me",
+  "year": "1986",
+  "runtime_hm": "1h29m",
+  "links": {},
+  "id": "stand-by-me-1986",
+  "dbid": 235,
+  "runtime_m": 89
+ },
+ {
   "watched": true,
   "watchdate": "07.15.23",
   "title": "Mission: Impossible",
@@ -9825,6 +10074,25 @@
   "id": "top-gun-1986",
   "dbid": 744,
   "runtime_m": 110
+ },
+ {
+  "watched": false,
+  "title": "Top Gun: Maverick",
+  "year": "2022",
+  "links": {},
+  "id": "top-gun-maverick-2022",
+  "dbid": 361743,
+  "runtime_m": 131
+ },
+ {
+  "watched": false,
+  "title": "The Outsiders",
+  "year": "1983",
+  "runtime_hm": "1h31m",
+  "links": {},
+  "id": "the-outsiders-1983",
+  "dbid": 227,
+  "runtime_m": 115
  },
  {
   "watched": false,
@@ -10020,9 +10288,11 @@
   "watched": false,
   "title": "Hard Target",
   "year": "1993",
+  "runtime_hm": "1h37m",
   "links": {
-   "trailer": [
-    "https://youtu.be/up0OxQjIY-c"
+   " trailer": [
+    "https://youtu.be/up0OxQjIY-c",
+    "https://youtu.be/ckl8Zb5tOTI"
    ]
   },
   "id": "hard-target-1993",
@@ -10237,8 +10507,9 @@
   "watched": false,
   "title": "Immortals",
   "year": "2011",
+  "runtime_hm": "1h50m",
   "links": {
-   "trailer": [
+   " trailer": [
     "https://youtu.be/GSmJ5UXtUnk"
    ]
   },
@@ -10440,6 +10711,7 @@
   "watched": false,
   "title": "Jabberwocky",
   "year": "1977",
+  "runtime_hm": "1h45m",
   "links": {
    " trailer": [
     "https://youtu.be/9CLlFk97FBk"
@@ -10670,7 +10942,8 @@
   "runtime_m": 96
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "07.06.24",
   "title": "Ewoks: The Battle for Endor",
   "year": "1985",
   "runtime_hm": "1h37m",
@@ -10679,12 +10952,16 @@
     "https://youtu.be/lfMWlAF5RW0"
    ]
   },
+  "watchdate_arr": [
+   "20240706"
+  ],
   "id": "ewoks-the-battle-for-endor-1985",
   "dbid": 10372,
   "runtime_m": 100
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "07.13.24",
   "title": "Solo: A Star Wars Story",
   "year": "2018",
   "runtime_hm": "2h15m",
@@ -10693,9 +10970,50 @@
     "https://youtu.be/jPEYpryMp2s"
    ]
   },
+  "watchdate_arr": [
+   "20240713"
+  ],
   "id": "solo-a-star-wars-story-2018",
   "dbid": 348350,
   "runtime_m": 135
+ },
+ {
+  "watched": false,
+  "title": "Lord of the Rings: Fellowship of the Ring: Extended",
+  "year": "2001",
+  "runtime_hm": "3h48m",
+  "links": {
+   " trailer": [
+    "https://youtu.be/aStYWD25fAQ",
+    "https://youtu.be/V75dMMIW2B4"
+   ]
+  },
+  "id": "lord-of-the-rings-fellowship-of-the-ring-extended-2001"
+ },
+ {
+  "watched": false,
+  "title": "Lord of the Rings: The Two Towers: Extended",
+  "year": "2002",
+  "runtime_hm": "3h55m",
+  "links": {
+   " trailer": [
+    "https://youtu.be/LbfMDwc4azU",
+    "https://youtu.be/hYcw5ksV8YQ"
+   ]
+  },
+  "id": "lord-of-the-rings-the-two-towers-extended-2002"
+ },
+ {
+  "watched": false,
+  "title": "Lord of the Rings: The Return of the King: Extended",
+  "year": "2003",
+  "runtime_hm": "4h23m",
+  "links": {
+   " trailer": [
+    "https://youtu.be/r5X-hFf6Bwo"
+   ]
+  },
+  "id": "lord-of-the-rings-the-return-of-the-king-extended-2003"
  },
  {
   "watched": false,
@@ -11351,9 +11669,7 @@
     "https://youtu.be/UjjiE0OD4K0"
    ]
   },
-  "id": "space-cop-2016",
-  "dbid": 1280693,
-  "runtime_m": 102
+  "id": "space-cop-2016"
  },
  {
   "watched": false,
@@ -11466,7 +11782,7 @@
   "title": "Stargate",
   "year": "1994",
   "links": {
-   "trailer": [
+   " trailer": [
     "https://youtu.be/kiJtZUPvJxY"
    ],
    " movie": [
@@ -12202,7 +12518,8 @@
   "runtime_m": 121
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "06.08.24",
   "title": "Batman & Robin",
   "year": "1997",
   "links": {
@@ -12210,14 +12527,17 @@
     "https://youtu.be/4RBXypX4qWI"
    ]
   },
+  "watchdate_arr": [
+   "20240608"
+  ],
   "id": "batman-robin-1997",
   "dbid": 415,
   "runtime_m": 125
  },
  {
   "watched": true,
-  "watchdate": "11.05.23.23",
-  "title": "Th|Batman: The Movie",
+  "watchdate": "11.05.23",
+  "title": "Batman: The Movie",
   "year": "1966",
   "runtime_hm": "1h44m",
   "links": {
@@ -12226,9 +12546,11 @@
    ]
   },
   "watchdate_arr": [
-   "23.231105"
+   "20231105"
   ],
-  "id": "th-batman-the-movie-1966"
+  "id": "batman-the-movie-1966",
+  "dbid": 2661,
+  "runtime_m": 105
  },
  {
   "watched": true,
@@ -12250,7 +12572,8 @@
  },
  {
   "watched": true,
-  "title": "11.25.e Dark Knight",
+  "watchdate": "11.25.23",
+  "title": "The Dark Knight",
   "year": "2008",
   "runtime_hm": "2h32m",
   "links": {
@@ -12258,7 +12581,12 @@
     "https://youtu.be/EXeTwQWrcwY"
    ]
   },
-  "id": "11-25-e-dark-knight-2008"
+  "watchdate_arr": [
+   "20231125"
+  ],
+  "id": "the-dark-knight-2008",
+  "dbid": 155,
+  "runtime_m": 152
  },
  {
   "watched": true,
@@ -12439,7 +12767,7 @@
   },
   "id": "the-outsiders-1983",
   "dbid": 227,
-  "runtime_m": 91
+  "runtime_m": 115
  },
  {
   "watched": true,
@@ -12457,6 +12785,62 @@
   "id": "mystery-men-1999",
   "dbid": 9824,
   "runtime_m": 121
+ },
+ {
+  "watched": false,
+  "title": "Zoolander",
+  "year": "2001",
+  "runtime_hm": "1h45m",
+  "links": {
+   " trailer": [
+    "https://youtu.be/MaEeSJZYkpY"
+   ]
+  },
+  "id": "zoolander-2001",
+  "dbid": 9398,
+  "runtime_m": 90
+ },
+ {
+  "watched": false,
+  "title": "There's Something About Mary",
+  "year": "1998",
+  "runtime_hm": "2h10m",
+  "links": {
+   " trailer": [
+    "https://youtu.be/503D8hOfE_8"
+   ]
+  },
+  "id": "theres-something-about-mary-1998",
+  "dbid": 544,
+  "runtime_m": 119
+ },
+ {
+  "watched": false,
+  "title": "Megamind",
+  "year": "2010",
+  "runtime_hm": "1h35m",
+  "links": {
+   " trailer": [
+    "https://youtu.be/6CJUQr4Vs40"
+   ]
+  },
+  "id": "megamind-2010",
+  "dbid": 38055,
+  "runtime_m": 96
+ },
+ {
+  "watched": false,
+  "title": "Hamlet 2",
+  "year": "2008",
+  "runtime_hm": "1h32m",
+  "links": {
+   " trailer": [
+    "https://youtu.be/FCQr7x9WtJ0"
+   ]
+  },
+  "id": "hamlet-2-2008",
+  "dbid": 12621,
+  "runtime_m": 92
  },
  {
   "watched": true,

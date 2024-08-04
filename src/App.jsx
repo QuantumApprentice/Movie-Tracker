@@ -53,10 +53,6 @@ export function DisplayList()
       // }
 
       return (
-      // let tmdb    = tmdbList?.find(m=>m.id === movie.dbid);
-      // let src = err ? `https://image.tmdb.org/t/p/w1280/${tmdb?.backdrop_path}`
-      // : `/bg/${tmdb.bg}`;
-
         <tr  className='movie-list' key={idx}
           style={
             // trStyle
@@ -103,11 +99,6 @@ export function DisplayList()
     , [movieList]
   )
 
-  // movieList = movieJson;
-
-  // console.log(movieList);
-  // console.log(movieJson);
-
   function set_sort(sort_type) {
     setMovieList(()=>{
       return sort_type(sortDir === "sort_dn");
@@ -125,7 +116,6 @@ export function DisplayList()
   function format_date(date) {
     let year = date?.slice(0,4);
     let month = date?.slice(4,6);
-    // console.log(month);
     return date;
   }
 
@@ -776,8 +766,7 @@ function MovieTitle({movie, tmdb})
         <button onClick={() => setCount((count) => count + 1)}>
           Vote for this movie! {count}
         </button>
-        <h4>Use this in discord /movie-vote: 
-        {movie.dbid}</h4>
+        <h4>#movie-vote: {movie.dbid}</h4>
         <h3>Last Watched: </h3>
         <h2>{movie.watchdate}</h2>
       </div>
