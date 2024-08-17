@@ -85,7 +85,7 @@ async function parseList3()
     tempMovie.links = {};
     let links;
     while (links = linkRegex.exec(arr[6])) {
-      let type = links.groups.type || 'trailer';
+      let type = links.groups.type?.trimStart() || 'trailer';
       if (!tempMovie.links[type]) {
         tempMovie.links[type] = [];
       }
