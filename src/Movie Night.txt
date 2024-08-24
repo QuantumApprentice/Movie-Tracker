@@ -1,11 +1,6 @@
 #Horror Trailer Playlist https://youtube.com/playlist?list=PLywwjkBV6ND9OOZ05UxphXtlcle4lEEI0
 #Movie Tracker https://quantumapprentice.github.io/Movie-Tracker/
 
-#sample movies
-#-10.1.2022.|Christine (1983) teaser: https://youtu.be/ieBmy6qjiCI trailer: https://youtu.be/0Xq75RR7otQ
-#-10.15.22.|An American Werewolf in London (1981) trailer: https://youtu.be/ArJhUEAeiw0 modern: https://youtu.be/Tfz9AhPnM8c
-#-12.17.21./12.23.22.|Scrooged (1988) [1h41m] trailer: https://youtu.be/3OLRQfMOXOw
-
 The Adams Family (1991) trailer: https://youtu.be/A6X4VAHdDVg
 Angel Heart (1987) [1h53m] trailer: https://youtu.be/0iKzekw3xn8
 -10..2021.|A Nightmare on Elm Street (1984) trailer: https://youtu.be/dCVh4lBfW-c
@@ -315,7 +310,7 @@ A Bridge Too Far (1977) trailer: https://youtu.be/AWL184ZcSxA
 Air Force One (1997) https://youtu.be/cUclxtJDxh4
 Annihilation (2018) trailer: https://youtu.be/89OP78l9oF0
 Batteries Not Included (1987) https://youtu.be/rJmvsb13dA8
--Battle Royale (2000)
+-Battle Royale (2000) trailer: 
 -Battle Beyond the Stars (1980) movie: https://youtu.be/igPrv6LTjKA
 -5.07.2022.|Beverly Hills Ninja (1997) https://youtu.be/PzQ_nhVamu0
 Ben Hur (1959) trailer: https://youtu.be/SCJfUi3V3r4 modern: https://youtu.be/NR1ZHKw09n8
@@ -332,12 +327,12 @@ Kickass (2010) trailer: https://youtu.be/2rpXHqnGDXo
 
 Dark City (1998) [1h40m] trailer: 
 
--9.25.2022.|Brazil (1985) https://youtu.be/ZKPFC8DA9_8
+-9.25.2022.|Brazil (1985) trailer: https://youtu.be/ZKPFC8DA9_8
 -06.18.22.|Blues Brothers (1980) trailer: https://youtu.be/2HCR4c1zPyk
 -The Adventures of Buckaroo Banzai (1984) trailer: https://youtu.be/RdanCNK4ayo modern: https://youtu.be/ii9n8CMpLMk movie: https://youtu.be/XbUE0uahrBE
--06.18.2022.|Caddyshack (1980) https://youtu.be/vKlecXacidE
--07.02.2022.|Cherry 2000 (1987) https://youtu.be/BR542tQhXJo
-Cocoon (1985) https://youtu.be/HHamE8gmA8Q
+-06.18.2022.|Caddyshack (1980) trailer: https://youtu.be/vKlecXacidE
+-07.02.2022.|Cherry 2000 (1987) trailer: https://youtu.be/BR542tQhXJo
+Cocoon (1985) trailer: https://youtu.be/HHamE8gmA8Q
 -4.30.22.|Coneheads (1993) trailer: https://youtu.be/j15rPm4i-t8
 Sex and the Future (2020) [1h30m] trailer: https://youtu.be/MebuwemqMWU
 
@@ -464,7 +459,7 @@ Jingle All The Way (1996) [1h29m] trailer: https://youtu.be/jhJYMEzQA-Q
 -07.20.24.|The Rundown (2003) [1h44m] trailer: https://youtu.be/1q7g-MJAnRI
 -07.27.24.|Around the World in 80 Days (2004) [2h] trailer: https://youtu.be/k2XNULhMC18
 The Kid and I (2005) [1h33m] trailer: https://youtu.be/avm4rESwujw
-The Expendables (2010) [1h43m] trailer: https://youtu.be/UKc_P6iLVwA
+-08.17.24.|The Expendables (2010) [1h43m] trailer: https://youtu.be/UKc_P6iLVwA
 The Expendables 2 (2012) [1h43m] trailer: https://youtu.be/ip_CYHdyUBs
 The Last Stand (2013) [1h47m] trailer: https://youtu.be/oc0x-jiewTE trailer: https://youtu.be/qUFGVlE1GNQ
 Escape Plan (2013) [1h55m] trailer: https://youtu.be/CI4EjV_x_PQ
@@ -494,7 +489,7 @@ Final Cut (2004) [1h35m] trailer:
 
 -07.27.24.|Shaun of the Dead (2004) [1h37m] trailer: https://youtu.be/f9XZqB6pI5E
 -08.03.24.|Hot Fuzz (2007) [2h1m] trailer: https://youtu.be/ayTnvVpj9t4
-The Worlds End (2013) [1h49m] trailer: https://youtu.be/n__1Y-N5tQk https://youtu.be/Mtd3IwZoagY
+-08.17.24.|The World's End (2013) [1h49m] trailer: https://youtu.be/n__1Y-N5tQk https://youtu.be/Mtd3IwZoagY
 
 Encino Man (1992) [] trailer: https://youtu.be/L6tdW5k3tZk trailer: https://youtu.be/1xkTN1Z1rTQ
 Dave (1993) [1h50m] trailer: https://youtu.be/ynC1hITFIzQ
@@ -1095,10 +1090,10 @@ The Revenant (2015) https://youtu.be/LoebZZ8K5N0
 -Lethal Weapon 4 (1998) https://youtu.be/_qUUsgaHsS8 https://youtu.be/UhmRUBGhwoo https://youtu.be/l94zn2cLAgk
 
 -Planet Terror (2007) https://youtu.be/DCFQtc6BzyM
-FASTER, PUSSYCAT! KILL! KILL! (1965) [1h23m] https://youtu.be/cNABS8_aNlE https://youtu.be/k-tmCCBzHxQ
+FASTER, PUSSYCAT! KILL! KILL! (1965) [1h23m] https://youtu.be/cNABS8_aNlE
 
 Surf Nazis Must Die (1987) [1h23m] trailer: https://youtu.be/Fg5IsQKBE4g
--The State Counsellor (2005) https://youtu.be/Y65dGDY8y5k
+-The State Counsellor (2005) [2h14m] trailer: https://youtu.be/Y65dGDY8y5k
 Mannequin (1987) https://youtu.be/OTfhUj4LZVE
 Mannequin Two: On The Move (1991) movie: https://youtu.be/WFV22HSASkY
 Navy Seals (1990) trailer: https://youtu.be/J8Ygd0lpqVg
@@ -1119,10 +1114,12 @@ The Saint (1997) [1h56m] trailer: https://youtu.be/qkscr4gDcP8
 Fitzcarraldo (1982) trailer: https://youtu.be/xWeb7i8IjYs
 
 #Sergio Leone
-Once Upon a Time in America (1984) [3h49m] trailer: https://youtu.be/LcpCRyNo8T8
 -11.05.22.|A Fistful of Dollars (1964) trailer: https://youtu.be/RFWYI5buWlY movie: https://youtu.be/SAsZMSOFOjo
 -11.12.22.|For A Few Dollars More (1965) trailer: https://youtu.be/DDRNEwFOttw movie: https://youtu.be/B1CkZO06Qg4
 -11.19.22.|The Good, the Bad and the Ugly (1966) trailer: https://youtu.be/WCN5JJY_wiA movie: https://youtu.be/s4rh3YrFiEM
+Once Upon a Time in the West (1968) [] trailer: 
+Duck, You Sucker! (A Fistful of Dynamite) (Once Upon a Time in the Revolution) (1971) [] trailer: 
+Once Upon a Time in America (1984) [3h49m] trailer: https://youtu.be/LcpCRyNo8T8
 
 
 Mom and Dad Save the World (1992) trailer: https://youtu.be/stZpmjnB3ro movie: https://youtu.be/3MCC8eqQ1Vk
@@ -1162,10 +1159,10 @@ Twilight Zone: The Movie (1983) teaser: https://youtu.be/x1-SjAYJtlY
 -Soldier (1998) https://youtu.be/4oeW9sflsdg
 The Untouchables (1987) trailer: https://youtu.be/2cGat1xI8G8
 Voyage of the Damned (1976) movie: https://youtu.be/y1RxVTBWKrw
--WarGames (1983) movie: https://youtu.be/HNLQ-O-Qx3Y
+-WarGames (1983) movie: https://youtu.be/HNLQ-O-Qx3Y trailer: https://youtu.be/TQUsLAAZuhU
 -Wayne's World (1992) https://youtu.be/OIuhsHpcNAU teaser: https://youtu.be/r7nCIztbomg movie: https://youtu.be/ZW_XPh0MMjc
 -Wayne's World 2 (1993) https://youtu.be/hOS1DAj1KsE movie: https://youtu.be/gt5U-NnAi2w
--Weird Science (1985) trailer: 
+-Weird Science (1985) trailer: https://youtu.be/WI3-mDqyfuQ trailer: https://youtu.be/MzkeqZdUEms
 
 Where Eagles Dare (1968) trailer: https://youtu.be/khIZwbXDF0o
 The Year of Living Dangerously (1982) trailer: https://youtu.be/IL6BqLMZJyA

@@ -10,7 +10,7 @@
   },
   "id": "the-adams-family-1991",
   "dbid": 2907,
-  "runtime_m": 102
+  "runtime_m": 100
  },
  {
   "watched": false,
@@ -1782,8 +1782,8 @@
    ]
   },
   "id": "tales-from-the-darkside-1990",
-  "dbid": 20701,
-  "runtime_m": 93
+  "dbid": 285798,
+  "runtime_m": 90
  },
  {
   "watched": true,
@@ -2783,7 +2783,7 @@
   },
   "id": "gleaming-the-cube-1989",
   "dbid": 1380,
-  "runtime_m": 101
+  "runtime_m": 106
  },
  {
   "watched": false,
@@ -5426,7 +5426,8 @@
   "runtime_m": 0
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "08.17.24",
   "title": "The Expendables",
   "year": "2010",
   "runtime_hm": "1h43m",
@@ -5435,6 +5436,9 @@
     "https://youtu.be/UKc_P6iLVwA"
    ]
   },
+  "watchdate_arr": [
+   "20240817"
+  ],
   "id": "the-expendables-2010",
   "dbid": 27578,
   "runtime_m": 103
@@ -5666,8 +5670,9 @@
   "runtime_m": 121
  },
  {
-  "watched": false,
-  "title": "The Worlds End",
+  "watched": true,
+  "watchdate": "08.17.24",
+  "title": "The World's End",
   "year": "2013",
   "runtime_hm": "1h49m",
   "links": {
@@ -5676,6 +5681,9 @@
     "https://youtu.be/Mtd3IwZoagY"
    ]
   },
+  "watchdate_arr": [
+   "20240817"
+  ],
   "id": "the-worlds-end-2013",
   "dbid": 107985,
   "runtime_m": 109
@@ -12356,8 +12364,7 @@
   "runtime_hm": "1h23m",
   "links": {
    "trailer": [
-    "https://youtu.be/cNABS8_aNlE",
-    "https://youtu.be/k-tmCCBzHxQ"
+    "https://youtu.be/cNABS8_aNlE"
    ]
   },
   "id": "faster-pussycat-kill-kill-1965",
@@ -12643,20 +12650,6 @@
   "runtime_m": 157
  },
  {
-  "watched": false,
-  "title": "Once Upon a Time in America",
-  "year": "1984",
-  "runtime_hm": "3h49m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/LcpCRyNo8T8"
-   ]
-  },
-  "id": "once-upon-a-time-in-america-1984",
-  "dbid": 311,
-  "runtime_m": 229
- },
- {
   "watched": true,
   "watchdate": "11.05.22",
   "title": "A Fistful of Dollars",
@@ -12715,6 +12708,38 @@
   "id": "the-good-the-bad-and-the-ugly-1966",
   "dbid": 429,
   "runtime_m": 161
+ },
+ {
+  "watched": false,
+  "title": "Once Upon a Time in the West",
+  "year": "1968",
+  "links": {},
+  "id": "once-upon-a-time-in-the-west-1968",
+  "dbid": 335,
+  "runtime_m": 166
+ },
+ {
+  "watched": false,
+  "title": "Duck, You Sucker! (A Fistful of Dynamite) (Once Upon a Time in the Revolution)",
+  "year": "1971",
+  "links": {},
+  "id": "duck-you-sucker-a-fistful-of-dynamite-once-upon-a-time-in-the-revolution-1971",
+  "dbid": 336,
+  "runtime_m": 157
+ },
+ {
+  "watched": false,
+  "title": "Once Upon a Time in America",
+  "year": "1984",
+  "runtime_hm": "3h49m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/LcpCRyNo8T8"
+   ]
+  },
+  "id": "once-upon-a-time-in-america-1984",
+  "dbid": 311,
+  "runtime_m": 229
  },
  {
   "watched": false,
@@ -13110,6 +13135,9 @@
   "links": {
    "movie": [
     "https://youtu.be/HNLQ-O-Qx3Y"
+   ],
+   "trailer": [
+    "https://youtu.be/TQUsLAAZuhU"
    ]
   },
   "id": "wargames-1983",
@@ -13155,7 +13183,12 @@
   "watched": true,
   "title": "Weird Science",
   "year": "1985",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/WI3-mDqyfuQ",
+    "https://youtu.be/MzkeqZdUEms"
+   ]
+  },
   "id": "weird-science-1985",
   "dbid": 11814,
   "runtime_m": 93
@@ -13391,8 +13424,8 @@
    "20240217"
   ],
   "id": "terminator-2-1991",
-  "dbid": 280,
-  "runtime_m": 137
+  "dbid": 66664,
+  "runtime_m": 90
  },
  {
   "watched": false,
