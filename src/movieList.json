@@ -5444,7 +5444,8 @@
   "runtime_m": 103
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "08.24.24",
   "title": "The Expendables 2",
   "year": "2012",
   "runtime_hm": "1h43m",
@@ -5453,6 +5454,9 @@
     "https://youtu.be/ip_CYHdyUBs"
    ]
   },
+  "watchdate_arr": [
+   "20240824"
+  ],
   "id": "the-expendables-2-2012",
   "dbid": 76163,
   "runtime_m": 103
@@ -5485,6 +5489,78 @@
   "id": "escape-plan-2013",
   "dbid": 107846,
   "runtime_m": 115
+ },
+ {
+  "watched": false,
+  "title": "Sabotage",
+  "year": "2014",
+  "links": {},
+  "id": "sabotage-2014",
+  "dbid": 144336,
+  "runtime_m": 110
+ },
+ {
+  "watched": false,
+  "title": "The Expendables 3",
+  "year": "2014",
+  "links": {},
+  "id": "the-expendables-3-2014",
+  "dbid": 138103,
+  "runtime_m": 126
+ },
+ {
+  "watched": false,
+  "title": "Terminator Genisys",
+  "year": "2015",
+  "links": {},
+  "id": "terminator-genisys-2015",
+  "dbid": 87101,
+  "runtime_m": 126
+ },
+ {
+  "watched": false,
+  "title": "Maggie",
+  "year": "2015",
+  "links": {},
+  "id": "maggie-2015",
+  "dbid": 287424,
+  "runtime_m": 95
+ },
+ {
+  "watched": false,
+  "title": "Aftermath",
+  "year": "2017",
+  "links": {},
+  "id": "aftermath-2017",
+  "dbid": 390051,
+  "runtime_m": 92
+ },
+ {
+  "watched": false,
+  "title": "Killing Gunther",
+  "year": "2017",
+  "links": {},
+  "id": "killing-gunther-2017",
+  "dbid": 412547,
+  "runtime_m": 93
+ },
+ {
+  "watched": false,
+  "title": "Iron Mask",
+  "year": "2019",
+  "links": {},
+  "id": "iron-mask-2019",
+  "dbid": 428045,
+  "runtime_m": 121
+ },
+ {
+  "watched": false,
+  "title": "Terminator Dark Fate",
+  "year": "2019",
+  "links": {},
+  "id": "terminator-dark-fate-2019",
+  "dbid": 290859,
+  "runtime_m": 128
  },
  {
   "watched": false,
@@ -9695,7 +9771,7 @@
   },
   "id": "police-story-1985",
   "dbid": 9056,
-  "runtime_m": 100
+  "runtime_m": 99
  },
  {
   "watched": true,
@@ -9853,7 +9929,7 @@
   },
   "id": "city-hunter-1993",
   "dbid": 11198,
-  "runtime_m": 105
+  "runtime_m": 99
  },
  {
   "watched": false,
@@ -10516,7 +10592,8 @@
   "runtime_m": 126
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "08.24.24",
   "title": "Immortals",
   "year": "2011",
   "runtime_hm": "1h50m",
@@ -10525,6 +10602,9 @@
     "https://youtu.be/GSmJ5UXtUnk"
    ]
   },
+  "watchdate_arr": [
+   "20240824"
+  ],
   "id": "immortals-2011",
   "dbid": 37958,
   "runtime_m": 110
@@ -11369,7 +11449,7 @@
   ],
   "id": "rush-hour-3-2007",
   "dbid": 5174,
-  "runtime_m": 91
+  "runtime_m": 90
  },
  {
   "watched": true,
@@ -11712,7 +11792,13 @@
   "title": "Star Trek: The Motion Picture",
   "year": "1979",
   "runtime_hm": "2h16m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/JEe29nQ4Mas",
+    "https://youtu.be/TyRCkTCUOPA",
+    "https://youtu.be/zrXvBaFFu80"
+   ]
+  },
   "id": "star-trek-the-motion-picture-1979",
   "dbid": 152,
   "runtime_m": 131
@@ -11721,7 +11807,11 @@
   "watched": true,
   "title": "Star Trek II: The Wrath of Khan",
   "year": "1982",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/F3DTwSHn1jM"
+   ]
+  },
   "id": "star-trek-ii-the-wrath-of-khan-1982",
   "dbid": 154,
   "runtime_m": 112
@@ -11731,7 +11821,11 @@
   "title": "Star Trek III: The Search for Spock",
   "year": "1984",
   "runtime_hm": "1h45m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/KN1MnTZZ9Q8"
+   ]
+  },
   "id": "star-trek-iii-the-search-for-spock-1984",
   "dbid": 157,
   "runtime_m": 105
@@ -11741,7 +11835,11 @@
   "title": "Star Trek IV: The Voyage Home",
   "year": "1986",
   "runtime_hm": "1h59m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/4IJVV2sjPT8"
+   ]
+  },
   "id": "star-trek-iv-the-voyage-home-1986",
   "dbid": 168,
   "runtime_m": 118
@@ -11751,7 +11849,14 @@
   "title": "Star Trek V: The Final Frontier",
   "year": "1989",
   "runtime_hm": "1h47m",
-  "links": {},
+  "links": {
+   "teaser": [
+    "https://youtu.be/610BAixkO64"
+   ],
+   "trailer": [
+    "https://youtu.be/7S5TDrAWBd8"
+   ]
+  },
   "id": "star-trek-v-the-final-frontier-1989",
   "dbid": 172,
   "runtime_m": 106
@@ -11761,7 +11866,14 @@
   "title": "Star Trek VI: The Undiscovered Country",
   "year": "1991",
   "runtime_hm": "1h53m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/SxD6i5u2U00"
+   ],
+   "teaser": [
+    "https://youtu.be/lKfkkhEbUlY"
+   ]
+  },
   "id": "star-trek-vi-the-undiscovered-country-1991",
   "dbid": 174,
   "runtime_m": 113
@@ -11770,7 +11882,12 @@
   "watched": true,
   "title": "Starman",
   "year": "1984",
-  "links": {},
+  "runtime_hm": "1h55m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/N_43Zci6Jq4"
+   ]
+  },
   "id": "starman-1984",
   "dbid": 9663,
   "runtime_m": 115
@@ -12389,6 +12506,7 @@
   "watched": true,
   "title": "The State Counsellor",
   "year": "2005",
+  "runtime_hm": "2h14m",
   "links": {
    "trailer": [
     "https://youtu.be/Y65dGDY8y5k"
@@ -12813,7 +12931,7 @@
   },
   "id": "zoolander-2001",
   "dbid": 9398,
-  "runtime_m": 90
+  "runtime_m": 89
  },
  {
   "watched": false,
