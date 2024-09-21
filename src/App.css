@@ -13,6 +13,15 @@ body {
     color: #f0f0f0; background-color: #222;
   }
 } */
+
+/* @media (prefers-color-scheme: dark) {
+  
+} */
+/* [data-theme="dark"] {
+  color: white;
+  background-color: #05053B;
+} */
+
 :root { color-scheme: dark only;}
 
 
@@ -31,14 +40,6 @@ body {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  
-}
-
-[data-theme="dark"] {
-  color: white;
-  background-color: #05053B;
-}
 
 /*  assign css variables with attr
    (experimental as of 2024)
@@ -80,8 +81,6 @@ then in the CSS something like
   appearance of the table in a
   hard-to-replicate way so I left it) */
   margin-top: -2px;
-
-
 }
 
 
