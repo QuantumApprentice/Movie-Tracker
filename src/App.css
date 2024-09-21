@@ -3,6 +3,19 @@
 /* Nirfse css zeroing*/
 /* body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, fieldset, form, input, textarea, p, textarea { padding: 0; margin: 0; } */
 
+/* 
+body {
+  color: #333;
+  background-color: #fff;
+} 
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #f0f0f0; background-color: #222;
+  }
+} */
+:root { color-scheme: dark only;}
+
+
 #root {
   /* max-width: 1280px; */
   margin: 0 auto;
@@ -16,6 +29,15 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  
+}
+
+[data-theme="dark"] {
+  color: white;
+  background-color: #05053B;
 }
 
 /*  assign css variables with attr
@@ -61,6 +83,7 @@ then in the CSS something like
 
 
 }
+
 
 th:not(:first-child) {
   width: 160px;
