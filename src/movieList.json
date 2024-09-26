@@ -149,7 +149,7 @@
   },
   "id": "bad-taste-1987",
   "dbid": 9964,
-  "runtime_m": 92
+  "runtime_m": 91
  },
  {
   "watched": false,
@@ -267,8 +267,8 @@
    ]
   },
   "id": "creature-1985",
-  "dbid": 84068,
-  "runtime_m": 82
+  "dbid": 58903,
+  "runtime_m": 97
  },
  {
   "watched": false,
@@ -1629,7 +1629,7 @@
   ],
   "id": "repossessed-1990",
   "dbid": 11510,
-  "runtime_m": 80
+  "runtime_m": 84
  },
  {
   "watched": false,
@@ -1876,7 +1876,7 @@
   },
   "id": "the-changeling-1980",
   "dbid": 13550,
-  "runtime_m": 103
+  "runtime_m": 105
  },
  {
   "watched": false,
@@ -2345,7 +2345,7 @@
   },
   "id": "shadow-of-the-vampire-2000",
   "dbid": 10873,
-  "runtime_m": 92
+  "runtime_m": 95
  },
  {
   "watched": false,
@@ -2557,7 +2557,7 @@
   },
   "id": "frankenstein-1931",
   "dbid": 3035,
-  "runtime_m": 71
+  "runtime_m": 70
  },
  {
   "watched": false,
@@ -3836,22 +3836,6 @@
   "runtime_m": 87
  },
  {
-  "watched": false,
-  "title": "Blade",
-  "year": "1998",
-  "links": {
-   "trailer": [
-    "https://youtu.be/T5irwIozazw"
-   ],
-   "modern": [
-    "https://youtu.be/O2Y3FFFIvRI"
-   ]
-  },
-  "id": "blade-1998",
-  "dbid": 36647,
-  "runtime_m": 121
- },
- {
   "watched": true,
   "title": "Blade Runner",
   "year": "1982",
@@ -3934,6 +3918,269 @@
   "id": "kickass-2010",
   "dbid": 23483,
   "runtime_m": 117
+ },
+ {
+  "watched": false,
+  "title": "Austin Powers: International Man of Mystery",
+  "year": "1997",
+  "links": {
+   "trailer": [
+    "https://youtu.be/3M25U3ViEwM"
+   ]
+  },
+  "id": "austin-powers-international-man-of-mystery-1997",
+  "dbid": 816,
+  "runtime_m": 94
+ },
+ {
+  "watched": false,
+  "title": "Blade",
+  "year": "1998",
+  "links": {
+   "trailer": [
+    "https://youtu.be/T5irwIozazw"
+   ],
+   "modern": [
+    "https://youtu.be/O2Y3FFFIvRI"
+   ]
+  },
+  "id": "blade-1998",
+  "dbid": 36647,
+  "runtime_m": 121
+ },
+ {
+  "watched": false,
+  "title": "X-Men",
+  "year": "2000",
+  "runtime_hm": "1h44m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/Iy5R5_T243w"
+   ]
+  },
+  "id": "x-men-2000",
+  "dbid": 447399,
+  "runtime_m": 22
+ },
+ {
+  "watched": false,
+  "title": "Blade II",
+  "year": "2002",
+  "runtime_hm": "1h57m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/fcCQ7xk8zzM"
+   ]
+  },
+  "id": "blade-ii-2002",
+  "dbid": 36586,
+  "runtime_m": 117
+ },
+ {
+  "watched": false,
+  "title": "Spider-Man",
+  "year": "2002",
+  "runtime_hm": "2h1m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/_yhFofFZGcc",
+    "https://youtu.be/t06RUxPbp_c"
+   ]
+  },
+  "id": "spider-man-2002",
+  "dbid": 557,
+  "runtime_m": 121
+ },
+ {
+  "watched": false,
+  "title": "Daredevil",
+  "year": "2003",
+  "runtime_hm": "1h43m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/Y6p_3s0d9TI",
+    "https://youtu.be/muPX9Oi7-EE"
+   ]
+  },
+  "id": "daredevil-2003",
+  "dbid": 9480,
+  "runtime_m": 103
+ },
+ {
+  "watched": false,
+  "title": "X2: X-Men United",
+  "year": "2003",
+  "runtime_hm": "2h14m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/KjzPi5hfv9c"
+   ]
+  },
+  "id": "x2-x-men-united-2003",
+  "dbid": 36658,
+  "runtime_m": 133
+ },
+ {
+  "watched": false,
+  "title": "Hulk",
+  "year": "2003",
+  "runtime_hm": "2h18m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/2ErnLuJKQA4",
+    "https://youtu.be/2ErnLuJKQA4"
+   ],
+   "teaser": [
+    "https://youtu.be/3tpRDs0z3zc"
+   ]
+  },
+  "id": "hulk-2003",
+  "dbid": 1927,
+  "runtime_m": 138
+ },
+ {
+  "watched": false,
+  "title": "The Punisher",
+  "year": "2004",
+  "runtime_hm": "2h4m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/q7CMnRv8Mqc",
+    "https://youtu.be/G59cD1NSbS8"
+   ]
+  },
+  "id": "the-punisher-2004",
+  "dbid": 7220,
+  "runtime_m": 124
+ },
+ {
+  "watched": false,
+  "title": "Spider-Man 2",
+  "year": "2004",
+  "runtime_hm": "2h7m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/1s9Yln0YwCw"
+   ]
+  },
+  "id": "spider-man-2-2004",
+  "dbid": 558,
+  "runtime_m": 127
+ },
+ {
+  "watched": false,
+  "title": "Blade: Trinity",
+  "year": "2004",
+  "runtime_hm": "1h53m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/fPcNbsW69Eg"
+   ]
+  },
+  "id": "blade-trinity-2004",
+  "dbid": 36648,
+  "runtime_m": 123
+ },
+ {
+  "watched": false,
+  "title": "Elektra",
+  "year": "2005",
+  "runtime_hm": "1h37m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/lJsYp0oWAgk"
+   ]
+  },
+  "id": "elektra-2005",
+  "dbid": 9947,
+  "runtime_m": 97
+ },
+ {
+  "watched": false,
+  "title": "Fantastic Four",
+  "year": "2005",
+  "runtime_hm": "1h46m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/cLFDV72pa-s"
+   ]
+  },
+  "id": "fantastic-four-2005",
+  "dbid": 9738,
+  "runtime_m": 106
+ },
+ {
+  "watched": false,
+  "title": "X-Men: The Last Stand",
+  "year": "2006",
+  "runtime_hm": "1h44m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/X8ozc_dQprk",
+    "https://youtu.be/dv-7FY5gm0w"
+   ]
+  },
+  "id": "x-men-the-last-stand-2006",
+  "dbid": 36668,
+  "runtime_m": 104
+ },
+ {
+  "watched": false,
+  "title": "Ghost Rider",
+  "year": "2007",
+  "runtime_hm": "1h50m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/tp12CD2A4NA",
+    "https://youtu.be/QvoofruuWk8"
+   ]
+  },
+  "id": "ghost-rider-2007",
+  "dbid": 1250,
+  "runtime_m": 114
+ },
+ {
+  "watched": false,
+  "title": "Spider-Man 3",
+  "year": "2007",
+  "runtime_hm": "2h19m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/UFJFbgPLFWo"
+   ]
+  },
+  "id": "spider-man-3-2007",
+  "dbid": 559,
+  "runtime_m": 139
+ },
+ {
+  "watched": false,
+  "title": "Fantastic Four: Rise of the Silver Surfer",
+  "year": "2007",
+  "runtime_hm": "1h32m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/Wiu5eZ_7vSY"
+   ]
+  },
+  "id": "fantastic-four-rise-of-the-silver-surfer-2007",
+  "dbid": 1979,
+  "runtime_m": 92
+ },
+ {
+  "watched": false,
+  "title": "Punisher War Zone",
+  "year": "2008",
+  "runtime_hm": "1h43m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/bTdbeXHMzwg",
+    "https://youtu.be/XgfZqQRCTn8"
+   ]
+  },
+  "id": "punisher-war-zone-2008",
+  "dbid": 13056,
+  "runtime_m": 102
  },
  {
   "watched": false,
@@ -4315,13 +4562,14 @@
  {
   "watched": false,
   "title": "Virus",
-  "year": "1981",
+  "year": "1980",
+  "runtime_hm": "1h48m",
   "links": {
    "trailer": [
     "https://youtu.be/I76mJE5m60g"
    ]
   },
-  "id": "virus-1981",
+  "id": "virus-1980",
   "dbid": 21380,
   "runtime_m": 101
  },
@@ -4329,6 +4577,7 @@
   "watched": false,
   "title": "Virus",
   "year": "1999",
+  "runtime_hm": "1h39m",
   "links": {
    "trailer": [
     "https://youtu.be/ipYSWeV599s"
@@ -4343,6 +4592,7 @@
   "watchdate": "11.25.23",
   "title": "Demolition Man",
   "year": "1993",
+  "runtime_hm": "1h55m",
   "links": {
    "trailer": [
     "https://youtu.be/0B5v6QZ5R3g"
@@ -4369,6 +4619,7 @@
   "watched": true,
   "title": "Dune",
   "year": "1984",
+  "runtime_hm": "2h17m",
   "links": {
    "teaser": [
     "https://youtu.be/SoYJWX8U2Tw"
@@ -4451,6 +4702,9 @@
   "links": {
    "trailer": [
     "https://youtu.be/oRXXjWZoVK0"
+   ],
+   "movie": [
+    "https://youtu.be/ny6oZED1Hm8"
    ]
   },
   "id": "the-enemy-below-1957",
@@ -4868,16 +5122,18 @@
  {
   "watched": false,
   "title": "Inglorious Bastards",
+  "year": "2009",
+  "runtime_hm": "2h33m",
   "links": {},
-  "id": "inglorious-bastards-1978",
-  "year": "1978",
-  "dbid": 22311,
-  "runtime_m": 99
+  "id": "inglorious-bastards-2009",
+  "dbid": 16869,
+  "runtime_m": 153
  },
  {
   "watched": false,
   "title": "Battle Stations",
   "year": "1956",
+  "runtime_hm": "1h21m",
   "links": {},
   "id": "battle-stations-1956",
   "dbid": 396212,
@@ -4887,6 +5143,7 @@
   "watched": false,
   "title": "The Frogmen",
   "year": "1951",
+  "runtime_hm": "1h36m",
   "links": {
    "trailer": [
     "https://youtu.be/XDUSZKFwvI4"
@@ -4953,6 +5210,7 @@
   "watchdate": "07.01.23",
   "title": "Judge Dredd",
   "year": "1995",
+  "runtime_hm": "1h36m",
   "links": {
    "trailer": [
     "https://youtu.be/5IYYtmNKDVk",
@@ -4971,6 +5229,7 @@
   "watchdate": "07.01.23",
   "title": "Dredd",
   "year": "2012",
+  "runtime_hm": "1h35m",
   "links": {
    "trailer": [
     "https://youtu.be/JqqgrUna28w"
@@ -5476,7 +5735,8 @@
   "runtime_m": 103
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "08.31.24",
   "title": "The Last Stand",
   "year": "2013",
   "runtime_hm": "1h47m",
@@ -5486,12 +5746,16 @@
     "https://youtu.be/qUFGVlE1GNQ"
    ]
   },
+  "watchdate_arr": [
+   "20240831"
+  ],
   "id": "the-last-stand-2013",
   "dbid": 76640,
   "runtime_m": 107
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "09.07.24",
   "title": "Escape Plan",
   "year": "2013",
   "runtime_hm": "1h55m",
@@ -5500,24 +5764,60 @@
     "https://youtu.be/CI4EjV_x_PQ"
    ]
   },
+  "watchdate_arr": [
+   "20240907"
+  ],
   "id": "escape-plan-2013",
   "dbid": 107846,
   "runtime_m": 115
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "09.14.24",
   "title": "Sabotage",
   "year": "2014",
-  "links": {},
+  "runtime_hm": "1h49m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/cNTsQ9A64d0",
+    "https://youtu.be/8HDArXZgrsE"
+   ]
+  },
+  "watchdate_arr": [
+   "20240914"
+  ],
   "id": "sabotage-2014",
   "dbid": 144336,
   "runtime_m": 110
  },
  {
+  "watched": true,
+  "watchdate": "09.21.24",
+  "title": "Terminator Salvation",
+  "year": "2009",
+  "runtime_hm": "1h55m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/-Czz-TcWCkA"
+   ]
+  },
+  "watchdate_arr": [
+   "20240921"
+  ],
+  "id": "terminator-salvation-2009",
+  "dbid": 534,
+  "runtime_m": 115
+ },
+ {
   "watched": false,
   "title": "The Expendables 3",
   "year": "2014",
-  "links": {},
+  "runtime_hm": "2h6m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/4xD0junWlFc"
+   ]
+  },
   "id": "the-expendables-3-2014",
   "dbid": 138103,
   "runtime_m": 126
@@ -5526,7 +5826,12 @@
   "watched": false,
   "title": "Terminator Genisys",
   "year": "2015",
-  "links": {},
+  "runtime_hm": "2h6m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/FqbOFjl7ZWE"
+   ]
+  },
   "id": "terminator-genisys-2015",
   "dbid": 87101,
   "runtime_m": 126
@@ -5535,6 +5840,7 @@
   "watched": false,
   "title": "Maggie",
   "year": "2015",
+  "runtime_hm": "1h35m",
   "links": {},
   "id": "maggie-2015",
   "dbid": 287424,
@@ -5544,6 +5850,7 @@
   "watched": false,
   "title": "Aftermath",
   "year": "2017",
+  "runtime_hm": "1h34m",
   "links": {},
   "id": "aftermath-2017",
   "dbid": 390051,
@@ -5553,6 +5860,7 @@
   "watched": false,
   "title": "Killing Gunther",
   "year": "2017",
+  "runtime_hm": "1h32m",
   "links": {},
   "id": "killing-gunther-2017",
   "dbid": 412547,
@@ -5571,10 +5879,60 @@
   "watched": false,
   "title": "Terminator Dark Fate",
   "year": "2019",
+  "runtime_hm": "2h8m",
   "links": {},
   "id": "terminator-dark-fate-2019",
   "dbid": 290859,
   "runtime_m": 128
+ },
+ {
+  "watched": false,
+  "title": "Ultraviolet",
+  "year": "2006",
+  "runtime_hm": "1h28m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/bMre-zzT1dA"
+   ]
+  },
+  "id": "ultraviolet-2006",
+  "dbid": 9920,
+  "runtime_m": 87
+ },
+ {
+  "watched": false,
+  "title": "5th Element",
+  "year": "1997",
+  "runtime_hm": "2h6m",
+  "links": {},
+  "id": "5th-element-1997",
+  "dbid": 18,
+  "runtime_m": 126
+ },
+ {
+  "watched": false,
+  "title": "Men With Brooms",
+  "year": "2002",
+  "runtime_hm": "1h42m",
+  "links": {},
+  "id": "men-with-brooms-2002",
+  "dbid": 34341,
+  "runtime_m": 102
+ },
+ {
+  "watched": false,
+  "title": "Suburban Commando",
+  "year": "1991",
+  "runtime_hm": "1h30m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/CwwXrgvzIc4",
+    "https://youtu.be/7zlvyiB6_2w"
+   ]
+  },
+  "id": "suburban-commando-1991",
+  "dbid": 11504,
+  "runtime_m": 88
  },
  {
   "watched": false,
@@ -5589,6 +5947,26 @@
   "id": "children-of-men-2006",
   "dbid": 9693,
   "runtime_m": 109
+ },
+ {
+  "watched": true,
+  "watchdate": "09.14.24",
+  "title": "Waiting for Godot",
+  "year": "2001",
+  "links": {
+   "trailer": [
+    "https://youtu.be/dP7b-ITmAEA"
+   ],
+   "movie": [
+    "https://youtu.be/izX5dIzI2RE"
+   ]
+  },
+  "watchdate_arr": [
+   "20240914"
+  ],
+  "id": "waiting-for-godot-2001",
+  "dbid": 40373,
+  "runtime_m": 120
  },
  {
   "watched": false,
@@ -5618,7 +5996,8 @@
   "runtime_m": 133
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "08.31.24",
   "title": "Moscow on the Hudson",
   "year": "1984",
   "runtime_hm": "1h55m",
@@ -5627,6 +6006,9 @@
     "https://youtu.be/OW6ukDwwXd8"
    ]
   },
+  "watchdate_arr": [
+   "20240831"
+  ],
   "id": "moscow-on-the-hudson-1984",
   "dbid": 23111,
   "runtime_m": 115
@@ -5661,6 +6043,20 @@
  },
  {
   "watched": false,
+  "title": "Awakenings",
+  "year": "1990",
+  "runtime_hm": "2h1m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/7exeVt7CaE4"
+   ]
+  },
+  "id": "awakenings-1990",
+  "dbid": 11005,
+  "runtime_m": 120
+ },
+ {
+  "watched": false,
   "title": "The Fisher King",
   "year": "1991",
   "runtime_hm": "2h17m",
@@ -5682,6 +6078,20 @@
   "id": "hook-1991",
   "dbid": 879,
   "runtime_m": 141
+ },
+ {
+  "watched": false,
+  "title": "Toys",
+  "year": "1992",
+  "runtime_hm": "1h58m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/d_vxkIm9z8k"
+   ]
+  },
+  "id": "toys-1992",
+  "dbid": 11597,
+  "runtime_m": 118
  },
  {
   "watched": false,
@@ -5722,6 +6132,59 @@
   "id": "final-cut-2004",
   "dbid": 11099,
   "runtime_m": 95
+ },
+ {
+  "watched": false,
+  "title": "Find the Lady",
+  "year": "1976",
+  "runtime_hm": "1h40m",
+  "links": {},
+  "id": "find-the-lady-1976",
+  "dbid": 346600,
+  "runtime_m": 86
+ },
+ {
+  "watched": false,
+  "title": "Life is Beautiful",
+  "year": "1997",
+  "runtime_hm": "1h56m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/8CTjcVr9Iao"
+   ]
+  },
+  "id": "life-is-beautiful-1997",
+  "dbid": 637,
+  "runtime_m": 116
+ },
+ {
+  "watched": false,
+  "title": "The Secret Life of Walter Mitty",
+  "year": "1947",
+  "runtime_hm": "1h50m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/awthjYwVAr4"
+   ]
+  },
+  "id": "the-secret-life-of-walter-mitty-1947",
+  "dbid": 40092,
+  "runtime_m": 110
+ },
+ {
+  "watched": false,
+  "title": "The Secret Life of Walter Mitty",
+  "year": "2013",
+  "runtime_hm": "1h54m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/QD6cy4PBQPI",
+    "https://youtu.be/kJBFB5GE8Ow"
+   ]
+  },
+  "id": "the-secret-life-of-walter-mitty-2013",
+  "dbid": 116745,
+  "runtime_m": 114
  },
  {
   "watched": true,
@@ -6066,7 +6529,7 @@
   },
   "id": "grandmas-boy-2006",
   "dbid": 9900,
-  "runtime_m": 94
+  "runtime_m": 95
  },
  {
   "watched": true,
@@ -6288,6 +6751,20 @@
  },
  {
   "watched": false,
+  "title": "Flight of the Intruder",
+  "year": "1991",
+  "runtime_hm": "1h55m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/JdNeKd2a_94"
+   ]
+  },
+  "id": "flight-of-the-intruder-1991",
+  "dbid": 18886,
+  "runtime_m": 115
+ },
+ {
+  "watched": false,
   "title": "Immortal",
   "year": "2004",
   "links": {
@@ -6313,6 +6790,7 @@
   "watched": true,
   "title": "Indiana Jones and the Raiders of the Lost Ark",
   "year": "1981",
+  "runtime_hm": "1h55m",
   "links": {
    "trailer": [
     "https://youtu.be/Rh_BJXG1-44"
@@ -6326,6 +6804,7 @@
   "watched": true,
   "title": "Indiana Jones and the Temple of Doom",
   "year": "1984",
+  "runtime_hm": "1h58m",
   "links": {
    "trailer": [
     "https://youtu.be/0siM-NbQAKM"
@@ -6339,6 +6818,7 @@
   "watched": true,
   "title": "Indiana Jones and the Last Crusade",
   "year": "1989",
+  "runtime_hm": "2h7m",
   "links": {
    "trailer": [
     "https://youtu.be/sagmdpkWUqc"
@@ -6352,6 +6832,7 @@
   "watched": true,
   "title": "Indiana Jones and the Kingdom of the Crystal Skull",
   "year": "2008",
+  "runtime_hm": "2h2m",
   "links": {
    "trailer": [
     "https://youtu.be/WAdJf4wTC5Y"
@@ -7543,7 +8024,7 @@
   },
   "id": "the-other-guys-2010",
   "dbid": 27581,
-  "runtime_m": 107
+  "runtime_m": 116
  },
  {
   "watched": false,
@@ -7759,7 +8240,7 @@
   },
   "id": "the-conversation-1974",
   "dbid": 592,
-  "runtime_m": 113
+  "runtime_m": 114
  },
  {
   "watched": true,
@@ -10814,7 +11295,8 @@
   "runtime_m": 141
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "09.21.24",
   "title": "Jabberwocky",
   "year": "1977",
   "runtime_hm": "1h45m",
@@ -10823,6 +11305,9 @@
     "https://youtu.be/9CLlFk97FBk"
    ]
   },
+  "watchdate_arr": [
+   "20240921"
+  ],
   "id": "jabberwocky-1977",
   "dbid": 11834,
   "runtime_m": 105
@@ -12918,7 +13403,7 @@
  },
  {
   "watched": true,
-  "watchdate": "8.6.2022",
+  "watchdate": "8.06.22",
   "title": "Mystery Men",
   "year": "1999",
   "links": {
@@ -12934,7 +13419,8 @@
   "runtime_m": 121
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "9.07.24",
   "title": "Zoolander",
   "year": "2001",
   "runtime_hm": "1h45m",
@@ -12943,6 +13429,9 @@
     "https://youtu.be/MaEeSJZYkpY"
    ]
   },
+  "watchdate_arr": [
+   "20240907"
+  ],
   "id": "zoolander-2001",
   "dbid": 9398,
   "runtime_m": 89
@@ -13556,8 +14045,8 @@
    "20240217"
   ],
   "id": "terminator-2-1991",
-  "dbid": 66664,
-  "runtime_m": 90
+  "dbid": 280,
+  "runtime_m": 137
  },
  {
   "watched": false,
