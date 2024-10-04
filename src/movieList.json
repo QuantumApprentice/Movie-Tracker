@@ -3,6 +3,7 @@
   "watched": false,
   "title": "The Adams Family",
   "year": "1991",
+  "runtime_hm": "1h39m",
   "links": {
    "trailer": [
     "https://youtu.be/A6X4VAHdDVg"
@@ -31,6 +32,7 @@
   "watchdate": "10..2021",
   "title": "A Nightmare on Elm Street",
   "year": "1984",
+  "runtime_hm": "1h31m",
   "links": {
    "trailer": [
     "https://youtu.be/dCVh4lBfW-c"
@@ -48,6 +50,7 @@
   "watchdate": "10..2021",
   "title": "A Nightmare on Elm Street 2: Freddy's Revenge",
   "year": "1985",
+  "runtime_hm": "1h27m",
   "links": {
    "trailer": [
     "https://youtu.be/9iqNVyjwLFA"
@@ -65,6 +68,7 @@
   "watchdate": "10..2021",
   "title": "A Nightmare on Elm Street 3: Dream Warriors",
   "year": "1987",
+  "runtime_hm": "1h36m",
   "links": {
    "trailer": [
     "https://youtu.be/oy-hgBu1h0w"
@@ -81,6 +85,7 @@
   "watched": false,
   "title": "A Nightmare on Elm Street 4: The Dream Master",
   "year": "1988",
+  "runtime_hm": "1h33m",
   "links": {
    "trailer": [
     "https://youtu.be/elbv_XyXmaI",
@@ -95,6 +100,7 @@
   "watched": false,
   "title": "A Nightmare on Elm Street 5: The Dream Child",
   "year": "1989",
+  "runtime_hm": "1h29m",
   "links": {
    "trailer": [
     "https://youtu.be/qa4lBfEWBBs",
@@ -110,6 +116,7 @@
   "watchdate": "10.15.22",
   "title": "An American Werewolf in London",
   "year": "1981",
+  "runtime_hm": "1h37m",
   "links": {
    "trailer": [
     "https://youtu.be/ArJhUEAeiw0"
@@ -129,6 +136,7 @@
   "watched": false,
   "title": "An American Werewolf in Paris",
   "year": "1997",
+  "runtime_hm": "1h38m",
   "links": {
    "trailer": [
     "https://youtu.be/y5XD0CuP0gY"
@@ -140,8 +148,23 @@
  },
  {
   "watched": false,
+  "title": "Aterrados [Terrified]",
+  "year": "2017",
+  "runtime_hm": "1h27m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/sJzI6qSmJoQ"
+   ]
+  },
+  "id": "aterrados-terrified-2017",
+  "dbid": 489430,
+  "runtime_m": 88
+ },
+ {
+  "watched": false,
   "title": "Bad Taste",
   "year": "1987",
+  "runtime_hm": "1h31m",
   "links": {
    "trailer": [
     "https://youtu.be/7IHwKJOZZ6U"
@@ -155,6 +178,7 @@
   "watched": false,
   "title": "Basket Case",
   "year": "1982",
+  "runtime_hm": "1h31m",
   "links": {
    "trailer": [
     "https://youtu.be/9tpZwV3ia30"
@@ -169,6 +193,7 @@
   "watchdate": "10..2021",
   "title": "Beetlejuice",
   "year": "1988",
+  "runtime_hm": "1h32m",
   "links": {
    "trailer": [
     "https://youtu.be/ickbVzajrk0"
@@ -186,6 +211,7 @@
   "watchdate": "10.22.23",
   "title": "Bram Stoker's Dracula",
   "year": "1992",
+  "runtime_hm": "2h16m",
   "links": {
    "trailer": [
     "https://youtu.be/fgFPIh5mvNc"
@@ -202,6 +228,7 @@
   "watched": false,
   "title": "Children of the Corn",
   "year": "1984",
+  "runtime_hm": "1h32m",
   "links": {
    "trailer": [
     "https://youtu.be/dClKllEv5MU"
@@ -215,6 +242,7 @@
   "watched": false,
   "title": "Child's Play",
   "year": "1988",
+  "runtime_hm": "1h27m",
   "links": {
    "trailer": [
     "https://youtu.be/sjiyV8mtXiU"
@@ -229,6 +257,7 @@
   "watchdate": "10.1.2022",
   "title": "Christine",
   "year": "1983",
+  "runtime_hm": "1h50m",
   "links": {
    "teaser": [
     "https://youtu.be/ieBmy6qjiCI"
@@ -248,6 +277,7 @@
   "watched": false,
   "title": "C.H.U.D.",
   "year": "1984",
+  "runtime_hm": "1h36m",
   "links": {
    "trailer": [
     "https://youtu.be/BJckCjZ8Tdw"
@@ -261,6 +291,7 @@
   "watched": false,
   "title": "Creature",
   "year": "1985",
+  "runtime_hm": "1h37m",
   "links": {
    "trailer": [
     "https://youtu.be/kOFLxC7PocA"
@@ -287,6 +318,7 @@
   "watched": false,
   "title": "Critters",
   "year": "1986",
+  "runtime_hm": "1h26m",
   "links": {
    "trailer": [
     "https://youtu.be/XZ60sDgkd5A"
@@ -300,6 +332,7 @@
   "watched": false,
   "title": "Critters 2",
   "year": "1988",
+  "runtime_hm": "1h33m",
   "links": {
    "trailer": [
     "https://youtu.be/oPI1Pk0RVls"
@@ -313,6 +346,7 @@
   "watched": false,
   "title": "Cujo",
   "year": "1983",
+  "runtime_hm": "1h33m",
   "links": {
    "trailer": [
     "https://youtu.be/0r81tc_qynY"
@@ -326,6 +360,7 @@
   "watched": false,
   "title": "The Curse",
   "year": "1987",
+  "runtime_hm": "1h32m",
   "links": {
    "trailer": [
     "https://youtu.be/lVgikAaoKtE"
@@ -340,6 +375,7 @@
   "watchdate": "10..2021",
   "title": "Day of the Dead",
   "year": "1985",
+  "runtime_hm": "1h43m",
   "links": {
    "trailer": [
     "https://youtu.be/COj7ro8AjT8"
@@ -356,6 +392,7 @@
   "watched": false,
   "title": "Dead & Buried",
   "year": "1981",
+  "runtime_hm": "1h34m",
   "links": {
    "trailer": [
     "https://youtu.be/-u90aQ_v3Vk"
@@ -370,6 +407,7 @@
   "watchdate": "10.22.23",
   "title": "Dead Alive aka Braindead",
   "year": "1992",
+  "runtime_hm": "1h25m",
   "links": {
    "trailer": [
     "https://youtu.be/O8LIug1cP04",
@@ -385,6 +423,7 @@
   "watched": false,
   "title": "Dead Heat",
   "year": "1988",
+  "runtime_hm": "1h26m",
   "links": {
    "trailer": [
     "https://youtu.be/jyqclZF-bqI"
@@ -398,6 +437,7 @@
   "watched": false,
   "title": "Deadly Friend",
   "year": "1986",
+  "runtime_hm": "1h32m",
   "links": {
    "trailer": [
     "https://youtu.be/EUww3bkN3lY"
@@ -409,8 +449,22 @@
  },
  {
   "watched": false,
+  "title": "The Dead Zone",
+  "year": "1983",
+  "links": {
+   "trailer": [
+    "https://youtu.be/qxJp_VQ5VUk"
+   ]
+  },
+  "id": "the-dead-zone-1983",
+  "dbid": 11336,
+  "runtime_m": 103
+ },
+ {
+  "watched": false,
   "title": "Dreamscape",
   "year": "1984",
+  "runtime_hm": "1h39m",
   "links": {
    "trailer": [
     "https://youtu.be/4ybHzYtF3ZM"
@@ -427,6 +481,7 @@
   "watched": false,
   "title": "From Dusk Till Dawn",
   "year": "1996",
+  "runtime_hm": "1h48m",
   "links": {
    "trailer": [
     "https://youtu.be/jNuIn4T-CLk"
@@ -441,6 +496,7 @@
   "watchdate": "10..23",
   "title": "Dracula: Dead and Loving It",
   "year": "1995",
+  "runtime_hm": "1h28m",
   "links": {
    "trailer": [
     "https://youtu.be/ctsxTvTQUZI"
@@ -457,6 +513,7 @@
   "watched": false,
   "title": "Ed Wood",
   "year": "1994",
+  "runtime_hm": "2h7m",
   "links": {
    "trailer": [
     "https://youtu.be/CawVaHxWvnA"
@@ -473,6 +530,7 @@
   "watched": true,
   "title": "Elvira: Mistress of the Dark",
   "year": "1988",
+  "runtime_hm": "1h36m",
   "links": {
    "trailer": [
     "https://youtu.be/AZdrAqH78l8"
@@ -489,6 +547,7 @@
   "watched": false,
   "title": "Ernest Scared Stupid",
   "year": "1991",
+  "runtime_hm": "1h32m",
   "links": {
    "trailer": [
     "https://youtu.be/BndyioiFSyY"
@@ -502,6 +561,7 @@
   "watched": false,
   "title": "Evil Dead",
   "year": "1981",
+  "runtime_hm": "1h20m",
   "links": {
    "trailer": [
     "https://youtu.be/NL6mioAlpJk"
@@ -515,6 +575,7 @@
   "watched": false,
   "title": "Evil Dead 2",
   "year": "1987",
+  "runtime_hm": "1h25m",
   "links": {
    "trailer": [
     "https://youtu.be/rCo5iN7SbUU"
@@ -531,6 +592,7 @@
   "watched": false,
   "title": "Army of Darkness",
   "year": "1993",
+  "runtime_hm": "1h36m",
   "links": {
    "trailer": [
     "https://youtu.be/UHZQEtG8xYo"
@@ -545,6 +607,7 @@
   "watchdate": "10.29.22",
   "title": "The Exorcist",
   "year": "1973",
+  "runtime_hm": "2h12m",
   "links": {
    "trailer": [
     "https://youtu.be/YDGw1MTEe9k"
@@ -561,6 +624,7 @@
   "watched": false,
   "title": "Exorcist II: The Heretic",
   "year": "1977",
+  "runtime_hm": "1h58m",
   "links": {
    "trailer": [
     "https://youtu.be/LDraTxCzewY"
@@ -574,6 +638,7 @@
   "watched": false,
   "title": "The Exorcist III",
   "year": "1990",
+  "runtime_hm": "1h50m",
   "links": {
    "trailer": [
     "https://youtu.be/BXsj26KH4jk"
@@ -588,6 +653,7 @@
   "watchdate": "10.22.2022",
   "title": "Firestarter",
   "year": "1984",
+  "runtime_hm": "1h54m",
   "links": {
    "trailer": [
     "https://youtu.be/HfLZDbviNwg"
@@ -601,10 +667,72 @@
   "runtime_m": 115
  },
  {
+  "watched": false,
+  "title": "Frankenstein",
+  "year": "1931",
+  "runtime_hm": "1h11m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/BN8K-4osNb0",
+    "https://youtu.be/XD7Gn9grers"
+   ]
+  },
+  "id": "frankenstein-1931",
+  "dbid": 3035,
+  "runtime_m": 70
+ },
+ {
+  "watched": false,
+  "title": "Bride of Frankenstein",
+  "year": "1935",
+  "runtime_hm": "1h15m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/mPT2R1g5MGY",
+    "https://youtu.be/rYD3-pIF9jQ"
+   ]
+  },
+  "id": "bride-of-frankenstein-1935",
+  "dbid": 229,
+  "runtime_m": 75
+ },
+ {
+  "watched": false,
+  "title": "Frankenstein Meets the Wolf Man",
+  "year": "1943",
+  "runtime_hm": "1h13m",
+  "links": {
+   "movie": [
+    "https://youtu.be/LhArTFocIb0"
+   ]
+  },
+  "id": "frankenstein-meets-the-wolf-man-1943",
+  "dbid": 3076,
+  "runtime_m": 74
+ },
+ {
+  "watched": false,
+  "title": "Frankenstein Conquers the World",
+  "year": "1965",
+  "runtime_hm": "1h34m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/yKxQHhki_k8"
+   ],
+   "japanese": [
+    "https://youtu.be/Q3cej8jiLk8"
+   ]
+  },
+  "id": "frankenstein-conquers-the-world-1965",
+  "dbid": 3160,
+  "runtime_m": 90
+ },
+ {
   "watched": true,
   "watchdate": "10..2021",
   "title": "Friday the 13th",
   "year": "1980",
+  "runtime_hm": "1h35m",
   "links": {
    "trailer": [
     "https://youtu.be/aDrOvFtzyPQ"
@@ -622,6 +750,7 @@
   "watchdate": "10..2021",
   "title": "Friday the 13th - Part 2",
   "year": "1981",
+  "runtime_hm": "1h27m",
   "links": {
    "trailer": [
     "https://youtu.be/qPDk5IuknMU"
@@ -638,6 +767,7 @@
   "watched": false,
   "title": "Friday the 13th - Part 3",
   "year": "1982",
+  "runtime_hm": "1h35m",
   "links": {
    "trailer": [
     "https://youtu.be/SDdBhDJ7wdA"
@@ -651,6 +781,7 @@
   "watched": false,
   "title": "Friday the 13th - The Final Chapter",
   "year": "1984",
+  "runtime_hm": "1h31m",
   "links": {
    "trailer": [
     "https://youtu.be/OpWpe8REbag"
@@ -664,6 +795,7 @@
   "watched": false,
   "title": "Friday the 13th - Part 5 - A New Beginning",
   "year": "1985",
+  "runtime_hm": "1h32m",
   "links": {
    "trailer": [
     "https://youtu.be/e_q7Pz2HNJc"
@@ -677,6 +809,7 @@
   "watched": false,
   "title": "Friday the 13th - Part 6 - Jason Lives",
   "year": "1986",
+  "runtime_hm": "1h30m",
   "links": {
    "trailer": [
     "https://youtu.be/s3-MMNUlM6o"
@@ -690,6 +823,7 @@
   "watched": false,
   "title": "Friday the 13th - Part 7 - The New Blood",
   "year": "1988",
+  "runtime_hm": "1h28m",
   "links": {
    "trailer": [
     "https://youtu.be/Iu3ic0RgG6U"
@@ -703,6 +837,7 @@
   "watched": false,
   "title": "Friday the 13th - Part 8 - Jason Takes Manhattan",
   "year": "1989",
+  "runtime_hm": "1h40m",
   "links": {
    "trailer": [
     "https://youtu.be/9cYqOo2fOZE"
@@ -716,6 +851,7 @@
   "watched": false,
   "title": "Fright Night",
   "year": "1985",
+  "runtime_hm": "1h46m",
   "links": {
    "trailer": [
     "https://youtu.be/T3CqXIlG-UY"
@@ -729,6 +865,7 @@
   "watched": false,
   "title": "Frightmare",
   "year": "1983",
+  "runtime_hm": "1h30m",
   "links": {
    "trailer": [
     "https://youtu.be/TMlpikfn6AM"
@@ -742,6 +879,7 @@
   "watched": false,
   "title": "From Beyond",
   "year": "1986",
+  "runtime_hm": "1h30m",
   "links": {
    "trailer": [
     "https://youtu.be/gPYzGKmupSs"
@@ -755,6 +893,7 @@
   "watched": false,
   "title": "Galaxy of Terror",
   "year": "1981",
+  "runtime_hm": "1h21m",
   "links": {
    "trailer": [
     "https://youtu.be/kV1xuGSB8Ng",
@@ -769,6 +908,7 @@
   "watched": false,
   "title": "Gremlins",
   "year": "1984",
+  "runtime_hm": "1h46m",
   "links": {
    "trailer": [
     "https://youtu.be/XBEVwaJEgaA"
@@ -782,6 +922,7 @@
   "watched": false,
   "title": "Gremlins 2: The New Batch",
   "year": "1990",
+  "runtime_hm": "1h46m",
   "links": {
    "trailer": [
     "https://youtu.be/AdCp0qLqnCY"
@@ -795,6 +936,7 @@
   "watched": true,
   "title": "Ghostbusters",
   "year": "1984",
+  "runtime_hm": "1h48m",
   "links": {
    "trailer": [
     "https://youtu.be/wQAljlSmjC8"
@@ -823,6 +965,7 @@
   "watchdate": "10.08.22",
   "title": "Ghoulies",
   "year": "1985",
+  "runtime_hm": "1h21m",
   "links": {
    "trailer": [
     "https://youtu.be/HysJUwWWAEI"
@@ -839,6 +982,7 @@
   "watched": false,
   "title": "Ghoulies II",
   "year": "1988",
+  "runtime_hm": "1h29m",
   "links": {
    "trailer": [
     "https://youtu.be/VFXxYpWcNzM"
@@ -852,6 +996,7 @@
   "watched": false,
   "title": "Ghoulies III - Ghoulies Go to College",
   "year": "1991",
+  "runtime_hm": "1h34m",
   "links": {
    "trailer": [
     "https://youtu.be/n5dXugxVlLQ"
@@ -865,6 +1010,7 @@
   "watched": false,
   "title": "Ghoulies IV",
   "year": "1994",
+  "runtime_hm": "1h24m",
   "links": {
    "trailer": [
     "https://youtu.be/8rcrRVfFPw4"
@@ -879,6 +1025,7 @@
   "watchdate": "10..2021",
   "title": "Halloween",
   "year": "1978",
+  "runtime_hm": "1h31m",
   "links": {
    "trailer": [
     "https://youtu.be/n72XUX96078"
@@ -895,6 +1042,7 @@
   "watched": false,
   "title": "Halloween 2",
   "year": "1981",
+  "runtime_hm": "1h32m",
   "links": {
    "trailer": [
     "https://youtu.be/WsguG28QMNE"
@@ -908,6 +1056,7 @@
   "watched": false,
   "title": "Halloween 3: Season of the Witch",
   "year": "1982",
+  "runtime_hm": "1h39m",
   "links": {
    "trailer": [
     "https://youtu.be/rPhT2MCuchY"
@@ -921,6 +1070,7 @@
   "watched": false,
   "title": "Halloween 4: The Return of Michael Myers",
   "year": "1988",
+  "runtime_hm": "1h28m",
   "links": {
    "trailer": [
     "https://youtu.be/BN-tYVNOvtQ"
@@ -935,6 +1085,7 @@
   "watchdate": "10.08.23",
   "title": "Hellraiser",
   "year": "1987",
+  "runtime_hm": "1h34m",
   "links": {
    "trailer": [
     "https://youtu.be/5DaqcagZHRY"
@@ -951,6 +1102,7 @@
   "watched": false,
   "title": "Hellraiser 2: Hellbound",
   "year": "1988",
+  "runtime_hm": "1h39m",
   "links": {
    "trailer": [
     "https://youtu.be/5DaqcagZHRY?t=103"
@@ -962,8 +1114,23 @@
  },
  {
   "watched": false,
+  "title": "Hillbillys in a Haunted House",
+  "year": "1967",
+  "runtime_hm": "1h28m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/7kNPhC-tDnA"
+   ]
+  },
+  "id": "hillbillys-in-a-haunted-house-1967",
+  "dbid": 99008,
+  "runtime_m": 86
+ },
+ {
+  "watched": false,
   "title": "Hobgoblins",
   "year": "1988",
+  "runtime_hm": "1h32m",
   "links": {
    "trailer": [
     "https://youtu.be/o0fhewrzBRM"
@@ -977,6 +1144,7 @@
   "watched": false,
   "title": "HOUSE",
   "year": "1977",
+  "runtime_hm": "1h28m",
   "links": {
    "trailer": [
     "https://youtu.be/WQ_Yo06kIIA"
@@ -990,6 +1158,7 @@
   "watched": false,
   "title": "House II: The Second Story",
   "year": "1987",
+  "runtime_hm": "1h28m",
   "links": {
    "trailer": [
     "https://youtu.be/uF70pbMatKc"
@@ -1003,6 +1172,7 @@
   "watched": false,
   "title": "House III: The Horror Show",
   "year": "1989",
+  "runtime_hm": "1h35m",
   "links": {
    "trailer": [
     "https://youtu.be/JvLY8r-gH-M"
@@ -1016,6 +1186,7 @@
   "watched": false,
   "title": "House",
   "year": "1985",
+  "runtime_hm": "1h33m",
   "links": {
    "trailer": [
     "https://youtu.be/9TSRT-cl-y8"
@@ -1027,8 +1198,23 @@
  },
  {
   "watched": false,
+  "title": "I Bought A Vampire Motorcycle",
+  "year": "1990",
+  "runtime_hm": "1h45m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/43rAACwFPRk"
+   ]
+  },
+  "id": "i-bought-a-vampire-motorcycle-1990",
+  "dbid": 41153,
+  "runtime_m": 101
+ },
+ {
+  "watched": false,
   "title": "Interview with the Vampire",
   "year": "1994",
+  "runtime_hm": "2h3m",
   "links": {
    "trailer": [
     "https://youtu.be/sCmYN6TLd8A"
@@ -1042,6 +1228,7 @@
   "watched": false,
   "title": "In the Mouth of Madness",
   "year": "1995",
+  "runtime_hm": "1h35m",
   "links": {
    "trailer": [
     "https://youtu.be/AlugldzO9zY"
@@ -1056,6 +1243,7 @@
   "watchdate": "10.1.2022",
   "title": "Invasion of the Body Snatchers",
   "year": "1956",
+  "runtime_hm": "1h20m",
   "links": {
    "trailer": [
     "https://youtu.be/pNJB363yql8"
@@ -1073,6 +1261,7 @@
   "watchdate": "10.08.2022",
   "title": "Invasion of the Body Snatchers",
   "year": "1978",
+  "runtime_hm": "1h55m",
   "links": {
    "trailer": [
     "https://youtu.be/vc_0dlmSq7I"
@@ -1089,6 +1278,7 @@
   "watched": false,
   "title": "Killer Klowns from Outer Space",
   "year": "1988",
+  "runtime_hm": "1h28m",
   "links": {
    "trailer": [
     "https://youtu.be/0w5OB0T1H9Y"
@@ -1103,6 +1293,7 @@
   "watchdate": "10..2021",
   "title": "The Lawnmower Man",
   "year": "1992",
+  "runtime_hm": "2h21m",
   "links": {
    "trailer": [
     "https://youtu.be/zzwPuJklv4w"
@@ -1117,8 +1308,9 @@
  },
  {
   "watched": false,
-  "title": "Lawnmower Man 2",
+  "title": "Lawnmower Man 2: Beyond Cyberspace",
   "year": "1996",
+  "runtime_hm": "1h33m",
   "links": {
    "trailer": [
     "https://youtu.be/ucS3kOK23G8"
@@ -1127,7 +1319,7 @@
     "https://youtu.be/hBAaf2CTmaE"
    ]
   },
-  "id": "lawnmower-man-2-1996",
+  "id": "lawnmower-man-2-beyond-cyberspace-1996",
   "dbid": 11525,
   "runtime_m": 92
  },
@@ -1135,6 +1327,7 @@
   "watched": false,
   "title": "Leprechaun",
   "year": "1993",
+  "runtime_hm": "1h32m",
   "links": {
    "trailer": [
     "https://youtu.be/pJ_TYkEyNIc",
@@ -1152,6 +1345,7 @@
   "watched": false,
   "title": "Leprechaun 2",
   "year": "1994",
+  "runtime_hm": "1h25m",
   "links": {
    "trailer": [
     "https://youtu.be/_KsrMDdfGEk"
@@ -1165,6 +1359,7 @@
   "watched": false,
   "title": "Leprechaun 3",
   "year": "1995",
+  "runtime_hm": "1h33m",
   "links": {
    "trailer": [
     "https://youtu.be/qtKITgPsRXM"
@@ -1178,6 +1373,7 @@
   "watched": false,
   "title": "Leprechaun 4: In Space",
   "year": "1996",
+  "runtime_hm": "1h36m",
   "links": {
    "trailer": [
     "https://youtu.be/0KyGnEtaG5U"
@@ -1190,6 +1386,7 @@
   "watchdate": "10..2021",
   "title": "Leviathan",
   "year": "1989",
+  "runtime_hm": "1h38m",
   "links": {
    "trailer": [
     "https://youtu.be/u4ugObcErgc"
@@ -1203,23 +1400,11 @@
   "runtime_m": 98
  },
  {
-  "watched": false,
-  "title": "Leviathan",
-  "year": "2014",
-  "links": {
-   "trailer": [
-    "https://youtu.be/tj0SMgg9Jqg"
-   ]
-  },
-  "id": "leviathan-2014",
-  "dbid": 14372,
-  "runtime_m": 98
- },
- {
   "watched": true,
   "watchdate": "10..2021",
   "title": "Lifeforce",
   "year": "1985",
+  "runtime_hm": "1h41m",
   "links": {
    "trailer": [
     "https://youtu.be/5r0Sh1--Hc4",
@@ -1237,6 +1422,7 @@
   "watched": false,
   "title": "Loose Shoes",
   "year": "1978",
+  "runtime_hm": "1h24m",
   "links": {
    "trailer": [
     "https://youtu.be/ZnkXm66TEzI"
@@ -1247,10 +1433,26 @@
   "runtime_m": 84
  },
  {
+  "watched": false,
+  "title": "Mary Shelley's Frankenstein",
+  "year": "1994",
+  "runtime_hm": "2h3m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/zqolmvqTY9k",
+    "https://youtu.be/hnxFuPw0JIE"
+   ]
+  },
+  "id": "mary-shelleys-frankenstein-1994",
+  "dbid": 3036,
+  "runtime_m": 123
+ },
+ {
   "watched": true,
   "watchdate": "10.1.2022",
   "title": "Maximum Overdrive",
   "year": "1986",
+  "runtime_hm": "1h37m",
   "links": {
    "trailer": [
     "https://youtu.be/jFzmw_UCx8w"
@@ -1267,6 +1469,7 @@
   "watched": false,
   "title": "Motel Hell",
   "year": "1980",
+  "runtime_hm": "1h42m",
   "links": {
    "teaser": [
     "https://youtu.be/e2aFGvT658k"
@@ -1283,6 +1486,7 @@
   "watched": false,
   "title": "Munchies",
   "year": "1987",
+  "runtime_hm": "1h23m",
   "links": {
    "trailer": [
     "https://youtu.be/o-1jN3UhHCM"
@@ -1296,6 +1500,7 @@
   "watched": false,
   "title": "My Best Friend is a Vampire",
   "year": "1987",
+  "runtime_hm": "1h29m",
   "links": {
    "movie": [
     "https://youtu.be/14P4KuPaHjY"
@@ -1309,6 +1514,7 @@
   "watched": false,
   "title": "My Bloody Valentine",
   "year": "1981",
+  "runtime_hm": "1h30m",
   "links": {
    "trailer": [
     "https://youtu.be/OWvLgL5tdkc"
@@ -1322,6 +1528,7 @@
   "watched": false,
   "title": "My Name is Bruce",
   "year": "2007",
+  "runtime_hm": "1h24m",
   "links": {
    "trailer": [
     "https://youtu.be/KRXo8KljPVI"
@@ -1335,6 +1542,7 @@
   "watched": false,
   "title": "Near Dark",
   "year": "1987",
+  "runtime_hm": "1h34m",
   "links": {
    "trailer": [
     "https://youtu.be/VllIQYnC20s"
@@ -1348,6 +1556,7 @@
   "watched": false,
   "title": "Nightmares",
   "year": "1983",
+  "runtime_hm": "1h39m",
   "links": {
    "trailer": [
     "https://youtu.be/8ehO9ivzUEQ"
@@ -1361,6 +1570,7 @@
   "watched": false,
   "title": "Night of the Comet",
   "year": "1984",
+  "runtime_hm": "1h35m",
   "links": {
    "trailer": [
     "https://youtu.be/3liPb1SPHvE"
@@ -1374,6 +1584,7 @@
   "watched": false,
   "title": "Night of the Creeps",
   "year": "1986",
+  "runtime_hm": "1h28m",
   "links": {
    "trailer": [
     "https://youtu.be/t1724HlNnyA"
@@ -1387,6 +1598,7 @@
   "watched": false,
   "title": "Night of the Demons",
   "year": "1988",
+  "runtime_hm": "1h30m",
   "links": {
    "trailer": [
     "https://youtu.be/tQ7gSRfUCH0"
@@ -1400,9 +1612,10 @@
   "watched": false,
   "title": "Night of the Living Dead",
   "year": "1968",
+  "runtime_hm": "1h36m",
   "links": {
    "trailer": [
-    "httpstrailer:"
+    "https://youtu.be/pd5a0gs-UCQ"
    ]
   },
   "id": "night-of-the-living-dead-1968",
@@ -1413,6 +1626,7 @@
   "watched": false,
   "title": "Night of the Living Dead",
   "year": "1990",
+  "runtime_hm": "1h36m",
   "links": {
    "trailer": [
     "https://youtu.be/r0r7L8tS2L0"
@@ -1427,6 +1641,7 @@
   "watchdate": "10.22.2022",
   "title": "North by Northwest",
   "year": "1959",
+  "runtime_hm": "2h16m",
   "links": {
    "trailer": [
     "https://youtu.be/Fx0QuZJVTFE"
@@ -1443,6 +1658,7 @@
   "watched": false,
   "title": "Nosferatu",
   "year": "1922",
+  "runtime_hm": "1h21m",
   "links": {
    "trailer": [
     "https://youtu.be/ZxlJxDr26mM"
@@ -1456,6 +1672,7 @@
   "watched": false,
   "title": "Nosferatu",
   "year": "1979",
+  "runtime_hm": "1h47m",
   "links": {
    "trailer": [
     "https://youtu.be/S1Rachk7ipI"
@@ -1466,10 +1683,25 @@
   "runtime_m": 107
  },
  {
+  "watched": false,
+  "title": "Oculus",
+  "year": "2013",
+  "runtime_hm": "1h45m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/66RBsIsWJBQ"
+   ]
+  },
+  "id": "oculus-2013",
+  "dbid": 157547,
+  "runtime_m": 104
+ },
+ {
   "watched": true,
   "watchdate": "10..2021",
   "title": "Once Bitten",
   "year": "1985",
+  "runtime_hm": "1h34m",
   "links": {
    "trailer": [
     "https://youtu.be/9ERIQZOHlAc"
@@ -1490,6 +1722,7 @@
   "watchdate": "02.11.23",
   "title": "One Hour Photo",
   "year": "2002",
+  "runtime_hm": "1h36m",
   "links": {
    "trailer": [
     "https://youtu.be/eWzILZ6wE9Y"
@@ -1504,8 +1737,23 @@
  },
  {
   "watched": false,
+  "title": "One Cut of the Dead",
+  "year": "2017",
+  "runtime_hm": "1h36m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/4wBImbHqhFk"
+   ]
+  },
+  "id": "one-cut-of-the-dead-2017",
+  "dbid": 513434,
+  "runtime_m": 96
+ },
+ {
+  "watched": false,
   "title": "Orca",
   "year": "1977",
+  "runtime_hm": "1h32m",
   "links": {
    "trailer": [
     "https://youtu.be/gd8-MfC6LrQ"
@@ -1519,6 +1767,7 @@
   "watched": false,
   "title": "Pet Sematary",
   "year": "1989",
+  "runtime_hm": "1h43m",
   "links": {
    "trailer": [
     "https://youtu.be/OP1RvkrIsWo"
@@ -1549,6 +1798,7 @@
   "watched": false,
   "title": "Poltergeist II: The Other Side",
   "year": "1986",
+  "runtime_hm": "1h32m",
   "links": {
    "trailer": [
     "https://youtu.be/EwsHWPCS0m4"
@@ -1562,6 +1812,7 @@
   "watched": false,
   "title": "Poltergeist III",
   "year": "1988",
+  "runtime_hm": "1h38m",
   "links": {
    "trailer": [
     "https://youtu.be/_lCfugr2qJU"
@@ -1575,6 +1826,7 @@
   "watched": false,
   "title": "Prince of Darkness",
   "year": "1987",
+  "runtime_hm": "1h42m",
   "links": {
    "trailer": [
     "https://youtu.be/uq_j4DcypdA"
@@ -1588,6 +1840,7 @@
   "watched": false,
   "title": "Pumpkinhead",
   "year": "1988",
+  "runtime_hm": "1h26m",
   "links": {
    "trailer": [
     "https://youtu.be/4uIQ4Zn9Ijc"
@@ -1602,6 +1855,7 @@
   "watchdate": "10.14.23",
   "title": "Re-Animator",
   "year": "1985",
+  "runtime_hm": "1h26m",
   "links": {
    "trailer": [
     "https://youtu.be/wLJ8Z3PDEGU"
@@ -1616,9 +1870,42 @@
  },
  {
   "watched": true,
+  "watchdate": "10.28.23",
+  "title": "Bride of Re-Animator",
+  "year": "1990",
+  "runtime_hm": "1h36m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/E6wlp5-M0_E"
+   ]
+  },
+  "watchdate_arr": [
+   "20231028"
+  ],
+  "id": "bride-of-re-animator-1990",
+  "dbid": 18111,
+  "runtime_m": 96
+ },
+ {
+  "watched": false,
+  "title": "Beyond Re-Animator",
+  "year": "2003",
+  "runtime_hm": "1h36m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/An1lkL3OraY"
+   ]
+  },
+  "id": "beyond-re-animator-2003",
+  "dbid": 11429,
+  "runtime_m": 95
+ },
+ {
+  "watched": true,
   "watchdate": "10.29.22",
   "title": "Repossessed",
   "year": "1990",
+  "runtime_hm": "1h29m",
   "links": {
    "trailer": [
     "https://youtu.be/4RjXdF9GCp0"
@@ -1635,6 +1922,7 @@
   "watched": false,
   "title": "Return of the Living Dead",
   "year": "1985",
+  "runtime_hm": "1h30m",
   "links": {
    "trailer": [
     "https://youtu.be/KeSAFGWzft8"
@@ -1648,6 +1936,7 @@
   "watched": false,
   "title": "Return of the Living Dead Part II",
   "year": "1988",
+  "runtime_hm": "1h29m",
   "links": {
    "trailer": [
     "https://youtu.be/wuko2euXYxw"
@@ -1662,8 +1951,23 @@
  },
  {
   "watched": false,
+  "title": "Ringu",
+  "year": "1998",
+  "runtime_hm": "1h36m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/AJ2jLZq25J4"
+   ]
+  },
+  "id": "ringu-1998",
+  "dbid": 2671,
+  "runtime_m": 96
+ },
+ {
+  "watched": false,
   "title": "R.O.T.O.R.",
   "year": "1987",
+  "runtime_hm": "1h30m",
   "links": {
    "trailer": [
     "https://youtu.be/YZgDQKkHbtY"
@@ -1677,6 +1981,7 @@
   "watched": false,
   "title": "Rubber",
   "year": "2010",
+  "runtime_hm": "1h25m",
   "links": {
    "trailer": [
     "https://youtu.be/hVKgY1ilx0Y"
@@ -1690,6 +1995,7 @@
   "watched": false,
   "title": "Scanners",
   "year": "1981",
+  "runtime_hm": "1h43m",
   "links": {
    "trailer": [
     "https://youtu.be/UveLSA7Hoj8"
@@ -1701,8 +2007,51 @@
  },
  {
   "watched": false,
+  "title": "Scary Movie",
+  "year": "2000",
+  "runtime_hm": "1h28m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/SzpGYrrcJZw"
+   ]
+  },
+  "id": "scary-movie-2000",
+  "dbid": 4247,
+  "runtime_m": 88
+ },
+ {
+  "watched": false,
+  "title": "Se7en",
+  "year": "1995",
+  "runtime_hm": "2h7m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/znmZoVkCjpI"
+   ]
+  },
+  "id": "se7en-1995",
+  "dbid": 807,
+  "runtime_m": 127
+ },
+ {
+  "watched": false,
+  "title": "Shadow of the Vampire",
+  "year": "2000",
+  "runtime_hm": "1h32m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/_B15iesNMa8"
+   ]
+  },
+  "id": "shadow-of-the-vampire-2000",
+  "dbid": 10873,
+  "runtime_m": 95
+ },
+ {
+  "watched": false,
   "title": "Silence of the Lambs",
   "year": "1991",
+  "runtime_hm": "1h58m",
   "links": {
    "trailer": [
     "https://youtu.be/W6Mm8Sbe__o"
@@ -1716,6 +2065,7 @@
   "watched": false,
   "title": "Silent Night, Deadly Night",
   "year": "1984",
+  "runtime_hm": "1h25m",
   "links": {
    "trailer": [
     "https://youtu.be/hNBJfv5pIdY"
@@ -1729,6 +2079,7 @@
   "watched": false,
   "title": "Silent Night, Deadly Night Part 2",
   "year": "1987",
+  "runtime_hm": "1h22m",
   "links": {
    "trailer": [
     "https://youtu.be/A88U78XR6bQ"
@@ -1743,6 +2094,7 @@
   "watchdate": "10..2021",
   "title": "Sleepaway Camp",
   "year": "1983",
+  "runtime_hm": "1h24m",
   "links": {
    "trailer": [
     "https://youtu.be/vImv6yxkxJE"
@@ -1757,9 +2109,28 @@
  },
  {
   "watched": true,
+  "watchdate": "10.28.23",
+  "title": "Slither",
+  "year": "2006",
+  "runtime_hm": "1h35m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/SI0BcgVdSWg"
+   ]
+  },
+  "watchdate_arr": [
+   "20231028"
+  ],
+  "id": "slither-2006",
+  "dbid": 9035,
+  "runtime_m": 95
+ },
+ {
+  "watched": true,
   "watchdate": "10.15.22",
   "title": "Silver Bullet",
   "year": "1985",
+  "runtime_hm": "1h35m",
   "links": {
    "trailer": [
     "https://youtu.be/n1dClCykQys"
@@ -1776,6 +2147,7 @@
   "watched": false,
   "title": "Tales from the Darkside",
   "year": "1990",
+  "runtime_hm": "1h33m",
   "links": {
    "trailer": [
     "https://youtu.be/pFNl7YEAof0"
@@ -1790,6 +2162,7 @@
   "watchdate": "10.15.22",
   "title": "Teen Wolf",
   "year": "1985",
+  "runtime_hm": "1h32m",
   "links": {
    "trailer": [
     "https://youtu.be/96LR5Vsag_E"
@@ -1807,8 +2180,26 @@
  },
  {
   "watched": false,
+  "title": "Teen Wolf 2",
+  "year": "1987",
+  "runtime_hm": "1h35m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/96LR5Vsag_E"
+   ],
+   "movie": [
+    "https://youtu.be/s9mIQW9Ohlk"
+   ]
+  },
+  "id": "teen-wolf-2-1987",
+  "dbid": 15582,
+  "runtime_m": 95
+ },
+ {
+  "watched": true,
   "title": "Terrorvision",
   "year": "1986",
+  "runtime_hm": "1h23m",
   "links": {
    "trailer": [
     "https://youtu.be/d5vqoziQZRA"
@@ -1819,10 +2210,53 @@
   "runtime_m": 81
  },
  {
+  "watched": false,
+  "title": "Thinner",
+  "year": "1996",
+  "runtime_hm": "1h33m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/p97ds4ZR7zM"
+   ]
+  },
+  "id": "thinner-1996",
+  "dbid": 10280,
+  "runtime_m": 92
+ },
+ {
+  "watched": false,
+  "title": "Triangle",
+  "year": "2009",
+  "runtime_hm": "1h39m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/9aCdzjCftgs"
+   ]
+  },
+  "id": "triangle-2009",
+  "dbid": 26466,
+  "runtime_m": 98
+ },
+ {
+  "watched": false,
+  "title": "The Blob",
+  "year": "1958",
+  "runtime_hm": "1h26m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/c_gOLtwyOw0"
+   ]
+  },
+  "id": "the-blob-1958",
+  "dbid": 8851,
+  "runtime_m": 83
+ },
+ {
   "watched": true,
   "watchdate": "10..2021",
   "title": "The Blob",
   "year": "1988",
+  "runtime_hm": "1h35m",
   "links": {
    "trailer": [
     "https://youtu.be/c_gOLtwyOw0"
@@ -1840,6 +2274,7 @@
   "watchdate": "10..2021",
   "title": "The 'Burbs",
   "year": "1989",
+  "runtime_hm": "1h41m",
   "links": {
    "trailer": [
     "https://youtu.be/pyRUijyrXr4"
@@ -1856,6 +2291,7 @@
   "watched": false,
   "title": "The Burning",
   "year": "1981",
+  "runtime_hm": "1h31m",
   "links": {
    "trailer": [
     "https://youtu.be/KTvr0SJQ_WM"
@@ -1869,6 +2305,7 @@
   "watched": false,
   "title": "The Changeling",
   "year": "1980",
+  "runtime_hm": "1h47m",
   "links": {
    "trailer": [
     "https://youtu.be/UwUI7d5TgGA"
@@ -1882,6 +2319,7 @@
   "watched": false,
   "title": "The Car",
   "year": "1977",
+  "runtime_hm": "1h36m",
   "links": {
    "trailer": [
     "https://youtu.be/PoAD3kUmN9s"
@@ -1895,6 +2333,7 @@
   "watched": false,
   "title": "The Company of Wolves",
   "year": "1984",
+  "runtime_hm": "1h35m",
   "links": {
    "trailer": [
     "https://youtu.be/Wcs-HB1Y1n4"
@@ -1906,8 +2345,22 @@
  },
  {
   "watched": false,
+  "title": "The Dead Zone",
+  "year": "1983",
+  "links": {
+   "trailer": [
+    "https://youtu.be/qxJp_VQ5VUk"
+   ]
+  },
+  "id": "the-dead-zone-1983",
+  "dbid": 11336,
+  "runtime_m": 103
+ },
+ {
+  "watched": false,
   "title": "The Fly",
   "year": "1958",
+  "runtime_hm": "1h34m",
   "links": {
    "trailer": [
     "https://youtu.be/Hdv4QA-O1bg"
@@ -1922,6 +2375,7 @@
   "watchdate": "10..2021",
   "title": "The Fly",
   "year": "1986",
+  "runtime_hm": "1h36m",
   "links": {
    "trailer": [
     "https://youtu.be/YPhM5T1DViw"
@@ -1938,6 +2392,7 @@
   "watched": false,
   "title": "The Fly II",
   "year": "1989",
+  "runtime_hm": "1h45m",
   "links": {
    "trailer": [
     "https://youtu.be/4cRmih3xUd0"
@@ -1951,6 +2406,7 @@
   "watched": false,
   "title": "The Fog",
   "year": "1980",
+  "runtime_hm": "1h31m",
   "links": {
    "movie": [
     "https://youtu.be/ESnEBq8N-3I"
@@ -1964,6 +2420,7 @@
   "watched": false,
   "title": "The Gate",
   "year": "1987",
+  "runtime_hm": "1h25m",
   "links": {
    "movie": [
     "https://youtu.be/zqtw2P9mh3w"
@@ -1978,6 +2435,7 @@
   "watchdate": "10.07.23",
   "title": "The Lost Boys",
   "year": "1987",
+  "runtime_hm": "1h38m",
   "links": {
    "trailer": [
     "https://youtu.be/RbiOaaE2RGg"
@@ -1995,6 +2453,7 @@
   "watchdate": "10..2021",
   "title": "The Monster Squad",
   "year": "1987",
+  "runtime_hm": "1h21m",
   "links": {
    "trailer": [
     "https://youtu.be/cbtFKZQUepw"
@@ -2011,6 +2470,7 @@
   "watched": false,
   "title": "The Others",
   "year": "2001",
+  "runtime_hm": "1h44m",
   "links": {
    "trailer": [
     "https://youtu.be/C7pKqaPtMiA"
@@ -2024,6 +2484,7 @@
   "watched": false,
   "title": "The People Under the Stairs",
   "year": "1991",
+  "runtime_hm": "1h42m",
   "links": {
    "trailer": [
     "https://youtu.be/sQSgeXqJPL0"
@@ -2037,6 +2498,7 @@
   "watched": false,
   "title": "Suspiria",
   "year": "1977",
+  "runtime_hm": "1h38m",
   "links": {
    "trailer": [
     "https://youtu.be/hPs2ExUL_bc"
@@ -2050,6 +2512,7 @@
   "watched": false,
   "title": "The Rocky Horror Picture Show",
   "year": "1975",
+  "runtime_hm": "1h38m",
   "links": {
    "trailer": [
     "https://youtu.be/4plqh6obZW4"
@@ -2064,6 +2527,7 @@
   "watchdate": "10.28.23",
   "title": "The Serpent and the Rainbow",
   "year": "1988",
+  "runtime_hm": "1h38m",
   "links": {
    "trailer": [
     "https://youtu.be/LNRnOcW5yqs"
@@ -2081,6 +2545,7 @@
   "watchdate": "10.08.22",
   "title": "The Shining",
   "year": "1980",
+  "runtime_hm": "2h26m",
   "links": {
    "teaser": [
     "https://youtu.be/A-tgsURVNrI"
@@ -2100,6 +2565,7 @@
   "watched": false,
   "title": "The Texas Chainsaw Massacre",
   "year": "1974",
+  "runtime_hm": "1h23m",
   "links": {
    "trailer": [
     "https://youtu.be/MNBuZ8kO-LA"
@@ -2113,6 +2579,7 @@
   "watched": false,
   "title": "The Texas Chainsaw Massacre 2",
   "year": "1986",
+  "runtime_hm": "1h41m",
   "links": {
    "trailer": [
     "https://youtu.be/kjdf6DSHdM4"
@@ -2127,6 +2594,7 @@
   "watchdate": "10..2021",
   "title": "The Thing",
   "year": "1982",
+  "runtime_hm": "1h49m",
   "links": {
    "trailer": [
     "https://youtu.be/eke95-lTPnY"
@@ -2144,6 +2612,7 @@
   "watchdate": "10.01.23",
   "title": "The Witches of Eastwick",
   "year": "1987",
+  "runtime_hm": "1h58m",
   "links": {
    "trailer": [
     "https://youtu.be/mLs1y_KSTKk"
@@ -2160,6 +2629,7 @@
   "watched": false,
   "title": "Transylvania 6-5000",
   "year": "1985",
+  "runtime_hm": "1h33m",
   "links": {
    "trailer": [
     "https://youtu.be/cTJskpL_Bsc"
@@ -2171,8 +2641,51 @@
  },
  {
   "watched": false,
+  "title": "Troll",
+  "year": "1986",
+  "runtime_hm": "1h22m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/-JrmQl3E9zk"
+   ]
+  },
+  "id": "troll-1986",
+  "dbid": 33061,
+  "runtime_m": 82
+ },
+ {
+  "watched": false,
+  "title": "Troll 2",
+  "year": "1990",
+  "runtime_hm": "1h35m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/CkNB0w1fYKk"
+   ]
+  },
+  "id": "troll-2-1990",
+  "dbid": 26914,
+  "runtime_m": 95
+ },
+ {
+  "watched": false,
+  "title": "Vampire's Kiss",
+  "year": "1988",
+  "runtime_hm": "1h43m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/PnoSxO_2ghQ"
+   ]
+  },
+  "id": "vampires-kiss-1988",
+  "dbid": 7091,
+  "runtime_m": 103
+ },
+ {
+  "watched": false,
   "title": "Videodrome",
   "year": "1983",
+  "runtime_hm": "1h27m",
   "links": {
    "trailer": [
     "https://youtu.be/wFRAwig4rU8"
@@ -2186,6 +2699,7 @@
   "watched": false,
   "title": "Village of the Damned",
   "year": "1995",
+  "runtime_hm": "1h38m",
   "links": {
    "trailer": [
     "https://youtu.be/qSIRK3MtIQ4"
@@ -2200,6 +2714,7 @@
   "watchdate": "10.02.23",
   "title": "Wolf",
   "year": "1994",
+  "runtime_hm": "2h5m",
   "links": {
    "trailer": [
     "https://youtu.be/HXcm1cfVIRc"
@@ -2216,6 +2731,7 @@
   "watched": false,
   "title": "XTRO",
   "year": "1982",
+  "runtime_hm": "1h24m",
   "links": {
    "trailer": [
     "https://youtu.be/kjEmbIUcsxA"
@@ -2227,22 +2743,23 @@
  },
  {
   "watched": false,
-  "title": "Scary Movie",
-  "year": "2000",
-  "runtime_hm": "1h28m",
+  "title": "Young Frankenstein",
+  "year": "1974",
+  "runtime_hm": "1h46m",
   "links": {
    "trailer": [
-    "https://youtu.be/SzpGYrrcJZw"
+    "https://youtu.be/sO8g8VmFf0M"
    ]
   },
-  "id": "scary-movie-2000",
-  "dbid": 4247,
-  "runtime_m": 88
+  "id": "young-frankenstein-1974",
+  "dbid": 3034,
+  "runtime_m": 106
  },
  {
   "watched": false,
   "title": "Strangers on a Train",
   "year": "1951",
+  "runtime_hm": "1h41m",
   "links": {
    "trailer": [
     "https://youtu.be/PC62NBWBkjM"
@@ -2260,6 +2777,7 @@
   "watchdate": "10.07.23",
   "title": "The Birds",
   "year": "1963",
+  "runtime_hm": "1h59m",
   "links": {
    "trailer": [
     "https://youtu.be/lCxR7dlavwg"
@@ -2280,6 +2798,7 @@
   "watchdate": "10.01.23",
   "title": "Vertigo",
   "year": "1958",
+  "runtime_hm": "2h8m",
   "links": {
    "trailer": [
     "https://youtu.be/Z5jvQwwHQNY"
@@ -2297,14 +2816,48 @@
  },
  {
   "watched": false,
+  "title": "Psycho",
+  "year": "1960",
+  "runtime_hm": "1h49m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/DTJQfFQ40lI"
+   ]
+  },
+  "id": "psycho-1960",
+  "dbid": 539,
+  "runtime_m": 109
+ },
+ {
+  "watched": false,
+  "title": "Notorious",
+  "year": "1946",
+  "runtime_hm": "2h2m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/DTJQfFQ40lI"
+   ],
+   "modern": [
+    "https://youtu.be/EhMyp8ZvjWs"
+   ]
+  },
+  "id": "notorious-1946",
+  "dbid": 303,
+  "runtime_m": 103
+ },
+ {
+  "watched": false,
   "title": "Aterrados [Terrified]",
-  "year": "2009",
+  "year": "2017",
+  "runtime_hm": "1h27m",
   "links": {
    "trailer": [
     "https://youtu.be/sJzI6qSmJoQ"
    ]
   },
-  "id": "aterrados-terrified-2009"
+  "id": "aterrados-terrified-2017",
+  "dbid": 489430,
+  "runtime_m": 88
  },
  {
   "watched": false,
@@ -2338,6 +2891,7 @@
   "watched": false,
   "title": "Shadow of the Vampire",
   "year": "2000",
+  "runtime_hm": "1h32m",
   "links": {
    "trailer": [
     "https://youtu.be/_B15iesNMa8"
@@ -2351,6 +2905,7 @@
   "watched": false,
   "title": "Thinner",
   "year": "1996",
+  "runtime_hm": "1h33m",
   "links": {
    "trailer": [
     "https://youtu.be/p97ds4ZR7zM"
@@ -2365,6 +2920,7 @@
   "watchdate": "10.28.23",
   "title": "Slither",
   "year": "2006",
+  "runtime_hm": "1h35m",
   "links": {
    "trailer": [
     "https://youtu.be/SI0BcgVdSWg"
@@ -2432,9 +2988,14 @@
  {
   "watched": false,
   "title": "See no Evil Hear no Evil",
-  "links": {},
-  "id": "see-no-evil-hear-no-evil-1989",
   "year": "1989",
+  "runtime_hm": "1h43m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/KzzvoOfXG9E"
+   ]
+  },
+  "id": "see-no-evil-hear-no-evil-1989",
   "dbid": 11185,
   "runtime_m": 103
  },
@@ -2484,6 +3045,7 @@
   "watchdate": "10.28.23",
   "title": "Bride of Re-Animator",
   "year": "1990",
+  "runtime_hm": "1h36m",
   "links": {
    "trailer": [
     "https://youtu.be/E6wlp5-M0_E"
@@ -2500,6 +3062,7 @@
   "watched": false,
   "title": "Beyond Re-Animator",
   "year": "2003",
+  "runtime_hm": "1h36m",
   "links": {
    "trailer": [
     "https://youtu.be/An1lkL3OraY"
@@ -2513,6 +3076,7 @@
   "watched": false,
   "title": "Vampire's Kiss",
   "year": "1988",
+  "runtime_hm": "1h43m",
   "links": {
    "trailer": [
     "https://youtu.be/PnoSxO_2ghQ"
@@ -2526,6 +3090,7 @@
   "watched": false,
   "title": "Ringu",
   "year": "1998",
+  "runtime_hm": "1h36m",
   "links": {
    "trailer": [
     "https://youtu.be/AJ2jLZq25J4"
@@ -2549,6 +3114,7 @@
   "watched": false,
   "title": "Frankenstein",
   "year": "1931",
+  "runtime_hm": "1h11m",
   "links": {
    "trailer": [
     "https://youtu.be/BN8K-4osNb0",
@@ -2592,6 +3158,7 @@
   "watched": false,
   "title": "Young Frankenstein",
   "year": "1974",
+  "runtime_hm": "1h46m",
   "links": {
    "trailer": [
     "https://youtu.be/sO8g8VmFf0M"
@@ -2605,6 +3172,7 @@
   "watched": false,
   "title": "Mary Shelley's Frankenstein",
   "year": "1994",
+  "runtime_hm": "2h3m",
   "links": {
    "trailer": [
     "https://youtu.be/zqolmvqTY9k",
@@ -2617,8 +3185,36 @@
  },
  {
   "watched": false,
+  "title": "Hillbillys in a Haunted House",
+  "year": "1967",
+  "runtime_hm": "1h28m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/7kNPhC-tDnA"
+   ]
+  },
+  "id": "hillbillys-in-a-haunted-house-1967",
+  "dbid": 99008,
+  "runtime_m": 86
+ },
+ {
+  "watched": false,
+  "title": "Thankskilling",
+  "year": "2008",
+  "links": {
+   "trailer": [
+    "https://youtu.be/WOjSRoxc6mg"
+   ]
+  },
+  "id": "thankskilling-2008",
+  "dbid": 60366,
+  "runtime_m": 66
+ },
+ {
+  "watched": false,
   "title": "Frankenstein Conquers the World",
   "year": "1965",
+  "runtime_hm": "1h34m",
   "links": {
    "trailer": [
     "https://youtu.be/yKxQHhki_k8"
@@ -2647,6 +3243,55 @@
  },
  {
   "watched": false,
+  "title": "Judgement",
+  "year": "2001",
+  "links": {},
+  "id": "judgement-2001",
+  "dbid": 210412,
+  "runtime_m": 22
+ },
+ {
+  "watched": false,
+  "title": "Straight Line",
+  "year": "1990",
+  "links": {},
+  "id": "straight-line-1990"
+ },
+ {
+  "watched": false,
+  "title": "Penitentiary II",
+  "year": "1982",
+  "links": {},
+  "id": "penitentiary-ii-1982",
+  "dbid": 65452,
+  "runtime_m": 108
+ },
+ {
+  "watched": false,
+  "title": "Freddy Got Fingered",
+  "year": "2001",
+  "runtime_hm": "1h27m",
+  "links": {},
+  "id": "freddy-got-fingered-2001",
+  "dbid": 13166,
+  "runtime_m": 87
+ },
+ {
+  "watched": false,
+  "title": "Battlefield Earth",
+  "year": "2000",
+  "runtime_hm": "1h57m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/XhNuXvlCTTc"
+   ]
+  },
+  "id": "battlefield-earth-2000",
+  "dbid": 5491,
+  "runtime_m": 117
+ },
+ {
+  "watched": false,
   "title": "Replicas",
   "year": "2019",
   "runtime_hm": "1h47m",
@@ -2658,6 +3303,35 @@
   "id": "replicas-2019",
   "dbid": 300681,
   "runtime_m": 107
+ },
+ {
+  "watched": false,
+  "title": "Johnny Dangerously",
+  "year": "1984",
+  "runtime_hm": "1h30m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/_WEPlSPwWu8"
+   ]
+  },
+  "id": "johnny-dangerously-1984",
+  "dbid": 16806,
+  "runtime_m": 90
+ },
+ {
+  "watched": false,
+  "title": "Goin South",
+  "year": "1978",
+  "runtime_hm": "1h48m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/18SiyNf8gt8",
+    "https://youtu.be/pmlR6Bl3uPM"
+   ]
+  },
+  "id": "goin-south-1978",
+  "dbid": 34130,
+  "runtime_m": 109
  },
  {
   "watched": false,
@@ -5809,7 +6483,8 @@
   "runtime_m": 115
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "09.28.24",
   "title": "The Expendables 3",
   "year": "2014",
   "runtime_hm": "2h6m",
@@ -5818,6 +6493,9 @@
     "https://youtu.be/4xD0junWlFc"
    ]
   },
+  "watchdate_arr": [
+   "20240928"
+  ],
   "id": "the-expendables-3-2014",
   "dbid": 138103,
   "runtime_m": 126
@@ -5935,7 +6613,8 @@
   "runtime_m": 88
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "09.28.24",
   "title": "Children of Men",
   "year": "2006",
   "runtime_hm": "1h49m",
@@ -5944,6 +6623,9 @@
     "https://youtu.be/3CdJYhtjEns"
    ]
   },
+  "watchdate_arr": [
+   "20240928"
+  ],
   "id": "children-of-men-2006",
   "dbid": 9693,
   "runtime_m": 109
@@ -8037,6 +8719,17 @@
  },
  {
   "watched": false,
+  "title": "Sardar Udham",
+  "year": "2022",
+  "links": {
+   "trailer": [
+    "https://youtu.be/bLWgKt1-SYo"
+   ]
+  },
+  "id": "sardar-udham-2022"
+ },
+ {
+  "watched": false,
   "title": "Mean Girls",
   "year": "2004",
   "runtime_hm": "1h37m",
@@ -8363,6 +9056,20 @@
   "id": "existenz-1999",
   "dbid": 1946,
   "runtime_m": 97
+ },
+ {
+  "watched": false,
+  "title": "The Room",
+  "year": "2003",
+  "runtime_hm": "1h39m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/cG_e8k9PILM"
+   ]
+  },
+  "id": "the-room-2003",
+  "dbid": 17473,
+  "runtime_m": 99
  },
  {
   "watched": false,
@@ -11558,7 +12265,7 @@
  },
  {
   "watched": false,
-  "title": "Lord of the Rings: Fellowship of the Ring: Extended",
+  "title": "The Lord of the Rings: Fellowship of the Ring: Extended",
   "year": "2001",
   "runtime_hm": "3h48m",
   "links": {
@@ -11567,11 +12274,11 @@
     "https://youtu.be/V75dMMIW2B4"
    ]
   },
-  "id": "lord-of-the-rings-fellowship-of-the-ring-extended-2001"
+  "id": "the-lord-of-the-rings-fellowship-of-the-ring-extended-2001"
  },
  {
   "watched": false,
-  "title": "Lord of the Rings: The Two Towers: Extended",
+  "title": "The Lord of the Rings: The Two Towers: Extended",
   "year": "2002",
   "runtime_hm": "3h55m",
   "links": {
@@ -11580,11 +12287,11 @@
     "https://youtu.be/hYcw5ksV8YQ"
    ]
   },
-  "id": "lord-of-the-rings-the-two-towers-extended-2002"
+  "id": "the-lord-of-the-rings-the-two-towers-extended-2002"
  },
  {
   "watched": false,
-  "title": "Lord of the Rings: The Return of the King: Extended",
+  "title": "The Lord of the Rings: The Return of the King: Extended",
   "year": "2003",
   "runtime_hm": "4h23m",
   "links": {
@@ -11592,7 +12299,7 @@
     "https://youtu.be/r5X-hFf6Bwo"
    ]
   },
-  "id": "lord-of-the-rings-the-return-of-the-king-extended-2003"
+  "id": "the-lord-of-the-rings-the-return-of-the-king-extended-2003"
  },
  {
   "watched": false,
