@@ -12265,7 +12265,7 @@
  },
  {
   "watched": false,
-  "title": "The Lord of the Rings: Fellowship of the Ring: Extended",
+  "title": "The Lord of the Rings: Fellowship of the Ring",
   "year": "2001",
   "runtime_hm": "3h48m",
   "links": {
@@ -12274,11 +12274,13 @@
     "https://youtu.be/V75dMMIW2B4"
    ]
   },
-  "id": "the-lord-of-the-rings-fellowship-of-the-ring-extended-2001"
+  "id": "the-lord-of-the-rings-fellowship-of-the-ring-2001",
+  "dbid": 120,
+  "runtime_m": 179
  },
  {
   "watched": false,
-  "title": "The Lord of the Rings: The Two Towers: Extended",
+  "title": "The Lord of the Rings: The Two Towers",
   "year": "2002",
   "runtime_hm": "3h55m",
   "links": {
@@ -12287,11 +12289,13 @@
     "https://youtu.be/hYcw5ksV8YQ"
    ]
   },
-  "id": "the-lord-of-the-rings-the-two-towers-extended-2002"
+  "id": "the-lord-of-the-rings-the-two-towers-2002",
+  "dbid": 121,
+  "runtime_m": 179
  },
  {
   "watched": false,
-  "title": "The Lord of the Rings: The Return of the King: Extended",
+  "title": "The Lord of the Rings: The Return of the King",
   "year": "2003",
   "runtime_hm": "4h23m",
   "links": {
@@ -12299,7 +12303,9 @@
     "https://youtu.be/r5X-hFf6Bwo"
    ]
   },
-  "id": "the-lord-of-the-rings-the-return-of-the-king-extended-2003"
+  "id": "the-lord-of-the-rings-the-return-of-the-king-2003",
+  "dbid": 122,
+  "runtime_m": 201
  },
  {
   "watched": false,
