@@ -1,6 +1,558 @@
 [
  {
   "watched": false,
+  "title": "Dracula",
+  "year": "1931",
+  "runtime_hm": "1h15m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/VoaMw91MC9k"
+   ]
+  },
+  "id": "dracula-1931",
+  "dbid": 138,
+  "runtime_m": 74
+ },
+ {
+  "watched": true,
+  "watchdate": "10.12.24",
+  "title": "Frankenstein",
+  "year": "1931",
+  "runtime_hm": "1h11m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/BN8K-4osNb0",
+    "https://youtu.be/XD7Gn9grers"
+   ]
+  },
+  "watchdate_arr": [
+   "20241012"
+  ],
+  "id": "frankenstein-1931",
+  "dbid": 3035,
+  "runtime_m": 70
+ },
+ {
+  "watched": false,
+  "title": "The Mummy",
+  "year": "1932",
+  "runtime_hm": "1h13m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/QwdH941YzAQ"
+   ]
+  },
+  "id": "the-mummy-1932",
+  "dbid": 15849,
+  "runtime_m": 73
+ },
+ {
+  "watched": false,
+  "title": "The Invisible Man",
+  "year": "1933",
+  "runtime_hm": "1h11m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/pb3n0g2NenI"
+   ],
+   "modern": [
+    "https://youtu.be/wqMAtF66TG4"
+   ]
+  },
+  "id": "the-invisible-man-1933",
+  "dbid": 10787,
+  "runtime_m": 71
+ },
+ {
+  "watched": true,
+  "watchdate": "10.19.24",
+  "title": "Bride of Frankenstein",
+  "year": "1935",
+  "runtime_hm": "1h15m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/mPT2R1g5MGY",
+    "https://youtu.be/rYD3-pIF9jQ"
+   ]
+  },
+  "watchdate_arr": [
+   "20241019"
+  ],
+  "id": "bride-of-frankenstein-1935",
+  "dbid": 229,
+  "runtime_m": 75
+ },
+ {
+  "watched": false,
+  "title": "Werewolf of London",
+  "year": "1935",
+  "runtime_hm": "1h15m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/swDiECXLX8o"
+   ]
+  },
+  "id": "werewolf-of-london-1935",
+  "dbid": 27970,
+  "runtime_m": 75
+ },
+ {
+  "watched": false,
+  "title": "Dracula's Daughter",
+  "year": "1936",
+  "runtime_hm": "1h11m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/rieb7XEAOPY"
+   ]
+  },
+  "id": "draculas-daughter-1936",
+  "dbid": 22440,
+  "runtime_m": 71
+ },
+ {
+  "watched": false,
+  "title": "Son of Frankenstein",
+  "year": "1939",
+  "runtime_hm": "1h39m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/v6B7zDZe9gw",
+    "https://youtu.be/0WEU89n1NAI"
+   ]
+  },
+  "id": "son-of-frankenstein-1939",
+  "dbid": 3077,
+  "runtime_m": 99
+ },
+ {
+  "watched": false,
+  "title": "The Invisible Man Returns",
+  "year": "1940",
+  "runtime_hm": "1h21m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/DtkS2vz-bNs"
+   ]
+  },
+  "id": "the-invisible-man-returns-1940",
+  "dbid": 28421,
+  "runtime_m": 81
+ },
+ {
+  "watched": false,
+  "title": "The Mummy's Hand",
+  "year": "1940",
+  "runtime_hm": "1h7m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/blRrTnq6TBg"
+   ]
+  },
+  "id": "the-mummys-hand-1940",
+  "dbid": 31498,
+  "runtime_m": 67
+ },
+ {
+  "watched": false,
+  "title": "The Invisible Woman",
+  "year": "1940",
+  "runtime_hm": "1h51m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/cno0osF0VRA"
+   ]
+  },
+  "id": "the-invisible-woman-1940",
+  "dbid": 28423,
+  "runtime_m": 72
+ },
+ {
+  "watched": false,
+  "title": "The Wolf Man",
+  "year": "1941",
+  "runtime_hm": "1h10m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/j_k5TyfHMQw"
+   ]
+  },
+  "id": "the-wolf-man-1941",
+  "dbid": 13666,
+  "runtime_m": 70
+ },
+ {
+  "watched": false,
+  "title": "The Ghost of Frankenstein",
+  "year": "1942",
+  "runtime_hm": "1h7m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/wV9nHXpIC_0"
+   ]
+  },
+  "id": "the-ghost-of-frankenstein-1942",
+  "dbid": 3074,
+  "runtime_m": 68
+ },
+ {
+  "watched": false,
+  "title": "Invisible Agent",
+  "year": "1942",
+  "runtime_hm": "1h21m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/bZN37AH1LNg"
+   ]
+  },
+  "id": "invisible-agent-1942",
+  "dbid": 28426,
+  "runtime_m": 81
+ },
+ {
+  "watched": false,
+  "title": "The Mummy's Tomb",
+  "year": "1942",
+  "runtime_hm": "1h1m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/b5NRPPDxZA4"
+   ]
+  },
+  "id": "the-mummys-tomb-1942",
+  "dbid": 29239,
+  "runtime_m": 61
+ },
+ {
+  "watched": false,
+  "title": "Frankenstein Meets the Wolf Man",
+  "year": "1943",
+  "runtime_hm": "1h13m",
+  "links": {
+   "movie": [
+    "https://youtu.be/LhArTFocIb0"
+   ]
+  },
+  "id": "frankenstein-meets-the-wolf-man-1943",
+  "dbid": 3076,
+  "runtime_m": 74
+ },
+ {
+  "watched": false,
+  "title": "Son of Dracula",
+  "year": "1943",
+  "runtime_hm": "1h20m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/Qv4y_Y0bKWo"
+   ]
+  },
+  "id": "son-of-dracula-1943",
+  "dbid": 32023,
+  "runtime_m": 80
+ },
+ {
+  "watched": false,
+  "title": "The Invisible Man's Revenge",
+  "year": "1944",
+  "runtime_hm": "1h18m",
+  "links": {},
+  "id": "the-invisible-mans-revenge-1944",
+  "dbid": 28425,
+  "runtime_m": 78
+ },
+ {
+  "watched": false,
+  "title": "The Mummy's Ghost",
+  "year": "1944",
+  "runtime_hm": "1h1m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/wb0Anlb64mk"
+   ]
+  },
+  "id": "the-mummys-ghost-1944",
+  "dbid": 29243,
+  "runtime_m": 60
+ },
+ {
+  "watched": false,
+  "title": "House of Frankenstein",
+  "year": "1945",
+  "runtime_hm": "1h11m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/I90bPakb1zs"
+   ]
+  },
+  "id": "house-of-frankenstein-1945"
+ },
+ {
+  "watched": false,
+  "title": "The Mummy's Curse",
+  "year": "1944",
+  "links": {
+   "trailer": [
+    "https://youtu.be/P42bdvHQ0_M"
+   ]
+  },
+  "id": "the-mummys-curse-1944",
+  "dbid": 29242,
+  "runtime_m": 60
+ },
+ {
+  "watched": false,
+  "title": "House of Dracula",
+  "year": "1945",
+  "runtime_hm": "1h7m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/6KLf-PjcxQg"
+   ]
+  },
+  "id": "house-of-dracula-1945",
+  "dbid": 30793,
+  "runtime_m": 67
+ },
+ {
+  "watched": false,
+  "title": "She-Wolf of London",
+  "year": "1946",
+  "runtime_hm": "1h1m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/sWim1z5OOg8"
+   ]
+  },
+  "id": "she-wolf-of-london-1946",
+  "dbid": 45322,
+  "runtime_m": 61
+ },
+ {
+  "watched": false,
+  "title": "Abbott and Costello Meet Frankenstein",
+  "year": "1948",
+  "runtime_hm": "1h23m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/3sTgwxxSRnQ"
+   ]
+  },
+  "id": "abbott-and-costello-meet-frankenstein-1948",
+  "dbid": 3073,
+  "runtime_m": 83
+ },
+ {
+  "watched": false,
+  "title": "Abbott and Costello Meet the Invisible Man",
+  "year": "1951",
+  "runtime_hm": "1h22m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/KSKBXW6vhAY"
+   ]
+  },
+  "id": "abbott-and-costello-meet-the-invisible-man-1951",
+  "dbid": 33475,
+  "runtime_m": 83
+ },
+ {
+  "watched": false,
+  "title": "Abbott and Costello Meet Dr. Jekyll and Mr. Hyde",
+  "year": "1953",
+  "runtime_hm": "1h16m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/aLepl3_iTyg",
+    "https://youtu.be/tZ5TCgT0Yvg"
+   ]
+  },
+  "id": "abbott-and-costello-meet-dr-jekyll-and-mr-hyde-1953",
+  "dbid": 3023,
+  "runtime_m": 77
+ },
+ {
+  "watched": false,
+  "title": "Creature from the Black Lagoon",
+  "year": "1954",
+  "runtime_hm": "1h19m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/e7uIsGCXojw",
+    "https://youtu.be/rXRXTaQ6Iuw",
+    "https://youtu.be/_jFgF0gbIuk"
+   ]
+  },
+  "id": "creature-from-the-black-lagoon-1954",
+  "dbid": 10973,
+  "runtime_m": 79
+ },
+ {
+  "watched": false,
+  "title": "Revenge of the Creature",
+  "year": "1955",
+  "runtime_hm": "1h22m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/5qsn8294YFU",
+    "https://youtu.be/AUO52WQsiXY"
+   ]
+  },
+  "id": "revenge-of-the-creature-1955",
+  "dbid": 40761,
+  "runtime_m": 82
+ },
+ {
+  "watched": false,
+  "title": "Abbott and Costello Meet the Mummy",
+  "year": "1955",
+  "runtime_hm": "1h19m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/EPmeEMWPMvI"
+   ]
+  },
+  "id": "abbott-and-costello-meet-the-mummy-1955",
+  "dbid": 26661,
+  "runtime_m": 79
+ },
+ {
+  "watched": false,
+  "title": "The Creature Walks Among Us",
+  "year": "1956",
+  "runtime_hm": "1h18m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/f7zyeH0xx5g",
+    "https://youtu.be/aNO93gfsUbE"
+   ],
+   "modern": [
+    "https://youtu.be/J_Lq7WbsSY4"
+   ]
+  },
+  "id": "the-creature-walks-among-us-1956",
+  "dbid": 39408,
+  "runtime_m": 79
+ },
+ {
+  "watched": false,
+  "title": "The Curse of the Werewolf",
+  "year": "1961",
+  "runtime_hm": "1h33m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/VpDSqf8y5Ys"
+   ]
+  },
+  "id": "the-curse-of-the-werewolf-1961",
+  "dbid": 28752,
+  "runtime_m": 93
+ },
+ {
+  "watched": false,
+  "title": "The Curse of the Mummy's Tomb",
+  "year": "1964",
+  "runtime_hm": "1h21m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/D8kpcRYzrPs"
+   ]
+  },
+  "id": "the-curse-of-the-mummys-tomb-1964",
+  "dbid": 39044,
+  "runtime_m": 80
+ },
+ {
+  "watched": false,
+  "title": "Frankenstein Conquers the World",
+  "year": "1965",
+  "runtime_hm": "1h34m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/yKxQHhki_k8"
+   ],
+   "japanese": [
+    "https://youtu.be/Q3cej8jiLk8"
+   ]
+  },
+  "id": "frankenstein-conquers-the-world-1965",
+  "dbid": 3160,
+  "runtime_m": 90
+ },
+ {
+  "watched": false,
+  "title": "The Mummy",
+  "year": "1999",
+  "runtime_hm": "2h4m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/fSpZU7KAGfk"
+   ]
+  },
+  "id": "the-mummy-1999",
+  "dbid": 564,
+  "runtime_m": 124
+ },
+ {
+  "watched": false,
+  "title": "The Mummy Returns",
+  "year": "2001",
+  "runtime_hm": "2h10m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/ptmLrNpmcBo"
+   ]
+  },
+  "id": "the-mummy-returns-2001",
+  "dbid": 1734,
+  "runtime_m": 130
+ },
+ {
+  "watched": false,
+  "title": "The Scorpion King",
+  "year": "2002",
+  "runtime_hm": "1h32m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/b7nmYiZ6cAg",
+    "https://youtu.be/ZmX6NYrtkCc"
+   ]
+  },
+  "id": "the-scorpion-king-2002",
+  "dbid": 9334,
+  "runtime_m": 92
+ },
+ {
+  "watched": false,
+  "title": "Van Helsing",
+  "year": "2004",
+  "runtime_hm": "2h11m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/3fdRKme00uI",
+    "https://youtu.be/W6C6qcCW2JE"
+   ]
+  },
+  "id": "van-helsing-2004",
+  "dbid": 7131,
+  "runtime_m": 132
+ },
+ {
+  "watched": false,
+  "title": "The Mummy: Tomb of the Dragon Emperor",
+  "year": "2008",
+  "runtime_hm": "1h52m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/vqUGSrcVm6Y"
+   ]
+  },
+  "id": "the-mummy-tomb-of-the-dragon-emperor-2008",
+  "dbid": 1735,
+  "runtime_m": 112
+ },
+ {
+  "watched": false,
   "title": "The Adams Family",
   "year": "1991",
   "runtime_hm": "1h39m",
@@ -82,7 +634,8 @@
   "runtime_m": 96
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "10.12.24",
   "title": "A Nightmare on Elm Street 4: The Dream Master",
   "year": "1988",
   "runtime_hm": "1h33m",
@@ -92,6 +645,9 @@
     "https://youtu.be/jc-9vF9F_eg"
    ]
   },
+  "watchdate_arr": [
+   "20241012"
+  ],
   "id": "a-nightmare-on-elm-street-4-the-dream-master-1988",
   "dbid": 10131,
   "runtime_m": 93
@@ -222,7 +778,7 @@
   ],
   "id": "bram-stokers-dracula-1992",
   "dbid": 6114,
-  "runtime_m": 127
+  "runtime_m": 128
  },
  {
   "watched": false,
@@ -451,6 +1007,7 @@
   "watched": false,
   "title": "The Dead Zone",
   "year": "1983",
+  "runtime_hm": "1h43m",
   "links": {
    "trailer": [
     "https://youtu.be/qxJp_VQ5VUk"
@@ -558,7 +1115,8 @@
   "runtime_m": 91
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "10.05.24",
   "title": "Evil Dead",
   "year": "1981",
   "runtime_hm": "1h20m",
@@ -567,12 +1125,16 @@
     "https://youtu.be/NL6mioAlpJk"
    ]
   },
+  "watchdate_arr": [
+   "20241005"
+  ],
   "id": "evil-dead-1981",
   "dbid": 764,
   "runtime_m": 85
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "10.05.24",
   "title": "Evil Dead 2",
   "year": "1987",
   "runtime_hm": "1h25m",
@@ -584,12 +1146,16 @@
     "https://youtu.be/YKTjakoo8Qk"
    ]
   },
+  "watchdate_arr": [
+   "20241005"
+  ],
   "id": "evil-dead-2-1987",
   "dbid": 765,
   "runtime_m": 84
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "10.05.24",
   "title": "Army of Darkness",
   "year": "1993",
   "runtime_hm": "1h36m",
@@ -598,6 +1164,9 @@
     "https://youtu.be/UHZQEtG8xYo"
    ]
   },
+  "watchdate_arr": [
+   "20241005"
+  ],
   "id": "army-of-darkness-1993",
   "dbid": 766,
   "runtime_m": 81
@@ -668,64 +1237,20 @@
  },
  {
   "watched": false,
-  "title": "Frankenstein",
-  "year": "1931",
-  "runtime_hm": "1h11m",
+  "title": "Freaked",
+  "year": "1993",
+  "runtime_hm": "1h20m",
   "links": {
    "trailer": [
-    "https://youtu.be/BN8K-4osNb0",
-    "https://youtu.be/XD7Gn9grers"
-   ]
-  },
-  "id": "frankenstein-1931",
-  "dbid": 3035,
-  "runtime_m": 70
- },
- {
-  "watched": false,
-  "title": "Bride of Frankenstein",
-  "year": "1935",
-  "runtime_hm": "1h15m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/mPT2R1g5MGY",
-    "https://youtu.be/rYD3-pIF9jQ"
-   ]
-  },
-  "id": "bride-of-frankenstein-1935",
-  "dbid": 229,
-  "runtime_m": 75
- },
- {
-  "watched": false,
-  "title": "Frankenstein Meets the Wolf Man",
-  "year": "1943",
-  "runtime_hm": "1h13m",
-  "links": {
-   "movie": [
-    "https://youtu.be/LhArTFocIb0"
-   ]
-  },
-  "id": "frankenstein-meets-the-wolf-man-1943",
-  "dbid": 3076,
-  "runtime_m": 74
- },
- {
-  "watched": false,
-  "title": "Frankenstein Conquers the World",
-  "year": "1965",
-  "runtime_hm": "1h34m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/yKxQHhki_k8"
+    "https://youtu.be/NkgjMMI4M0I"
    ],
-   "japanese": [
-    "https://youtu.be/Q3cej8jiLk8"
+   "movie": [
+    "https://youtu.be/JbFfhcDmFJY"
    ]
   },
-  "id": "frankenstein-conquers-the-world-1965",
-  "dbid": 3160,
-  "runtime_m": 90
+  "id": "freaked-1993",
+  "dbid": 17796,
+  "runtime_m": 80
  },
  {
   "watched": true,
@@ -764,7 +1289,8 @@
   "runtime_m": 86
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "10.12.24",
   "title": "Friday the 13th - Part 3",
   "year": "1982",
   "runtime_hm": "1h35m",
@@ -773,6 +1299,9 @@
     "https://youtu.be/SDdBhDJ7wdA"
    ]
   },
+  "watchdate_arr": [
+   "20241012"
+  ],
   "id": "friday-the-13th-part-3-1982",
   "dbid": 9728,
   "runtime_m": 95
@@ -1276,6 +1805,16 @@
  },
  {
   "watched": false,
+  "title": "Body Snatchers",
+  "year": "1993",
+  "runtime_hm": "1h27m",
+  "links": {},
+  "id": "body-snatchers-1993",
+  "dbid": 4722,
+  "runtime_m": 87
+ },
+ {
+  "watched": false,
   "title": "Killer Klowns from Outer Space",
   "year": "1988",
   "runtime_hm": "1h28m",
@@ -1433,7 +1972,8 @@
   "runtime_m": 84
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "10.19.24",
   "title": "Mary Shelley's Frankenstein",
   "year": "1994",
   "runtime_hm": "2h3m",
@@ -1443,6 +1983,9 @@
     "https://youtu.be/hnxFuPw0JIE"
    ]
   },
+  "watchdate_arr": [
+   "20241019"
+  ],
   "id": "mary-shelleys-frankenstein-1994",
   "dbid": 3036,
   "runtime_m": 123
@@ -1765,6 +2308,7 @@
  },
  {
   "watched": false,
+  "watchdate": "10.26.24",
   "title": "Pet Sematary",
   "year": "1989",
   "runtime_hm": "1h43m",
@@ -1773,6 +2317,9 @@
     "https://youtu.be/OP1RvkrIsWo"
    ]
   },
+  "watchdate_arr": [
+   "20241026"
+  ],
   "id": "pet-sematary-1989",
   "dbid": 8913,
   "runtime_m": 102
@@ -2207,7 +2754,7 @@
   },
   "id": "terrorvision-1986",
   "dbid": 24194,
-  "runtime_m": 81
+  "runtime_m": 85
  },
  {
   "watched": false,
@@ -2249,7 +2796,7 @@
   },
   "id": "the-blob-1958",
   "dbid": 8851,
-  "runtime_m": 83
+  "runtime_m": 82
  },
  {
   "watched": true,
@@ -2429,6 +2976,21 @@
   "id": "the-gate-1987",
   "dbid": 6917,
   "runtime_m": 86
+ },
+ {
+  "watched": false,
+  "title": "The Hitcher",
+  "year": "1986",
+  "runtime_hm": "1h37m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/mIJQYh7qe84",
+    "https://youtu.be/gaJRGK6XCVc"
+   ]
+  },
+  "id": "the-hitcher-1986",
+  "dbid": 9542,
+  "runtime_m": 98
  },
  {
   "watched": true,
@@ -2640,7 +3202,8 @@
   "runtime_m": 93
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "10.26.24",
   "title": "Troll",
   "year": "1986",
   "runtime_hm": "1h22m",
@@ -2649,6 +3212,9 @@
     "https://youtu.be/-JrmQl3E9zk"
    ]
   },
+  "watchdate_arr": [
+   "20241026"
+  ],
   "id": "troll-1986",
   "dbid": 33061,
   "runtime_m": 82
@@ -2742,7 +3308,8 @@
   "runtime_m": 86
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "10.26.24",
   "title": "Young Frankenstein",
   "year": "1974",
   "runtime_hm": "1h46m",
@@ -2751,6 +3318,9 @@
     "https://youtu.be/sO8g8VmFf0M"
    ]
   },
+  "watchdate_arr": [
+   "20241026"
+  ],
   "id": "young-frankenstein-1974",
   "dbid": 3034,
   "runtime_m": 106
@@ -2812,7 +3382,7 @@
   ],
   "id": "vertigo-1958",
   "dbid": 426,
-  "runtime_m": 129
+  "runtime_m": 128
  },
  {
   "watched": false,
@@ -2948,25 +3518,6 @@
  },
  {
   "watched": false,
-  "title": "Shadow Hours",
-  "year": "2000",
-  "runtime_hm": "1h35m",
-  "links": {},
-  "id": "shadow-hours-2000",
-  "dbid": 68206,
-  "runtime_m": 95
- },
- {
-  "watched": false,
-  "title": "Kung Fury",
-  "links": {},
-  "id": "kung-fury-2015",
-  "year": "2015",
-  "dbid": 251516,
-  "runtime_m": 32
- },
- {
-  "watched": false,
   "title": "Moonwalker",
   "year": "1988",
   "runtime_hm": "1h33m",
@@ -2984,6 +3535,25 @@
   "id": "sneakers-1992",
   "dbid": 2322,
   "runtime_m": 126
+ },
+ {
+  "watched": false,
+  "title": "Shadow Hours",
+  "year": "2000",
+  "runtime_hm": "1h35m",
+  "links": {},
+  "id": "shadow-hours-2000",
+  "dbid": 68206,
+  "runtime_m": 95
+ },
+ {
+  "watched": false,
+  "title": "Kung Fury",
+  "year": "2015",
+  "links": {},
+  "id": "kung-fury-2015",
+  "dbid": 251516,
+  "runtime_m": 32
  },
  {
   "watched": false,
@@ -3112,6 +3682,20 @@
  },
  {
   "watched": false,
+  "title": "Transcendence",
+  "year": "2014",
+  "links": {
+   "trailer": [
+    "https://youtu.be/VCTen3-B8GU"
+   ]
+  },
+  "id": "transcendence-2014",
+  "dbid": 157353,
+  "runtime_m": 119
+ },
+ {
+  "watched": true,
+  "watchdate": "10.19.2024",
   "title": "Frankenstein",
   "year": "1931",
   "runtime_hm": "1h11m",
@@ -3121,12 +3705,16 @@
     "https://youtu.be/XD7Gn9grers"
    ]
   },
+  "watchdate_arr": [
+   "20241019"
+  ],
   "id": "frankenstein-1931",
   "dbid": 3035,
   "runtime_m": 70
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "10.19.2024",
   "title": "Bride of Frankenstein",
   "year": "1935",
   "runtime_hm": "1h15m",
@@ -3136,9 +3724,27 @@
     "https://youtu.be/rYD3-pIF9jQ"
    ]
   },
+  "watchdate_arr": [
+   "20241019"
+  ],
   "id": "bride-of-frankenstein-1935",
   "dbid": 229,
   "runtime_m": 75
+ },
+ {
+  "watched": false,
+  "title": "Son of Frankenstein",
+  "year": "1939",
+  "runtime_hm": "1h39m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/v6B7zDZe9gw",
+    "https://youtu.be/0WEU89n1NAI"
+   ]
+  },
+  "id": "son-of-frankenstein-1939",
+  "dbid": 3077,
+  "runtime_m": 99
  },
  {
   "watched": false,
@@ -3199,6 +3805,20 @@
  },
  {
   "watched": false,
+  "title": "The Lost Skeleton of Cadavra",
+  "year": "2001",
+  "runtime_hm": "1h30m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/zf84oJhmnOc"
+   ]
+  },
+  "id": "the-lost-skeleton-of-cadavra-2001",
+  "dbid": 18841,
+  "runtime_m": 90
+ },
+ {
+  "watched": false,
   "title": "Thankskilling",
   "year": "2008",
   "links": {
@@ -3226,6 +3846,34 @@
   "id": "frankenstein-conquers-the-world-1965",
   "dbid": 3160,
   "runtime_m": 90
+ },
+ {
+  "watched": false,
+  "title": "Hagen - Im Tal der Nibelungen",
+  "year": "2024",
+  "runtime_hm": "2h15m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/mRAbhPnSBiM"
+   ]
+  },
+  "id": "hagen-im-tal-der-nibelungen-2024",
+  "dbid": 1209130,
+  "runtime_m": 135
+ },
+ {
+  "watched": false,
+  "title": "Nothing But Trouble",
+  "year": "1991",
+  "runtime_hm": "1h34m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/DbvIjtP7lxE"
+   ]
+  },
+  "id": "nothing-but-trouble-1991",
+  "dbid": 11933,
+  "runtime_m": 94
  },
  {
   "watched": false,
@@ -3488,6 +4136,31 @@
  },
  {
   "watched": false,
+  "title": "The Canonball Run",
+  "year": "1981",
+  "runtime_hm": "1h35m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/s8BNVDUslcE"
+   ]
+  },
+  "id": "the-canonball-run-1981"
+ },
+ {
+  "watched": false,
+  "title": "Cannonball Run 2",
+  "year": "1984",
+  "links": {
+   "trailer": [
+    "https://youtu.be/PPAoLr-GlJs"
+   ]
+  },
+  "id": "cannonball-run-2-1984",
+  "dbid": 11950,
+  "runtime_m": 108
+ },
+ {
+  "watched": false,
   "title": "Potop Redivivus",
   "year": "1974",
   "runtime_hm": "5h15m",
@@ -3612,7 +4285,11 @@
   "title": "Goldfinger",
   "year": "1964",
   "runtime_hm": "1h50m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/MA65V-oLKa8"
+   ]
+  },
   "id": "goldfinger-1964",
   "dbid": 658,
   "runtime_m": 110
@@ -3621,6 +4298,7 @@
   "watched": false,
   "title": "You Only Live Twice",
   "year": "1967",
+  "runtime_hm": "1h57m",
   "links": {
    "trailer": [
     "https://youtu.be/WbvZvDTTaZ8"
@@ -3916,6 +4594,7 @@
   "watched": true,
   "title": "Escape from New York",
   "year": "1981",
+  "runtime_hm": "1h39m",
   "links": {
    "teaser": [
     "https://youtu.be/10OoccK7dIw"
@@ -3933,6 +4612,7 @@
   "watched": true,
   "title": "Escape from L.A.",
   "year": "1996",
+  "runtime_hm": "1h41m",
   "links": {
    "trailer": [
     "https://youtu.be/EMvoxhtPXXA"
@@ -4158,6 +4838,29 @@
   "runtime_m": 89
  },
  {
+  "watched": true,
+  "title": "Darkman",
+  "year": "1990",
+  "links": {
+   "trailer": [
+    "https://youtu.be/W8oGHvO2RgU"
+   ]
+  },
+  "id": "darkman-1990",
+  "dbid": 9556,
+  "runtime_m": 95
+ },
+ {
+  "watched": false,
+  "title": "Jurassic Park",
+  "year": "1993",
+  "runtime_hm": "2h7m",
+  "links": {},
+  "id": "jurassic-park-1993",
+  "dbid": 329,
+  "runtime_m": 127
+ },
+ {
   "watched": false,
   "title": "The Hitman's Bodyguard",
   "year": "2017",
@@ -4279,8 +4982,8 @@
    "20220924"
   ],
   "id": "alien-3-1992",
-  "dbid": 8077,
-  "runtime_m": 114
+  "dbid": 1295001,
+  "runtime_m": 100
  },
  {
   "watched": false,
@@ -4335,6 +5038,7 @@
   "watchdate": "5.14.2022",
   "title": "Almost Heroes",
   "year": "1998",
+  "runtime_hm": "1h30m",
   "links": {
    "trailer": [
     "https://youtu.be/NgHm7-S82SI"
@@ -4597,6 +5301,7 @@
   "watched": false,
   "title": "Austin Powers: International Man of Mystery",
   "year": "1997",
+  "runtime_hm": "1h29m",
   "links": {
    "trailer": [
     "https://youtu.be/3M25U3ViEwM"
@@ -4604,6 +5309,26 @@
   },
   "id": "austin-powers-international-man-of-mystery-1997",
   "dbid": 816,
+  "runtime_m": 94
+ },
+ {
+  "watched": false,
+  "title": "Austin Powers: The Spy Who Shagged Me",
+  "year": "1999",
+  "runtime_hm": "1h35m",
+  "links": {},
+  "id": "austin-powers-the-spy-who-shagged-me-1999",
+  "dbid": 817,
+  "runtime_m": 95
+ },
+ {
+  "watched": false,
+  "title": "Austin Powers in Goldmember",
+  "year": "2002",
+  "runtime_hm": "1h34m",
+  "links": {},
+  "id": "austin-powers-in-goldmember-2002",
+  "dbid": 818,
   "runtime_m": 94
  },
  {
@@ -4995,7 +5720,7 @@
   },
   "id": "sex-and-the-future-2020",
   "dbid": 685309,
-  "runtime_m": 90
+  "runtime_m": 80
  },
  {
   "watched": true,
@@ -5339,6 +6064,26 @@
  },
  {
   "watched": false,
+  "title": "Adventures of Don Juan",
+  "year": "1948",
+  "runtime_hm": "1h50m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/bKdjN3dBDhY"
+   ],
+   "modern": [
+    "https://youtu.be/8-F7-CFNG6M"
+   ],
+   "movie": [
+    "https://hurawatchtv.to/watch-movie/watch-adventures-of-don-juan-free-87223/1290235"
+   ]
+  },
+  "id": "adventures-of-don-juan-1948",
+  "dbid": 34233,
+  "runtime_m": 106
+ },
+ {
+  "watched": false,
   "title": "The Great Dictator",
   "year": "1940",
   "runtime_hm": "2h5m",
@@ -5396,7 +6141,7 @@
   },
   "id": "the-blob-1958",
   "dbid": 8851,
-  "runtime_m": 83
+  "runtime_m": 82
  },
  {
   "watched": false,
@@ -5734,36 +6479,6 @@
  },
  {
   "watched": false,
-  "title": "Days of Heaven",
-  "year": "1978",
-  "runtime_hm": "1h34m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/DCd2ruD1jTA"
-   ],
-   "modern": [
-    "https://youtu.be/7LAqRFoT97o"
-   ]
-  },
-  "id": "days-of-heaven-1978",
-  "dbid": 16642,
-  "runtime_m": 94
- },
- {
-  "watched": false,
-  "title": "Three Days of the Condor",
-  "year": "1975",
-  "links": {
-   "trailer": [
-    "https://youtu.be/BCZ-HwaWK3o"
-   ]
-  },
-  "id": "three-days-of-the-condor-1975",
-  "dbid": 11963,
-  "runtime_m": 117
- },
- {
-  "watched": false,
   "title": "Westworld",
   "year": "1973",
   "runtime_hm": "1h28m",
@@ -5781,6 +6496,19 @@
  },
  {
   "watched": false,
+  "title": "Three Days of the Condor",
+  "year": "1975",
+  "links": {
+   "trailer": [
+    "https://youtu.be/BCZ-HwaWK3o"
+   ]
+  },
+  "id": "three-days-of-the-condor-1975",
+  "dbid": 11963,
+  "runtime_m": 117
+ },
+ {
+  "watched": false,
   "title": "Futureworld",
   "year": "1976",
   "runtime_hm": "1h48m",
@@ -5792,6 +6520,23 @@
   "id": "futureworld-1976",
   "dbid": 10640,
   "runtime_m": 108
+ },
+ {
+  "watched": false,
+  "title": "Days of Heaven",
+  "year": "1978",
+  "runtime_hm": "1h34m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/DCd2ruD1jTA"
+   ],
+   "modern": [
+    "https://youtu.be/7LAqRFoT97o"
+   ]
+  },
+  "id": "days-of-heaven-1978",
+  "dbid": 16642,
+  "runtime_m": 94
  },
  {
   "watched": false,
@@ -6248,7 +6993,7 @@
  },
  {
   "watched": true,
-  "watchdate": "06.15.14",
+  "watchdate": "06.15.24",
   "title": "End of Days",
   "year": "1999",
   "runtime_hm": "2h2m",
@@ -6258,7 +7003,7 @@
    ]
   },
   "watchdate_arr": [
-   "20140615"
+   "20240615"
   ],
   "id": "end-of-days-1999",
   "dbid": 9946,
@@ -6357,20 +7102,6 @@
   "id": "around-the-world-in-80-days-2004",
   "dbid": 10204,
   "runtime_m": 120
- },
- {
-  "watched": false,
-  "title": "The Kid and I",
-  "year": "2005",
-  "runtime_hm": "1h33m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/avm4rESwujw"
-   ]
-  },
-  "id": "the-kid-and-i-2005",
-  "dbid": 1165673,
-  "runtime_m": 0
  },
  {
   "watched": true,
@@ -6586,6 +7317,20 @@
   "id": "5th-element-1997",
   "dbid": 18,
   "runtime_m": 126
+ },
+ {
+  "watched": false,
+  "title": "Leon the Professional",
+  "year": "1994",
+  "runtime_hm": "1h50m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/aNQqoExfQsg"
+   ]
+  },
+  "id": "leon-the-professional-1994",
+  "dbid": 101,
+  "runtime_m": 111
  },
  {
   "watched": false,
@@ -7444,6 +8189,15 @@
   "id": "flight-of-the-intruder-1991",
   "dbid": 18886,
   "runtime_m": 115
+ },
+ {
+  "watched": true,
+  "title": "Point Break",
+  "year": "1991",
+  "links": {},
+  "id": "point-break-1991",
+  "dbid": 1089,
+  "runtime_m": 122
  },
  {
   "watched": false,
@@ -8386,7 +9140,7 @@
   },
   "id": "pretty-woman-1990",
   "dbid": 114,
-  "runtime_m": 119
+  "runtime_m": 120
  },
  {
   "watched": true,
@@ -9698,6 +10452,15 @@
  },
  {
   "watched": false,
+  "title": "Fantastic Planet",
+  "year": "1973",
+  "links": {},
+  "id": "fantastic-planet-1973",
+  "dbid": 16306,
+  "runtime_m": 72
+ },
+ {
+  "watched": false,
   "title": "Red Line",
   "year": "2011",
   "runtime_hm": "1h42m",
@@ -10699,7 +11462,7 @@
   },
   "id": "old-school-2003",
   "dbid": 11635,
-  "runtime_m": 88
+  "runtime_m": 92
  },
  {
   "watched": false,
@@ -10781,7 +11544,7 @@
   "year": "2012",
   "links": {
    "trailer": [
-    "https://youtu.be/ywaR-Lq_ayk"
+    "https://youtu.be/G9Za91t6z1Y"
    ]
   },
   "watchdate_arr": [
@@ -11222,6 +11985,20 @@
   "id": "the-sandlot-1993",
   "dbid": 11528,
   "runtime_m": 101
+ },
+ {
+  "watched": false,
+  "title": "The Towering Inferno",
+  "year": "1974",
+  "runtime_hm": "2h45m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/Kr6l87i9oAI"
+   ]
+  },
+  "id": "the-towering-inferno-1974",
+  "dbid": 5919,
+  "runtime_m": 165
  },
  {
   "watched": false,
@@ -12264,7 +13041,8 @@
   "runtime_m": 135
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "11.03.24",
   "title": "The Lord of the Rings: Fellowship of the Ring",
   "year": "2001",
   "runtime_hm": "3h48m",
@@ -12274,6 +13052,9 @@
     "https://youtu.be/V75dMMIW2B4"
    ]
   },
+  "watchdate_arr": [
+   "20241103"
+  ],
   "id": "the-lord-of-the-rings-fellowship-of-the-ring-2001",
   "dbid": 120,
   "runtime_m": 179
@@ -13108,6 +13889,7 @@
   "watched": false,
   "title": "Stargate",
   "year": "1994",
+  "runtime_hm": "1h56m",
   "links": {
    "trailer": [
     "https://youtu.be/kiJtZUPvJxY"
@@ -13124,6 +13906,7 @@
   "watched": false,
   "title": "Steel Dawn",
   "year": "1987",
+  "runtime_hm": "1h40m",
   "links": {},
   "id": "steel-dawn-1987",
   "dbid": 27786,
@@ -13133,6 +13916,7 @@
   "watched": false,
   "title": "Strange Invaders",
   "year": "1983",
+  "runtime_hm": "1h34m",
   "links": {
    "trailer": [
     "https://youtu.be/XvQGWDh9ybQ"
@@ -14417,6 +15201,9 @@
   "links": {
    "teaser": [
     "https://youtu.be/x1-SjAYJtlY"
+   ],
+   "trailer": [
+    "https://youtu.be/SzkEmm6-y4c"
    ]
   },
   "id": "twilight-zone-the-movie-1983",
