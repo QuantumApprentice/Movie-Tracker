@@ -1378,6 +1378,20 @@
  },
  {
   "watched": false,
+  "title": "Friday the 13th - Part 9 - Jason Goes to Hell",
+  "year": "1993",
+  "runtime_hm": "1h27m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/B7Neh90SoX8"
+   ]
+  },
+  "id": "friday-the-13th-part-9-jason-goes-to-hell-1993",
+  "dbid": 10285,
+  "runtime_m": 88
+ },
+ {
+  "watched": false,
   "title": "Fright Night",
   "year": "1985",
   "runtime_hm": "1h46m",
@@ -1741,6 +1755,20 @@
  },
  {
   "watched": false,
+  "title": "Idle Hands",
+  "year": "1999",
+  "runtime_hm": "1h32m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/vlmCEc8BmEQ"
+   ]
+  },
+  "id": "idle-hands-1999",
+  "dbid": 6552,
+  "runtime_m": 92
+ },
+ {
+  "watched": false,
   "title": "Interview with the Vampire",
   "year": "1994",
   "runtime_hm": "2h3m",
@@ -1808,7 +1836,11 @@
   "title": "Body Snatchers",
   "year": "1993",
   "runtime_hm": "1h27m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/sR8pqAB788U"
+   ]
+  },
   "id": "body-snatchers-1993",
   "dbid": 4722,
   "runtime_m": 87
@@ -3684,6 +3716,7 @@
   "watched": false,
   "title": "Transcendence",
   "year": "2014",
+  "runtime_hm": "1h59m",
   "links": {
    "trailer": [
     "https://youtu.be/VCTen3-B8GU"
@@ -3821,6 +3854,7 @@
   "watched": false,
   "title": "Thankskilling",
   "year": "2008",
+  "runtime_hm": "1h10m",
   "links": {
    "trailer": [
     "https://youtu.be/WOjSRoxc6mg"
@@ -3913,6 +3947,20 @@
   "id": "penitentiary-ii-1982",
   "dbid": 65452,
   "runtime_m": 108
+ },
+ {
+  "watched": false,
+  "title": "Ali: Fear Eats the Soul",
+  "year": "1974",
+  "runtime_hm": "1h33m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/OWo0xMt2QKQ"
+   ]
+  },
+  "id": "ali-fear-eats-the-soul-1974",
+  "dbid": 216,
+  "runtime_m": 93
  },
  {
   "watched": false,
@@ -6050,6 +6098,16 @@
  },
  {
   "watched": false,
+  "title": "City Lights",
+  "year": "1931",
+  "runtime_hm": "1h27m",
+  "links": {},
+  "id": "city-lights-1931",
+  "dbid": 901,
+  "runtime_m": 87
+ },
+ {
+  "watched": false,
   "title": "Treasure of the Sierra Madre",
   "year": "1948",
   "runtime_hm": "2h6m",
@@ -6476,6 +6534,20 @@
   "id": "barbarella-1968",
   "dbid": 8069,
   "runtime_m": 98
+ },
+ {
+  "watched": false,
+  "title": "The Great Escape",
+  "year": "1963",
+  "links": {
+   "trailer": [
+    "https://youtu.be/M2bEzJFVdQ4",
+    "https://youtu.be/I9jSKTSY5Bs"
+   ]
+  },
+  "id": "the-great-escape-1963",
+  "dbid": 5925,
+  "runtime_m": 173
  },
  {
   "watched": false,
@@ -12394,7 +12466,7 @@
   ],
   "id": "face-off-1997",
   "dbid": 754,
-  "runtime_m": 138
+  "runtime_m": 139
  },
  {
   "watched": false,
@@ -12407,7 +12479,7 @@
   },
   "id": "once-a-thief-1991",
   "dbid": 47423,
-  "runtime_m": 103
+  "runtime_m": 108
  },
  {
   "watched": true,
@@ -15714,9 +15786,10 @@
   "watched": true,
   "title": "Admiral",
   "year": "2008",
+  "runtime_hm": "2h4m",
   "links": {
    "trailer": [
-    "https://youtu.be/CjKHYENLThw"
+    "https://youtu.be/Wr91lP8JR7I"
    ]
   },
   "id": "admiral-2008",
