@@ -694,7 +694,7 @@ async function build_tmdb_json2()
       // let movie_bg_blurhash;
       if (fs.existsSync(`public/bg/${movie_bg_filename}`)) {
         try {
-          console.log("cropping ", movie_bg_filename);
+          // console.log("cropping ", movie_bg_filename);
             let jpeg_body = fs.readFileSync(`public/bg/${movie_bg_filename}`);
             let pixels = jpeg_js.decode(jpeg_body);
 

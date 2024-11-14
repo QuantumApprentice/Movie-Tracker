@@ -10,94 +10,22 @@ let failedImages = new Set();
 
 export default function App()
 {
-  let movie_map = new Map();
-  for (const m of movieJson) {
-    movie_map.set(m.id, m);
-  }
+  // let movie_map = new Map();
+  // for (const m of movieJson) {
+  //   movie_map.set(m.id, m);
+  // }
 
   return (
     <Outlet />
   )
 }
 
-/*displays list of movies to click on */
-export function DisplayList()
+export function Sidebar()
 {
-  let [movieList, setMovieList] = useState(movieJson);
-  let [sortDir, setSortDir]     = useState("invisible");
   let [whichSort, setWhichSort] = useState("none");
-  let [buffer, setBuffer]       = useState(false);
-  // let [err, setErr] = useState(failedImages.has(tmdbList?.find(m=>m.id === currentMovie.dbid)));
-
-  // let tmdb    = tmdbList?.find(m=>m.id === currentMovie.dbid);
-  // let src = err ? `https://image.tmdb.org/t/p/w1280/${tmdb?.backdrop_path}`
-  //           : `/bg/${tmdb.bg}`;
-
-  let movieList_map = useMemo(
-    ()=>movieList.map((movie, idx)=>{
-
-      // let trStyle = {};
-      //   const blurhash = tmdbList?.find(m=>m.id === movie.dbid).blurhash;
-      //   if (blurhash && idx < 200) {
-      //     let pixels = decode(blurhash, 1280, 30, 8,8);
-      //     const canvas = document.createElement("canvas");
-      //     canvas.width  = 1280;
-      //     canvas.height = 30;
-      //     const ctx = canvas.getContext("2d");
-      //     const imageData = ctx.createImageData(1280, 30);
-      //     imageData.data.set(pixels);
-      //     ctx.putImageData(imageData, 0, 0);
-      //     trStyle['--data-backdrop-url'] = `url(${canvas.toDataURL()})`;
-      //     // console.log(trStyle);
-      //     // document.body.append(canvas);
-      // }
-
-      return (
-        <tr  className='movie-list' key={idx}
-          style={
-            // trStyle
-            {"--data-backdrop-url": `url(${
-                  `/Movie-Tracker/strip/${tmdbList?.find(m=>m.id === movie.dbid).bg}`
-            })`}
-          }
-          onMouseOver={(e)=>{
-            e.currentTarget.className="movie-list-hover";
-            if (e.currentTarget.previousElementSibling) {
-              e.currentTarget.previousElementSibling.className="movie-list-next";
-            }
-            if (e.currentTarget.nextElementSibling) {
-              e.currentTarget.nextElementSibling.className="movie-list-next";
-            }
-          }}
-          onMouseOut={(e)=>{
-            e.currentTarget.className="movie-list";
-            if (e.currentTarget.previousElementSibling) {
-              e.currentTarget.previousElementSibling.className="movie-list";
-            }
-            if (e.currentTarget.nextElementSibling) {
-              e.currentTarget.nextElementSibling.className="movie-list";
-            }
-          }}
-        >
-          <td className='movie-title-list'>
-            <Link to={`/Movie-Tracker/movies/${movie.id}`}
-
-                  // onError={()=>{
-                  //   failedImages.add(tmdb.bg);
-                  //   setErr(true);
-                  //   }}
-            >{movie.title}</Link>
-          </td>
-          <td>({movie.year || tmdbList.find(m=>m.id===movie.dbid)?.release_date?.slice(0,4)})</td>
-          <td>[{movie.runtime_hm || tmdbList.find(m=>m.id===movie.dbid).runtime_hm}]</td>
-          <td>({
-          format_date(movie.watchdate_arr?.[0]) || 
-          (movie.watched ? "watched": "")
-          })</td>
-        </tr>
-      )})
-    , [movieList]
-  )
+  let [sortDir, setSortDir]     = useState("invisible");
+  let tbl_clss = 'sidebar-horizontal';
+  tbl_clss = 'sidebar-vertical';
 
   function set_sort(sort_type) {
     setMovieList(()=>{
@@ -113,6 +41,105 @@ export function DisplayList()
     });
   }
 
+
+  return (
+    <>
+      <div className={tbl_clss}>
+        <button onClick={()=>{
+          set_sort(sort_title);
+          setWhichSort("title");
+        }}>Title&nbsp;{
+          (whichSort === "title") ? <Chevron className={sortDir} /> : null
+        }
+        </button>
+        <button onClick={()=>{
+          set_sort(sort_release);
+          setWhichSort("year");
+        }}>Release Year&nbsp;{
+          (whichSort === "year") ? <Chevron className={sortDir} /> : null
+        }
+        </button>
+        <button onClick={()=>{
+          set_sort(sort_runtime);
+          setWhichSort("runtime");
+        }}>[Runtime]&nbsp;{
+          (whichSort === "runtime") ? <Chevron className={sortDir} /> : null
+        }
+        </button>
+        <button onClick={()=>{
+          set_sort(sort_watchdate);
+          setWhichSort("watchdate");
+        }}>Watch Date&nbsp;{
+          (whichSort === "watchdate") ? <Chevron className={sortDir} /> : null
+        }
+        </button>
+      </div>
+      <Outlet />
+    </>
+  )
+}
+
+/*displays list of movies to click on */
+export function DisplayList()
+{
+  let [movieList, setMovieList] = useState(movieJson);
+  let [buffer, setBuffer]       = useState(false);
+
+  let movieList_map = useMemo(
+    ()=>movieList.map((movie, idx)=>{
+
+      let src = `/Movie-Tracker/pstr/${tmdbList?.find(m=>m.id === movie.dbid).poster}`;
+      return (
+        <div  className='poster-array-movie' key={idx}
+          style={
+            {"--poster-url": `url(${src})`}
+          }
+          //default line coloring when images don't load
+          onMouseOver={(e)=>{
+            e.currentTarget.className="poster-array-hover";
+            e.currentTarget.style.setProperty("--poster-url", `url(${src})`);
+            // if (e.currentTarget.previousElementSibling) {
+            //   e.currentTarget.previousElementSibling.className="movie-list-next";
+            // }
+            // if (e.currentTarget.nextElementSibling) {
+            //   e.currentTarget.nextElementSibling.className="movie-list-next";
+            // }
+          }}
+          onMouseOut={(e)=>{
+            e.currentTarget.className="poster-array-movie";
+            e.currentTarget.style.setProperty("--poster-url", `url(${src})`);
+            // if (e.currentTarget.previousElementSibling) {
+            //   e.currentTarget.previousElementSibling.className="movie-list";
+            // }
+            // if (e.currentTarget.nextElementSibling) {
+            //   e.currentTarget.nextElementSibling.className="movie-list";
+            // }
+          }}
+          onMouseDown={(e)=>{
+            if (!e.button == 0) { //if not left-click
+              return;
+            }
+            window.location.href = `/Movie-Tracker/movies/${movie.id}`;
+            // let src = `/Movie-Tracker/bg/${tmdbList?.find(m=>m.id === movie.dbid).bg}`;
+            // e.currentTarget.className="movie-list-click";
+            // e.currentTarget.style.setProperty("--data-backdrop-url", `url(${src})`);
+          }}
+        >
+          <div className='movie-title-list'>
+            <Link to={`/Movie-Tracker/movies/${movie.id}`}
+            >{movie.title}</Link>
+          </div>
+          <div>({movie.year || tmdbList.find(m=>m.id===movie.dbid)?.release_date?.slice(0,4)})</div>
+          <div>[{movie.runtime_hm || tmdbList.find(m=>m.id===movie.dbid).runtime_hm}]</div>
+          <div>({
+          format_date(movie.watchdate_arr?.[0]) || 
+          (movie.watched ? "watched": "")
+          })</div>
+        </div>
+      )}), [movieList]
+  )
+
+
   function format_date(date) {
     let year = date?.slice(0,4);
     let month = date?.slice(4,6);
@@ -120,377 +147,231 @@ export function DisplayList()
   }
 
   useEffect(()=>{
-    let targetZoomedLineHeight = 36;
-    let standardLineHeight = 24;
-    let rowHeight = standardLineHeight + 2; //includes 2px cell spacing by default
-    //line height is 1.5 so font size = line height/1.5
-    let table = document.querySelector('.table-stuff');
-    let tbody = table.querySelector('tbody');
-    let adjustedRows = [];
-    let mouseY;
-
-    function animate() {
-      clearStyles();
-      let rect = tbody.getBoundingClientRect();
-      let deltaY = mouseY - rect.y;
-      let rowIndex = Math.floor(deltaY / rowHeight);
-      let ratioWithinRow    = (deltaY - rowIndex*rowHeight)/rowHeight;
-      let ratioWithinRowInv = 1-ratioWithinRow;
-      let row = tbody.children[rowIndex];
-
-
-      let grow_size   = targetZoomedLineHeight - standardLineHeight;
-      // let minLineHeight = 14;
-      // let shrink_size = standardLineHeight - minLineHeight;
-
-      // console.log("regular: ", ratioWithinRow);
-      // console.log("inverted: ", ratioWithinRowInv);
-
-      if (!row) return;
-
-
-
-      // row.style.lineHeight = `${targetZoomedLineHeight}px`;
-      row.style.lineHeight = `${standardLineHeight}px`;
-      row.style.fontSize   = `${targetZoomedLineHeight/1.5}px`;
-      row.style.filter     = `grayscale(0)`;
-      adjustedRows.push(row);
-
-
-    //this version sets the prevRow first
-    //instead of the nextRow first
-      let prevRowLineHeight
-        = standardLineHeight/2
-          + grow_size * ratioWithinRowInv
-          + standardLineHeight * ratioWithinRowInv/2;
-      let prevRow = row.previousElementSibling;
-      if (prevRow) {
-        // prevRow.style.lineHeight = `${prevRowLineHeight}px`;
-        prevRow.style.lineHeight = `${standardLineHeight}px`;
-        prevRow.style.fontSize   = `${prevRowLineHeight/1.5}px`;
-        prevRow.style.filter     = `grayscale(${1-(prevRowLineHeight-12)/standardLineHeight})`;
-        adjustedRows.push(prevRow);
-      }
-
-      let nextRowLineHeight
-        = standardLineHeight/2
-          + grow_size * ratioWithinRow
-          + standardLineHeight * ratioWithinRow/2;
-      let nextRow = row.nextElementSibling;
-      if (nextRow) {
-        // nextRow.style.lineHeight = `${nextRowLineHeight}px`;
-        nextRow.style.lineHeight = `${standardLineHeight}px`;
-        nextRow.style.fontSize   = `${nextRowLineHeight/1.5}px`;
-        nextRow.style.filter     = `grayscale(${1-(nextRowLineHeight-12)/standardLineHeight})`;
-        adjustedRows.push(nextRow);
-      }
-
-      let prevRow2 = prevRow.previousElementSibling;
-      let prevRow2LineHeight
-        = standardLineHeight
-          - grow_size;
-// console.log(grow_size * ratioWithInRowInv);
-      if (prevRow2) {
-        // prevRow2.style.lineHeight = `${prevRow2LineHeight}px`;
-        prevRow2.style.lineHeight = `${standardLineHeight}px`;
-        prevRow2.style.fontSize   = `${prevRow2LineHeight/1.5}px`;
-        adjustedRows.push(prevRow2);
-      }
-
-// console.log(prevRow2LineHeight);
-
-      let nextRow2LineHeight
-        = standardLineHeight
-          - grow_size;
-// console.log(nextRow2LineHeight);
-      let nextRow2 = nextRow.nextElementSibling;
-      if (nextRow2) {
-        // nextRow2.style.lineHeight = `${nextRow2LineHeight}px`;
-        nextRow2.style.lineHeight = `${standardLineHeight}px`;
-        nextRow2.style.fontSize   = `${nextRow2LineHeight/1.5}px`;
-        adjustedRows.push(nextRow2);
-      }
-
-
-
-      let prevRowMid = prevRow2.previousElementSibling;
-      let nextRowMid = nextRow2.nextElementSibling;
-
-      for (let i = 0; i < 5; i++) {
-
-        if (prevRowMid) {
-          prevRowMid.style.lineHeight = `${standardLineHeight}px`;
-          prevRowMid.style.fontSize   = `${prevRow2LineHeight/1.5}px`;
-          adjustedRows.push(prevRowMid);
-        }
-        prevRowMid = prevRowMid.previousElementSibling;
-
-        if (nextRowMid) {
-          nextRowMid.style.lineHeight = `${standardLineHeight}px`;
-          nextRowMid.style.fontSize   = `${nextRow2LineHeight/1.5}px`;
-          adjustedRows.push(nextRowMid);
-        }
-        nextRowMid = nextRowMid.nextElementSibling;
-      }
-
-
-      let prevRow3LineHeight
-        = standardLineHeight
-          - grow_size * ratioWithinRowInv;
-      let prevRow3 = prevRowMid;
-      console.log("pr3 Line height: ", prevRow3LineHeight);
-      if (prevRow3) {
-        prevRow3.style.lineHeight = `${standardLineHeight}px`;
-        prevRow3.style.fontSize   = `${prevRow3LineHeight/1.5}px`;
-        prevRow3.style.filter     = `grayscale(${1-(prevRow3LineHeight-12*ratioWithinRowInv)/standardLineHeight})`;
-        adjustedRows.push(prevRow3);
-      }
-
-      let nextRow3LineHeight
-        = standardLineHeight
-          - grow_size * ratioWithinRow;
-      let nextRow3 = nextRowMid;
-      // console.log("nr3 Line height: ", nextRow3LineHeight);
-      if (nextRow3) {
-        nextRow3.style.lineHeight = `${standardLineHeight}px`;
-        nextRow3.style.fontSize   = `${nextRow3LineHeight/1.5}px`;
-        nextRow3.style.filter     = `grayscale(${1-(nextRow3LineHeight-12*ratioWithinRow)/standardLineHeight})`;
-        adjustedRows.push(nextRow3);
-      }
-
-
-//this old code was used to change the font _&_ the line size
-//at the same time, which caused wacky dom movement,
-//and I couldn't figure out how to adjust the movement
-//to prevent the dom links from moving around
-//(turns out I was making the main hovered link larger than
-// shrinking any single other link could make-up the excess
-// movement)
-//So I removed the code that changed the line size
-//and just changed the font size to grow/shrink
-      // //push the excess rows from the center out
-      // //instead of from the top down
-      // if (rowIndex >= 2) {
-      //   tbody.style.transform = `translateY(-${targetZoomedLineHeight - standardLineHeight}px)`;
-      //   // tbody.style.paddingTop = `${targetZoomedLineHeight}px`;
-      // } else if (rowIndex === 1) {
-      //   tbody.style.transform = `translateY(-${Math.floor((targetZoomedLineHeight - standardLineHeight)*ratioWithinRow)}px)`;
-      // }
-
-      // let nextRowLineHeight
-      //   = Math.floor(
-      //     standardLineHeight
-      //     + (targetZoomedLineHeight - standardLineHeight)*ratioWithinRow
-      //     // - (standardLineHeight - minLineHeight)*(ratioWithinRow)
-      //   );
-      // let nextRow = row.nextElementSibling;
-      // if (nextRow) {
-      //   nextRow.style.lineHeight = `${nextRowLineHeight}px`;
-      //   nextRow.style.fontSize   = `${nextRowLineHeight/1.5}px`;
-      //   adjustedRows.push(nextRow);
-      // }
-      // let prevRowLineHeight
-      //   = standardLineHeight
-      //     + targetZoomedLineHeight
-      //     - nextRowLineHeight;
-      //     // - minLineHeight
-      // let prevRow = row.previousElementSibling;
-      // if (prevRow) {
-      //   prevRow.style.lineHeight = `${prevRowLineHeight}px`;
-      //   prevRow.style.fontSize   = `${prevRowLineHeight/1.5}px`;
-      //   adjustedRows.push(prevRow);
-      // }
-
-    }
-    function clearStyles() {
-      for (let row of adjustedRows){
-        row.style.removeProperty('font-size');
-        row.style.removeProperty('line-height');
-      }
-      tbody.style.removeProperty('transform');
-      adjustedRows = [];
-    }
-
-    function handleMouseEvent(e) {
-      mouseY = e.clientY;
-      requestAnimationFrame(animate);
-    }
-    function handleEnter(e) {
-      setBuffer(true);
-      table.addEventListener('mousemove', handleMouseMove);
-      handleMouseEvent(e);
-    }
-    function handleLeave(e) {
-      setBuffer(false);
-      table.removeEventListener('mousemove', handleMouseMove);
-      clearStyles();
-    }
-    function handleMouseMove(e) {
-      handleMouseEvent(e);
-    }
-
-    table.addEventListener('mouseenter', handleEnter);
-    table.addEventListener('mouseleave', handleLeave)
-
-    return () => {
-      table.removeEventListener('mouseenter', handleEnter);
-      table.removeEventListener('mouseleave', handleLeave);
-      table.removeEventListener('mousemove', handleMouseMove);
-      cancelAnimationFrame(animate);
-      clearStyles();
-    }
+    // movie_listing_hover_effect(setBuffer);
   }, []);
 
   return (
     <>
-      <table className='table-stuff'>
-        <thead>
-          <tr className='movie-list-sticky'>
-            <th><button onClick={()=>{
-                set_sort(sort_title);
-                setWhichSort("title");
-              }}>Title&nbsp;{
-                (whichSort === "title") ? <Chevron className={sortDir} /> : null
-              }
-              </button>
-            </th>
-            <th><button onClick={()=>{
-                set_sort(sort_release);
-                setWhichSort("year");
-              }}>Release Year&nbsp;{
-                (whichSort === "year") ? <Chevron className={sortDir} /> : null
-              }
-              </button>
-            </th>
-            <th><button onClick={()=>{
-                set_sort(sort_runtime);
-                setWhichSort("runtime");
-              }}>[Runtime]&nbsp;{
-                (whichSort === "runtime") ? <Chevron className={sortDir} /> : null
-              }
-              </button>
-            </th>
-            <th><button onClick={()=>{
-                set_sort(sort_watchdate);
-                setWhichSort("watchdate");
-              }}>Watch Date&nbsp;{
-                (whichSort === "watchdate") ? <Chevron className={sortDir} /> : null
-              }
-              </button>
-            </th>
-          </tr>
-        </thead>
-        <tbody>
-          {/* {buffer ? <tr><td colSpan={4}>&nbsp;</td></tr> : null} */}
-          {movieList_map}
-        </tbody>
-      </table>
+
+
+      <div className='poster-array'>
+        {/* {buffer ? <tr><td colSpan={4}>&nbsp;</td></tr> : null} */}
+        {movieList_map}
+      </div>
     </>
   )
 }
 
-//TODO: DELETE
-//This old code used CSS to change the font sizes
-//for the movie list depending on where the mouse
-//was hovering ---- replaced by what is currently
-//running above
-// export function DisplayList()
-// {
-//   let [movieList, setMovieList] = useState(movieJson);
-//   let [sortDir, setSortDir]     = useState("invisible");
-//   let [whichSort, setWhichSort] = useState("none");
-//   // movieList = movieJson;
-//   // console.log(movieList);
-//   // console.log(movieJson);
-//   function set_sort(sort_type) {
-//     setMovieList(()=>{
-//       return sort_type(sortDir === "sort_dn");
-//     });
-//     setSortDir((dir)=>{
-//       if (dir === "sort_dn") {
-//         dir = "sort_up";
-//       } else {
-//         dir = "sort_dn";
-//       }
-//       return dir;
-//     });
-//   }
-//   function format_date(date) {
-//     let year = date?.slice(0,4);
-//     let month = date?.slice(4,6);
-//     console.log(month);
-//     return date;
-//   }
-//   return (
-//     <>
-//       <table className='table-stuff'>
-//         <thead>
-//           <tr className='movie-list-sticky'>
-//             <th><button onClick={()=>{
-//                 set_sort(sort_title);
-//                 setWhichSort("title");
-//               }}>Title&nbsp;{
-//                 (whichSort === "title") ? <Chevron className={sortDir} /> : null
-//               }
-//               </button>
-//             </th>
-//             <th><button onClick={()=>{
-//                 set_sort(sort_release);
-//                 setWhichSort("year");
-//               }}>Release Year&nbsp;{
-//                 (whichSort === "year") ? <Chevron className={sortDir} /> : null
-//               }
-//               </button>
-//             </th>
-//             <th><button onClick={()=>{
-//                 set_sort(sort_runtime);
-//                 setWhichSort("runtime");
-//               }}>[Runtime]&nbsp;{
-//                 (whichSort === "runtime") ? <Chevron className={sortDir} /> : null
-//               }
-//               </button>
-//             </th>
-//             <th><button onClick={()=>{
-//                 set_sort(sort_watchdate);
-//                 setWhichSort("watchdate");
-//               }}>Watch Date&nbsp;{
-//                 (whichSort === "watchdate") ? <Chevron className={sortDir} /> : null
-//               }
-//               </button>
-//             </th>
-//           </tr>
-//         </thead>
-//         <tbody>
-//           {movieList.map((movie, idx)=>(
-//             <tr  className='movie-list' key={idx}
-//               onMouseOver={(e)=>{
-//                 e.currentTarget.className="movie-list-hover";
-//                 e.currentTarget.previousElementSibling.className="movie-list-next";
-//                 e.currentTarget.nextElementSibling.className="movie-list-next";
-//               }}
-//               onMouseOut={(e)=>{
-//                 e.currentTarget.className="movie-list";
-//                 e.currentTarget.previousElementSibling.className="movie-list";
-//                 e.currentTarget.nextElementSibling.className="movie-list";
-//               }}
-//             >
-//               <td className='movie-title-list'>
-//                 <Link to={`/movies/${movie.id}`}>
-//                   {movie.title}</Link>
-//               </td>
-//               <td>({movie.year || tmdbList.find(m=>m.id===movie.dbid)?.release_date?.slice(0,4)})</td>
-//               <td>[{movie.runtime_hm || tmdbList.find(m=>m.id===movie.dbid).runtime_hm}]</td>
-//               <td>({
-//               format_date(movie.watchdate_arr?.[0]) || 
-//               (movie.watched ? "watched": "")
-//               })</td>
-//             </tr>
-//           ))}
-//         </tbody>
-//       </table>
-//     </>
-//   )
-// }
+function movie_listing_hover_effect(setBuffer) {
+  let targetZoomedLineHeight = 36;
+  let standardLineHeight = 24;
+  let rowHeight = standardLineHeight + 2; //includes 2px cell spacing by default
+  //line height is 1.5 so font size = line height/1.5
+  let table = document.querySelector('.table-stuff');
+  let tbody = table.querySelector('tbody');
+  let adjustedRows = [];
+  let mouseY;
+
+  //callback handler for requestAnimationFrame()
+  //                 and cancelAnimationFrame()
+  function animate() {
+    animate_grow_on_mouse_hover(
+      mouseY, tbody, rowHeight,
+      targetZoomedLineHeight,
+      standardLineHeight,
+      adjustedRows,
+    );
+  }
+
+  function handleMouseEvent(e) {
+    mouseY = e.clientY;
+    requestAnimationFrame(animate);
+  }
+  function handleEnter(e) {
+    setBuffer(true);
+    table.addEventListener('mousemove', handleMouseMove);
+    handleMouseEvent(e);
+  }
+  function handleLeave(e) {
+    setBuffer(false);
+    table.removeEventListener('mousemove', handleMouseMove);
+    clearStyles(adjustedRows, tbody);
+  }
+  function handleMouseMove(e) {
+    handleMouseEvent(e);
+  }
+
+  table.addEventListener('mouseenter', handleEnter);
+  table.addEventListener('mouseleave', handleLeave);
+
+  return () => {
+    table.removeEventListener('mouseenter', handleEnter);
+    table.removeEventListener('mouseleave', handleLeave);
+    table.removeEventListener('mousemove', handleMouseMove);
+    cancelAnimationFrame(animate);
+    clearStyles(adjustedRows, tbody);
+  }
+}
+
+
+
+function clearStyles(adjustedRows, tbody) {
+  for (let row of adjustedRows){
+    row.style.removeProperty('font-size');
+    row.style.removeProperty('line-height');
+  }
+  tbody.style.removeProperty('transform');
+  adjustedRows = [];
+}
+
+//TODO: migrate away from this code
+//      kept here for archive purposes for now
+function animate_grow_on_mouse_hover(mouseY, tbody, rowHeight, targetZoomedLineHeight, standardLineHeight, adjustedRows) {
+  clearStyles(adjustedRows, tbody);
+  let rect     = tbody.getBoundingClientRect();
+  let deltaY   = mouseY - rect.y;
+  let rowIndex = Math.floor(deltaY / rowHeight);
+
+  let row = tbody.children[rowIndex];
+  if (!row) return;
+
+  let ratioWithinRow    = (deltaY - rowIndex*rowHeight)/rowHeight;
+  let ratioWithinRowInv = 1-ratioWithinRow;
+  let grow_size = targetZoomedLineHeight - standardLineHeight;
+
+  row.style.lineHeight = `${standardLineHeight}px`;
+  row.style.fontSize   = `${targetZoomedLineHeight/1.5}px`;
+  row.style.filter     = `grayscale(0)`;
+  adjustedRows.push(row);
+
+  //this version sets the prevRow first
+  //instead of the nextRow first
+  let prevRowLineHeight = standardLineHeight/2
+      + grow_size * ratioWithinRowInv
+      + standardLineHeight * ratioWithinRowInv/2;
+  let prevRow = row.previousElementSibling;
+  if (prevRow) {
+    prevRow.style.lineHeight = `${standardLineHeight}px`;
+    prevRow.style.fontSize   = `${prevRowLineHeight/1.5}px`;
+    prevRow.style.filter     = `grayscale(${1-(prevRowLineHeight-12)/standardLineHeight})`;
+    adjustedRows.push(prevRow);
+  } else {
+    return;
+  }
+
+  let nextRowLineHeight = standardLineHeight/2
+      + grow_size * ratioWithinRow
+      + standardLineHeight * ratioWithinRow/2;
+  let nextRow = row.nextElementSibling;
+  if (nextRow) {
+    nextRow.style.lineHeight = `${standardLineHeight}px`;
+    nextRow.style.fontSize   = `${nextRowLineHeight/1.5}px`;
+    nextRow.style.filter     = `grayscale(${1-(nextRowLineHeight-12)/standardLineHeight})`;
+    adjustedRows.push(nextRow);
+  } else {
+    return;
+  }
+
+  let prevRow2 = prevRow.previousElementSibling;
+  let prevRow2LineHeight = standardLineHeight - grow_size;
+  if (prevRow2) {
+    prevRow2.style.lineHeight = `${standardLineHeight}px`;
+    prevRow2.style.fontSize   = `${prevRow2LineHeight/1.5}px`;
+    adjustedRows.push(prevRow2);
+  } else {
+    return;
+  }
+
+  let nextRow2LineHeight = standardLineHeight - grow_size;
+  let nextRow2 = nextRow.nextElementSibling;
+  if (nextRow2) {
+    nextRow2.style.lineHeight = `${standardLineHeight}px`;
+    nextRow2.style.fontSize   = `${nextRow2LineHeight/1.5}px`;
+    adjustedRows.push(nextRow2);
+  } else {
+    return;
+  }
+
+  let prevRowMid = prevRow2.previousElementSibling;
+  let nextRowMid = nextRow2.nextElementSibling;
+  for (let i = 0; i < 5; i++) {
+    if (prevRowMid) {
+      prevRowMid.style.lineHeight = `${standardLineHeight}px`;
+      prevRowMid.style.fontSize   = `${prevRow2LineHeight/1.5}px`;
+      adjustedRows.push(prevRowMid);
+      prevRowMid = prevRowMid.previousElementSibling;
+    }
+
+    if (nextRowMid) {
+      nextRowMid.style.lineHeight = `${standardLineHeight}px`;
+      nextRowMid.style.fontSize   = `${nextRow2LineHeight/1.5}px`;
+      adjustedRows.push(nextRowMid);
+      nextRowMid = nextRowMid.nextElementSibling;
+    }
+  }
+
+  let prevRow3LineHeight = standardLineHeight
+      - grow_size * ratioWithinRowInv;
+  let prevRow3 = prevRowMid;
+  if (prevRow3) {
+    prevRow3.style.lineHeight = `${standardLineHeight}px`;
+    prevRow3.style.fontSize   = `${prevRow3LineHeight/1.5}px`;
+    prevRow3.style.filter     = `grayscale(${1-(prevRow3LineHeight-12*ratioWithinRowInv)/standardLineHeight})`;
+    adjustedRows.push(prevRow3);
+  }
+
+  let nextRow3LineHeight = standardLineHeight
+      - grow_size * ratioWithinRow;
+  let nextRow3 = nextRowMid;
+  if (nextRow3) {
+    nextRow3.style.lineHeight = `${standardLineHeight}px`;
+    nextRow3.style.fontSize   = `${nextRow3LineHeight/1.5}px`;
+    nextRow3.style.filter     = `grayscale(${1-(nextRow3LineHeight-12*ratioWithinRow)/standardLineHeight})`;
+    adjustedRows.push(nextRow3);
+  }
+
+
+  //this old code was used to change the font _&_ the line size
+  //at the same time, which caused wacky dom movement,
+  //and I couldn't figure out how to adjust the movement
+  //to prevent the dom links from moving around
+  //(turns out I was making the main hovered link larger than
+  // shrinking any single other link could make-up the excess
+  // movement)
+  //So I removed the code that changed the line size
+  //and just changed the font size to grow/shrink
+  // //push the excess rows from the center out
+  // //instead of from the top down
+  // if (rowIndex >= 2) {
+  //   tbody.style.transform = `translateY(-${targetZoomedLineHeight - standardLineHeight}px)`;
+  //   // tbody.style.paddingTop = `${targetZoomedLineHeight}px`;
+  // } else if (rowIndex === 1) {
+  //   tbody.style.transform = `translateY(-${Math.floor((targetZoomedLineHeight - standardLineHeight)*ratioWithinRow)}px)`;
+  // }
+  // let nextRowLineHeight
+  //   = Math.floor(
+  //     standardLineHeight
+  //     + (targetZoomedLineHeight - standardLineHeight)*ratioWithinRow
+  //     // - (standardLineHeight - minLineHeight)*(ratioWithinRow)
+  //   );
+  // let nextRow = row.nextElementSibling;
+  // if (nextRow) {
+  //   nextRow.style.lineHeight = `${nextRowLineHeight}px`;
+  //   nextRow.style.fontSize   = `${nextRowLineHeight/1.5}px`;
+  //   adjustedRows.push(nextRow);
+  // }
+  // let prevRowLineHeight
+  //   = standardLineHeight
+  //     + targetZoomedLineHeight
+  //     - nextRowLineHeight;
+  //     // - minLineHeight
+  // let prevRow = row.previousElementSibling;
+  // if (prevRow) {
+  //   prevRow.style.lineHeight = `${prevRowLineHeight}px`;
+  //   prevRow.style.fontSize   = `${prevRowLineHeight/1.5}px`;
+  //   adjustedRows.push(prevRow);
+  // }
+}
 
 function compare_strings(a, b) {
   let compare;
@@ -619,7 +500,7 @@ export function DisplayMoviePage()
 
 export function DisplayMovie({movie, idx, tmdb})
 {
-  let [err, setErr] = useState(failedImages.has(tmdb.bg))
+  let [err, setErr] = useState(failedImages.has(tmdb.bg));
   let src = err ? `https://image.tmdb.org/t/p/w1280/${tmdb?.backdrop_path}`
                 : `/bg/${tmdb.bg}`;
 
@@ -695,7 +576,7 @@ async function get_details(movie, type)
   try {
     movie_details = await fetch(url.toString(), get_options);
     movie_details_json = await movie_details.json();
-    console.log(movie_details_json);
+    // console.log(movie_details_json);
   } catch (error) {
     console.log(error);
   }
@@ -739,7 +620,7 @@ function MovieTitle({movie, tmdb})
   return (
     <div className='movie-top-bar'>
       <div>
-        <Link to={"/Movie-Tracker/"} className='to-list'>
+        <Link to={"/Movie-Tracker/"} className='back-to-list'>
           Back to list
         </Link>
         <div className='movie-rating'>
@@ -820,7 +701,10 @@ function YTlink({type, url})
 // to
 // let [err, setErr] = useState(failedImages.has(tmdb.poster))
 // and change your onError handler to
-// onError={()=>{failedImages.add(tmdb.poster);setErr(true)}}
+// onError={()=>{
+//    failedImages.add(tmdb.poster);
+//    setErr(true);
+// }}
 
 
 function Credits({movie, idx, tmdb})

@@ -2,27 +2,65 @@
 /* * {padding: 0, margin: 0, box-sizing: border-box} html {font-size: 10px, font-family: system-ui} body: {font-size: 1.4rem; color, vh100, flex;} h1,h2,h3,h4.h5: {font-weight: normal} ul[role='list'],ol[role='list'] {list-style: none} */
 /* Nirfse css zeroing*/
 /* body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, fieldset, form, input, textarea, p, textarea { padding: 0; margin: 0; } */
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
 
-/* 
+  /* color-scheme: light dark; */
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
 body {
-  color: #333;
-  background-color: #fff;
-} 
-@media (prefers-color-scheme: dark) {
-  body {
-    color: #f0f0f0; background-color: #222;
-  }
-} */
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
 
-/* [data-theme="dark"] {
-  color: white;
-  background-color: #05053B;
-} */
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
 
-:root { color-scheme: dark only;}
 
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
 
 #root {
+  color-scheme: dark only;
   /* max-width: 1280px; */
   margin: 0 auto;
 
@@ -38,14 +76,85 @@ body {
 }
 
 
+.sidebar-vertical {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  width: 15rem;
+  height: 300px;
+  border: solid red;
+  background-color: rgba(40, 40, 40, 0.8);
+}
+
+.sidebar-vertical button {
+  border-radius: 0;
+  padding: 0.2em;
+  font-size: 1.5em;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+/*this next section needs to
+  be edited to work with divs,
+  as the table has been removed*/
+.sidebar-horizontal {
+  table-layout: fixed;
+  min-width: 1000px;
+  width: 60%;
+  margin: 0 auto;
+  /*Apply a negative top margin
+  to the table so the header row
+  is flush with the viewport edge
+  (it currently isn't because of
+  default cell spacing but changing
+  the cell spacing changes the
+  appearance of the table in a
+  hard-to-replicate way so I left it) */
+  margin-top: -2px;
+}
+
+
 /*  assign css variables with attr
    (experimental as of 2024)
 So in the JSX, something like 
-  data-poster-url={`https://......`} 
+  --poster-url={`https://......`} 
 then in the CSS something like 
   background: linear-gradient(...), 
   url(attr(data-poster-url));
  */
+
+.poster-array {
+  border: solid red;
+  display: flex;
+  flex-flow: row wrap;
+  min-width: 930px;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.poster-array-movie {
+  /* transition: all .1s ease-in; */
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.8)),
+    var(--poster-url);
+  /* background: var(--poster-url); */
+  background-color: #05203B;
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  height: 450px;
+}
+
+.poster-array-hover {
+  background: var(--poster-url);
+  background-color: #05203B;
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  height: 450px;
+}
 
 .movie-list {
   /* transition: all .1s ease-in; */
@@ -60,121 +169,34 @@ then in the CSS something like
   background-color: #05053B;
 }
 
-
-
-
-.table-stuff {
-  table-layout: fixed;
-  min-width: 1000px;
-  width: 60%;
-  margin: 0 auto;
-  /*https://bpa.st/GKYA
-   Apply a negative top margin
-  to the table to the header row
-  is flush with the viewport edge
-  (it currently isn't because of
-  default cell spacing but changing
-  the cell spacing changes the
-  appearance of the table in a
-  hard-to-replicate way so I left it) */
-  margin-top: -2px;
-}
-
-
-th:not(:first-child) {
-  width: 160px;
-}
-td:not(:first-child) {
-  text-align: right !important;
-  /* width: 160px; */
-  /* transform-origin: right; */
-}
-td:first-child {
-  width: 450px;
-  /* line-height: 32px; */
-
-  /* background-color: rgb(121, 154, 253);
-  background-image: linear-gradient(
-    rgba(121, 154, 253, 1.0),
-    rgba(121, 154, 253, 0.8)
-  );
-  background-size: 100%;
-  background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent; */
-
-}
-
 .movie-list-hover, .movie-list-next {
   font-size: unset;
   line-height: unset;
   position: unset;
   transform-origin: unset;
-  /* background-color: rgb(30, 30, 30); */
   background: linear-gradient(
     rgba(0, 0, 0, 0.3),
     rgba(0, 0, 0, 1.0)),
-    var(--data-backdrop-url);
+    var(--poster-url);
 }
 
-/* .movie-list-hover {
-  font-size: 1.9em;
-  line-height: 1.0em;
-  position: relative;
-  z-index: +1;
-  background-color: rgb(30, 30, 30);
-  transform-origin: left;
-} */
-
-/* .movie-list-next {
-  font-size: 1.3em;
-  line-height: 1.0em;
-  z-index: -1;
-  transform-origin: left;
-  background-color: rgb(30, 30, 30);
-} */
-
-
-/* .movie-title-list:hover {
-  transition: unset;
-} */
+.movie-list-click {
+  line-height: 250px;
+  background: var(--data-backdrop-url);
+}
 
 .movie-title-list {
   text-align: left;
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
-  /* filter: grayscale(0); */
-  /* background: linear-gradient(
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 1.0)),
-    var(--data-backdrop-url); */
-
-  /* transition: all linear 1s; */
-
-  /* transition-property: transform;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms; */
 }
 
-.movie-list-sticky {
-  position: sticky;
-  z-index: 3;
-  top: 0;
-  background-color: rgb(98, 98, 98);
-  /* background: unset; */
-}
 
-.movie-list-sticky button {
-  white-space: nowrap;
-  border-radius: 0;
-  width: 100%;
-  padding: 0.2em;
-  font-size: 1.5em;
-  font-style: italic;
-  text-decoration: underline;
-}
+
+
+
+
 
 .align-right {
   text-align: right;
@@ -207,7 +229,10 @@ td:first-child {
 
 
 
-/*contains movie-title, movie-info, movie-trailer */
+/*
+click on movie link to open
+contains movie-title, movie-info, movie-trailer
+*/
 .movie-display {
   display: flex;
   flex-direction: column;
@@ -333,10 +358,6 @@ iframe {
   letter-spacing: -.04em;
 }
 
-.to-list {
-  font-size: 32px;
-  line-height: .85em;
-}
 
 .vote-button {
   /* align-items: end; */
@@ -364,7 +385,10 @@ iframe {
   left: 50px;
 }
 
-
+.back-to-list {
+  font-size: 32px;
+  line-height: .85em;
+}
 
 
 
