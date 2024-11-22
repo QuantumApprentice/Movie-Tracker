@@ -236,6 +236,24 @@ function hamburger_icon(showBar, setShowBar)
   )
 }
 
+function useOnScreen(ref) {
+  const [isIntersecting, setIntersecting] = useState(false);
+
+  const observer = useMemo(
+    () =>
+      new IntersectionObserver(([entry]) =>
+        setIntersecting(entry.isIntersecting),
+      ),
+    [ref],
+  );
+
+  useEffect(() => {
+    observer.observe(ref.current);
+    return () => observer.disconnect();
+  }, []);
+
+  return isIntersecting;
+}
 
 /*displays list of movies to click on */
 export function DisplayList({movieList, setMovieList})
@@ -248,72 +266,64 @@ export function DisplayList({movieList, setMovieList})
     return date;
   }
 
-  let movieList_map = useMemo(
-    ()=>movieList.map((movie, idx)=>{
-      let src = `/Movie-Tracker/pstr/${tmdbList?.find(m=>m.id === movie.dbid).poster}`;
-
-      return (
-
-        <div loading="lazy" className='poster-array-movie' key={idx}
-          style={{"--poster-url": `url(${src})`}}
-    
-          //default line coloring when images don't load
-          onMouseOver={(e)=>{
-            e.currentTarget.className="poster-array-hover";
-            // e.currentTarget.style.setProperty("--poster-url", `url(${src})`);
-            // if (e.currentTarget.previousElementSibling) {
-            //   e.currentTarget.previousElementSibling.className="movie-list-next";
-            // }
-            // if (e.currentTarget.nextElementSibling) {
-            //   e.currentTarget.nextElementSibling.className="movie-list-next";
-            // }
-          }}
-          onMouseOut={(e)=>{
-            e.currentTarget.className="poster-array-movie";
-            // e.currentTarget.style.setProperty("--poster-url", `url(${src})`);
-            // if (e.currentTarget.previousElementSibling) {
-            //   e.currentTarget.previousElementSibling.className="movie-list";
-            // }
-            // if (e.currentTarget.nextElementSibling) {
-            //   e.currentTarget.nextElementSibling.className="movie-list";
-            // }
-          }}
-          onMouseDown={(e)=>{
-            if (!e.button == 0) { //if not left-click
-              return;
-            }
-            // window.location.href = `/Movie-Tracker/movies/${movie.id}`;
-            navigate(`/Movie-Tracker/movies/${movie.id}`);
-            // navigate(`/movies/${movie.id}`);
-            // let src = `/Movie-Tracker/bg/${tmdbList?.find(m=>m.id === movie.dbid).bg}`;
-            // e.currentTarget.className="movie-list-click";
-            // e.currentTarget.style.setProperty("--data-backdrop-url", `url(${src})`);
-          }}
-        >
-        <div className='movie-title-list'>
-          <Link to={`/Movie-Tracker/movies/${movie.id}`}
-          >{movie.title}</Link>
-        </div>
-        <div>({movie.year || tmdbList.find(m=>m.id===movie.dbid)?.release_date?.slice(0,4)})</div>
-        <div>[{movie.runtime_hm || tmdbList.find(m=>m.id===movie.dbid).runtime_hm}]</div>
-        <div>({
-          format_date(movie.watchdate_arr?.[0]) || 
-          (movie.watched ? "watched": "")
-        })</div>
-        </div>
-      )}), [movieList]
-  )
-
-
-  useEffect(()=>{
-    // movie_listing_hover_effect(setBuffer);
-  }, []);
-
   return (
     <>
       <div className='poster-array'>
         {/* {buffer ? <tr><td colSpan={4}>&nbsp;</td></tr> : null} */}
-        {movieList_map}
+        {movieList.map((movie, idx)=>{
+          let src = `/Movie-Tracker/pstr/${tmdbList?.find(m=>m.id === movie.dbid).poster}`;
+          const imgRef = useRef(null);
+          const isVisible = useOnScreen(imgRef);
+          return (
+    
+            <div ref={imgRef} loading="lazy" className='poster-array-movie' key={idx}
+              style={isVisible ? { "--poster-url": `url(${src})`} : {}}
+        
+              //default line coloring when images don't load
+              onMouseOver={(e)=>{
+                e.currentTarget.className="poster-array-hover";
+                // e.currentTarget.style.setProperty("--poster-url", `url(${src})`);
+                // if (e.currentTarget.previousElementSibling) {
+                //   e.currentTarget.previousElementSibling.className="movie-list-next";
+                // }
+                // if (e.currentTarget.nextElementSibling) {
+                //   e.currentTarget.nextElementSibling.className="movie-list-next";
+                // }
+              }}
+              onMouseOut={(e)=>{
+                e.currentTarget.className="poster-array-movie";
+                // e.currentTarget.style.setProperty("--poster-url", `url(${src})`);
+                // if (e.currentTarget.previousElementSibling) {
+                //   e.currentTarget.previousElementSibling.className="movie-list";
+                // }
+                // if (e.currentTarget.nextElementSibling) {
+                //   e.currentTarget.nextElementSibling.className="movie-list";
+                // }
+              }}
+              onMouseDown={(e)=>{
+                if (!e.button == 0) { //if not left-click
+                  return;
+                }
+                // window.location.href = `/Movie-Tracker/movies/${movie.id}`;
+                navigate(`/Movie-Tracker/movies/${movie.id}`);
+                // navigate(`/movies/${movie.id}`);
+                // let src = `/Movie-Tracker/bg/${tmdbList?.find(m=>m.id === movie.dbid).bg}`;
+                // e.currentTarget.className="movie-list-click";
+                // e.currentTarget.style.setProperty("--data-backdrop-url", `url(${src})`);
+              }}
+            >
+            <div className='movie-title-list'>
+              <Link to={`/Movie-Tracker/movies/${movie.id}`}
+              >{movie.title}</Link>
+            </div>
+            <div>({movie.year || tmdbList.find(m=>m.id===movie.dbid)?.release_date?.slice(0,4)})</div>
+            <div>[{movie.runtime_hm || tmdbList.find(m=>m.id===movie.dbid).runtime_hm}]</div>
+            <div>({
+              format_date(movie.watchdate_arr?.[0]) || 
+              (movie.watched ? "watched": "")
+            })</div>
+            </div>
+          )})}
       </div>
     </>
   )
@@ -892,6 +902,5 @@ function Credits({movie, idx, tmdb})
     </div>
   )
 }
-
 
 
