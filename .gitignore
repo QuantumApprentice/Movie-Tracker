@@ -23,7 +23,7 @@ dist-ssr
 *.sln
 *.sw?
 /public/bg/
-/public/pstr/
+# /public/pstr/
 /public/pstr_large/
 /public/strip=50/
 /public/strip=100/
