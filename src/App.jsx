@@ -1,35 +1,158 @@
-import { useEffect, useState, useMemo } from 'react'
+import { useEffect, useState, useMemo, useRef } from 'react'
 import './App.css'
 import movieJson from './movieList.json'
 import tmdbList from './tmdbList.json'
-import { Link, Outlet, useParams } from 'react-router-dom';
+import { Link, Outlet, useParams, Route,
+         useNavigate,
+         useSearchParams,
+         Routes,
+         HashRouter,
+         createHashRouter,
+         createBrowserRouter,
+         createRoutesFromElements,
+         RouterProvider } from 'react-router-dom';
 import Chevron from './assets/chevron.svg?react'
 
 const token = import.meta.env.VITE_TMDB_TOKEN;
 let failedImages = new Set();
 
+import ErrorPage from './ErrorPage.jsx'
+
+function filterMovies(query) {
+  if (query == null) {
+    const sp = new URLSearchParams(window.location.search);
+    query = sp.get('q');
+  }
+
+  if (query) {
+    const search_lc = query.toLowerCase();
+    return movieJson.filter((e)=>{
+      const title_lc = e.title.toLowerCase();
+
+      return title_lc.includes(search_lc);
+    });
+  } else {
+    return movieJson;
+  }
+}
+
+let prevRatio = 0.0;
+function intersectCallback(entries, observer, src)
+{
+  console.log('entries: ', {entries});
+  console.log("src: ", src);
+  // console.log("obs: ", observer);
+  // entries[0].target.style.setProperty("--poster-url", `url(${src})`);
+  entries[0].target.style.setProperty("border", `solid red`);
+
+
+
+  // entries.forEach((e)=>{
+    // console.log("intesection callback e: ", e);
+    // console.log("intesection callback {e}: ", {e});
+    // if (e.intersectionRatio > prevRatio) {
+    //   // e.target.style = "--poster-url": `url(${src})`
+    //   console.log(e);
+    // } else {}
+    // prevRatio = e.intersectionRation;
+  // });
+}
+
+function createObserver(element, source)
+{
+  // console.log("element: ", element);
+  let options = {
+    root: null,
+    rootMargin: "0px",
+    threshold: 1.0,
+  }
+  let observer = new IntersectionObserver(intersectCallback, options);
+  // observer.observe(element.current);
+  observer.observe(element);
+}
+
 export default function App()
 {
-  // let movie_map = new Map();
-  // for (const m of movieJson) {
-  //   movie_map.set(m.id, m);
-  // }
+  let [movieList, setMovieList] = useState(filterMovies);
+
+  // window.addEventListener(
+  //   "load",
+  //   (e)=>{
+  //     createObserver();
+  //   }
+  // )
+
+
+  // const router = (
+  //   <HashRouter basename='/'>
+  //     <Routes>
+  //       <Route  element={<Sidebar movieList={movieList} setMovieList={setMovieList} />}
+  //               errorElement={<ErrorPage />}>
+  //         <Route errorElement={<ErrorPage />}>
+  //           <Route path="/movies/:movieId"
+  //                 element={<DisplayMoviePage />}/>
+  //           <Route path="/"
+  //                 element={<DisplayList movieList={movieList} setMovieList={setMovieList} />}/>
+  //         </Route>
+  //       </Route>
+  //     </Routes>
+  //   </HashRouter>
+  // )
+  // return (
+  //   router
+  // )
+
+  const router = createBrowserRouter(
+    createRoutesFromElements(
+      <Route  element={<Sidebar movieList={movieList} setMovieList={setMovieList} />}
+              errorElement={<ErrorPage />}>
+        <Route errorElement={<ErrorPage />}>
+          <Route path="/Movie-Tracker/movies/:movieId"
+                element={<DisplayMoviePage />}/>
+          <Route path="/Movie-Tracker/"
+                element={<DisplayList movieList={movieList} setMovieList={setMovieList} />}/>
+        </Route>
+      </Route>
+    )
+  )
 
   return (
-    <Outlet />
+    <RouterProvider router={router} />
   )
 }
 
-export function Sidebar()
+function Sidebar({movieList, setMovieList})
 {
   let [whichSort, setWhichSort] = useState("none");
   let [sortDir, setSortDir]     = useState("invisible");
+  let [searchParams, setSearchParams] = useSearchParams();
+
+
+  let [showBar, setShowBar]     = useState(false);
   let tbl_clss = 'sidebar-horizontal';
   tbl_clss = 'sidebar-vertical';
 
+
+  return (
+    <>
+      <div className={tbl_clss}>
+        {hamburger_icon(showBar, setShowBar)}
+        {showBar ? sidebar_buttons(
+                      whichSort, setWhichSort,
+                      sortDir, setSortDir,
+                      searchParams, setSearchParams,
+                      movieList, setMovieList) : null}
+      </div>
+      <Outlet />
+    </>
+  )
+}
+
+function sidebar_buttons(whichSort, setWhichSort, sortDir, setSortDir, searchParams, setSearchParams, movieList, setMovieList)
+{
   function set_sort(sort_type) {
     setMovieList(()=>{
-      return sort_type(sortDir === "sort_dn");
+      return sort_type(sortDir === "sort_dn", movieList);
     });
     setSortDir((dir)=>{
       if (dir === "sort_dn") {
@@ -41,63 +164,103 @@ export function Sidebar()
     });
   }
 
+  function set_filter(newSearch) {
+    setSearchParams({q:newSearch}, {replace: false});
+    setMovieList(filterMovies(newSearch));
+  }
+
+  const random_movie = [
+    "Star Wars", "Ninja Turtles", "Fight Club",
+    "Matrix", "Lord of the Rings",
+    "Indiana Jones", "Ghostbusters",
+    "Friday the 13th", "Nightmare on Elm Street",
+  ];
+  const random_placeholder = random_movie[Math.floor(Math.random()*random_movie.length)]
 
   return (
     <>
-      <div className={tbl_clss}>
-        <button onClick={()=>{
-          set_sort(sort_title);
-          setWhichSort("title");
-        }}>Title&nbsp;{
-          (whichSort === "title") ? <Chevron className={sortDir} /> : null
-        }
-        </button>
-        <button onClick={()=>{
-          set_sort(sort_release);
-          setWhichSort("year");
-        }}>Release Year&nbsp;{
-          (whichSort === "year") ? <Chevron className={sortDir} /> : null
-        }
-        </button>
-        <button onClick={()=>{
-          set_sort(sort_runtime);
-          setWhichSort("runtime");
-        }}>[Runtime]&nbsp;{
-          (whichSort === "runtime") ? <Chevron className={sortDir} /> : null
-        }
-        </button>
-        <button onClick={()=>{
-          set_sort(sort_watchdate);
-          setWhichSort("watchdate");
-        }}>Watch Date&nbsp;{
-          (whichSort === "watchdate") ? <Chevron className={sortDir} /> : null
-        }
-        </button>
-      </div>
-      <Outlet />
+    {/*Frankl81: Object.assign(document.createElement('button'), { onclick(){}}) */}
+      <button onClick={()=>{
+        set_sort(sort_title, movieList);
+        setWhichSort("title");
+      }}>Title&nbsp;{
+        (whichSort === "title") ? <Chevron className={sortDir} /> : null
+      }
+      </button>
+      <button onClick={()=>{
+        set_sort(sort_release, movieList);
+        setWhichSort("year");
+      }}>Release Year&nbsp;{
+        (whichSort === "year") ? <Chevron className={sortDir} /> : null
+      }
+      </button>
+      <button onClick={()=>{
+        set_sort(sort_runtime, movieList);
+        setWhichSort("runtime");
+      }}>[Runtime]&nbsp;{
+        (whichSort === "runtime") ? <Chevron className={sortDir} /> : null
+      }
+      </button>
+      <button onClick={()=>{
+        set_sort(sort_watchdate, movieList);
+        setWhichSort("watchdate");
+      }}>Watch Date&nbsp;{
+        (whichSort === "watchdate") ? <Chevron className={sortDir} /> : null
+      }
+      </button>
+      <input name="q"
+        placeholder={"Search " + random_placeholder}
+        defaultValue={searchParams.get('q')}
+        onChange={(e)=>{
+          set_filter(e.target.value);
+        }} />
     </>
   )
 }
 
-/*displays list of movies to click on */
-export function DisplayList()
+function hamburger_icon(showBar, setShowBar)
 {
-  let [movieList, setMovieList] = useState(movieJson);
-  let [buffer, setBuffer]       = useState(false);
+  return (
+    <>
+      <button className="hamburger-icon"
+          onClick={(e)=>{
+            e.currentTarget.classList.toggle("change");
+            setShowBar(!showBar);
+          }}
+          >
+        <div></div>
+        <div></div>
+        <div></div>
+      </button>
+    </>
+  )
+}
+
+
+/*displays list of movies to click on */
+export function DisplayList({movieList, setMovieList})
+{
+  const navigate = useNavigate();
+
+  function format_date(date) {
+    let year = date?.slice(0,4);
+    let month = date?.slice(4,6);
+    return date;
+  }
 
   let movieList_map = useMemo(
     ()=>movieList.map((movie, idx)=>{
-
       let src = `/Movie-Tracker/pstr/${tmdbList?.find(m=>m.id === movie.dbid).poster}`;
+
       return (
-        <div  className='poster-array-movie' key={idx}
-          style={
-            {"--poster-url": `url(${src})`}
-          }
+
+        <div loading="lazy" className='poster-array-movie' key={idx}
+          style={{"--poster-url": `url(${src})`}}
+    
           //default line coloring when images don't load
           onMouseOver={(e)=>{
             e.currentTarget.className="poster-array-hover";
-            e.currentTarget.style.setProperty("--poster-url", `url(${src})`);
+            // e.currentTarget.style.setProperty("--poster-url", `url(${src})`);
             // if (e.currentTarget.previousElementSibling) {
             //   e.currentTarget.previousElementSibling.className="movie-list-next";
             // }
@@ -107,7 +270,7 @@ export function DisplayList()
           }}
           onMouseOut={(e)=>{
             e.currentTarget.className="poster-array-movie";
-            e.currentTarget.style.setProperty("--poster-url", `url(${src})`);
+            // e.currentTarget.style.setProperty("--poster-url", `url(${src})`);
             // if (e.currentTarget.previousElementSibling) {
             //   e.currentTarget.previousElementSibling.className="movie-list";
             // }
@@ -119,32 +282,28 @@ export function DisplayList()
             if (!e.button == 0) { //if not left-click
               return;
             }
-            window.location.href = `/Movie-Tracker/movies/${movie.id}`;
+            // window.location.href = `/Movie-Tracker/movies/${movie.id}`;
+            navigate(`/Movie-Tracker/movies/${movie.id}`);
+            // navigate(`/movies/${movie.id}`);
             // let src = `/Movie-Tracker/bg/${tmdbList?.find(m=>m.id === movie.dbid).bg}`;
             // e.currentTarget.className="movie-list-click";
             // e.currentTarget.style.setProperty("--data-backdrop-url", `url(${src})`);
           }}
         >
-          <div className='movie-title-list'>
-            <Link to={`/Movie-Tracker/movies/${movie.id}`}
-            >{movie.title}</Link>
-          </div>
-          <div>({movie.year || tmdbList.find(m=>m.id===movie.dbid)?.release_date?.slice(0,4)})</div>
-          <div>[{movie.runtime_hm || tmdbList.find(m=>m.id===movie.dbid).runtime_hm}]</div>
-          <div>({
+        <div className='movie-title-list'>
+          <Link to={`/Movie-Tracker/movies/${movie.id}`}
+          >{movie.title}</Link>
+        </div>
+        <div>({movie.year || tmdbList.find(m=>m.id===movie.dbid)?.release_date?.slice(0,4)})</div>
+        <div>[{movie.runtime_hm || tmdbList.find(m=>m.id===movie.dbid).runtime_hm}]</div>
+        <div>({
           format_date(movie.watchdate_arr?.[0]) || 
           (movie.watched ? "watched": "")
-          })</div>
+        })</div>
         </div>
       )}), [movieList]
   )
 
-
-  function format_date(date) {
-    let year = date?.slice(0,4);
-    let month = date?.slice(4,6);
-    return date;
-  }
 
   useEffect(()=>{
     // movie_listing_hover_effect(setBuffer);
@@ -152,8 +311,6 @@ export function DisplayList()
 
   return (
     <>
-
-
       <div className='poster-array'>
         {/* {buffer ? <tr><td colSpan={4}>&nbsp;</td></tr> : null} */}
         {movieList_map}
@@ -389,19 +546,18 @@ function compare_strings(a, b) {
   return 0;
 }
 
-function sort_title(reverse)
+function sort_title(reverse, movieList)
 {
-  let movieList = [...movieJson];
+  let templist = [...movieList];
 
   function drop_The(title) {
     if (title.slice(0,4) == 'The ') {
-      // console.log(title.slice(4,));
       return title.slice(4,);
     }
     return title;
   }
 
-  movieList.sort((a,b)=>{
+  templist.sort((a,b)=>{
     let title_a = drop_The(a.title);
     let title_b = drop_The(b.title);
 
@@ -411,17 +567,17 @@ function sort_title(reverse)
   });
 
   if (reverse) {
-    movieList.reverse();
+    templist.reverse();
   }
 
-  return movieList;
+  return templist;
 }
 
-function sort_watchdate(reverse)
+function sort_watchdate(reverse, movieList)
 {
-  let movieList = [...movieJson];
+  let templist = [...movieList];
 
-  movieList.sort((a,b)=>{
+  templist.sort((a,b)=>{
     if (a.watchdate_arr && b.watchdate_arr) {
       if (a.watchdate_arr[0] < b.watchdate_arr[0]) return -1;
       if (b.watchdate_arr[0] < a.watchdate_arr[0]) return 1;
@@ -432,44 +588,43 @@ function sort_watchdate(reverse)
   });
 
   if (reverse) {
-    movieList.reverse();
+    templist.reverse();
   }
 
-  return movieList;
+  return templist;
 }
 
-function sort_release(reverse)
+function sort_release(reverse, movieList)
 {
-  let movieList = [...movieJson];
+  let templist = [...movieList];
 
-  movieList.sort((a,b)=>{
+  templist.sort((a,b)=>{
     let compare = compare_strings(a.year,b.year);
     return compare;
   });
 
   if (reverse) {
-    movieList.reverse();
+    templist.reverse();
   }
 
-  return movieList;
+  return templist;
 }
 
-function sort_runtime(reverse)
+function sort_runtime(reverse, movieList)
 {
-  // let dbList = [...tmdbList];
-  let movieList = [...movieJson];
+  let templist = [...movieList];
 
-  movieList.sort((a,b)=>{
+  templist.sort((a,b)=>{
     let compare = compare_strings(a.runtime_m,b.runtime_m);
     // console.log(a.title, a.runtime_m);
     return compare;
   });
 
   if (reverse) {
-    movieList.reverse();
+    templist.reverse();
   }
 
-  return movieList;
+  return templist;
 }
 
 // // we don't want to remove the # if it's the only item in parts as the entire
@@ -486,8 +641,6 @@ export function DisplayMoviePage()
 {
   let {movieId} = useParams();
 
-  // let currentMovie = movieJson.find(m=>m.id === movieId);
-  // let currentIdx   = movieJson.findIndex(m=>m === currentMovie);
   let currentIdx   = movieJson.findIndex(m=>m.id === movieId);
   let currentMovie = movieJson[currentIdx];
   let currentDB    = tmdbList?.find(m=>m.id === currentMovie.dbid);
@@ -502,7 +655,7 @@ export function DisplayMovie({movie, idx, tmdb})
 {
   let [err, setErr] = useState(failedImages.has(tmdb.bg));
   let src = err ? `https://image.tmdb.org/t/p/w1280/${tmdb?.backdrop_path}`
-                : `/bg/${tmdb.bg}`;
+                : `/Movie-Tracker/bg/${tmdb.bg}`;
 
   if (idx-1 < 0) {
     idx = movieJson.length;
@@ -673,6 +826,7 @@ function Trailer({movie, idx, css})
 
 function YTlink({type, url})
 {
+  console.log("url: ", url);
   return (
     <div>
     <h1>{type}</h1>
@@ -714,7 +868,11 @@ function Credits({movie, idx, tmdb})
   let [err, setErr] = useState(failedImages.has(tmdb.poster))
 
   let src = err ? `https://image.tmdb.org/t/p/w300/${tmdb?.poster_path}`
-                : `/pstr/${tmdb.poster}`;
+                : `/Movie-Tracker/pstr/${tmdb.poster}`;
+
+  if (err) {
+    console.log("`/pstr/${tmdb.poster}`: ", `/pstr/${tmdb.poster}`);
+  }
 
   return (
     <div className="movie-credits">

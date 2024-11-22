@@ -75,6 +75,29 @@ button:focus-visible {
   box-sizing: border-box;
 }
 
+.hamburger-icon {
+  position: fixed;
+  margin-top: 5px;
+  border: solid red;
+  pointer-events: auto;
+}
+.hamburger-icon > * {
+  width: 35px;
+  height: 7px;
+  background-color: gray;
+  margin: 7px;
+  transition: .5s;
+}
+.hamburger-icon.change > :nth-child(1) {
+  transform: translate(0, 14px) rotate(-45deg);
+}
+.hamburger-icon.change > :nth-child(2) {
+  opacity: 0;
+}
+.hamburger-icon.change > :nth-child(3) {
+  transform: translate(0,-14px) rotate(45deg);
+}
+
 
 .sidebar-vertical {
   position: fixed;
@@ -84,16 +107,23 @@ button:focus-visible {
   width: 15rem;
   height: 300px;
   border: solid red;
-  background-color: rgba(40, 40, 40, 0.8);
+  background-color: rgba(40, 40, 40, 0);
+  pointer-events: none;
 }
 
-.sidebar-vertical button {
+.sidebar-vertical button, input {
   border-radius: 0;
   padding: 0.2em;
   font-size: 1.5em;
   font-style: italic;
   text-decoration: underline;
+  background-color: rgba(40, 40, 40, 1.0);
+  pointer-events: auto;
 }
+/* .sidebar-vertical input {
+  pointer-events: auto;
+
+} */
 
 /*this next section needs to
   be edited to work with divs,
