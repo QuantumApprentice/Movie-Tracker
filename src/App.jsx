@@ -325,8 +325,8 @@ export function DisplayList({movieList, setMovieList})
 
   return (
     <>
-      <Dummy img={"http://localhost:5173/Movie-Tracker/pstr/the-mummys-hand-1940.jpg"} />
-      <Dummy img={"http://localhost:5173/Movie-Tracker/pstr/the-invisible-woman-1940.jpg"}/>
+      {/* <Dummy img={"http://localhost:5173/Movie-Tracker/pstr/the-mummys-hand-1940.jpg"} /> */}
+      {/* <Dummy img={"http://localhost:5173/Movie-Tracker/pstr/the-invisible-woman-1940.jpg"}/> */}
       <div className='poster-array'>
         {/* {buffer ? <tr><td colSpan={4}>&nbsp;</td></tr> : null} */}
         {movieList_map}
