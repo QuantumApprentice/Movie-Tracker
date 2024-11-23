@@ -2606,6 +2606,20 @@
  },
  {
   "watched": false,
+  "title": "Screamers",
+  "year": "1995",
+  "runtime_hm": "1h48m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/qrgAvr0TIr4"
+   ]
+  },
+  "id": "screamers-1995",
+  "dbid": 9102,
+  "runtime_m": 108
+ },
+ {
+  "watched": false,
   "title": "Se7en",
   "year": "1995",
   "runtime_hm": "2h7m",
@@ -3908,6 +3922,20 @@
  },
  {
   "watched": false,
+  "title": "Evolution",
+  "year": "2001",
+  "runtime_hm": "1h41m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/-bDStxV8Tkc"
+   ]
+  },
+  "id": "evolution-2001",
+  "dbid": 9397,
+  "runtime_m": 101
+ },
+ {
+  "watched": false,
   "title": "Frankenstein Conquers the World",
   "year": "1965",
   "runtime_hm": "1h34m",
@@ -4350,6 +4378,66 @@
   "id": "layer-cake-2004",
   "dbid": 4836,
   "runtime_m": 105
+ },
+ {
+  "watched": false,
+  "title": "Mousehunt",
+  "year": "1997",
+  "runtime_hm": "1h38m",
+  "links": {},
+  "id": "mousehunt-1997",
+  "dbid": 6283,
+  "runtime_m": 98
+ },
+ {
+  "watched": false,
+  "title": "Running",
+  "year": "1989",
+  "links": {},
+  "id": "running-1989",
+  "dbid": 865,
+  "runtime_m": 101
+ },
+ {
+  "watched": false,
+  "title": "Napoleon & Samantha",
+  "year": "1972",
+  "links": {},
+  "id": "napoleon-samantha-1972",
+  "dbid": 42486,
+  "runtime_m": 92
+ },
+ {
+  "watched": false,
+  "title": "Wall Street",
+  "year": "1987",
+  "links": {},
+  "id": "wall-street-1987",
+  "dbid": 10673,
+  "runtime_m": 126
+ },
+ {
+  "watched": false,
+  "title": "Falling Down",
+  "year": "1993",
+  "runtime_hm": "1h53m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/BD5ofrSNDFA"
+   ]
+  },
+  "id": "falling-down-1993",
+  "dbid": 37094,
+  "runtime_m": 113
+ },
+ {
+  "watched": false,
+  "title": "Basic Instinct",
+  "year": "1992",
+  "links": {},
+  "id": "basic-instinct-1992",
+  "dbid": 402,
+  "runtime_m": 128
  },
  {
   "watched": false,
@@ -5465,6 +5553,58 @@
  },
  {
   "watched": false,
+  "title": "Dumb and Dumber",
+  "year": "1994",
+  "runtime_hm": "1h47m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/l13yPhimE3o"
+   ]
+  },
+  "id": "dumb-and-dumber-1994",
+  "dbid": 8467,
+  "runtime_m": 107
+ },
+ {
+  "watched": false,
+  "title": "The Truman Show",
+  "year": "1998",
+  "runtime_hm": "1h43m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/dlnmQbPGuls"
+   ]
+  },
+  "id": "the-truman-show-1998",
+  "dbid": 37165,
+  "runtime_m": 103
+ },
+ {
+  "watched": false,
+  "title": "The Majestic",
+  "year": "2001",
+  "runtime_hm": "2h32m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/RoPwBN_TQ-Q"
+   ]
+  },
+  "id": "the-majestic-2001",
+  "dbid": 11086,
+  "runtime_m": 152
+ },
+ {
+  "watched": false,
+  "title": "Fun with Dick and Jane",
+  "year": "2005",
+  "runtime_hm": "1h31m",
+  "links": {},
+  "id": "fun-with-dick-and-jane-2005",
+  "dbid": 7552,
+  "runtime_m": 90
+ },
+ {
+  "watched": false,
   "title": "Blade",
   "year": "1998",
   "links": {
@@ -5892,7 +6032,7 @@
   },
   "id": "close-encounters-of-the-third-kind-1977",
   "dbid": 840,
-  "runtime_m": 135
+  "runtime_m": 137
  },
  {
   "watched": false,
@@ -6702,11 +6842,11 @@
  },
  {
   "watched": false,
-  "title": "Inglorious Bastards",
+  "title": "Inglorious Basterds",
   "year": "2009",
   "runtime_hm": "2h33m",
   "links": {},
-  "id": "inglorious-bastards-2009",
+  "id": "inglorious-basterds-2009",
   "dbid": 16869,
   "runtime_m": 153
  },
@@ -6853,6 +6993,18 @@
   "id": "dick-tracy-1990",
   "dbid": 8592,
   "runtime_m": 105
+ },
+ {
+  "watched": false,
+  "title": "Condor Man",
+  "year": "1981",
+  "runtime_hm": "1h30m",
+  "links": {
+   "modern": [
+    "https://youtu.be/lo5LZmx9Vrg"
+   ]
+  },
+  "id": "condor-man-1981"
  },
  {
   "watched": true,
@@ -11768,7 +11920,7 @@
   },
   "id": "beavis-and-butt-head-do-america-1996",
   "dbid": 3179,
-  "runtime_m": 80
+  "runtime_m": 81
  },
  {
   "watched": true,
@@ -11785,7 +11937,7 @@
   ],
   "id": "the-amazing-bulk-2012",
   "dbid": 109125,
-  "runtime_m": 75
+  "runtime_m": 76
  },
  {
   "watched": false,
@@ -11922,6 +12074,16 @@
   "id": "cannibal-women-in-the-avocado-jungle-of-death-1989",
   "dbid": 26369,
   "runtime_m": 89
+ },
+ {
+  "watched": false,
+  "title": "Men in Black",
+  "year": "1997",
+  "runtime_hm": "1h38m",
+  "links": {},
+  "id": "men-in-black-1997",
+  "dbid": 607,
+  "runtime_m": 98
  },
  {
   "watched": true,
@@ -12084,7 +12246,7 @@
   },
   "id": "rumble-in-the-bronx-1995",
   "dbid": 33542,
-  "runtime_m": 104
+  "runtime_m": 106
  },
  {
   "watched": true,
@@ -12194,20 +12356,6 @@
   "id": "strange-days-1995",
   "dbid": 281,
   "runtime_m": 145
- },
- {
-  "watched": false,
-  "title": "Falling Down",
-  "year": "1993",
-  "runtime_hm": "1h53m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/BD5ofrSNDFA"
-   ]
-  },
-  "id": "falling-down-1993",
-  "dbid": 37094,
-  "runtime_m": 113
  },
  {
   "watched": false,
@@ -13141,7 +13289,7 @@
   "watchdate": "05.11.24",
   "title": "Star Wars (Episode I) - The Phantom Menace",
   "year": "1999",
-  "runtime_hm": "2h16m",
+  "runtime_hm": "2h11m",
   "links": {
    "trailer": [
     "https://youtu.be/bD7bpG-zDJQ",
@@ -13294,7 +13442,8 @@
   "runtime_m": 179
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "11.09.24",
   "title": "The Lord of the Rings: The Two Towers",
   "year": "2002",
   "runtime_hm": "3h55m",
@@ -13304,12 +13453,16 @@
     "https://youtu.be/hYcw5ksV8YQ"
    ]
   },
+  "watchdate_arr": [
+   "20241109"
+  ],
   "id": "the-lord-of-the-rings-the-two-towers-2002",
   "dbid": 121,
   "runtime_m": 179
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "11.16.24",
   "title": "The Lord of the Rings: The Return of the King",
   "year": "2003",
   "runtime_hm": "4h23m",
@@ -13318,9 +13471,80 @@
     "https://youtu.be/r5X-hFf6Bwo"
    ]
   },
+  "watchdate_arr": [
+   "20241116"
+  ],
   "id": "the-lord-of-the-rings-the-return-of-the-king-2003",
   "dbid": 122,
   "runtime_m": 201
+ },
+ {
+  "watched": false,
+  "title": "The Hobbit",
+  "year": "1977",
+  "runtime_hm": "1h30m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/Y4n8XUJaUwc"
+   ]
+  },
+  "id": "the-hobbit-1977",
+  "dbid": 1362,
+  "runtime_m": 77
+ },
+ {
+  "watched": false,
+  "title": "The Hobbit: An Unexpected Journey Ext",
+  "year": "2012",
+  "runtime_hm": "3h2m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/JTSoD4BBCJc"
+   ]
+  },
+  "id": "the-hobbit-an-unexpected-journey-ext-2012"
+ },
+ {
+  "watched": false,
+  "title": "The Hobbit: Desolation of Smaug",
+  "year": "2013",
+  "runtime_hm": "3h6m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/fnaojlfdUbs"
+   ]
+  },
+  "id": "the-hobbit-desolation-of-smaug-2013",
+  "dbid": 57158,
+  "runtime_m": 161
+ },
+ {
+  "watched": false,
+  "title": "The Hobbit: The Battle of the Five Armies",
+  "year": "2014",
+  "runtime_hm": "2h44m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/iVAgTiBrrDA"
+   ]
+  },
+  "id": "the-hobbit-the-battle-of-the-five-armies-2014",
+  "dbid": 122917,
+  "runtime_m": 144
+ },
+ {
+  "watched": false,
+  "title": "Curse of the Ring",
+  "year": "2004",
+  "runtime_hm": "3h4m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/o_T0Vji6evg"
+   ]
+  },
+  "id": "curse-of-the-ring-2004",
+  "dbid": 11188,
+  "runtime_m": 133
  },
  {
   "watched": false,
@@ -16406,7 +16630,7 @@
   },
   "id": "the-muppet-christmas-carol-1992",
   "dbid": 10437,
-  "runtime_m": 86
+  "runtime_m": 85
  },
  {
   "watched": false,

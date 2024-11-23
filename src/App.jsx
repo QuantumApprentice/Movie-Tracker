@@ -1,3 +1,4 @@
+import { useInView } from "react-intersection-observer";
 import { useEffect, useState, useMemo, useRef } from 'react'
 import './App.css'
 import movieJson from './movieList.json'
@@ -36,40 +37,6 @@ function filterMovies(query) {
   }
 }
 
-let prevRatio = 0.0;
-function intersectCallback(entries, observer, src)
-{
-  console.log('entries: ', {entries});
-  console.log("src: ", src);
-  // console.log("obs: ", observer);
-  // entries[0].target.style.setProperty("--poster-url", `url(${src})`);
-  entries[0].target.style.setProperty("border", `solid red`);
-
-
-
-  // entries.forEach((e)=>{
-    // console.log("intesection callback e: ", e);
-    // console.log("intesection callback {e}: ", {e});
-    // if (e.intersectionRatio > prevRatio) {
-    //   // e.target.style = "--poster-url": `url(${src})`
-    //   console.log(e);
-    // } else {}
-    // prevRatio = e.intersectionRation;
-  // });
-}
-
-function createObserver(element, source)
-{
-  // console.log("element: ", element);
-  let options = {
-    root: null,
-    rootMargin: "0px",
-    threshold: 1.0,
-  }
-  let observer = new IntersectionObserver(intersectCallback, options);
-  // observer.observe(element.current);
-  observer.observe(element);
-}
 
 export default function App()
 {
@@ -236,11 +203,11 @@ function hamburger_icon(showBar, setShowBar)
   )
 }
 
-
-/*displays list of movies to click on */
-export function DisplayList({movieList, setMovieList})
+function ListMovies({movie, idx})
 {
   const navigate = useNavigate();
+  let imgRef     = useRef();
+  let src = `/Movie-Tracker/pstr/${tmdbList?.find(m=>m.id === movie.dbid).poster}`;
 
   function format_date(date) {
     let year = date?.slice(0,4);
@@ -248,62 +215,109 @@ export function DisplayList({movieList, setMovieList})
     return date;
   }
 
-  let movieList_map = useMemo(
-    ()=>movieList.map((movie, idx)=>{
-      let src = `/Movie-Tracker/pstr/${tmdbList?.find(m=>m.id === movie.dbid).poster}`;
+  useEffect(()=>{
+    let options = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 1.0,
+    }
+    let observer = new IntersectionObserver(([e], o)=>{
+      if (e.isIntersecting) {
+        imgRef.current.style.setProperty("--poster-url", `url(${src})`);
+        // e.forEach(element => {
+        //   console.log('element: ', element);
+        // });
+        o.unobserve(e.target);
+      }
+    }, options);
 
-      return (
+    observer.observe(imgRef.current);
 
-        <div loading="lazy" className='poster-array-movie' key={idx}
-          style={{"--poster-url": `url(${src})`}}
-    
-          //default line coloring when images don't load
-          onMouseOver={(e)=>{
-            e.currentTarget.className="poster-array-hover";
-            // e.currentTarget.style.setProperty("--poster-url", `url(${src})`);
-            // if (e.currentTarget.previousElementSibling) {
-            //   e.currentTarget.previousElementSibling.className="movie-list-next";
-            // }
-            // if (e.currentTarget.nextElementSibling) {
-            //   e.currentTarget.nextElementSibling.className="movie-list-next";
-            // }
-          }}
-          onMouseOut={(e)=>{
-            e.currentTarget.className="poster-array-movie";
-            // e.currentTarget.style.setProperty("--poster-url", `url(${src})`);
-            // if (e.currentTarget.previousElementSibling) {
-            //   e.currentTarget.previousElementSibling.className="movie-list";
-            // }
-            // if (e.currentTarget.nextElementSibling) {
-            //   e.currentTarget.nextElementSibling.className="movie-list";
-            // }
-          }}
-          onMouseDown={(e)=>{
-            if (!e.button == 0) { //if not left-click
-              return;
-            }
-            // window.location.href = `/Movie-Tracker/movies/${movie.id}`;
-            navigate(`/Movie-Tracker/movies/${movie.id}`);
-            // navigate(`/movies/${movie.id}`);
-            // let src = `/Movie-Tracker/bg/${tmdbList?.find(m=>m.id === movie.dbid).bg}`;
-            // e.currentTarget.className="movie-list-click";
-            // e.currentTarget.style.setProperty("--data-backdrop-url", `url(${src})`);
-          }}
-        >
-        <div className='movie-title-list'>
-          <Link to={`/Movie-Tracker/movies/${movie.id}`}
-          >{movie.title}</Link>
-        </div>
-        <div>({movie.year || tmdbList.find(m=>m.id===movie.dbid)?.release_date?.slice(0,4)})</div>
-        <div>[{movie.runtime_hm || tmdbList.find(m=>m.id===movie.dbid).runtime_hm}]</div>
-        <div>({
-          format_date(movie.watchdate_arr?.[0]) || 
-          (movie.watched ? "watched": "")
-        })</div>
-        </div>
-      )}), [movieList]
+    return(()=>{
+      // console.log("imgRef: ", imgRef);
+      // observer.unobserve(imgRef.current);
+      observer.disconnect();
+    })
+  }, []);
+
+  return (
+    <div src={src} className='poster-array-movie' key={idx}
+      // style={{"--poster-url": `url(${src})`}}
+      ref={imgRef}
+      //default line coloring when images don't load
+      onMouseOver={(e)=>{
+        e.currentTarget.className="poster-array-hover";
+        // console.log('mouse overing');
+        // e.currentTarget.style.setProperty("--poster-url", `url(${src})`);
+        // if (e.currentTarget.previousElementSibling) {
+        //   e.currentTarget.previousElementSibling.className="movie-list-next";
+        // }
+        // if (e.currentTarget.nextElementSibling) {
+        //   e.currentTarget.nextElementSibling.className="movie-list-next";
+        // }
+        // createObserver(imgRef.current);
+      }}
+      onMouseOut={(e)=>{
+        e.currentTarget.className="poster-array-movie";
+        // e.currentTarget.style.setProperty("--poster-url", `url(${src})`);
+        // if (e.currentTarget.previousElementSibling) {
+        //   e.currentTarget.previousElementSibling.className="movie-list";
+        // }
+        // if (e.currentTarget.nextElementSibling) {
+        //   e.currentTarget.nextElementSibling.className="movie-list";
+        // }
+      }}
+      onMouseDown={(e)=>{
+        if (!e.button == 0) { //if not left-click
+          return;
+        }
+        navigate(`/Movie-Tracker/movies/${movie.id}`);
+        // navigate(`/movies/${movie.id}`);
+        // let src = `/Movie-Tracker/bg/${tmdbList?.find(m=>m.id === movie.dbid).bg}`;
+        // e.currentTarget.className="movie-list-click";
+        // e.currentTarget.style.setProperty("--data-backdrop-url", `url(${src})`);
+      }}
+    >
+    <div className='movie-title-list'>
+        <Link to={`/Movie-Tracker/movies/${movie.id}`}
+        >{movie.title}</Link>
+      </div>
+      <div>({movie.year || tmdbList.find(m=>m.id===movie.dbid)?.release_date?.slice(0,4)})</div>
+      <div>[{movie.runtime_hm || tmdbList.find(m=>m.id===movie.dbid).runtime_hm}]</div>
+      <div>({
+        format_date(movie.watchdate_arr?.[0]) || 
+        (movie.watched ? "watched": "")})
+      </div>
+    </div>
   )
 
+}
+
+function Dummy({img})
+{
+  const {ref, inView, entry} = useInView({threshold: 1.0, delay: 4});
+
+  return (
+    <div ref={ref} className='poster-array-movie'>
+      <img src={inView ? img : null} />
+      {/* {inView ? <img src={img}/> : <img />} */}
+      <h2>Stuff: `${inView}</h2>
+    </div>
+  )
+
+}
+
+
+/*displays list of movies to click on */
+export function DisplayList({movieList, setMovieList})
+{
+  // createObserver(imgRef.current);
+  let movieList_map = useMemo(
+    ()=>movieList.map((movie, idx)=>{
+      return (
+        <ListMovies movie={movie} idx={idx} key={idx} />
+      )}), [movieList]
+  );
 
   useEffect(()=>{
     // movie_listing_hover_effect(setBuffer);
@@ -311,6 +325,8 @@ export function DisplayList({movieList, setMovieList})
 
   return (
     <>
+      <Dummy img={"http://localhost:5173/Movie-Tracker/pstr/the-mummys-hand-1940.jpg"} />
+      <Dummy img={"http://localhost:5173/Movie-Tracker/pstr/the-invisible-woman-1940.jpg"}/>
       <div className='poster-array'>
         {/* {buffer ? <tr><td colSpan={4}>&nbsp;</td></tr> : null} */}
         {movieList_map}
@@ -826,7 +842,7 @@ function Trailer({movie, idx, css})
 
 function YTlink({type, url})
 {
-  console.log("url: ", url);
+  // console.log("url: ", url);
   return (
     <div>
     <h1>{type}</h1>
