@@ -103,7 +103,8 @@ function Sidebar({movieList, setMovieList})
   return (
     <>
       <div className={tbl_clss}>
-        {hamburger_icon(showBar, setShowBar)}
+        {/* <HamburgerIcon showBar={showBar} setShowBar={setShowBar} /> */}
+        {HamburgerIcon(showBar,setShowBar)}
         {showBar ? sidebar_buttons(
                       whichSort, setWhichSort,
                       sortDir, setSortDir,
@@ -132,43 +133,48 @@ function sidebar_buttons(whichSort, setWhichSort, sortDir, setSortDir, searchPar
   }
 
   function set_filter(newSearch) {
-    setSearchParams({q:newSearch}, {replace: false});
+    setSearchParams({q:newSearch}, {replace: true});
     setMovieList(filterMovies(newSearch));
   }
 
   const random_movie = [
     "Star Wars", "Ninja Turtles", "Fight Club",
-    "Matrix", "Lord of the Rings",
-    "Indiana Jones", "Ghostbusters",
-    "Friday the 13th", "Nightmare on Elm Street",
+    "Matrix", "Lord of the Rings", "Rocky",
+    "Indiana Jones", "Ghostbusters", "Rambo",
+    "Nightmare on Elm Street", "Superman",
+    "Friday the 13th", "Terminator",
   ];
   const random_placeholder = random_movie[Math.floor(Math.random()*random_movie.length)]
 
   return (
     <>
     {/*Frankl81: Object.assign(document.createElement('button'), { onclick(){}}) */}
-      <button onClick={()=>{
+      <button onClick={(e)=>{
+        e.stopPropagation();
         set_sort(sort_title, movieList);
         setWhichSort("title");
       }}>Title&nbsp;{
         (whichSort === "title") ? <Chevron className={sortDir} /> : null
       }
       </button>
-      <button onClick={()=>{
+      <button onClick={(e)=>{
+        e.stopPropagation();
         set_sort(sort_release, movieList);
         setWhichSort("year");
       }}>Release Year&nbsp;{
         (whichSort === "year") ? <Chevron className={sortDir} /> : null
       }
       </button>
-      <button onClick={()=>{
+      <button onClick={(e)=>{
+        e.stopPropagation();
         set_sort(sort_runtime, movieList);
         setWhichSort("runtime");
-      }}>[Runtime]&nbsp;{
+      }}>Runtime&nbsp;{
         (whichSort === "runtime") ? <Chevron className={sortDir} /> : null
       }
       </button>
-      <button onClick={()=>{
+      <button onClick={(e)=>{
+        e.stopPropagation();
         set_sort(sort_watchdate, movieList);
         setWhichSort("watchdate");
       }}>Watch Date&nbsp;{
@@ -179,13 +185,14 @@ function sidebar_buttons(whichSort, setWhichSort, sortDir, setSortDir, searchPar
         placeholder={"Search " + random_placeholder}
         defaultValue={searchParams.get('q')}
         onChange={(e)=>{
+          e.stopPropagation();
           set_filter(e.target.value);
         }} />
     </>
   )
 }
 
-function hamburger_icon(showBar, setShowBar)
+function HamburgerIcon(showBar, setShowBar)
 {
   return (
     <>
@@ -219,7 +226,7 @@ function ListMovies({movie, idx})
     let options = {
       root: null,
       rootMargin: "0px",
-      threshold: 1.0,
+      threshold: .1,
     }
     let observer = new IntersectionObserver(([e], o)=>{
       if (e.isIntersecting) {
@@ -241,7 +248,7 @@ function ListMovies({movie, idx})
   }, []);
 
   return (
-    <div src={src} className='poster-array-movie' key={idx}
+    <div src={src} className={`poster-array-movie`}  key={idx}
       // style={{"--poster-url": `url(${src})`}}
       ref={imgRef}
       //default line coloring when images don't load
@@ -276,33 +283,68 @@ function ListMovies({movie, idx})
         // let src = `/Movie-Tracker/bg/${tmdbList?.find(m=>m.id === movie.dbid).bg}`;
         // e.currentTarget.className="movie-list-click";
         // e.currentTarget.style.setProperty("--data-backdrop-url", `url(${src})`);
-      }}
-    >
-    <div className='movie-title-list'>
-        <Link to={`/Movie-Tracker/movies/${movie.id}`}
-        >{movie.title}</Link>
+      }}>
+      <div className='movie-title-list'>
+          <Link to={`/Movie-Tracker/movies/${movie.id}`}>
+            {movie.title}
+          </Link>
       </div>
       <div>({movie.year || tmdbList.find(m=>m.id===movie.dbid)?.release_date?.slice(0,4)})</div>
       <div>[{movie.runtime_hm || tmdbList.find(m=>m.id===movie.dbid).runtime_hm}]</div>
-      <div>({
-        format_date(movie.watchdate_arr?.[0]) || 
-        (movie.watched ? "watched": "")})
+      <div className={movie.watched ? "movie-watched-triangle" : ""} />
+      <div className="movie-watched-watched">
+          {
+          // format_date(movie.watchdate_arr?.[0]) || 
+          (movie.watched ? "Watched": "")
+          
+          }
       </div>
     </div>
   )
-
 }
 
-function Dummy({img})
+
+function dostuff()
 {
-  const {ref, inView, entry} = useInView({threshold: 1.0, delay: 4});
+  const [inView, setInView] = useState();
+  let options = {
+    root: null,
+    rootMargin: "0px",
+    threshold: 1.0,
+  }
+
+  const observer = new IntersectionObserver((e)=>{
+    setInView(e.isIntersecting);
+  },options);
+
+  console.log('inview: ', inView);
+
+  return {
+    inView,
+    observer,
+  }
+}
+
+function Dummy({imgUrl, observer, inView})
+{
+  // const {ref, inView, entry} = useInView({threshold: 1.0, delay: 4});
+  const ref = useRef();
+
+  useEffect(()=>{
+
+    observer.observe(ref.current);
+
+  }, []);
+
 
   return (
-    <div ref={ref} className='poster-array-movie'>
-      <img src={inView ? img : null} />
-      {/* {inView ? <img src={img}/> : <img />} */}
-      <h2>Stuff: `${inView}</h2>
-    </div>
+    <>
+      <div ref={ref} className='poster-array-movie'>
+        <img src={inView ? imgUrl : null} />
+        {/* {inView ? <img src={img}/> : <img />} */}
+        <h2>Stuff</h2>
+      </div>
+    </>
   )
 
 }
@@ -323,10 +365,16 @@ export function DisplayList({movieList, setMovieList})
     // movie_listing_hover_effect(setBuffer);
   }, []);
 
+  const {inView, observer} = dostuff();
+
   return (
     <>
-      {/* <Dummy img={"http://localhost:5173/Movie-Tracker/pstr/the-mummys-hand-1940.jpg"} /> */}
-      {/* <Dummy img={"http://localhost:5173/Movie-Tracker/pstr/the-invisible-woman-1940.jpg"}/> */}
+      <Dummy img={"http://localhost:5173/Movie-Tracker/pstr/the-mummys-hand-1940.jpg"} 
+            inView={inView}  
+            observer={observer} />
+      <Dummy img={"http://localhost:5173/Movie-Tracker/pstr/the-invisible-woman-1940.jpg"} 
+            inView={inView} 
+            observer={observer}/>
       <div className='poster-array'>
         {/* {buffer ? <tr><td colSpan={4}>&nbsp;</td></tr> : null} */}
         {movieList_map}
@@ -704,64 +752,6 @@ export function DisplayMovie({movie, idx, tmdb})
       <Link to={`/Movie-Tracker/movies/${movieNext.id}`} className='arrow next-btn'> </Link>
     </>
   )
-}
-
-//TODO: DELETE
-//temporary function to get the details of one item
-//used to test tmdb access without doing a complete pull
-async function get_details(movie, type)
-{
-  // console.log("dbid: ", movie.id);
-  const get_options = {
-    method: 'GET',
-    headers: {
-      accept: 'application/json',
-      Authorization: `Bearer ${token}`
-    }
-  }
-
-
-  // //Authenticate
-  // let api = await fetch('https://api.themoviedb.org/3/authentication', get_options);
-  // let api_json = await api.json();
-  // console.log(api_json);
-
-  let searchParams = {};
-  searchParams.query = movie.title;
-  if (movie.year) {
-    searchParams.year = movie.year;
-  }
-
-  let url;
-  if (type == "ratings") {
-    url = new URL(`https://api.themoviedb.org/3/movie/${movie.dbid}/release_dates`);
-  } else {
-    url = new URL(`https://api.themoviedb.org/3/movie/${movie.dbid}`);
-    url.search = new URLSearchParams(searchParams);
-  }
-
-  let movie_details_json;
-  let movie_details;
-  try {
-    movie_details = await fetch(url.toString(), get_options);
-    movie_details_json = await movie_details.json();
-    // console.log(movie_details_json);
-  } catch (error) {
-    console.log(error);
-  }
-
-  if (type==="ratings") {
-    let rating_by_country = movie_details_json.results.map((r)=>{
-      let country = r.iso_3166_1;
-      let rating = r.release_dates[0].certification;
-      let temp = {"country" : country, "rating" : rating}
-      return temp;
-    });
-    return rating_by_country
-  } else {
-    return movie_details_json;
-  }
-
 }
 
 function MovieTitle({movie, tmdb})

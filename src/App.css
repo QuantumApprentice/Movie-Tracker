@@ -75,13 +75,19 @@ button:focus-visible {
   box-sizing: border-box;
 }
 
+.clear-icon {
+  margin-top: 5px;
+  margin-left: 50px;
+  border: solid red;
+}
+
 .hamburger-icon {
   position: fixed;
   margin-top: 5px;
   border: solid red;
   pointer-events: auto;
 }
-.hamburger-icon > * {
+.hamburger-icon > * { /*hamburger slices*/
   width: 35px;
   height: 7px;
   background-color: gray;
@@ -90,12 +96,14 @@ button:focus-visible {
 }
 .hamburger-icon.change > :nth-child(1) {
   transform: translate(0, 14px) rotate(-45deg);
+  margin-top: 0px;
 }
 .hamburger-icon.change > :nth-child(2) {
   opacity: 0;
 }
 .hamburger-icon.change > :nth-child(3) {
   transform: translate(0,-14px) rotate(45deg);
+  margin-bottom: 0px;
 }
 
 
@@ -109,6 +117,7 @@ button:focus-visible {
   border: solid red;
   background-color: rgba(40, 40, 40, 0);
   pointer-events: none;
+  z-index: 1;
 }
 
 .sidebar-vertical button, input {
@@ -184,6 +193,26 @@ then in the CSS something like
   flex-direction: row;
   width: 300px;
   height: 450px;
+}
+
+.movie-watched-triangle {
+  position: absolute;
+  width: 300px;
+  height: 450px;
+  border-left: 300px solid transparent;
+  border-right: 0px solid transparent;
+  border-bottom: 250px solid rgba(70, 169, 255, 0.5);
+}
+.movie-watched-watched {
+  position: absolute;
+  font-family: cursive;
+  margin-top: 325px;
+  margin-left: 120px;
+  font-size: 50px;
+  rotate: -40deg;
+
+  transform: scale(1,2);
+
 }
 
 .movie-list {

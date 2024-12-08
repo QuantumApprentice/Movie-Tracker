@@ -1205,7 +1205,7 @@
   },
   "id": "exorcist-ii-the-heretic-1977",
   "dbid": 11586,
-  "runtime_m": 117
+  "runtime_m": 118
  },
  {
   "watched": false,
@@ -1770,6 +1770,20 @@
   "id": "idle-hands-1999",
   "dbid": 6552,
   "runtime_m": 92
+ },
+ {
+  "watched": false,
+  "title": "Infestation",
+  "year": "2009",
+  "runtime_hm": "1h31m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/axbACw0jQUw"
+   ]
+  },
+  "id": "infestation-2009",
+  "dbid": 22476,
+  "runtime_m": 91
  },
  {
   "watched": false,
@@ -2810,20 +2824,6 @@
  },
  {
   "watched": false,
-  "title": "Thinner",
-  "year": "1996",
-  "runtime_hm": "1h33m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/p97ds4ZR7zM"
-   ]
-  },
-  "id": "thinner-1996",
-  "dbid": 10280,
-  "runtime_m": 92
- },
- {
-  "watched": false,
   "title": "Triangle",
   "year": "2009",
   "runtime_hm": "1h39m",
@@ -3679,19 +3679,6 @@
   "runtime_m": 101
  },
  {
-  "watched": false,
-  "title": "Troll",
-  "year": "1986",
-  "links": {
-   "trailer": [
-    "https://youtu.be/-JrmQl3E9zk"
-   ]
-  },
-  "id": "troll-1986",
-  "dbid": 33061,
-  "runtime_m": 82
- },
- {
   "watched": true,
   "watchdate": "10.28.23",
   "title": "Bride of Re-Animator",
@@ -3936,6 +3923,20 @@
  },
  {
   "watched": false,
+  "title": "Eight Legged Freaks",
+  "year": "2002",
+  "runtime_hm": "1h39m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/RvEZ32oFtTw"
+   ]
+  },
+  "id": "eight-legged-freaks-2002",
+  "dbid": 8869,
+  "runtime_m": 99
+ },
+ {
+  "watched": false,
   "title": "Frankenstein Conquers the World",
   "year": "1965",
   "runtime_hm": "1h34m",
@@ -3964,6 +3965,20 @@
   "id": "hagen-im-tal-der-nibelungen-2024",
   "dbid": 1209130,
   "runtime_m": 135
+ },
+ {
+  "watched": false,
+  "title": "Arachnophobia",
+  "year": "1990",
+  "runtime_hm": "1h49m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/Gbuh4K8_K6E"
+   ]
+  },
+  "id": "arachnophobia-1990",
+  "dbid": 6488,
+  "runtime_m": 109
  },
  {
   "watched": false,
@@ -4026,6 +4041,7 @@
   "watched": false,
   "title": "Penitentiary II",
   "year": "1982",
+  "runtime_hm": "1h48m",
   "links": {},
   "id": "penitentiary-ii-1982",
   "dbid": 65452,
@@ -4044,6 +4060,34 @@
   "id": "ali-fear-eats-the-soul-1974",
   "dbid": 216,
   "runtime_m": 93
+ },
+ {
+  "watched": false,
+  "title": "Six-String Samurai",
+  "year": "1998",
+  "runtime_hm": "1h31m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/KVYiE8jQQIU"
+   ]
+  },
+  "id": "six-string-samurai-1998",
+  "dbid": 24746,
+  "runtime_m": 91
+ },
+ {
+  "watched": false,
+  "title": "Trancers",
+  "year": "1984",
+  "runtime_hm": "1h16m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/P84mvtrZemc"
+   ]
+  },
+  "id": "trancers-1984",
+  "dbid": 5677,
+  "runtime_m": 77
  },
  {
   "watched": false,
@@ -5084,6 +5128,7 @@
   "watched": false,
   "title": "The Hitman's Bodyguard",
   "year": "2017",
+  "runtime_hm": "1h58m",
   "links": {
    "trailer": [
     "https://youtu.be/F4Afusxc2SM"
@@ -5097,6 +5142,7 @@
   "watched": false,
   "title": "Dark Star",
   "year": "1974",
+  "runtime_hm": "1h23m",
   "links": {
    "trailer": [
     "https://youtu.be/lwISbJfRNz0"
@@ -5110,6 +5156,7 @@
   "watched": false,
   "title": "Nineteen Eighty-Four",
   "year": "1984",
+  "runtime_hm": "1h53m",
   "links": {
    "trailer": [
     "https://youtu.be/urrqW4_3IBg"
@@ -5123,6 +5170,7 @@
   "watched": true,
   "title": "2001: A Space Odyssey",
   "year": "1968",
+  "runtime_hm": "2h29m",
   "links": {
    "trailer": [
     "https://youtu.be/Z2UWOeBcsJI"
@@ -5142,6 +5190,7 @@
   "watched": true,
   "title": "2010: The Year We Make Contact",
   "year": "1984",
+  "runtime_hm": "1h56m",
   "links": {
    "trailer": [
     "https://youtu.be/Gyf8QWoL7T0"
@@ -5159,6 +5208,7 @@
   "watchdate": "9.03.2022",
   "title": "Alien",
   "year": "1979",
+  "runtime_hm": "1h57m",
   "links": {
    "trailer": [
     "https://youtu.be/jQ5lPt9edzQ"
@@ -5176,6 +5226,7 @@
   "watchdate": "9.17.2022",
   "title": "Aliens",
   "year": "1986",
+  "runtime_hm": "2h17m",
   "links": {
    "trailer": [
     "https://youtu.be/bTCaVjQ8nU4"
@@ -5193,6 +5244,7 @@
   "watchdate": "9.24.2022",
   "title": "Alien 3",
   "year": "1992",
+  "runtime_hm": "1h54m",
   "links": {
    "trailer": [
     "https://youtu.be/Ipv1y-Phi7A"
@@ -5202,13 +5254,14 @@
    "20220924"
   ],
   "id": "alien-3-1992",
-  "dbid": 1295001,
-  "runtime_m": 100
+  "dbid": 8077,
+  "runtime_m": 114
  },
  {
   "watched": false,
   "title": "Alien Resurrection",
   "year": "1997",
+  "runtime_hm": "1h49m",
   "links": {
    "trailer": [
     "https://youtu.be/15g12dGxWX4"
@@ -5222,6 +5275,7 @@
   "watched": false,
   "title": "A Low Down Dirty Shame",
   "year": "1994",
+  "runtime_hm": "1h40m",
   "links": {},
   "id": "a-low-down-dirty-shame-1994",
   "dbid": 26352,
@@ -5231,6 +5285,7 @@
   "watched": false,
   "title": "Allan Quatermain and the Lost City of Gold",
   "year": "1987",
+  "runtime_hm": "1h39m",
   "links": {
    "movie": [
     "https://youtu.be/oSUcStCOU0Y"
@@ -5244,6 +5299,7 @@
   "watched": false,
   "title": "All Quiet on the Western Front",
   "year": "1979",
+  "runtime_hm": "2h30m",
   "links": {
    "movie": [
     "https://youtu.be/KPKeYhkBt5A"
@@ -5275,6 +5331,7 @@
   "watched": false,
   "title": "A Bridge Too Far",
   "year": "1977",
+  "runtime_hm": "2h55m",
   "links": {
    "trailer": [
     "https://youtu.be/AWL184ZcSxA"
@@ -5307,6 +5364,7 @@
   "watchdate": "08.12.23",
   "title": "A.I. Artificial Intelligence",
   "year": "2001",
+  "runtime_hm": "2h26m",
   "links": {
    "movie": [
     "https://youtu.be/4VfxU0bOx-I"
@@ -5323,6 +5381,7 @@
   "watched": false,
   "title": "Air Force One",
   "year": "1997",
+  "runtime_hm": "2h4m",
   "links": {
    "trailer": [
     "https://youtu.be/cUclxtJDxh4"
@@ -5336,6 +5395,7 @@
   "watched": false,
   "title": "Annihilation",
   "year": "2018",
+  "runtime_hm": "1h55m",
   "links": {
    "trailer": [
     "https://youtu.be/89OP78l9oF0"
@@ -5347,21 +5407,20 @@
  },
  {
   "watched": false,
-  "title": "Batteries Not Included",
+  "title": "Batteries Not Included [1h46m]",
   "year": "1987",
   "links": {
    "trailer": [
     "https://youtu.be/rJmvsb13dA8"
    ]
   },
-  "id": "batteries-not-included-1987",
-  "dbid": 11548,
-  "runtime_m": 106
+  "id": "batteries-not-included-1h46m-1987"
  },
  {
   "watched": true,
   "title": "Battle Royale",
   "year": "2000",
+  "runtime_hm": "1h53m",
   "links": {},
   "id": "battle-royale-2000",
   "dbid": 3176,
@@ -5371,6 +5430,7 @@
   "watched": true,
   "title": "Battle Beyond the Stars",
   "year": "1980",
+  "runtime_hm": "1h44m",
   "links": {
    "movie": [
     "https://youtu.be/igPrv6LTjKA"
@@ -5385,6 +5445,7 @@
   "watchdate": "5.07.2022",
   "title": "Beverly Hills Ninja",
   "year": "1997",
+  "runtime_hm": "1h28m",
   "links": {
    "trailer": [
     "https://youtu.be/PzQ_nhVamu0"
@@ -5398,26 +5459,11 @@
   "runtime_m": 88
  },
  {
-  "watched": false,
-  "title": "Ben Hur",
-  "year": "1959",
-  "links": {
-   "trailer": [
-    "https://youtu.be/SCJfUi3V3r4"
-   ],
-   "modern": [
-    "https://youtu.be/NR1ZHKw09n8"
-   ]
-  },
-  "id": "ben-hur-1959",
-  "dbid": 665,
-  "runtime_m": 222
- },
- {
   "watched": true,
   "watchdate": "4.30.2022",
   "title": "Black Sheep",
   "year": "1996",
+  "runtime_hm": "1h27m",
   "links": {
    "trailer": [
     "https://youtu.be/R4gn9JZCN-A"
@@ -5434,9 +5480,27 @@
   "runtime_m": 87
  },
  {
+  "watched": false,
+  "title": "Ben Hur",
+  "year": "1959",
+  "runtime_hm": "3h42m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/SCJfUi3V3r4"
+   ],
+   "modern": [
+    "https://youtu.be/NR1ZHKw09n8"
+   ]
+  },
+  "id": "ben-hur-1959",
+  "dbid": 665,
+  "runtime_m": 222
+ },
+ {
   "watched": true,
   "title": "Blade Runner",
   "year": "1982",
+  "runtime_hm": "1h58m",
   "links": {
    "trailer": [
     "https://youtu.be/eogpIG53Cis"
@@ -5450,6 +5514,7 @@
   "watched": false,
   "title": "Blade Runner 2049",
   "year": "2017",
+  "runtime_hm": "2h44m",
   "links": {
    "trailer": [
     "https://youtu.be/gCcx85zbxz4"
@@ -5463,6 +5528,7 @@
   "watched": false,
   "title": "Blast From the Past",
   "year": "1999",
+  "runtime_hm": "1h52m",
   "links": {
    "trailer": [
     "https://youtu.be/Xq29uTtKW4M"
@@ -5479,6 +5545,7 @@
   "watched": true,
   "title": "Blazing Saddles",
   "year": "1974",
+  "runtime_hm": "1h33m",
   "links": {
    "trailer": [
     "https://youtu.be/VKayG1TrfuE"
@@ -5495,6 +5562,7 @@
   "watched": false,
   "title": "Super",
   "year": "2010",
+  "runtime_hm": "1h36m",
   "links": {
    "trailer": [
     "https://youtu.be/tLj_Bzw8n90"
@@ -5508,6 +5576,7 @@
   "watched": false,
   "title": "Kickass",
   "year": "2010",
+  "runtime_hm": "1h57m",
   "links": {
    "trailer": [
     "https://youtu.be/2rpXHqnGDXo"
@@ -6290,6 +6359,16 @@
   "runtime_m": 126
  },
  {
+  "watched": false,
+  "title": "Yor: Hunter from the Future",
+  "year": "1983",
+  "runtime_hm": "1h28m",
+  "links": {},
+  "id": "yor-hunter-from-the-future-1983",
+  "dbid": 38219,
+  "runtime_m": 98
+ },
+ {
   "watched": true,
   "title": "Dune",
   "year": "1984",
@@ -6996,7 +7075,7 @@
  },
  {
   "watched": false,
-  "title": "Condor Man",
+  "title": "Condorman",
   "year": "1981",
   "runtime_hm": "1h30m",
   "links": {
@@ -7004,7 +7083,9 @@
     "https://youtu.be/lo5LZmx9Vrg"
    ]
   },
-  "id": "condor-man-1981"
+  "id": "condorman-1981",
+  "dbid": 19379,
+  "runtime_m": 90
  },
  {
   "watched": true,
@@ -7271,7 +7352,7 @@
   ],
   "id": "junior-1994",
   "dbid": 6280,
-  "runtime_m": 109
+  "runtime_m": 110
  },
  {
   "watched": true,
@@ -11659,7 +11740,7 @@
  },
  {
   "watched": true,
-  "watchdate": "09.02.2023",
+  "watchdate": "9.02.2023",
   "title": "Death Warrant",
   "year": "1990",
   "links": {
@@ -11676,7 +11757,7 @@
  },
  {
   "watched": true,
-  "watchdate": "09.23.23",
+  "watchdate": "9.23.23",
   "title": "Double Impact",
   "year": "1991",
   "links": {
@@ -13479,7 +13560,8 @@
   "runtime_m": 201
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "11.23.24",
   "title": "The Hobbit",
   "year": "1977",
   "runtime_hm": "1h30m",
@@ -13488,13 +13570,17 @@
     "https://youtu.be/Y4n8XUJaUwc"
    ]
   },
+  "watchdate_arr": [
+   "20241123"
+  ],
   "id": "the-hobbit-1977",
   "dbid": 1362,
   "runtime_m": 77
  },
  {
-  "watched": false,
-  "title": "The Hobbit: An Unexpected Journey Ext",
+  "watched": true,
+  "watchdate": "11.23.24",
+  "title": "The Hobbit: An Unexpected Journey",
   "year": "2012",
   "runtime_hm": "3h2m",
   "links": {
@@ -13502,10 +13588,16 @@
     "https://youtu.be/JTSoD4BBCJc"
    ]
   },
-  "id": "the-hobbit-an-unexpected-journey-ext-2012"
+  "watchdate_arr": [
+   "20241123"
+  ],
+  "id": "the-hobbit-an-unexpected-journey-2012",
+  "dbid": 49051,
+  "runtime_m": 169
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "11.30.24",
   "title": "The Hobbit: Desolation of Smaug",
   "year": "2013",
   "runtime_hm": "3h6m",
@@ -13514,12 +13606,16 @@
     "https://youtu.be/fnaojlfdUbs"
    ]
   },
+  "watchdate_arr": [
+   "20241130"
+  ],
   "id": "the-hobbit-desolation-of-smaug-2013",
   "dbid": 57158,
   "runtime_m": 161
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "12.07.24",
   "title": "The Hobbit: The Battle of the Five Armies",
   "year": "2014",
   "runtime_hm": "2h44m",
@@ -13528,6 +13624,9 @@
     "https://youtu.be/iVAgTiBrrDA"
    ]
   },
+  "watchdate_arr": [
+   "20241207"
+  ],
   "id": "the-hobbit-the-battle-of-the-five-armies-2014",
   "dbid": 122917,
   "runtime_m": 144
@@ -15071,6 +15170,7 @@
   "watched": true,
   "title": "Batman Returns",
   "year": "1992",
+  "runtime_hm": "2h6m",
   "links": {
    "trailer": [
     "https://youtu.be/Too3qgNaYBE"
@@ -16362,6 +16462,7 @@
   "watched": true,
   "title": "Planes, Trains, and Automobiles",
   "year": "1987",
+  "runtime_hm": "1h33m",
   "links": {
    "trailer": [
     "https://youtu.be/ZfnvrPZSFb8"
@@ -16412,6 +16513,7 @@
   "watched": true,
   "title": "Miracle on 34th Street",
   "year": "1947",
+  "runtime_hm": "1h36m",
   "links": {
    "movie": [
     "https://youtu.be/Z3P5TjtStCY"
@@ -16584,6 +16686,7 @@
   "watched": false,
   "title": "A Christmas Carol",
   "year": "1938",
+  "runtime_hm": "1h9m",
   "links": {
    "trailer": [
     "https://youtu.be/yVop9seXSoQ"
@@ -16597,6 +16700,7 @@
   "watched": false,
   "title": "A Christmas Carol",
   "year": "1999",
+  "runtime_hm": "1h35m",
   "links": {
    "trailer": [
     "https://youtu.be/G7JF5iWZXH4"
@@ -16620,6 +16724,20 @@
   "runtime_m": 152
  },
  {
+  "watched": false,
+  "title": "The Hogfather",
+  "year": "2006",
+  "runtime_hm": "3h9m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/cKoJEUodfgA"
+   ]
+  },
+  "id": "the-hogfather-2006",
+  "dbid": 11910,
+  "runtime_m": 185
+ },
+ {
   "watched": true,
   "title": "The Muppet Christmas Carol",
   "year": "1992",
@@ -16630,7 +16748,7 @@
   },
   "id": "the-muppet-christmas-carol-1992",
   "dbid": 10437,
-  "runtime_m": 85
+  "runtime_m": 86
  },
  {
   "watched": false,
@@ -16688,9 +16806,13 @@
   "watched": false,
   "title": "Rudolph the Red-Nosed Reindeer",
   "year": "1964",
+  "runtime_hm": "1h31m",
   "links": {
    "trailer": [
-    "https://youtu.be/O5V-EzKP8-g"
+    "https://youtu.be/lZfM8-w2p3w"
+   ],
+   "movie": [
+    "https://youtu.be/h_x59kNp598"
    ]
   },
   "id": "rudolph-the-red-nosed-reindeer-1964",
@@ -16984,6 +17106,9 @@
   "title": "Lilies of the Field",
   "year": "1963",
   "links": {
+   "trailer": [
+    "https://youtu.be/8aL0ml00S9Q"
+   ],
    "movie": [
     "https://youtu.be/PGvpdHgwsTg"
    ]
