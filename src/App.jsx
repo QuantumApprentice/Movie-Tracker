@@ -248,7 +248,7 @@ function ListMovies({movie, idx})
   }, []);
 
   return (
-    <div src={src} className={`poster-array-movie`}  key={idx}
+    <div src={src} className={`poster-array-movie`}  key={movie.id}
       // style={{"--poster-url": `url(${src})`}}
       ref={imgRef}
       //default line coloring when images don't load
@@ -317,7 +317,7 @@ function dostuff()
     setInView(e.isIntersecting);
   },options);
 
-  console.log('inview: ', inView);
+  // console.log('inview: ', inView);
 
   return {
     inView,
@@ -357,7 +357,7 @@ export function DisplayList({movieList, setMovieList})
   let movieList_map = useMemo(
     ()=>movieList.map((movie, idx)=>{
       return (
-        <ListMovies movie={movie} idx={idx} key={idx} />
+        <ListMovies movie={movie} idx={idx} key={movie.id} />
       )}), [movieList]
   );
 

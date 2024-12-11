@@ -1800,7 +1800,7 @@
   "runtime_m": 123
  },
  {
-  "watched": false,
+  "watched": true,
   "title": "In the Mouth of Madness",
   "year": "1995",
   "runtime_hm": "1h35m",
@@ -2944,19 +2944,6 @@
  },
  {
   "watched": false,
-  "title": "The Dead Zone",
-  "year": "1983",
-  "links": {
-   "trailer": [
-    "https://youtu.be/qxJp_VQ5VUk"
-   ]
-  },
-  "id": "the-dead-zone-1983",
-  "dbid": 11336,
-  "runtime_m": 103
- },
- {
-  "watched": false,
   "title": "The Fly",
   "year": "1958",
   "runtime_hm": "1h34m",
@@ -3469,62 +3456,6 @@
  },
  {
   "watched": false,
-  "title": "Aterrados [Terrified]",
-  "year": "2017",
-  "runtime_hm": "1h27m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/sJzI6qSmJoQ"
-   ]
-  },
-  "id": "aterrados-terrified-2017",
-  "dbid": 489430,
-  "runtime_m": 88
- },
- {
-  "watched": false,
-  "title": "Triangle",
-  "year": "2009",
-  "runtime_hm": "1h39m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/9aCdzjCftgs"
-   ]
-  },
-  "id": "triangle-2009",
-  "dbid": 26466,
-  "runtime_m": 98
- },
- {
-  "watched": false,
-  "title": "Oculus",
-  "year": "2013",
-  "runtime_hm": "1h45m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/66RBsIsWJBQ"
-   ]
-  },
-  "id": "oculus-2013",
-  "dbid": 157547,
-  "runtime_m": 104
- },
- {
-  "watched": false,
-  "title": "Shadow of the Vampire",
-  "year": "2000",
-  "runtime_hm": "1h32m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/_B15iesNMa8"
-   ]
-  },
-  "id": "shadow-of-the-vampire-2000",
-  "dbid": 10873,
-  "runtime_m": 95
- },
- {
-  "watched": false,
   "title": "Thinner",
   "year": "1996",
   "runtime_hm": "1h33m",
@@ -3536,24 +3467,6 @@
   "id": "thinner-1996",
   "dbid": 10280,
   "runtime_m": 92
- },
- {
-  "watched": true,
-  "watchdate": "10.28.23",
-  "title": "Slither",
-  "year": "2006",
-  "runtime_hm": "1h35m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/SI0BcgVdSWg"
-   ]
-  },
-  "watchdate_arr": [
-   "20231028"
-  ],
-  "id": "slither-2006",
-  "dbid": 9035,
-  "runtime_m": 95
  },
  {
   "watched": false,
@@ -3652,94 +3565,6 @@
  },
  {
   "watched": false,
-  "title": "One Cut of the Dead",
-  "year": "2017",
-  "runtime_hm": "1h36m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/4wBImbHqhFk"
-   ]
-  },
-  "id": "one-cut-of-the-dead-2017",
-  "dbid": 513434,
-  "runtime_m": 96
- },
- {
-  "watched": false,
-  "title": "I Bought A Vampire Motorcycle",
-  "year": "1990",
-  "runtime_hm": "1h45m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/43rAACwFPRk"
-   ]
-  },
-  "id": "i-bought-a-vampire-motorcycle-1990",
-  "dbid": 41153,
-  "runtime_m": 101
- },
- {
-  "watched": true,
-  "watchdate": "10.28.23",
-  "title": "Bride of Re-Animator",
-  "year": "1990",
-  "runtime_hm": "1h36m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/E6wlp5-M0_E"
-   ]
-  },
-  "watchdate_arr": [
-   "20231028"
-  ],
-  "id": "bride-of-re-animator-1990",
-  "dbid": 18111,
-  "runtime_m": 96
- },
- {
-  "watched": false,
-  "title": "Beyond Re-Animator",
-  "year": "2003",
-  "runtime_hm": "1h36m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/An1lkL3OraY"
-   ]
-  },
-  "id": "beyond-re-animator-2003",
-  "dbid": 11429,
-  "runtime_m": 95
- },
- {
-  "watched": false,
-  "title": "Vampire's Kiss",
-  "year": "1988",
-  "runtime_hm": "1h43m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/PnoSxO_2ghQ"
-   ]
-  },
-  "id": "vampires-kiss-1988",
-  "dbid": 7091,
-  "runtime_m": 103
- },
- {
-  "watched": false,
-  "title": "Ringu",
-  "year": "1998",
-  "runtime_hm": "1h36m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/AJ2jLZq25J4"
-   ]
-  },
-  "id": "ringu-1998",
-  "dbid": 2671,
-  "runtime_m": 96
- },
- {
-  "watched": false,
   "title": "Naked Lunch",
   "year": "1991",
   "runtime_hm": "1h55m",
@@ -3768,116 +3593,6 @@
   "id": "transcendence-2014",
   "dbid": 157353,
   "runtime_m": 119
- },
- {
-  "watched": true,
-  "watchdate": "10.19.2024",
-  "title": "Frankenstein",
-  "year": "1931",
-  "runtime_hm": "1h11m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/BN8K-4osNb0",
-    "https://youtu.be/XD7Gn9grers"
-   ]
-  },
-  "watchdate_arr": [
-   "20241019"
-  ],
-  "id": "frankenstein-1931",
-  "dbid": 3035,
-  "runtime_m": 70
- },
- {
-  "watched": true,
-  "watchdate": "10.19.2024",
-  "title": "Bride of Frankenstein",
-  "year": "1935",
-  "runtime_hm": "1h15m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/mPT2R1g5MGY",
-    "https://youtu.be/rYD3-pIF9jQ"
-   ]
-  },
-  "watchdate_arr": [
-   "20241019"
-  ],
-  "id": "bride-of-frankenstein-1935",
-  "dbid": 229,
-  "runtime_m": 75
- },
- {
-  "watched": false,
-  "title": "Son of Frankenstein",
-  "year": "1939",
-  "runtime_hm": "1h39m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/v6B7zDZe9gw",
-    "https://youtu.be/0WEU89n1NAI"
-   ]
-  },
-  "id": "son-of-frankenstein-1939",
-  "dbid": 3077,
-  "runtime_m": 99
- },
- {
-  "watched": false,
-  "title": "Frankenstein Meets the Wolf Man",
-  "year": "1943",
-  "runtime_hm": "1h13m",
-  "links": {
-   "movie": [
-    "https://youtu.be/LhArTFocIb0"
-   ]
-  },
-  "id": "frankenstein-meets-the-wolf-man-1943",
-  "dbid": 3076,
-  "runtime_m": 74
- },
- {
-  "watched": false,
-  "title": "Young Frankenstein",
-  "year": "1974",
-  "runtime_hm": "1h46m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/sO8g8VmFf0M"
-   ]
-  },
-  "id": "young-frankenstein-1974",
-  "dbid": 3034,
-  "runtime_m": 106
- },
- {
-  "watched": false,
-  "title": "Mary Shelley's Frankenstein",
-  "year": "1994",
-  "runtime_hm": "2h3m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/zqolmvqTY9k",
-    "https://youtu.be/hnxFuPw0JIE"
-   ]
-  },
-  "id": "mary-shelleys-frankenstein-1994",
-  "dbid": 3036,
-  "runtime_m": 123
- },
- {
-  "watched": false,
-  "title": "Hillbillys in a Haunted House",
-  "year": "1967",
-  "runtime_hm": "1h28m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/7kNPhC-tDnA"
-   ]
-  },
-  "id": "hillbillys-in-a-haunted-house-1967",
-  "dbid": 99008,
-  "runtime_m": 86
  },
  {
   "watched": false,
@@ -3934,23 +3649,6 @@
   "id": "eight-legged-freaks-2002",
   "dbid": 8869,
   "runtime_m": 99
- },
- {
-  "watched": false,
-  "title": "Frankenstein Conquers the World",
-  "year": "1965",
-  "runtime_hm": "1h34m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/yKxQHhki_k8"
-   ],
-   "japanese": [
-    "https://youtu.be/Q3cej8jiLk8"
-   ]
-  },
-  "id": "frankenstein-conquers-the-world-1965",
-  "dbid": 3160,
-  "runtime_m": 90
  },
  {
   "watched": false,
@@ -4159,9 +3857,10 @@
  {
   "watched": false,
   "title": "Uptown Saturday Night",
+  "year": "1974",
+  "runtime_hm": "1h44m",
   "links": {},
   "id": "uptown-saturday-night-1974",
-  "year": "1974",
   "dbid": 29464,
   "runtime_m": 104
  },
@@ -5407,14 +5106,14 @@
  },
  {
   "watched": false,
-  "title": "Batteries Not Included [1h46m]",
+  "title": "*Batteries Not Included [1h46m]",
   "year": "1987",
   "links": {
    "trailer": [
     "https://youtu.be/rJmvsb13dA8"
    ]
   },
-  "id": "batteries-not-included-1h46m-1987"
+  "id": "-batteries-not-included-1h46m-1987"
  },
  {
   "watched": true,
@@ -6496,19 +6195,6 @@
  },
  {
   "watched": false,
-  "title": "The Blob",
-  "year": "1958",
-  "links": {
-   "trailer": [
-    "https://youtu.be/TdUsyXQ8Wrs"
-   ]
-  },
-  "id": "the-blob-1958",
-  "dbid": 8851,
-  "runtime_m": 82
- },
- {
-  "watched": false,
   "title": "When Worlds Collide",
   "year": "1951",
   "links": {},
@@ -7372,20 +7058,6 @@
   "id": "eraser-1996",
   "dbid": 9268,
   "runtime_m": 115
- },
- {
-  "watched": false,
-  "title": "Jingle All The Way",
-  "year": "1996",
-  "runtime_hm": "1h29m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/jhJYMEzQA-Q"
-   ]
-  },
-  "id": "jingle-all-the-way-1996",
-  "dbid": 9279,
-  "runtime_m": 89
  },
  {
   "watched": true,
@@ -8544,20 +8216,6 @@
  },
  {
   "watched": true,
-  "title": "History of the World, Part 1",
-  "year": "1981",
-  "runtime_hm": "1h32m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/1TASJymwQeo"
-   ]
-  },
-  "id": "history-of-the-world-part-1-1981",
-  "dbid": 10156,
-  "runtime_m": 92
- },
- {
-  "watched": true,
   "title": "Howard The Duck",
   "year": "1986",
   "runtime_hm": "1h50m",
@@ -8991,7 +8649,7 @@
   "runtime_m": 118
  },
  {
-  "watched": false,
+  "watched": true,
   "title": "Where the Buffalo Roam",
   "year": "1980",
   "runtime_hm": "1h30m",
@@ -9020,19 +8678,6 @@
   "id": "little-shop-of-horrors-1986",
   "dbid": 10776,
   "runtime_m": 94
- },
- {
-  "watched": false,
-  "title": "Mary Poppins",
-  "year": "1964",
-  "links": {
-   "trailer": [
-    "https://youtu.be/YfkEQDPlb8g"
-   ]
-  },
-  "id": "mary-poppins-1964",
-  "dbid": 433,
-  "runtime_m": 139
  },
  {
   "watched": true,
@@ -10043,19 +9688,6 @@
   "id": "boiling-point-2021",
   "dbid": 807196,
   "runtime_m": 95
- },
- {
-  "watched": false,
-  "title": "Snatch",
-  "year": "2000",
-  "links": {
-   "trailer": [
-    "https://youtu.be/9Jar2XkBboo"
-   ]
-  },
-  "id": "snatch-2000",
-  "dbid": 107,
-  "runtime_m": 103
  },
  {
   "watched": true,
@@ -12619,7 +12251,11 @@
   "title": "The Outsiders",
   "year": "1983",
   "runtime_hm": "1h31m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/j4pFHmSuHRQ"
+   ]
+  },
   "id": "the-outsiders-1983",
   "dbid": 227,
   "runtime_m": 91
@@ -15451,19 +15087,6 @@
   "runtime_m": 108
  },
  {
-  "watched": false,
-  "title": "The Outsiders",
-  "year": "1983",
-  "links": {
-   "trailer": [
-    "https://youtu.be/j4pFHmSuHRQ"
-   ]
-  },
-  "id": "the-outsiders-1983",
-  "dbid": 227,
-  "runtime_m": 91
- },
- {
   "watched": true,
   "watchdate": "8.06.22",
   "title": "Mystery Men",
@@ -15933,26 +15556,6 @@
   "id": "zulu-1964",
   "dbid": 14433,
   "runtime_m": 138
- },
- {
-  "watched": true,
-  "watchdate": "01.07.23",
-  "title": "Casablanca",
-  "year": "1942",
-  "links": {
-   "trailer": [
-    "https://youtu.be/BkL9l7qovsE"
-   ],
-   "modern": [
-    "https://youtu.be/MF7JH_54d8c"
-   ]
-  },
-  "watchdate_arr": [
-   "20230107"
-  ],
-  "id": "casablanca-1942",
-  "dbid": 289,
-  "runtime_m": 102
  },
  {
   "watched": false,

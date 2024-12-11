@@ -122,7 +122,7 @@ I Bought A Vampire Motorcycle (1990) [1h45m] trailer: https://youtu.be/43rAACwFP
 Idle Hands (1999) [1h32m] trailer: https://youtu.be/vlmCEc8BmEQ
 Infestation (2009) [1h31m] trailer: https://youtu.be/axbACw0jQUw
 Interview with the Vampire (1994) [2h3m] trailer: https://youtu.be/sCmYN6TLd8A
-In the Mouth of Madness (1995) [1h35m] trailer: https://youtu.be/AlugldzO9zY
+-In the Mouth of Madness (1995) [1h35m] trailer: https://youtu.be/AlugldzO9zY
 -10.1.2022.|Invasion of the Body Snatchers (1956) [1h20m] trailer: https://youtu.be/pNJB363yql8
 -10.08.2022.|Invasion of the Body Snatchers (1978) [1h55m] trailer: https://youtu.be/vc_0dlmSq7I
 Body Snatchers (1993) [1h27m] trailer: https://youtu.be/sR8pqAB788U
@@ -196,7 +196,6 @@ The Burning (1981) [1h31m] https://youtu.be/KTvr0SJQ_WM
 The Changeling (1980) [1h47m] https://youtu.be/UwUI7d5TgGA
 The Car (1977) [1h36m] trailer: https://youtu.be/PoAD3kUmN9s
 The Company of Wolves (1984) [1h35m] trailer: https://youtu.be/Wcs-HB1Y1n4
-The Dead Zone (1983) [] trailer: https://youtu.be/qxJp_VQ5VUk
 The Fly (1958) [1h34m] https://youtu.be/Hdv4QA-O1bg
 -10..2021.|The Fly (1986) [1h36m] https://youtu.be/YPhM5T1DViw
 The Fly II (1989) [1h45m] https://youtu.be/4cRmih3xUd0
@@ -236,13 +235,13 @@ Notorious (1946) [2h2m] trailer: https://youtu.be/DTJQfFQ40lI modern: https://yo
 
 #requested horror
 #12
-Aterrados [Terrified] (2017) [1h27m] trailer: https://youtu.be/sJzI6qSmJoQ
-Triangle (2009) [1h39m] trailer: https://youtu.be/9aCdzjCftgs
-Oculus (2013) [1h45m] trailer: https://youtu.be/66RBsIsWJBQ
+#Aterrados [Terrified] (2017) [1h27m] trailer: https://youtu.be/sJzI6qSmJoQ
+#Triangle (2009) [1h39m] trailer: https://youtu.be/9aCdzjCftgs
+#Oculus (2013) [1h45m] trailer: https://youtu.be/66RBsIsWJBQ
 #cellophane
-Shadow of the Vampire (2000) [1h32m] trailer: https://youtu.be/_B15iesNMa8
+#Shadow of the Vampire (2000) [1h32m] trailer: https://youtu.be/_B15iesNMa8
 Thinner (1996) [1h33m] trailer: https://youtu.be/p97ds4ZR7zM
--10.28.23.|Slither (2006) [1h35m] trailer: https://youtu.be/SI0BcgVdSWg
+#-10.28.23.|Slither (2006) [1h35m] trailer: https://youtu.be/SI0BcgVdSWg
 #0xRoM
 Gidget (1959) [1h35m] trailer: https://youtu.be/Y5suc-Yexpw
 Moonwalker (1988) [1h33m] trailer: https://youtu.be/muOfjiMAIKw tvspot: https://youtu.be/zVs8xn1NqJs
@@ -251,29 +250,23 @@ Shadow Hours (2000) [1h35m] trailer: https://youtu.be/2X7nrfRaOlY
 Kung Fury (2015) [31m] trailer: https://youtu.be/nO_DIwuGBnA movie: https://youtu.be/bS5P_LAqiVg
 #WillFM
 See no Evil Hear no Evil (1989) [1h43m] trailer: https://youtu.be/KzzvoOfXG9E
-One Cut of the Dead (2017) [1h36m] trailer: https://youtu.be/4wBImbHqhFk
+#One Cut of the Dead (2017) [1h36m] trailer: https://youtu.be/4wBImbHqhFk
 #raticide
-I Bought A Vampire Motorcycle (1990) [1h45m] trailer: https://youtu.be/43rAACwFPRk
+#I Bought A Vampire Motorcycle (1990) [1h45m] trailer: https://youtu.be/43rAACwFPRk
 
--10.28.23.|Bride of Re-Animator (1990) [1h36m] trailer: https://youtu.be/E6wlp5-M0_E
-Beyond Re-Animator (2003) [1h36m] trailer: https://youtu.be/An1lkL3OraY
+#-10.28.23.|Bride of Re-Animator (1990) [1h36m] trailer: https://youtu.be/E6wlp5-M0_E
+#Beyond Re-Animator (2003) [1h36m] trailer: https://youtu.be/An1lkL3OraY
 #eksha
-Vampire's Kiss (1988) [1h43m] trailer: https://youtu.be/PnoSxO_2ghQ
-Ringu (1998) [1h36m] trailer: https://youtu.be/AJ2jLZq25J4
+#Vampire's Kiss (1988) [1h43m] trailer: https://youtu.be/PnoSxO_2ghQ
+#Ringu (1998) [1h36m] trailer: https://youtu.be/AJ2jLZq25J4
 #meleneth
 Naked Lunch (1991) [1h55m] trailer: https://youtu.be/uq9aHvSjgpk bluray: https://youtu.be/_bgrNm7rdeo
 #5thFunction
 Transcendence (2014) [1h59m] trailer: https://youtu.be/VCTen3-B8GU
 
 #new Stuff
--10.19.2024.|Frankenstein (1931) [1h11m] trailer: https://youtu.be/BN8K-4osNb0 trailer: https://youtu.be/XD7Gn9grers
--10.19.2024.|Bride of Frankenstein (1935) [1h15m] trailer: https://youtu.be/mPT2R1g5MGY trailer: https://youtu.be/rYD3-pIF9jQ
-Son of Frankenstein (1939) [1h39m] trailer: https://youtu.be/v6B7zDZe9gw trailer: https://youtu.be/0WEU89n1NAI
-Frankenstein Meets the Wolf Man (1943) [1h13m] movie: https://youtu.be/LhArTFocIb0
-Young Frankenstein (1974) [1h46m] trailer: https://youtu.be/sO8g8VmFf0M
-Mary Shelley's Frankenstein (1994) [2h3m] trailer: https://youtu.be/zqolmvqTY9k https://youtu.be/hnxFuPw0JIE
 #adamfh
-Hillbillys in a Haunted House (1967) [1h28m] trailer: https://youtu.be/7kNPhC-tDnA
+#Hillbillys in a Haunted House (1967) [1h28m] trailer: https://youtu.be/7kNPhC-tDnA
 The Lost Skeleton of Cadavra (2001) [1h30m] trailer: https://youtu.be/zf84oJhmnOc
 
 #ghmiranda
@@ -284,7 +277,7 @@ Evolution (2001) [1h41m] trailer: https://youtu.be/-bDStxV8Tkc
 Eight Legged Freaks (2002) [1h39m] trailer: https://youtu.be/RvEZ32oFtTw
 
 #godzilla
-Frankenstein Conquers the World (1965) [1h34m] trailer: https://youtu.be/yKxQHhki_k8 japanese: https://youtu.be/Q3cej8jiLk8
+#Frankenstein Conquers the World (1965) [1h34m] trailer: https://youtu.be/yKxQHhki_k8 japanese: https://youtu.be/Q3cej8jiLk8
 #-------------------------------------------------------------------------------------------
 #FrankL81
 Hagen - Im Tal der Nibelungen (2024) [2h15m] trailer: https://youtu.be/mRAbhPnSBiM
@@ -310,7 +303,7 @@ Replicas (2019) [1h47m] trailer: https://youtu.be/bKdpGHazAqs
 #gbowne
 Johnny Dangerously (1984) [1h30m] trailer: https://youtu.be/_WEPlSPwWu8
 Goin South (1978) [1h48m] trailer: https://youtu.be/18SiyNf8gt8 trailer: https://youtu.be/pmlR6Bl3uPM
-Uptown Saturday Night () [] trailer: 
+Uptown Saturday Night (1974) [1h44m] trailer: 
 Chef (2014) [] trailer: https://youtu.be/FF_rYNupPwg
 Special Bulletin (1983) movie: https://youtu.be/4i1d1dAcyLo
 -12.02.23.|Blue Sky (1994) [1h41m] trailer: https://youtu.be/DEumw-eXW7w movie: https://youtu.be/KCR6_9dtIRs 
@@ -422,7 +415,7 @@ A Bridge Too Far (1977) [2h55m] trailer: https://youtu.be/AWL184ZcSxA
 -08.12.23.|A.I. Artificial Intelligence (2001) [2h26m] movie: https://youtu.be/4VfxU0bOx-I
 Air Force One (1997) [2h4m] trailer: https://youtu.be/cUclxtJDxh4
 Annihilation (2018) [1h55m] trailer: https://youtu.be/89OP78l9oF0
-Batteries Not Included [1h46m] (1987) https://youtu.be/rJmvsb13dA8
+*Batteries Not Included [1h46m] (1987) https://youtu.be/rJmvsb13dA8
 -Battle Royale (2000) [1h53m] trailer: 
 -Battle Beyond the Stars (1980) [1h44m] movie: https://youtu.be/igPrv6LTjKA
 -5.07.2022.|Beverly Hills Ninja (1997) [1h28m] https://youtu.be/PzQ_nhVamu0
@@ -520,7 +513,7 @@ Citizen Kane (1941) [1h59m] trailer: https://youtu.be/8dxh3lwdOFw modern: https:
 
 #1950s
 The Enemy Below (1957) [1h38m] trailer: https://youtu.be/oRXXjWZoVK0 movie: https://youtu.be/ny6oZED1Hm8
-The Blob (1958) trailer: https://youtu.be/TdUsyXQ8Wrs
+#The Blob (1958) trailer: https://youtu.be/TdUsyXQ8Wrs
 When Worlds Collide (1951) trailer: 
 Them (1954) trailer:
 The Thing (1951) trailer: 
@@ -599,7 +592,7 @@ Condorman (1981) [1h30m] modern: https://youtu.be/lo5LZmx9Vrg
 -04.27.24.|True Lies (1994) [2h21m] trailer: https://youtu.be/Qw4hz62r-Kk
 -05.11.24.|Junior (1994) [1h49m] trailer: https://youtu.be/qDxdu_qXPOs
 -05.18.24.|Eraser (1996) [1h55m] trailer: https://youtu.be/SQLV0Zw26cA https://youtu.be/P3nrgwO3R-w
-Jingle All The Way (1996) [1h29m] trailer: https://youtu.be/jhJYMEzQA-Q
+#Jingle All The Way (1996) [1h29m] trailer: https://youtu.be/jhJYMEzQA-Q
 -06.08.24.|Batman and Robin (1997) [1h53m] trailer: https://youtu.be/4RBXypX4qWI
 -06.15.24.|End of Days (1999) [2h2m] trailer: https://youtu.be/1PxCzgsQ7Oc
 -06.22.24.|The 6th Day (2000) [2h3m] trailer: https://youtu.be/0VP44dGIi9c
@@ -700,7 +693,6 @@ Heathers (1989) [1h43m] trailer: https://youtu.be/7EsMeYlzwCU
 -Highlander (1986) [1h56m] trailer: https://youtu.be/vT13a8KzBRM
 -Highlander II: The Quickening (1991) [1h30m] trailer: https://youtu.be/pRgJVvoihCQ movie: https://youtu.be/hrrkusHZGkU
 Highlander III: The Final Dimension (2003) [1h39m] trailer: https://youtu.be/C-nCNKutCno
--History of the World, Part 1 (1981) [1h32m] trailer: https://youtu.be/1TASJymwQeo
 -Howard The Duck (1986) [1h50m] trailer: https://youtu.be/S35-SzcsSbI
 -9.03.2022.|The Hunt for Red October (1990) [2h15m] trailer: https://youtu.be/NSiAsQMBSRA movie: https://youtu.be/f1ahG3ySyV8
 -Idiocracy (2006) [1h24m] trailer: https://youtu.be/clYwX8Z43zg movie: https://youtu.be/uAiyO8oEG4E
@@ -738,13 +730,13 @@ Fail Safe (1964) [1h52m] trailer: https://youtu.be/owqrRoZMcjs
 City of Lost Children (1995) [1h53m] trailer: https://youtu.be/Pa7oVPru4J8
 The Big Lebowski (1998) [1h57m] trailer: https://youtu.be/cd-go0oBF4Y
 Fear and Loathing in Las Vegas (1998) [1h58m] trailer: https://youtu.be/4iOslycQDwQ trailer: https://youtu.be/CiTllYeJc48
-Where the Buffalo Roam (1980) [1h30m] trailer: https://youtu.be/KVcgcTCg3Dg
+-Where the Buffalo Roam (1980) [1h30m] trailer: https://youtu.be/KVcgcTCg3Dg
 
 
 
 #Musicals
 -11.12.22.|Little Shop of Horrors (1986) trailer: https://youtu.be/QqFZuR6UzjA
-Mary Poppins (1964) trailer: https://youtu.be/YfkEQDPlb8g
+#Mary Poppins (1964) trailer: https://youtu.be/YfkEQDPlb8g
 -11.26.22.|Wizard of Oz (1939) trailer: https://youtu.be/FfpF8UUVTeM
 The Wiz (1978) trailer: https://youtu.be/CGtnHaEK66s
 -11.05.2022.|Singin' in the Rain (1952) trailer: https://youtu.be/5_EVHeNEIJY
@@ -836,7 +828,7 @@ The Black Lightning (2009) trailer: https://youtu.be/V9kYdfSroTs
 #Bakerstaunch
 Parasite (2019) trailer: https://youtu.be/5xH0HfJHsaY
 Boiling Point (2021) trailer: https://youtu.be/UBUfCL_tvro
-Snatch (2000) trailer: https://youtu.be/9Jar2XkBboo
+#Snatch (2000) trailer: https://youtu.be/9Jar2XkBboo
 -06.24.23.|Conspiracy Theory (1997) trailer: https://youtu.be/adYGUai7PNc
 -07.08.23.|12 Monkeys (1995) trailer: https://youtu.be/15s4Y9ffW_o
 -07.21.24.|Dodgeball (2004) [1h32m] trailer: https://youtu.be/rZfmbdpVLAA trailer: https://youtu.be/eDqXTWu5rew
@@ -1081,7 +1073,7 @@ Stand By Me (1986) [1h29m] trailer:
 Mission: Impossible 7: Dead Reckoning (2023) trailer: https://youtu.be/avz06PDqDbM
 -09.09.23.|Top Gun (1986) trailer: https://youtu.be/xa_z57UatDY
 Top Gun: Maverick (2022) [2h10m] trailer: 
-The Outsiders (1983) [1h31m] trailer: 
+The Outsiders (1983) [1h31m] trailer: https://youtu.be/j4pFHmSuHRQ
 Risky Business (1983) trailer: https://youtu.be/3JXcqzJjHf0
 The Color of Money (1986) trailer: https://youtu.be/SEC1sQlVlQQ
 Cocktail (1988) trailer: https://youtu.be/XIs0WjaDBRY
@@ -1311,7 +1303,6 @@ Once Upon a Time in America (1984) [3h49m] trailer: https://youtu.be/LcpCRyNo8T8
 
 Mom and Dad Save the World (1992) trailer: https://youtu.be/stZpmjnB3ro movie: https://youtu.be/3MCC8eqQ1Vk
 Necessary Roughness (1991) [1h48m] trailer: https://youtu.be/tme9N5YBC2w
-The Outsiders (1983) trailer: https://youtu.be/j4pFHmSuHRQ
 
 
 
@@ -1358,7 +1349,7 @@ The Sting (1973) trailer: https://youtu.be/yCsFsUXFrUo modern: https://youtu.be/
 Zulu (1964) trailer: https://youtu.be/JNV2M-WOgMM
 
 #NOIR
--01.07.23.|Casablanca (1942) trailer: https://youtu.be/BkL9l7qovsE modern: https://youtu.be/MF7JH_54d8c
+#-01.07.23.|Casablanca (1942) trailer: https://youtu.be/BkL9l7qovsE modern: https://youtu.be/MF7JH_54d8c
 Chinatown (1974) [2h11m] trailer: https://youtu.be/T37QkBc4IGY modern: https://youtu.be/Z70axRwP74Q
 
 To Be or Not to Be (1983) trailer: https://youtu.be/YgNW4Pl4L2g
