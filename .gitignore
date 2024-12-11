@@ -22,7 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-/public/bg/
+# /public/bg/
 # /public/pstr/
 /public/pstr_large/
 /public/strip=50/

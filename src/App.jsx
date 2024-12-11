@@ -370,7 +370,7 @@ export function DisplayList({movieList, setMovieList})
   return (
     <>
       <Dummy img={"http://localhost:5173/Movie-Tracker/pstr/the-mummys-hand-1940.jpg"} 
-            inView={inView}  
+            inView={inView}
             observer={observer} />
       <Dummy img={"http://localhost:5173/Movie-Tracker/pstr/the-invisible-woman-1940.jpg"} 
             inView={inView} 
@@ -720,6 +720,8 @@ export function DisplayMovie({movie, idx, tmdb})
   let [err, setErr] = useState(failedImages.has(tmdb.bg));
   let src = err ? `https://image.tmdb.org/t/p/w1280/${tmdb?.backdrop_path}`
                 : `/Movie-Tracker/bg/${tmdb.bg}`;
+
+                console.log("src: ", src);
 
   if (idx-1 < 0) {
     idx = movieJson.length;
