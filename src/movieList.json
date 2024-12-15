@@ -4315,7 +4315,7 @@
   },
   "id": "a-better-tomorrow-2-1987",
   "dbid": 18305,
-  "runtime_m": 105
+  "runtime_m": 103
  },
  {
   "watched": false,
@@ -5623,10 +5623,42 @@
  },
  {
   "watched": false,
+  "title": "Just One of The Guys",
+  "year": "1985",
+  "runtime_hm": "1h40m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/eZv_0oXHfGs"
+   ]
+  },
+  "id": "just-one-of-the-guys-1985",
+  "dbid": 24548,
+  "runtime_m": 100
+ },
+ {
+  "watched": false,
+  "title": "Equilibrium",
+  "year": "2002",
+  "runtime_hm": "1h47m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/raleKODYeg0"
+   ]
+  },
+  "id": "equilibrium-2002",
+  "dbid": 7299,
+  "runtime_m": 107
+ },
+ {
+  "watched": false,
   "title": "Dark City",
   "year": "1998",
   "runtime_hm": "1h40m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/gt9HkO-cGGo"
+   ]
+  },
   "id": "dark-city-1998",
   "dbid": 2666,
   "runtime_m": 100
@@ -6563,19 +6595,6 @@
  },
  {
   "watched": false,
-  "title": "Three Days of the Condor",
-  "year": "1975",
-  "links": {
-   "trailer": [
-    "https://youtu.be/BCZ-HwaWK3o"
-   ]
-  },
-  "id": "three-days-of-the-condor-1975",
-  "dbid": 11963,
-  "runtime_m": 117
- },
- {
-  "watched": false,
   "title": "Futureworld",
   "year": "1976",
   "runtime_hm": "1h48m",
@@ -6587,6 +6606,19 @@
   "id": "futureworld-1976",
   "dbid": 10640,
   "runtime_m": 108
+ },
+ {
+  "watched": false,
+  "title": "Three Days of the Condor",
+  "year": "1975",
+  "links": {
+   "trailer": [
+    "https://youtu.be/BCZ-HwaWK3o"
+   ]
+  },
+  "id": "three-days-of-the-condor-1975",
+  "dbid": 11963,
+  "runtime_m": 117
  },
  {
   "watched": false,
@@ -14155,6 +14187,7 @@
  },
  {
   "watched": true,
+  "watchdate": "12.14.24",
   "title": "Trading Places",
   "year": "1983",
   "runtime_hm": "1h58m",
@@ -14169,6 +14202,9 @@
     "https://youtu.be/Fupg2r1EJ9w"
    ]
   },
+  "watchdate_arr": [
+   "20241214"
+  ],
   "id": "trading-places-1983",
   "dbid": 1621,
   "runtime_m": 116
@@ -16063,6 +16099,7 @@
  },
  {
   "watched": true,
+  "watchdate": "12.14.24",
   "title": "Planes, Trains, and Automobiles",
   "year": "1987",
   "runtime_hm": "1h33m",
@@ -16074,6 +16111,9 @@
     "https://youtu.be/AMBxWijjMbQ"
    ]
   },
+  "watchdate_arr": [
+   "20241214"
+  ],
   "id": "planes-trains-and-automobiles-1987",
   "dbid": 2609,
   "runtime_m": 93
@@ -16082,6 +16122,7 @@
   "watched": true,
   "title": "Jingle All the Way",
   "year": "1996",
+  "runtime_hm": "1h29m",
   "links": {
    "trailer": [
     "https://youtu.be/jhJYMEzQA-Q"
@@ -16148,6 +16189,7 @@
   "watched": true,
   "title": "Santa Claus: The Movie",
   "year": "1985",
+  "runtime_hm": "1h48m",
   "links": {
    "trailer": [
     "https://youtu.be/7LKHIzWQfMI"
@@ -16199,6 +16241,7 @@
   "watched": true,
   "title": "Die Hard 3: With a Vengeance",
   "year": "1995",
+  "runtime_hm": "2h8m",
   "links": {
    "trailer": [
     "https://youtu.be/gcsk7C7FfQM"
@@ -16212,6 +16255,7 @@
   "watched": true,
   "title": "Die Hard 4: Live Free or Die Hard",
   "year": "2007",
+  "runtime_hm": "2h8m",
   "links": {
    "trailer": [
     "https://youtu.be/xqjICXgcsZM"
@@ -16225,6 +16269,7 @@
   "watched": true,
   "title": "Die Hard 5: A Good Day to Die Hard",
   "year": "2013",
+  "runtime_hm": "1h38m",
   "links": {
    "trailer": [
     "https://youtu.be/FRLwoMXaZHQ",
@@ -16239,6 +16284,7 @@
   "watched": true,
   "title": "A Christmas Story",
   "year": "1983",
+  "runtime_hm": "1h33m",
   "links": {
    "trailer": [
     "https://youtu.be/cfjEZ88NHBw"
@@ -16270,6 +16316,7 @@
   "watchdate": "12.31.22",
   "title": "A Christmas Carol",
   "year": "1984",
+  "runtime_hm": "1h41m",
   "links": {
    "trailer": [
     "https://youtu.be/sVObHkzoFPg"
@@ -16317,6 +16364,7 @@
   "watched": false,
   "title": "A Christmas Tale",
   "year": "2008",
+  "runtime_hm": "2h32m",
   "links": {
    "trailer": [
     "https://youtu.be/hukr1SFe4-c"
@@ -16330,7 +16378,7 @@
   "watched": false,
   "title": "The Hogfather",
   "year": "2006",
-  "runtime_hm": "3h9m",
+  "runtime_hm": "1h35m",
   "links": {
    "trailer": [
     "https://youtu.be/cKoJEUodfgA"
@@ -16344,6 +16392,7 @@
   "watched": true,
   "title": "The Muppet Christmas Carol",
   "year": "1992",
+  "runtime_hm": "1h26m",
   "links": {
    "trailer": [
     "https://youtu.be/pNo-Q0IDJi0"
@@ -16357,6 +16406,7 @@
   "watched": false,
   "title": "Dr. Seuss' How the Grinch Stole Christmas",
   "year": "2000",
+  "runtime_hm": "1h44m",
   "links": {
    "trailer": [
     "https://youtu.be/YQV5Pr7pWtM"
@@ -16370,6 +16420,7 @@
   "watched": true,
   "title": "The Santa Clause",
   "year": "1994",
+  "runtime_hm": "1h37m",
   "links": {
    "trailer": [
     "https://youtu.be/Bx8FX7etF_8"
@@ -16383,6 +16434,7 @@
   "watched": false,
   "title": "The Santa Clause 2",
   "year": "2002",
+  "runtime_hm": "1h44m",
   "links": {
    "trailer": [
     "https://youtu.be/MKyq7YON6BQ"
@@ -16396,6 +16448,7 @@
   "watched": false,
   "title": "The Santa Clause 3: The Escape Clause",
   "year": "2006",
+  "runtime_hm": "1h37m",
   "links": {
    "trailer": [
     "https://youtu.be/jpyBrTSUO5k"
@@ -16409,13 +16462,9 @@
   "watched": false,
   "title": "Rudolph the Red-Nosed Reindeer",
   "year": "1964",
-  "runtime_hm": "1h31m",
   "links": {
    "trailer": [
     "https://youtu.be/lZfM8-w2p3w"
-   ],
-   "movie": [
-    "https://youtu.be/h_x59kNp598"
    ]
   },
   "id": "rudolph-the-red-nosed-reindeer-1964",
@@ -16426,6 +16475,7 @@
   "watched": true,
   "title": "Home Alone",
   "year": "1990",
+  "runtime_hm": "1h43m",
   "links": {
    "trailer": [
     "https://youtu.be/8U-eaki5g8E"
@@ -16469,6 +16519,7 @@
   "watched": false,
   "title": "Nutcracker: The Motion Picture",
   "year": "1986",
+  "runtime_hm": "1h25m",
   "links": {
    "movie": [
     "https://youtu.be/sdFD96RoVYk"
@@ -16482,6 +16533,7 @@
   "watched": false,
   "title": "Jack Frost",
   "year": "1997",
+  "runtime_hm": "1h29m",
   "links": {
    "trailer": [
     "https://youtu.be/ev0NkYfkgYE"
@@ -16495,6 +16547,7 @@
   "watched": false,
   "title": "Jack Frost",
   "year": "1998",
+  "runtime_hm": "1h41m",
   "links": {
    "trailer": [
     "https://youtu.be/ZFoWiUqrhoE"
@@ -16508,6 +16561,7 @@
   "watched": false,
   "title": "Ernest Saves Christmas",
   "year": "1988",
+  "runtime_hm": "1h35m",
   "links": {},
   "id": "ernest-saves-christmas-1988",
   "dbid": 26386,
@@ -16517,6 +16571,7 @@
   "watched": false,
   "title": "Four Christmases",
   "year": "2008",
+  "runtime_hm": "1h28m",
   "links": {},
   "id": "four-christmases-2008",
   "dbid": 12193,
@@ -16526,6 +16581,7 @@
   "watched": false,
   "title": "Reindeer Games",
   "year": "2000",
+  "runtime_hm": "2h4m",
   "links": {},
   "id": "reindeer-games-2000",
   "dbid": 2155,
@@ -16535,6 +16591,7 @@
   "watched": false,
   "title": "Friday After Next",
   "year": "2002",
+  "runtime_hm": "1h25m",
   "links": {},
   "id": "friday-after-next-2002",
   "dbid": 10426,
@@ -16544,6 +16601,7 @@
   "watched": false,
   "title": "Mixed Nuts",
   "year": "1994",
+  "runtime_hm": "1h37m",
   "links": {},
   "id": "mixed-nuts-1994",
   "dbid": 24070,
@@ -16553,6 +16611,7 @@
   "watched": false,
   "title": "Trapped in Paradise",
   "year": "1994",
+  "runtime_hm": "1h51m",
   "links": {
    "trailer": [
     "https://youtu.be/PGHRkervPL4",
@@ -16567,6 +16626,7 @@
   "watched": false,
   "title": "One Magic Christmas",
   "year": "1985",
+  "runtime_hm": "1h29m",
   "links": {},
   "id": "one-magic-christmas-1985",
   "dbid": 13380,
@@ -16576,6 +16636,7 @@
   "watched": false,
   "title": "Christmas With the Kranks",
   "year": "2004",
+  "runtime_hm": "1h39m",
   "links": {},
   "id": "christmas-with-the-kranks-2004",
   "dbid": 13673,
@@ -16585,6 +16646,7 @@
   "watched": false,
   "title": "Santa Claus vs The Devil",
   "year": "1959",
+  "runtime_hm": "1h34m",
   "links": {
    "trailer": [
     "https://youtu.be/8F7lwGnpPsM"
@@ -16614,6 +16676,7 @@
   "watched": false,
   "title": "Surviving Christmas",
   "year": "2004",
+  "runtime_hm": "1h31m",
   "links": {
    "trailer": [
     "https://youtu.be/NMlNReRoriY"
@@ -16649,6 +16712,7 @@
   "watched": false,
   "title": "Christmas in Connecticut",
   "year": "1945",
+  "runtime_hm": "1h41m",
   "links": {
    "tvspot": [
     "https://youtu.be/F5fILZZlCLg"
@@ -16681,6 +16745,7 @@
   "watched": false,
   "title": "Bad Santa",
   "year": "2003",
+  "runtime_hm": "1h32m",
   "links": {
    "trailer": [
     "https://youtu.be/cvXyEiIoH2c"
@@ -16694,6 +16759,7 @@
   "watched": false,
   "title": "The Holiday",
   "year": "2006",
+  "runtime_hm": "2h16m",
   "links": {
    "trailer": [
     "https://youtu.be/j3tlQzBEoXo"
@@ -16702,6 +16768,34 @@
   "id": "the-holiday-2006",
   "dbid": 1581,
   "runtime_m": 136
+ },
+ {
+  "watched": false,
+  "title": "Dutch",
+  "year": "1991",
+  "runtime_hm": "1h47m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/aUFzngANOUQ"
+   ]
+  },
+  "id": "dutch-1991",
+  "dbid": 25330,
+  "runtime_m": 107
+ },
+ {
+  "watched": false,
+  "title": "The Nightmare Before Christmas",
+  "year": "1993",
+  "runtime_hm": "1h16m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/wr6N_hZyBCk"
+   ]
+  },
+  "id": "the-nightmare-before-christmas-1993",
+  "dbid": 9479,
+  "runtime_m": 76
  },
  {
   "watched": true,

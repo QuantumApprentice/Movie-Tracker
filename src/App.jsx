@@ -721,8 +721,6 @@ export function DisplayMovie({movie, idx, tmdb})
   let src = err ? `https://image.tmdb.org/t/p/w1280/${tmdb?.backdrop_path}`
                 : `/Movie-Tracker/bg/${tmdb.bg}`;
 
-                console.log("src: ", src);
-
   if (idx-1 < 0) {
     idx = movieJson.length;
   }
