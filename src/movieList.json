@@ -2377,6 +2377,26 @@
   "runtime_m": 102
  },
  {
+  "watched": false,
+  "title": "Piranha",
+  "year": "1978",
+  "runtime_hm": "1h34m",
+  "links": {},
+  "id": "piranha-1978",
+  "dbid": 24831,
+  "runtime_m": 94
+ },
+ {
+  "watched": false,
+  "title": "Piranha II: The Spawning",
+  "year": "1982",
+  "runtime_hm": "1h34m",
+  "links": {},
+  "id": "piranha-ii-the-spawning-1982",
+  "dbid": 31646,
+  "runtime_m": 84
+ },
+ {
   "watched": true,
   "watchdate": "10..2021",
   "title": "Poltergeist",
@@ -6098,6 +6118,24 @@
   "id": "yor-hunter-from-the-future-1983",
   "dbid": 38219,
   "runtime_m": 98
+ },
+ {
+  "watched": true,
+  "title": "The Last Starfighter",
+  "year": "1984",
+  "runtime_hm": "1h40m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/4Q-Qs3loKoc",
+    "https://youtu.be/ZujpF9VRMbg"
+   ],
+   "modern": [
+    "https://youtu.be/4R2UFlSc4mI"
+   ]
+  },
+  "id": "the-last-starfighter-1984",
+  "dbid": 11884,
+  "runtime_m": 101
  },
  {
   "watched": true,
@@ -10591,17 +10629,17 @@
  },
  {
   "watched": false,
-  "title": "Red Line",
-  "year": "2011",
+  "title": "Redline",
+  "year": "2010",
   "runtime_hm": "1h42m",
   "links": {
    "trailer": [
     "https://youtu.be/2t26m_Q6ENo"
    ]
   },
-  "id": "red-line-2011",
-  "dbid": 8741,
-  "runtime_m": 171
+  "id": "redline-2010",
+  "dbid": 16392,
+  "runtime_m": 95
  },
  {
   "watched": true,
@@ -13633,7 +13671,7 @@
   ],
   "id": "rush-hour-1998",
   "dbid": 2109,
-  "runtime_m": 98
+  "runtime_m": 97
  },
  {
   "watched": true,
@@ -15064,6 +15102,7 @@
   "watched": false,
   "title": "Once Upon a Time in the West",
   "year": "1968",
+  "runtime_hm": "2h46m",
   "links": {},
   "id": "once-upon-a-time-in-the-west-1968",
   "dbid": 335,
@@ -15073,6 +15112,7 @@
   "watched": false,
   "title": "Duck, You Sucker! (A Fistful of Dynamite) (Once Upon a Time in the Revolution)",
   "year": "1971",
+  "runtime_hm": "2h18m",
   "links": {},
   "id": "duck-you-sucker-a-fistful-of-dynamite-once-upon-a-time-in-the-revolution-1971",
   "dbid": 336,

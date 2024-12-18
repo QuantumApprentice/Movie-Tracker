@@ -226,7 +226,7 @@ function ListMovies({movie, idx})
     let options = {
       root: null,
       rootMargin: "0px",
-      threshold: .1,
+      threshold: 1.0,
     }
     let observer = new IntersectionObserver(([e], o)=>{
       if (e.isIntersecting) {
