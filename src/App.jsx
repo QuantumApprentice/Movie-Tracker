@@ -226,7 +226,7 @@ function ListMovies({movie, idx})
     let options = {
       root: null,
       rootMargin: "0px",
-      threshold: 1.0,
+      threshold: 0,
     }
     let observer = new IntersectionObserver(([e], o)=>{
       if (e.isIntersecting) {
@@ -354,27 +354,29 @@ function Dummy({imgUrl, observer, inView})
 export function DisplayList({movieList, setMovieList})
 {
   // createObserver(imgRef.current);
+  // console.time("memo");
   let movieList_map = useMemo(
     ()=>movieList.map((movie, idx)=>{
       return (
         <ListMovies movie={movie} idx={idx} key={movie.id} />
       )}), [movieList]
   );
+  // console.timeEnd("memo");
 
   useEffect(()=>{
     // movie_listing_hover_effect(setBuffer);
   }, []);
 
-  const {inView, observer} = dostuff();
+  // const {inView, observer} = dostuff();
 
   return (
     <>
-      <Dummy img={"http://localhost:5173/Movie-Tracker/pstr/the-mummys-hand-1940.jpg"} 
+      {/* <Dummy img={"http://localhost:5173/Movie-Tracker/pstr/the-mummys-hand-1940.jpg"} 
             inView={inView}
             observer={observer} />
       <Dummy img={"http://localhost:5173/Movie-Tracker/pstr/the-invisible-woman-1940.jpg"} 
             inView={inView} 
-            observer={observer}/>
+            observer={observer}/> */}
       <div className='poster-array'>
         {/* {buffer ? <tr><td colSpan={4}>&nbsp;</td></tr> : null} */}
         {movieList_map}

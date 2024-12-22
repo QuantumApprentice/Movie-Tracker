@@ -10622,6 +10622,7 @@
   "watched": false,
   "title": "Fantastic Planet",
   "year": "1973",
+  "runtime_hm": "1h12m",
   "links": {},
   "id": "fantastic-planet-1973",
   "dbid": 16306,
@@ -10645,6 +10646,7 @@
   "watched": true,
   "title": "Akira",
   "year": "1988",
+  "runtime_hm": "2h4m",
   "links": {
    "trailer": [
     "https://youtu.be/nA8KmHC2Z-g",
@@ -10661,6 +10663,7 @@
   "watchdate": "04.01.23",
   "title": "Heavy Metal",
   "year": "1981",
+  "runtime_hm": "1h30m",
   "links": {
    "trailer": [
     "https://youtu.be/rKHYv2r4m6k"
@@ -10692,6 +10695,7 @@
   "watchdate": "04.15.23",
   "title": "Who Framed Roger Rabbit",
   "year": "1988",
+  "runtime_hm": "1h44m",
   "links": {
    "trailer": [
     "https://youtu.be/gpDaNqSXxp0"
@@ -10757,6 +10761,7 @@
   "watchdate": "04.08.23",
   "title": "American Pop",
   "year": "1981",
+  "runtime_hm": "1h36m",
   "links": {
    "trailer": [
     "https://youtu.be/VBwz9Pijr1E"
@@ -10802,6 +10807,7 @@
   "watchdate": "04.15.23",
   "title": "Rock & Rule",
   "year": "1983",
+  "runtime_hm": "1h17m",
   "links": {
    "trailer": [
     "https://youtu.be/3kPP45npLaQ"
@@ -10909,6 +10915,7 @@
   "watched": true,
   "title": "Transformers The Movie",
   "year": "1986",
+  "runtime_hm": "1h24m",
   "links": {
    "trailer": [
     "https://youtu.be/_25RK5GbJIc"
@@ -10926,6 +10933,7 @@
   "watchdate": "04.16.23",
   "title": "Nausicaa of the Valley of the Wind",
   "year": "1984",
+  "runtime_hm": "1h57m",
   "links": {
    "trailer": [
     "https://youtu.be/6zhLBe319KE"
@@ -11061,6 +11069,7 @@
   "watchdate": "6.11.2022",
   "title": "Men At Work",
   "year": "1990",
+  "runtime_hm": "1h38m",
   "links": {
    "trailer": [
     "https://youtu.be/ByUyXPA8SOA"
@@ -11094,6 +11103,7 @@
   "watched": false,
   "title": "Metalstorm: The Destruction of Jared-Syn",
   "year": "1983",
+  "runtime_hm": "1h24m",
   "links": {
    "trailer": [
     "https://youtu.be/K05ZQ5u0uiE"
@@ -11107,6 +11117,7 @@
   "watched": true,
   "title": "Monty Python and the Holy Grail",
   "year": "1975",
+  "runtime_hm": "1h31m",
   "links": {
    "trailer": [
     "https://youtu.be/urRkGvhXc8w",
@@ -11122,6 +11133,7 @@
   "watchdate": "09.09.23",
   "title": "Moontrap",
   "year": "1989",
+  "runtime_hm": "1h32m",
   "links": {
    "trailer": [
     "https://youtu.be/270j3YK2YMU",
@@ -11139,6 +11151,7 @@
   "watched": true,
   "title": "Millennium",
   "year": "1989",
+  "runtime_hm": "1h45m",
   "links": {},
   "id": "millennium-1989",
   "dbid": 4296,
@@ -11148,6 +11161,7 @@
   "watched": true,
   "title": "My Science Project",
   "year": "1985",
+  "runtime_hm": "1h31m",
   "links": {},
   "id": "my-science-project-1985",
   "dbid": 18252,
@@ -11157,6 +11171,7 @@
   "watched": true,
   "title": "My Stepmother is an Alien",
   "year": "1988",
+  "runtime_hm": "1h48m",
   "links": {},
   "id": "my-stepmother-is-an-alien-1988",
   "dbid": 12120,
@@ -11982,7 +11997,7 @@
   },
   "id": "police-story-5-new-police-story-2004",
   "dbid": 11636,
-  "runtime_m": 123
+  "runtime_m": 122
  },
  {
   "watched": true,
@@ -16209,7 +16224,7 @@
  },
  {
   "watched": true,
-  "watchdate": "12.24.22",
+  "watchdate": "12.24.22./12.21.24",
   "title": "It's a Wonderful Life",
   "year": "1946",
   "runtime_hm": "2h10m",
@@ -16219,6 +16234,7 @@
    ]
   },
   "watchdate_arr": [
+   "20241221",
    "20221224"
   ],
   "id": "its-a-wonderful-life-1946",
@@ -16241,7 +16257,7 @@
  },
  {
   "watched": true,
-  "watchdate": "12.10.21./12.17.22",
+  "watchdate": "12.10.21./12.17.22./12.21.24",
   "title": "Die Hard",
   "year": "1988",
   "runtime_hm": "2h12m",
@@ -16251,6 +16267,7 @@
    ]
   },
   "watchdate_arr": [
+   "20241221",
    "20221217",
    "20211210"
   ],
@@ -16602,7 +16619,14 @@
   "title": "Ernest Saves Christmas",
   "year": "1988",
   "runtime_hm": "1h35m",
-  "links": {},
+  "links": {
+   "teaser": [
+    "https://youtu.be/tWo2PkYGBMI"
+   ],
+   "trailer": [
+    "https://youtu.be/vFZeIJgoLDU"
+   ]
+  },
   "id": "ernest-saves-christmas-1988",
   "dbid": 26386,
   "runtime_m": 95
@@ -16612,7 +16636,11 @@
   "title": "Four Christmases",
   "year": "2008",
   "runtime_hm": "1h28m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/6veo6Js7HUE"
+   ]
+  },
   "id": "four-christmases-2008",
   "dbid": 12193,
   "runtime_m": 88
@@ -16622,17 +16650,26 @@
   "title": "Reindeer Games",
   "year": "2000",
   "runtime_hm": "2h4m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/0856Uv4QmtI"
+   ]
+  },
   "id": "reindeer-games-2000",
   "dbid": 2155,
-  "runtime_m": 124
+  "runtime_m": 104
  },
  {
   "watched": false,
   "title": "Friday After Next",
   "year": "2002",
   "runtime_hm": "1h25m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/H3g5QQynaJk",
+    "https://youtu.be/MveF6S5b2qY"
+   ]
+  },
   "id": "friday-after-next-2002",
   "dbid": 10426,
   "runtime_m": 85

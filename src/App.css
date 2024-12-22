@@ -168,7 +168,7 @@ then in the CSS something like
   display: flex;
   flex-flow: row wrap;
   min-width: 930px;
-  justify-content: space-between;
+  justify-content: space-evenly;
   gap: 10px;
 }
 
