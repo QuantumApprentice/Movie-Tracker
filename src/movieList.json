@@ -2024,6 +2024,21 @@
   "runtime_m": 84
  },
  {
+  "watched": false,
+  "title": "Love at First Bite",
+  "year": "1979",
+  "runtime_hm": "1h36m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/n70vAulsh6I",
+    "https://youtu.be/KE6mC4WjC4k"
+   ]
+  },
+  "id": "love-at-first-bite-1979",
+  "dbid": 18966,
+  "runtime_m": 96
+ },
+ {
   "watched": true,
   "watchdate": "10.19.24",
   "title": "Mary Shelley's Frankenstein",
@@ -12074,7 +12089,7 @@
   },
   "id": "island-of-fire-1990",
   "dbid": 18767,
-  "runtime_m": 95
+  "runtime_m": 96
  },
  {
   "watched": false,
@@ -16277,7 +16292,7 @@
  },
  {
   "watched": true,
-  "watchdate": "12.17.21./12.23.22",
+  "watchdate": "12.17.21./12.23.22./12.22.24",
   "title": "Die Hard 2: Die Harder",
   "year": "1990",
   "runtime_hm": "2h4m",
@@ -16287,6 +16302,7 @@
    ]
   },
   "watchdate_arr": [
+   "20241222",
    "20221223",
    "20211217"
   ],
@@ -16411,6 +16427,9 @@
   "links": {
    "trailer": [
     "https://youtu.be/G7JF5iWZXH4"
+   ],
+   "movie": [
+    "https://youtu.be/H3wVEnohS7Q"
    ]
   },
   "id": "a-christmas-carol-1999",
@@ -16516,7 +16535,8 @@
   "runtime_m": 97
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "12.22.24",
   "title": "Rudolph the Red-Nosed Reindeer",
   "year": "1964",
   "links": {
@@ -16524,12 +16544,16 @@
     "https://youtu.be/lZfM8-w2p3w"
    ]
   },
+  "watchdate_arr": [
+   "20241222"
+  ],
   "id": "rudolph-the-red-nosed-reindeer-1964",
   "dbid": 13382,
   "runtime_m": 52
  },
  {
   "watched": true,
+  "watchdate": "12.17.21",
   "title": "Home Alone",
   "year": "1990",
   "runtime_hm": "1h43m",
@@ -16538,6 +16562,9 @@
     "https://youtu.be/8U-eaki5g8E"
    ]
   },
+  "watchdate_arr": [
+   "20211217"
+  ],
   "id": "home-alone-1990",
   "dbid": 771,
   "runtime_m": 103
@@ -16560,7 +16587,8 @@
   "runtime_m": 120
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "12.22.24",
   "title": "A Charlie Brown Christmas",
   "year": "1965",
   "links": {
@@ -16568,6 +16596,9 @@
     "https://youtu.be/34POOFRtHHc"
    ]
   },
+  "watchdate_arr": [
+   "20241222"
+  ],
   "id": "a-charlie-brown-christmas-1965",
   "dbid": 13187,
   "runtime_m": 25
@@ -16629,7 +16660,7 @@
   },
   "id": "ernest-saves-christmas-1988",
   "dbid": 26386,
-  "runtime_m": 95
+  "runtime_m": 91
  },
  {
   "watched": false,
@@ -16737,7 +16768,8 @@
   "runtime_m": 94
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "12.22.24",
   "title": "Rapsittie Street Kids: Believe in Santa",
   "year": "2002",
   "links": {
@@ -16745,6 +16777,9 @@
     "https://youtu.be/4e-wuyjgDPQ"
    ]
   },
+  "watchdate_arr": [
+   "20241222"
+  ],
   "id": "rapsittie-street-kids-believe-in-santa-2002",
   "dbid": 413817,
   "runtime_m": 42
