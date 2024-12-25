@@ -3824,6 +3824,16 @@
  },
  {
   "watched": false,
+  "title": "The Good Son",
+  "year": "1993",
+  "runtime_hm": "1h27m",
+  "links": {},
+  "id": "the-good-son-1993",
+  "dbid": 9272,
+  "runtime_m": 87
+ },
+ {
+  "watched": false,
   "title": "Freddy Got Fingered",
   "year": "2001",
   "runtime_hm": "1h27m",
@@ -16420,7 +16430,8 @@
   "runtime_m": 69
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "12.24.24",
   "title": "A Christmas Carol",
   "year": "1999",
   "runtime_hm": "1h35m",
@@ -16432,6 +16443,9 @@
     "https://youtu.be/H3wVEnohS7Q"
    ]
   },
+  "watchdate_arr": [
+   "20241224"
+  ],
   "id": "a-christmas-carol-1999",
   "dbid": 16716,
   "runtime_m": 97
@@ -16476,7 +16490,7 @@
   },
   "id": "the-muppet-christmas-carol-1992",
   "dbid": 10437,
-  "runtime_m": 86
+  "runtime_m": 89
  },
  {
   "watched": false,
@@ -16800,7 +16814,7 @@
  },
  {
   "watched": true,
-  "watchdate": "12.17.21./12.23.22",
+  "watchdate": "12.17.21./12.23.22./12.24.24",
   "title": "Scrooged",
   "year": "1988",
   "runtime_hm": "1h41m",
@@ -16813,6 +16827,7 @@
    ]
   },
   "watchdate_arr": [
+   "20241224",
    "20221223",
    "20211217"
   ],
