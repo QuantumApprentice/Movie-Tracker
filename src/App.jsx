@@ -356,7 +356,7 @@ function observer_modify_dom_indirectly() {
     let options = {
       root: null,
       rootMargin: "0px",
-      threshold: 1.0,
+      threshold: 0.1,
     }
     let observerCallback = (en, o)=>{
       for (const e of en) {
@@ -383,8 +383,12 @@ function observer_modify_dom_indirectly() {
     //this function observes a node
     //and adds it to the map of observed_nodes
     const handleObserving = (el, callback)=>{
-      observer.observe(el);
-      observed_nodes.set(el, callback);
+      // console.log("el", el);
+      if (el) {
+        observer.observe(el);
+        observed_nodes.set(el, callback);
+      }
+
 
       return ()=>{
         observer.unobserve(el);
