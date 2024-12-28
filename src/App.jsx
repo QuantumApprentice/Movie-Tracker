@@ -1,5 +1,8 @@
-import { useInView } from "react-intersection-observer";
-import { useEffect, useState, useMemo, useRef } from 'react'
+// import { useInView } from "react-intersection-observer";
+import { useEffect, useState,
+         useMemo, useRef,
+         useContext, createContext,
+        } from 'react'
 import './App.css'
 import movieJson from './movieList.json'
 import tmdbList from './tmdbList.json'
@@ -18,6 +21,7 @@ const token = import.meta.env.VITE_TMDB_TOKEN;
 let failedImages = new Set();
 
 import ErrorPage from './ErrorPage.jsx'
+import { observe } from 'react-intersection-observer';
 
 function filterMovies(query) {
   if (query == null) {
@@ -210,8 +214,9 @@ function HamburgerIcon(showBar, setShowBar)
   )
 }
 
-function ListMovies({movie, idx})
+function ListMovies({movie, observerHandler})
 {
+  const [visible, setVisible] = useState(false);
   const navigate = useNavigate();
   let imgRef     = useRef();
   let src = `/Movie-Tracker/pstr/${tmdbList?.find(m=>m.id === movie.dbid).poster}`;
@@ -223,33 +228,38 @@ function ListMovies({movie, idx})
   }
 
   useEffect(()=>{
-    let options = {
-      root: null,
-      rootMargin: "0px",
-      threshold: 0,
-    }
-    let observer = new IntersectionObserver(([e], o)=>{
-      if (e.isIntersecting) {
-        imgRef.current.style.setProperty("--poster-url", `url(${src})`);
-        // e.forEach(element => {
-        //   console.log('element: ', element);
-        // });
-        o.unobserve(e.target);
-      }
-    }, options);
+    return ()=> observerHandler(imgRef.current, ()=>{
+      setVisible(true);
+    });
+  });
 
-    observer.observe(imgRef.current);
 
-    return(()=>{
-      // console.log("imgRef: ", imgRef);
-      // observer.unobserve(imgRef.current);
-      observer.disconnect();
-    })
-  }, []);
+  // useEffect(()=>{
+  //   let options = {
+  //     root: null,
+  //     rootMargin: "0px",
+  //     threshold: 1.0,
+  //   }
+  //   let observer = new IntersectionObserver(([e], o)=>{
+  //     if (e.isIntersecting) {
+  //       imgRef.current.style.setProperty("--poster-url", `url(${src})`);
+  //       // e.forEach(element => {
+  //       //   console.log('element: ', element);
+  //       // });
+  //       o.unobserve(e.target);
+  //     }
+  //   }, options);
+  //   observer.observe(imgRef.current);
+  //   return(()=>{
+  //     // console.log("imgRef: ", imgRef);
+  //     // observer.unobserve(imgRef.current);
+  //     observer.disconnect();
+  //   })
+  // }, []);
 
   return (
     <div src={src} className={`poster-array-movie`}  key={movie.id}
-      // style={{"--poster-url": `url(${src})`}}
+      style={visible ? {"--poster-url": `url(${src})`} : {"--poster-url": ""}}
       ref={imgRef}
       //default line coloring when images don't load
       onMouseOver={(e)=>{
@@ -303,45 +313,126 @@ function ListMovies({movie, idx})
   )
 }
 
-
-function dostuff()
+function observer_modify_dom_directly()
 {
-  const [inView, setInView] = useState();
   let options = {
     root: null,
     rootMargin: "0px",
     threshold: 1.0,
   }
 
-  const observer = new IntersectionObserver((e)=>{
-    setInView(e.isIntersecting);
+  const observer = new IntersectionObserver(
+    (e, o)=>{
+    // console.log("e: ", e);
+    e.forEach((en, i)=>{
+      // console.log("target: ", en.target);
+      // console.log("i", i);
+      if (en.isIntersecting) {
+
+        // console.log("en.isIntersecting: ", en);
+        // en.target.src = en.target.dataset.imgSrc;
+        // e.currentTarget.style.setProperty("--data-backdrop-url", `url(${src})`);
+        // en.target.firstChild.style.setProperty("--data-backdrop-url", `url(${en.target.dataset.imgSrc})`)
+        en.target.firstChild.src = en.target.dataset.imgSrc;
+
+      }
+    });
+    // return observer.unobserve(e);
   },options);
 
   // console.log('inview: ', inView);
 
   return {
-    inView,
+    // inView,
     observer,
   }
 }
 
+function observer_modify_dom_indirectly() {
+  let hookRef = useRef();
+  if (!hookRef.current) {
+    //all the basic stuff needed for the observer and callback
+    let observed_nodes = new Map();
+    let options = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 1.0,
+    }
+    let observerCallback = (en, o)=>{
+      for (const e of en) {
+        //check if visible
+        if (e.isIntersecting) {
+          //get the callback function for the
+          //visible node from observed_nodes map
+          let visibleCallback = observed_nodes.get(e.target)
+          if (visibleCallback) {
+            //if there is one, call it
+            visibleCallback();
+            //then unobserve and remove from map
+            o.unobserve(e.target);
+            observed_nodes.delete(e.target);
+          }
+        }
+      }
+    };
+
+    //create the observer here
+    const observer = new IntersectionObserver(observerCallback, options);
+
+    //create a function to return from here
+    //this function observes a node
+    //and adds it to the map of observed_nodes
+    const handleObserving = (el, callback)=>{
+      observer.observe(el);
+      observed_nodes.set(el, callback);
+
+      return ()=>{
+        observer.unobserve(el);
+        observed_nodes.delete(el);
+      }
+    }
+    hookRef.current = {
+      handleObserving,
+    };
+  }
+
+  return hookRef.current;
+}
+
 function Dummy({imgUrl, observer, inView})
 {
-  // const {ref, inView, entry} = useInView({threshold: 1.0, delay: 4});
+  // const [inView, setInView] = useState();
   const ref = useRef();
 
-  useEffect(()=>{
 
+  useEffect(()=>{
+    // console.log("ref: ", ref.current);
+    // console.log("observer: ", observer);
+    // setInView(observer.inView);
+    // observer.inView
+    // ref.current.inView = false;
     observer.observe(ref.current);
+
 
   }, []);
 
 
   return (
     <>
-      <div ref={ref} className='poster-array-movie'>
-        <img src={inView ? imgUrl : null} />
-        {/* {inView ? <img src={img}/> : <img />} */}
+      <div
+          ref={ref}
+          data-img-src={imgUrl}
+          className='poster-array-movie'>
+        {/* <img
+          // ref={ref}
+          // data-img-src={imgUrl}
+          // src={inView ? imgUrl : null}
+        /> */}
+        {
+          inView ? <img src={imgUrl}/> : <img/>
+          // console.log("inView: ", inView)
+        
+        }
         <h2>Stuff</h2>
       </div>
     </>
@@ -349,34 +440,63 @@ function Dummy({imgUrl, observer, inView})
 
 }
 
+function Dummyer({imgUrl, observerFunc})
+{
+  const ref = useRef();
+  const [visible, setVisible] = useState(false);
+
+  useEffect(()=>{
+
+    return ()=> observerFunc(ref.current, ()=>{
+      setVisible(true);
+    });
+
+    // const visibleCB = () => setVisible(true);
+    // const whatIsThis = observerFunc(ref.current, visibleCB);
+    // return whatIsThis;
+  }, [observerFunc]);
+
+  return (
+    <>
+      <div
+          ref={ref}
+          className='poster-array-movie'>
+        {
+          visible ? <img src={imgUrl}/> : <img/>
+        }
+        <h2>Stuff</h2>
+      </div>
+    </>
+  )
+}
+
 
 /*displays list of movies to click on */
 export function DisplayList({movieList, setMovieList})
 {
+  const {handleObserving} = observer_modify_dom_indirectly();
   // createObserver(imgRef.current);
   // console.time("memo");
   let movieList_map = useMemo(
     ()=>movieList.map((movie, idx)=>{
       return (
-        <ListMovies movie={movie} idx={idx} key={movie.id} />
+        <ListMovies movie={movie} idx={idx} key={movie.id} observerHandler={handleObserving} />
       )}), [movieList]
   );
   // console.timeEnd("memo");
 
-  useEffect(()=>{
-    // movie_listing_hover_effect(setBuffer);
-  }, []);
+  // useEffect(()=>{
+  //   movie_listing_hover_effect(setBuffer);
+  // }, []);
 
-  // const {inView, observer} = dostuff();
+  // const {observer} = observer_modify_dom_directly(setInView);
 
   return (
     <>
-      {/* <Dummy img={"http://localhost:5173/Movie-Tracker/pstr/the-mummys-hand-1940.jpg"} 
-            inView={inView}
-            observer={observer} />
-      <Dummy img={"http://localhost:5173/Movie-Tracker/pstr/the-invisible-woman-1940.jpg"} 
-            inView={inView} 
-            observer={observer}/> */}
+      {/* <Dummyer imgUrl={"http://localhost:5173/Movie-Tracker/pstr/the-mummys-hand-1940.jpg"} 
+            observerFunc={handleObserving} />
+      <Dummyer imgUrl={"http://localhost:5173/Movie-Tracker/pstr/the-invisible-woman-1940.jpg"} 
+            observerFunc={handleObserving}/> */}
       <div className='poster-array'>
         {/* {buffer ? <tr><td colSpan={4}>&nbsp;</td></tr> : null} */}
         {movieList_map}

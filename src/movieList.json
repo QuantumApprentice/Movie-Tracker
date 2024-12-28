@@ -6208,6 +6208,16 @@
  },
  {
   "watched": false,
+  "title": "Island of Lost Souls",
+  "year": "1932",
+  "runtime_hm": "1h10m",
+  "links": {},
+  "id": "island-of-lost-souls-1932",
+  "dbid": 3031,
+  "runtime_m": 71
+ },
+ {
+  "watched": false,
   "title": "Treasure of the Sierra Madre",
   "year": "1948",
   "runtime_hm": "2h6m",
@@ -6502,6 +6512,16 @@
  },
  {
   "watched": false,
+  "title": "The Day the Earth Caught Fire",
+  "year": "1961",
+  "runtime_hm": "1h39m",
+  "links": {},
+  "id": "the-day-the-earth-caught-fire-1961",
+  "dbid": 28430,
+  "runtime_m": 98
+ },
+ {
+  "watched": false,
   "title": "The Computer Wore Tennis Shoes",
   "year": "1969",
   "links": {
@@ -6641,6 +6661,36 @@
  },
  {
   "watched": false,
+  "title": "The Green Slime",
+  "year": "1968",
+  "runtime_hm": "1h30m",
+  "links": {},
+  "id": "the-green-slime-1968",
+  "dbid": 29290,
+  "runtime_m": 90
+ },
+ {
+  "watched": false,
+  "title": "The Time Travelers",
+  "year": "1964",
+  "runtime_hm": "1h24m",
+  "links": {},
+  "id": "the-time-travelers-1964",
+  "dbid": 49160,
+  "runtime_m": 82
+ },
+ {
+  "watched": false,
+  "title": "Robinson Crusoe on Mars",
+  "year": "1964",
+  "runtime_hm": "1h50m",
+  "links": {},
+  "id": "robinson-crusoe-on-mars-1964",
+  "dbid": 7348,
+  "runtime_m": 110
+ },
+ {
+  "watched": false,
   "title": "Westworld",
   "year": "1973",
   "runtime_hm": "1h28m",
@@ -6672,6 +6722,20 @@
  },
  {
   "watched": false,
+  "title": "Rollerball",
+  "year": "1975",
+  "runtime_hm": "2h5m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/yku2CXuKKiU"
+   ]
+  },
+  "id": "rollerball-1975",
+  "dbid": 11484,
+  "runtime_m": 125
+ },
+ {
+  "watched": false,
   "title": "Three Days of the Condor",
   "year": "1975",
   "links": {
@@ -6699,6 +6763,39 @@
   "id": "days-of-heaven-1978",
   "dbid": 16642,
   "runtime_m": 94
+ },
+ {
+  "watched": false,
+  "title": "Sleeper",
+  "year": "1973",
+  "runtime_hm": "1h29m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/VDC1SUlXuGI"
+   ]
+  },
+  "id": "sleeper-1973",
+  "dbid": 11561,
+  "runtime_m": 87
+ },
+ {
+  "watched": false,
+  "title": "The Last Dinosaur",
+  "year": "1977",
+  "links": {},
+  "id": "the-last-dinosaur-1977",
+  "dbid": 71692,
+  "runtime_m": 106
+ },
+ {
+  "watched": false,
+  "title": "The Shape of Things to Come",
+  "year": "1979",
+  "runtime_hm": "1h38m",
+  "links": {},
+  "id": "the-shape-of-things-to-come-1979",
+  "dbid": 41415,
+  "runtime_m": 98
  },
  {
   "watched": false,
@@ -7699,7 +7796,7 @@
   },
   "id": "toys-1992",
   "dbid": 11597,
-  "runtime_m": 118
+  "runtime_m": 122
  },
  {
   "watched": false,
