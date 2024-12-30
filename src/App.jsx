@@ -141,14 +141,14 @@ function sidebar_buttons(whichSort, setWhichSort, sortDir, setSortDir, searchPar
     setMovieList(filterMovies(newSearch));
   }
 
-  const random_movie = [
+  const random_search = [
     "Star Wars", "Ninja Turtles", "Fight Club",
     "Matrix", "Lord of the Rings", "Rocky",
     "Indiana Jones", "Ghostbusters", "Rambo",
     "Nightmare on Elm Street", "Superman",
     "Friday the 13th", "Terminator",
   ];
-  const random_placeholder = random_movie[Math.floor(Math.random()*random_movie.length)]
+  const random_placeholder = random_search[Math.floor(Math.random()*random_search.length)]
 
   return (
     <>
