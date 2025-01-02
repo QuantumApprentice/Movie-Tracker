@@ -228,7 +228,7 @@ function ListMovies({movie, observerHandler})
   }
 
   useEffect(()=>{
-    observerHandler(imgRef.current, ()=>{
+    return observerHandler(imgRef.current, ()=>{
       setVisible(true);
     });
   });
