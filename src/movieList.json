@@ -3834,6 +3834,23 @@
  },
  {
   "watched": false,
+  "title": "Eraserhead",
+  "year": "1977",
+  "runtime_hm": "1h29m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/7WAzFWu2tVw"
+   ],
+   "modern": [
+    "https://youtu.be/D0xpTudMIow"
+   ]
+  },
+  "id": "eraserhead-1977",
+  "dbid": 985,
+  "runtime_m": 89
+ },
+ {
+  "watched": false,
   "title": "Freddy Got Fingered",
   "year": "2001",
   "runtime_hm": "1h27m",
@@ -4228,7 +4245,8 @@
   "runtime_m": 128
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "01.04.25",
   "title": "Dr. No",
   "year": "1962",
   "runtime_hm": "1h49m",
@@ -4240,6 +4258,9 @@
     "https://youtu.be/Wcv8-HoCroU"
    ]
   },
+  "watchdate_arr": [
+   "20250104"
+  ],
   "id": "dr-no-1962",
   "dbid": 646,
   "runtime_m": 110
@@ -4274,6 +4295,20 @@
   "id": "goldfinger-1964",
   "dbid": 658,
   "runtime_m": 110
+ },
+ {
+  "watched": false,
+  "title": "Thunderball",
+  "year": "1965",
+  "runtime_hm": "2h10m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/7JowkFmI1Fo"
+   ]
+  },
+  "id": "thunderball-1965",
+  "dbid": 660,
+  "runtime_m": 130
  },
  {
   "watched": false,
@@ -6302,6 +6337,7 @@
   "watched": false,
   "title": "When Worlds Collide",
   "year": "1951",
+  "runtime_hm": "1h23m",
   "links": {},
   "id": "when-worlds-collide-1951",
   "dbid": 16380,
@@ -6311,6 +6347,7 @@
   "watched": false,
   "title": "Them",
   "year": "1954",
+  "runtime_hm": "1h34m",
   "links": {},
   "id": "them-1954",
   "dbid": 11071,
@@ -6320,6 +6357,7 @@
   "watched": false,
   "title": "The Thing",
   "year": "1951",
+  "runtime_hm": "1h27m",
   "links": {},
   "id": "the-thing-1951",
   "dbid": 10785,
@@ -6329,6 +6367,7 @@
   "watched": false,
   "title": "The War of the Worlds",
   "year": "1953",
+  "runtime_hm": "1h25m",
   "links": {
    "trailer": [
     "https://youtu.be/s8TVpD5yzE4"
@@ -6352,6 +6391,7 @@
   "watched": false,
   "title": "Attack of the 50ft Woman",
   "year": "1958",
+  "runtime_hm": "1h6m",
   "links": {},
   "id": "attack-of-the-50ft-woman-1958",
   "dbid": 18724,
@@ -6361,6 +6401,7 @@
   "watched": false,
   "title": "Robot Monster",
   "year": "1953",
+  "runtime_hm": "1h6m",
   "links": {},
   "id": "robot-monster-1953",
   "dbid": 43353,
@@ -6370,6 +6411,7 @@
   "watched": false,
   "title": "The Trollenberg Terror/The Crawling Eye",
   "year": "1958",
+  "runtime_hm": "1h24m",
   "links": {},
   "id": "the-trollenberg-terror-the-crawling-eye-1958",
   "dbid": 43143,
@@ -6379,6 +6421,7 @@
   "watched": false,
   "title": "It Came from Beneath the Sea",
   "year": "1955",
+  "runtime_hm": "1h19m",
   "links": {},
   "id": "it-came-from-beneath-the-sea-1955",
   "dbid": 29959,
@@ -6388,6 +6431,7 @@
   "watched": false,
   "title": "Invaders from Mars",
   "year": "1953",
+  "runtime_hm": "1h18m",
   "links": {},
   "id": "invaders-from-mars-1953",
   "dbid": 20424,
@@ -6397,6 +6441,7 @@
   "watched": false,
   "title": "Battle in Outer Space",
   "year": "1959",
+  "runtime_hm": "1h30m",
   "links": {},
   "id": "battle-in-outer-space-1959",
   "dbid": 62472,
@@ -6406,6 +6451,7 @@
   "watched": false,
   "title": "It Came from Outer Space",
   "year": "1953",
+  "runtime_hm": "1h21m",
   "links": {},
   "id": "it-came-from-outer-space-1953",
   "dbid": 19483,
@@ -6415,6 +6461,7 @@
   "watched": false,
   "title": "Earth vs the Flying Saucers",
   "year": "1956",
+  "runtime_hm": "1h23m",
   "links": {},
   "id": "earth-vs-the-flying-saucers-1956",
   "dbid": 18158,
@@ -6424,6 +6471,7 @@
   "watched": false,
   "title": "The Quatermass Experiment",
   "year": "1955",
+  "runtime_hm": "1h22m",
   "links": {},
   "id": "the-quatermass-experiment-1955",
   "dbid": 24580,
@@ -6433,6 +6481,7 @@
   "watched": false,
   "title": "The Creature from the Black Lagoon",
   "year": "1954",
+  "runtime_hm": "1h19m",
   "links": {},
   "id": "the-creature-from-the-black-lagoon-1954",
   "dbid": 10973,
@@ -6442,6 +6491,7 @@
   "watched": false,
   "title": "20,000 Leagues under the Sea",
   "year": "1954",
+  "runtime_hm": "2h7m",
   "links": {},
   "id": "20-000-leagues-under-the-sea-1954",
   "dbid": 173,
@@ -6451,6 +6501,7 @@
   "watched": false,
   "title": "Destination Moon",
   "year": "1950",
+  "runtime_hm": "1h31m",
   "links": {},
   "id": "destination-moon-1950",
   "dbid": 25392,
@@ -6460,6 +6511,7 @@
   "watched": false,
   "title": "The Incredible Shrinking Man",
   "year": "1957",
+  "runtime_hm": "1h21m",
   "links": {},
   "id": "the-incredible-shrinking-man-1957",
   "dbid": 31682,
@@ -6469,6 +6521,7 @@
   "watched": false,
   "title": "This Island Earth",
   "year": "1955",
+  "runtime_hm": "1h25m",
   "links": {},
   "id": "this-island-earth-1955",
   "dbid": 831,
@@ -6488,6 +6541,7 @@
   "watched": true,
   "title": "The Day the Earth Stood Still",
   "year": "1951",
+  "runtime_hm": "1h32m",
   "links": {
    "trailer": [
     "https://youtu.be/51JoEE_znyI"
@@ -6524,6 +6578,7 @@
   "watched": false,
   "title": "The Computer Wore Tennis Shoes",
   "year": "1969",
+  "runtime_hm": "1h31m",
   "links": {
    "trailer": [
     "https://youtu.be/_Nq1c7_F59w"
@@ -6540,6 +6595,7 @@
   "watched": true,
   "title": "Dr. Strangelove",
   "year": "1964",
+  "runtime_hm": "1h35m",
   "links": {
    "trailer": [
     "https://youtu.be/jPU1AYTxwg4"
@@ -6557,6 +6613,7 @@
   "watchdate": "04.22.2023",
   "title": "Lawrence of Arabia",
   "year": "1962",
+  "runtime_hm": "3h48m",
   "links": {
    "trailer": [
     "https://youtu.be/vOlRhGEhG7k"
@@ -6576,6 +6633,7 @@
   "watched": false,
   "title": "The Fiction-Makers",
   "year": "1968",
+  "runtime_hm": "1h40m",
   "links": {
    "trailer": [
     "https://youtu.be/MrBeOQ89vPY"
@@ -6606,6 +6664,7 @@
   "watched": true,
   "title": "The Dirty Dozen",
   "year": "1967",
+  "runtime_hm": "2h29m",
   "links": {
    "trailer": [
     "https://youtu.be/ff1V6ywnWcY"
@@ -6619,6 +6678,7 @@
   "watched": false,
   "title": "Cool Hand Luke",
   "year": "1967",
+  "runtime_hm": "2h7m",
   "links": {
    "trailer": [
     "https://youtu.be/ofxtDrRVQY4"
@@ -6633,6 +6693,7 @@
   "watchdate": "9.17.2022",
   "title": "Barbarella",
   "year": "1968",
+  "runtime_hm": "1h38m",
   "links": {
    "trailer": [
     "https://youtu.be/Ks5eE-lTFDw"
@@ -6649,6 +6710,7 @@
   "watched": false,
   "title": "The Great Escape",
   "year": "1963",
+  "runtime_hm": "2h53m",
   "links": {
    "trailer": [
     "https://youtu.be/M2bEzJFVdQ4",
@@ -6738,6 +6800,7 @@
   "watched": false,
   "title": "Three Days of the Condor",
   "year": "1975",
+  "runtime_hm": "1h57m",
   "links": {
    "trailer": [
     "https://youtu.be/BCZ-HwaWK3o"
@@ -6782,6 +6845,7 @@
   "watched": false,
   "title": "The Last Dinosaur",
   "year": "1977",
+  "runtime_hm": "1h46m",
   "links": {},
   "id": "the-last-dinosaur-1977",
   "dbid": 71692,
@@ -7528,7 +7592,11 @@
   "title": "Maggie",
   "year": "2015",
   "runtime_hm": "1h35m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/AQ5Vz8qE8R8"
+   ]
+  },
   "id": "maggie-2015",
   "dbid": 287424,
   "runtime_m": 95
@@ -7538,7 +7606,11 @@
   "title": "Aftermath",
   "year": "2017",
   "runtime_hm": "1h34m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/oUXUm6he2-s"
+   ]
+  },
   "id": "aftermath-2017",
   "dbid": 390051,
   "runtime_m": 92
@@ -13558,6 +13630,7 @@
   "watchdate": "7.16.2022",
   "title": "The Rocketeer",
   "year": "1991",
+  "runtime_hm": "1h48m",
   "links": {
    "trailer": [
     "https://youtu.be/Gi0Et31E7s4"
@@ -13574,6 +13647,7 @@
   "watched": true,
   "title": "The Razor's Edge",
   "year": "1984",
+  "runtime_hm": "2h9m",
   "links": {
    "trailer": [
     "https://youtu.be/9-cIUVgacaY"
@@ -13587,6 +13661,7 @@
   "watched": false,
   "title": "Radioland Murders",
   "year": "1994",
+  "runtime_hm": "1h48m",
   "links": {
    "trailer": [
     "https://youtu.be/BqP2uzt-Y-o"
@@ -13600,6 +13675,7 @@
   "watched": true,
   "title": "Repo Man",
   "year": "1984",
+  "runtime_hm": "1h32m",
   "links": {
    "trailer": [
     "https://youtu.be/3nPEM5d-MtQ",
@@ -13614,6 +13690,7 @@
   "watched": true,
   "title": "Rocky",
   "year": "1977",
+  "runtime_hm": "2h0m",
   "links": {
    "trailer": [
     "https://youtu.be/7RYpJAUMo2M",
@@ -13628,6 +13705,7 @@
   "watched": true,
   "title": "Rocky II",
   "year": "1979",
+  "runtime_hm": "2h0m",
   "links": {
    "trailer": [
     "https://youtu.be/6PSSxAGSiCY"
@@ -13641,6 +13719,7 @@
   "watched": true,
   "title": "Rocky III",
   "year": "1982",
+  "runtime_hm": "1h40m",
   "links": {
    "trailer": [
     "https://youtu.be/o7vbDPUMWDc"
@@ -13654,6 +13733,7 @@
   "watched": true,
   "title": "Rocky IV",
   "year": "1985",
+  "runtime_hm": "1h31m",
   "links": {
    "trailer": [
     "https://youtu.be/mIE5HYkzvV0"
@@ -13667,6 +13747,7 @@
   "watched": true,
   "title": "Rocky V",
   "year": "1990",
+  "runtime_hm": "1h44m",
   "links": {
    "trailer": [
     "https://youtu.be/C2_k8p3RQx4"
@@ -13680,6 +13761,7 @@
   "watched": true,
   "title": "Rocky Balboa",
   "year": "2006",
+  "runtime_hm": "1h42m",
   "links": {
    "trailer": [
     "https://youtu.be/8tab8fK2_3w"
@@ -13693,6 +13775,7 @@
   "watched": false,
   "title": "Raging Bull",
   "year": "1980",
+  "runtime_hm": "2h9m",
   "links": {
    "trailer": [
     "https://youtu.be/F2UKuKxCJqc"
@@ -13707,6 +13790,7 @@
   "watchdate": "5.21.2022",
   "title": "Robin Hood: Men in Tights",
   "year": "1993",
+  "runtime_hm": "1h44m",
   "links": {
    "movie": [
     "https://youtu.be/UF9EX9WPbEo"
@@ -13727,6 +13811,7 @@
   "watchdate": "5.21.2022",
   "title": "Robin Hood: Prince of Thieves",
   "year": "1991",
+  "runtime_hm": "2h23m",
   "links": {
    "trailer": [
     "https://youtu.be/fhz5aB-u77Q"
@@ -13744,6 +13829,7 @@
   "watchdate": "3.05.2022",
   "title": "Robocop",
   "year": "1987",
+  "runtime_hm": "1h42m",
   "links": {
    "movie": [
     "https://youtu.be/6tC_5mp3udE"
@@ -13761,6 +13847,7 @@
   "watchdate": "3.19.2022",
   "title": "Robocop 2",
   "year": "1990",
+  "runtime_hm": "1h57m",
   "links": {
    "trailer": [
     "https://youtu.be/HNcy89RqF5Q"
@@ -13778,6 +13865,7 @@
   "watchdate": "3.26.2022",
   "title": "Robocop 3",
   "year": "1993",
+  "runtime_hm": "1h44m",
   "links": {
    "trailer": [
     "https://youtu.be/VWBo9-YtSQs"
@@ -13798,6 +13886,7 @@
   "watchdate": "3.19.2022",
   "title": "Rush Hour",
   "year": "1998",
+  "runtime_hm": "1h37m",
   "links": {
    "trailer": [
     "https://youtu.be/JMiFsFQcFLE"
@@ -13815,6 +13904,7 @@
   "watchdate": "4.02.2022",
   "title": "Rush Hour 2",
   "year": "2001",
+  "runtime_hm": "1h30m",
   "links": {
    "trailer": [
     "https://youtu.be/SCTzYY95Aw4"
@@ -13832,6 +13922,7 @@
   "watchdate": "4.16.2022",
   "title": "Rush Hour 3",
   "year": "2007",
+  "runtime_hm": "1h30m",
   "links": {
    "trailer": [
     "https://youtu.be/FRDRWXfQyJE"
@@ -13849,6 +13940,7 @@
   "watchdate": "3.26.2022",
   "title": "Shanghai Noon",
   "year": "2000",
+  "runtime_hm": "1h50m",
   "links": {
    "trailer": [
     "https://youtu.be/C6tduzl-EY8"
@@ -13866,6 +13958,7 @@
   "watchdate": "4.16.2022",
   "title": "Shanghai Knights",
   "year": "2003",
+  "runtime_hm": "1h55m",
   "links": {
    "trailer": [
     "https://youtu.be/xaahiRxQvYY"
@@ -13883,6 +13976,7 @@
   "watchdate": "3.19.2022",
   "title": "Speed",
   "year": "1994",
+  "runtime_hm": "1h56m",
   "links": {
    "trailer": [
     "https://youtu.be/8piqd2BWeGI"
@@ -13900,6 +13994,7 @@
   "watchdate": "3.26.2022",
   "title": "Speed 2: Cruise Control",
   "year": "1997",
+  "runtime_hm": "2h5m",
   "links": {
    "trailer": [
     "https://youtu.be/JI8NSZBI1_E"
@@ -13916,6 +14011,7 @@
   "watched": false,
   "title": "Sicario",
   "year": "2015",
+  "runtime_hm": "2h2m",
   "links": {
    "trailer": [
     "https://youtu.be/G8tlEcnrGnU"
@@ -13930,6 +14026,7 @@
   "watchdate": "1.21.23",
   "title": "Scarface",
   "year": "1983",
+  "runtime_hm": "2h49m",
   "links": {
    "trailer": [
     "https://youtu.be/7pQQHnqBa2E"
@@ -13950,6 +14047,7 @@
   "watchdate": "7.30.2022",
   "title": "Shaolin Soccer",
   "year": "2001",
+  "runtime_hm": "1h53m",
   "links": {
    "trailer": [
     "https://youtu.be/KEWUDWYDdYs"
@@ -13967,6 +14065,7 @@
   "watchdate": "8.13.2022",
   "title": "Kung Fu Hustle",
   "year": "2004",
+  "runtime_hm": "1h39m",
   "links": {
    "trailer": [
     "https://youtu.be/47nS6Wo4yaw"
@@ -13984,6 +14083,7 @@
   "watchdate": "1.21.23",
   "title": "Spartacus",
   "year": "1960",
+  "runtime_hm": "3h17m",
   "links": {
    "trailer": [
     "https://youtu.be/5QH6t8ptijY"
@@ -14035,6 +14135,7 @@
   "watched": true,
   "title": "Short Circuit",
   "year": "1986",
+  "runtime_hm": "1h38m",
   "links": {
    "trailer": [
     "https://youtu.be/savkuEQKz8Q"
@@ -14048,6 +14149,7 @@
   "watched": true,
   "title": "Short Circuit 2",
   "year": "1988",
+  "runtime_hm": "1h50m",
   "links": {
    "trailer": [
     "https://youtu.be/d2Rc2T97nvM"
@@ -14061,6 +14163,7 @@
   "watched": false,
   "title": "Slapshot",
   "year": "1977",
+  "runtime_hm": "2h3m",
   "links": {
    "trailer": [
     "https://youtu.be/MUuEWI6F3dQ"
@@ -14074,6 +14177,7 @@
   "watched": false,
   "title": "Solarbabies",
   "year": "1986",
+  "runtime_hm": "1h34m",
   "links": {
    "trailer": [
     "https://youtu.be/eqpdQvWBj8A"
@@ -14087,6 +14191,7 @@
   "watched": false,
   "title": "The Sorcerer's Apprentice",
   "year": "2010",
+  "runtime_hm": "1h49m",
   "links": {
    "trailer": [
     "https://youtu.be/XrhCjFBRmbw"
@@ -14100,6 +14205,7 @@
   "watched": true,
   "title": "Spaceballs",
   "year": "1987",
+  "runtime_hm": "1h36m",
   "links": {
    "teaser": [
     "https://youtu.be/Zi8ZJBrHT0A",
@@ -14119,6 +14225,7 @@
   "watchdate": "03.25.23",
   "title": "Spacecamp",
   "year": "1986",
+  "runtime_hm": "1h47m",
   "links": {
    "trailer": [
     "https://youtu.be/ISPHII9F1nQ"
@@ -14149,6 +14256,7 @@
   "watched": false,
   "title": "Space Raiders",
   "year": "1983",
+  "runtime_hm": "1h24m",
   "links": {
    "trailer": [
     "https://youtu.be/XBham6MnKYE"
@@ -14162,6 +14270,7 @@
   "watched": true,
   "title": "Spacehunter: Adventures in the Forbidden Zone",
   "year": "1983",
+  "runtime_hm": "1h30m",
   "links": {},
   "id": "spacehunter-adventures-in-the-forbidden-zone-1983",
   "dbid": 26978,
@@ -14171,6 +14280,7 @@
   "watched": true,
   "title": "Space Truckers",
   "year": "1996",
+  "runtime_hm": "1h35m",
   "links": {
    "trailer": [
     "https://youtu.be/VQOqLOErhZA"
@@ -14185,6 +14295,7 @@
  },
  {
   "watched": true,
+  "watchdate": "01.04.25",
   "title": "Star Trek: The Motion Picture",
   "year": "1979",
   "runtime_hm": "2h16m",
@@ -14195,6 +14306,9 @@
     "https://youtu.be/zrXvBaFFu80"
    ]
   },
+  "watchdate_arr": [
+   "20250104"
+  ],
   "id": "star-trek-the-motion-picture-1979",
   "dbid": 152,
   "runtime_m": 131
@@ -14337,6 +14451,7 @@
   "watched": true,
   "title": "Stripes",
   "year": "1981",
+  "runtime_hm": "1h46m",
   "links": {
    "trailer": [
     "https://youtu.be/mV9kxSK_-0I"
@@ -14350,6 +14465,7 @@
   "watched": true,
   "title": "Tron",
   "year": "1982",
+  "runtime_hm": "1h36m",
   "links": {
    "trailer": [
     "https://youtu.be/INv-OQ1clmw",
@@ -14405,6 +14521,7 @@
   "watched": false,
   "title": "The Time Machine",
   "year": "1960",
+  "runtime_hm": "1h43m",
   "links": {},
   "id": "the-time-machine-1960",
   "dbid": 2134,
@@ -14414,6 +14531,7 @@
   "watched": false,
   "title": "The Time Machine",
   "year": "2002",
+  "runtime_hm": "1h36m",
   "links": {},
   "id": "the-time-machine-2002",
   "dbid": 2135,
@@ -14423,6 +14541,7 @@
   "watched": false,
   "title": "The Last Chase",
   "year": "1981",
+  "runtime_hm": "1h41m",
   "links": {
    "trailer": [
     "https://youtu.be/X4eQsgudVhY"
@@ -14437,6 +14556,7 @@
   "watchdate": "4.16.2022",
   "title": "Tommy Boy",
   "year": "1995",
+  "runtime_hm": "1h38m",
   "links": {
    "trailer": [
     "https://youtu.be/9btKFrFhq28"
@@ -14457,6 +14577,7 @@
   "watchdate": "11.19.23",
   "title": "Twister",
   "year": "1996",
+  "runtime_hm": "1h53m",
   "links": {
    "trailer": [
     "https://youtu.be/IeokJIGsAyM"
@@ -14474,6 +14595,7 @@
   "watchdate": "7.23.2022",
   "title": "Tropic Thunder",
   "year": "2008",
+  "runtime_hm": "1h47m",
   "links": {
    "trailer": [
     "https://youtu.be/9Pl4JNnqNaE"
@@ -14507,11 +14629,8 @@
   "watched": false,
   "title": "Up The Academy",
   "year": "1980",
-  "links": {
-   "trailer": [
-    "https://youtu.be/KRNbbNBGaj0"
-   ]
-  },
+  "runtime_hm": "1h27m",
+  "links": {},
   "id": "up-the-academy-1980",
   "dbid": 33670,
   "runtime_m": 87
@@ -14520,6 +14639,7 @@
   "watched": true,
   "title": "Deathstalker",
   "year": "1983",
+  "runtime_hm": "1h20m",
   "links": {
    "trailer": [
     "https://youtu.be/P8FTMs4hzZk"
@@ -14533,6 +14653,7 @@
   "watched": true,
   "title": "Deathstalker II",
   "year": "1987",
+  "runtime_hm": "1h25m",
   "links": {
    "trailer": [
     "https://youtu.be/gYyulM9Xzgc"
@@ -14546,6 +14667,7 @@
   "watched": true,
   "title": "Revenge of the Nerds",
   "year": "1984",
+  "runtime_hm": "1h30m",
   "links": {
    "trailer": [
     "https://youtu.be/kIZH5TKnEeg"
@@ -14559,6 +14681,7 @@
   "watched": true,
   "title": "Revenge of the Nerds II: Nerds in Paradise",
   "year": "1987",
+  "runtime_hm": "1h38m",
   "links": {
    "trailer": [
     "https://youtu.be/NMKD_tM6Fyo"
@@ -14575,6 +14698,7 @@
   "watched": true,
   "title": "Revenge of the Nerds III: The Next Generation",
   "year": "1992",
+  "runtime_hm": "1h33m",
   "links": {
    "trailer": [
     "https://youtu.be/w7Uvrt9eS04"
@@ -14588,6 +14712,7 @@
   "watched": true,
   "title": "Revenge Of The Nerds 4: Nerds In Love",
   "year": "1994",
+  "runtime_hm": "1h32m",
   "links": {
    "trailer": [
     "https://youtu.be/L4Wk2x5MmIM"
@@ -14602,6 +14727,7 @@
   "watchdate": "01.14.23",
   "title": "Platoon",
   "year": "1986",
+  "runtime_hm": "2h0m",
   "links": {
    "trailer": [
     "https://youtu.be/R8weLPF4qBQ"
@@ -14618,6 +14744,7 @@
   "watched": true,
   "title": "Planet of the Apes",
   "year": "1968",
+  "runtime_hm": "1h52m",
   "links": {
    "trailer": [
     "https://youtu.be/08OpupJW4ao",
@@ -14635,6 +14762,7 @@
   "watched": true,
   "title": "Beneath the Planet of the Apes",
   "year": "1970",
+  "runtime_hm": "1h35m",
   "links": {
    "trailer": [
     "https://youtu.be/4-DKoLKDBnE",
@@ -14649,6 +14777,7 @@
   "watched": true,
   "title": "Escape from the Planet of the Apes",
   "year": "1971",
+  "runtime_hm": "1h38m",
   "links": {
    "trailer": [
     "https://youtu.be/t4OQqg-oL2M"
@@ -14662,6 +14791,7 @@
   "watched": true,
   "title": "Conquest of the Planet of the Apes",
   "year": "1972",
+  "runtime_hm": "1h28m",
   "links": {
    "trailer": [
     "https://youtu.be/CWIbQqbivVc"
@@ -14678,6 +14808,7 @@
   "watched": true,
   "title": "Battle for the Planet of the Apes",
   "year": "1973",
+  "runtime_hm": "1h33m",
   "links": {
    "trailer": [
     "https://youtu.be/H6VDA3bzihM"
@@ -14705,6 +14836,7 @@
   "watched": false,
   "title": "Amanda and the Alien",
   "year": "1995",
+  "runtime_hm": "1h36m",
   "links": {
    "trailer": [
     "https://youtu.be/HlvFV4LvJ0U"
@@ -14718,6 +14850,7 @@
   "watched": false,
   "title": "The Wicked Lady",
   "year": "1983",
+  "runtime_hm": "1h38m",
   "links": {
    "trailer": [
     "https://youtu.be/PZnfEUCJGsc"
@@ -14788,6 +14921,7 @@
   "watchdate": "01.14.23",
   "title": "The Omega Man",
   "year": "1971",
+  "runtime_hm": "1h38m",
   "links": {
    "trailer": [
     "https://youtu.be/bWB6Ufh4O98"
@@ -14804,6 +14938,7 @@
   "watched": false,
   "title": "The Revenant",
   "year": "2015",
+  "runtime_hm": "2h37m",
   "links": {
    "trailer": [
     "https://youtu.be/LoebZZ8K5N0"
@@ -14817,6 +14952,7 @@
   "watched": true,
   "title": "Lethal Weapon",
   "year": "1987",
+  "runtime_hm": "1h50m",
   "links": {
    "trailer": [
     "https://youtu.be/bKeW-MGu-qQ"
@@ -14830,6 +14966,7 @@
   "watched": true,
   "title": "Lethal Weapon 2",
   "year": "1989",
+  "runtime_hm": "1h54m",
   "links": {
    "trailer": [
     "https://youtu.be/ifFmyMxtjsM"
@@ -14843,6 +14980,7 @@
   "watched": true,
   "title": "Lethal Weapon 3",
   "year": "1992",
+  "runtime_hm": "1h58m",
   "links": {
    "trailer": [
     "https://youtu.be/340a5ZjyEa8",
@@ -14857,6 +14995,7 @@
   "watched": true,
   "title": "Lethal Weapon 4",
   "year": "1998",
+  "runtime_hm": "2h7m",
   "links": {
    "trailer": [
     "https://youtu.be/_qUUsgaHsS8",
@@ -14872,6 +15011,7 @@
   "watched": true,
   "title": "Planet Terror",
   "year": "2007",
+  "runtime_hm": "1h45m",
   "links": {
    "trailer": [
     "https://youtu.be/DCFQtc6BzyM"
@@ -14927,6 +15067,7 @@
   "watched": false,
   "title": "Mannequin",
   "year": "1987",
+  "runtime_hm": "1h29m",
   "links": {
    "trailer": [
     "https://youtu.be/OTfhUj4LZVE"
@@ -14940,6 +15081,7 @@
   "watched": false,
   "title": "Mannequin Two: On The Move",
   "year": "1991",
+  "runtime_hm": "1h35m",
   "links": {
    "movie": [
     "https://youtu.be/WFV22HSASkY"
@@ -14953,6 +15095,7 @@
   "watched": false,
   "title": "Navy Seals",
   "year": "1990",
+  "runtime_hm": "1h53m",
   "links": {
    "trailer": [
     "https://youtu.be/J8Ygd0lpqVg"
@@ -14966,6 +15109,7 @@
   "watched": true,
   "title": "The Goonies",
   "year": "1985",
+  "runtime_hm": "1h54m",
   "links": {
    "trailer": [
     "https://youtu.be/kFEfHCJG4G4"
@@ -14979,6 +15123,7 @@
   "watched": false,
   "title": "Tammy and the T-Rex",
   "year": "1994",
+  "runtime_hm": "1h22m",
   "links": {},
   "id": "tammy-and-the-t-rex-1994",
   "dbid": 55563,
@@ -14988,6 +15133,7 @@
   "watched": false,
   "title": "Tank Girl",
   "year": "1995",
+  "runtime_hm": "1h44m",
   "links": {
    "trailer": [
     "https://youtu.be/_O2MbGWpHYI"
@@ -15004,6 +15150,7 @@
   "watched": true,
   "title": "Batman",
   "year": "1989",
+  "runtime_hm": "2h6m",
   "links": {
    "trailer": [
     "https://youtu.be/dgC9Q0uhX70"
@@ -15031,6 +15178,7 @@
   "watched": true,
   "title": "Batman Forever",
   "year": "1995",
+  "runtime_hm": "2h1m",
   "links": {
    "trailer": [
     "https://youtu.be/ROLvjRB4E_Q"
@@ -15045,6 +15193,7 @@
   "watchdate": "06.08.24",
   "title": "Batman & Robin",
   "year": "1997",
+  "runtime_hm": "2h5m",
   "links": {
    "trailer": [
     "https://youtu.be/4RBXypX4qWI"
@@ -15166,6 +15315,7 @@
   "watched": false,
   "title": "Fitzcarraldo",
   "year": "1982",
+  "runtime_hm": "2h37m",
   "links": {
    "trailer": [
     "https://youtu.be/xWeb7i8IjYs"
@@ -15180,6 +15330,7 @@
   "watchdate": "11.05.22",
   "title": "A Fistful of Dollars",
   "year": "1964",
+  "runtime_hm": "1h39m",
   "links": {
    "trailer": [
     "https://youtu.be/RFWYI5buWlY"
@@ -15200,6 +15351,7 @@
   "watchdate": "11.12.22",
   "title": "For A Few Dollars More",
   "year": "1965",
+  "runtime_hm": "2h12m",
   "links": {
    "trailer": [
     "https://youtu.be/DDRNEwFOttw"
@@ -15220,6 +15372,7 @@
   "watchdate": "11.19.22",
   "title": "The Good, the Bad and the Ugly",
   "year": "1966",
+  "runtime_hm": "2h41m",
   "links": {
    "trailer": [
     "https://youtu.be/WCN5JJY_wiA"
@@ -15273,6 +15426,7 @@
   "watched": false,
   "title": "Mom and Dad Save the World",
   "year": "1992",
+  "runtime_hm": "1h28m",
   "links": {
    "trailer": [
     "https://youtu.be/stZpmjnB3ro"
@@ -15304,6 +15458,7 @@
   "watchdate": "8.06.22",
   "title": "Mystery Men",
   "year": "1999",
+  "runtime_hm": "2h1m",
   "links": {
    "trailer": [
     "https://youtu.be/weL-NjlIQ0E"
@@ -15401,6 +15556,7 @@
   "watched": true,
   "title": "Superman",
   "year": "1979",
+  "runtime_hm": "2h23m",
   "links": {
    "trailer": [
     "https://youtu.be/grO4OcJ6cgY"
@@ -15414,6 +15570,7 @@
   "watched": true,
   "title": "Superman II",
   "year": "1980",
+  "runtime_hm": "2h7m",
   "links": {
    "trailer": [
     "https://youtu.be/jxD8RlGnP64"
@@ -15427,6 +15584,7 @@
   "watched": true,
   "title": "Superman III",
   "year": "1983",
+  "runtime_hm": "2h5m",
   "links": {
    "trailer": [
     "https://youtu.be/3uuSLyZ6Mz8"
@@ -15440,6 +15598,7 @@
   "watched": true,
   "title": "Superman IV",
   "year": "1987",
+  "runtime_hm": "1h30m",
   "links": {
    "trailer": [
     "https://youtu.be/WFe7QPYmAQ0"
@@ -15453,6 +15612,7 @@
   "watched": true,
   "title": "Supergirl",
   "year": "1984",
+  "runtime_hm": "2h4m",
   "links": {
    "trailer": [
     "https://youtu.be/NMUeFT7iqSQ",
@@ -15467,6 +15627,7 @@
   "watched": true,
   "title": "Superman Returns",
   "year": "2006",
+  "runtime_hm": "2h34m",
   "links": {
    "trailer": [
     "https://youtu.be/iAZ_KJfZfBQ",
@@ -15482,6 +15643,7 @@
   "watchdate": "4.09.2022",
   "title": "Terminal Velocity",
   "year": "1994",
+  "runtime_hm": "1h42m",
   "links": {
    "trailer": [
     "https://youtu.be/4WQnlzP4EP8"
@@ -15498,6 +15660,7 @@
   "watched": false,
   "title": "The Super",
   "year": "1991",
+  "runtime_hm": "1h24m",
   "links": {
    "trailer": [
     "https://youtu.be/VzSxVmQ7VMc"
@@ -15505,12 +15668,13 @@
   },
   "id": "the-super-1991",
   "dbid": 53287,
-  "runtime_m": 84
+  "runtime_m": 86
  },
  {
   "watched": true,
   "title": "A Boy and His Dog",
   "year": "1975",
+  "runtime_hm": "1h30m",
   "links": {
    "trailer": [
     "https://youtu.be/mTck2RnpPy4"
@@ -15524,6 +15688,7 @@
   "watched": true,
   "title": "The Cable Guy",
   "year": "1996",
+  "runtime_hm": "1h36m",
   "links": {
    "trailer": [
     "https://youtu.be/rhhI_qYOacw"
@@ -15537,6 +15702,7 @@
   "watched": true,
   "title": "Airplane!",
   "year": "1980",
+  "runtime_hm": "1h28m",
   "links": {
    "trailer": [
     "https://youtu.be/Z2mo2GdC6nc"
@@ -15553,6 +15719,7 @@
   "watched": true,
   "title": "Airplane II!",
   "year": "1982",
+  "runtime_hm": "1h25m",
   "links": {
    "trailer": [
     "https://youtu.be/yk2qQNME5x4"
@@ -15570,6 +15737,7 @@
   "watchdate": "01.07.23",
   "title": "Network",
   "year": "1976",
+  "runtime_hm": "2h2m",
   "links": {
    "trailer": [
     "https://youtu.be/1cSGvqQHpjs"
@@ -15586,6 +15754,7 @@
   "watched": true,
   "title": "Nature of the Beast",
   "year": "1995",
+  "runtime_hm": "1h31m",
   "links": {
    "trailer": [
     "https://youtu.be/lagpjcTKe9E"
@@ -15599,6 +15768,7 @@
   "watched": false,
   "title": "Twilight Zone: The Movie",
   "year": "1983",
+  "runtime_hm": "1h41m",
   "links": {
    "teaser": [
     "https://youtu.be/x1-SjAYJtlY"
@@ -15615,6 +15785,7 @@
   "watched": true,
   "title": "Soldier",
   "year": "1998",
+  "runtime_hm": "1h39m",
   "links": {
    "trailer": [
     "https://youtu.be/4oeW9sflsdg"
@@ -15628,6 +15799,7 @@
   "watched": false,
   "title": "The Untouchables",
   "year": "1987",
+  "runtime_hm": "1h59m",
   "links": {
    "trailer": [
     "https://youtu.be/2cGat1xI8G8"
@@ -15641,6 +15813,7 @@
   "watched": false,
   "title": "Voyage of the Damned",
   "year": "1976",
+  "runtime_hm": "2h35m",
   "links": {
    "movie": [
     "https://youtu.be/y1RxVTBWKrw"
@@ -15654,6 +15827,7 @@
   "watched": true,
   "title": "WarGames",
   "year": "1983",
+  "runtime_hm": "1h54m",
   "links": {
    "movie": [
     "https://youtu.be/HNLQ-O-Qx3Y"
@@ -15670,6 +15844,7 @@
   "watched": true,
   "title": "Wayne's World",
   "year": "1992",
+  "runtime_hm": "1h35m",
   "links": {
    "trailer": [
     "https://youtu.be/OIuhsHpcNAU"
@@ -15689,6 +15864,7 @@
   "watched": true,
   "title": "Wayne's World 2",
   "year": "1993",
+  "runtime_hm": "1h35m",
   "links": {
    "teaser": [
     "https://youtu.be/TWVBr6xhCxU"
@@ -15705,6 +15881,7 @@
   "watched": true,
   "title": "Weird Science",
   "year": "1985",
+  "runtime_hm": "1h33m",
   "links": {
    "trailer": [
     "https://youtu.be/WI3-mDqyfuQ",
@@ -15719,6 +15896,7 @@
   "watched": false,
   "title": "Where Eagles Dare",
   "year": "1968",
+  "runtime_hm": "2h35m",
   "links": {
    "trailer": [
     "https://youtu.be/khIZwbXDF0o"
@@ -15732,6 +15910,7 @@
   "watched": false,
   "title": "The Year of Living Dangerously",
   "year": "1982",
+  "runtime_hm": "1h55m",
   "links": {
    "trailer": [
     "https://youtu.be/IL6BqLMZJyA"
@@ -15745,6 +15924,7 @@
   "watched": false,
   "title": "The Sting",
   "year": "1973",
+  "runtime_hm": "2h9m",
   "links": {
    "trailer": [
     "https://youtu.be/yCsFsUXFrUo"
@@ -15761,6 +15941,7 @@
   "watched": false,
   "title": "Zulu",
   "year": "1964",
+  "runtime_hm": "2h18m",
   "links": {
    "trailer": [
     "https://youtu.be/JNV2M-WOgMM"
@@ -15791,6 +15972,7 @@
   "watched": false,
   "title": "To Be or Not to Be",
   "year": "1983",
+  "runtime_hm": "1h47m",
   "links": {
    "trailer": [
     "https://youtu.be/YgNW4Pl4L2g"
@@ -15828,6 +16010,7 @@
   "watched": false,
   "title": "Tin Cup",
   "year": "1996",
+  "runtime_hm": "2h15m",
   "links": {
    "trailer": [
     "https://youtu.be/lr8Nm-ySaAM"
@@ -15841,6 +16024,7 @@
   "watched": false,
   "title": "Tenacious D in The Pick of Destiny",
   "year": "2006",
+  "runtime_hm": "1h33m",
   "links": {
    "trailer": [
     "https://youtu.be/2tvKDAW6Flk"
@@ -15855,6 +16039,7 @@
   "watchdate": "1.09.23",
   "title": "Teenage Mutant Ninja Turtles",
   "year": "1990",
+  "runtime_hm": "1h33m",
   "links": {
    "trailer": [
     "https://youtu.be/FMJPwRWaZBI"
@@ -15871,6 +16056,7 @@
   "watched": false,
   "title": "Teenage Mutant Ninja Turtles II: The Secret of the Ooz",
   "year": "1991",
+  "runtime_hm": "1h28m",
   "links": {
    "trailer": [
     "https://youtu.be/al9jfY7zOBY"
@@ -15884,6 +16070,7 @@
   "watched": false,
   "title": "Teenage Mutant Ninja Turtles III: Turtles in Time",
   "year": "1993",
+  "runtime_hm": "1h36m",
   "links": {
    "trailer": [
     "https://youtu.be/w2dNvVdz3js"
@@ -15947,6 +16134,7 @@
   "watched": false,
   "title": "Fortress",
   "year": "1992",
+  "runtime_hm": "1h35m",
   "links": {
    "trailer": [
     "https://youtu.be/_grwVpfklzs"
@@ -15960,6 +16148,7 @@
   "watched": false,
   "title": "Rob Roy",
   "year": "1995",
+  "runtime_hm": "2h19m",
   "links": {
    "trailer": [
     "https://youtu.be/p76fH8_a32Y"
@@ -15973,6 +16162,7 @@
   "watched": false,
   "title": "Braveheart",
   "year": "1995",
+  "runtime_hm": "2h57m",
   "links": {
    "trailer": [
     "https://youtu.be/1NJO0jxBtMo"
@@ -15987,6 +16177,7 @@
   "watchdate": "01.27.24",
   "title": "Ivanhoe",
   "year": "1982",
+  "runtime_hm": "2h17m",
   "links": {
    "movie": [
     "https://youtu.be/7l1eEbNx_M4"
@@ -16003,6 +16194,7 @@
   "watched": false,
   "title": "A Knight's Tale",
   "year": "2001",
+  "runtime_hm": "2h12m",
   "links": {
    "trailer": [
     "https://youtu.be/_KzsTKqTq1M"
@@ -16027,6 +16219,7 @@
   "watchdate": "4.23.2022",
   "title": "Come and See",
   "year": "1985",
+  "runtime_hm": "2h22m",
   "links": {
    "trailer": [
     "https://youtu.be/UHaSQU-4wss"
@@ -16046,6 +16239,7 @@
   "watched": true,
   "title": "White Tiger",
   "year": "2012",
+  "runtime_hm": "1h45m",
   "links": {
    "trailer": [
     "https://youtu.be/dW_XSyVbENk"
@@ -16129,6 +16323,7 @@
   "watched": true,
   "title": "UHF",
   "year": "1989",
+  "runtime_hm": "1h37m",
   "links": {
    "trailer": [
     "https://youtu.be/Iih5a2Zq_JU"
@@ -16143,6 +16338,7 @@
   "watchdate": "8.27.2022",
   "title": "Kelly's Heroes",
   "year": "1970",
+  "runtime_hm": "2h24m",
   "links": {
    "trailer": [
     "https://youtu.be/Iby1Ni0VJxg"
@@ -16159,6 +16355,7 @@
   "watched": false,
   "title": "I Am Dragon",
   "year": "2015",
+  "runtime_hm": "1h50m",
   "links": {
    "trailer": [
     "https://youtu.be/DrLgUOeCeyA",
@@ -16174,6 +16371,7 @@
   "watched": false,
   "title": "Up in Smoke",
   "year": "1978",
+  "runtime_hm": "1h26m",
   "links": {
    "trailer": [
     "https://youtu.be/rQBYkKJmFAI",
@@ -16188,6 +16386,7 @@
   "watched": false,
   "title": "Rude Awakening",
   "year": "1989",
+  "runtime_hm": "1h38m",
   "links": {
    "trailer": [
     "https://youtu.be/zNKtIHqP1pk"
@@ -16201,6 +16400,7 @@
   "watched": false,
   "title": "Toxic Avenger",
   "year": "1984",
+  "runtime_hm": "1h22m",
   "links": {
    "trailer": [
     "https://youtu.be/sKeONEIskWI"
@@ -16215,6 +16415,7 @@
   "watchdate": "01.07.23",
   "title": "The Naked Gun",
   "year": "1988",
+  "runtime_hm": "1h26m",
   "links": {
    "trailer": [
     "https://youtu.be/xvTfKg9sRR8"
@@ -16232,6 +16433,7 @@
   "watchdate": "01.14.23",
   "title": "The Naked Gun 2 1/2: The Smell of Fear",
   "year": "1991",
+  "runtime_hm": "1h25m",
   "links": {
    "trailer": [
     "https://youtu.be/H4RssRXLWhQ"
@@ -16249,6 +16451,7 @@
   "watchdate": "02.11.23",
   "title": "The Naked Gun 33 1/3: The Final Insult",
   "year": "1994",
+  "runtime_hm": "1h23m",
   "links": {
    "trailer": [
     "https://youtu.be/9BrYBoCk1aw"
@@ -16297,6 +16500,7 @@
  },
  {
   "watched": true,
+  "watchdate": "12.28.24",
   "title": "Jingle All the Way",
   "year": "1996",
   "runtime_hm": "1h29m",
@@ -16308,13 +16512,16 @@
     "https://youtu.be/tXMvUU_w36Y"
    ]
   },
+  "watchdate_arr": [
+   "20241228"
+  ],
   "id": "jingle-all-the-way-1996",
   "dbid": 9279,
   "runtime_m": 89
  },
  {
   "watched": true,
-  "watchdate": "12.17.23",
+  "watchdate": "12.17.23./12.28.24",
   "title": "Elf",
   "year": "2003",
   "runtime_hm": "1h36m",
@@ -16324,6 +16531,7 @@
    ]
   },
   "watchdate_arr": [
+   "20241228",
    "20231217"
   ],
   "id": "elf-2003",
@@ -16565,10 +16773,13 @@
   "watched": false,
   "title": "The Hogfather",
   "year": "2006",
-  "runtime_hm": "1h35m",
+  "runtime_hm": "3h9m",
   "links": {
    "trailer": [
     "https://youtu.be/cKoJEUodfgA"
+   ],
+   "movie": [
+    "https://youtu.be/42Nz8Dw2_yU"
    ]
   },
   "id": "the-hogfather-2006",
@@ -17026,6 +17237,7 @@
   "watchdate": "12.03.22",
   "title": "Lilies of the Field",
   "year": "1963",
+  "runtime_hm": "1h34m",
   "links": {
    "trailer": [
     "https://youtu.be/8aL0ml00S9Q"
@@ -17046,6 +17258,7 @@
   "watchdate": "12.10.22",
   "title": "Willy Wonka & The Chocolate Factory",
   "year": "1971",
+  "runtime_hm": "1h39m",
   "links": {
    "trailer": [
     "https://youtu.be/2cBja3AbahY"
@@ -17066,9 +17279,10 @@
   "watchdate": "01.28.23",
   "title": "Support Your Local Sheriff!",
   "year": "1969",
+  "runtime_hm": "1h32m",
   "links": {
-   "trailer": [
-    "https://youtu.be/jc-tbJcZUIg"
+   "movie": [
+    "https://youtu.be/KRNbbNBGaj0"
    ]
   },
   "watchdate_arr": [
@@ -17083,6 +17297,7 @@
   "watchdate": "02.25.23",
   "title": "Support Your Local Gunfighter",
   "year": "1971",
+  "runtime_hm": "1h31m",
   "links": {
    "movie": [
     "https://youtu.be/LjAQFEiDxPA"
@@ -17099,6 +17314,7 @@
   "watched": false,
   "title": "The Bells of St Mary's",
   "year": "1945",
+  "runtime_hm": "2h6m",
   "links": {
    "trailer": [
     "https://youtu.be/E0QDq8e-eAM"
@@ -17112,6 +17328,7 @@
   "watched": false,
   "title": "Django",
   "year": "1966",
+  "runtime_hm": "1h33m",
   "links": {
    "trailer": [
     "https://youtu.be/w8Ge2hmSTbo"
@@ -17125,6 +17342,7 @@
   "watched": false,
   "title": "Aguirre, Wrath of God",
   "year": "1972",
+  "runtime_hm": "1h35m",
   "links": {
    "trailer": [
     "https://youtu.be/eJDuicFyJPg"
