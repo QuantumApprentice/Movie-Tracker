@@ -185,6 +185,14 @@ function sidebar_buttons(whichSort, setWhichSort, sortDir, setSortDir, searchPar
         (whichSort === "watchdate") ? <Chevron className={sortDir} /> : null
       }
       </button>
+      <button onClick={(e)=>{
+        e.stopPropagation();
+        let link = document.createElement("a");
+        link.href = "/Movie-Tracker/movieTrivia-MiniGame/trivia.html";
+        link.target="_blank";
+        link.click();
+        //change page to trivia game
+      }}>Movie Trivia Game</button>
       <input name="q"
         placeholder={"Search " + random_placeholder}
         defaultValue={searchParams.get('q')}

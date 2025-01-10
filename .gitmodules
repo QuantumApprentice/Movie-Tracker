@@ -1,0 +1,3 @@
+[submodule "movieTrivia-MiniGame"]
+	path = movieTrivia-MiniGame
+	url = https://github.com/QuantumApprentice/movieTrivia-MiniGame
