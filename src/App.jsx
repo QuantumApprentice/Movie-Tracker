@@ -199,7 +199,7 @@ function sidebar_buttons(whichSort, setWhichSort, sortDir, setSortDir, searchPar
         onChange={(e)=>{
           e.stopPropagation();
           set_filter(e.target.value);
-        }} />
+        }}/>
     </>
   )
 }
