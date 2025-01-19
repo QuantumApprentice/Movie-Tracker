@@ -186,6 +186,7 @@ function sidebar_buttons(whichSort, setWhichSort, sortDir, setSortDir, searchPar
       }
       </button>
       <button onClick={(e)=>{
+        //open trivia game in new tab
         e.stopPropagation();
         // let link = document.createElement("a");
         // let link;
@@ -194,7 +195,6 @@ function sidebar_buttons(whichSort, setWhichSort, sortDir, setSortDir, searchPar
         // link.click();
         // window.open("/Movie-Tracker/movieTrivia-MiniGame/trivia.html", "_blank");
         window.open("https://quantumapprentice.github.io/movieTrivia-MiniGame/", "_blank");
-        //change page to trivia game
       }}>Movie Trivia Game</button>
       <input name="q"
         placeholder={"Search " + random_placeholder}
