@@ -192,7 +192,8 @@ function sidebar_buttons(whichSort, setWhichSort, sortDir, setSortDir, searchPar
         // link.href   = "/Movie-Tracker/movieTrivia-MiniGame/trivia.html";
         // link.target ="_blank";
         // link.click();
-        window.open("/Movie-Tracker/movieTrivia-MiniGame/trivia.html", "_blank");
+        // window.open("/Movie-Tracker/movieTrivia-MiniGame/trivia.html", "_blank");
+        window.open("/movieTrivia-MiniGame/trivia.html", "_blank");
         //change page to trivia game
       }}>Movie Trivia Game</button>
       <input name="q"
