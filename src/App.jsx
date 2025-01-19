@@ -6,6 +6,7 @@ import { useEffect, useState,
 import './App.css'
 import movieJson from './movieList.json'
 import tmdbList from './tmdbList.json'
+// const tmdbList = fetch("/QuantumApprentice/Movie-Tracker/")
 import { Link, Outlet, useParams, Route,
          useNavigate,
          useSearchParams,
@@ -102,7 +103,6 @@ function Sidebar({movieList, setMovieList})
   let [showBar, setShowBar]     = useState(false);
   let tbl_clss = 'sidebar-horizontal';
   tbl_clss = 'sidebar-vertical';
-
 
   return (
     <>
@@ -316,7 +316,6 @@ function ListMovies({movie, observerHandler})
           {
           // format_date(movie.watchdate_arr?.[0]) || 
           (movie.watched ? "Watched": "")
-          
           }
       </div>
     </div>
@@ -413,77 +412,6 @@ function observer_modify_dom_indirectly() {
   return hookRef.current;
 }
 
-function Dummy({imgUrl, observer, inView})
-{
-  // const [inView, setInView] = useState();
-  const ref = useRef();
-
-
-  useEffect(()=>{
-    // console.log("ref: ", ref.current);
-    // console.log("observer: ", observer);
-    // setInView(observer.inView);
-    // observer.inView
-    // ref.current.inView = false;
-    observer.observe(ref.current);
-
-
-  }, []);
-
-
-  return (
-    <>
-      <div
-          ref={ref}
-          data-img-src={imgUrl}
-          className='poster-array-movie'>
-        {/* <img
-          // ref={ref}
-          // data-img-src={imgUrl}
-          // src={inView ? imgUrl : null}
-        /> */}
-        {
-          inView ? <img src={imgUrl}/> : <img/>
-          // console.log("inView: ", inView)
-        
-        }
-        <h2>Stuff</h2>
-      </div>
-    </>
-  )
-
-}
-
-function Dummyer({imgUrl, observerFunc})
-{
-  const ref = useRef();
-  const [visible, setVisible] = useState(false);
-
-  useEffect(()=>{
-
-    return ()=> observerFunc(ref.current, ()=>{
-      setVisible(true);
-    });
-
-    // const visibleCB = () => setVisible(true);
-    // const whatIsThis = observerFunc(ref.current, visibleCB);
-    // return whatIsThis;
-  }, [observerFunc]);
-
-  return (
-    <>
-      <div
-          ref={ref}
-          className='poster-array-movie'>
-        {
-          visible ? <img src={imgUrl}/> : <img/>
-        }
-        <h2>Stuff</h2>
-      </div>
-    </>
-  )
-}
-
 
 /*displays list of movies to click on */
 export function DisplayList({movieList, setMovieList})
@@ -507,10 +435,6 @@ export function DisplayList({movieList, setMovieList})
 
   return (
     <>
-      {/* <Dummyer imgUrl={"http://localhost:5173/Movie-Tracker/pstr/the-mummys-hand-1940.jpg"} 
-            observerFunc={handleObserving} />
-      <Dummyer imgUrl={"http://localhost:5173/Movie-Tracker/pstr/the-invisible-woman-1940.jpg"} 
-            observerFunc={handleObserving}/> */}
       <div className='poster-array'>
         {/* {buffer ? <tr><td colSpan={4}>&nbsp;</td></tr> : null} */}
         {movieList_map}

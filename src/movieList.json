@@ -4266,7 +4266,8 @@
   "runtime_m": 110
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "01.11.25",
   "title": "From Russia With Love",
   "year": "1963",
   "runtime_hm": "1h55m",
@@ -4278,12 +4279,16 @@
     "https://youtu.be/VqAOf66o1Wg"
    ]
   },
+  "watchdate_arr": [
+   "20250111"
+  ],
   "id": "from-russia-with-love-1963",
   "dbid": 657,
   "runtime_m": 115
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "01.18.25",
   "title": "Goldfinger",
   "year": "1964",
   "runtime_hm": "1h50m",
@@ -4292,6 +4297,9 @@
     "https://youtu.be/MA65V-oLKa8"
    ]
   },
+  "watchdate_arr": [
+   "20250118"
+  ],
   "id": "goldfinger-1964",
   "dbid": 658,
   "runtime_m": 110
@@ -4323,6 +4331,15 @@
   "id": "you-only-live-twice-1967",
   "dbid": 667,
   "runtime_m": 117
+ },
+ {
+  "watched": false,
+  "title": "A Scanner Darkly",
+  "year": "2006",
+  "links": {},
+  "id": "a-scanner-darkly-2006",
+  "dbid": 3509,
+  "runtime_m": 100
  },
  {
   "watched": true,
@@ -12294,7 +12311,7 @@
   },
   "id": "thunderbolt-1995",
   "dbid": 10348,
-  "runtime_m": 108
+  "runtime_m": 110
  },
  {
   "watched": false,
@@ -12307,7 +12324,7 @@
   },
   "id": "the-medallion-2003",
   "dbid": 10610,
-  "runtime_m": 89
+  "runtime_m": 88
  },
  {
   "watched": true,
@@ -14315,6 +14332,7 @@
  },
  {
   "watched": true,
+  "watchdate": "01.11.25",
   "title": "Star Trek II: The Wrath of Khan",
   "year": "1982",
   "links": {
@@ -14322,12 +14340,16 @@
     "https://youtu.be/F3DTwSHn1jM"
    ]
   },
+  "watchdate_arr": [
+   "20250111"
+  ],
   "id": "star-trek-ii-the-wrath-of-khan-1982",
   "dbid": 154,
   "runtime_m": 112
  },
  {
   "watched": true,
+  "watchdate": "01.18.25",
   "title": "Star Trek III: The Search for Spock",
   "year": "1984",
   "runtime_hm": "1h45m",
@@ -14336,6 +14358,9 @@
     "https://youtu.be/KN1MnTZZ9Q8"
    ]
   },
+  "watchdate_arr": [
+   "20250118"
+  ],
   "id": "star-trek-iii-the-search-for-spock-1984",
   "dbid": 157,
   "runtime_m": 105
