@@ -4305,7 +4305,8 @@
   "runtime_m": 110
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "01.25.25",
   "title": "Thunderball",
   "year": "1965",
   "runtime_hm": "2h10m",
@@ -4314,6 +4315,9 @@
     "https://youtu.be/7JowkFmI1Fo"
    ]
   },
+  "watchdate_arr": [
+   "20250125"
+  ],
   "id": "thunderball-1965",
   "dbid": 660,
   "runtime_m": 130
@@ -4336,7 +4340,12 @@
   "watched": false,
   "title": "On Her Majesty's Secret Service",
   "year": "1969",
-  "links": {},
+  "runtime_hm": "2h22m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/dOLq5Rg9N-c"
+   ]
+  },
   "id": "on-her-majestys-secret-service-1969",
   "dbid": 668,
   "runtime_m": 142
@@ -4345,7 +4354,12 @@
   "watched": false,
   "title": "Diamonds Are Forever",
   "year": "1971",
-  "links": {},
+  "runtime_hm": "2h0m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/9yOamj4mlnE"
+   ]
+  },
   "id": "diamonds-are-forever-1971",
   "dbid": 681,
   "runtime_m": 120
@@ -4354,7 +4368,12 @@
   "watched": false,
   "title": "Live and Let Die",
   "year": "1973",
-  "links": {},
+  "runtime_hm": "2h1m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/KTzsm9-XWQo"
+   ]
+  },
   "id": "live-and-let-die-1973",
   "dbid": 253,
   "runtime_m": 121
@@ -4363,7 +4382,12 @@
   "watched": false,
   "title": "The Man with the Golden Gun",
   "year": "1974",
-  "links": {},
+  "runtime_hm": "2h5m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/gF5fr3Zhi7E"
+   ]
+  },
   "id": "the-man-with-the-golden-gun-1974",
   "dbid": 682,
   "runtime_m": 125
@@ -4372,7 +4396,12 @@
   "watched": false,
   "title": "The Spy Who Loved Me",
   "year": "1977",
-  "links": {},
+  "runtime_hm": "2h5m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/UBxG_TJvYTg"
+   ]
+  },
   "id": "the-spy-who-loved-me-1977",
   "dbid": 691,
   "runtime_m": 125
@@ -4381,7 +4410,12 @@
   "watched": false,
   "title": "Moonraker",
   "year": "1979",
-  "links": {},
+  "runtime_hm": "2h6m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/KFOOjYU16KE"
+   ]
+  },
   "id": "moonraker-1979",
   "dbid": 698,
   "runtime_m": 126
@@ -4390,25 +4424,55 @@
   "watched": false,
   "title": "For Your Eyes Only",
   "year": "1981",
-  "links": {},
+  "runtime_hm": "2h8m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/e0iF8TCk4Fw"
+   ]
+  },
   "id": "for-your-eyes-only-1981",
   "dbid": 699,
   "runtime_m": 128
  },
  {
   "watched": false,
+  "title": "Never Say Never Again",
+  "year": "1983",
+  "runtime_hm": "2h14m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/W40JYaK5fFQ",
+    "https://youtu.be/rgcKg6Bwf8U"
+   ]
+  },
+  "id": "never-say-never-again-1983",
+  "dbid": 36670,
+  "runtime_m": 134
+ },
+ {
+  "watched": false,
   "title": "Octopussy",
   "year": "1983",
-  "links": {},
+  "runtime_hm": "2h11m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/q1hLWZzgZvU"
+   ]
+  },
   "id": "octopussy-1983",
   "dbid": 700,
   "runtime_m": 131
  },
  {
   "watched": false,
-  "title": "A View to a Kill",
+  "title": "A View to A Kill",
   "year": "1985",
-  "links": {},
+  "runtime_hm": "2h11m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/buOK9kJIJA4"
+   ]
+  },
   "id": "a-view-to-a-kill-1985",
   "dbid": 707,
   "runtime_m": 131
@@ -4417,7 +4481,12 @@
   "watched": false,
   "title": "The Living Daylights",
   "year": "1987",
-  "links": {},
+  "runtime_hm": "2h10m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/IXAVKJTIM1E"
+   ]
+  },
   "id": "the-living-daylights-1987",
   "dbid": 708,
   "runtime_m": 130
@@ -4426,7 +4495,12 @@
   "watched": false,
   "title": "Licence to Kill",
   "year": "1989",
-  "links": {},
+  "runtime_hm": "2h13m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/quHQAuO0lkg"
+   ]
+  },
   "id": "licence-to-kill-1989",
   "dbid": 709,
   "runtime_m": 133
@@ -4435,7 +4509,12 @@
   "watched": false,
   "title": "GoldenEye",
   "year": "1995",
-  "links": {},
+  "runtime_hm": "2h10m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/lcOqUE0u1LM"
+   ]
+  },
   "id": "goldeneye-1995",
   "dbid": 710,
   "runtime_m": 130
@@ -4444,6 +4523,7 @@
   "watched": false,
   "title": "Tomorrow Never Dies",
   "year": "1997",
+  "runtime_hm": "1h59m",
   "links": {},
   "id": "tomorrow-never-dies-1997",
   "dbid": 714,
@@ -4453,6 +4533,7 @@
   "watched": false,
   "title": "The World Is Not Enough",
   "year": "1999",
+  "runtime_hm": "2h8m",
   "links": {},
   "id": "the-world-is-not-enough-1999",
   "dbid": 36643,
@@ -4462,6 +4543,7 @@
   "watched": false,
   "title": "Die Another Day",
   "year": "2002",
+  "runtime_hm": "2h13m",
   "links": {},
   "id": "die-another-day-2002",
   "dbid": 36669,
@@ -8614,7 +8696,7 @@
   },
   "id": "highlander-ii-the-quickening-1991",
   "dbid": 8010,
-  "runtime_m": 90
+  "runtime_m": 100
  },
  {
   "watched": false,
@@ -13879,7 +13961,7 @@
   },
   "id": "rocky-iii-1982",
   "dbid": 1371,
-  "runtime_m": 100
+  "runtime_m": 99
  },
  {
   "watched": true,
@@ -14502,6 +14584,7 @@
  },
  {
   "watched": true,
+  "watchdate": "01.25.25",
   "title": "Star Trek IV: The Voyage Home",
   "year": "1986",
   "runtime_hm": "1h59m",
@@ -14510,6 +14593,9 @@
     "https://youtu.be/4IJVV2sjPT8"
    ]
   },
+  "watchdate_arr": [
+   "20250125"
+  ],
   "id": "star-trek-iv-the-voyage-home-1986",
   "dbid": 168,
   "runtime_m": 118
