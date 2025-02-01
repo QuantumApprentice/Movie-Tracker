@@ -108,7 +108,7 @@
   },
   "id": "draculas-daughter-1936",
   "dbid": 22440,
-  "runtime_m": 71
+  "runtime_m": 68
  },
  {
   "watched": false,
@@ -249,7 +249,7 @@
   },
   "id": "son-of-dracula-1943",
   "dbid": 32023,
-  "runtime_m": 80
+  "runtime_m": 77
  },
  {
   "watched": false,
@@ -314,7 +314,7 @@
   },
   "id": "house-of-dracula-1945",
   "dbid": 30793,
-  "runtime_m": 67
+  "runtime_m": 64
  },
  {
   "watched": false,
@@ -566,6 +566,20 @@
   "id": "the-adams-family-1991",
   "dbid": 2907,
   "runtime_m": 100
+ },
+ {
+  "watched": false,
+  "title": "Altered States",
+  "year": "1980",
+  "runtime_hm": "1h42m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/0XNVQ4ILPBA"
+   ]
+  },
+  "id": "altered-states-1980",
+  "dbid": 11542,
+  "runtime_m": 102
  },
  {
   "watched": false,
@@ -5138,6 +5152,46 @@
   "runtime_m": 127
  },
  {
+  "watched": true,
+  "title": "The Karate Kid",
+  "year": "1984",
+  "runtime_hm": "2h6m",
+  "links": {},
+  "id": "the-karate-kid-1984",
+  "dbid": 1885,
+  "runtime_m": 126
+ },
+ {
+  "watched": true,
+  "title": "The Karate Kid Part II",
+  "year": "1986",
+  "runtime_hm": "1h53m",
+  "links": {},
+  "id": "the-karate-kid-part-ii-1986",
+  "dbid": 8856,
+  "runtime_m": 113
+ },
+ {
+  "watched": true,
+  "title": "The Karate Kid Part III",
+  "year": "1989",
+  "runtime_hm": "1h52m",
+  "links": {},
+  "id": "the-karate-kid-part-iii-1989",
+  "dbid": 10495,
+  "runtime_m": 112
+ },
+ {
+  "watched": true,
+  "title": "The Next Karate Kid",
+  "year": "1994",
+  "runtime_hm": "1h47m",
+  "links": {},
+  "id": "the-next-karate-kid-1994",
+  "dbid": 11231,
+  "runtime_m": 107
+ },
+ {
   "watched": false,
   "title": "The Hitman's Bodyguard",
   "year": "2017",
@@ -5646,6 +5700,36 @@
   "id": "dumb-and-dumber-1994",
   "dbid": 8467,
   "runtime_m": 107
+ },
+ {
+  "watched": false,
+  "title": "Ace Ventura: Pet Detective",
+  "year": "1994",
+  "runtime_hm": "1h26m",
+  "links": {},
+  "id": "ace-ventura-pet-detective-1994",
+  "dbid": 3049,
+  "runtime_m": 86
+ },
+ {
+  "watched": false,
+  "title": "The Mask",
+  "year": "1994",
+  "runtime_hm": "1h41m",
+  "links": {},
+  "id": "the-mask-1994",
+  "dbid": 854,
+  "runtime_m": 101
+ },
+ {
+  "watched": false,
+  "title": "Ace Ventura: When Nature Calls",
+  "year": "1995",
+  "runtime_hm": "1h30m",
+  "links": {},
+  "id": "ace-ventura-when-nature-calls-1995",
+  "dbid": 9273,
+  "runtime_m": 90
  },
  {
   "watched": false,
@@ -7094,6 +7178,19 @@
   "id": "the-shape-of-things-to-come-1979",
   "dbid": 41415,
   "runtime_m": 98
+ },
+ {
+  "watched": false,
+  "title": "Breakdown",
+  "year": "1997",
+  "links": {
+   "trailer": [
+    "https://youtu.be/zZd2mlXFJWQ"
+   ]
+  },
+  "id": "breakdown-1997",
+  "dbid": 2163,
+  "runtime_m": 93
  },
  {
   "watched": false,
@@ -10420,6 +10517,20 @@
   "id": "the-room-2003",
   "dbid": 17473,
   "runtime_m": 99
+ },
+ {
+  "watched": false,
+  "title": "Stir Crazy",
+  "year": "1980",
+  "runtime_hm": "1h51m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/1U1h0aYcXyQ"
+   ]
+  },
+  "id": "stir-crazy-1980",
+  "dbid": 21629,
+  "runtime_m": 111
  },
  {
   "watched": false,
