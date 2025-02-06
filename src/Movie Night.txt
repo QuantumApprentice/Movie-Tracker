@@ -353,7 +353,7 @@ Basic Instinct (1992) [] trailer:
 -01.11.25.|From Russia With Love (1963) [1h55m] trailer: https://youtu.be/9EHiS0dU5GI modern: https://youtu.be/VqAOf66o1Wg
 -01.18.25.|Goldfinger (1964) [1h50m] trailer: https://youtu.be/MA65V-oLKa8
 -01.25.25.|Thunderball (1965) [2h10m] trailer: https://youtu.be/7JowkFmI1Fo
-You Only Live Twice (1967) [1h57m] trailer: https://youtu.be/-gGiYrS2Y1k
+-02.01.25.|You Only Live Twice (1967) [1h57m] trailer: https://youtu.be/-gGiYrS2Y1k
 On Her Majesty's Secret Service (1969) [2h22m] trailer: https://youtu.be/dOLq5Rg9N-c
 Diamonds Are Forever (1971) [2h0m] trailer: https://youtu.be/9yOamj4mlnE
 Live and Let Die (1973) [2h1m] trailer: https://youtu.be/KTzsm9-XWQo
@@ -438,6 +438,9 @@ Dark Star (1974) [1h23m] trailer: https://youtu.be/lwISbJfRNz0
 Nineteen Eighty-Four (1984) [1h53m] trailer: https://youtu.be/urrqW4_3IBg
 -2001: A Space Odyssey (1968) [2h29m] trailer: https://youtu.be/Z2UWOeBcsJI modern: https://youtu.be/oR_e9y-bka0 movie: https://youtu.be/peMX_zlIIA4
 -2010: The Year We Make Contact (1984) [1h56m] trailer: https://youtu.be/Gyf8QWoL7T0 movie: https://youtu.be/1nNiUBVwF-o
+
+#Ridley Scott
+Kingdom of Heaven (2005) [2h24m] trailer: 
 
 -9.03.2022.|Alien (1979) [1h57m] trailer: https://youtu.be/jQ5lPt9edzQ
 -9.17.2022.|Aliens (1986) [2h17m] trailer: https://youtu.be/bTCaVjQ8nU4
@@ -600,6 +603,7 @@ Robinson Crusoe on Mars (1964) [1h50m] trailer:
 
 
 #1970s (but not star wars)
+The Paper Chase (1973) [1h53m] trailer: https://youtu.be/wGUfvZU4wiE
 Westworld (1973) [1h28m] trailer: https://youtu.be/JoUWNBcBKkA modern: https://youtu.be/dnR5jqiG-og
 Futureworld (1976) [1h48m] trailer: https://youtu.be/yr3a2AL62Ak
 Rollerball (1975) [2h5m] trailer: https://youtu.be/yku2CXuKKiU
@@ -608,6 +612,7 @@ Days of Heaven (1978) [1h34m] trailer: https://youtu.be/DCd2ruD1jTA modern: http
 Sleeper (1973) [1h29m] trailer: https://youtu.be/VDC1SUlXuGI
 The Last Dinosaur (1977) [1h46m] trailer: 
 The Shape of Things to Come (1979) [1h38m] trailer: 
+
 
 #Kurt Russel
 Breakdown (1997) [] trailer: https://youtu.be/zZd2mlXFJWQ
@@ -1028,6 +1033,8 @@ The Patriot (2000) [2h45m] trailer:
 
 
 
+
+Patriot Games (1992) [1h57m] trailer: 
 Gangs Of New York (2002) [2h47m] trailer: https://youtu.be/1bjh979vVG0
 
 
@@ -1270,7 +1277,7 @@ Space Raiders (1983) [1h24m] https://youtu.be/XBham6MnKYE
 -01.11.25.|Star Trek II: The Wrath of Khan (1982) [2h] trailer: https://youtu.be/F3DTwSHn1jM
 -01.18.25.|Star Trek III: The Search for Spock (1984) [1h45m] trailer: https://youtu.be/KN1MnTZZ9Q8
 -01.25.25.|Star Trek IV: The Voyage Home (1986) [1h59m] trailer: https://youtu.be/4IJVV2sjPT8
--Star Trek V: The Final Frontier (1989) [1h47m] teaser: https://youtu.be/610BAixkO64 trailer: https://youtu.be/7S5TDrAWBd8
+-02.01.25.|Star Trek V: The Final Frontier (1989) [1h47m] teaser: https://youtu.be/610BAixkO64 trailer: https://youtu.be/7S5TDrAWBd8
 -Star Trek VI: The Undiscovered Country (1991) [1h53m] trailer: https://youtu.be/SxD6i5u2U00 teaser: https://youtu.be/lKfkkhEbUlY
 -Starman (1984) [1h55m] trailer: https://youtu.be/N_43Zci6Jq4
 Stargate (1994) [1h56m] trailer: https://youtu.be/kiJtZUPvJxY movie: https://youtu.be/u0oFZ8LAFkk
@@ -1280,6 +1287,9 @@ Strange Invaders (1983) [1h34m] https://youtu.be/XvQGWDh9ybQ
 -Tron (1982) [1h36m] trailer: https://youtu.be/INv-OQ1clmw https://youtu.be/hMT8tRrEMC4
 -12.14.24.|Trading Places (1983) [1h58m] teaser: https://youtu.be/lhAilpSsL4k trailer: https://youtu.be/vEaXAsbvHV4 modern: https://youtu.be/Fupg2r1EJ9w
 -Coming to America (1988) [1h57m] trailer: https://youtu.be/KFroCRDXw5E modern: https://youtu.be/ZDme5Y5E-bI
+
+Team America: World Police (2004) [1h38m] trailer: https://youtu.be/kMyJWuvW_9k trailer: https://youtu.be/9R5dk0JY2xc
+BASEketball (1998) [1h43m] trailer: https://youtu.be/s3ieUp88iL8
 
 The Time Machine (1960) [1h43m] trailer: 
 The Time Machine (2002) [1h36m] trailer: 

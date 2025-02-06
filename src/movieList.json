@@ -4337,7 +4337,8 @@
   "runtime_m": 130
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "02.01.25",
   "title": "You Only Live Twice",
   "year": "1967",
   "runtime_hm": "1h57m",
@@ -4346,6 +4347,9 @@
     "https://youtu.be/-gGiYrS2Y1k"
    ]
   },
+  "watchdate_arr": [
+   "20250201"
+  ],
   "id": "you-only-live-twice-1967",
   "dbid": 667,
   "runtime_m": 117
@@ -4657,7 +4661,7 @@
   },
   "id": "above-the-law-1986",
   "dbid": 66212,
-  "runtime_m": 102
+  "runtime_m": 104
  },
  {
   "watched": false,
@@ -5269,6 +5273,16 @@
   "id": "2010-the-year-we-make-contact-1984",
   "dbid": 4437,
   "runtime_m": 116
+ },
+ {
+  "watched": false,
+  "title": "Kingdom of Heaven",
+  "year": "2005",
+  "runtime_hm": "2h24m",
+  "links": {},
+  "id": "kingdom-of-heaven-2005",
+  "dbid": 1495,
+  "runtime_m": 144
  },
  {
   "watched": true,
@@ -7071,6 +7085,20 @@
  },
  {
   "watched": false,
+  "title": "The Paper Chase",
+  "year": "1973",
+  "runtime_hm": "1h53m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/wGUfvZU4wiE"
+   ]
+  },
+  "id": "the-paper-chase-1973",
+  "dbid": 14328,
+  "runtime_m": 113
+ },
+ {
+  "watched": false,
   "title": "Westworld",
   "year": "1973",
   "runtime_hm": "1h28m",
@@ -7680,7 +7708,7 @@
   ],
   "id": "end-of-days-1999",
   "dbid": 9946,
-  "runtime_m": 121
+  "runtime_m": 122
  },
  {
   "watched": true,
@@ -11806,6 +11834,16 @@
  },
  {
   "watched": false,
+  "title": "Patriot Games",
+  "year": "1992",
+  "runtime_hm": "1h57m",
+  "links": {},
+  "id": "patriot-games-1992",
+  "dbid": 9869,
+  "runtime_m": 117
+ },
+ {
+  "watched": false,
   "title": "Gangs Of New York",
   "year": "2002",
   "runtime_hm": "2h47m",
@@ -14713,6 +14751,7 @@
  },
  {
   "watched": true,
+  "watchdate": "02.01.25",
   "title": "Star Trek V: The Final Frontier",
   "year": "1989",
   "runtime_hm": "1h47m",
@@ -14724,6 +14763,9 @@
     "https://youtu.be/7S5TDrAWBd8"
    ]
   },
+  "watchdate_arr": [
+   "20250201"
+  ],
   "id": "star-trek-v-the-final-frontier-1989",
   "dbid": 172,
   "runtime_m": 106
@@ -14873,6 +14915,35 @@
   "id": "coming-to-america-1988",
   "dbid": 9602,
   "runtime_m": 117
+ },
+ {
+  "watched": false,
+  "title": "Team America: World Police",
+  "year": "2004",
+  "runtime_hm": "1h38m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/kMyJWuvW_9k",
+    "https://youtu.be/9R5dk0JY2xc"
+   ]
+  },
+  "id": "team-america-world-police-2004",
+  "dbid": 3989,
+  "runtime_m": 97
+ },
+ {
+  "watched": false,
+  "title": "BASEketball",
+  "year": "1998",
+  "runtime_hm": "1h43m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/s3ieUp88iL8"
+   ]
+  },
+  "id": "baseketball-1998",
+  "dbid": 14013,
+  "runtime_m": 103
  },
  {
   "watched": false,
