@@ -1889,7 +1889,7 @@
   },
   "id": "killer-klowns-from-outer-space-1988",
   "dbid": 16296,
-  "runtime_m": 88
+  "runtime_m": 86
  },
  {
   "watched": true,
@@ -4373,7 +4373,8 @@
   "runtime_m": 142
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "02.15.25",
   "title": "Diamonds Are Forever",
   "year": "1971",
   "runtime_hm": "2h0m",
@@ -4382,6 +4383,9 @@
     "https://youtu.be/9yOamj4mlnE"
    ]
   },
+  "watchdate_arr": [
+   "20250215"
+  ],
   "id": "diamonds-are-forever-1971",
   "dbid": 681,
   "runtime_m": 120
@@ -7210,6 +7214,16 @@
   "id": "the-shape-of-things-to-come-1979",
   "dbid": 41415,
   "runtime_m": 98
+ },
+ {
+  "watched": false,
+  "title": "Starship Troopers",
+  "year": "1997",
+  "runtime_hm": "2h9m",
+  "links": {},
+  "id": "starship-troopers-1997",
+  "dbid": 563,
+  "runtime_m": 129
  },
  {
   "watched": false,
@@ -10368,6 +10382,20 @@
   "id": "dodgeball-2004",
   "dbid": 9472,
   "runtime_m": 92
+ },
+ {
+  "watched": false,
+  "title": "Big Man Japan",
+  "year": "2007",
+  "runtime_hm": "1h53m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/bRny1wok0Ao"
+   ]
+  },
+  "id": "big-man-japan-2007",
+  "dbid": 11693,
+  "runtime_m": 113
  },
  {
   "watched": false,
@@ -14776,7 +14804,7 @@
  },
  {
   "watched": true,
-  "watchdate": "02.28.25",
+  "watchdate": "02.08.25",
   "title": "Star Trek VI: The Undiscovered Country",
   "year": "1991",
   "runtime_hm": "1h53m",
@@ -14789,7 +14817,7 @@
    ]
   },
   "watchdate_arr": [
-   "20250228"
+   "20250208"
   ],
   "id": "star-trek-vi-the-undiscovered-country-1991",
   "dbid": 174,
@@ -14797,6 +14825,7 @@
  },
  {
   "watched": true,
+  "watchdate": "02.15.25",
   "title": "Star Trek: Generations",
   "year": "1994",
   "runtime_hm": "1h58m",
@@ -14805,6 +14834,9 @@
     "https://youtu.be/IcSgqjqOOIM"
    ]
   },
+  "watchdate_arr": [
+   "20250215"
+  ],
   "id": "star-trek-generations-1994",
   "dbid": 193,
   "runtime_m": 117
@@ -15531,7 +15563,7 @@
   },
   "id": "faster-pussycat-kill-kill-1965",
   "dbid": 315,
-  "runtime_m": 84
+  "runtime_m": 83
  },
  {
   "watched": false,
