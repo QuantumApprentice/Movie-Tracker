@@ -4453,7 +4453,8 @@
   "runtime_m": 125
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "03.08.25",
   "title": "The Spy Who Loved Me",
   "year": "1977",
   "runtime_hm": "2h5m",
@@ -4462,6 +4463,9 @@
     "https://youtu.be/UBxG_TJvYTg"
    ]
   },
+  "watchdate_arr": [
+   "20250308"
+  ],
   "id": "the-spy-who-loved-me-1977",
   "dbid": 691,
   "runtime_m": 125
@@ -7288,8 +7292,8 @@
   "runtime_hm": "2h33m",
   "links": {},
   "id": "inglorious-basterds-2009",
-  "dbid": 28447,
-  "runtime_m": 6
+  "dbid": 16869,
+  "runtime_m": 153
  },
  {
   "watched": false,
@@ -12520,6 +12524,30 @@
  },
  {
   "watched": false,
+  "title": "Beer",
+  "year": "1985",
+  "runtime_hm": "1h22m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/-vciyLhSmv0"
+   ]
+  },
+  "id": "beer-1985",
+  "dbid": 92802,
+  "runtime_m": 82
+ },
+ {
+  "watched": false,
+  "title": "Fast Times at Ridgemont High",
+  "year": "1982",
+  "runtime_hm": "1h30m",
+  "links": {},
+  "id": "fast-times-at-ridgemont-high-1982",
+  "dbid": 13342,
+  "runtime_m": 90
+ },
+ {
+  "watched": false,
   "title": "Beavis and Butt-Head Do America",
   "year": "1996",
   "runtime_hm": "1h21m",
@@ -15160,6 +15188,7 @@
  },
  {
   "watched": true,
+  "watchdate": "03.08.25",
   "title": "Star Trek: Nemesis",
   "year": "2002",
   "runtime_hm": "1h56m",
@@ -15171,6 +15200,9 @@
     "https://youtu.be/ZpPRo5CP72Q"
    ]
   },
+  "watchdate_arr": [
+   "20250308"
+  ],
   "id": "star-trek-nemesis-2002",
   "dbid": 201,
   "runtime_m": 116
@@ -16595,7 +16627,7 @@
   },
   "id": "twilight-zone-the-movie-1983",
   "dbid": 15301,
-  "runtime_m": 101
+  "runtime_m": 102
  },
  {
   "watched": true,
