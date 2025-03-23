@@ -10,8 +10,8 @@
    ]
   },
   "id": "dracula-1931",
-  "dbid": 138,
-  "runtime_m": 74
+  "dbid": 39259,
+  "runtime_m": 104
  },
  {
   "watched": true,
@@ -2608,8 +2608,8 @@
    ]
   },
   "id": "ringu-1998",
-  "dbid": 2671,
-  "runtime_m": 96
+  "dbid": 9706,
+  "runtime_m": 97
  },
  {
   "watched": false,
@@ -2720,8 +2720,8 @@
    ]
   },
   "id": "silence-of-the-lambs-1991",
-  "dbid": 274,
-  "runtime_m": 119
+  "dbid": 692291,
+  "runtime_m": 8
  },
  {
   "watched": false,
@@ -3415,6 +3415,24 @@
  },
  {
   "watched": false,
+  "title": "Any Which Way But Loose",
+  "year": "1978",
+  "runtime_hm": "1h54m",
+  "links": {},
+  "id": "any-which-way-but-loose-1978"
+ },
+ {
+  "watched": false,
+  "title": "Any Which Way You Can",
+  "year": "1980",
+  "runtime_hm": "1h56m",
+  "links": {},
+  "id": "any-which-way-you-can-1980",
+  "dbid": 17169,
+  "runtime_m": 115
+ },
+ {
+  "watched": false,
   "title": "Strangers on a Train",
   "year": "1951",
   "runtime_hm": "1h41m",
@@ -3876,6 +3894,20 @@
   "id": "dale-and-tucker-vs-evil-2010",
   "dbid": 46838,
   "runtime_m": 89
+ },
+ {
+  "watched": false,
+  "title": "Rising Sun",
+  "year": "1993",
+  "runtime_hm": "2h9m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/-EXt9QUAWz4"
+   ]
+  },
+  "id": "rising-sun-1993",
+  "dbid": 7007,
+  "runtime_m": 125
  },
  {
   "watched": false,
@@ -4471,7 +4503,8 @@
   "runtime_m": 125
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "03.15.25",
   "title": "Moonraker",
   "year": "1979",
   "runtime_hm": "2h6m",
@@ -4480,12 +4513,16 @@
     "https://youtu.be/KFOOjYU16KE"
    ]
   },
+  "watchdate_arr": [
+   "20250315"
+  ],
   "id": "moonraker-1979",
   "dbid": 698,
   "runtime_m": 126
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "03.22.25",
   "title": "For Your Eyes Only",
   "year": "1981",
   "runtime_hm": "2h8m",
@@ -4494,6 +4531,9 @@
     "https://youtu.be/e0iF8TCk4Fw"
    ]
   },
+  "watchdate_arr": [
+   "20250322"
+  ],
   "id": "for-your-eyes-only-1981",
   "dbid": 699,
   "runtime_m": 128
@@ -5857,8 +5897,8 @@
    ]
   },
   "id": "x-men-2000",
-  "dbid": 36657,
-  "runtime_m": 104
+  "dbid": 447399,
+  "runtime_m": 22
  },
  {
   "watched": false,
@@ -6602,23 +6642,6 @@
  },
  {
   "watched": false,
-  "title": "Gone With the Wind",
-  "year": "1939",
-  "runtime_hm": "3h42m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/0X94oZgJis4"
-   ],
-   "modern": [
-    "https://youtu.be/h2oX0zQA67U"
-   ]
-  },
-  "id": "gone-with-the-wind-1939",
-  "dbid": 770,
-  "runtime_m": 233
- },
- {
-  "watched": false,
   "title": "City Lights",
   "year": "1931",
   "runtime_hm": "1h27m",
@@ -6639,37 +6662,30 @@
  },
  {
   "watched": false,
-  "title": "Treasure of the Sierra Madre",
-  "year": "1948",
-  "runtime_hm": "2h6m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/XZ8Q9mOYJgE"
-   ]
-  },
-  "id": "treasure-of-the-sierra-madre-1948",
-  "dbid": 3090,
-  "runtime_m": 126
+  "title": "I Am a Fugitive from a Chain Gang",
+  "year": "1932",
+  "runtime_hm": "1h32m",
+  "links": {},
+  "id": "i-am-a-fugitive-from-a-chain-gang-1932",
+  "dbid": 29740,
+  "runtime_m": 92
  },
  {
   "watched": false,
-  "title": "Adventures of Don Juan",
-  "year": "1948",
-  "runtime_hm": "1h50m",
+  "title": "Gone With the Wind",
+  "year": "1939",
+  "runtime_hm": "3h42m",
   "links": {
    "trailer": [
-    "https://youtu.be/bKdjN3dBDhY"
+    "https://youtu.be/0X94oZgJis4"
    ],
    "modern": [
-    "https://youtu.be/8-F7-CFNG6M"
-   ],
-   "movie": [
-    "https://hurawatchtv.to/watch-movie/watch-adventures-of-don-juan-free-87223/1290235"
+    "https://youtu.be/h2oX0zQA67U"
    ]
   },
-  "id": "adventures-of-don-juan-1948",
-  "dbid": 34233,
-  "runtime_m": 106
+  "id": "gone-with-the-wind-1939",
+  "dbid": 770,
+  "runtime_m": 233
  },
  {
   "watched": false,
@@ -6704,184 +6720,47 @@
  },
  {
   "watched": false,
-  "title": "The Enemy Below",
-  "year": "1957",
-  "runtime_hm": "1h38m",
+  "title": "Adventures of Don Juan",
+  "year": "1948",
+  "runtime_hm": "1h50m",
   "links": {
    "trailer": [
-    "https://youtu.be/oRXXjWZoVK0"
+    "https://youtu.be/bKdjN3dBDhY"
+   ],
+   "modern": [
+    "https://youtu.be/8-F7-CFNG6M"
    ],
    "movie": [
-    "https://youtu.be/ny6oZED1Hm8"
+    "https://hurawatchtv.to/watch-movie/watch-adventures-of-don-juan-free-87223/1290235"
    ]
   },
-  "id": "the-enemy-below-1957",
-  "dbid": 15876,
-  "runtime_m": 97
+  "id": "adventures-of-don-juan-1948",
+  "dbid": 34233,
+  "runtime_m": 106
  },
  {
   "watched": false,
-  "title": "When Worlds Collide",
-  "year": "1951",
-  "runtime_hm": "1h23m",
-  "links": {},
-  "id": "when-worlds-collide-1951",
-  "dbid": 16380,
-  "runtime_m": 83
- },
- {
-  "watched": false,
-  "title": "Them",
-  "year": "1954",
-  "runtime_hm": "1h34m",
-  "links": {},
-  "id": "them-1954",
-  "dbid": 11071,
-  "runtime_m": 94
- },
- {
-  "watched": false,
-  "title": "The Thing",
-  "year": "1951",
-  "runtime_hm": "1h27m",
-  "links": {},
-  "id": "the-thing-1951",
-  "dbid": 10785,
-  "runtime_m": 87
- },
- {
-  "watched": false,
-  "title": "The War of the Worlds",
-  "year": "1953",
-  "runtime_hm": "1h25m",
+  "title": "Treasure of the Sierra Madre",
+  "year": "1948",
+  "runtime_hm": "2h6m",
   "links": {
    "trailer": [
-    "https://youtu.be/s8TVpD5yzE4"
+    "https://youtu.be/XZ8Q9mOYJgE"
    ]
   },
-  "id": "the-war-of-the-worlds-1953",
-  "dbid": 8974,
-  "runtime_m": 85
+  "id": "treasure-of-the-sierra-madre-1948",
+  "dbid": 3090,
+  "runtime_m": 126
  },
  {
   "watched": false,
-  "title": "Tarantula",
-  "year": "1955",
-  "runtime_hm": "1h20m",
+  "title": "The Snake Pit",
+  "year": "1948",
+  "runtime_hm": "1h48m",
   "links": {},
-  "id": "tarantula-1955",
-  "dbid": 9077,
-  "runtime_m": 80
- },
- {
-  "watched": false,
-  "title": "Attack of the 50ft Woman",
-  "year": "1958",
-  "runtime_hm": "1h6m",
-  "links": {},
-  "id": "attack-of-the-50ft-woman-1958",
-  "dbid": 18724,
-  "runtime_m": 66
- },
- {
-  "watched": false,
-  "title": "Robot Monster",
-  "year": "1953",
-  "runtime_hm": "1h6m",
-  "links": {},
-  "id": "robot-monster-1953",
-  "dbid": 43353,
-  "runtime_m": 66
- },
- {
-  "watched": false,
-  "title": "The Trollenberg Terror/The Crawling Eye",
-  "year": "1958",
-  "runtime_hm": "1h24m",
-  "links": {},
-  "id": "the-trollenberg-terror-the-crawling-eye-1958",
-  "dbid": 43143,
-  "runtime_m": 84
- },
- {
-  "watched": false,
-  "title": "It Came from Beneath the Sea",
-  "year": "1955",
-  "runtime_hm": "1h19m",
-  "links": {},
-  "id": "it-came-from-beneath-the-sea-1955",
-  "dbid": 29959,
-  "runtime_m": 79
- },
- {
-  "watched": false,
-  "title": "Invaders from Mars",
-  "year": "1953",
-  "runtime_hm": "1h18m",
-  "links": {},
-  "id": "invaders-from-mars-1953",
-  "dbid": 20424,
-  "runtime_m": 78
- },
- {
-  "watched": false,
-  "title": "Battle in Outer Space",
-  "year": "1959",
-  "runtime_hm": "1h30m",
-  "links": {},
-  "id": "battle-in-outer-space-1959",
-  "dbid": 62472,
-  "runtime_m": 90
- },
- {
-  "watched": false,
-  "title": "It Came from Outer Space",
-  "year": "1953",
-  "runtime_hm": "1h21m",
-  "links": {},
-  "id": "it-came-from-outer-space-1953",
-  "dbid": 19483,
-  "runtime_m": 81
- },
- {
-  "watched": false,
-  "title": "Earth vs the Flying Saucers",
-  "year": "1956",
-  "runtime_hm": "1h23m",
-  "links": {},
-  "id": "earth-vs-the-flying-saucers-1956",
-  "dbid": 18158,
-  "runtime_m": 83
- },
- {
-  "watched": false,
-  "title": "The Quatermass Experiment",
-  "year": "1955",
-  "runtime_hm": "1h22m",
-  "links": {},
-  "id": "the-quatermass-experiment-1955",
-  "dbid": 24580,
-  "runtime_m": 82
- },
- {
-  "watched": false,
-  "title": "The Creature from the Black Lagoon",
-  "year": "1954",
-  "runtime_hm": "1h19m",
-  "links": {},
-  "id": "the-creature-from-the-black-lagoon-1954",
-  "dbid": 10973,
-  "runtime_m": 79
- },
- {
-  "watched": false,
-  "title": "20,000 Leagues under the Sea",
-  "year": "1954",
-  "runtime_hm": "2h7m",
-  "links": {},
-  "id": "20-000-leagues-under-the-sea-1954",
-  "dbid": 173,
-  "runtime_m": 127
+  "id": "the-snake-pit-1948",
+  "dbid": 62694,
+  "runtime_m": 108
  },
  {
   "watched": false,
@@ -6895,26 +6774,6 @@
  },
  {
   "watched": false,
-  "title": "The Incredible Shrinking Man",
-  "year": "1957",
-  "runtime_hm": "1h21m",
-  "links": {},
-  "id": "the-incredible-shrinking-man-1957",
-  "dbid": 31682,
-  "runtime_m": 81
- },
- {
-  "watched": false,
-  "title": "This Island Earth",
-  "year": "1955",
-  "runtime_hm": "1h25m",
-  "links": {},
-  "id": "this-island-earth-1955",
-  "dbid": 831,
-  "runtime_m": 85
- },
- {
-  "watched": false,
   "title": "Tripoli",
   "year": "1950",
   "runtime_hm": "1h35m",
@@ -6922,6 +6781,16 @@
   "id": "tripoli-1950",
   "dbid": 203272,
   "runtime_m": 95
+ },
+ {
+  "watched": false,
+  "title": "The Thing",
+  "year": "1951",
+  "runtime_hm": "1h27m",
+  "links": {},
+  "id": "the-thing-1951",
+  "dbid": 10785,
+  "runtime_m": 87
  },
  {
   "watched": true,
@@ -6939,6 +6808,207 @@
   "id": "the-day-the-earth-stood-still-1951",
   "dbid": 828,
   "runtime_m": 92
+ },
+ {
+  "watched": false,
+  "title": "When Worlds Collide",
+  "year": "1951",
+  "runtime_hm": "1h23m",
+  "links": {},
+  "id": "when-worlds-collide-1951",
+  "dbid": 16380,
+  "runtime_m": 83
+ },
+ {
+  "watched": false,
+  "title": "The War of the Worlds",
+  "year": "1953",
+  "runtime_hm": "1h25m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/s8TVpD5yzE4"
+   ]
+  },
+  "id": "the-war-of-the-worlds-1953",
+  "dbid": 8974,
+  "runtime_m": 85
+ },
+ {
+  "watched": false,
+  "title": "It Came from Outer Space",
+  "year": "1953",
+  "runtime_hm": "1h21m",
+  "links": {},
+  "id": "it-came-from-outer-space-1953",
+  "dbid": 19483,
+  "runtime_m": 81
+ },
+ {
+  "watched": false,
+  "title": "Invaders from Mars",
+  "year": "1953",
+  "runtime_hm": "1h18m",
+  "links": {},
+  "id": "invaders-from-mars-1953",
+  "dbid": 20424,
+  "runtime_m": 78
+ },
+ {
+  "watched": false,
+  "title": "Robot Monster",
+  "year": "1953",
+  "runtime_hm": "1h6m",
+  "links": {},
+  "id": "robot-monster-1953",
+  "dbid": 43353,
+  "runtime_m": 66
+ },
+ {
+  "watched": false,
+  "title": "Them",
+  "year": "1954",
+  "runtime_hm": "1h34m",
+  "links": {},
+  "id": "them-1954",
+  "dbid": 11071,
+  "runtime_m": 94
+ },
+ {
+  "watched": false,
+  "title": "20,000 Leagues under the Sea",
+  "year": "1954",
+  "runtime_hm": "2h7m",
+  "links": {},
+  "id": "20-000-leagues-under-the-sea-1954",
+  "dbid": 173,
+  "runtime_m": 127
+ },
+ {
+  "watched": false,
+  "title": "The Creature from the Black Lagoon",
+  "year": "1954",
+  "runtime_hm": "1h19m",
+  "links": {},
+  "id": "the-creature-from-the-black-lagoon-1954",
+  "dbid": 10973,
+  "runtime_m": 79
+ },
+ {
+  "watched": false,
+  "title": "The Quatermass Experiment",
+  "year": "1955",
+  "runtime_hm": "1h22m",
+  "links": {},
+  "id": "the-quatermass-experiment-1955",
+  "dbid": 24580,
+  "runtime_m": 82
+ },
+ {
+  "watched": false,
+  "title": "This Island Earth",
+  "year": "1955",
+  "runtime_hm": "1h25m",
+  "links": {},
+  "id": "this-island-earth-1955",
+  "dbid": 831,
+  "runtime_m": 85
+ },
+ {
+  "watched": false,
+  "title": "It Came from Beneath the Sea",
+  "year": "1955",
+  "runtime_hm": "1h19m",
+  "links": {},
+  "id": "it-came-from-beneath-the-sea-1955",
+  "dbid": 29959,
+  "runtime_m": 79
+ },
+ {
+  "watched": false,
+  "title": "Tarantula",
+  "year": "1955",
+  "runtime_hm": "1h20m",
+  "links": {},
+  "id": "tarantula-1955",
+  "dbid": 9077,
+  "runtime_m": 80
+ },
+ {
+  "watched": false,
+  "title": "Earth vs the Flying Saucers",
+  "year": "1956",
+  "runtime_hm": "1h23m",
+  "links": {},
+  "id": "earth-vs-the-flying-saucers-1956",
+  "dbid": 18158,
+  "runtime_m": 83
+ },
+ {
+  "watched": false,
+  "title": "The Enemy Below",
+  "year": "1957",
+  "runtime_hm": "1h38m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/oRXXjWZoVK0"
+   ],
+   "movie": [
+    "https://youtu.be/ny6oZED1Hm8"
+   ]
+  },
+  "id": "the-enemy-below-1957",
+  "dbid": 15876,
+  "runtime_m": 97
+ },
+ {
+  "watched": false,
+  "title": "The Incredible Shrinking Man",
+  "year": "1957",
+  "runtime_hm": "1h21m",
+  "links": {},
+  "id": "the-incredible-shrinking-man-1957",
+  "dbid": 31682,
+  "runtime_m": 81
+ },
+ {
+  "watched": false,
+  "title": "Attack of the 50ft Woman",
+  "year": "1958",
+  "runtime_hm": "1h6m",
+  "links": {},
+  "id": "attack-of-the-50ft-woman-1958",
+  "dbid": 18724,
+  "runtime_m": 66
+ },
+ {
+  "watched": false,
+  "title": "The Vikings",
+  "year": "1958",
+  "runtime_hm": "1h56m",
+  "links": {},
+  "id": "the-vikings-1958",
+  "dbid": 42661,
+  "runtime_m": 115
+ },
+ {
+  "watched": false,
+  "title": "The Trollenberg Terror/The Crawling Eye",
+  "year": "1958",
+  "runtime_hm": "1h24m",
+  "links": {},
+  "id": "the-trollenberg-terror-the-crawling-eye-1958",
+  "dbid": 43143,
+  "runtime_m": 84
+ },
+ {
+  "watched": false,
+  "title": "Battle in Outer Space",
+  "year": "1959",
+  "runtime_hm": "1h30m",
+  "links": {},
+  "id": "battle-in-outer-space-1959",
+  "dbid": 62472,
+  "runtime_m": 90
  },
  {
   "watched": false,
@@ -7047,6 +7117,16 @@
   "runtime_m": 83
  },
  {
+  "watched": false,
+  "title": "The Battle of Algiers",
+  "year": "1966",
+  "runtime_hm": "2h1m",
+  "links": {},
+  "id": "the-battle-of-algiers-1966",
+  "dbid": 17295,
+  "runtime_m": 121
+ },
+ {
   "watched": true,
   "title": "The Dirty Dozen",
   "year": "1967",
@@ -7139,6 +7219,20 @@
  },
  {
   "watched": false,
+  "title": "The Poseidon Adventure",
+  "year": "1972",
+  "runtime_hm": "1h57m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/bidQ-RTxAIY"
+   ]
+  },
+  "id": "the-poseidon-adventure-1972",
+  "dbid": 551,
+  "runtime_m": 117
+ },
+ {
+  "watched": false,
   "title": "The Paper Chase",
   "year": "1973",
   "runtime_hm": "1h53m",
@@ -7150,6 +7244,20 @@
   "id": "the-paper-chase-1973",
   "dbid": 14328,
   "runtime_m": 113
+ },
+ {
+  "watched": false,
+  "title": "Sleeper",
+  "year": "1973",
+  "runtime_hm": "1h29m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/VDC1SUlXuGI"
+   ]
+  },
+  "id": "sleeper-1973",
+  "dbid": 11561,
+  "runtime_m": 87
  },
  {
   "watched": false,
@@ -7167,20 +7275,6 @@
   "id": "westworld-1973",
   "dbid": 2362,
   "runtime_m": 89
- },
- {
-  "watched": false,
-  "title": "Futureworld",
-  "year": "1976",
-  "runtime_hm": "1h48m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/yr3a2AL62Ak"
-   ]
-  },
-  "id": "futureworld-1976",
-  "dbid": 10640,
-  "runtime_m": 108
  },
  {
   "watched": false,
@@ -7212,6 +7306,30 @@
  },
  {
   "watched": false,
+  "title": "Futureworld",
+  "year": "1976",
+  "runtime_hm": "1h48m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/yr3a2AL62Ak"
+   ]
+  },
+  "id": "futureworld-1976",
+  "dbid": 10640,
+  "runtime_m": 108
+ },
+ {
+  "watched": false,
+  "title": "The Last Dinosaur",
+  "year": "1977",
+  "runtime_hm": "1h46m",
+  "links": {},
+  "id": "the-last-dinosaur-1977",
+  "dbid": 71692,
+  "runtime_m": 106
+ },
+ {
+  "watched": false,
   "title": "Days of Heaven",
   "year": "1978",
   "runtime_hm": "1h34m",
@@ -7229,30 +7347,6 @@
  },
  {
   "watched": false,
-  "title": "Sleeper",
-  "year": "1973",
-  "runtime_hm": "1h29m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/VDC1SUlXuGI"
-   ]
-  },
-  "id": "sleeper-1973",
-  "dbid": 11561,
-  "runtime_m": 87
- },
- {
-  "watched": false,
-  "title": "The Last Dinosaur",
-  "year": "1977",
-  "runtime_hm": "1h46m",
-  "links": {},
-  "id": "the-last-dinosaur-1977",
-  "dbid": 71692,
-  "runtime_m": 106
- },
- {
-  "watched": false,
   "title": "The Shape of Things to Come",
   "year": "1979",
   "runtime_hm": "1h38m",
@@ -7260,6 +7354,52 @@
   "id": "the-shape-of-things-to-come-1979",
   "dbid": 41415,
   "runtime_m": 98
+ },
+ {
+  "watched": false,
+  "title": "The Black Hole",
+  "year": "1979",
+  "runtime_hm": "1h38m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/qzUJJKDa558"
+   ]
+  },
+  "id": "the-black-hole-1979",
+  "dbid": 9570,
+  "runtime_m": 98
+ },
+ {
+  "watched": true,
+  "watchdate": "04.30.23",
+  "title": "The China Syndrome",
+  "year": "1979",
+  "runtime_hm": "2h2m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/bIGH1AfIS18"
+   ]
+  },
+  "watchdate_arr": [
+   "20230430"
+  ],
+  "id": "the-china-syndrome-1979",
+  "dbid": 988,
+  "runtime_m": 122
+ },
+ {
+  "watched": false,
+  "title": "The Dictator",
+  "year": "2012",
+  "runtime_hm": "1h23m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/cYplvwBvGA4"
+   ]
+  },
+  "id": "the-dictator-2012",
+  "dbid": 76493,
+  "runtime_m": 83
  },
  {
   "watched": false,
@@ -8103,6 +8243,16 @@
   "id": "terminator-dark-fate-2019",
   "dbid": 290859,
   "runtime_m": 128
+ },
+ {
+  "watched": false,
+  "title": "The Day After",
+  "year": "1983",
+  "runtime_hm": "2h7m",
+  "links": {},
+  "id": "the-day-after-1983",
+  "dbid": 7012,
+  "runtime_m": 127
  },
  {
   "watched": false,
@@ -9408,6 +9558,7 @@
   "watchdate": "11.12.22",
   "title": "Little Shop of Horrors",
   "year": "1986",
+  "runtime_hm": "1h34m",
   "links": {
    "trailer": [
     "https://youtu.be/QqFZuR6UzjA"
@@ -9425,6 +9576,7 @@
   "watchdate": "11.26.22",
   "title": "Wizard of Oz",
   "year": "1939",
+  "runtime_hm": "1h42m",
   "links": {
    "trailer": [
     "https://youtu.be/FfpF8UUVTeM"
@@ -9441,6 +9593,7 @@
   "watched": false,
   "title": "The Wiz",
   "year": "1978",
+  "runtime_hm": "2h14m",
   "links": {
    "trailer": [
     "https://youtu.be/CGtnHaEK66s"
@@ -9455,6 +9608,7 @@
   "watchdate": "11.05.2022",
   "title": "Singin' in the Rain",
   "year": "1952",
+  "runtime_hm": "1h43m",
   "links": {
    "trailer": [
     "https://youtu.be/5_EVHeNEIJY"
@@ -9472,6 +9626,7 @@
   "watchdate": "11.19.22",
   "title": "The Music Man",
   "year": "1962",
+  "runtime_hm": "2h31m",
   "links": {
    "trailer": [
     "https://youtu.be/cbiBx5T2uX0"
@@ -9488,6 +9643,7 @@
   "watched": false,
   "title": "The Sound of Music",
   "year": "1965",
+  "runtime_hm": "2h54m",
   "links": {
    "trailer": [
     "https://youtu.be/UY6uw3WpPzY"
@@ -9501,6 +9657,7 @@
   "watched": false,
   "title": "Xanadu",
   "year": "1980",
+  "runtime_hm": "1h36m",
   "links": {
    "trailer": [
     "https://youtu.be/f3nuh0Oul0U"
@@ -9514,6 +9671,7 @@
   "watched": false,
   "title": "All That Jazz",
   "year": "1979",
+  "runtime_hm": "2h3m",
   "links": {
    "trailer": [
     "https://youtu.be/8_aIhkKlrwk"
@@ -9527,6 +9685,7 @@
   "watched": false,
   "title": "Tommy",
   "year": "1975",
+  "runtime_hm": "1h51m",
   "links": {
    "trailer": [
     "https://youtu.be/G4K_9WyQCgA"
@@ -9540,6 +9699,7 @@
   "watched": false,
   "title": "The Pirate Movie",
   "year": "1982",
+  "runtime_hm": "1h45m",
   "links": {
    "trailer": [
     "https://youtu.be/L5KRligugXI"
@@ -9570,6 +9730,7 @@
   "watched": false,
   "title": "Voyage of the Rock Aliens",
   "year": "1984",
+  "runtime_hm": "1h37m",
   "links": {
    "trailer": [
     "https://youtu.be/6AiOVIk7Nh4"
@@ -9584,6 +9745,7 @@
   "watchdate": "06.08.24",
   "title": "Monty Python's The Meaning of Life",
   "year": "1983",
+  "runtime_hm": "1h47m",
   "links": {
    "trailer": [
     "https://youtu.be/AWZ1YZ5fwcE",
@@ -9602,6 +9764,7 @@
   "watchdate": "02.24.24",
   "title": "The Life of Brian",
   "year": "1979",
+  "runtime_hm": "1h34m",
   "links": {
    "trailer": [
     "https://youtu.be/TKPmGjVFbrY"
@@ -9618,6 +9781,7 @@
   "watched": true,
   "title": "History of the World: Part 1",
   "year": "1981",
+  "runtime_hm": "1h32m",
   "links": {
    "trailer": [
     "https://youtu.be/1TASJymwQeo"
@@ -9631,6 +9795,7 @@
   "watched": false,
   "title": "The Return of Captain Invincible",
   "year": "1983",
+  "runtime_hm": "1h36m",
   "links": {
    "trailer": [
     "https://youtu.be/_IVCQ8wJLsM"
@@ -9644,6 +9809,7 @@
   "watched": false,
   "title": "The Great Muppet Caper",
   "year": "1981",
+  "runtime_hm": "1h38m",
   "links": {
    "trailer": [
     "https://youtu.be/Niz03jeeqoQ"
@@ -9658,6 +9824,7 @@
   "watchdate": "11.19.22",
   "title": "Grease",
   "year": "1978",
+  "runtime_hm": "1h50m",
   "links": {
    "trailer": [
     "https://youtu.be/qDKo8DNpwOw"
@@ -9674,6 +9841,7 @@
   "watched": false,
   "title": "Easter Parade",
   "year": "1948",
+  "runtime_hm": "1h43m",
   "links": {},
   "id": "easter-parade-1948",
   "dbid": 29380,
@@ -9697,6 +9865,7 @@
   "watched": false,
   "title": "On the Town",
   "year": "1949",
+  "runtime_hm": "1h38m",
   "links": {},
   "id": "on-the-town-1949",
   "dbid": 31516,
@@ -9706,6 +9875,7 @@
   "watched": false,
   "title": "Gentlemen Prefer Blondes",
   "year": "1953",
+  "runtime_hm": "1h31m",
   "links": {},
   "id": "gentlemen-prefer-blondes-1953",
   "dbid": 759,
@@ -9715,6 +9885,7 @@
   "watched": false,
   "title": "Funny Girl",
   "year": "1968",
+  "runtime_hm": "2h35m",
   "links": {},
   "id": "funny-girl-1968",
   "dbid": 16085,
@@ -9724,6 +9895,7 @@
   "watched": false,
   "title": "Guys and Dolls",
   "year": "1955",
+  "runtime_hm": "2h29m",
   "links": {
    "trailer": [
     "https://youtu.be/ykzP_64l-xk"
@@ -9743,6 +9915,7 @@
   "watched": false,
   "title": "An American in Paris",
   "year": "1951",
+  "runtime_hm": "1h53m",
   "links": {},
   "id": "an-american-in-paris-1951",
   "dbid": 2769,
@@ -9753,6 +9926,7 @@
   "watchdate": "11.26.22",
   "title": "Mary Poppins",
   "year": "1964",
+  "runtime_hm": "2h19m",
   "links": {
    "trailer": [
     "https://youtu.be/YfkEQDPlb8g"
@@ -9769,6 +9943,7 @@
   "watched": false,
   "title": "Meet Me in St. Louis",
   "year": "1944",
+  "runtime_hm": "1h54m",
   "links": {
    "trailer": [
     "https://youtu.be/hdEouRM7Xv8"
@@ -9783,6 +9958,7 @@
   "watchdate": "02.25.23",
   "title": "Roxanne",
   "year": "1987",
+  "runtime_hm": "1h47m",
   "links": {
    "movie": [
     "https://youtu.be/AYbb6vhdpz0"
@@ -9803,6 +9979,7 @@
   "watchdate": "02.04.23",
   "title": "The Wedding Singer",
   "year": "1998",
+  "runtime_hm": "1h37m",
   "links": {
    "trailer": [
     "https://youtu.be/Yy-TwYB1UQw"
@@ -9820,6 +9997,7 @@
   "watchdate": "02.18.23",
   "title": "50 First Dates",
   "year": "2004",
+  "runtime_hm": "1h39m",
   "links": {
    "trailer": [
     "https://youtu.be/_I223y_X9mM"
@@ -9837,6 +10015,7 @@
   "watchdate": "03.11.23",
   "title": "Joe Versus the Volcano",
   "year": "1990",
+  "runtime_hm": "1h42m",
   "links": {
    "trailer": [
     "https://youtu.be/yNYFtQIMB2Q"
@@ -9853,6 +10032,7 @@
   "watched": false,
   "title": "Sleepless in Seattle",
   "year": "1993",
+  "runtime_hm": "1h45m",
   "links": {
    "trailer": [
     "https://youtu.be/ahI9LaOGYcE"
@@ -9866,6 +10046,7 @@
   "watched": false,
   "title": "You've Got Mail",
   "year": "1998",
+  "runtime_hm": "1h59m",
   "links": {
    "trailer": [
     "https://youtu.be/bjP4s7UUnK8",
@@ -9880,6 +10061,7 @@
   "watched": false,
   "title": "An Affair to Remember",
   "year": "1957",
+  "runtime_hm": "1h51m",
   "links": {
    "trailer": [
     "https://youtu.be/1qFSl4DiKXA"
@@ -9894,6 +10076,7 @@
   "watchdate": "02.11.23",
   "title": "Romancing the Stone",
   "year": "1984",
+  "runtime_hm": "1h46m",
   "links": {
    "trailer": [
     "https://youtu.be/DL40GuLfxA8"
@@ -9911,6 +10094,7 @@
   "watchdate": "02.18.23",
   "title": "The Jewel of the Nile",
   "year": "1985",
+  "runtime_hm": "1h46m",
   "links": {
    "trailer": [
     "https://youtu.be/C7zjWIyAsDo"
@@ -9928,6 +10112,7 @@
   "watchdate": "03.11.23",
   "title": "The Princess Bride",
   "year": "1987",
+  "runtime_hm": "1h39m",
   "links": {
    "trailer": [
     "https://youtu.be/O3CIXEAjcc8"
@@ -9944,6 +10129,7 @@
   "watched": false,
   "title": "Ghost",
   "year": "1990",
+  "runtime_hm": "2h6m",
   "links": {
    "trailer": [
     "https://youtu.be/8uubih798tg"
@@ -9957,6 +10143,7 @@
   "watched": false,
   "title": "Dirty Dancing",
   "year": "1987",
+  "runtime_hm": "1h40m",
   "links": {
    "trailer": [
     "https://youtu.be/eIcmQNy9FsM"
@@ -9970,6 +10157,7 @@
   "watched": false,
   "title": "One From the Heart",
   "year": "1982",
+  "runtime_hm": "1h43m",
   "links": {
    "trailer": [
     "https://youtu.be/SczK22jpRvk"
@@ -9983,6 +10171,7 @@
   "watched": false,
   "title": "Pretty Woman",
   "year": "1990",
+  "runtime_hm": "2h0m",
   "links": {
    "trailer": [
     "https://youtu.be/2EBAVoN8L_U"
@@ -9997,6 +10186,7 @@
   "watchdate": "02.18.23",
   "title": "Casablanca",
   "year": "1942",
+  "runtime_hm": "1h42m",
   "links": {
    "trailer": [
     "https://youtu.be/BkL9l7qovsE"
@@ -10016,6 +10206,7 @@
   "watched": false,
   "title": "Crocodile Dundee",
   "year": "1986",
+  "runtime_hm": "1h44m",
   "links": {
    "trailer": [
     "https://youtu.be/_eED8IAv_Ac"
@@ -10029,6 +10220,7 @@
   "watched": false,
   "title": "Crocodile Dundee II",
   "year": "1988",
+  "runtime_hm": "1h50m",
   "links": {
    "trailer": [
     "https://youtu.be/CVDqcrogYRk"
@@ -10042,6 +10234,7 @@
   "watched": false,
   "title": "Crocodile Dundee in Los Angeles",
   "year": "2001",
+  "runtime_hm": "1h35m",
   "links": {
    "trailer": [
     "https://youtu.be/qyvT0efw36s"
@@ -10055,6 +10248,7 @@
   "watched": false,
   "title": "Say Anything",
   "year": "1989",
+  "runtime_hm": "1h40m",
   "links": {
    "trailer": [
     "https://youtu.be/Se_eSeEAoX0"
@@ -10068,6 +10262,7 @@
   "watched": false,
   "title": "Breakfast at Tiffany's",
   "year": "1961",
+  "runtime_hm": "1h55m",
   "links": {
    "movie": [
     "https://youtu.be/fCqr4hvNGYk"
@@ -10082,6 +10277,7 @@
   "watchdate": "03.04.23",
   "title": "Gattaca",
   "year": "1997",
+  "runtime_hm": "1h46m",
   "links": {
    "trailer": [
     "https://youtu.be/W_KruQhfvW4"
@@ -10095,10 +10291,75 @@
   "runtime_m": 106
  },
  {
+  "watched": false,
+  "title": "Going Overboard",
+  "year": "1989",
+  "runtime_hm": "1h37m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/MKNZqnJ0hzU"
+   ]
+  },
+  "id": "going-overboard-1989",
+  "dbid": 19157,
+  "runtime_m": 97
+ },
+ {
+  "watched": true,
+  "watchdate": "04.15.23",
+  "title": "Billy Madison",
+  "year": "1995",
+  "runtime_hm": "1h30m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/V2Q40rXJuMU"
+   ]
+  },
+  "watchdate_arr": [
+   "20230415"
+  ],
+  "id": "billy-madison-1995",
+  "dbid": 11017,
+  "runtime_m": 90
+ },
+ {
+  "watched": true,
+  "title": "Happy Gilmore",
+  "year": "1996",
+  "runtime_hm": "1h32m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/y1emDAYCfVQ"
+   ]
+  },
+  "id": "happy-gilmore-1996",
+  "dbid": 9614,
+  "runtime_m": 92
+ },
+ {
+  "watched": true,
+  "watchdate": "03.18.23",
+  "title": "The Waterboy",
+  "year": "1998",
+  "runtime_hm": "1h30m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/vVLvkqfTRVQ"
+   ]
+  },
+  "watchdate_arr": [
+   "20230318"
+  ],
+  "id": "the-waterboy-1998",
+  "dbid": 10663,
+  "runtime_m": 90
+ },
+ {
   "watched": true,
   "watchdate": "03.04.23",
   "title": "Little Nicky",
   "year": "2000",
+  "runtime_hm": "1h30m",
   "links": {
    "trailer": [
     "https://youtu.be/_0jhAYDiFwo"
@@ -10116,6 +10377,7 @@
   "watchdate": "03.11.23",
   "title": "The Ridiculous 6",
   "year": "2015",
+  "runtime_hm": "1h59m",
   "links": {
    "trailer": [
     "https://youtu.be/qUp7Qgimn38"
@@ -10127,66 +10389,6 @@
   "id": "the-ridiculous-6-2015",
   "dbid": 347969,
   "runtime_m": 119
- },
- {
-  "watched": true,
-  "watchdate": "03.18.23",
-  "title": "The Waterboy",
-  "year": "1998",
-  "links": {
-   "trailer": [
-    "https://youtu.be/vVLvkqfTRVQ"
-   ]
-  },
-  "watchdate_arr": [
-   "20230318"
-  ],
-  "id": "the-waterboy-1998",
-  "dbid": 10663,
-  "runtime_m": 90
- },
- {
-  "watched": true,
-  "watchdate": "04.15.23",
-  "title": "Billy Madison",
-  "year": "1995",
-  "links": {
-   "trailer": [
-    "https://youtu.be/V2Q40rXJuMU"
-   ]
-  },
-  "watchdate_arr": [
-   "20230415"
-  ],
-  "id": "billy-madison-1995",
-  "dbid": 11017,
-  "runtime_m": 90
- },
- {
-  "watched": true,
-  "title": "Happy Gilmore",
-  "year": "1996",
-  "links": {
-   "trailer": [
-    "https://youtu.be/y1emDAYCfVQ"
-   ]
-  },
-  "id": "happy-gilmore-1996",
-  "dbid": 9614,
-  "runtime_m": 92
- },
- {
-  "watched": false,
-  "title": "Going Overboard",
-  "year": "1989",
-  "links": {
-   "trailer": [
-    "https://youtu.be/MKNZqnJ0hzU"
-   ]
-  },
-  "id": "going-overboard-1989",
-  "dbid": 19157,
-  "runtime_m": 97
  },
  {
   "watched": true,
@@ -10303,6 +10505,7 @@
   "watched": false,
   "title": "The Other Guys",
   "year": "2010",
+  "runtime_hm": "1h56m",
   "links": {
    "trailer": [
     "https://youtu.be/D6WOoUG1eNo"
@@ -10316,6 +10519,7 @@
   "watched": false,
   "title": "Chungking Express",
   "year": "1994",
+  "runtime_hm": "1h43m",
   "links": {},
   "id": "chungking-express-1994",
   "dbid": 11104,
@@ -10325,6 +10529,7 @@
   "watched": false,
   "title": "Sardar Udham",
   "year": "2021",
+  "runtime_hm": "2h42m",
   "links": {
    "trailer": [
     "https://youtu.be/bLWgKt1-SYo"
@@ -10348,6 +10553,7 @@
   "watched": false,
   "title": "Plague Doctor",
   "year": "2021",
+  "runtime_hm": "2h16m",
   "links": {
    "trailer": [
     "https://youtu.be/wiP9lDcEWfY"
@@ -10361,6 +10567,7 @@
   "watched": false,
   "title": "The Black Lightning",
   "year": "2009",
+  "runtime_hm": "1h42m",
   "links": {
    "trailer": [
     "https://youtu.be/V9kYdfSroTs"
@@ -10375,6 +10582,7 @@
   "watchdate": "06.10.23",
   "title": "Missing",
   "year": "1982",
+  "runtime_hm": "2h3m",
   "links": {
    "trailer": [
     "https://youtu.be/X1WiQxDAeV4"
@@ -10388,26 +10596,10 @@
   "runtime_m": 123
  },
  {
-  "watched": true,
-  "watchdate": "04.30.23",
-  "title": "The China Syndrome",
-  "year": "1979",
-  "links": {
-   "trailer": [
-    "https://youtu.be/bIGH1AfIS18"
-   ]
-  },
-  "watchdate_arr": [
-   "20230430"
-  ],
-  "id": "the-china-syndrome-1979",
-  "dbid": 988,
-  "runtime_m": 122
- },
- {
   "watched": false,
   "title": "Parasite",
   "year": "2019",
+  "runtime_hm": "2h13m",
   "links": {
    "trailer": [
     "https://youtu.be/5xH0HfJHsaY"
@@ -10421,6 +10613,7 @@
   "watched": false,
   "title": "Boiling Point",
   "year": "2021",
+  "runtime_hm": "1h35m",
   "links": {
    "trailer": [
     "https://youtu.be/UBUfCL_tvro"
@@ -10435,6 +10628,7 @@
   "watchdate": "06.24.23",
   "title": "Conspiracy Theory",
   "year": "1997",
+  "runtime_hm": "2h15m",
   "links": {
    "trailer": [
     "https://youtu.be/adYGUai7PNc"
@@ -10452,6 +10646,7 @@
   "watchdate": "07.08.23",
   "title": "12 Monkeys",
   "year": "1995",
+  "runtime_hm": "2h9m",
   "links": {
    "trailer": [
     "https://youtu.be/15s4Y9ffW_o"
@@ -10501,6 +10696,7 @@
   "watched": false,
   "title": "Troma's War",
   "year": "1988",
+  "runtime_hm": "1h45m",
   "links": {
    "trailer": [
     "https://youtu.be/4jrqGfJzvkc"
@@ -11450,7 +11646,7 @@
   ],
   "id": "who-framed-roger-rabbit-1988",
   "dbid": 856,
-  "runtime_m": 104
+  "runtime_m": 103
  },
  {
   "watched": false,
@@ -12499,14 +12695,16 @@
  {
   "watched": false,
   "title": "Ski School",
-  "year": "1990",
+  "year": "1991",
   "runtime_hm": "1h35m",
   "links": {
    "trailer": [
     "https://youtu.be/Mjzqs6bStXQ"
    ]
   },
-  "id": "ski-school-1990"
+  "id": "ski-school-1991",
+  "dbid": 21811,
+  "runtime_m": 95
  },
  {
   "watched": false,
@@ -13786,14 +13984,19 @@
  },
  {
   "watched": false,
-  "title": "Black Angel (not available yet)",
+  "title": "Black Angel",
   "year": "1980",
   "links": {
    "trailer": [
     "https://youtu.be/dIE_56C9z4k"
+   ],
+   "movie": [
+    "https://youtu.be/5L8pHKP-vv4"
    ]
   },
-  "id": "black-angel-not-available-yet-1980"
+  "id": "black-angel-1980",
+  "dbid": 273879,
+  "runtime_m": 25
  },
  {
   "watched": false,
@@ -15206,6 +15409,24 @@
   "id": "star-trek-nemesis-2002",
   "dbid": 201,
   "runtime_m": 116
+ },
+ {
+  "watched": true,
+  "watchdate": "03.22.25",
+  "title": "Galaxy Quest",
+  "year": "1999",
+  "runtime_hm": "1h42m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/4kIavuY5NXw"
+   ]
+  },
+  "watchdate_arr": [
+   "20250322"
+  ],
+  "id": "galaxy-quest-1999",
+  "dbid": 926,
+  "runtime_m": 101
  },
  {
   "watched": true,
@@ -16883,6 +17104,16 @@
   "runtime_m": 93
  },
  {
+  "watched": false,
+  "title": "White Chicks",
+  "year": "2004",
+  "runtime_hm": "1h49m",
+  "links": {},
+  "id": "white-chicks-2004",
+  "dbid": 12153,
+  "runtime_m": 109
+ },
+ {
   "watched": true,
   "watchdate": "1.09.23",
   "title": "Teenage Mutant Ninja Turtles",
@@ -17419,6 +17650,7 @@
   "watched": false,
   "title": "The Closet/ Le Placard",
   "year": "2001",
+  "runtime_hm": "1h24m",
   "links": {
    "trailer": [
     "https://youtu.be/IHyMHzrBN84"
@@ -17915,8 +18147,8 @@
    ]
   },
   "id": "jack-frost-1998",
-  "dbid": 9745,
-  "runtime_m": 101
+  "dbid": 27318,
+  "runtime_m": 89
  },
  {
   "watched": false,
@@ -18379,7 +18611,7 @@
   "year": "2003",
   "links": {},
   "id": "hajime-no-ippo-2003",
-  "dbid": 45287,
-  "runtime_m": 90
+  "dbid": 45288,
+  "runtime_m": 60
  }
 ]
