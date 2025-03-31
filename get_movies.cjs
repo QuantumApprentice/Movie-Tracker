@@ -674,7 +674,7 @@ async function build_tmdb_json2()
   // console.log(movieJson);
   fs.mkdirSync("public/bg/",   { recursive: true });
   fs.mkdirSync("public/pstr/", { recursive: true });
-  fs.mkdirSync("public/strip/", { recursive: true });
+  // fs.mkdirSync("public/strip/", { recursive: true });
 
   let db_json = [];
 

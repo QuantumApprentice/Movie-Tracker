@@ -3415,24 +3415,6 @@
  },
  {
   "watched": false,
-  "title": "Any Which Way But Loose",
-  "year": "1978",
-  "runtime_hm": "1h54m",
-  "links": {},
-  "id": "any-which-way-but-loose-1978"
- },
- {
-  "watched": false,
-  "title": "Any Which Way You Can",
-  "year": "1980",
-  "runtime_hm": "1h56m",
-  "links": {},
-  "id": "any-which-way-you-can-1980",
-  "dbid": 17169,
-  "runtime_m": 115
- },
- {
-  "watched": false,
   "title": "Strangers on a Train",
   "year": "1951",
   "runtime_hm": "1h41m",
@@ -3911,6 +3893,26 @@
  },
  {
   "watched": false,
+  "title": "Every Which Way But Loose",
+  "year": "1978",
+  "runtime_hm": "1h54m",
+  "links": {},
+  "id": "every-which-way-but-loose-1978",
+  "dbid": 15417,
+  "runtime_m": 110
+ },
+ {
+  "watched": false,
+  "title": "Any Which Way You Can",
+  "year": "1980",
+  "runtime_hm": "1h56m",
+  "links": {},
+  "id": "any-which-way-you-can-1980",
+  "dbid": 17169,
+  "runtime_m": 115
+ },
+ {
+  "watched": false,
   "title": "Freddy Got Fingered",
   "year": "2001",
   "runtime_hm": "1h27m",
@@ -3946,6 +3948,26 @@
   "id": "replicas-2019",
   "dbid": 300681,
   "runtime_m": 107
+ },
+ {
+  "watched": false,
+  "title": "Defcon 4",
+  "year": "1985",
+  "runtime_hm": "1h28m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/y_AdobGziVs"
+   ],
+   "teaser": [
+    "https://youtu.be/pzwLTxkHJFg"
+   ],
+   "movie": [
+    "https://youtu.be/8ozGVKYSVog"
+   ]
+  },
+  "id": "defcon-4-1985",
+  "dbid": 42033,
+  "runtime_m": 88
  },
  {
   "watched": false,
@@ -4546,7 +4568,8 @@
   "links": {
    "trailer": [
     "https://youtu.be/W40JYaK5fFQ",
-    "https://youtu.be/rgcKg6Bwf8U"
+    "https://youtu.be/rgcKg6Bwf8U",
+    "https://youtu.be/DpLmo8SVrWE"
    ]
   },
   "id": "never-say-never-again-1983",
@@ -4897,8 +4920,8 @@
    ]
   },
   "id": "black-rain-1989",
-  "dbid": 4105,
-  "runtime_m": 125
+  "dbid": 185987,
+  "runtime_m": 123
  },
  {
   "watched": false,
@@ -7432,8 +7455,8 @@
   "runtime_hm": "2h33m",
   "links": {},
   "id": "inglorious-basterds-2009",
-  "dbid": 16869,
-  "runtime_m": 153
+  "dbid": 28447,
+  "runtime_m": 6
  },
  {
   "watched": false,
@@ -8174,7 +8197,8 @@
   "runtime_m": 126
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "03.29.25",
   "title": "Terminator Genisys",
   "year": "2015",
   "runtime_hm": "2h6m",
@@ -8183,6 +8207,9 @@
     "https://youtu.be/FqbOFjl7ZWE"
    ]
   },
+  "watchdate_arr": [
+   "20250329"
+  ],
   "id": "terminator-genisys-2015",
   "dbid": 87101,
   "runtime_m": 126
@@ -12479,6 +12506,16 @@
   "id": "universal-soldier-1992",
   "dbid": 9349,
   "runtime_m": 103
+ },
+ {
+  "watched": false,
+  "title": "Timecop",
+  "year": "1994",
+  "runtime_hm": "1h39m",
+  "links": {},
+  "id": "timecop-1994",
+  "dbid": 8831,
+  "runtime_m": 98
  },
  {
   "watched": false,
@@ -17444,8 +17481,8 @@
    ]
   },
   "id": "the-return-2003",
-  "dbid": 122,
-  "runtime_m": 201
+  "dbid": 38126,
+  "runtime_m": 80
  },
  {
   "watched": true,

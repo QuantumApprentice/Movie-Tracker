@@ -229,11 +229,6 @@ XTRO (1982) [1h24m] trailer: https://youtu.be/kjEmbIUcsxA
 -10.26.24.|Young Frankenstein (1974) [1h46m] trailer: https://youtu.be/sO8g8VmFf0M
 
 
-#Clint Eastwood
-Any Which Way But Loose (1978) [1h54m] trailer: 
-Any Which Way You Can (1980) [1h56m] trailer: 
-
-
 #Hitchcock
 Strangers on a Train (1951) [1h41m] trailer: https://youtu.be/PC62NBWBkjM modern: https://youtu.be/J1iSS5r0OVE
 -10.07.23.|The Birds (1963) [1h59m] trailer: https://youtu.be/lCxR7dlavwg modern: https://youtu.be/0fJh2gIBOto
@@ -307,6 +302,13 @@ Dale and Tucker vs Evil (2010) [1h29m] trailer: https://youtu.be/l1t8OZn_uhE
 Rising Sun (1993) [2h9m] trailer: https://youtu.be/-EXt9QUAWz4
 
 
+
+
+#Clint Eastwood
+Every Which Way But Loose (1978) [1h54m] trailer: 
+Any Which Way You Can (1980) [1h56m] trailer: 
+
+
 #ghmiranda
 Freddy Got Fingered (2001) [1h27m] trailer: 
 Battlefield Earth (2000) [1h57m] trailer: https://youtu.be/XhNuXvlCTTc
@@ -315,6 +317,7 @@ Battlefield Earth (2000) [1h57m] trailer: https://youtu.be/XhNuXvlCTTc
 Replicas (2019) [1h47m] trailer: https://youtu.be/bKdpGHazAqs
 
 #gbowne
+Defcon 4 (1985) [1h28m] trailer: https://youtu.be/y_AdobGziVs teaser: https://youtu.be/pzwLTxkHJFg movie: https://youtu.be/8ozGVKYSVog
 Johnny Dangerously (1984) [1h30m] trailer: https://youtu.be/_WEPlSPwWu8
 Goin South (1978) [1h48m] trailer: https://youtu.be/18SiyNf8gt8 trailer: https://youtu.be/pmlR6Bl3uPM
 Uptown Saturday Night (1974) [1h44m] trailer: 
@@ -369,7 +372,7 @@ Basic Instinct (1992) [2h8m] trailer:
 -03.08.25.|The Spy Who Loved Me (1977) [2h5m] trailer: https://youtu.be/UBxG_TJvYTg
 -03.15.25.|Moonraker (1979) [2h6m] trailer: https://youtu.be/KFOOjYU16KE
 -03.22.25.|For Your Eyes Only (1981) [2h8m] trailer: https://youtu.be/e0iF8TCk4Fw
-Never Say Never Again (1983) [2h14m] trailer: https://youtu.be/W40JYaK5fFQ trailer: https://youtu.be/rgcKg6Bwf8U
+Never Say Never Again (1983) [2h14m] trailer: https://youtu.be/W40JYaK5fFQ trailer: https://youtu.be/rgcKg6Bwf8U trailer: https://youtu.be/DpLmo8SVrWE
 Octopussy (1983) [2h11m] trailer: https://youtu.be/q1hLWZzgZvU
 A View to A Kill (1985) [2h11m] trailer: https://youtu.be/buOK9kJIJA4
 The Living Daylights (1987) [2h10m] trailer: https://youtu.be/IXAVKJTIM1E
@@ -687,7 +690,7 @@ Condorman (1981) [1h30m] modern: https://youtu.be/lo5LZmx9Vrg
 -09.14.24.|Sabotage (2014) [1h49m] trailer: https://youtu.be/cNTsQ9A64d0 trailer: https://youtu.be/8HDArXZgrsE
 -09.21.24.|Terminator Salvation (2009) [1h55m] trailer: https://youtu.be/-Czz-TcWCkA
 -09.28.24.|The Expendables 3 (2014) [2h6m] trailer: https://youtu.be/4xD0junWlFc
-Terminator Genisys (2015) [2h6m] trailer: https://youtu.be/FqbOFjl7ZWE
+-03.29.25.|Terminator Genisys (2015) [2h6m] trailer: https://youtu.be/FqbOFjl7ZWE
 Maggie (2015) [1h35m] trailer: https://youtu.be/AQ5Vz8qE8R8
 Aftermath (2017) [1h34m] trailer: https://youtu.be/oUXUm6he2-s
 Killing Gunther (2017) [1h32m] trailer: 
@@ -1081,8 +1084,10 @@ Der Schuh des Manitu (2001) [1h27m] trailer:
 -9.02.2023.|Death Warrant (1990) [1h29m] trailer: https://youtu.be/j99t8ijRvyk
 -9.23.23.|Double Impact (1991) [1h50m] trailer: https://youtu.be/6IDVNSO4mt4
 -10.01.23.|Universal Soldier (1992) [1h42m] trailer: https://youtu.be/5Y7BWfIEfuo
+Timecop (1994) [1h39m] trailer: 
 Double Team (1997) [1h33m] trailer: https://youtu.be/VlF6TNmcw5E
 Knock Off (1998) [1h31m] trailer: https://youtu.be/dE9Uvyancvk
+
 
 -4.02.2022.|National Lampoon's Loaded Weapon 1 (1993) [1h24m] trailer: https://youtu.be/-0t2_kA9uyM movie: https://youtu.be/wPVCIU9Ax3U
 
@@ -1101,7 +1106,6 @@ Ski School (1991) [1h35m] trailer: https://youtu.be/Mjzqs6bStXQ
 Dude, Where's My Car? (2000) [1h23m] trailer: https://youtu.be/jH_nkW3QtFg
 Beer (1985) [1h22m] trailer: https://youtu.be/-vciyLhSmv0
 Fast Times at Ridgemont High (1982) [1h30m] trailer: 
-
 
 
 Beavis and Butt-Head Do America (1996) [1h21m] movie: https://youtu.be/dBqkSp-yyr0
