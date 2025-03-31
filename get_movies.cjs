@@ -691,50 +691,42 @@ async function build_tmdb_json2()
       let movie_bg_filename   = await get_background(movie.id, entry.results[0].backdrop_path);
       let movie_pstr_filename = await get_poster(movie.id, entry.results[0].poster_path);
 
-      // let movie_bg_blurhash;
-      if (fs.existsSync(`public/bg/${movie_bg_filename}`)) {
-        try {
-          // console.log("cropping ", movie_bg_filename);
-            let jpeg_body = fs.readFileSync(`public/bg/${movie_bg_filename}`);
-            let pixels = jpeg_js.decode(jpeg_body);
-
-            //grayscale stuff and use "canny" edge detection
-            //to pick the "most interesting" section of the background image
-            let start_pos = why_is_this_so_dumb(pixels, movie_bg_filename);
-
-            // console.log("pixels.length: ", pixels.data.length);
-            // console.log("start_pos: ", start_pos);
-            // console.log("pixels.data: ", pixels.data);
-
-            //full color crop of bg art
-            //based on starting position from edge detection
-            let lines=[];
-            let stride = pixels.width*4;
-            let crop_buffer = pixels.data.subarray(start_pos*stride, start_pos*stride + stride*64);
-            for (let line = 0; line < 64; line+=2) {
-              let line_data = crop_buffer.subarray(
-                                line*stride,
-                                line*stride + stride
-                              );
-              lines.push(line_data);
-            }
-
-            // console.log("lines: ", lines);
-
-
-            let rawImageData = {
-              data: Buffer.concat(lines),
-              width: pixels.width,
-              height: 32,
-            };
-
-            let output_image = jpeg_js.encode(rawImageData, 50);
-            fs.writeFileSync(`public/strip/${movie_bg_filename}`, output_image.data);
-
-          } catch (error) {
-          console.log(`${movie_bg_filename} : `, error);
-        }
-      }
+      // // let movie_bg_blurhash;
+      // if (fs.existsSync(`public/bg/${movie_bg_filename}`)) {
+      //   try {
+      //     // console.log("cropping ", movie_bg_filename);
+      //       let jpeg_body = fs.readFileSync(`public/bg/${movie_bg_filename}`);
+      //       let pixels = jpeg_js.decode(jpeg_body);
+      //       //grayscale stuff and use "canny" edge detection
+      //       //to pick the "most interesting" section of the background image
+      //       let start_pos = why_is_this_so_dumb(pixels, movie_bg_filename);
+      //       // console.log("pixels.length: ", pixels.data.length);
+      //       // console.log("start_pos: ", start_pos);
+      //       // console.log("pixels.data: ", pixels.data);
+      //       //full color crop of bg art
+      //       //based on starting position from edge detection
+      //       let lines=[];
+      //       let stride = pixels.width*4;
+      //       let crop_buffer = pixels.data.subarray(start_pos*stride, start_pos*stride + stride*64);
+      //       for (let line = 0; line < 64; line+=2) {
+      //         let line_data = crop_buffer.subarray(
+      //                           line*stride,
+      //                           line*stride + stride
+      //                         );
+      //         lines.push(line_data);
+      //       }
+      //       // console.log("lines: ", lines);
+      //       let rawImageData = {
+      //         data: Buffer.concat(lines),
+      //         width: pixels.width,
+      //         height: 32,
+      //       };
+      //       let output_image = jpeg_js.encode(rawImageData, 50);
+      //       fs.writeFileSync(`public/strip/${movie_bg_filename}`, output_image.data);
+      //     } catch (error) {
+      //     console.log(`${movie_bg_filename} : `, error);
+      //   }
+      // }
 
 
 

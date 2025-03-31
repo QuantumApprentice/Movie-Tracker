@@ -10977,7 +10977,7 @@
   "release_date": "2013-09-08",
   "title": "Oculus",
   "video": false,
-  "vote_average": 6.468,
+  "vote_average": 6.5,
   "vote_count": 2978,
   "tagline": "You see what it wants you to see.",
   "runtime": 104,
@@ -29788,7 +29788,7 @@
    },
    {
     "country": "IE",
-    "rating": "18"
+    "rating": "15"
    },
    {
     "country": "IL"
@@ -49183,7 +49183,7 @@
   "title": "Terminator Genisys",
   "video": false,
   "vote_average": 5.9,
-  "vote_count": 8513,
+  "vote_count": 8514,
   "tagline": "Reset the future",
   "runtime": 126,
   "runtime_hm": "2h6m",
@@ -106824,7 +106824,7 @@
   "release_date": "2012-06-29",
   "title": "Ted",
   "video": false,
-  "vote_average": 6.44,
+  "vote_average": 6.4,
   "vote_count": 12504,
   "tagline": "Ted is coming.",
   "runtime": 107,
