@@ -12638,8 +12638,7 @@
  },
  {
   "watched": true,
-  "watchdate": "7.30.2022",
-  "title": "Real Genius",
+  "title": "7.30.2022./-04.05.25.|Real Genius",
   "year": "1985",
   "runtime_hm": "1h46m",
   "links": {
@@ -12647,12 +12646,7 @@
     "https://youtu.be/ThKWVC_xfVM"
    ]
   },
-  "watchdate_arr": [
-   "20220730"
-  ],
-  "id": "real-genius-1985",
-  "dbid": 14370,
-  "runtime_m": 106
+  "id": "7-30-2022-04-05-25-real-genius-1985"
  },
  {
   "watched": false,
@@ -13889,8 +13883,7 @@
  },
  {
   "watched": true,
-  "watchdate": "05.28.23",
-  "title": "Willow",
+  "title": "05.28.23./-04.05.25.|Willow",
   "year": "1988",
   "runtime_hm": "2h6m",
   "links": {
@@ -13898,12 +13891,7 @@
     "https://youtu.be/uzn2izehkno"
    ]
   },
-  "watchdate_arr": [
-   "20230528"
-  ],
-  "id": "willow-1988",
-  "dbid": 847,
-  "runtime_m": 126
+  "id": "05-28-23-04-05-25-willow-1988"
  },
  {
   "watched": true,
@@ -16420,7 +16408,8 @@
   "runtime_m": 177
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "04.05.25",
   "title": "The Saint",
   "year": "1997",
   "runtime_hm": "1h56m",
@@ -16429,9 +16418,40 @@
     "https://youtu.be/qkscr4gDcP8"
    ]
   },
+  "watchdate_arr": [
+   "20250405"
+  ],
   "id": "the-saint-1997",
   "dbid": 10003,
   "runtime_m": 116
+ },
+ {
+  "watched": false,
+  "title": "Tombstone",
+  "year": "1993",
+  "runtime_hm": "2h10m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/XTWYKf5hXIg"
+   ]
+  },
+  "id": "tombstone-1993",
+  "dbid": 11969,
+  "runtime_m": 130
+ },
+ {
+  "watched": false,
+  "title": "Thunderheart",
+  "year": "1992",
+  "runtime_hm": "1h59m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/dJp5pxFG6Sg"
+   ]
+  },
+  "id": "thunderheart-1992",
+  "dbid": 12395,
+  "runtime_m": 119
  },
  {
   "watched": false,
