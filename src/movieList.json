@@ -1712,8 +1712,8 @@
    ]
   },
   "id": "house-1977",
-  "dbid": 25623,
-  "runtime_m": 88
+  "dbid": 56379,
+  "runtime_m": 106
  },
  {
   "watched": false,
@@ -4599,7 +4599,8 @@
   "runtime_m": 131
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "04.12.25",
   "title": "A View to A Kill",
   "year": "1985",
   "runtime_hm": "2h11m",
@@ -4608,6 +4609,9 @@
     "https://youtu.be/buOK9kJIJA4"
    ]
   },
+  "watchdate_arr": [
+   "20250412"
+  ],
   "id": "a-view-to-a-kill-1985",
   "dbid": 707,
   "runtime_m": 131
@@ -7003,6 +7007,19 @@
  },
  {
   "watched": false,
+  "title": "Crash Landing",
+  "year": "1958",
+  "links": {
+   "trailer": [
+    "https://youtu.be/aVIj1A9-UIA"
+   ]
+  },
+  "id": "crash-landing-1958",
+  "dbid": 98271,
+  "runtime_m": 76
+ },
+ {
+  "watched": false,
   "title": "Attack of the 50ft Woman",
   "year": "1958",
   "runtime_hm": "1h6m",
@@ -7250,6 +7267,15 @@
  },
  {
   "watched": false,
+  "title": "Colossus: The Forbin Project",
+  "year": "1970",
+  "links": {},
+  "id": "colossus-the-forbin-project-1970",
+  "dbid": 14801,
+  "runtime_m": 100
+ },
+ {
+  "watched": false,
   "title": "The Poseidon Adventure",
   "year": "1972",
   "runtime_hm": "1h57m",
@@ -7261,6 +7287,23 @@
   "id": "the-poseidon-adventure-1972",
   "dbid": 551,
   "runtime_m": 117
+ },
+ {
+  "watched": false,
+  "title": "Silent Running",
+  "year": "1972",
+  "runtime_hm": "1h30m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/X1C3YB4dJnU"
+   ],
+   "movie": [
+    "https://youtu.be/ALE2bqSLFBE"
+   ]
+  },
+  "id": "silent-running-1972",
+  "dbid": 811,
+  "runtime_m": 89
  },
  {
   "watched": false,
@@ -8241,7 +8284,8 @@
   "runtime_m": 95
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "04.12.25",
   "title": "Aftermath",
   "year": "2017",
   "runtime_hm": "1h34m",
@@ -8250,6 +8294,9 @@
     "https://youtu.be/oUXUm6he2-s"
    ]
   },
+  "watchdate_arr": [
+   "20250412"
+  ],
   "id": "aftermath-2017",
   "dbid": 390051,
   "runtime_m": 92
@@ -8259,7 +8306,11 @@
   "title": "Killing Gunther",
   "year": "2017",
   "runtime_hm": "1h32m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/GeLp9-k9-LQ"
+   ]
+  },
   "id": "killing-gunther-2017",
   "dbid": 412547,
   "runtime_m": 93
@@ -10203,8 +10254,8 @@
    ]
   },
   "id": "one-from-the-heart-1982",
-  "dbid": 41291,
-  "runtime_m": 103
+  "dbid": 683033,
+  "runtime_m": 23
  },
  {
   "watched": false,
@@ -11083,8 +11134,8 @@
    ]
   },
   "id": "sunny-2011",
-  "dbid": 77117,
-  "runtime_m": 135
+  "dbid": 276024,
+  "runtime_m": 89
  },
  {
   "watched": false,
@@ -15213,9 +15264,7 @@
     "https://youtu.be/UjjiE0OD4K0"
    ]
   },
-  "id": "space-cop-2016",
-  "dbid": 1380110,
-  "runtime_m": 102
+  "id": "space-cop-2016"
  },
  {
   "watched": false,
@@ -16535,7 +16584,11 @@
   "title": "Once Upon a Time in the West",
   "year": "1968",
   "runtime_hm": "2h46m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/c8CJ6L0I6W8"
+   ]
+  },
   "id": "once-upon-a-time-in-the-west-1968",
   "dbid": 335,
   "runtime_m": 166
@@ -18032,8 +18085,8 @@
    ]
   },
   "id": "a-christmas-tale-2008",
-  "dbid": 8892,
-  "runtime_m": 152
+  "dbid": 75725,
+  "runtime_m": 75
  },
  {
   "watched": false,
@@ -18230,8 +18283,8 @@
    ]
   },
   "id": "jack-frost-1998",
-  "dbid": 27318,
-  "runtime_m": 89
+  "dbid": 9745,
+  "runtime_m": 101
  },
  {
   "watched": false,
