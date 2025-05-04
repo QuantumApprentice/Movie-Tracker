@@ -4653,7 +4653,8 @@
   "runtime_m": 133
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "05.03.25",
   "title": "GoldenEye",
   "year": "1995",
   "runtime_hm": "2h10m",
@@ -4662,6 +4663,9 @@
     "https://youtu.be/lcOqUE0u1LM"
    ]
   },
+  "watchdate_arr": [
+   "20250503"
+  ],
   "id": "goldeneye-1995",
   "dbid": 710,
   "runtime_m": 130
@@ -4671,7 +4675,11 @@
   "title": "Tomorrow Never Dies",
   "year": "1997",
   "runtime_hm": "1h59m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/_DlpvDeGXXk"
+   ]
+  },
   "id": "tomorrow-never-dies-1997",
   "dbid": 714,
   "runtime_m": 119
@@ -4681,7 +4689,15 @@
   "title": "The World Is Not Enough",
   "year": "1999",
   "runtime_hm": "2h8m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/MlgtjtbTNEA",
+    "https://youtu.be/9nH1DwQP2Xs"
+   ],
+   "teaser": [
+    "https://youtu.be/sCDqRMBiAzw"
+   ]
+  },
   "id": "the-world-is-not-enough-1999",
   "dbid": 36643,
   "runtime_m": 128
@@ -4691,7 +4707,15 @@
   "title": "Die Another Day",
   "year": "2002",
   "runtime_hm": "2h13m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/iiSFJ1bWBQc",
+    "https://youtu.be/P980Oas9ON8"
+   ],
+   "teaser": [
+    "https://youtu.be/aHuAGozIJuM"
+   ]
+  },
   "id": "die-another-day-2002",
   "dbid": 36669,
   "runtime_m": 133
@@ -7958,7 +7982,7 @@
   ],
   "id": "true-lies-1994",
   "dbid": 36955,
-  "runtime_m": 140
+  "runtime_m": 141
  },
  {
   "watched": true,
@@ -8346,7 +8370,8 @@
   "runtime_m": 121
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "05.03.25",
   "title": "Terminator Dark Fate",
   "year": "2019",
   "runtime_hm": "2h8m",
@@ -8355,6 +8380,9 @@
     "https://youtu.be/oxy8udgWRmo"
    ]
   },
+  "watchdate_arr": [
+   "20250503"
+  ],
   "id": "terminator-dark-fate-2019",
   "dbid": 290859,
   "runtime_m": 128
@@ -10279,8 +10307,8 @@
    ]
   },
   "id": "one-from-the-heart-1982",
-  "dbid": 683033,
-  "runtime_m": 23
+  "dbid": 41291,
+  "runtime_m": 98
  },
  {
   "watched": false,
@@ -10315,7 +10343,7 @@
   ],
   "id": "casablanca-1942",
   "dbid": 289,
-  "runtime_m": 102
+  "runtime_m": 103
  },
  {
   "watched": false,
@@ -13129,7 +13157,7 @@
   },
   "id": "supercop-police-story-3-1992",
   "dbid": 11134,
-  "runtime_m": 96
+  "runtime_m": 95
  },
  {
   "watched": true,
@@ -15081,7 +15109,7 @@
   ],
   "id": "scarface-1983",
   "dbid": 111,
-  "runtime_m": 169
+  "runtime_m": 170
  },
  {
   "watched": true,
@@ -15685,7 +15713,7 @@
   },
   "id": "team-america-world-police-2004",
   "dbid": 3989,
-  "runtime_m": 97
+  "runtime_m": 98
  },
  {
   "watched": false,
@@ -17318,7 +17346,7 @@
   },
   "id": "teenage-mutant-ninja-turtles-iii-turtles-in-time-1993",
   "dbid": 1499,
-  "runtime_m": 96
+  "runtime_m": 95
  },
  {
   "watched": false,
@@ -18295,7 +18323,7 @@
   },
   "id": "jack-frost-1997",
   "dbid": 27318,
-  "runtime_m": 89
+  "runtime_m": 86
  },
  {
   "watched": false,
@@ -18308,8 +18336,8 @@
    ]
   },
   "id": "jack-frost-1998",
-  "dbid": 9745,
-  "runtime_m": 101
+  "dbid": 27318,
+  "runtime_m": 86
  },
  {
   "watched": false,
