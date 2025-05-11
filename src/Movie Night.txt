@@ -1,3 +1,8 @@
+#At 20:30 The reason Fallout 1/2 run on modern resolutions is because of the modding community.
+#Two significant mods have been made to update these games: sFall for Fallout 2, and a Hi-res mod for Fallout 1 and 2 (and I can provide links to the source code if interested).
+#For some reason Bethesda started packaging these mods with digital downloads of Fallout 1/2, so if you purchase from Steam, GoG, or Bethesda.net stores the game will automatically install with these mods pre-installed.
+#(I don't know what the legal ramifications are for this, but the mods do alter the credits for the games so at least credit is given).
+
 #Horror Trailer Playlist https://youtube.com/playlist?list=PLywwjkBV6ND9OOZ05UxphXtlcle4lEEI0
 #Movie Tracker https://quantumapprentice.github.io/Movie-Tracker/
 
@@ -350,6 +355,8 @@ Layer Cake (2004) [1h45m] trailer: https://youtu.be/EoOHm5otVU8
 Mousehunt (1997) [1h38m] trailer: 
 
 
+Miami Connection (1987) [1h27m] trailer: https://youtu.be/5BMV_x8nzaE
+
 
 #Michael Douglas
 Running (1979) [1h42m] trailer: 
@@ -378,7 +385,7 @@ Basic Instinct (1992) [2h8m] trailer:
 -04.19.25.|The Living Daylights (1987) [2h10m] trailer: https://youtu.be/IXAVKJTIM1E
 -04.26.25.|Licence to Kill (1989) [2h13m] trailer: https://youtu.be/quHQAuO0lkg
 -05.03.25.|GoldenEye (1995) [2h10m] trailer: https://youtu.be/lcOqUE0u1LM
-Tomorrow Never Dies (1997) [1h59m] trailer: https://youtu.be/_DlpvDeGXXk
+-05.10.25.|Tomorrow Never Dies (1997) [1h59m] trailer: https://youtu.be/_DlpvDeGXXk
 The World Is Not Enough (1999) [2h8m] trailer: https://youtu.be/MlgtjtbTNEA trailer: https://youtu.be/9nH1DwQP2Xs teaser: https://youtu.be/sCDqRMBiAzw
 Die Another Day (2002) [2h13m] trailer: https://youtu.be/iiSFJ1bWBQc trailer: https://youtu.be/P980Oas9ON8 teaser: https://youtu.be/aHuAGozIJuM
 #Casino Royale (2006) [2h24m] trailer: 
@@ -634,7 +641,7 @@ The Black Hole (1979) [1h38m] trailer: https://youtu.be/qzUJJKDa558
 -04.30.23.|The China Syndrome (1979) [2h2m] trailer: https://youtu.be/bIGH1AfIS18
 
 
-The Dictator (2012) [1h23m] trailer: https://youtu.be/cYplvwBvGA4
+-05.10.25.|The Dictator (2012) [1h23m] trailer: https://youtu.be/cYplvwBvGA4
 Starship Troopers (1997) [2h9m] trailer: 
 
 #Kurt Russel

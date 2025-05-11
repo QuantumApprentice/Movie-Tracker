@@ -4286,6 +4286,20 @@
  },
  {
   "watched": false,
+  "title": "Miami Connection",
+  "year": "1987",
+  "runtime_hm": "1h27m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/5BMV_x8nzaE"
+   ]
+  },
+  "id": "miami-connection-1987",
+  "dbid": 59558,
+  "runtime_m": 86
+ },
+ {
+  "watched": false,
   "title": "Running",
   "year": "1979",
   "runtime_hm": "1h42m",
@@ -4671,7 +4685,8 @@
   "runtime_m": 130
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "05.10.25",
   "title": "Tomorrow Never Dies",
   "year": "1997",
   "runtime_hm": "1h59m",
@@ -4680,6 +4695,9 @@
     "https://youtu.be/_DlpvDeGXXk"
    ]
   },
+  "watchdate_arr": [
+   "20250510"
+  ],
   "id": "tomorrow-never-dies-1997",
   "dbid": 714,
   "runtime_m": 119
@@ -5964,8 +5982,8 @@
    ]
   },
   "id": "x-men-2000",
-  "dbid": 447399,
-  "runtime_m": 22
+  "dbid": 36657,
+  "runtime_m": 104
  },
  {
   "watched": false,
@@ -6632,7 +6650,7 @@
   },
   "id": "virus-1999",
   "dbid": 9423,
-  "runtime_m": 99
+  "runtime_m": 100
  },
  {
   "watched": true,
@@ -7494,7 +7512,8 @@
   "runtime_m": 122
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "05.10.25",
   "title": "The Dictator",
   "year": "2012",
   "runtime_hm": "1h23m",
@@ -7503,6 +7522,9 @@
     "https://youtu.be/cYplvwBvGA4"
    ]
   },
+  "watchdate_arr": [
+   "20250510"
+  ],
   "id": "the-dictator-2012",
   "dbid": 76493,
   "runtime_m": 83
@@ -10307,8 +10329,8 @@
    ]
   },
   "id": "one-from-the-heart-1982",
-  "dbid": 41291,
-  "runtime_m": 98
+  "dbid": 683033,
+  "runtime_m": 23
  },
  {
   "watched": false,
@@ -13566,7 +13588,7 @@
   },
   "id": "the-outsiders-1983",
   "dbid": 227,
-  "runtime_m": 91
+  "runtime_m": 94
  },
  {
   "watched": false,
@@ -15657,7 +15679,7 @@
   },
   "id": "tron-1982",
   "dbid": 97,
-  "runtime_m": 96
+  "runtime_m": 95
  },
  {
   "watched": true,
