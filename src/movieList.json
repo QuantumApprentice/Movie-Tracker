@@ -3659,6 +3659,20 @@
  },
  {
   "watched": false,
+  "title": "Tetsuo: The Bullet Man",
+  "year": "2009",
+  "runtime_hm": "1h11m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/-3v2e0SIDTo"
+   ]
+  },
+  "id": "tetsuo-the-bullet-man-2009",
+  "dbid": 52034,
+  "runtime_m": 71
+ },
+ {
+  "watched": false,
   "title": "Thankskilling",
   "year": "2008",
   "runtime_hm": "1h10m",
@@ -5747,7 +5761,7 @@
   },
   "id": "ben-hur-1959",
   "dbid": 665,
-  "runtime_m": 222
+  "runtime_m": 212
  },
  {
   "watched": true,
@@ -7722,6 +7736,20 @@
   "runtime_m": 90
  },
  {
+  "watched": false,
+  "title": "The Guyver",
+  "year": "1991",
+  "runtime_hm": "1h28m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/Dn15hkXqzuM"
+   ]
+  },
+  "id": "the-guyver-1991",
+  "dbid": 15026,
+  "runtime_m": 88
+ },
+ {
   "watched": true,
   "watchdate": "01.27.24",
   "title": "Hercules in New York",
@@ -7986,7 +8014,7 @@
   ],
   "id": "last-action-hero-1993",
   "dbid": 9593,
-  "runtime_m": 130
+  "runtime_m": 131
  },
  {
   "watched": true,
@@ -12004,7 +12032,7 @@
   },
   "id": "metropolis-2001",
   "dbid": 9606,
-  "runtime_m": 108
+  "runtime_m": 107
  },
  {
   "watched": false,
@@ -13319,8 +13347,8 @@
    ]
   },
   "id": "city-hunter-1993",
-  "dbid": 11198,
-  "runtime_m": 99
+  "dbid": 45401,
+  "runtime_m": 88
  },
  {
   "watched": false,
