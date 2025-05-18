@@ -14228,7 +14228,8 @@
  },
  {
   "watched": true,
-  "title": "05.28.23./-04.05.25.|Willow",
+  "watchdate": "05.28.23./04.05.25",
+  "title": "Willow",
   "year": "1988",
   "runtime_hm": "2h6m",
   "links": {
@@ -14236,7 +14237,13 @@
     "https://youtu.be/uzn2izehkno"
    ]
   },
-  "id": "05-28-23-04-05-25-willow-1988"
+  "watchdate_arr": [
+   "20250405",
+   "20230528"
+  ],
+  "id": "willow-1988",
+  "dbid": 847,
+  "runtime_m": 126
  },
  {
   "watched": true,
