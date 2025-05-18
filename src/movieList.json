@@ -4717,7 +4717,8 @@
   "runtime_m": 119
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "05.17.25",
   "title": "The World Is Not Enough",
   "year": "1999",
   "runtime_hm": "2h8m",
@@ -4730,6 +4731,9 @@
     "https://youtu.be/sCDqRMBiAzw"
    ]
   },
+  "watchdate_arr": [
+   "20250517"
+  ],
   "id": "the-world-is-not-enough-1999",
   "dbid": 36643,
   "runtime_m": 128
@@ -4751,6 +4755,20 @@
   "id": "die-another-day-2002",
   "dbid": 36669,
   "runtime_m": 133
+ },
+ {
+  "watched": false,
+  "title": "Career Opportunities",
+  "year": "1991",
+  "runtime_hm": "1h23m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/WW9BFI1ii40"
+   ]
+  },
+  "id": "career-opportunities-1991",
+  "dbid": 16270,
+  "runtime_m": 83
  },
  {
   "watched": false,
@@ -5761,7 +5779,7 @@
   },
   "id": "ben-hur-1959",
   "dbid": 665,
-  "runtime_m": 212
+  "runtime_m": 222
  },
  {
   "watched": true,
@@ -5872,7 +5890,14 @@
   "title": "Austin Powers: The Spy Who Shagged Me",
   "year": "1999",
   "runtime_hm": "1h35m",
-  "links": {},
+  "links": {
+   "teaser": [
+    "https://youtu.be/sM60ISd2_7U"
+   ],
+   "trailer": [
+    "https://youtu.be/LGVjoLlgHbM"
+   ]
+  },
   "id": "austin-powers-the-spy-who-shagged-me-1999",
   "dbid": 817,
   "runtime_m": 95
@@ -5882,7 +5907,11 @@
   "title": "Austin Powers in Goldmember",
   "year": "2002",
   "runtime_hm": "1h34m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/XROEPkzyCRg"
+   ]
+  },
   "id": "austin-powers-in-goldmember-2002",
   "dbid": 818,
   "runtime_m": 94
@@ -5906,7 +5935,11 @@
   "title": "Ace Ventura: Pet Detective",
   "year": "1994",
   "runtime_hm": "1h26m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/cXcH0f2B2vA"
+   ]
+  },
   "id": "ace-ventura-pet-detective-1994",
   "dbid": 3049,
   "runtime_m": 86
@@ -6248,7 +6281,8 @@
   "runtime_m": 107
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "05.17.25",
   "title": "Dark City",
   "year": "1998",
   "runtime_hm": "1h40m",
@@ -6257,6 +6291,9 @@
     "https://youtu.be/gt9HkO-cGGo"
    ]
   },
+  "watchdate_arr": [
+   "20250517"
+  ],
   "id": "dark-city-1998",
   "dbid": 2666,
   "runtime_m": 100
@@ -9748,6 +9785,20 @@
  },
  {
   "watched": true,
+  "title": "A Boy and His Dog",
+  "year": "1975",
+  "runtime_hm": "1h30m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/mTck2RnpPy4"
+   ]
+  },
+  "id": "a-boy-and-his-dog-1975",
+  "dbid": 4917,
+  "runtime_m": 90
+ },
+ {
+  "watched": true,
   "watchdate": "11.12.22",
   "title": "Little Shop of Horrors",
   "year": "1986",
@@ -10637,76 +10688,6 @@
   "id": "national-treasure-book-of-secrets-2007",
   "dbid": 6637,
   "runtime_m": 124
- },
- {
-  "watched": false,
-  "title": "Anchorman",
-  "year": "2004",
-  "runtime_hm": "1h34m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/QvJ1K0_JzFI"
-   ]
-  },
-  "id": "anchorman-2004",
-  "dbid": 8699,
-  "runtime_m": 95
- },
- {
-  "watched": false,
-  "title": "Semi-Pro",
-  "year": "2008",
-  "runtime_hm": "1h39m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/QdoODXShjss"
-   ]
-  },
-  "id": "semi-pro-2008",
-  "dbid": 13260,
-  "runtime_m": 91
- },
- {
-  "watched": false,
-  "title": "Blades of Glory",
-  "year": "2007",
-  "runtime_hm": "1h33m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/UrZb-dZKCIQ"
-   ]
-  },
-  "id": "blades-of-glory-2007",
-  "dbid": 9955,
-  "runtime_m": 93
- },
- {
-  "watched": false,
-  "title": "Stranger Than Fiction",
-  "year": "2006",
-  "runtime_hm": "1h54m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/0iqZD-oTE7U"
-   ]
-  },
-  "id": "stranger-than-fiction-2006",
-  "dbid": 1262,
-  "runtime_m": 113
- },
- {
-  "watched": false,
-  "title": "The Other Guys",
-  "year": "2010",
-  "runtime_hm": "1h56m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/D6WOoUG1eNo"
-   ]
-  },
-  "id": "the-other-guys-2010",
-  "dbid": 27581,
-  "runtime_m": 116
  },
  {
   "watched": false,
@@ -12947,6 +12928,204 @@
  },
  {
   "watched": false,
+  "title": "Happy Hour",
+  "year": "1986",
+  "runtime_hm": "1h28m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/Ag0JooQgPrk"
+   ]
+  },
+  "id": "happy-hour-1986",
+  "dbid": 130212,
+  "runtime_m": 88
+ },
+ {
+  "watched": false,
+  "title": "A Night at the Roxbury",
+  "year": "1998",
+  "links": {},
+  "id": "a-night-at-the-roxbury-1998",
+  "dbid": 9429,
+  "runtime_m": 81
+ },
+ {
+  "watched": true,
+  "watchdate": "9.07.24",
+  "title": "Zoolander",
+  "year": "2001",
+  "runtime_hm": "1h45m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/MaEeSJZYkpY"
+   ]
+  },
+  "watchdate_arr": [
+   "20240907"
+  ],
+  "id": "zoolander-2001",
+  "dbid": 9398,
+  "runtime_m": 89
+ },
+ {
+  "watched": false,
+  "title": "Anchorman",
+  "year": "2004",
+  "runtime_hm": "1h34m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/QvJ1K0_JzFI"
+   ]
+  },
+  "id": "anchorman-2004",
+  "dbid": 8699,
+  "runtime_m": 95
+ },
+ {
+  "watched": false,
+  "title": "Wedding Crashers",
+  "year": "2005",
+  "links": {},
+  "id": "wedding-crashers-2005",
+  "dbid": 9522,
+  "runtime_m": 119
+ },
+ {
+  "watched": false,
+  "title": "Stranger Than Fiction",
+  "year": "2006",
+  "runtime_hm": "1h54m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/0iqZD-oTE7U"
+   ]
+  },
+  "id": "stranger-than-fiction-2006",
+  "dbid": 1262,
+  "runtime_m": 113
+ },
+ {
+  "watched": false,
+  "title": "Blades of Glory",
+  "year": "2007",
+  "runtime_hm": "1h33m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/UrZb-dZKCIQ"
+   ]
+  },
+  "id": "blades-of-glory-2007",
+  "dbid": 9955,
+  "runtime_m": 93
+ },
+ {
+  "watched": false,
+  "title": "Semi-Pro",
+  "year": "2008",
+  "runtime_hm": "1h39m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/QdoODXShjss"
+   ]
+  },
+  "id": "semi-pro-2008",
+  "dbid": 13260,
+  "runtime_m": 91
+ },
+ {
+  "watched": false,
+  "title": "The Other Guys",
+  "year": "2010",
+  "runtime_hm": "1h56m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/D6WOoUG1eNo"
+   ]
+  },
+  "id": "the-other-guys-2010",
+  "dbid": 27581,
+  "runtime_m": 116
+ },
+ {
+  "watched": false,
+  "title": "Megamind",
+  "year": "2010",
+  "runtime_hm": "1h35m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/6CJUQr4Vs40"
+   ]
+  },
+  "id": "megamind-2010",
+  "dbid": 38055,
+  "runtime_m": 96
+ },
+ {
+  "watched": false,
+  "title": "Get Hard",
+  "year": "2015",
+  "runtime_hm": "1h47m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/lEqrpuU9fYI"
+   ]
+  },
+  "id": "get-hard-2015",
+  "dbid": 257091,
+  "runtime_m": 100
+ },
+ {
+  "watched": true,
+  "watchdate": "8.06.22",
+  "title": "Mystery Men",
+  "year": "1999",
+  "runtime_hm": "2h1m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/weL-NjlIQ0E"
+   ]
+  },
+  "watchdate_arr": [
+   "20220806"
+  ],
+  "id": "mystery-men-1999",
+  "dbid": 9824,
+  "runtime_m": 121
+ },
+ {
+  "watched": false,
+  "title": "There's Something About Mary",
+  "year": "1998",
+  "runtime_hm": "2h10m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/503D8hOfE_8"
+   ]
+  },
+  "id": "theres-something-about-mary-1998",
+  "dbid": 544,
+  "runtime_m": 120
+ },
+ {
+  "watched": false,
+  "title": "Uncle Buck",
+  "year": "1989",
+  "links": {},
+  "id": "uncle-buck-1989",
+  "dbid": 2616,
+  "runtime_m": 100
+ },
+ {
+  "watched": false,
+  "title": "My Cousin Vinny",
+  "year": "1992",
+  "links": {},
+  "id": "my-cousin-vinny-1992",
+  "dbid": 10377,
+  "runtime_m": 120
+ },
+ {
+  "watched": false,
   "title": "Beavis and Butt-Head Do America",
   "year": "1996",
   "runtime_hm": "1h21m",
@@ -13334,7 +13513,7 @@
   },
   "id": "island-of-fire-1990",
   "dbid": 18767,
-  "runtime_m": 96
+  "runtime_m": 124
  },
  {
   "watched": false,
@@ -13347,8 +13526,8 @@
    ]
   },
   "id": "city-hunter-1993",
-  "dbid": 45401,
-  "runtime_m": 88
+  "dbid": 11198,
+  "runtime_m": 99
  },
  {
   "watched": false,
@@ -16752,70 +16931,6 @@
   "runtime_m": 108
  },
  {
-  "watched": true,
-  "watchdate": "8.06.22",
-  "title": "Mystery Men",
-  "year": "1999",
-  "runtime_hm": "2h1m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/weL-NjlIQ0E"
-   ]
-  },
-  "watchdate_arr": [
-   "20220806"
-  ],
-  "id": "mystery-men-1999",
-  "dbid": 9824,
-  "runtime_m": 121
- },
- {
-  "watched": true,
-  "watchdate": "9.07.24",
-  "title": "Zoolander",
-  "year": "2001",
-  "runtime_hm": "1h45m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/MaEeSJZYkpY"
-   ]
-  },
-  "watchdate_arr": [
-   "20240907"
-  ],
-  "id": "zoolander-2001",
-  "dbid": 9398,
-  "runtime_m": 89
- },
- {
-  "watched": false,
-  "title": "There's Something About Mary",
-  "year": "1998",
-  "runtime_hm": "2h10m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/503D8hOfE_8"
-   ]
-  },
-  "id": "theres-something-about-mary-1998",
-  "dbid": 544,
-  "runtime_m": 120
- },
- {
-  "watched": false,
-  "title": "Megamind",
-  "year": "2010",
-  "runtime_hm": "1h35m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/6CJUQr4Vs40"
-   ]
-  },
-  "id": "megamind-2010",
-  "dbid": 38055,
-  "runtime_m": 96
- },
- {
   "watched": false,
   "title": "Hamlet 2",
   "year": "2008",
@@ -16967,20 +17082,6 @@
   "id": "the-super-1991",
   "dbid": 53287,
   "runtime_m": 86
- },
- {
-  "watched": true,
-  "title": "A Boy and His Dog",
-  "year": "1975",
-  "runtime_hm": "1h30m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/mTck2RnpPy4"
-   ]
-  },
-  "id": "a-boy-and-his-dog-1975",
-  "dbid": 4917,
-  "runtime_m": 90
  },
  {
   "watched": true,
