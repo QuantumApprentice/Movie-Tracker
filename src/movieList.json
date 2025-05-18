@@ -7370,7 +7370,12 @@
   "watched": false,
   "title": "Colossus: The Forbin Project",
   "year": "1970",
-  "links": {},
+  "runtime_hm": "1h40m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/kyOEwiQhzMI"
+   ]
+  },
   "id": "colossus-the-forbin-project-1970",
   "dbid": 14801,
   "runtime_m": 100
@@ -12773,7 +12778,8 @@
  },
  {
   "watched": true,
-  "title": "7.30.2022./-04.05.25.|Real Genius",
+  "watchdate": "7.30.2022./04.05.25",
+  "title": "Real Genius",
   "year": "1985",
   "runtime_hm": "1h46m",
   "links": {
@@ -12781,7 +12787,13 @@
     "https://youtu.be/ThKWVC_xfVM"
    ]
   },
-  "id": "7-30-2022-04-05-25-real-genius-1985"
+  "watchdate_arr": [
+   "20250405",
+   "20220730"
+  ],
+  "id": "real-genius-1985",
+  "dbid": 14370,
+  "runtime_m": 106
  },
  {
   "watched": false,
