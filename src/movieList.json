@@ -3951,6 +3951,19 @@
  },
  {
   "watched": false,
+  "title": "Bugsy Malone",
+  "year": "1976",
+  "links": {
+   "trailer": [
+    "https://youtu.be/LcnANBlSzm4"
+   ]
+  },
+  "id": "bugsy-malone-1976",
+  "dbid": 8446,
+  "runtime_m": 93
+ },
+ {
+  "watched": false,
   "title": "Replicas",
   "year": "2019",
   "runtime_hm": "1h47m",
@@ -3962,6 +3975,19 @@
   "id": "replicas-2019",
   "dbid": 300681,
   "runtime_m": 107
+ },
+ {
+  "watched": false,
+  "title": "The Sandpiper",
+  "year": "1965",
+  "links": {
+   "trailer": [
+    "https://youtu.be/gjYTocBozao"
+   ]
+  },
+  "id": "the-sandpiper-1965",
+  "dbid": 77915,
+  "runtime_m": 117
  },
  {
   "watched": false,
@@ -4739,7 +4765,8 @@
   "runtime_m": 128
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "05.24.25",
   "title": "Die Another Day",
   "year": "2002",
   "runtime_hm": "2h13m",
@@ -4752,9 +4779,82 @@
     "https://youtu.be/aHuAGozIJuM"
    ]
   },
+  "watchdate_arr": [
+   "20250524"
+  ],
   "id": "die-another-day-2002",
   "dbid": 36669,
   "runtime_m": 133
+ },
+ {
+  "watched": false,
+  "title": "Casino Royale",
+  "year": "2006",
+  "runtime_hm": "2h24m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/36mnx8dBbGE"
+   ]
+  },
+  "id": "casino-royale-2006",
+  "dbid": 36557,
+  "runtime_m": 144
+ },
+ {
+  "watched": false,
+  "title": "Quantum of Solace",
+  "year": "2008",
+  "runtime_hm": "1h46m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/BBqYaFEWBxI"
+   ]
+  },
+  "id": "quantum-of-solace-2008",
+  "dbid": 10764,
+  "runtime_m": 106
+ },
+ {
+  "watched": false,
+  "title": "Skyfall",
+  "year": "2012",
+  "runtime_hm": "2h23m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/6kw1UVovByw"
+   ]
+  },
+  "id": "skyfall-2012",
+  "dbid": 37724,
+  "runtime_m": 143
+ },
+ {
+  "watched": false,
+  "title": "Spectre",
+  "year": "2015",
+  "runtime_hm": "2h28m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/ujmoYyEyDP8"
+   ]
+  },
+  "id": "spectre-2015",
+  "dbid": 206647,
+  "runtime_m": 148
+ },
+ {
+  "watched": false,
+  "title": "No Time to Die",
+  "year": "2021",
+  "runtime_hm": "2h43m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/BIhNsAtPbPI"
+   ]
+  },
+  "id": "no-time-to-die-2021",
+  "dbid": 370172,
+  "runtime_m": 163
  },
  {
   "watched": false,
@@ -5692,14 +5792,17 @@
  },
  {
   "watched": false,
-  "title": "*Batteries Not Included [1h46m]",
+  "title": "*Batteries Not Included",
   "year": "1987",
+  "runtime_hm": "1h46m",
   "links": {
    "trailer": [
     "https://youtu.be/rJmvsb13dA8"
    ]
   },
-  "id": "-batteries-not-included-1h46m-1987"
+  "id": "-batteries-not-included-1987",
+  "dbid": 11548,
+  "runtime_m": 107
  },
  {
   "watched": true,
@@ -5873,6 +5976,22 @@
  },
  {
   "watched": false,
+  "title": "Cutthroat Island",
+  "year": "1995",
+  "runtime_hm": "2h4m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/gvRB9y3D9w4",
+    "https://youtu.be/IV5JD490ZL4"
+   ]
+  },
+  "id": "cutthroat-island-1995",
+  "dbid": 1408,
+  "runtime_m": 124
+ },
+ {
+  "watched": true,
+  "watchdate": "05.24.25",
   "title": "Austin Powers: International Man of Mystery",
   "year": "1997",
   "runtime_hm": "1h29m",
@@ -5881,6 +6000,9 @@
     "https://youtu.be/3M25U3ViEwM"
    ]
   },
+  "watchdate_arr": [
+   "20250524"
+  ],
   "id": "austin-powers-international-man-of-mystery-1997",
   "dbid": 816,
   "runtime_m": 94
@@ -7110,6 +7232,7 @@
   "watched": false,
   "title": "Crash Landing",
   "year": "1958",
+  "runtime_hm": "1h16m",
   "links": {
    "trailer": [
     "https://youtu.be/aVIj1A9-UIA"
@@ -7935,7 +8058,7 @@
   ],
   "id": "the-running-man-1987",
   "dbid": 865,
-  "runtime_m": 101
+  "runtime_m": 100
  },
  {
   "watched": true,
@@ -10066,7 +10189,7 @@
   },
   "id": "the-great-muppet-caper-1981",
   "dbid": 14900,
-  "runtime_m": 98
+  "runtime_m": 97
  },
  {
   "watched": true,
@@ -12956,6 +13079,7 @@
   "watched": false,
   "title": "A Night at the Roxbury",
   "year": "1998",
+  "runtime_hm": "1h21m",
   "links": {},
   "id": "a-night-at-the-roxbury-1998",
   "dbid": 9429,
@@ -12997,6 +13121,7 @@
   "watched": false,
   "title": "Wedding Crashers",
   "year": "2005",
+  "runtime_hm": "1h59m",
   "links": {},
   "id": "wedding-crashers-2005",
   "dbid": 9522,
@@ -13122,6 +13247,7 @@
   "watched": false,
   "title": "Uncle Buck",
   "year": "1989",
+  "runtime_hm": "1h40m",
   "links": {},
   "id": "uncle-buck-1989",
   "dbid": 2616,
@@ -15565,7 +15691,9 @@
     "https://youtu.be/UjjiE0OD4K0"
    ]
   },
-  "id": "space-cop-2016"
+  "id": "space-cop-2016",
+  "dbid": 1486357,
+  "runtime_m": 102
  },
  {
   "watched": false,
@@ -16377,6 +16505,48 @@
   "runtime_m": 94
  },
  {
+  "watched": false,
+  "title": "FASTER, PUSSYCAT! KILL! KILL!",
+  "year": "1965",
+  "runtime_hm": "1h23m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/cNABS8_aNlE"
+   ]
+  },
+  "id": "faster-pussycat-kill-kill-1965",
+  "dbid": 315,
+  "runtime_m": 83
+ },
+ {
+  "watched": false,
+  "title": "Surf Nazis Must Die",
+  "year": "1987",
+  "runtime_hm": "1h23m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/Fg5IsQKBE4g"
+   ]
+  },
+  "id": "surf-nazis-must-die-1987",
+  "dbid": 28070,
+  "runtime_m": 81
+ },
+ {
+  "watched": true,
+  "title": "Planet Terror",
+  "year": "2007",
+  "runtime_hm": "1h45m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/DCFQtc6BzyM"
+   ]
+  },
+  "id": "planet-terror-2007",
+  "dbid": 1992,
+  "runtime_m": 105
+ },
+ {
   "watched": true,
   "watchdate": "01.14.23",
   "title": "The Omega Man",
@@ -16466,48 +16636,6 @@
   "id": "lethal-weapon-4-1998",
   "dbid": 944,
   "runtime_m": 127
- },
- {
-  "watched": true,
-  "title": "Planet Terror",
-  "year": "2007",
-  "runtime_hm": "1h45m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/DCFQtc6BzyM"
-   ]
-  },
-  "id": "planet-terror-2007",
-  "dbid": 1992,
-  "runtime_m": 105
- },
- {
-  "watched": false,
-  "title": "FASTER, PUSSYCAT! KILL! KILL!",
-  "year": "1965",
-  "runtime_hm": "1h23m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/cNABS8_aNlE"
-   ]
-  },
-  "id": "faster-pussycat-kill-kill-1965",
-  "dbid": 315,
-  "runtime_m": 83
- },
- {
-  "watched": false,
-  "title": "Surf Nazis Must Die",
-  "year": "1987",
-  "runtime_hm": "1h23m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/Fg5IsQKBE4g"
-   ]
-  },
-  "id": "surf-nazis-must-die-1987",
-  "dbid": 28070,
-  "runtime_m": 81
  },
  {
   "watched": true,
@@ -17516,7 +17644,7 @@
   },
   "id": "teenage-mutant-ninja-turtles-iii-turtles-in-time-1993",
   "dbid": 1499,
-  "runtime_m": 95
+  "runtime_m": 96
  },
  {
   "watched": false,
@@ -17604,7 +17732,7 @@
   },
   "id": "a-knights-tale-2001",
   "dbid": 9476,
-  "runtime_m": 132
+  "runtime_m": 133
  },
  {
   "watched": false,
@@ -18003,7 +18131,7 @@
   ],
   "id": "the-naked-gun-33-1-3-the-final-insult-1994",
   "dbid": 36593,
-  "runtime_m": 83
+  "runtime_m": 82
  },
  {
   "watched": false,
@@ -18340,7 +18468,7 @@
   },
   "id": "the-muppet-christmas-carol-1992",
   "dbid": 10437,
-  "runtime_m": 89
+  "runtime_m": 86
  },
  {
   "watched": false,
@@ -18898,6 +19026,7 @@
   "watched": false,
   "title": "Turbo Kid",
   "year": "2015",
+  "runtime_hm": "1h35m",
   "links": {
    "trailer": [
     "https://youtu.be/AFlZ6pVtnv0"
@@ -18911,6 +19040,7 @@
   "watched": false,
   "title": "The Virgin Psychics",
   "year": "2015",
+  "runtime_hm": "1h54m",
   "links": {
    "trailer": [
     "https://youtu.be/ntYowWH8W2Q"
@@ -18924,6 +19054,7 @@
   "watched": false,
   "title": "Deadpool",
   "year": "2016",
+  "runtime_hm": "1h48m",
   "links": {
    "trailer": [
     "https://youtu.be/ONHBaC-pfsk"
