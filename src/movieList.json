@@ -3729,6 +3729,19 @@
  },
  {
   "watched": false,
+  "title": "Blood Red Sky",
+  "year": "2021",
+  "links": {
+   "trailer": [
+    "https://youtu.be/U8M_1eyrBtQ"
+   ]
+  },
+  "id": "blood-red-sky-2021",
+  "dbid": 760883,
+  "runtime_m": 123
+ },
+ {
+  "watched": false,
   "title": "Arachnophobia",
   "year": "1990",
   "runtime_hm": "1h49m",
@@ -4787,7 +4800,8 @@
   "runtime_m": 133
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "05.31.25",
   "title": "Casino Royale",
   "year": "2006",
   "runtime_hm": "2h24m",
@@ -4796,6 +4810,9 @@
     "https://youtu.be/36mnx8dBbGE"
    ]
   },
+  "watchdate_arr": [
+   "20250531"
+  ],
   "id": "casino-royale-2006",
   "dbid": 36557,
   "runtime_m": 144
@@ -5975,6 +5992,19 @@
   "runtime_m": 117
  },
  {
+  "watched": true,
+  "title": "Better Off Dead",
+  "year": "1985",
+  "links": {
+   "trailer": [
+    "https://youtu.be/NdSavg_i_lw"
+   ]
+  },
+  "id": "better-off-dead-1985",
+  "dbid": 13667,
+  "runtime_m": 97
+ },
+ {
   "watched": false,
   "title": "Cutthroat Island",
   "year": "1995",
@@ -6014,7 +6044,8 @@
   "runtime_hm": "1h35m",
   "links": {
    "teaser": [
-    "https://youtu.be/sM60ISd2_7U"
+    "https://youtu.be/sM60ISd2_7U",
+    "https://youtu.be/vXtle2SZY3o"
    ],
    "trailer": [
     "https://youtu.be/LGVjoLlgHbM"
@@ -6054,20 +6085,6 @@
  },
  {
   "watched": false,
-  "title": "Ace Ventura: Pet Detective",
-  "year": "1994",
-  "runtime_hm": "1h26m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/cXcH0f2B2vA"
-   ]
-  },
-  "id": "ace-ventura-pet-detective-1994",
-  "dbid": 3049,
-  "runtime_m": 86
- },
- {
-  "watched": false,
   "title": "The Mask",
   "year": "1994",
   "runtime_hm": "1h41m",
@@ -6077,11 +6094,33 @@
   "runtime_m": 101
  },
  {
+  "watched": true,
+  "watchdate": "05.31.25",
+  "title": "Ace Ventura: Pet Detective",
+  "year": "1994",
+  "runtime_hm": "1h26m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/cXcH0f2B2vA"
+   ]
+  },
+  "watchdate_arr": [
+   "20250531"
+  ],
+  "id": "ace-ventura-pet-detective-1994",
+  "dbid": 3049,
+  "runtime_m": 86
+ },
+ {
   "watched": false,
   "title": "Ace Ventura: When Nature Calls",
   "year": "1995",
   "runtime_hm": "1h30m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/T8aos7_L4kA"
+   ]
+  },
   "id": "ace-ventura-when-nature-calls-1995",
   "dbid": 9273,
   "runtime_m": 90
@@ -18634,8 +18673,8 @@
    ]
   },
   "id": "jack-frost-1998",
-  "dbid": 27318,
-  "runtime_m": 86
+  "dbid": 9745,
+  "runtime_m": 101
  },
  {
   "watched": false,
