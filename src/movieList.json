@@ -3731,6 +3731,7 @@
   "watched": false,
   "title": "Blood Red Sky",
   "year": "2021",
+  "runtime_hm": "2h3m",
   "links": {
    "trailer": [
     "https://youtu.be/U8M_1eyrBtQ"
@@ -3966,6 +3967,7 @@
   "watched": false,
   "title": "Bugsy Malone",
   "year": "1976",
+  "runtime_hm": "1h33m",
   "links": {
    "trailer": [
     "https://youtu.be/LcnANBlSzm4"
@@ -3993,6 +3995,7 @@
   "watched": false,
   "title": "The Sandpiper",
   "year": "1965",
+  "runtime_hm": "1h57m",
   "links": {
    "trailer": [
     "https://youtu.be/gjYTocBozao"
@@ -4818,7 +4821,8 @@
   "runtime_m": 144
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "06.07.25",
   "title": "Quantum of Solace",
   "year": "2008",
   "runtime_hm": "1h46m",
@@ -4827,6 +4831,9 @@
     "https://youtu.be/BBqYaFEWBxI"
    ]
   },
+  "watchdate_arr": [
+   "20250607"
+  ],
   "id": "quantum-of-solace-2008",
   "dbid": 10764,
   "runtime_m": 106
@@ -5995,6 +6002,7 @@
   "watched": true,
   "title": "Better Off Dead",
   "year": "1985",
+  "runtime_hm": "1h37m",
   "links": {
    "trailer": [
     "https://youtu.be/NdSavg_i_lw"
@@ -6112,7 +6120,8 @@
   "runtime_m": 86
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "06.07.25",
   "title": "Ace Ventura: When Nature Calls",
   "year": "1995",
   "runtime_hm": "1h30m",
@@ -6121,6 +6130,9 @@
     "https://youtu.be/T8aos7_L4kA"
    ]
   },
+  "watchdate_arr": [
+   "20250607"
+  ],
   "id": "ace-ventura-when-nature-calls-1995",
   "dbid": 9273,
   "runtime_m": 90
@@ -15662,7 +15674,8 @@
   "runtime_hm": "1h34m",
   "links": {
    "trailer": [
-    "https://youtu.be/eqpdQvWBj8A"
+    "https://youtu.be/eqpdQvWBj8A",
+    "https://youtu.be/Rw4GR_byjEE"
    ]
   },
   "id": "solarbabies-1986",
@@ -17919,6 +17932,20 @@
   "links": {},
   "id": "cyber-tracker-1994",
   "dbid": 78375,
+  "runtime_m": 91
+ },
+ {
+  "watched": false,
+  "title": "Strawberry Mansion",
+  "year": "2021",
+  "runtime_hm": "1h31m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/dpPsvOSc1Gk"
+   ]
+  },
+  "id": "strawberry-mansion-2021",
+  "dbid": 776561,
   "runtime_m": 91
  },
  {
