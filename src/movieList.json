@@ -2669,6 +2669,30 @@
  },
  {
   "watched": false,
+  "title": "Scary Movie 2",
+  "year": "2001",
+  "runtime_hm": "1h23m",
+  "links": {},
+  "id": "scary-movie-2-2001",
+  "dbid": 4248,
+  "runtime_m": 82
+ },
+ {
+  "watched": false,
+  "title": "Scary Movie 3",
+  "year": "2003",
+  "runtime_hm": "1h24m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/O21wD8Tzr2k"
+   ]
+  },
+  "id": "scary-movie-3-2003",
+  "dbid": 4256,
+  "runtime_m": 84
+ },
+ {
+  "watched": false,
   "title": "Screamers",
   "year": "1995",
   "runtime_hm": "1h48m",
@@ -3305,7 +3329,7 @@
   ],
   "id": "troll-1986",
   "dbid": 33061,
-  "runtime_m": 82
+  "runtime_m": 83
  },
  {
   "watched": false,
@@ -3614,6 +3638,15 @@
  },
  {
   "watched": false,
+  "title": "Death Becomes Her",
+  "links": {},
+  "id": "death-becomes-her-1992",
+  "year": "1992",
+  "dbid": 9374,
+  "runtime_m": 104
+ },
+ {
+  "watched": false,
   "title": "Naked Lunch",
   "year": "1991",
   "runtime_hm": "1h55m",
@@ -3628,6 +3661,40 @@
   "id": "naked-lunch-1991",
   "dbid": 2742,
   "runtime_m": 115
+ },
+ {
+  "watched": false,
+  "title": "Pi",
+  "year": "1998",
+  "runtime_hm": "1h24m",
+  "links": {},
+  "id": "pi-1998",
+  "dbid": 473,
+  "runtime_m": 84
+ },
+ {
+  "watched": false,
+  "title": "Cube",
+  "year": "1997",
+  "runtime_hm": "1h39m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/shcK9b-TQIo"
+   ]
+  },
+  "id": "cube-1997",
+  "dbid": 431,
+  "runtime_m": 90
+ },
+ {
+  "watched": false,
+  "title": "Cube2: Hypercube",
+  "year": "2002",
+  "runtime_hm": "1h34m",
+  "links": {},
+  "id": "cube2-hypercube-2002",
+  "dbid": 437,
+  "runtime_m": 94
  },
  {
   "watched": false,
@@ -3698,6 +3765,19 @@
   "id": "evolution-2001",
   "dbid": 9397,
   "runtime_m": 101
+ },
+ {
+  "watched": false,
+  "title": "The Hole",
+  "year": "2012",
+  "links": {
+   "trailer": [
+    "https://youtu.be/b5VGhWJlG5M"
+   ]
+  },
+  "id": "the-hole-2012",
+  "dbid": 45650,
+  "runtime_m": 92
  },
  {
   "watched": false,
@@ -3941,6 +4021,34 @@
  },
  {
   "watched": false,
+  "title": "Soul Plane",
+  "year": "2004",
+  "runtime_hm": "1h26m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/PhgevITawDY"
+   ]
+  },
+  "id": "soul-plane-2004",
+  "dbid": 12657,
+  "runtime_m": 86
+ },
+ {
+  "watched": false,
+  "title": "Mad God",
+  "year": "2021",
+  "runtime_hm": "1h23m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/jas8OABbn0Y"
+   ]
+  },
+  "id": "mad-god-2021",
+  "dbid": 846867,
+  "runtime_m": 84
+ },
+ {
+  "watched": false,
   "title": "Freddy Got Fingered",
   "year": "2001",
   "runtime_hm": "1h27m",
@@ -3990,6 +4098,39 @@
   "id": "replicas-2019",
   "dbid": 300681,
   "runtime_m": 107
+ },
+ {
+  "watched": false,
+  "title": "Night Moves",
+  "year": "1975",
+  "links": {
+   "trailer": [
+    "https://youtu.be/mdlLWziBggM"
+   ]
+  },
+  "id": "night-moves-1975",
+  "dbid": 32042,
+  "runtime_m": 100
+ },
+ {
+  "watched": false,
+  "title": "Crimson Tide",
+  "year": "1995",
+  "runtime_hm": "1h56m",
+  "links": {},
+  "id": "crimson-tide-1995",
+  "dbid": 8963,
+  "runtime_m": 116
+ },
+ {
+  "watched": false,
+  "title": "The Replacements",
+  "year": "2000",
+  "runtime_hm": "1h58m",
+  "links": {},
+  "id": "the-replacements-2000",
+  "dbid": 10393,
+  "runtime_m": 118
  },
  {
   "watched": false,
@@ -4112,6 +4253,20 @@
   "id": "blue-sky-1994",
   "dbid": 57834,
   "runtime_m": 101
+ },
+ {
+  "watched": false,
+  "title": "Animal Farm",
+  "year": "1999",
+  "runtime_hm": "1h31m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/mdQdkbRsDUA"
+   ]
+  },
+  "id": "animal-farm-1999",
+  "dbid": 815,
+  "runtime_m": 91
  },
  {
   "watched": false,
@@ -4839,7 +4994,8 @@
   "runtime_m": 106
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "06.14.25",
   "title": "Skyfall",
   "year": "2012",
   "runtime_hm": "2h23m",
@@ -4848,6 +5004,9 @@
     "https://youtu.be/6kw1UVovByw"
    ]
   },
+  "watchdate_arr": [
+   "20250614"
+  ],
   "id": "skyfall-2012",
   "dbid": 37724,
   "runtime_m": 143
@@ -6427,6 +6586,258 @@
  },
  {
   "watched": false,
+  "title": "Iron Man",
+  "year": "2008",
+  "links": {},
+  "id": "iron-man-2008",
+  "dbid": 1726,
+  "runtime_m": 126
+ },
+ {
+  "watched": false,
+  "title": "The Incredible Hulk",
+  "year": "2008",
+  "links": {},
+  "id": "the-incredible-hulk-2008",
+  "dbid": 1724,
+  "runtime_m": 114
+ },
+ {
+  "watched": false,
+  "title": "Iron Man 2",
+  "year": "2010",
+  "links": {},
+  "id": "iron-man-2-2010",
+  "dbid": 10138,
+  "runtime_m": 124
+ },
+ {
+  "watched": false,
+  "title": "Thor",
+  "year": "2011",
+  "links": {},
+  "id": "thor-2011",
+  "dbid": 10195,
+  "runtime_m": 115
+ },
+ {
+  "watched": false,
+  "title": "Captain America: The First Avenger",
+  "year": "2011",
+  "links": {},
+  "id": "captain-america-the-first-avenger-2011",
+  "dbid": 1771,
+  "runtime_m": 124
+ },
+ {
+  "watched": false,
+  "title": "The Avengers",
+  "year": "2012",
+  "links": {},
+  "id": "the-avengers-2012",
+  "dbid": 24428,
+  "runtime_m": 143
+ },
+ {
+  "watched": false,
+  "title": "Iron Man 3",
+  "year": "2013",
+  "links": {},
+  "id": "iron-man-3-2013",
+  "dbid": 68721,
+  "runtime_m": 130
+ },
+ {
+  "watched": false,
+  "title": "Thor: The Dark World",
+  "year": "2013",
+  "links": {},
+  "id": "thor-the-dark-world-2013",
+  "dbid": 76338,
+  "runtime_m": 112
+ },
+ {
+  "watched": false,
+  "title": "Captain America: The Winter Soldier",
+  "year": "2014",
+  "links": {},
+  "id": "captain-america-the-winter-soldier-2014",
+  "dbid": 100402,
+  "runtime_m": 136
+ },
+ {
+  "watched": false,
+  "title": "Guardians of the Galaxy",
+  "year": "2014",
+  "links": {},
+  "id": "guardians-of-the-galaxy-2014",
+  "dbid": 118340,
+  "runtime_m": 121
+ },
+ {
+  "watched": false,
+  "title": "Avengers: Age of Ultron",
+  "year": "2015",
+  "links": {},
+  "id": "avengers-age-of-ultron-2015",
+  "dbid": 99861,
+  "runtime_m": 141
+ },
+ {
+  "watched": false,
+  "title": "Ant-Man",
+  "year": "2015",
+  "links": {},
+  "id": "ant-man-2015",
+  "dbid": 102899,
+  "runtime_m": 117
+ },
+ {
+  "watched": false,
+  "title": "Deadpool",
+  "year": "2016",
+  "runtime_hm": "1h48m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/ONHBaC-pfsk"
+   ]
+  },
+  "id": "deadpool-2016",
+  "dbid": 293660,
+  "runtime_m": 108
+ },
+ {
+  "watched": false,
+  "title": "Captain America: Civil War",
+  "year": "2016",
+  "links": {},
+  "id": "captain-america-civil-war-2016",
+  "dbid": 271110,
+  "runtime_m": 147
+ },
+ {
+  "watched": false,
+  "title": "Doctor Strange",
+  "year": "2016",
+  "links": {},
+  "id": "doctor-strange-2016",
+  "dbid": 284052,
+  "runtime_m": 115
+ },
+ {
+  "watched": false,
+  "title": "Guardians of the Galaxy Vol. 2",
+  "year": "2017",
+  "links": {},
+  "id": "guardians-of-the-galaxy-vol-2-2017",
+  "dbid": 283995,
+  "runtime_m": 137
+ },
+ {
+  "watched": false,
+  "title": "Spider-Man: Homecoming",
+  "year": "2017",
+  "links": {},
+  "id": "spider-man-homecoming-2017",
+  "dbid": 315635,
+  "runtime_m": 133
+ },
+ {
+  "watched": false,
+  "title": "Thor: Ragnarok",
+  "year": "2017",
+  "links": {},
+  "id": "thor-ragnarok-2017",
+  "dbid": 284053,
+  "runtime_m": 131
+ },
+ {
+  "watched": false,
+  "title": "Black Panther",
+  "year": "2018",
+  "links": {},
+  "id": "black-panther-2018",
+  "dbid": 284054,
+  "runtime_m": 135
+ },
+ {
+  "watched": false,
+  "title": "Deadpool 2",
+  "year": "2018",
+  "links": {
+   "trailer": [
+    "https://youtu.be/D86RtevtfrA"
+   ]
+  },
+  "id": "deadpool-2-2018",
+  "dbid": 383498,
+  "runtime_m": 120
+ },
+ {
+  "watched": false,
+  "title": "Avengers: Infinity War",
+  "year": "2018",
+  "links": {},
+  "id": "avengers-infinity-war-2018",
+  "dbid": 299536,
+  "runtime_m": 149
+ },
+ {
+  "watched": false,
+  "title": "Ant-Man and the Wasp",
+  "year": "2018",
+  "links": {},
+  "id": "ant-man-and-the-wasp-2018",
+  "dbid": 363088,
+  "runtime_m": 119
+ },
+ {
+  "watched": false,
+  "title": "Captain Marvel",
+  "year": "2019",
+  "links": {},
+  "id": "captain-marvel-2019",
+  "dbid": 299537,
+  "runtime_m": 124
+ },
+ {
+  "watched": false,
+  "title": "Avengers: Endgame",
+  "year": "2019",
+  "links": {},
+  "id": "avengers-endgame-2019",
+  "dbid": 299534,
+  "runtime_m": 181
+ },
+ {
+  "watched": false,
+  "title": "Spider-Man: Far From Home",
+  "year": "2019",
+  "links": {},
+  "id": "spider-man-far-from-home-2019",
+  "dbid": 429617,
+  "runtime_m": 129
+ },
+ {
+  "watched": false,
+  "title": "Unforgiven",
+  "year": "1992",
+  "runtime_hm": "2h10m",
+  "links": {},
+  "id": "unforgiven-1992",
+  "dbid": 33,
+  "runtime_m": 130
+ },
+ {
+  "watched": false,
+  "title": "Be Quick or Be Dead",
+  "year": "1995",
+  "runtime_hm": "1h48m",
+  "links": {},
+  "id": "be-quick-or-be-dead-1995"
+ },
+ {
+  "watched": false,
   "title": "Just One of The Guys",
   "year": "1985",
   "runtime_hm": "1h40m",
@@ -7048,7 +7459,8 @@
   "runtime_m": 106
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "06.14.25",
   "title": "Treasure of the Sierra Madre",
   "year": "1948",
   "runtime_hm": "2h6m",
@@ -7057,6 +7469,9 @@
     "https://youtu.be/XZ8Q9mOYJgE"
    ]
   },
+  "watchdate_arr": [
+   "20250614"
+  ],
   "id": "treasure-of-the-sierra-madre-1948",
   "dbid": 3090,
   "runtime_m": 126
@@ -9691,6 +10106,9 @@
   "links": {
    "trailer": [
     "https://youtu.be/7kQDIosuZuo"
+   ],
+   "movie": [
+    "https://youtu.be/UF49fS65mPc"
    ]
   },
   "id": "innerspace-1987",
@@ -10687,6 +11105,12 @@
   "year": "1961",
   "runtime_hm": "1h55m",
   "links": {
+   "trailer": [
+    "https://youtu.be/OPQkbvo99Ug"
+   ],
+   "modern": [
+    "https://youtu.be/KlZ4fYqjGJI"
+   ],
    "movie": [
     "https://youtu.be/fCqr4hvNGYk"
    ]
@@ -12712,6 +13136,20 @@
   "runtime_m": 85
  },
  {
+  "watched": false,
+  "title": "Rio Bravo",
+  "year": "1959",
+  "runtime_hm": "2h21m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/_abR97mdqyU"
+   ]
+  },
+  "id": "rio-bravo-1959",
+  "dbid": 301,
+  "runtime_m": 141
+ },
+ {
   "watched": true,
   "watchdate": "5.07.2022",
   "title": "Bloodsport",
@@ -13589,7 +14027,7 @@
   },
   "id": "supercop-2-1993",
   "dbid": 38955,
-  "runtime_m": 104
+  "runtime_m": 101
  },
  {
   "watched": true,
@@ -15571,6 +16009,33 @@
   "id": "kung-fu-hustle-2004",
   "dbid": 9470,
   "runtime_m": 99
+ },
+ {
+  "watched": false,
+  "title": "The Breakfast Club",
+  "year": "1985",
+  "links": {},
+  "id": "the-breakfast-club-1985",
+  "dbid": 2108,
+  "runtime_m": 98
+ },
+ {
+  "watched": false,
+  "title": "St. Elmo's Fire",
+  "year": "1985",
+  "links": {},
+  "id": "st-elmos-fire-1985",
+  "dbid": 11557,
+  "runtime_m": 110
+ },
+ {
+  "watched": false,
+  "title": "Welcome to Rileys",
+  "year": "2010",
+  "links": {},
+  "id": "welcome-to-rileys-2010",
+  "dbid": 31007,
+  "runtime_m": 110
  },
  {
   "watched": true,
@@ -19115,33 +19580,6 @@
   "id": "the-virgin-psychics-2015",
   "dbid": 350725,
   "runtime_m": 114
- },
- {
-  "watched": false,
-  "title": "Deadpool",
-  "year": "2016",
-  "runtime_hm": "1h48m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/ONHBaC-pfsk"
-   ]
-  },
-  "id": "deadpool-2016",
-  "dbid": 293660,
-  "runtime_m": 108
- },
- {
-  "watched": false,
-  "title": "Deadpool 2",
-  "year": "2018",
-  "links": {
-   "trailer": [
-    "https://youtu.be/D86RtevtfrA"
-   ]
-  },
-  "id": "deadpool-2-2018",
-  "dbid": 383498,
-  "runtime_m": 120
  },
  {
   "watched": false,
