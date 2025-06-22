@@ -5012,7 +5012,8 @@
   "runtime_m": 143
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "06.21.25",
   "title": "Spectre",
   "year": "2015",
   "runtime_hm": "2h28m",
@@ -5021,6 +5022,9 @@
     "https://youtu.be/ujmoYyEyDP8"
    ]
   },
+  "watchdate_arr": [
+   "20250621"
+  ],
   "id": "spectre-2015",
   "dbid": 206647,
   "runtime_m": 148
@@ -7392,6 +7396,18 @@
  },
  {
   "watched": false,
+  "title": "The Shape of Things to Come",
+  "year": "1936",
+  "runtime_hm": "1h32m",
+  "links": {
+   "movie": [
+    "https://youtu.be/eB_DxSZO6mA"
+   ]
+  },
+  "id": "the-shape-of-things-to-come-1936"
+ },
+ {
+  "watched": false,
   "title": "Gone With the Wind",
   "year": "1939",
   "runtime_hm": "3h42m",
@@ -8524,7 +8540,7 @@
   ],
   "id": "the-running-man-1987",
   "dbid": 865,
-  "runtime_m": 100
+  "runtime_m": 101
  },
  {
   "watched": true,
@@ -8623,8 +8639,8 @@
    "20240217"
   ],
   "id": "terminator-2-1991",
-  "dbid": 66664,
-  "runtime_m": 90
+  "dbid": 280,
+  "runtime_m": 137
  },
  {
   "watched": true,
@@ -11324,7 +11340,7 @@
   "links": {},
   "id": "mean-girls-2004",
   "dbid": 10625,
-  "runtime_m": 97
+  "runtime_m": 96
  },
  {
   "watched": false,
@@ -12161,6 +12177,56 @@
   "id": "the-postman-1997",
   "dbid": 9922,
   "runtime_m": 177
+ },
+ {
+  "watched": false,
+  "title": "Pirates of the Carribbean: Curse of the Black Pearl",
+  "year": "2003",
+  "runtime_hm": "2h23m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/naQr0uTrH_s"
+   ]
+  },
+  "id": "pirates-of-the-carribbean-curse-of-the-black-pearl-2003"
+ },
+ {
+  "watched": false,
+  "title": "Pirates of the Carribbean: Dead Man's Chest",
+  "year": "2006",
+  "runtime_hm": "2h31m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/SNA-Ezahmok"
+   ]
+  },
+  "id": "pirates-of-the-carribbean-dead-mans-chest-2006"
+ },
+ {
+  "watched": false,
+  "title": "Pirates of the Carribbean: At World's End",
+  "year": "2007",
+  "runtime_hm": "2h49m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/HKSZtp_OGHY"
+   ]
+  },
+  "id": "pirates-of-the-carribbean-at-worlds-end-2007"
+ },
+ {
+  "watched": false,
+  "title": "The Shadow",
+  "year": "1994",
+  "runtime_hm": "1h48m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/l0lbmUaooSw"
+   ]
+  },
+  "id": "the-shadow-1994",
+  "dbid": 8850,
+  "runtime_m": 108
  },
  {
   "watched": false,
@@ -13985,7 +14051,7 @@
   },
   "id": "police-story-1985",
   "dbid": 9056,
-  "runtime_m": 99
+  "runtime_m": 100
  },
  {
   "watched": true,
