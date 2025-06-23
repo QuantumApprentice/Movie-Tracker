@@ -12181,7 +12181,7 @@
  },
  {
   "watched": false,
-  "title": "Pirates of the Carribbean: Curse of the Black Pearl",
+  "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
   "year": "2003",
   "runtime_hm": "2h23m",
   "links": {
@@ -12189,11 +12189,13 @@
     "https://youtu.be/naQr0uTrH_s"
    ]
   },
-  "id": "pirates-of-the-carribbean-curse-of-the-black-pearl-2003"
+  "id": "pirates-of-the-caribbean-the-curse-of-the-black-pearl-2003",
+  "dbid": 22,
+  "runtime_m": 143
  },
  {
   "watched": false,
-  "title": "Pirates of the Carribbean: Dead Man's Chest",
+  "title": "Pirates of the Caribbean: Dead Man's Chest",
   "year": "2006",
   "runtime_hm": "2h31m",
   "links": {
@@ -12201,11 +12203,13 @@
     "https://youtu.be/SNA-Ezahmok"
    ]
   },
-  "id": "pirates-of-the-carribbean-dead-mans-chest-2006"
+  "id": "pirates-of-the-caribbean-dead-mans-chest-2006",
+  "dbid": 58,
+  "runtime_m": 151
  },
  {
   "watched": false,
-  "title": "Pirates of the Carribbean: At World's End",
+  "title": "Pirates of the Caribbean: At World's End",
   "year": "2007",
   "runtime_hm": "2h49m",
   "links": {
@@ -12213,7 +12217,9 @@
     "https://youtu.be/HKSZtp_OGHY"
    ]
   },
-  "id": "pirates-of-the-carribbean-at-worlds-end-2007"
+  "id": "pirates-of-the-caribbean-at-worlds-end-2007",
+  "dbid": 285,
+  "runtime_m": 169
  },
  {
   "watched": false,

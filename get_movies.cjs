@@ -12,7 +12,6 @@ const finalJson = JSON.parse(temp);
 // const blurhash = require('blurhash');
 // console.log('blurhash?: ', blurhash);
 const jsfeat = require('jsfeat');
-const jpeg_js = require('jpeg-js');
 
 require('dotenv').config({path: ['.env.local']});
 const token = process.env.VITE_TMDB_TOKEN;
@@ -368,11 +367,23 @@ async function get_movie_info(movie)
   let url = new URL("https://api.themoviedb.org/3/search/movie");
   url.search = new URLSearchParams(searchParams);
 
+
+  if (movie.title == "Pirates of the Carribbean: The Curse of the Black Pearl") {
+    console.log(movie);
+  }
+
+
   //Search Movie
   try {
     let search_movie = await fetch_wError(url.toString(), get_options);
     let movie_info_json = await search_movie.json();
     // console.log("movie_info_json: ", movie_info_json);
+
+    if (movie.title == "Pirates of the Carribbean: The Curse of the Black Pearl") {
+      console.log("what did we find: ", url.toString());
+    }
+
+
     if (movie.year) {
       return movie_info_json;
     } else {
@@ -415,7 +426,6 @@ async function get_movie_info(movie)
 
 async function get_movie_details(id)
 {
-
   let url = new URL(`https://api.themoviedb.org/3/movie/${id}`);
   // url.search = new URLSearchParams(searchParams);
   let movie_details_json;
@@ -681,8 +691,16 @@ async function build_tmdb_json2()
   async function load_movie(idx) {
     let movie = movieJson[idx];
     let entry = await get_movie_info(movie);
+    // if (movie.title == "Pirates of the Carribbean: The Curse of the Black Pearl") {
+    //   console.log(movie);
+    //   console.log(entry.results[0]);
+    // }
 
     if (entry?.results[0]) {
+      if (movie.title == "Pirates of the Carribbean: The Curse of the Black Pearl") {
+        console.log("------------\n", movie);
+        console.log(entry.results[0]);
+      }
       //attach tmdb movie id to local movieList.json
       movie.dbid = entry.results[0].id;
 
