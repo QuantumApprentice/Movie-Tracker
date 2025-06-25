@@ -3741,6 +3741,34 @@
  },
  {
   "watched": false,
+  "title": "Porky's",
+  "year": "1981",
+  "runtime_hm": "1h34m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/QWmtDAIK03M"
+   ]
+  },
+  "id": "porkys-1981",
+  "dbid": 10246,
+  "runtime_m": 94
+ },
+ {
+  "watched": false,
+  "title": "Postal",
+  "year": "2007",
+  "runtime_hm": "1h40m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/ZKfMhUrjoCI"
+   ]
+  },
+  "id": "postal-2007",
+  "dbid": 2728,
+  "runtime_m": 100
+ },
+ {
+  "watched": false,
   "title": "Thankskilling",
   "year": "2008",
   "runtime_hm": "1h10m",
@@ -4369,6 +4397,19 @@
   "id": "overboard-1987",
   "dbid": 10780,
   "runtime_m": 112
+ },
+ {
+  "watched": false,
+  "title": "Born American",
+  "year": "1986",
+  "links": {
+   "trailer": [
+    "https://youtu.be/78RmBiw2yEk"
+   ]
+  },
+  "id": "born-american-1986",
+  "dbid": 103960,
+  "runtime_m": 97
  },
  {
   "watched": false,
@@ -5045,7 +5086,8 @@
   "runtime_m": 163
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "06.21.25",
   "title": "Career Opportunities",
   "year": "1991",
   "runtime_hm": "1h23m",
@@ -5054,6 +5096,9 @@
     "https://youtu.be/WW9BFI1ii40"
    ]
   },
+  "watchdate_arr": [
+   "20250621"
+  ],
   "id": "career-opportunities-1991",
   "dbid": 16270,
   "runtime_m": 83
@@ -7397,7 +7442,7 @@
  },
  {
   "watched": false,
-  "title": "The Shape of Things to Come",
+  "title": "Things to Come",
   "year": "1936",
   "runtime_hm": "1h32m",
   "links": {
@@ -7405,7 +7450,9 @@
     "https://youtu.be/eB_DxSZO6mA"
    ]
   },
-  "id": "the-shape-of-things-to-come-1936"
+  "id": "things-to-come-1936",
+  "dbid": 3596,
+  "runtime_m": 100
  },
  {
   "watched": false,
@@ -7423,6 +7470,19 @@
   "id": "gone-with-the-wind-1939",
   "dbid": 770,
   "runtime_m": 233
+ },
+ {
+  "watched": false,
+  "title": "The Grapes of Wrath",
+  "year": "1940",
+  "links": {
+   "trailer": [
+    "https://youtu.be/u6icGNGUMVc"
+   ]
+  },
+  "id": "the-grapes-of-wrath-1940",
+  "dbid": 596,
+  "runtime_m": 129
  },
  {
   "watched": false,
@@ -7454,6 +7514,20 @@
   "id": "citizen-kane-1941",
   "dbid": 15,
   "runtime_m": 119
+ },
+ {
+  "watched": false,
+  "title": "Brute Force",
+  "year": "1947",
+  "runtime_hm": "1h38m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/uTn6pHKVpNc"
+   ]
+  },
+  "id": "brute-force-1947",
+  "dbid": 28297,
+  "runtime_m": 98
  },
  {
   "watched": false,
@@ -18234,7 +18308,7 @@
   },
   "id": "teenage-mutant-ninja-turtles-iii-turtles-in-time-1993",
   "dbid": 1499,
-  "runtime_m": 96
+  "runtime_m": 95
  },
  {
   "watched": false,
