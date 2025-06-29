@@ -3543,6 +3543,24 @@
  },
  {
   "watched": false,
+  "title": "Arrival",
+  "year": "2016",
+  "links": {},
+  "id": "arrival-2016",
+  "dbid": 329865,
+  "runtime_m": 116
+ },
+ {
+  "watched": false,
+  "title": "The Beach",
+  "year": "2000",
+  "links": {},
+  "id": "the-beach-2000",
+  "dbid": 1907,
+  "runtime_m": 119
+ },
+ {
+  "watched": false,
   "title": "Gidget",
   "year": "1959",
   "runtime_hm": "1h35m",
@@ -3668,7 +3686,11 @@
   "title": "Pi",
   "year": "1998",
   "runtime_hm": "1h24m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/r0SC582sJvE"
+   ]
+  },
   "id": "pi-1998",
   "dbid": 473,
   "runtime_m": 84
@@ -3821,6 +3843,19 @@
   "id": "eight-legged-freaks-2002",
   "dbid": 8869,
   "runtime_m": 99
+ },
+ {
+  "watched": false,
+  "title": "Balls of Fury",
+  "year": "2007",
+  "links": {
+   "trailer": [
+    "https://youtu.be/mkdGH9kVuXk"
+   ]
+  },
+  "id": "balls-of-fury-2007",
+  "dbid": 9750,
+  "runtime_m": 90
  },
  {
   "watched": false,
@@ -5072,7 +5107,8 @@
   "runtime_m": 148
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "06.27.25",
   "title": "No Time to Die",
   "year": "2021",
   "runtime_hm": "2h43m",
@@ -5081,6 +5117,9 @@
     "https://youtu.be/BIhNsAtPbPI"
    ]
   },
+  "watchdate_arr": [
+   "20250627"
+  ],
   "id": "no-time-to-die-2021",
   "dbid": 370172,
   "runtime_m": 163
@@ -5734,6 +5773,53 @@
  },
  {
   "watched": false,
+  "title": "Inception",
+  "year": "2010",
+  "runtime_hm": "2h28m",
+  "links": {},
+  "id": "inception-2010",
+  "dbid": 27205,
+  "runtime_m": 148
+ },
+ {
+  "watched": false,
+  "title": "The Final Cut",
+  "year": "2004",
+  "runtime_hm": "1h35m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/EM5MzCAZ3OY"
+   ]
+  },
+  "id": "the-final-cut-2004",
+  "dbid": 11099,
+  "runtime_m": 95
+ },
+ {
+  "watched": false,
+  "title": "Simone",
+  "year": "2002",
+  "links": {
+   "trailer": [
+    "https://youtu.be/HuAjeuKXX7c"
+   ]
+  },
+  "id": "simone-2002",
+  "dbid": 9296,
+  "runtime_m": 117
+ },
+ {
+  "watched": false,
+  "title": "Black Dynomite",
+  "links": {
+   "trailer": [
+    "https://youtu.be/96Y24a0cyCE"
+   ]
+  },
+  "id": "black-dynomite-undefined"
+ },
+ {
+  "watched": false,
   "title": "The Hitman's Bodyguard",
   "year": "2017",
   "runtime_hm": "1h58m",
@@ -6205,7 +6291,7 @@
   },
   "id": "kickass-2010",
   "dbid": 23483,
-  "runtime_m": 117
+  "runtime_m": 118
  },
  {
   "watched": true,
@@ -6255,7 +6341,8 @@
   "runtime_m": 94
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "06.28.25",
   "title": "Austin Powers: The Spy Who Shagged Me",
   "year": "1999",
   "runtime_hm": "1h35m",
@@ -6268,6 +6355,9 @@
     "https://youtu.be/LGVjoLlgHbM"
    ]
   },
+  "watchdate_arr": [
+   "20250628"
+  ],
   "id": "austin-powers-the-spy-who-shagged-me-1999",
   "dbid": 817,
   "runtime_m": 95
@@ -8324,6 +8414,15 @@
   "runtime_m": 96
  },
  {
+  "watched": false,
+  "title": "Ordinary Fascism",
+  "year": "1965",
+  "links": {},
+  "id": "ordinary-fascism-1965",
+  "dbid": 53194,
+  "runtime_m": 138
+ },
+ {
   "watched": true,
   "watchdate": "11.12.23",
   "title": "Greystoke: The Legend of Tarzan, Lord of the Apes",
@@ -9588,6 +9687,19 @@
   "id": "dave-1993",
   "dbid": 11566,
   "runtime_m": 110
+ },
+ {
+  "watched": false,
+  "title": "Hoosiers",
+  "year": "1986",
+  "links": {
+   "trailer": [
+    "https://youtu.be/12h5KGHU8Mg"
+   ]
+  },
+  "id": "hoosiers-1986",
+  "dbid": 5693,
+  "runtime_m": 114
  },
  {
   "watched": true,
@@ -11230,6 +11342,19 @@
  },
  {
   "watched": false,
+  "title": "Pushpa 2: The Rule",
+  "year": "2025",
+  "links": {
+   "trailer": [
+    "https://youtu.be/MSNL6OIr9kU"
+   ]
+  },
+  "id": "pushpa-2-the-rule-2025",
+  "dbid": 857598,
+  "runtime_m": 224
+ },
+ {
+  "watched": false,
   "title": "Going Overboard",
   "year": "1989",
   "runtime_hm": "1h37m",
@@ -11273,6 +11398,20 @@
   "id": "happy-gilmore-1996",
   "dbid": 9614,
   "runtime_m": 92
+ },
+ {
+  "watched": false,
+  "title": "Bulletproof",
+  "year": "1996",
+  "runtime_hm": "1h24m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/WwWMuYFytQ0"
+   ]
+  },
+  "id": "bulletproof-1996",
+  "dbid": 10723,
+  "runtime_m": 84
  },
  {
   "watched": true,
@@ -11327,6 +11466,19 @@
   "id": "the-ridiculous-6-2015",
   "dbid": 347969,
   "runtime_m": 119
+ },
+ {
+  "watched": false,
+  "title": "Spaceman",
+  "year": "2024",
+  "links": {
+   "trailer": [
+    "https://youtu.be/rNZ0xKaCdus"
+   ]
+  },
+  "id": "spaceman-2024",
+  "dbid": 636706,
+  "runtime_m": 108
  },
  {
   "watched": true,
@@ -11751,7 +11903,7 @@
   },
   "id": "the-room-2003",
   "dbid": 17473,
-  "runtime_m": 99
+  "runtime_m": 100
  },
  {
   "watched": false,
@@ -12933,6 +13085,20 @@
   "runtime_m": 75
  },
  {
+  "watched": false,
+  "title": "Your Name",
+  "year": "2016",
+  "runtime_hm": "1h46m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/27q1kdb3sNY"
+   ]
+  },
+  "id": "your-name-2016",
+  "dbid": 372058,
+  "runtime_m": 106
+ },
+ {
   "watched": true,
   "watchdate": "6.11.2022",
   "title": "Men At Work",
@@ -13044,6 +13210,16 @@
   "id": "my-stepmother-is-an-alien-1988",
   "dbid": 12120,
   "runtime_m": 108
+ },
+ {
+  "watched": false,
+  "title": "The Quiet Earth",
+  "year": "1985",
+  "runtime_hm": "1h31m",
+  "links": {},
+  "id": "the-quiet-earth-1985",
+  "dbid": 10176,
+  "runtime_m": 91
  },
  {
   "watched": false,
@@ -15636,6 +15812,20 @@
  },
  {
   "watched": false,
+  "title": "Tolkien",
+  "year": "2019",
+  "runtime_hm": "1h52m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/jq2MFEGJ_Sw"
+   ]
+  },
+  "id": "tolkien-2019",
+  "dbid": 468224,
+  "runtime_m": 112
+ },
+ {
+  "watched": false,
   "title": "Over the Top",
   "year": "1987",
   "runtime_hm": "1h33m",
@@ -17211,6 +17401,19 @@
   "runtime_m": 105
  },
  {
+  "watched": false,
+  "title": "District 9",
+  "year": "2009",
+  "links": {
+   "trailer": [
+    "https://youtu.be/DyLUwOcR5pk"
+   ]
+  },
+  "id": "district-9-2009",
+  "dbid": 17654,
+  "runtime_m": 112
+ },
+ {
   "watched": true,
   "watchdate": "01.14.23",
   "title": "The Omega Man",
@@ -17227,6 +17430,16 @@
   "id": "the-omega-man-1971",
   "dbid": 11234,
   "runtime_m": 98
+ },
+ {
+  "watched": true,
+  "title": "Soylent Green",
+  "year": "1973",
+  "runtime_hm": "1h37m",
+  "links": {},
+  "id": "soylent-green-1973",
+  "dbid": 12101,
+  "runtime_m": 97
  },
  {
   "watched": false,
@@ -19738,6 +19951,19 @@
    ]
   },
   "id": "a-gentleman-in-moscow-2024"
+ },
+ {
+  "watched": false,
+  "title": "The Amazing Digital Circus",
+  "links": {
+   "trailer": [
+    "https://youtu.be/iuaRQ5NQFq8"
+   ]
+  },
+  "id": "the-amazing-digital-circus-2024",
+  "year": "2024",
+  "dbid": 1502122,
+  "runtime_m": 12
  },
  {
   "watched": false,
