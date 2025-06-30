@@ -6744,6 +6744,15 @@
  },
  {
   "watched": false,
+  "title": "X-Men Origins: Wolverine",
+  "year": "2009",
+  "links": {},
+  "id": "x-men-origins-wolverine-2009",
+  "dbid": 2080,
+  "runtime_m": 107
+ },
+ {
+  "watched": false,
   "title": "Iron Man 2",
   "year": "2010",
   "links": {},
@@ -6762,6 +6771,28 @@
  },
  {
   "watched": false,
+  "title": "X-Men: First Class",
+  "year": "2011",
+  "links": {},
+  "id": "x-men-first-class-2011",
+  "dbid": 49538,
+  "runtime_m": 132
+ },
+ {
+  "watched": false,
+  "title": "Ghost Rider: Spirit of Vengeance",
+  "year": "2011",
+  "links": {
+   "trailer": [
+    "https://youtu.be/UUObgxCoUgA"
+   ]
+  },
+  "id": "ghost-rider-spirit-of-vengeance-2011",
+  "dbid": 71676,
+  "runtime_m": 96
+ },
+ {
+  "watched": false,
   "title": "Captain America: The First Avenger",
   "year": "2011",
   "links": {},
@@ -6777,6 +6808,15 @@
   "id": "the-avengers-2012",
   "dbid": 24428,
   "runtime_m": 143
+ },
+ {
+  "watched": false,
+  "title": "The Wolverine",
+  "year": "2013",
+  "links": {},
+  "id": "the-wolverine-2013",
+  "dbid": 76170,
+  "runtime_m": 126
  },
  {
   "watched": false,
@@ -6807,6 +6847,15 @@
  },
  {
   "watched": false,
+  "title": "X-Men: Days of Future Past",
+  "year": "2014",
+  "links": {},
+  "id": "x-men-days-of-future-past-2014",
+  "dbid": 127585,
+  "runtime_m": 132
+ },
+ {
+  "watched": false,
   "title": "Guardians of the Galaxy",
   "year": "2014",
   "links": {},
@@ -6831,6 +6880,15 @@
   "id": "ant-man-2015",
   "dbid": 102899,
   "runtime_m": 117
+ },
+ {
+  "watched": false,
+  "title": "X-Men: Apocalypse",
+  "year": "2016",
+  "links": {},
+  "id": "x-men-apocalypse-2016",
+  "dbid": 246655,
+  "runtime_m": 144
  },
  {
   "watched": false,
@@ -6863,6 +6921,15 @@
   "id": "doctor-strange-2016",
   "dbid": 284052,
   "runtime_m": 115
+ },
+ {
+  "watched": false,
+  "title": "Logan",
+  "year": "2017",
+  "links": {},
+  "id": "logan-2017",
+  "dbid": 263115,
+  "runtime_m": 137
  },
  {
   "watched": false,
@@ -6933,6 +7000,15 @@
  },
  {
   "watched": false,
+  "title": "X-Men: Dark Phoenix",
+  "year": "2019",
+  "links": {},
+  "id": "x-men-dark-phoenix-2019",
+  "dbid": 320288,
+  "runtime_m": 114
+ },
+ {
+  "watched": false,
   "title": "Captain Marvel",
   "year": "2019",
   "links": {},
@@ -6960,6 +7036,15 @@
  },
  {
   "watched": false,
+  "title": "Deadpool & Wolverine",
+  "year": "2024",
+  "links": {},
+  "id": "deadpool-wolverine-2024",
+  "dbid": 533535,
+  "runtime_m": 128
+ },
+ {
+  "watched": false,
   "title": "Unforgiven",
   "year": "1992",
   "runtime_hm": "2h10m",
@@ -6970,11 +7055,13 @@
  },
  {
   "watched": false,
-  "title": "Be Quick or Be Dead",
+  "title": "The Quick and the Dead",
   "year": "1995",
   "runtime_hm": "1h48m",
   "links": {},
-  "id": "be-quick-or-be-dead-1995"
+  "id": "the-quick-and-the-dead-1995",
+  "dbid": 12106,
+  "runtime_m": 107
  },
  {
   "watched": false,
@@ -16053,6 +16140,23 @@
   "id": "raging-bull-1980",
   "dbid": 1578,
   "runtime_m": 129
+ },
+ {
+  "watched": false,
+  "title": "Flesh+Blood",
+  "year": "1985",
+  "runtime_hm": "2h6m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/lVyLe-k16gw"
+   ],
+   "modern": [
+    "https://youtu.be/J-7H2TYMV0w"
+   ]
+  },
+  "id": "flesh-blood-1985",
+  "dbid": 36073,
+  "runtime_m": 42
  },
  {
   "watched": true,
