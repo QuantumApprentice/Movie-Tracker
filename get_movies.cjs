@@ -377,12 +377,10 @@ async function get_movie_info(movie)
   try {
     let search_movie = await fetch_wError(url.toString(), get_options);
     let movie_info_json = await search_movie.json();
-    // console.log("movie_info_json: ", movie_info_json);
 
-    if (movie.title == "Pirates of the Carribbean: The Curse of the Black Pearl") {
-      console.log("what did we find: ", url.toString());
+    if (!movie_info_json.results[0]) {
+      console.log("Result not found for:", movie.title);
     }
-
 
     if (movie.year) {
       return movie_info_json;

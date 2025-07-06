@@ -1712,8 +1712,8 @@
    ]
   },
   "id": "house-1977",
-  "dbid": 56379,
-  "runtime_m": 106
+  "dbid": 40339,
+  "runtime_m": 95
  },
  {
   "watched": false,
@@ -5810,13 +5810,17 @@
  },
  {
   "watched": false,
-  "title": "Black Dynomite",
+  "title": "Black Dynamite",
+  "year": "2009",
+  "runtime_hm": "1h24m",
   "links": {
    "trailer": [
     "https://youtu.be/96Y24a0cyCE"
    ]
   },
-  "id": "black-dynomite-undefined"
+  "id": "black-dynamite-2009",
+  "dbid": 24804,
+  "runtime_m": 85
  },
  {
   "watched": false,
@@ -7632,7 +7636,8 @@
   "runtime_m": 100
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "07.05.25",
   "title": "Gone With the Wind",
   "year": "1939",
   "runtime_hm": "3h42m",
@@ -7644,6 +7649,9 @@
     "https://youtu.be/h2oX0zQA67U"
    ]
   },
+  "watchdate_arr": [
+   "20250705"
+  ],
   "id": "gone-with-the-wind-1939",
   "dbid": 770,
   "runtime_m": 233
@@ -20059,15 +20067,13 @@
  {
   "watched": false,
   "title": "The Amazing Digital Circus",
+  "year": "2023",
   "links": {
    "trailer": [
     "https://youtu.be/iuaRQ5NQFq8"
    ]
   },
-  "id": "the-amazing-digital-circus-2024",
-  "year": "2024",
-  "dbid": 1502122,
-  "runtime_m": 12
+  "id": "the-amazing-digital-circus-2023"
  },
  {
   "watched": false,
