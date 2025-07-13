@@ -3656,6 +3656,57 @@
  },
  {
   "watched": false,
+  "title": "Glengarry Glen Ross",
+  "year": "1992",
+  "runtime_hm": "1h40m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/a_3oYY-aPV4"
+   ]
+  },
+  "id": "glengarry-glen-ross-1992",
+  "dbid": 9504,
+  "runtime_m": 100
+ },
+ {
+  "watched": false,
+  "title": "Heat",
+  "year": "1995",
+  "links": {
+   "trailer": [
+    "https://youtu.be/2GfZl4kuVNI"
+   ]
+  },
+  "id": "heat-1995",
+  "dbid": 949,
+  "runtime_m": 170
+ },
+ {
+  "watched": false,
+  "title": "True Romance",
+  "year": "1993",
+  "links": {},
+  "id": "true-romance-1993",
+  "dbid": 319,
+  "runtime_m": 119
+ },
+ {
+  "watched": false,
+  "title": "Delicatessen",
+  "year": "1991",
+  "runtime_hm": "1h39m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/A_C6OvHh22w",
+    "https://youtu.be/GVL5_I4CvTc"
+   ]
+  },
+  "id": "delicatessen-1991",
+  "dbid": 892,
+  "runtime_m": 99
+ },
+ {
+  "watched": false,
   "title": "Death Becomes Her",
   "year": "1992",
   "runtime_hm": "1h44m",
@@ -3732,6 +3783,20 @@
   "id": "transcendence-2014",
   "dbid": 157353,
   "runtime_m": 119
+ },
+ {
+  "watched": false,
+  "title": "Resort to Kill (Immortal Combat)",
+  "year": "1994",
+  "runtime_hm": "1h49m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/IPB0LHvFEzA"
+   ]
+  },
+  "id": "resort-to-kill-immortal-combat-1994",
+  "dbid": 134719,
+  "runtime_m": 109
  },
  {
   "watched": false,
@@ -4331,6 +4396,20 @@
   "id": "animal-farm-1999",
   "dbid": 815,
   "runtime_m": 91
+ },
+ {
+  "watched": false,
+  "title": "Gangster Squad",
+  "year": "2013",
+  "runtime_hm": "1h53m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/CCfKRLTuvdk"
+   ]
+  },
+  "id": "gangster-squad-2013",
+  "dbid": 82682,
+  "runtime_m": 113
  },
  {
   "watched": false,
@@ -16475,7 +16554,7 @@
   "links": {},
   "id": "st-elmos-fire-1985",
   "dbid": 11557,
-  "runtime_m": 110
+  "runtime_m": 108
  },
  {
   "watched": false,
