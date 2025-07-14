@@ -45,7 +45,7 @@ The Mummy Returns (2001) [2h10m] trailer: https://youtu.be/ptmLrNpmcBo
 The Scorpion King (2002) [1h32m] trailer: https://youtu.be/b7nmYiZ6cAg trailer: https://youtu.be/ZmX6NYrtkCc
 Van Helsing (2004) [2h11m] trailer: https://youtu.be/3fdRKme00uI trailer: https://youtu.be/W6C6qcCW2JE
 The Mummy: Tomb of the Dragon Emperor (2008) [1h52m] trailer: https://youtu.be/vqUGSrcVm6Y
-
+Phantasm (1979) [1h29m] trailer: 
 The Adams Family (1991) [1h39m] trailer: https://youtu.be/A6X4VAHdDVg
 Altered States (1980) [1h42m] trailer: https://youtu.be/0XNVQ4ILPBA
 Angel Heart (1987) [1h53m] trailer: https://youtu.be/0iKzekw3xn8
@@ -683,7 +683,8 @@ Invaders from Mars (1953) [1h18m] trailer:
 Robot Monster (1953) [1h6m] trailer: 
 Them (1954) [1h34m] trailer:
 20,000 Leagues under the Sea (1954) [2h7m] trailer: 
-The Creature from the Black Lagoon (1954) [1h19m] trailer: 
+#The Creature from the Black Lagoon (1954) [1h19m] trailer: 
+The Court Jester (1955) [1h41m] trailer: https://youtu.be/Pt37TRvU_Mw
 The Quatermass Experiment (1955) [1h22m] trailer: 
 This Island Earth (1955) [1h25m] trailer: 
 It Came from Beneath the Sea (1955) [1h19m] trailer: 
@@ -1562,8 +1563,14 @@ Once Upon a Time in America (1984) [3h49m] trailer: https://youtu.be/LcpCRyNo8T8
 Mom and Dad Save the World (1992) [1h28m] trailer: https://youtu.be/stZpmjnB3ro movie: https://youtu.be/3MCC8eqQ1Vk
 Necessary Roughness (1991) [1h48m] trailer: https://youtu.be/tme9N5YBC2w
 
+Taxi Driver (1976) [1h54m] trailer: 
+Django Unchained (2012) [2h45m] trailer: 
 
-
+#Bruce Lee
+The Big Boss (Fists of Fury) (1971) [1h39m] trailer: https://youtu.be/bIkaWTCi49A modern: https://youtu.be/eFJmVD0qHHg
+Fist of Fury (1972) [1h47m] trailer: https://youtu.be/w_4RjSbSIFY modern: https://youtu.be/oO9PVJdgu4M
+The Way of the Dragon (1972) [1h30m] trailer: https://youtu.be/IXPdRMpCE44 modern: https://youtu.be/72giNDkKhSE
+Enter the Dragon (1973) [1h42m] trailer: https://youtu.be/RCOqXnzN5Ik modern: https://youtu.be/5RGju9NuoOU
 
 
 Hamlet 2 (2008) [1h32m] trailer: https://youtu.be/FCQr7x9WtJ0

@@ -555,6 +555,16 @@
  },
  {
   "watched": false,
+  "title": "Phantasm",
+  "year": "1979",
+  "runtime_hm": "1h29m",
+  "links": {},
+  "id": "phantasm-1979",
+  "dbid": 9638,
+  "runtime_m": 89
+ },
+ {
+  "watched": false,
   "title": "The Adams Family",
   "year": "1991",
   "runtime_hm": "1h39m",
@@ -6421,7 +6431,7 @@
   ],
   "id": "austin-powers-international-man-of-mystery-1997",
   "dbid": 816,
-  "runtime_m": 94
+  "runtime_m": 89
  },
  {
   "watched": true,
@@ -7964,13 +7974,17 @@
  },
  {
   "watched": false,
-  "title": "The Creature from the Black Lagoon",
-  "year": "1954",
-  "runtime_hm": "1h19m",
-  "links": {},
-  "id": "the-creature-from-the-black-lagoon-1954",
-  "dbid": 10973,
-  "runtime_m": 79
+  "title": "The Court Jester",
+  "year": "1955",
+  "runtime_hm": "1h41m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/Pt37TRvU_Mw"
+   ]
+  },
+  "id": "the-court-jester-1955",
+  "dbid": 11839,
+  "runtime_m": 101
  },
  {
   "watched": false,
@@ -9045,7 +9059,7 @@
   ],
   "id": "junior-1994",
   "dbid": 6280,
-  "runtime_m": 110
+  "runtime_m": 109
  },
  {
   "watched": true,
@@ -14482,7 +14496,7 @@
   },
   "id": "police-story-1985",
   "dbid": 9056,
-  "runtime_m": 100
+  "runtime_m": 99
  },
  {
   "watched": true,
@@ -14919,7 +14933,7 @@
   },
   "id": "the-outsiders-1983",
   "dbid": 227,
-  "runtime_m": 94
+  "runtime_m": 91
  },
  {
   "watched": false,
@@ -18144,6 +18158,94 @@
   "id": "necessary-roughness-1991",
   "dbid": 20704,
   "runtime_m": 108
+ },
+ {
+  "watched": false,
+  "title": "Taxi Driver",
+  "year": "1976",
+  "runtime_hm": "1h54m",
+  "links": {},
+  "id": "taxi-driver-1976",
+  "dbid": 103,
+  "runtime_m": 114
+ },
+ {
+  "watched": false,
+  "title": "Django Unchained",
+  "year": "2012",
+  "runtime_hm": "2h45m",
+  "links": {},
+  "id": "django-unchained-2012",
+  "dbid": 68718,
+  "runtime_m": 165
+ },
+ {
+  "watched": false,
+  "title": "The Big Boss (Fists of Fury)",
+  "year": "1971",
+  "runtime_hm": "1h39m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/bIkaWTCi49A"
+   ],
+   "modern": [
+    "https://youtu.be/eFJmVD0qHHg"
+   ]
+  },
+  "id": "the-big-boss-fists-of-fury-1971",
+  "dbid": 12481,
+  "runtime_m": 99
+ },
+ {
+  "watched": false,
+  "title": "Fist of Fury",
+  "year": "1972",
+  "runtime_hm": "1h47m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/w_4RjSbSIFY"
+   ],
+   "modern": [
+    "https://youtu.be/oO9PVJdgu4M"
+   ]
+  },
+  "id": "fist-of-fury-1972",
+  "dbid": 11713,
+  "runtime_m": 108
+ },
+ {
+  "watched": false,
+  "title": "The Way of the Dragon",
+  "year": "1972",
+  "runtime_hm": "1h30m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/IXPdRMpCE44"
+   ],
+   "modern": [
+    "https://youtu.be/72giNDkKhSE"
+   ]
+  },
+  "id": "the-way-of-the-dragon-1972",
+  "dbid": 9462,
+  "runtime_m": 100
+ },
+ {
+  "watched": false,
+  "title": "Enter the Dragon",
+  "year": "1973",
+  "runtime_hm": "1h42m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/RCOqXnzN5Ik"
+   ],
+   "modern": [
+    "https://youtu.be/5RGju9NuoOU"
+   ]
+  },
+  "id": "enter-the-dragon-1973",
+  "dbid": 9461,
+  "runtime_m": 102
  },
  {
   "watched": false,
