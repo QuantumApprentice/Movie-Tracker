@@ -5343,7 +5343,8 @@
   "runtime_m": 99
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "07.12.25",
   "title": "Action Jackson",
   "year": "1988",
   "runtime_hm": "1h36m",
@@ -5356,6 +5357,9 @@
     "https://youtu.be/PEaxFvHuW4k"
    ]
   },
+  "watchdate_arr": [
+   "20250712"
+  ],
   "id": "action-jackson-1988",
   "dbid": 10117,
   "runtime_m": 96
@@ -8756,7 +8760,8 @@
   "runtime_m": 95
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "07.19.25",
   "title": "Dick Tracy",
   "year": "1990",
   "runtime_hm": "1h45m",
@@ -8766,6 +8771,9 @@
     "https://youtu.be/yp1ZjZX685U"
    ]
   },
+  "watchdate_arr": [
+   "20250719"
+  ],
   "id": "dick-tracy-1990",
   "dbid": 8592,
   "runtime_m": 105
@@ -12634,7 +12642,8 @@
   "runtime_m": 177
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "07.19.25",
   "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
   "year": "2003",
   "runtime_hm": "2h23m",
@@ -12643,6 +12652,9 @@
     "https://youtu.be/naQr0uTrH_s"
    ]
   },
+  "watchdate_arr": [
+   "20250719"
+  ],
   "id": "pirates-of-the-caribbean-the-curse-of-the-black-pearl-2003",
   "dbid": 22,
   "runtime_m": 143
@@ -12676,7 +12688,8 @@
   "runtime_m": 169
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "07.12.25",
   "title": "The Shadow",
   "year": "1994",
   "runtime_hm": "1h48m",
@@ -12685,6 +12698,9 @@
     "https://youtu.be/l0lbmUaooSw"
    ]
   },
+  "watchdate_arr": [
+   "20250712"
+  ],
   "id": "the-shadow-1994",
   "dbid": 8850,
   "runtime_m": 108
