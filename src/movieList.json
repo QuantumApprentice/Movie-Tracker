@@ -2618,8 +2618,8 @@
    ]
   },
   "id": "ringu-1998",
-  "dbid": 9706,
-  "runtime_m": 97
+  "dbid": 2671,
+  "runtime_m": 96
  },
  {
   "watched": false,
@@ -4409,6 +4409,19 @@
  },
  {
   "watched": false,
+  "title": "Nothing to Lose",
+  "year": "1997",
+  "links": {
+   "trailer": [
+    "https://youtu.be/w03jEKHNBEI"
+   ]
+  },
+  "id": "nothing-to-lose-1997",
+  "dbid": 11676,
+  "runtime_m": 97
+ },
+ {
+  "watched": false,
   "title": "Gangster Squad",
   "year": "2013",
   "runtime_hm": "1h53m",
@@ -4660,6 +4673,143 @@
   "id": "mousehunt-1997",
   "dbid": 6283,
   "runtime_m": 98
+ },
+ {
+  "watched": false,
+  "title": "Half Baked",
+  "year": "1998",
+  "links": {
+   "trailer": [
+    "https://youtu.be/eiGWGma2UOg"
+   ]
+  },
+  "id": "half-baked-1998",
+  "dbid": 9490,
+  "runtime_m": 82
+ },
+ {
+  "watched": false,
+  "title": "Grandma's Boy",
+  "year": "2006",
+  "runtime_hm": "1h34m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/_3Sa_n_a0c4",
+    "https://youtu.be/LgZ3a5dxRms"
+   ]
+  },
+  "id": "grandmas-boy-2006",
+  "dbid": 9900,
+  "runtime_m": 95
+ },
+ {
+  "watched": false,
+  "title": "Up in Smoke",
+  "year": "1978",
+  "runtime_hm": "1h26m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/rQBYkKJmFAI",
+    "https://youtu.be/k2pXxHW1DHs"
+   ]
+  },
+  "id": "up-in-smoke-1978",
+  "dbid": 11455,
+  "runtime_m": 86
+ },
+ {
+  "watched": false,
+  "title": "Dude, Where's My Car?",
+  "year": "2000",
+  "runtime_hm": "1h23m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/jH_nkW3QtFg"
+   ]
+  },
+  "id": "dude-wheres-my-car-2000",
+  "dbid": 8859,
+  "runtime_m": 83
+ },
+ {
+  "watched": false,
+  "title": "Smiley Face",
+  "year": "2007",
+  "links": {
+   "trailer": [
+    "https://youtu.be/I8SzujSn3CY"
+   ]
+  },
+  "id": "smiley-face-2007",
+  "dbid": 13168,
+  "runtime_m": 84
+ },
+ {
+  "watched": false,
+  "title": "Dazed and Confused",
+  "year": "1993",
+  "links": {
+   "trailer": [
+    "https://youtu.be/3aQuvPlcB-8"
+   ]
+  },
+  "id": "dazed-and-confused-1993",
+  "dbid": 9571,
+  "runtime_m": 102
+ },
+ {
+  "watched": false,
+  "title": "Cheech & Chong's Nice Dreams",
+  "year": "1981",
+  "links": {
+   "trailer": [
+    "https://youtu.be/6SbNEZnf_Ck"
+   ]
+  },
+  "id": "cheech-chongs-nice-dreams-1981",
+  "dbid": 20075,
+  "runtime_m": 88
+ },
+ {
+  "watched": false,
+  "title": "Tenacious D in The Pick of Destiny",
+  "year": "2006",
+  "runtime_hm": "1h33m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/2tvKDAW6Flk"
+   ]
+  },
+  "id": "tenacious-d-in-the-pick-of-destiny-2006",
+  "dbid": 2179,
+  "runtime_m": 93
+ },
+ {
+  "watched": false,
+  "title": "Friday",
+  "year": "1995",
+  "links": {},
+  "id": "friday-1995",
+  "dbid": 10634,
+  "runtime_m": 91
+ },
+ {
+  "watched": false,
+  "title": "Puff, Puff, Pass",
+  "year": "2006",
+  "links": {},
+  "id": "puff-puff-pass-2006",
+  "dbid": 24701,
+  "runtime_m": 94
+ },
+ {
+  "watched": false,
+  "title": "Don't Be a Menace to South Central While Drinking Your Juice in the Hood",
+  "year": "1996",
+  "links": {},
+  "id": "dont-be-a-menace-to-south-central-while-drinking-your-juice-in-the-hood-1996",
+  "dbid": 10607,
+  "runtime_m": 89
  },
  {
   "watched": false,
@@ -5568,7 +5718,7 @@
   },
   "id": "escape-from-l-a-1996",
   "dbid": 10061,
-  "runtime_m": 101
+  "runtime_m": 96
  },
  {
   "watched": false,
@@ -6460,7 +6610,8 @@
   "runtime_m": 95
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "07.26.25",
   "title": "Austin Powers in Goldmember",
   "year": "2002",
   "runtime_hm": "1h34m",
@@ -6469,6 +6620,9 @@
     "https://youtu.be/XROEPkzyCRg"
    ]
   },
+  "watchdate_arr": [
+   "20250726"
+  ],
   "id": "austin-powers-in-goldmember-2002",
   "dbid": 818,
   "runtime_m": 94
@@ -10201,21 +10355,6 @@
   "runtime_m": 89
  },
  {
-  "watched": false,
-  "title": "Grandma's Boy",
-  "year": "2006",
-  "runtime_hm": "1h34m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/_3Sa_n_a0c4",
-    "https://youtu.be/LgZ3a5dxRms"
-   ]
-  },
-  "id": "grandmas-boy-2006",
-  "dbid": 9900,
-  "runtime_m": 95
- },
- {
   "watched": true,
   "title": "Groundhog Day",
   "year": "1993",
@@ -11574,7 +11713,7 @@
   ],
   "id": "gattaca-1997",
   "dbid": 782,
-  "runtime_m": 106
+  "runtime_m": 107
  },
  {
   "watched": false,
@@ -12660,7 +12799,8 @@
   "runtime_m": 143
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "07.26.25",
   "title": "Pirates of the Caribbean: Dead Man's Chest",
   "year": "2006",
   "runtime_hm": "2h31m",
@@ -12669,6 +12809,9 @@
     "https://youtu.be/SNA-Ezahmok"
    ]
   },
+  "watchdate_arr": [
+   "20250726"
+  ],
   "id": "pirates-of-the-caribbean-dead-mans-chest-2006",
   "dbid": 58,
   "runtime_m": 151
@@ -13530,8 +13673,8 @@
   "runtime_hm": "2h40m",
   "links": {},
   "id": "ride-with-the-devil-1999",
-  "dbid": 22267,
-  "runtime_m": 138
+  "dbid": 419311,
+  "runtime_m": 89
  },
  {
   "watched": false,
@@ -14078,20 +14221,6 @@
   "id": "ski-school-1991",
   "dbid": 21811,
   "runtime_m": 95
- },
- {
-  "watched": false,
-  "title": "Dude, Where's My Car?",
-  "year": "2000",
-  "runtime_hm": "1h23m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/jH_nkW3QtFg"
-   ]
-  },
-  "id": "dude-wheres-my-car-2000",
-  "dbid": 8859,
-  "runtime_m": 83
  },
  {
   "watched": false,
@@ -18350,7 +18479,7 @@
   },
   "id": "superman-1979",
   "dbid": 1924,
-  "runtime_m": 143
+  "runtime_m": 144
  },
  {
   "watched": true,
@@ -18759,7 +18888,11 @@
   "title": "Ted",
   "year": "2012",
   "runtime_hm": "1h46m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/9fbo_pQvU7M"
+   ]
+  },
   "id": "ted-2012",
   "dbid": 72105,
   "runtime_m": 107
@@ -18777,20 +18910,6 @@
   "id": "tin-cup-1996",
   "dbid": 10478,
   "runtime_m": 135
- },
- {
-  "watched": false,
-  "title": "Tenacious D in The Pick of Destiny",
-  "year": "2006",
-  "runtime_hm": "1h33m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/2tvKDAW6Flk"
-   ]
-  },
-  "id": "tenacious-d-in-the-pick-of-destiny-2006",
-  "dbid": 2179,
-  "runtime_m": 93
  },
  {
   "watched": false,
@@ -19261,21 +19380,6 @@
   "id": "i-am-dragon-2015",
   "dbid": 370964,
   "runtime_m": 110
- },
- {
-  "watched": false,
-  "title": "Up in Smoke",
-  "year": "1978",
-  "runtime_hm": "1h26m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/rQBYkKJmFAI",
-    "https://youtu.be/k2pXxHW1DHs"
-   ]
-  },
-  "id": "up-in-smoke-1978",
-  "dbid": 11455,
-  "runtime_m": 86
  },
  {
   "watched": false,
