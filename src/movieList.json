@@ -2118,6 +2118,58 @@
  },
  {
   "watched": false,
+  "title": "Mr. Vampire",
+  "year": "1985",
+  "links": {
+   "trailer": [
+    "https://youtu.be/oRoK8I-ONf0"
+   ]
+  },
+  "id": "mr-vampire-1985",
+  "dbid": 67342,
+  "runtime_m": 96
+ },
+ {
+  "watched": false,
+  "title": "Mr. Vampire II",
+  "year": "1986",
+  "links": {
+   "trailer": [
+    "https://youtu.be/CrJVeT2fQ38"
+   ]
+  },
+  "id": "mr-vampire-ii-1986",
+  "dbid": 67343,
+  "runtime_m": 89
+ },
+ {
+  "watched": false,
+  "title": "Mr. Vampire III",
+  "year": "1987",
+  "links": {
+   "trailer": [
+    "https://youtu.be/2KTbcrmoO_g"
+   ]
+  },
+  "id": "mr-vampire-iii-1987",
+  "dbid": 67344,
+  "runtime_m": 92
+ },
+ {
+  "watched": false,
+  "title": "Mr. Vampire IV",
+  "year": "1988",
+  "links": {
+   "trailer": [
+    "https://youtu.be/H1qA1e_Yczs"
+   ]
+  },
+  "id": "mr-vampire-iv-1988",
+  "dbid": 67345,
+  "runtime_m": 94
+ },
+ {
+  "watched": false,
   "title": "Munchies",
   "year": "1987",
   "runtime_hm": "1h23m",
@@ -4140,6 +4192,15 @@
  },
  {
   "watched": false,
+  "title": "The Pagemaster",
+  "links": {},
+  "id": "the-pagemaster-1994",
+  "year": "1994",
+  "dbid": 15139,
+  "runtime_m": 75
+ },
+ {
+  "watched": false,
   "title": "Every Which Way But Loose",
   "year": "1978",
   "runtime_hm": "1h54m",
@@ -4539,6 +4600,7 @@
   "watched": false,
   "title": "Born American",
   "year": "1986",
+  "runtime_hm": "1h37m",
   "links": {
    "trailer": [
     "https://youtu.be/78RmBiw2yEk"
@@ -4678,6 +4740,7 @@
   "watched": false,
   "title": "Half Baked",
   "year": "1998",
+  "runtime_hm": "1h22m",
   "links": {
    "trailer": [
     "https://youtu.be/eiGWGma2UOg"
@@ -4735,6 +4798,7 @@
   "watched": false,
   "title": "Smiley Face",
   "year": "2007",
+  "runtime_hm": "1h24m",
   "links": {
    "trailer": [
     "https://youtu.be/I8SzujSn3CY"
@@ -4748,6 +4812,7 @@
   "watched": false,
   "title": "Dazed and Confused",
   "year": "1993",
+  "runtime_hm": "1h42m",
   "links": {
    "trailer": [
     "https://youtu.be/3aQuvPlcB-8"
@@ -4761,6 +4826,7 @@
   "watched": false,
   "title": "Cheech & Chong's Nice Dreams",
   "year": "1981",
+  "runtime_hm": "1h28m",
   "links": {
    "trailer": [
     "https://youtu.be/6SbNEZnf_Ck"
@@ -4788,6 +4854,7 @@
   "watched": false,
   "title": "Friday",
   "year": "1995",
+  "runtime_hm": "1h31m",
   "links": {},
   "id": "friday-1995",
   "dbid": 10634,
@@ -4797,6 +4864,7 @@
   "watched": false,
   "title": "Puff, Puff, Pass",
   "year": "2006",
+  "runtime_hm": "1h34m",
   "links": {},
   "id": "puff-puff-pass-2006",
   "dbid": 24701,
@@ -4806,6 +4874,7 @@
   "watched": false,
   "title": "Don't Be a Menace to South Central While Drinking Your Juice in the Hood",
   "year": "1996",
+  "runtime_hm": "1h29m",
   "links": {},
   "id": "dont-be-a-menace-to-south-central-while-drinking-your-juice-in-the-hood-1996",
   "dbid": 10607,
@@ -6042,6 +6111,7 @@
   "watched": false,
   "title": "Simone",
   "year": "2002",
+  "runtime_hm": "1h57m",
   "links": {
    "trailer": [
     "https://youtu.be/HuAjeuKXX7c"
@@ -6979,6 +7049,7 @@
   "watched": false,
   "title": "Iron Man",
   "year": "2008",
+  "runtime_hm": "2h6m",
   "links": {},
   "id": "iron-man-2008",
   "dbid": 1726,
@@ -6988,6 +7059,7 @@
   "watched": false,
   "title": "The Incredible Hulk",
   "year": "2008",
+  "runtime_hm": "1h54m",
   "links": {},
   "id": "the-incredible-hulk-2008",
   "dbid": 1724,
@@ -6997,6 +7069,7 @@
   "watched": false,
   "title": "X-Men Origins: Wolverine",
   "year": "2009",
+  "runtime_hm": "1h47m",
   "links": {},
   "id": "x-men-origins-wolverine-2009",
   "dbid": 2080,
@@ -7006,6 +7079,7 @@
   "watched": false,
   "title": "Iron Man 2",
   "year": "2010",
+  "runtime_hm": "2h4m",
   "links": {},
   "id": "iron-man-2-2010",
   "dbid": 10138,
@@ -7015,6 +7089,7 @@
   "watched": false,
   "title": "Thor",
   "year": "2011",
+  "runtime_hm": "1h55m",
   "links": {},
   "id": "thor-2011",
   "dbid": 10195,
@@ -7024,6 +7099,7 @@
   "watched": false,
   "title": "X-Men: First Class",
   "year": "2011",
+  "runtime_hm": "2h12m",
   "links": {},
   "id": "x-men-first-class-2011",
   "dbid": 49538,
@@ -7033,6 +7109,7 @@
   "watched": false,
   "title": "Ghost Rider: Spirit of Vengeance",
   "year": "2011",
+  "runtime_hm": "1h36m",
   "links": {
    "trailer": [
     "https://youtu.be/UUObgxCoUgA"
@@ -7046,6 +7123,7 @@
   "watched": false,
   "title": "Captain America: The First Avenger",
   "year": "2011",
+  "runtime_hm": "2h4m",
   "links": {},
   "id": "captain-america-the-first-avenger-2011",
   "dbid": 1771,
@@ -7055,6 +7133,7 @@
   "watched": false,
   "title": "The Avengers",
   "year": "2012",
+  "runtime_hm": "2h23m",
   "links": {},
   "id": "the-avengers-2012",
   "dbid": 24428,
