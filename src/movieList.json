@@ -6518,7 +6518,7 @@
   },
   "id": "ben-hur-1959",
   "dbid": 665,
-  "runtime_m": 222
+  "runtime_m": 212
  },
  {
   "watched": true,
@@ -9183,7 +9183,7 @@
   ],
   "id": "the-running-man-1987",
   "dbid": 865,
-  "runtime_m": 101
+  "runtime_m": 100
  },
  {
   "watched": true,
@@ -11052,6 +11052,32 @@
   "runtime_m": 90
  },
  {
+  "watched": false,
+  "title": "When the Wind Blows",
+  "year": "1986",
+  "links": {
+   "trailer": [
+    "https://youtu.be/9pJKdTqYijY"
+   ]
+  },
+  "id": "when-the-wind-blows-1986",
+  "dbid": 10857,
+  "runtime_m": 84
+ },
+ {
+  "watched": false,
+  "title": "Threads",
+  "year": "1984",
+  "links": {
+   "trailer": [
+    "https://youtu.be/vgT4Y30DkaA"
+   ]
+  },
+  "id": "threads-1984",
+  "dbid": 17835,
+  "runtime_m": 117
+ },
+ {
   "watched": true,
   "watchdate": "11.12.22",
   "title": "Little Shop of Horrors",
@@ -12896,7 +12922,8 @@
   "runtime_m": 151
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "08.02.25",
   "title": "Pirates of the Caribbean: At World's End",
   "year": "2007",
   "runtime_hm": "2h49m",
@@ -12905,9 +12932,40 @@
     "https://youtu.be/HKSZtp_OGHY"
    ]
   },
+  "watchdate_arr": [
+   "20250802"
+  ],
   "id": "pirates-of-the-caribbean-at-worlds-end-2007",
   "dbid": 285,
   "runtime_m": 169
+ },
+ {
+  "watched": false,
+  "title": "Pirates of the Caribbean: On Stranger Tides",
+  "year": "2011",
+  "runtime_hm": "2h16m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/0BXCVe8Yww4"
+   ]
+  },
+  "id": "pirates-of-the-caribbean-on-stranger-tides-2011",
+  "dbid": 1865,
+  "runtime_m": 136
+ },
+ {
+  "watched": false,
+  "title": "Pirates of the Caribbean: Dead Men Tell No Tales",
+  "year": "2017",
+  "runtime_hm": "2h9m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/KrGyD4kHTSE"
+   ]
+  },
+  "id": "pirates-of-the-caribbean-dead-men-tell-no-tales-2017",
+  "dbid": 166426,
+  "runtime_m": 129
  },
  {
   "watched": true,
@@ -13316,9 +13374,7 @@
     "https://youtu.be/r03M1yUjCwQ"
    ]
   },
-  "id": "captain-harlock-arcadia-of-my-youth-1982",
-  "dbid": 42137,
-  "runtime_m": 130
+  "id": "captain-harlock-arcadia-of-my-youth-1982"
  },
  {
   "watched": false,
@@ -14347,7 +14403,7 @@
   "links": {},
   "id": "a-night-at-the-roxbury-1998",
   "dbid": 9429,
-  "runtime_m": 81
+  "runtime_m": 82
  },
  {
   "watched": true,
@@ -19540,7 +19596,7 @@
   ],
   "id": "the-naked-gun-33-1-3-the-final-insult-1994",
   "dbid": 36593,
-  "runtime_m": 83
+  "runtime_m": 82
  },
  {
   "watched": false,
@@ -19744,8 +19800,8 @@
    ]
   },
   "id": "die-hard-5-a-good-day-to-die-hard-2013",
-  "dbid": 477063,
-  "runtime_m": 60
+  "dbid": 47964,
+  "runtime_m": 98
  },
  {
   "watched": true,
