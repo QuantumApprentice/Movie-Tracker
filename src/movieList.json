@@ -2120,6 +2120,7 @@
   "watched": false,
   "title": "Mr. Vampire",
   "year": "1985",
+  "runtime_hm": "1h36m",
   "links": {
    "trailer": [
     "https://youtu.be/oRoK8I-ONf0"
@@ -2133,6 +2134,7 @@
   "watched": false,
   "title": "Mr. Vampire II",
   "year": "1986",
+  "runtime_hm": "1h29m",
   "links": {
    "trailer": [
     "https://youtu.be/CrJVeT2fQ38"
@@ -2146,6 +2148,7 @@
   "watched": false,
   "title": "Mr. Vampire III",
   "year": "1987",
+  "runtime_hm": "1h32m",
   "links": {
    "trailer": [
     "https://youtu.be/2KTbcrmoO_g"
@@ -2159,6 +2162,7 @@
   "watched": false,
   "title": "Mr. Vampire IV",
   "year": "1988",
+  "runtime_hm": "1h34m",
   "links": {
    "trailer": [
     "https://youtu.be/H1qA1e_Yczs"
@@ -3607,6 +3611,7 @@
   "watched": false,
   "title": "Arrival",
   "year": "2016",
+  "runtime_hm": "1h56m",
   "links": {},
   "id": "arrival-2016",
   "dbid": 329865,
@@ -3616,6 +3621,7 @@
   "watched": false,
   "title": "The Beach",
   "year": "2000",
+  "runtime_hm": "1h59m",
   "links": {},
   "id": "the-beach-2000",
   "dbid": 1907,
@@ -3734,6 +3740,7 @@
   "watched": false,
   "title": "Heat",
   "year": "1995",
+  "runtime_hm": "2h50m",
   "links": {
    "trailer": [
     "https://youtu.be/2GfZl4kuVNI"
@@ -3948,6 +3955,7 @@
   "watched": false,
   "title": "The Hole",
   "year": "2012",
+  "runtime_hm": "1h32m",
   "links": {
    "trailer": [
     "https://youtu.be/b5VGhWJlG5M"
@@ -3975,6 +3983,7 @@
   "watched": false,
   "title": "Balls of Fury",
   "year": "2007",
+  "runtime_hm": "1h30m",
   "links": {
    "trailer": [
     "https://youtu.be/mkdGH9kVuXk"
@@ -4193,9 +4202,10 @@
  {
   "watched": false,
   "title": "The Pagemaster",
+  "year": "1994",
+  "runtime_hm": "1h15m",
   "links": {},
   "id": "the-pagemaster-1994",
-  "year": "1994",
   "dbid": 15139,
   "runtime_m": 75
  },
@@ -4303,6 +4313,7 @@
   "watched": false,
   "title": "Night Moves",
   "year": "1975",
+  "runtime_hm": "1h40m",
   "links": {
    "trailer": [
     "https://youtu.be/mdlLWziBggM"
@@ -4472,6 +4483,7 @@
   "watched": false,
   "title": "Nothing to Lose",
   "year": "1997",
+  "runtime_hm": "1h37m",
   "links": {
    "trailer": [
     "https://youtu.be/w03jEKHNBEI"
@@ -6812,7 +6824,8 @@
   "runtime_m": 121
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "08.09.25",
   "title": "X-Men",
   "year": "2000",
   "runtime_hm": "1h44m",
@@ -6821,6 +6834,9 @@
     "https://youtu.be/Iy5R5_T243w"
    ]
   },
+  "watchdate_arr": [
+   "20250809"
+  ],
   "id": "x-men-2000",
   "dbid": 36657,
   "runtime_m": 104
@@ -7143,6 +7159,7 @@
   "watched": false,
   "title": "The Wolverine",
   "year": "2013",
+  "runtime_hm": "2h6m",
   "links": {},
   "id": "the-wolverine-2013",
   "dbid": 76170,
@@ -7152,6 +7169,7 @@
   "watched": false,
   "title": "Iron Man 3",
   "year": "2013",
+  "runtime_hm": "2h10m",
   "links": {},
   "id": "iron-man-3-2013",
   "dbid": 68721,
@@ -7161,6 +7179,7 @@
   "watched": false,
   "title": "Thor: The Dark World",
   "year": "2013",
+  "runtime_hm": "1h52m",
   "links": {},
   "id": "thor-the-dark-world-2013",
   "dbid": 76338,
@@ -7170,6 +7189,7 @@
   "watched": false,
   "title": "Captain America: The Winter Soldier",
   "year": "2014",
+  "runtime_hm": "2h16m",
   "links": {},
   "id": "captain-america-the-winter-soldier-2014",
   "dbid": 100402,
@@ -7179,6 +7199,7 @@
   "watched": false,
   "title": "X-Men: Days of Future Past",
   "year": "2014",
+  "runtime_hm": "2h12m",
   "links": {},
   "id": "x-men-days-of-future-past-2014",
   "dbid": 127585,
@@ -7188,6 +7209,7 @@
   "watched": false,
   "title": "Guardians of the Galaxy",
   "year": "2014",
+  "runtime_hm": "2h1m",
   "links": {},
   "id": "guardians-of-the-galaxy-2014",
   "dbid": 118340,
@@ -7197,6 +7219,7 @@
   "watched": false,
   "title": "Avengers: Age of Ultron",
   "year": "2015",
+  "runtime_hm": "2h21m",
   "links": {},
   "id": "avengers-age-of-ultron-2015",
   "dbid": 99861,
@@ -7206,6 +7229,7 @@
   "watched": false,
   "title": "Ant-Man",
   "year": "2015",
+  "runtime_hm": "1h57m",
   "links": {},
   "id": "ant-man-2015",
   "dbid": 102899,
@@ -7973,6 +7997,15 @@
   "id": "things-to-come-1936",
   "dbid": 3596,
   "runtime_m": 100
+ },
+ {
+  "watched": false,
+  "title": "Shall We Dance",
+  "year": "1937",
+  "links": {},
+  "id": "shall-we-dance-1937",
+  "dbid": 31530,
+  "runtime_m": 109
  },
  {
   "watched": true,
@@ -12940,7 +12973,8 @@
   "runtime_m": 169
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "08.09.25",
   "title": "Pirates of the Caribbean: On Stranger Tides",
   "year": "2011",
   "runtime_hm": "2h16m",
@@ -12949,6 +12983,9 @@
     "https://youtu.be/0BXCVe8Yww4"
    ]
   },
+  "watchdate_arr": [
+   "20250809"
+  ],
   "id": "pirates-of-the-caribbean-on-stranger-tides-2011",
   "dbid": 1865,
   "runtime_m": 136
