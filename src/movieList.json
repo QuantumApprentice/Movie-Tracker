@@ -1742,7 +1742,8 @@
   "runtime_hm": "1h28m",
   "links": {
    "trailer": [
-    "https://youtu.be/uF70pbMatKc"
+    "https://youtu.be/uF70pbMatKc",
+    "https://youtu.be/BVxdcvVupBY"
    ]
   },
   "id": "house-ii-the-second-story-1987",
@@ -3733,7 +3734,8 @@
   "runtime_m": 103
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "08.30.25",
   "title": "Glengarry Glen Ross",
   "year": "1992",
   "runtime_hm": "1h40m",
@@ -3742,6 +3744,9 @@
     "https://youtu.be/a_3oYY-aPV4"
    ]
   },
+  "watchdate_arr": [
+   "20250830"
+  ],
   "id": "glengarry-glen-ross-1992",
   "dbid": 9504,
   "runtime_m": 100
@@ -6884,7 +6889,8 @@
   "runtime_m": 117
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "08.31.25",
   "title": "Spider-Man",
   "year": "2002",
   "runtime_hm": "2h1m",
@@ -6894,6 +6900,9 @@
     "https://youtu.be/t06RUxPbp_c"
    ]
   },
+  "watchdate_arr": [
+   "20250831"
+  ],
   "id": "spider-man-2002",
   "dbid": 557,
   "runtime_m": 121
@@ -7452,6 +7461,20 @@
   "id": "the-quick-and-the-dead-1995",
   "dbid": 12106,
   "runtime_m": 107
+ },
+ {
+  "watched": false,
+  "title": "Knightriders",
+  "year": "1981",
+  "runtime_hm": "2h26m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/ltPyKNm-4QE"
+   ]
+  },
+  "id": "knightriders-1981",
+  "dbid": 22167,
+  "runtime_m": 147
  },
  {
   "watched": false,
@@ -13237,6 +13260,20 @@
   "id": "the-matrix-reloaded-2003",
   "dbid": 604,
   "runtime_m": 138
+ },
+ {
+  "watched": false,
+  "title": "Speed Racer",
+  "year": "2008",
+  "runtime_hm": "2h15m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/8V8sLlqJB2w"
+   ]
+  },
+  "id": "speed-racer-2008",
+  "dbid": 7459,
+  "runtime_m": 135
  },
  {
   "watched": true,
@@ -19558,8 +19595,8 @@
    ]
   },
   "id": "the-return-2003",
-  "dbid": 38126,
-  "runtime_m": 80
+  "dbid": 122,
+  "runtime_m": 201
  },
  {
   "watched": true,
