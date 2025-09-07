@@ -6743,7 +6743,7 @@
   "runtime_m": 94
  },
  {
-  "watched": false,
+  "watched": true,
   "title": "Dumb and Dumber",
   "year": "1994",
   "runtime_hm": "1h47m",
@@ -6803,7 +6803,8 @@
   "runtime_m": 90
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "09.06.25",
   "title": "The Truman Show",
   "year": "1998",
   "runtime_hm": "1h43m",
@@ -6812,6 +6813,9 @@
     "https://youtu.be/dlnmQbPGuls"
    ]
   },
+  "watchdate_arr": [
+   "20250906"
+  ],
   "id": "the-truman-show-1998",
   "dbid": 37165,
   "runtime_m": 103
@@ -6829,6 +6833,20 @@
   "id": "the-majestic-2001",
   "dbid": 11086,
   "runtime_m": 152
+ },
+ {
+  "watched": false,
+  "title": "Man on the Moon",
+  "year": "1999",
+  "runtime_hm": "1h58m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/pCcQB-iT7LY"
+   ]
+  },
+  "id": "man-on-the-moon-1999",
+  "dbid": 1850,
+  "runtime_m": 118
  },
  {
   "watched": false,
@@ -6974,7 +6992,8 @@
   "runtime_m": 124
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "09.06.25",
   "title": "Spider-Man 2",
   "year": "2004",
   "runtime_hm": "2h7m",
@@ -6983,6 +7002,9 @@
     "https://youtu.be/1s9Yln0YwCw"
    ]
   },
+  "watchdate_arr": [
+   "20250906"
+  ],
   "id": "spider-man-2-2004",
   "dbid": 558,
   "runtime_m": 127
@@ -11814,8 +11836,8 @@
    ]
   },
   "id": "one-from-the-heart-1982",
-  "dbid": 683033,
-  "runtime_m": 23
+  "dbid": 41291,
+  "runtime_m": 101
  },
  {
   "watched": false,
@@ -14341,6 +14363,36 @@
   "id": "knock-off-1998",
   "dbid": 37498,
   "runtime_m": 91
+ },
+ {
+  "watched": false,
+  "title": "Joshua Tree",
+  "year": "1993",
+  "runtime_hm": "1h46m",
+  "links": {},
+  "id": "joshua-tree-1993",
+  "dbid": 26127,
+  "runtime_m": 106
+ },
+ {
+  "watched": false,
+  "title": "Men of War",
+  "year": "1994",
+  "runtime_hm": "1h42m",
+  "links": {},
+  "id": "men-of-war-1994",
+  "dbid": 38940,
+  "runtime_m": 103
+ },
+ {
+  "watched": false,
+  "title": "Silent Trigger",
+  "year": "1996",
+  "runtime_hm": "1h33m",
+  "links": {},
+  "id": "silent-trigger-1996",
+  "dbid": 24206,
+  "runtime_m": 93
  },
  {
   "watched": true,
