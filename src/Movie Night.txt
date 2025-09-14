@@ -222,6 +222,9 @@ The Hitcher (1986) [1h37m] trailer: https://youtu.be/mIJQYh7qe84 trailer: https:
 -10..2021.|The Monster Squad (1987) [1h21m] https://youtu.be/cbtFKZQUepw
 The Others (2001) [1h44m] https://youtu.be/C7pKqaPtMiA
 The People Under the Stairs (1991) [1h42m] trailer: https://youtu.be/sQSgeXqJPL0
+The Prophecy (1995) [] trailer: 
+The Prophecy II (1998) [] trailer: 
+The Prophecy 3: The Ascent (2000) [] trailer: 
 Suspiria (1977) [1h38m] trailer: https://youtu.be/hPs2ExUL_bc
 The Rocky Horror Picture Show (1975) [1h38m] https://youtu.be/4plqh6obZW4
 -10.28.23.|The Serpent and the Rainbow (1988) [1h38m] https://youtu.be/LNRnOcW5yqs
@@ -501,6 +504,7 @@ Delta Force 2 (1990) [1h51m] trailer: https://youtu.be/SVlMbxVjswg
 
 -Darkman (1990) [1h36m] trailer: https://youtu.be/W8oGHvO2RgU
 Jurassic Park (1993) [2h7m] trailer: 
+Jurassic Park: The Lost World (1997) [2h9m] trailer: 
 -The Karate Kid (1984) [2h6m] trailer: 
 -The Karate Kid Part II (1986) [1h53m] trailer: 
 -The Karate Kid Part III (1989) [1h52m] trailer: 
@@ -571,10 +575,13 @@ The Mask (1994) [1h41m] trailer:
 -05.31.25.|Ace Ventura: Pet Detective (1994) [1h26m] trailer: https://youtu.be/cXcH0f2B2vA
 -06.07.25.|Ace Ventura: When Nature Calls (1995) [1h30m] trailer: https://youtu.be/T8aos7_L4kA
 -09.06.25.|The Truman Show (1998) [1h43m] trailer: https://youtu.be/dlnmQbPGuls
-The Majestic (2001) [2h32m] trailer: https://youtu.be/RoPwBN_TQ-Q
 Man on the Moon (1999) [1h58m] trailer: https://youtu.be/pCcQB-iT7LY
+The Majestic (2001) [2h32m] trailer: https://youtu.be/RoPwBN_TQ-Q
 Fun with Dick and Jane (2005) [1h31m] trailer: 
 
+#Bruce Campbell
+The Hudsucker Proxy (1994) [1h51m] trailer: https://youtu.be/dBa8p0NFwM8
+Bubba Ho Tep (2002) [] trailer: 
 
 #superhero/marvel
 Blade (1998) [2h] trailer: https://youtu.be/T5irwIozazw modern: https://youtu.be/O2Y3FFFIvRI
@@ -591,7 +598,7 @@ Elektra (2005) [1h37m] trailer: https://youtu.be/lJsYp0oWAgk
 Fantastic Four (2005) [1h46m] trailer: https://youtu.be/cLFDV72pa-s
 -08.23.25.|X-Men: The Last Stand (2006) [1h44m] trailer: https://youtu.be/X8ozc_dQprk trailer: https://youtu.be/dv-7FY5gm0w
 Ghost Rider (2007) [1h50m] trailer: https://youtu.be/tp12CD2A4NA trailer: https://youtu.be/QvoofruuWk8
-Spider-Man 3 (2007) [2h19m] trailer: https://youtu.be/UFJFbgPLFWo
+-09.13.25.|Spider-Man 3 (2007) [2h19m] trailer: https://youtu.be/UFJFbgPLFWo
 Fantastic Four: Rise of the Silver Surfer (2007) [1h32m] trailer: https://youtu.be/Wiu5eZ_7vSY
 Punisher War Zone (2008) [1h43m] trailer: https://youtu.be/bTdbeXHMzwg trailer: https://youtu.be/XgfZqQRCTn8
 #Phase One
@@ -1070,7 +1077,7 @@ Troma's War (1988) [1h45m] trailer: https://youtu.be/4jrqGfJzvkc
 The Conversation (1974) [1h53m] trailer: https://youtu.be/VD_CAJHIIQE
 -The Godfather (1972) [2h55m] trailer: https://youtu.be/UaVTIH8mujA
 The Godfather Part II (1974) [3h22m] trailer: 
-The Godfather Part III () [] trailer: 
+The Godfather Part III (1990) [] trailer: 
 Supernova (2000) [1h31m] trailer: https://youtu.be/-SNWT4MlKn4
 Apocalypse Now (1979) [2h27m] trailer: https://youtu.be/9l-ViOOFH-s
 
@@ -1465,6 +1472,7 @@ Flesh+Blood (1985) [2h6m] trailer: https://youtu.be/lVyLe-k16gw modern: https://
 
 -3.19.2022.|Speed (1994) [1h56m] trailer: https://youtu.be/8piqd2BWeGI
 -3.26.2022.|Speed 2: Cruise Control (1997) [2h5m] trailer: https://youtu.be/JI8NSZBI1_E
+Blown Away (1994) [2h1m] trailer: https://youtu.be/f3N-e9BLZFo
 
 Sicario (2015) [2h2m] trailer: https://youtu.be/G8tlEcnrGnU
 -1.21.23.|Scarface (1983) [2h49m] trailer: https://youtu.be/7pQQHnqBa2E modern: https://youtu.be/cv276Wg3e7I
@@ -1473,9 +1481,11 @@ Sicario (2015) [2h2m] trailer: https://youtu.be/G8tlEcnrGnU
 -8.13.2022.|Kung Fu Hustle (2004) [1h39m] trailer: https://youtu.be/47nS6Wo4yaw
 
 #Ally Sheedy
-The Breakfast Club (1985) [] trailer: 
-St. Elmo's Fire (1985) [] trailer: 
-Welcome to Rileys (2010) [] trailer: 
+-The Breakfast Club (1985) [] trailer: https://youtu.be/kGuWbVb1210
+St. Elmo's Fire (1985) [] trailer: https://youtu.be/j9Z0Aq8VrN0
+
+
+Welcome to The Rileys (2010) [] trailer: 
 
 
 -1.21.23.|Spartacus (1960) [3h17m] trailer: https://youtu.be/5QH6t8ptijY

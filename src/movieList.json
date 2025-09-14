@@ -3247,6 +3247,33 @@
  },
  {
   "watched": false,
+  "title": "The Prophecy",
+  "year": "1995",
+  "links": {},
+  "id": "the-prophecy-1995",
+  "dbid": 11980,
+  "runtime_m": 98
+ },
+ {
+  "watched": false,
+  "title": "The Prophecy II",
+  "year": "1998",
+  "links": {},
+  "id": "the-prophecy-ii-1998",
+  "dbid": 9033,
+  "runtime_m": 83
+ },
+ {
+  "watched": false,
+  "title": "The Prophecy 3: The Ascent",
+  "year": "2000",
+  "links": {},
+  "id": "the-prophecy-3-the-ascent-2000",
+  "dbid": 9011,
+  "runtime_m": 84
+ },
+ {
+  "watched": false,
   "title": "Suspiria",
   "year": "1977",
   "runtime_hm": "1h38m",
@@ -6085,6 +6112,16 @@
   "runtime_m": 127
  },
  {
+  "watched": false,
+  "title": "Jurassic Park: The Lost World",
+  "year": "1997",
+  "runtime_hm": "2h9m",
+  "links": {},
+  "id": "jurassic-park-the-lost-world-1997",
+  "dbid": 330,
+  "runtime_m": 129
+ },
+ {
   "watched": true,
   "title": "The Karate Kid",
   "year": "1984",
@@ -6822,20 +6859,6 @@
  },
  {
   "watched": false,
-  "title": "The Majestic",
-  "year": "2001",
-  "runtime_hm": "2h32m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/RoPwBN_TQ-Q"
-   ]
-  },
-  "id": "the-majestic-2001",
-  "dbid": 11086,
-  "runtime_m": 152
- },
- {
-  "watched": false,
   "title": "Man on the Moon",
   "year": "1999",
   "runtime_hm": "1h58m",
@@ -6850,6 +6873,20 @@
  },
  {
   "watched": false,
+  "title": "The Majestic",
+  "year": "2001",
+  "runtime_hm": "2h32m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/RoPwBN_TQ-Q"
+   ]
+  },
+  "id": "the-majestic-2001",
+  "dbid": 11086,
+  "runtime_m": 152
+ },
+ {
+  "watched": false,
   "title": "Fun with Dick and Jane",
   "year": "2005",
   "runtime_hm": "1h31m",
@@ -6857,6 +6894,29 @@
   "id": "fun-with-dick-and-jane-2005",
   "dbid": 7552,
   "runtime_m": 90
+ },
+ {
+  "watched": false,
+  "title": "The Hudsucker Proxy",
+  "year": "1994",
+  "runtime_hm": "1h51m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/dBa8p0NFwM8"
+   ]
+  },
+  "id": "the-hudsucker-proxy-1994",
+  "dbid": 11934,
+  "runtime_m": 111
+ },
+ {
+  "watched": false,
+  "title": "Bubba Ho Tep",
+  "links": {},
+  "id": "bubba-ho-tep-2002",
+  "year": "2002",
+  "dbid": 9707,
+  "runtime_m": 92
  },
  {
   "watched": false,
@@ -7086,7 +7146,8 @@
   "runtime_m": 114
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "09.13.25",
   "title": "Spider-Man 3",
   "year": "2007",
   "runtime_hm": "2h19m",
@@ -7095,6 +7156,9 @@
     "https://youtu.be/UFJFbgPLFWo"
    ]
   },
+  "watchdate_arr": [
+   "20250913"
+  ],
   "id": "spider-man-3-2007",
   "dbid": 559,
   "runtime_m": 139
@@ -17039,6 +17103,20 @@
  },
  {
   "watched": false,
+  "title": "Blown Away",
+  "year": "1994",
+  "runtime_hm": "2h1m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/f3N-e9BLZFo"
+   ]
+  },
+  "id": "blown-away-1994",
+  "dbid": 178,
+  "runtime_m": 121
+ },
+ {
+  "watched": false,
   "title": "Sicario",
   "year": "2015",
   "runtime_hm": "2h2m",
@@ -17109,10 +17187,14 @@
   "runtime_m": 99
  },
  {
-  "watched": false,
+  "watched": true,
   "title": "The Breakfast Club",
   "year": "1985",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/kGuWbVb1210"
+   ]
+  },
   "id": "the-breakfast-club-1985",
   "dbid": 2108,
   "runtime_m": 98
@@ -17121,17 +17203,21 @@
   "watched": false,
   "title": "St. Elmo's Fire",
   "year": "1985",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/j9Z0Aq8VrN0"
+   ]
+  },
   "id": "st-elmos-fire-1985",
   "dbid": 11557,
   "runtime_m": 108
  },
  {
   "watched": false,
-  "title": "Welcome to Rileys",
+  "title": "Welcome to The Rileys",
   "year": "2010",
   "links": {},
-  "id": "welcome-to-rileys-2010",
+  "id": "welcome-to-the-rileys-2010",
   "dbid": 31007,
   "runtime_m": 110
  },
