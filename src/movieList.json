@@ -877,7 +877,7 @@
   },
   "id": "c-h-u-d-1984",
   "dbid": 23730,
-  "runtime_m": 97
+  "runtime_m": 88
  },
  {
   "watched": false,
@@ -1737,6 +1737,20 @@
  },
  {
   "watched": false,
+  "title": "House",
+  "year": "1985",
+  "runtime_hm": "1h33m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/9TSRT-cl-y8"
+   ]
+  },
+  "id": "house-1985",
+  "dbid": 11415,
+  "runtime_m": 92
+ },
+ {
+  "watched": false,
   "title": "House II: The Second Story",
   "year": "1987",
   "runtime_hm": "1h28m",
@@ -1766,17 +1780,17 @@
  },
  {
   "watched": false,
-  "title": "House",
-  "year": "1985",
-  "runtime_hm": "1h33m",
+  "title": "Human Centipede",
+  "year": "2010",
+  "runtime_hm": "1h32m",
   "links": {
    "trailer": [
-    "https://youtu.be/9TSRT-cl-y8"
+    "https://youtu.be/JdW1yPTBPFA"
    ]
   },
-  "id": "house-1985",
-  "dbid": 11415,
-  "runtime_m": 92
+  "id": "human-centipede-2010",
+  "dbid": 37169,
+  "runtime_m": 91
  },
  {
   "watched": false,
@@ -1897,6 +1911,34 @@
   "id": "body-snatchers-1993",
   "dbid": 4722,
   "runtime_m": 87
+ },
+ {
+  "watched": false,
+  "title": "Jeepers Creepers",
+  "year": "2001",
+  "runtime_hm": "1h30m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/5T7TFIOZ2xU"
+   ]
+  },
+  "id": "jeepers-creepers-2001",
+  "dbid": 8922,
+  "runtime_m": 90
+ },
+ {
+  "watched": false,
+  "title": "Jeepers Creepers 2",
+  "year": "2003",
+  "runtime_hm": "1h44m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/Quy0zQ1PXVw"
+   ]
+  },
+  "id": "jeepers-creepers-2-2003",
+  "dbid": 11351,
+  "runtime_m": 104
  },
  {
   "watched": false,
@@ -2770,6 +2812,33 @@
  },
  {
   "watched": false,
+  "title": "Scream",
+  "year": "1996",
+  "runtime_hm": "1h51m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/i3J6ACKQ7K0"
+   ]
+  },
+  "id": "scream-1996",
+  "dbid": 4232,
+  "runtime_m": 112
+ },
+ {
+  "watched": false,
+  "title": "Stan Helsing",
+  "year": "2009",
+  "links": {
+   "trailer": [
+    "https://youtu.be/IzGV1uLXnF4"
+   ]
+  },
+  "id": "stan-helsing-2009",
+  "dbid": 23988,
+  "runtime_m": 90
+ },
+ {
+  "watched": false,
   "title": "Screamers",
   "year": "1995",
   "runtime_hm": "1h48m",
@@ -2908,6 +2977,15 @@
  },
  {
   "watched": false,
+  "title": "Smiley",
+  "year": "2012",
+  "links": {},
+  "id": "smiley-2012",
+  "dbid": 119278,
+  "runtime_m": 95
+ },
+ {
+  "watched": false,
   "title": "Tales from the Darkside",
   "year": "1990",
   "runtime_hm": "1h33m",
@@ -2985,6 +3063,25 @@
   "id": "triangle-2009",
   "dbid": 26466,
   "runtime_m": 98
+ },
+ {
+  "watched": false,
+  "title": "Thir13en Ghosts",
+  "year": "2001",
+  "runtime_hm": "1h31m",
+  "links": {},
+  "id": "thir13en-ghosts-2001",
+  "dbid": 9378,
+  "runtime_m": 91
+ },
+ {
+  "watched": false,
+  "title": "Terrifier",
+  "year": "2016",
+  "links": {},
+  "id": "terrifier-2016",
+  "dbid": 420634,
+  "runtime_m": 84
  },
  {
   "watched": false,
@@ -6872,7 +6969,8 @@
   "runtime_m": 118
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "09.20.25",
   "title": "The Majestic",
   "year": "2001",
   "runtime_hm": "2h32m",
@@ -6881,6 +6979,9 @@
     "https://youtu.be/RoPwBN_TQ-Q"
    ]
   },
+  "watchdate_arr": [
+   "20250920"
+  ],
   "id": "the-majestic-2001",
   "dbid": 11086,
   "runtime_m": 152
@@ -6912,9 +7013,9 @@
  {
   "watched": false,
   "title": "Bubba Ho Tep",
+  "year": "2002",
   "links": {},
   "id": "bubba-ho-tep-2002",
-  "year": "2002",
   "dbid": 9707,
   "runtime_m": 92
  },
@@ -7098,7 +7199,8 @@
   "runtime_m": 97
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "09.20.25",
   "title": "Fantastic Four",
   "year": "2005",
   "runtime_hm": "1h46m",
@@ -7107,6 +7209,9 @@
     "https://youtu.be/cLFDV72pa-s"
    ]
   },
+  "watchdate_arr": [
+   "20250920"
+  ],
   "id": "fantastic-four-2005",
   "dbid": 9738,
   "runtime_m": 106
@@ -7164,7 +7269,8 @@
   "runtime_m": 139
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "09.27.25",
   "title": "Fantastic Four: Rise of the Silver Surfer",
   "year": "2007",
   "runtime_hm": "1h32m",
@@ -7173,6 +7279,9 @@
     "https://youtu.be/Wiu5eZ_7vSY"
    ]
   },
+  "watchdate_arr": [
+   "20250927"
+  ],
   "id": "fantastic-four-rise-of-the-silver-surfer-2007",
   "dbid": 1979,
   "runtime_m": 92
@@ -7549,7 +7658,8 @@
   "runtime_m": 107
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "09.27.25",
   "title": "Knightriders",
   "year": "1981",
   "runtime_hm": "2h26m",
@@ -7558,6 +7668,9 @@
     "https://youtu.be/ltPyKNm-4QE"
    ]
   },
+  "watchdate_arr": [
+   "20250927"
+  ],
   "id": "knightriders-1981",
   "dbid": 22167,
   "runtime_m": 147
@@ -8924,6 +9037,20 @@
  },
  {
   "watched": false,
+  "title": "Sorcerer",
+  "year": "1977",
+  "runtime_hm": "2h1m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/3BDbIzovuos"
+   ]
+  },
+  "id": "sorcerer-1977",
+  "dbid": 38985,
+  "runtime_m": 121
+ },
+ {
+  "watched": false,
   "title": "Days of Heaven",
   "year": "1978",
   "runtime_hm": "1h34m",
@@ -10163,7 +10290,7 @@
   },
   "id": "hook-1991",
   "dbid": 879,
-  "runtime_m": 141
+  "runtime_m": 142
  },
  {
   "watched": false,
@@ -10193,6 +10320,16 @@
   "id": "mrs-doubtfire-1993",
   "dbid": 788,
   "runtime_m": 125
+ },
+ {
+  "watched": false,
+  "title": "Jumanji",
+  "year": "1995",
+  "runtime_hm": "1h44m",
+  "links": {},
+  "id": "jumanji-1995",
+  "dbid": 8844,
+  "runtime_m": 104
  },
  {
   "watched": true,
@@ -12490,9 +12627,9 @@
  {
   "watched": false,
   "title": "The Godfather Part III",
+  "year": "1990",
   "links": {},
   "id": "the-godfather-part-iii-1990",
-  "year": "1990",
   "dbid": 242,
   "runtime_m": 162
  },
@@ -16876,8 +17013,8 @@
    ]
   },
   "id": "flesh-blood-1985",
-  "dbid": 36073,
-  "runtime_m": 42
+  "dbid": 12775,
+  "runtime_m": 126
  },
  {
   "watched": true,
@@ -17646,7 +17783,7 @@
   ],
   "id": "galaxy-quest-1999",
   "dbid": 926,
-  "runtime_m": 101
+  "runtime_m": 102
  },
  {
   "watched": true,
@@ -19747,8 +19884,8 @@
    ]
   },
   "id": "the-return-2003",
-  "dbid": 122,
-  "runtime_m": 201
+  "dbid": 77562,
+  "runtime_m": 100
  },
  {
   "watched": true,
