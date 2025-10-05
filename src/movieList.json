@@ -1,6 +1,7 @@
 [
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "10.04.25",
   "title": "Dracula",
   "year": "1931",
   "runtime_hm": "1h15m",
@@ -9,6 +10,9 @@
     "https://youtu.be/VoaMw91MC9k"
    ]
   },
+  "watchdate_arr": [
+   "20251004"
+  ],
   "id": "dracula-1931",
   "dbid": 138,
   "runtime_m": 74
@@ -33,7 +37,8 @@
   "runtime_m": 70
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "10.04.25",
   "title": "The Mummy",
   "year": "1932",
   "runtime_hm": "1h13m",
@@ -42,6 +47,9 @@
     "https://youtu.be/QwdH941YzAQ"
    ]
   },
+  "watchdate_arr": [
+   "20251004"
+  ],
   "id": "the-mummy-1932",
   "dbid": 15849,
   "runtime_m": 73
@@ -691,7 +699,7 @@
   },
   "id": "a-nightmare-on-elm-street-5-the-dream-child-1989",
   "dbid": 10160,
-  "runtime_m": 90
+  "runtime_m": 89
  },
  {
   "watched": true,
@@ -3855,7 +3863,7 @@
   },
   "id": "see-no-evil-hear-no-evil-1989",
   "dbid": 11185,
-  "runtime_m": 103
+  "runtime_m": 102
  },
  {
   "watched": true,
@@ -7020,7 +7028,8 @@
   "runtime_m": 92
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "10.04.25",
   "title": "Blade",
   "year": "1998",
   "links": {
@@ -7031,6 +7040,9 @@
     "https://youtu.be/O2Y3FFFIvRI"
    ]
   },
+  "watchdate_arr": [
+   "20251004"
+  ],
   "id": "blade-1998",
   "dbid": 36647,
   "runtime_m": 121
@@ -8110,7 +8122,7 @@
   },
   "id": "virus-1980",
   "dbid": 21380,
-  "runtime_m": 101
+  "runtime_m": 99
  },
  {
   "watched": false,
@@ -10065,6 +10077,15 @@
   "id": "terminator-dark-fate-2019",
   "dbid": 290859,
   "runtime_m": 128
+ },
+ {
+  "watched": false,
+  "title": "In the Heat of the Night",
+  "year": "1967",
+  "links": {},
+  "id": "in-the-heat-of-the-night-1967",
+  "dbid": 10633,
+  "runtime_m": 109
  },
  {
   "watched": false,

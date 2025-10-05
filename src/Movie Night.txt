@@ -6,9 +6,9 @@
 #Horror Trailer Playlist https://youtube.com/playlist?list=PLywwjkBV6ND9OOZ05UxphXtlcle4lEEI0
 #Movie Tracker https://quantumapprentice.github.io/Movie-Tracker/
 
-Dracula (1931) [1h15m] trailer: https://youtu.be/VoaMw91MC9k
+-10.04.25.|Dracula (1931) [1h15m] trailer: https://youtu.be/VoaMw91MC9k
 -10.12.24.|Frankenstein (1931) [1h11m] trailer: https://youtu.be/BN8K-4osNb0 trailer: https://youtu.be/XD7Gn9grers
-The Mummy (1932) [1h13m] trailer: https://youtu.be/QwdH941YzAQ
+-10.04.25.|The Mummy (1932) [1h13m] trailer: https://youtu.be/QwdH941YzAQ
 The Invisible Man (1933) [1h11m] trailer: https://youtu.be/pb3n0g2NenI modern: https://youtu.be/wqMAtF66TG4
 -10.19.24.|Bride of Frankenstein (1935) [1h15m] trailer: https://youtu.be/mPT2R1g5MGY trailer: https://youtu.be/rYD3-pIF9jQ
 Werewolf of London (1935) [1h15m] trailer: https://youtu.be/swDiECXLX8o
@@ -592,7 +592,7 @@ The Hudsucker Proxy (1994) [1h51m] trailer: https://youtu.be/dBa8p0NFwM8
 Bubba Ho Tep (2002) [] trailer: 
 
 #superhero/marvel
-Blade (1998) [2h] trailer: https://youtu.be/T5irwIozazw modern: https://youtu.be/O2Y3FFFIvRI
+-10.04.25.|Blade (1998) [2h] trailer: https://youtu.be/T5irwIozazw modern: https://youtu.be/O2Y3FFFIvRI
 -08.09.25.|X-Men (2000) [1h44m] trailer: https://youtu.be/Iy5R5_T243w
 Blade II (2002) [1h57m] trailer: https://youtu.be/fcCQ7xk8zzM
 -08.31.25.|Spider-Man (2002) [2h1m] trailer: https://youtu.be/_yhFofFZGcc trailer: https://youtu.be/t06RUxPbp_c
@@ -852,6 +852,8 @@ The Guyver (1991) [1h28m] trailer: https://youtu.be/Dn15hkXqzuM
 -05.03.25.|Terminator Dark Fate (2019) [2h8m] trailer: https://youtu.be/oxy8udgWRmo
 
 
+#Sydney Poitier
+In the Heat of the Night (1967) [] trailer: 
 
 The Day After (1983) [2h7m] trailer: 
 Ultraviolet (2006) [1h28m] trailer: https://youtu.be/bMre-zzT1dA
