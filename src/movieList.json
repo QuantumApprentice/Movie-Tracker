@@ -91,7 +91,8 @@
   "runtime_m": 75
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "10.11.25",
   "title": "Werewolf of London",
   "year": "1935",
   "runtime_hm": "1h15m",
@@ -100,6 +101,9 @@
     "https://youtu.be/swDiECXLX8o"
    ]
   },
+  "watchdate_arr": [
+   "20251011"
+  ],
   "id": "werewolf-of-london-1935",
   "dbid": 27970,
   "runtime_m": 75
@@ -4319,7 +4323,8 @@
   "runtime_m": 89
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "10.11.25",
   "title": "Dale and Tucker vs Evil",
   "year": "2010",
   "runtime_hm": "1h29m",
@@ -4328,6 +4333,9 @@
     "https://youtu.be/l1t8OZn_uhE"
    ]
   },
+  "watchdate_arr": [
+   "20251011"
+  ],
   "id": "dale-and-tucker-vs-evil-2010",
   "dbid": 46838,
   "runtime_m": 89
@@ -7066,7 +7074,8 @@
   "runtime_m": 104
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "10.11.25",
   "title": "Blade II",
   "year": "2002",
   "runtime_hm": "1h57m",
@@ -7075,6 +7084,9 @@
     "https://youtu.be/fcCQ7xk8zzM"
    ]
   },
+  "watchdate_arr": [
+   "20251011"
+  ],
   "id": "blade-ii-2002",
   "dbid": 36586,
   "runtime_m": 117
@@ -12936,8 +12948,8 @@
    ]
   },
   "id": "sunny-2011",
-  "dbid": 77117,
-  "runtime_m": 135
+  "dbid": 276024,
+  "runtime_m": 89
  },
  {
   "watched": false,
@@ -20294,8 +20306,8 @@
    ]
   },
   "id": "die-hard-5-a-good-day-to-die-hard-2013",
-  "dbid": 47964,
-  "runtime_m": 98
+  "dbid": 477063,
+  "runtime_m": 60
  },
  {
   "watched": true,
