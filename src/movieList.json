@@ -733,7 +733,7 @@
   "runtime_hm": "1h38m",
   "links": {
    "trailer": [
-    "https://youtu.be/y5XD0CuP0gY"
+    "https://youtu.be/xmoKnjj7Y38"
    ]
   },
   "id": "an-american-werewolf-in-paris-1997",
@@ -1749,6 +1749,7 @@
  },
  {
   "watched": false,
+  "watchdate": "10.18.25",
   "title": "House",
   "year": "1985",
   "runtime_hm": "1h32m",
@@ -1757,6 +1758,9 @@
     "https://youtu.be/9TSRT-cl-y8"
    ]
   },
+  "watchdate_arr": [
+   "20251018"
+  ],
   "id": "house-1985",
   "dbid": 11415,
   "runtime_m": 92
@@ -2785,7 +2789,8 @@
   "runtime_m": 103
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "10.18.25",
   "title": "Scary Movie",
   "year": "2000",
   "runtime_hm": "1h28m",
@@ -2794,6 +2799,9 @@
     "https://youtu.be/SzpGYrrcJZw"
    ]
   },
+  "watchdate_arr": [
+   "20251018"
+  ],
   "id": "scary-movie-2000",
   "dbid": 4247,
   "runtime_m": 88
@@ -4325,7 +4333,7 @@
  {
   "watched": true,
   "watchdate": "10.11.25",
-  "title": "Dale and Tucker vs Evil",
+  "title": "Tucker and Dale vs Evil",
   "year": "2010",
   "runtime_hm": "1h29m",
   "links": {
@@ -4336,7 +4344,7 @@
   "watchdate_arr": [
    "20251011"
   ],
-  "id": "dale-and-tucker-vs-evil-2010",
+  "id": "tucker-and-dale-vs-evil-2010",
   "dbid": 46838,
   "runtime_m": 89
  },
@@ -5712,7 +5720,7 @@
   },
   "id": "a-better-tomorrow-2-1987",
   "dbid": 18305,
-  "runtime_m": 105
+  "runtime_m": 103
  },
  {
   "watched": false,
@@ -7195,7 +7203,8 @@
   "runtime_m": 127
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "10.18.25",
   "title": "Blade: Trinity",
   "year": "2004",
   "runtime_hm": "1h53m",
@@ -7204,6 +7213,9 @@
     "https://youtu.be/fPcNbsW69Eg"
    ]
   },
+  "watchdate_arr": [
+   "20251018"
+  ],
   "id": "blade-trinity-2004",
   "dbid": 36648,
   "runtime_m": 123
@@ -10281,7 +10293,7 @@
   },
   "id": "dead-poets-society-1989",
   "dbid": 207,
-  "runtime_m": 129
+  "runtime_m": 130
  },
  {
   "watched": false,
@@ -12070,8 +12082,8 @@
    ]
   },
   "id": "one-from-the-heart-1982",
-  "dbid": 41291,
-  "runtime_m": 101
+  "dbid": 683033,
+  "runtime_m": 23
  },
  {
   "watched": false,
@@ -15247,6 +15259,9 @@
   "links": {
    "trailer": [
     "https://youtu.be/g0ua0Z5duXU"
+   ],
+   "modern": [
+    "https://youtu.be/Z7OzKVHzfiI"
    ]
   },
   "id": "outland-1981",
