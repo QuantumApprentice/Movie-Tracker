@@ -1357,7 +1357,8 @@
   "runtime_m": 95
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "11.01.25",
   "title": "Friday the 13th - The Final Chapter",
   "year": "1984",
   "runtime_hm": "1h31m",
@@ -1366,6 +1367,9 @@
     "https://youtu.be/OpWpe8REbag"
    ]
   },
+  "watchdate_arr": [
+   "20251101"
+  ],
   "id": "friday-the-13th-the-final-chapter-1984",
   "dbid": 9730,
   "runtime_m": 91
@@ -1496,6 +1500,16 @@
   "id": "galaxy-of-terror-1981",
   "dbid": 28893,
   "runtime_m": 81
+ },
+ {
+  "watched": false,
+  "title": "Graveyard Shift",
+  "year": "1990",
+  "runtime_hm": "1h26m",
+  "links": {},
+  "id": "graveyard-shift-1990",
+  "dbid": 19158,
+  "runtime_m": 89
  },
  {
   "watched": false,
@@ -1744,8 +1758,8 @@
    ]
   },
   "id": "house-1977",
-  "dbid": 40339,
-  "runtime_m": 95
+  "dbid": 56379,
+  "runtime_m": 106
  },
  {
   "watched": false,
@@ -2006,7 +2020,8 @@
   "runtime_m": 92
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "11.01.25",
   "title": "Leprechaun",
   "year": "1993",
   "runtime_hm": "1h32m",
@@ -2019,6 +2034,9 @@
     "https://youtu.be/Uwl5MBzTCRQ"
    ]
   },
+  "watchdate_arr": [
+   "20251101"
+  ],
   "id": "leprechaun-1993",
   "dbid": 11811,
   "runtime_m": 91
@@ -2425,7 +2443,7 @@
   },
   "id": "nosferatu-1922",
   "dbid": 653,
-  "runtime_m": 95
+  "runtime_m": 81
  },
  {
   "watched": false,
@@ -3609,6 +3627,36 @@
   "runtime_m": 99
  },
  {
+  "watched": false,
+  "title": "Willard",
+  "year": "1971",
+  "runtime_hm": "1h35m",
+  "links": {},
+  "id": "willard-1971",
+  "dbid": 42532,
+  "runtime_m": 95
+ },
+ {
+  "watched": false,
+  "title": "Willard",
+  "year": "2003",
+  "runtime_hm": "1h40m",
+  "links": {},
+  "id": "willard-2003",
+  "dbid": 10929,
+  "runtime_m": 100
+ },
+ {
+  "watched": false,
+  "title": "Ben",
+  "year": "1972",
+  "runtime_hm": "1h34m",
+  "links": {},
+  "id": "ben-1972",
+  "dbid": 42476,
+  "runtime_m": 94
+ },
+ {
   "watched": true,
   "watchdate": "10.02.23",
   "title": "Wolf",
@@ -4374,6 +4422,19 @@
  },
  {
   "watched": false,
+  "title": "Ashura",
+  "year": "2005",
+  "links": {
+   "trailer": [
+    "https://youtu.be/1SWAxl0LXdU"
+   ]
+  },
+  "id": "ashura-2005",
+  "dbid": 45384,
+  "runtime_m": 119
+ },
+ {
+  "watched": false,
   "title": "Every Which Way But Loose",
   "year": "1978",
   "runtime_hm": "1h54m",
@@ -4493,8 +4554,8 @@
   "runtime_hm": "1h56m",
   "links": {},
   "id": "crimson-tide-1995",
-  "dbid": 8963,
-  "runtime_m": 116
+  "dbid": 1448556,
+  "runtime_m": 20
  },
  {
   "watched": false,
@@ -7272,7 +7333,8 @@
   "runtime_m": 104
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "11.01.25",
   "title": "Ghost Rider",
   "year": "2007",
   "runtime_hm": "1h50m",
@@ -7282,6 +7344,9 @@
     "https://youtu.be/QvoofruuWk8"
    ]
   },
+  "watchdate_arr": [
+   "20251101"
+  ],
   "id": "ghost-rider-2007",
   "dbid": 1250,
   "runtime_m": 114
@@ -8146,7 +8211,7 @@
   },
   "id": "virus-1980",
   "dbid": 21380,
-  "runtime_m": 99
+  "runtime_m": 101
  },
  {
   "watched": false,
@@ -9226,8 +9291,8 @@
   "runtime_hm": "2h33m",
   "links": {},
   "id": "inglorious-basterds-2009",
-  "dbid": 28447,
-  "runtime_m": 6
+  "dbid": 16869,
+  "runtime_m": 153
  },
  {
   "watched": false,
@@ -9657,8 +9722,8 @@
    "20240217"
   ],
   "id": "terminator-2-1991",
-  "dbid": 280,
-  "runtime_m": 137
+  "dbid": 66664,
+  "runtime_m": 90
  },
  {
   "watched": true,
@@ -10045,8 +10110,8 @@
    "20250412"
   ],
   "id": "aftermath-2017",
-  "dbid": 390051,
-  "runtime_m": 92
+  "dbid": 523098,
+  "runtime_m": 75
  },
  {
   "watched": true,
@@ -11069,6 +11134,23 @@
   "id": "point-break-1991",
   "dbid": 1089,
   "runtime_m": 122
+ },
+ {
+  "watched": true,
+  "watchdate": "11.21.20",
+  "title": "Masters of the Universe",
+  "year": "1987",
+  "links": {
+   "trailer": [
+    "https://youtu.be/B1c22sUKfBY"
+   ]
+  },
+  "watchdate_arr": [
+   "20201121"
+  ],
+  "id": "masters-of-the-universe-1987",
+  "dbid": 11649,
+  "runtime_m": 106
  },
  {
   "watched": false,
@@ -12225,7 +12307,7 @@
   },
   "id": "pushpa-2-the-rule-2025",
   "dbid": 857598,
-  "runtime_m": 224
+  "runtime_m": 201
  },
  {
   "watched": false,
@@ -12960,8 +13042,8 @@
    ]
   },
   "id": "sunny-2011",
-  "dbid": 276024,
-  "runtime_m": 89
+  "dbid": 77117,
+  "runtime_m": 135
  },
  {
   "watched": false,
@@ -14260,8 +14342,8 @@
   "runtime_hm": "2h40m",
   "links": {},
   "id": "ride-with-the-devil-1999",
-  "dbid": 419311,
-  "runtime_m": 89
+  "dbid": 22267,
+  "runtime_m": 138
  },
  {
   "watched": false,
@@ -14374,10 +14456,8 @@
   "runtime_hm": "2h7m",
   "links": {
    "trailer": [
-    "https://youtu.be/xfncDcjrwk0"
-   ],
-   "movie": [
-    "https://youtu.be/hdjXwFOStqs"
+    "https://youtu.be/xfncDcjrwk0",
+    "https://youtu.be/507KAlpplHw"
    ]
   },
   "id": "maverick-1994",
@@ -15266,7 +15346,7 @@
   },
   "id": "outland-1981",
   "dbid": 10540,
-  "runtime_m": 109
+  "runtime_m": 110
  },
  {
   "watched": true,
@@ -17061,8 +17141,8 @@
    ]
   },
   "id": "flesh-blood-1985",
-  "dbid": 12775,
-  "runtime_m": 126
+  "dbid": 36073,
+  "runtime_m": 42
  },
  {
   "watched": true,
@@ -18038,6 +18118,80 @@
   "id": "the-last-chase-1981",
   "dbid": 35453,
   "runtime_m": 101
+ },
+ {
+  "watched": true,
+  "watchdate": "12.11.21",
+  "title": "Tremors",
+  "year": "1990",
+  "runtime_hm": "1h36m",
+  "links": {},
+  "watchdate_arr": [
+   "20211211"
+  ],
+  "id": "tremors-1990",
+  "dbid": 9362,
+  "runtime_m": 96
+ },
+ {
+  "watched": false,
+  "title": "Tremors 2: Aftershocks",
+  "year": "1996",
+  "runtime_hm": "1h40m",
+  "links": {},
+  "id": "tremors-2-aftershocks-1996",
+  "dbid": 11069,
+  "runtime_m": 100
+ },
+ {
+  "watched": false,
+  "title": "Tremors 3: Back to Perfection",
+  "year": "2001",
+  "runtime_hm": "1h44m",
+  "links": {},
+  "id": "tremors-3-back-to-perfection-2001",
+  "dbid": 10829,
+  "runtime_m": 104
+ },
+ {
+  "watched": false,
+  "title": "Tremors 4: The Legend Begins",
+  "year": "2004",
+  "runtime_hm": "1h41m",
+  "links": {},
+  "id": "tremors-4-the-legend-begins-2004",
+  "dbid": 10891,
+  "runtime_m": 101
+ },
+ {
+  "watched": false,
+  "title": "Tremors 5: Bloodlines",
+  "year": "2015",
+  "runtime_hm": "1h39m",
+  "links": {},
+  "id": "tremors-5-bloodlines-2015",
+  "dbid": 339530,
+  "runtime_m": 99
+ },
+ {
+  "watched": false,
+  "title": "Tremors: A Cold Day in Hell",
+  "year": "2018",
+  "runtime_hm": "1h38m",
+  "links": {},
+  "id": "tremors-a-cold-day-in-hell-2018",
+  "dbid": 496704,
+  "runtime_m": 98
+ },
+ {
+  "watched": false,
+  "title": "Tremors: Shrieker Island",
+  "year": "2020",
+  "runtime_hm": "1h38m",
+  "links": {},
+  "id": "tremors-shrieker-island-2020",
+  "dbid": 670266,
+  "runtime_m": 102
  },
  {
   "watched": true,
@@ -20321,8 +20475,8 @@
    ]
   },
   "id": "die-hard-5-a-good-day-to-die-hard-2013",
-  "dbid": 477063,
-  "runtime_m": 60
+  "dbid": 47964,
+  "runtime_m": 98
  },
  {
   "watched": true,
@@ -20422,8 +20576,8 @@
    ]
   },
   "id": "a-christmas-tale-2008",
-  "dbid": 75725,
-  "runtime_m": 75
+  "dbid": 8892,
+  "runtime_m": 152
  },
  {
   "watched": false,
@@ -20620,8 +20774,8 @@
    ]
   },
   "id": "jack-frost-1998",
-  "dbid": 9745,
-  "runtime_m": 101
+  "dbid": 27318,
+  "runtime_m": 86
  },
  {
   "watched": false,
@@ -21071,7 +21225,7 @@
   "year": "2003",
   "links": {},
   "id": "hajime-no-ippo-2003",
-  "dbid": 45288,
-  "runtime_m": 60
+  "dbid": 45287,
+  "runtime_m": 90
  }
 ]
