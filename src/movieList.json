@@ -1749,6 +1749,7 @@
  },
  {
   "watched": false,
+  "watchdate": "11.08.25",
   "title": "HOUSE",
   "year": "1977",
   "runtime_hm": "1h28m",
@@ -1757,6 +1758,9 @@
     "https://youtu.be/WQ_Yo06kIIA"
    ]
   },
+  "watchdate_arr": [
+   "20251108"
+  ],
   "id": "house-1977",
   "dbid": 56379,
   "runtime_m": 106
@@ -2596,7 +2600,8 @@
   "runtime_m": 114
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "11.08.25",
   "title": "Poltergeist II: The Other Side",
   "year": "1986",
   "runtime_hm": "1h32m",
@@ -2605,6 +2610,9 @@
     "https://youtu.be/EwsHWPCS0m4"
    ]
   },
+  "watchdate_arr": [
+   "20251108"
+  ],
   "id": "poltergeist-ii-the-other-side-1986",
   "dbid": 11133,
   "runtime_m": 91
@@ -4104,6 +4112,29 @@
  },
  {
   "watched": false,
+  "title": "High and Low",
+  "year": "1963",
+  "links": {
+   "trailer": [
+    "https://youtu.be/ELsgPvgDBoY"
+   ]
+  },
+  "id": "high-and-low-1963",
+  "dbid": 12493,
+  "runtime_m": 142
+ },
+ {
+  "watched": false,
+  "title": "Immortal Combat",
+  "year": "1994",
+  "runtime_hm": "1h49m",
+  "links": {},
+  "id": "immortal-combat-1994",
+  "dbid": 134719,
+  "runtime_m": 109
+ },
+ {
+  "watched": false,
   "title": "Porky's",
   "year": "1981",
   "runtime_hm": "1h34m",
@@ -4503,7 +4534,7 @@
   },
   "id": "battlefield-earth-2000",
   "dbid": 5491,
-  "runtime_m": 117
+  "runtime_m": 119
  },
  {
   "watched": false,
@@ -4719,6 +4750,76 @@
  },
  {
   "watched": false,
+  "title": "All the Marbles",
+  "year": "1981",
+  "links": {},
+  "id": "all-the-marbles-1981",
+  "dbid": 30709,
+  "runtime_m": 113
+ },
+ {
+  "watched": false,
+  "title": "The One and Only",
+  "year": "1978",
+  "links": {},
+  "id": "the-one-and-only-1978",
+  "dbid": 47901,
+  "runtime_m": 97
+ },
+ {
+  "watched": false,
+  "title": "Over the Top",
+  "year": "1987",
+  "links": {},
+  "id": "over-the-top-1987",
+  "dbid": 1825,
+  "runtime_m": 94
+ },
+ {
+  "watched": false,
+  "title": "No Holds Barred",
+  "year": "1989",
+  "links": {},
+  "id": "no-holds-barred-1989",
+  "dbid": 39002,
+  "runtime_m": 93
+ },
+ {
+  "watched": false,
+  "title": "Body Slam",
+  "year": "1987",
+  "links": {},
+  "id": "body-slam-1987",
+  "dbid": 83415,
+  "runtime_m": 89
+ },
+ {
+  "watched": false,
+  "title": "Below the Belt",
+  "year": "1980",
+  "links": {},
+  "id": "below-the-belt-1980",
+  "dbid": 134397,
+  "runtime_m": 91
+ },
+ {
+  "watched": false,
+  "title": "Mad Bull",
+  "year": "1977",
+  "links": {},
+  "id": "mad-bull-1977",
+  "dbid": 99551,
+  "runtime_m": 100
+ },
+ {
+  "watched": false,
+  "title": "Mugsys Girls",
+  "year": "1985",
+  "links": {},
+  "id": "mugsys-girls-1985"
+ },
+ {
+  "watched": false,
   "title": "Gangster Squad",
   "year": "2013",
   "runtime_hm": "1h53m",
@@ -4831,6 +4932,15 @@
   "id": "overboard-1987",
   "dbid": 10780,
   "runtime_m": 112
+ },
+ {
+  "watched": false,
+  "title": "Better Man",
+  "year": "2024",
+  "links": {},
+  "id": "better-man-2024",
+  "dbid": 799766,
+  "runtime_m": 135
  },
  {
   "watched": false,
@@ -5918,7 +6028,7 @@
   },
   "id": "beverly-hills-cop-axel-f-2024",
   "dbid": 280180,
-  "runtime_m": 118
+  "runtime_m": 115
  },
  {
   "watched": true,
@@ -7463,7 +7573,8 @@
   "runtime_m": 132
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "11.08.25",
   "title": "Ghost Rider: Spirit of Vengeance",
   "year": "2011",
   "runtime_hm": "1h36m",
@@ -7472,6 +7583,9 @@
     "https://youtu.be/UUObgxCoUgA"
    ]
   },
+  "watchdate_arr": [
+   "20251108"
+  ],
   "id": "ghost-rider-spirit-of-vengeance-2011",
   "dbid": 71676,
   "runtime_m": 96
@@ -9623,7 +9737,7 @@
   ],
   "id": "the-running-man-1987",
   "dbid": 865,
-  "runtime_m": 100
+  "runtime_m": 101
  },
  {
   "watched": true,
@@ -10358,7 +10472,7 @@
   },
   "id": "dead-poets-society-1989",
   "dbid": 207,
-  "runtime_m": 130
+  "runtime_m": 129
  },
  {
   "watched": false,
@@ -12214,7 +12328,7 @@
   },
   "id": "crocodile-dundee-1986",
   "dbid": 9671,
-  "runtime_m": 104
+  "runtime_m": 98
  },
  {
   "watched": false,
@@ -12228,7 +12342,7 @@
   },
   "id": "crocodile-dundee-ii-1988",
   "dbid": 9396,
-  "runtime_m": 110
+  "runtime_m": 112
  },
  {
   "watched": false,
@@ -12679,7 +12793,7 @@
   },
   "id": "big-man-japan-2007",
   "dbid": 11693,
-  "runtime_m": 113
+  "runtime_m": 103
  },
  {
   "watched": false,
@@ -13089,7 +13203,7 @@
   ],
   "id": "splash-1984",
   "dbid": 2619,
-  "runtime_m": 111
+  "runtime_m": 110
  },
  {
   "watched": true,
@@ -13549,7 +13663,7 @@
   ],
   "id": "mac-and-me-1988",
   "dbid": 20196,
-  "runtime_m": 95
+  "runtime_m": 99
  },
  {
   "watched": false,
@@ -15063,7 +15177,7 @@
   },
   "id": "the-other-guys-2010",
   "dbid": 27581,
-  "runtime_m": 116
+  "runtime_m": 107
  },
  {
   "watched": false,
@@ -15220,7 +15334,7 @@
   ],
   "id": "mallrats-1995",
   "dbid": 2293,
-  "runtime_m": 94
+  "runtime_m": 122
  },
  {
   "watched": true,
@@ -15672,7 +15786,7 @@
   ],
   "id": "mission-impossible-1996",
   "dbid": 954,
-  "runtime_m": 110
+  "runtime_m": 111
  },
  {
   "watched": true,
@@ -16178,7 +16292,7 @@
   ],
   "id": "the-neverending-story-1984",
   "dbid": 34584,
-  "runtime_m": 102
+  "runtime_m": 101
  },
  {
   "watched": true,
@@ -17238,7 +17352,7 @@
   ],
   "id": "robocop-3-1993",
   "dbid": 5550,
-  "runtime_m": 104
+  "runtime_m": 105
  },
  {
   "watched": true,
@@ -18303,7 +18417,7 @@
   },
   "id": "deathstalker-ii-1987",
   "dbid": 28218,
-  "runtime_m": 85
+  "runtime_m": 77
  },
  {
   "watched": true,
@@ -18792,7 +18906,7 @@
   "links": {},
   "id": "tammy-and-the-t-rex-1994",
   "dbid": 55563,
-  "runtime_m": 82
+  "runtime_m": 91
  },
  {
   "watched": false,
@@ -19733,6 +19847,20 @@
  },
  {
   "watched": false,
+  "title": "Eurotrip",
+  "year": "2004",
+  "runtime_hm": "1h32m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/yZSoJtFxP4A"
+   ]
+  },
+  "id": "eurotrip-2004",
+  "dbid": 9352,
+  "runtime_m": 92
+ },
+ {
+  "watched": false,
   "title": "Taxi",
   "year": "1998",
   "runtime_hm": "1h29m",
@@ -20253,7 +20381,7 @@
   ],
   "id": "the-naked-gun-2-1-2-the-smell-of-fear-1991",
   "dbid": 37137,
-  "runtime_m": 85
+  "runtime_m": 86
  },
  {
   "watched": true,
@@ -20271,7 +20399,7 @@
   ],
   "id": "the-naked-gun-33-1-3-the-final-insult-1994",
   "dbid": 36593,
-  "runtime_m": 82
+  "runtime_m": 83
  },
  {
   "watched": false,
