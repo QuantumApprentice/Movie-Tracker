@@ -2317,7 +2317,7 @@
   },
   "id": "my-name-is-bruce-2007",
   "dbid": 1961,
-  "runtime_m": 86
+  "runtime_m": 84
  },
  {
   "watched": false,
@@ -2983,7 +2983,7 @@
   ],
   "id": "sleepaway-camp-1983",
   "dbid": 13567,
-  "runtime_m": 84
+  "runtime_m": 85
  },
  {
   "watched": true,
@@ -3063,7 +3063,7 @@
   ],
   "id": "teen-wolf-1985",
   "dbid": 11824,
-  "runtime_m": 91
+  "runtime_m": 92
  },
  {
   "watched": false,
@@ -3372,7 +3372,7 @@
   },
   "id": "the-others-2001",
   "dbid": 1933,
-  "runtime_m": 104
+  "runtime_m": 101
  },
  {
   "watched": false,
@@ -3972,7 +3972,7 @@
   "links": {},
   "id": "true-romance-1993",
   "dbid": 319,
-  "runtime_m": 119
+  "runtime_m": 121
  },
  {
   "watched": false,
@@ -4173,7 +4173,7 @@
   },
   "id": "thankskilling-2008",
   "dbid": 60366,
-  "runtime_m": 66
+  "runtime_m": 67
  },
  {
   "watched": false,
@@ -6871,7 +6871,7 @@
   ],
   "id": "black-sheep-1996",
   "dbid": 13997,
-  "runtime_m": 87
+  "runtime_m": 86
  },
  {
   "watched": false,
@@ -7290,7 +7290,8 @@
   "runtime_m": 121
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "11.15.25",
   "title": "Daredevil",
   "year": "2003",
   "runtime_hm": "1h43m",
@@ -7300,6 +7301,9 @@
     "https://youtu.be/muPX9Oi7-EE"
    ]
   },
+  "watchdate_arr": [
+   "20251115"
+  ],
   "id": "daredevil-2003",
   "dbid": 9480,
   "runtime_m": 103
@@ -7871,6 +7875,19 @@
   "id": "the-quick-and-the-dead-1995",
   "dbid": 12106,
   "runtime_m": 107
+ },
+ {
+  "watched": false,
+  "title": "Trainspotting",
+  "year": "1996",
+  "links": {
+   "trailer": [
+    "https://youtu.be/8LuxOYIpu-I"
+   ]
+  },
+  "id": "trainspotting-1996",
+  "dbid": 627,
+  "runtime_m": 94
  },
  {
   "watched": true,
@@ -9262,7 +9279,7 @@
   },
   "id": "sorcerer-1977",
   "dbid": 38985,
-  "runtime_m": 121
+  "runtime_m": 122
  },
  {
   "watched": false,
@@ -9530,7 +9547,7 @@
   ],
   "id": "dredd-2012",
   "dbid": 49049,
-  "runtime_m": 95
+  "runtime_m": 96
  },
  {
   "watched": false,
@@ -11582,7 +11599,7 @@
   },
   "id": "city-of-lost-children-1995",
   "dbid": 902,
-  "runtime_m": 113
+  "runtime_m": 112
  },
  {
   "watched": false,
@@ -12278,8 +12295,8 @@
    ]
   },
   "id": "one-from-the-heart-1982",
-  "dbid": 683033,
-  "runtime_m": 23
+  "dbid": 41291,
+  "runtime_m": 99
  },
  {
   "watched": false,
@@ -12561,7 +12578,7 @@
   },
   "id": "the-happytime-murders-2018",
   "dbid": 412988,
-  "runtime_m": 90
+  "runtime_m": 91
  },
  {
   "watched": true,
@@ -14564,7 +14581,8 @@
   "runtime_m": 107
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "11.15.25",
   "title": "Maverick",
   "year": "1994",
   "runtime_hm": "2h7m",
@@ -14574,6 +14592,9 @@
     "https://youtu.be/507KAlpplHw"
    ]
   },
+  "watchdate_arr": [
+   "20251115"
+  ],
   "id": "maverick-1994",
   "dbid": 9359,
   "runtime_m": 127
@@ -15495,7 +15516,7 @@
   },
   "id": "police-story-1985",
   "dbid": 9056,
-  "runtime_m": 99
+  "runtime_m": 100
  },
  {
   "watched": true,
@@ -15664,7 +15685,7 @@
   },
   "id": "city-hunter-1993",
   "dbid": 11198,
-  "runtime_m": 99
+  "runtime_m": 100
  },
  {
   "watched": false,
@@ -16405,7 +16426,7 @@
   ],
   "id": "conan-the-barbarian-1982",
   "dbid": 9387,
-  "runtime_m": 129
+  "runtime_m": 130
  },
  {
   "watched": true,
@@ -17183,7 +17204,7 @@
   },
   "id": "rocky-iii-1982",
   "dbid": 1371,
-  "runtime_m": 99
+  "runtime_m": 100
  },
  {
   "watched": true,
@@ -17210,8 +17231,8 @@
    ]
   },
   "id": "rocky-v-1990",
-  "dbid": 1375,
-  "runtime_m": 104
+  "dbid": 60375,
+  "runtime_m": 9
  },
  {
   "watched": true,
@@ -19683,7 +19704,7 @@
   },
   "id": "waynes-world-1992",
   "dbid": 8872,
-  "runtime_m": 95
+  "runtime_m": 94
  },
  {
   "watched": true,
@@ -19969,7 +19990,7 @@
   },
   "id": "braveheart-1995",
   "dbid": 197,
-  "runtime_m": 177
+  "runtime_m": 178
  },
  {
   "watched": true,
@@ -20792,7 +20813,7 @@
   },
   "id": "the-santa-clause-3-the-escape-clause-2006",
   "dbid": 13767,
-  "runtime_m": 97
+  "runtime_m": 92
  },
  {
   "watched": true,
@@ -20902,8 +20923,8 @@
    ]
   },
   "id": "jack-frost-1998",
-  "dbid": 27318,
-  "runtime_m": 86
+  "dbid": 9745,
+  "runtime_m": 101
  },
  {
   "watched": false,
