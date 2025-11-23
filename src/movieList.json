@@ -2219,7 +2219,7 @@
   },
   "id": "mr-vampire-1985",
   "dbid": 67342,
-  "runtime_m": 96
+  "runtime_m": 98
  },
  {
   "watched": false,
@@ -2542,7 +2542,7 @@
   },
   "id": "orca-1977",
   "dbid": 12707,
-  "runtime_m": 95
+  "runtime_m": 92
  },
  {
   "watched": false,
@@ -4135,6 +4135,15 @@
  },
  {
   "watched": false,
+  "title": "Brick",
+  "year": "2005",
+  "links": {},
+  "id": "brick-2005",
+  "dbid": 9270,
+  "runtime_m": 110
+ },
+ {
+  "watched": false,
   "title": "Porky's",
   "year": "1981",
   "runtime_hm": "1h34m",
@@ -4187,7 +4196,7 @@
   },
   "id": "evolution-2001",
   "dbid": 9397,
-  "runtime_m": 101
+  "runtime_m": 102
  },
  {
   "watched": false,
@@ -7150,7 +7159,8 @@
   "runtime_m": 103
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "11.22.25",
   "title": "Man on the Moon",
   "year": "1999",
   "runtime_hm": "1h58m",
@@ -7159,6 +7169,9 @@
     "https://youtu.be/pCcQB-iT7LY"
    ]
   },
+  "watchdate_arr": [
+   "20251122"
+  ],
   "id": "man-on-the-moon-1999",
   "dbid": 1850,
   "runtime_m": 118
@@ -7396,7 +7409,8 @@
   "runtime_m": 123
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "11.22.25",
   "title": "Elektra",
   "year": "2005",
   "runtime_hm": "1h37m",
@@ -7405,6 +7419,9 @@
     "https://youtu.be/lJsYp0oWAgk"
    ]
   },
+  "watchdate_arr": [
+   "20251122"
+  ],
   "id": "elektra-2005",
   "dbid": 9947,
   "runtime_m": 97
@@ -7592,7 +7609,7 @@
   ],
   "id": "ghost-rider-spirit-of-vengeance-2011",
   "dbid": 71676,
-  "runtime_m": 96
+  "runtime_m": 95
  },
  {
   "watched": false,
@@ -9300,6 +9317,20 @@
  },
  {
   "watched": false,
+  "title": "Arabian Adventure",
+  "year": "1979",
+  "runtime_hm": "1h38m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/Is8j7EckESY"
+   ]
+  },
+  "id": "arabian-adventure-1979",
+  "dbid": 82430,
+  "runtime_m": 98
+ },
+ {
+  "watched": false,
   "title": "The Shape of Things to Come",
   "year": "1979",
   "runtime_hm": "1h38m",
@@ -9931,24 +9962,6 @@
   "id": "eraser-1996",
   "dbid": 9268,
   "runtime_m": 115
- },
- {
-  "watched": true,
-  "watchdate": "06.08.24",
-  "title": "Batman and Robin",
-  "year": "1997",
-  "runtime_hm": "1h53m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/4RBXypX4qWI"
-   ]
-  },
-  "watchdate_arr": [
-   "20240608"
-  ],
-  "id": "batman-and-robin-1997",
-  "dbid": 415,
-  "runtime_m": 125
  },
  {
   "watched": true,
@@ -11394,6 +11407,24 @@
   "runtime_m": 100
  },
  {
+  "watched": false,
+  "title": "The Fugitive",
+  "year": "1993",
+  "links": {},
+  "id": "the-fugitive-1993",
+  "dbid": 5503,
+  "runtime_m": 131
+ },
+ {
+  "watched": false,
+  "title": "U.S. Marshals",
+  "year": "1998",
+  "links": {},
+  "id": "u-s-marshals-1998",
+  "dbid": 11808,
+  "runtime_m": 131
+ },
+ {
   "watched": true,
   "watchdate": "7.02.2022",
   "title": "Jaws",
@@ -12810,7 +12841,7 @@
   },
   "id": "big-man-japan-2007",
   "dbid": 11693,
-  "runtime_m": 103
+  "runtime_m": 113
  },
  {
   "watched": false,
@@ -13662,7 +13693,7 @@
   ],
   "id": "mr-smith-goes-to-washington-1939",
   "dbid": 3083,
-  "runtime_m": 129
+  "runtime_m": 130
  },
  {
   "watched": true,
@@ -15355,7 +15386,7 @@
   ],
   "id": "mallrats-1995",
   "dbid": 2293,
-  "runtime_m": 122
+  "runtime_m": 94
  },
  {
   "watched": true,
@@ -16951,6 +16982,16 @@
   "runtime_m": 77
  },
  {
+  "watched": false,
+  "title": "The Lord of the Rings",
+  "year": "1978",
+  "runtime_hm": "2h12m",
+  "links": {},
+  "id": "the-lord-of-the-rings-1978",
+  "dbid": 123,
+  "runtime_m": 132
+ },
+ {
   "watched": true,
   "watchdate": "11.23.24",
   "title": "The Hobbit: An Unexpected Journey",
@@ -18032,6 +18073,27 @@
  },
  {
   "watched": true,
+  "watchdate": "04.27.24",
+  "title": "What We Left Behind: Looking Back At Star Trek: Deep Space Nine",
+  "year": "2019",
+  "runtime_hm": "1h56m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/D4LPDX6uqSM"
+   ],
+   "movie": [
+    "https://youtu.be/Ya8WTQc93yI"
+   ]
+  },
+  "watchdate_arr": [
+   "20240427"
+  ],
+  "id": "what-we-left-behind-looking-back-at-star-trek-deep-space-nine-2019",
+  "dbid": 522055,
+  "runtime_m": 116
+ },
+ {
+  "watched": true,
   "watchdate": "03.22.25",
   "title": "Galaxy Quest",
   "year": "1999",
@@ -18768,10 +18830,14 @@
  },
  {
   "watched": true,
+  "watchdate": "05.22.21",
   "title": "Soylent Green",
   "year": "1973",
   "runtime_hm": "1h37m",
   "links": {},
+  "watchdate_arr": [
+   "20210522"
+  ],
   "id": "soylent-green-1973",
   "dbid": 12101,
   "runtime_m": 97
@@ -19393,27 +19459,6 @@
  },
  {
   "watched": true,
-  "watchdate": "04.27.24",
-  "title": "What We Left Behind: Looking Back At Star Trek: Deep Space Nine",
-  "year": "2019",
-  "runtime_hm": "1h56m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/D4LPDX6uqSM"
-   ],
-   "movie": [
-    "https://youtu.be/Ya8WTQc93yI"
-   ]
-  },
-  "watchdate_arr": [
-   "20240427"
-  ],
-  "id": "what-we-left-behind-looking-back-at-star-trek-deep-space-nine-2019",
-  "dbid": 522055,
-  "runtime_m": 116
- },
- {
-  "watched": true,
   "title": "Superman",
   "year": "1979",
   "runtime_hm": "2h23m",
@@ -19625,7 +19670,7 @@
   },
   "id": "twilight-zone-the-movie-1983",
   "dbid": 15301,
-  "runtime_m": 102
+  "runtime_m": 101
  },
  {
   "watched": true,
@@ -20455,7 +20500,7 @@
   ],
   "id": "planes-trains-and-automobiles-1987",
   "dbid": 2609,
-  "runtime_m": 93
+  "runtime_m": 92
  },
  {
   "watched": true,
