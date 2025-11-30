@@ -46,6 +46,7 @@ The Scorpion King (2002) [1h32m] trailer: https://youtu.be/b7nmYiZ6cAg trailer: 
 Van Helsing (2004) [2h11m] trailer: https://youtu.be/3fdRKme00uI trailer: https://youtu.be/W6C6qcCW2JE
 The Mummy: Tomb of the Dragon Emperor (2008) [1h52m] trailer: https://youtu.be/vqUGSrcVm6Y
 Phantasm (1979) [1h29m] trailer: 
+Attack of the Killer Tomatoes (1978) [] trailer: 
 The Adams Family (1991) [1h39m] trailer: https://youtu.be/A6X4VAHdDVg
 Altered States (1980) [1h42m] trailer: https://youtu.be/0XNVQ4ILPBA
 Angel Heart (1987) [1h53m] trailer: https://youtu.be/0iKzekw3xn8
@@ -617,7 +618,7 @@ Bubba Ho Tep (2002) [] trailer:
 -11.15.25.|Daredevil (2003) [1h43m] trailer: https://youtu.be/Y6p_3s0d9TI trailer: https://youtu.be/muPX9Oi7-EE
 -08.16.25.|X2: X-Men United (2003) [2h14m] trailer: https://youtu.be/KjzPi5hfv9c
 Hulk (2003) [2h18m] trailer: https://youtu.be/2ErnLuJKQA4 trailer: https://youtu.be/2ErnLuJKQA4 teaser: https://youtu.be/3tpRDs0z3zc
-The Punisher (2004) [2h4m] trailer: https://youtu.be/q7CMnRv8Mqc trailer: https://youtu.be/G59cD1NSbS8
+-11.29.25.|The Punisher (2004) [2h4m] trailer: https://youtu.be/q7CMnRv8Mqc trailer: https://youtu.be/G59cD1NSbS8
 -09.06.25.|Spider-Man 2 (2004) [2h7m] trailer: https://youtu.be/1s9Yln0YwCw
 -10.18.25.|Blade: Trinity (2004) [1h53m] trailer: https://youtu.be/fPcNbsW69Eg
 -11.22.25.|Elektra (2005) [1h37m] trailer: https://youtu.be/lJsYp0oWAgk
@@ -1188,7 +1189,7 @@ Empire Records (1995) [1h30m] trailer: https://youtu.be/uvIsvZlk4GE
 
 -4.02.2022.|The Matrix (1999) [2h16m] trailer: https://youtu.be/vKQi3bBA1y8
 The Matrix Reloaded (2003) [2h18m] trailer: https://youtu.be/olvtV9zE-yw
-Speed Racer (2008) [2h15m] trailer: https://youtu.be/8V8sLlqJB2w
+-11.29.25.|Speed Racer (2008) [2h15m] trailer: https://youtu.be/8V8sLlqJB2w
 
 -Mad Max (1979) [1h31m] trailer: https://youtu.be/caHnaRq8Qlg https://youtu.be/76jy3zJ9_PE
 -Mad Max 2: The Road Warrior (1982) [1h36m] trailer: https://youtu.be/UlwtiOyaoo0
@@ -1521,6 +1522,17 @@ Sicario (2015) [2h2m] trailer: https://youtu.be/G8tlEcnrGnU
 #Ally Sheedy
 -The Breakfast Club (1985) [] trailer: https://youtu.be/kGuWbVb1210
 St. Elmo's Fire (1985) [] trailer: https://youtu.be/j9Z0Aq8VrN0
+
+
+#Verner Herzog film course
+#The Treasure of the Sierra Madre (1948) [] trailer: 
+Viva Zapata (1952) [] trailer: 
+The Battle of Algiers (1966) [] trailer: 
+    #The Apu Trilogy (1955 - 1959)
+Pather Panchali (1955) [] trailer: 
+Aparajito (1956) [] trailer: 
+The World of Apu (1959) [] trailer: 
+Where is the Friend's Home? (1987) [] trailer: 
 
 
 Welcome to The Rileys (2010) [] trailer: 

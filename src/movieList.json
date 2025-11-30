@@ -577,6 +577,15 @@
  },
  {
   "watched": false,
+  "title": "Attack of the Killer Tomatoes",
+  "year": "1978",
+  "links": {},
+  "id": "attack-of-the-killer-tomatoes-1978",
+  "dbid": 2182,
+  "runtime_m": 87
+ },
+ {
+  "watched": false,
   "title": "The Adams Family",
   "year": "1991",
   "runtime_hm": "1h39m",
@@ -3887,7 +3896,7 @@
   },
   "id": "sneakers-1992",
   "dbid": 2322,
-  "runtime_m": 126
+  "runtime_m": 125
  },
  {
   "watched": false,
@@ -5261,7 +5270,7 @@
   },
   "id": "miami-connection-1987",
   "dbid": 59558,
-  "runtime_m": 86
+  "runtime_m": 87
  },
  {
   "watched": false,
@@ -6430,7 +6439,7 @@
   "links": {},
   "id": "the-karate-kid-1984",
   "dbid": 1885,
-  "runtime_m": 126
+  "runtime_m": 127
  },
  {
   "watched": true,
@@ -7358,7 +7367,8 @@
   "runtime_m": 138
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "11.29.25",
   "title": "The Punisher",
   "year": "2004",
   "runtime_hm": "2h4m",
@@ -7368,6 +7378,9 @@
     "https://youtu.be/G59cD1NSbS8"
    ]
   },
+  "watchdate_arr": [
+   "20251129"
+  ],
   "id": "the-punisher-2004",
   "dbid": 7220,
   "runtime_m": 124
@@ -9430,7 +9443,7 @@
   "links": {},
   "id": "cliffhanger-1993",
   "dbid": 9350,
-  "runtime_m": 112
+  "runtime_m": 113
  },
  {
   "watched": false,
@@ -9942,7 +9955,7 @@
   ],
   "id": "junior-1994",
   "dbid": 6280,
-  "runtime_m": 109
+  "runtime_m": 110
  },
  {
   "watched": true,
@@ -10072,8 +10085,8 @@
    "20240727"
   ],
   "id": "around-the-world-in-80-days-2004",
-  "dbid": 10204,
-  "runtime_m": 120
+  "dbid": 2897,
+  "runtime_m": 182
  },
  {
   "watched": true,
@@ -12299,7 +12312,7 @@
   },
   "id": "ghost-1990",
   "dbid": 251,
-  "runtime_m": 126
+  "runtime_m": 127
  },
  {
   "watched": false,
@@ -12376,7 +12389,7 @@
   },
   "id": "crocodile-dundee-1986",
   "dbid": 9671,
-  "runtime_m": 98
+  "runtime_m": 97
  },
  {
   "watched": false,
@@ -12390,7 +12403,7 @@
   },
   "id": "crocodile-dundee-ii-1988",
   "dbid": 9396,
-  "runtime_m": 112
+  "runtime_m": 111
  },
  {
   "watched": false,
@@ -13774,7 +13787,8 @@
   "runtime_m": 138
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "11.29.25",
   "title": "Speed Racer",
   "year": "2008",
   "runtime_hm": "2h15m",
@@ -13783,6 +13797,9 @@
     "https://youtu.be/8V8sLlqJB2w"
    ]
   },
+  "watchdate_arr": [
+   "20251129"
+  ],
   "id": "speed-racer-2008",
   "dbid": 7459,
   "runtime_m": 135
@@ -16344,7 +16361,7 @@
   ],
   "id": "the-neverending-story-1984",
   "dbid": 34584,
-  "runtime_m": 101
+  "runtime_m": 97
  },
  {
   "watched": true,
@@ -17231,7 +17248,7 @@
   },
   "id": "rocky-ii-1979",
   "dbid": 1367,
-  "runtime_m": 120
+  "runtime_m": 119
  },
  {
   "watched": true,
@@ -17272,8 +17289,8 @@
    ]
   },
   "id": "rocky-v-1990",
-  "dbid": 60375,
-  "runtime_m": 9
+  "dbid": 1375,
+  "runtime_m": 104
  },
  {
   "watched": true,
@@ -17652,6 +17669,60 @@
   "id": "st-elmos-fire-1985",
   "dbid": 11557,
   "runtime_m": 108
+ },
+ {
+  "watched": false,
+  "title": "Viva Zapata",
+  "year": "1952",
+  "links": {},
+  "id": "viva-zapata-1952",
+  "dbid": 1810,
+  "runtime_m": 113
+ },
+ {
+  "watched": false,
+  "title": "The Battle of Algiers",
+  "year": "1966",
+  "links": {},
+  "id": "the-battle-of-algiers-1966",
+  "dbid": 17295,
+  "runtime_m": 121
+ },
+ {
+  "watched": false,
+  "title": "Pather Panchali",
+  "year": "1955",
+  "links": {},
+  "id": "pather-panchali-1955",
+  "dbid": 5801,
+  "runtime_m": 125
+ },
+ {
+  "watched": false,
+  "title": "Aparajito",
+  "year": "1956",
+  "links": {},
+  "id": "aparajito-1956",
+  "dbid": 897,
+  "runtime_m": 110
+ },
+ {
+  "watched": false,
+  "title": "The World of Apu",
+  "year": "1959",
+  "links": {},
+  "id": "the-world-of-apu-1959",
+  "dbid": 896,
+  "runtime_m": 105
+ },
+ {
+  "watched": false,
+  "title": "Where is the Friend's Home?",
+  "year": "1987",
+  "links": {},
+  "id": "where-is-the-friends-home-1987",
+  "dbid": 49964,
+  "runtime_m": 83
  },
  {
   "watched": false,
