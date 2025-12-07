@@ -3,8 +3,8 @@
 #For some reason Bethesda started packaging these mods with digital downloads of Fallout 1/2, so if you purchase from Steam, GoG, or Bethesda.net stores the game will automatically install with these mods pre-installed.
 #(I don't know what the legal ramifications are for this, but the mods do alter the credits for the games so at least credit is given).
 
-#Horror Trailer Playlist https://youtube.com/playlist?list=PLywwjkBV6ND9OOZ05UxphXtlcle4lEEI0
 #Movie Tracker https://quantumapprentice.github.io/Movie-Tracker/
+#Horror Trailer Playlist https://youtube.com/playlist?list=PLywwjkBV6ND9OOZ05UxphXtlcle4lEEI0
 
 -10.04.25.|Dracula (1931) [1h15m] trailer: https://youtu.be/VoaMw91MC9k
 -10.12.24.|Frankenstein (1931) [1h11m] trailer: https://youtu.be/BN8K-4osNb0 trailer: https://youtu.be/XD7Gn9grers
@@ -192,7 +192,7 @@ Return of the Living Dead Part II (1988) [1h29m] trailer: https://youtu.be/wuko2
 Ringu (1998) [1h36m] trailer: https://youtu.be/AJ2jLZq25J4
 R.O.T.O.R. (1987) [1h30m] https://youtu.be/YZgDQKkHbtY
 Rubber (2010) [1h25m] https://youtu.be/hVKgY1ilx0Y
-Scanners (1981) [1h43m] https://youtu.be/UveLSA7Hoj8
+-Scanners (1981) [1h43m] https://youtu.be/UveLSA7Hoj8
 -10.18.25.|Scary Movie (2000) [1h28m] trailer: https://youtu.be/SzpGYrrcJZw
 Scary Movie 2 (2001) [1h23m] trailer: 
 Scary Movie 3 (2003) [1h24m] trailer: https://youtu.be/O21wD8Tzr2k
@@ -545,7 +545,7 @@ Simone (2002) [1h57m] trailer: https://youtu.be/HuAjeuKXX7c
 Black Dynamite (2009) [1h24m] trailer: https://youtu.be/96Y24a0cyCE
 
 
-
+Paris, Texas (1984) [] trailer: https://youtu.be/Af4HCTzAFSQ trailer: https://youtu.be/9e590FeeGCM
 
 
 The Hitman's Bodyguard (2017) [1h58m] trailer: https://youtu.be/F4Afusxc2SM
@@ -627,7 +627,7 @@ Hulk (2003) [2h18m] trailer: https://youtu.be/2ErnLuJKQA4 trailer: https://youtu
 -11.01.25.|Ghost Rider (2007) [1h50m] trailer: https://youtu.be/tp12CD2A4NA trailer: https://youtu.be/QvoofruuWk8
 -09.13.25.|Spider-Man 3 (2007) [2h19m] trailer: https://youtu.be/UFJFbgPLFWo
 -09.27.25.|Fantastic Four: Rise of the Silver Surfer (2007) [1h32m] trailer: https://youtu.be/Wiu5eZ_7vSY
-Punisher War Zone (2008) [1h43m] trailer: https://youtu.be/bTdbeXHMzwg trailer: https://youtu.be/XgfZqQRCTn8
+-12.06.25.|Punisher War Zone (2008) [1h43m] trailer: https://youtu.be/bTdbeXHMzwg trailer: https://youtu.be/XgfZqQRCTn8
 #Phase One
 Iron Man (2008) [2h6m] trailer: 
 The Incredible Hulk (2008) [1h54m] trailer: 
@@ -1201,7 +1201,7 @@ The Matrix Reloaded (2003) [2h18m] trailer: https://youtu.be/olvtV9zE-yw
 #Animated
 Fantastic Planet (1973) [1h12m] trailer: 
 Redline (2010) [1h42m] trailer: https://youtu.be/2t26m_Q6ENo
--Akira (1988) [2h4m] trailer: https://youtu.be/nA8KmHC2Z-g https://youtu.be/ooKBenGK3R4 https://youtu.be/4yu8CqrfSQc
+-21.04.21.|Akira (1988) [2h4m] trailer: https://youtu.be/nA8KmHC2Z-g https://youtu.be/ooKBenGK3R4 https://youtu.be/4yu8CqrfSQc
 -04.01.23.|Heavy Metal (1981) [1h30m] https://youtu.be/rKHYv2r4m6k
 Cool World (1992) [1h42m] trailer: https://youtu.be/_kJAVgY8DMk
 -04.15.23.|Who Framed Roger Rabbit (1988) [1h44m] trailer: https://youtu.be/gpDaNqSXxp0
@@ -1732,7 +1732,7 @@ Ted (2012) [1h46m] trailer: https://youtu.be/9fbo_pQvU7M
 Tin Cup (1996) [2h15m] trailer: https://youtu.be/lr8Nm-ySaAM
 #Eskeminha
 White Chicks (2004) [1h49m] trailer: 
-Eurotrip (2004) [1h32m] trailer: https://youtu.be/yZSoJtFxP4A
+-12.06.25.|Eurotrip (2004) [1h32m] trailer: https://youtu.be/yZSoJtFxP4A
 #Uro666
 Taxi (1998) [1h29m] trailer: 
 
@@ -1798,6 +1798,7 @@ The Closet/ Le Placard (2001) [1h24m] trailer: https://youtu.be/IHyMHzrBN84
 -12.28.24.|Jingle All the Way (1996) [1h29m] trailer: https://youtu.be/jhJYMEzQA-Q movie: https://youtu.be/tXMvUU_w36Y
 -12.17.23./12.28.24.|Elf (2003) [1h36m] trailer: https://youtu.be/BMlmu18gIDM
 -Miracle on 34th Street (1947) [1h36m] movie: https://youtu.be/Z3P5TjtStCY
+-12.26.21.|Miracle on 34th Street (1994) [1h53m] trailer: 
 -12.24.22./12.21.24.|It's a Wonderful Life (1946) [2h10m] trailer: https://youtu.be/sFXoAVi4FPk
 -Santa Claus: The Movie (1985) [1h48m] trailer: https://youtu.be/7LKHIzWQfMI
 -12.10.21./12.17.22./12.21.24.|Die Hard (1988) [2h12m] trailer: https://youtu.be/jaJuwKCmJbY
@@ -1813,7 +1814,7 @@ A Christmas Carol (1938) [1h9m] trailer: https://youtu.be/yVop9seXSoQ
 A Christmas Tale (2008) [2h32m] trailer: https://youtu.be/hukr1SFe4-c
 The Hogfather (2006) [3h9m] trailer: https://youtu.be/cKoJEUodfgA movie: https://youtu.be/42Nz8Dw2_yU
 -The Muppet Christmas Carol (1992) [1h26m] trailer: https://youtu.be/pNo-Q0IDJi0
-Dr. Seuss' How the Grinch Stole Christmas (2000) [1h44m] trailer: https://youtu.be/YQV5Pr7pWtM
+-12.09.24.|Dr. Seuss' How the Grinch Stole Christmas (2000) [1h44m] trailer: https://youtu.be/YQV5Pr7pWtM
 -The Santa Clause (1994) [1h37m] trailer: https://youtu.be/Bx8FX7etF_8
 The Santa Clause 2 (2002) [1h44m] trailer: https://youtu.be/MKyq7YON6BQ
 The Santa Clause 3: The Escape Clause (2006) [1h37m] trailer: https://youtu.be/jpyBrTSUO5k
@@ -1826,6 +1827,7 @@ Jack Frost (1997) [1h29m] trailer: https://youtu.be/ev0NkYfkgYE
 Jack Frost (1998) [1h41m] trailer: https://youtu.be/ZFoWiUqrhoE
 Ernest Saves Christmas (1988) [1h35m] teaser: https://youtu.be/tWo2PkYGBMI trailer: https://youtu.be/vFZeIJgoLDU
 Four Christmases (2008) [1h28m] trailer: https://youtu.be/6veo6Js7HUE
+Go (1999) [1h42m] trailer: https://youtu.be/WSOBdkzG1YI
 Reindeer Games (2000) [2h4m] trailer: https://youtu.be/0856Uv4QmtI
 Friday After Next (2002) [1h25m] trailer: https://youtu.be/H3g5QQynaJk trailer: https://youtu.be/MveF6S5b2qY
 Mixed Nuts (1994) [1h37m] trailer: 

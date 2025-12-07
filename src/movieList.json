@@ -2810,7 +2810,7 @@
   "runtime_m": 82
  },
  {
-  "watched": false,
+  "watched": true,
   "title": "Scanners",
   "year": "1981",
   "runtime_hm": "1h43m",
@@ -4907,7 +4907,7 @@
   },
   "id": "pump-up-the-volume-1990",
   "dbid": 8428,
-  "runtime_m": 105
+  "runtime_m": 102
  },
  {
   "watched": false,
@@ -6525,6 +6525,20 @@
  },
  {
   "watched": false,
+  "title": "Paris, Texas",
+  "year": "1984",
+  "links": {
+   "trailer": [
+    "https://youtu.be/Af4HCTzAFSQ",
+    "https://youtu.be/9e590FeeGCM"
+   ]
+  },
+  "id": "paris-texas-1984",
+  "dbid": 655,
+  "runtime_m": 145
+ },
+ {
+  "watched": false,
   "title": "The Hitman's Bodyguard",
   "year": "2017",
   "runtime_hm": "1h58m",
@@ -7532,7 +7546,8 @@
   "runtime_m": 92
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "12.06.25",
   "title": "Punisher War Zone",
   "year": "2008",
   "runtime_hm": "1h43m",
@@ -7542,6 +7557,9 @@
     "https://youtu.be/XgfZqQRCTn8"
    ]
   },
+  "watchdate_arr": [
+   "20251206"
+  ],
   "id": "punisher-war-zone-2008",
   "dbid": 13056,
   "runtime_m": 102
@@ -7981,7 +7999,7 @@
   ],
   "id": "dark-city-1998",
   "dbid": 2666,
-  "runtime_m": 100
+  "runtime_m": 101
  },
  {
   "watched": true,
@@ -9466,8 +9484,8 @@
   "runtime_hm": "2h33m",
   "links": {},
   "id": "inglorious-basterds-2009",
-  "dbid": 16869,
-  "runtime_m": 153
+  "dbid": 28447,
+  "runtime_m": 6
  },
  {
   "watched": false,
@@ -11075,7 +11093,7 @@
   },
   "id": "hackers-1995",
   "dbid": 10428,
-  "runtime_m": 107
+  "runtime_m": 105
  },
  {
   "watched": false,
@@ -11485,7 +11503,7 @@
   },
   "id": "jaws-3-1983",
   "dbid": 17692,
-  "runtime_m": 99
+  "runtime_m": 98
  },
  {
   "watched": false,
@@ -13901,6 +13919,7 @@
  },
  {
   "watched": true,
+  "watchdate": "21.04.21",
   "title": "Akira",
   "year": "1988",
   "runtime_hm": "2h4m",
@@ -13911,6 +13930,9 @@
     "https://youtu.be/4yu8CqrfSQc"
    ]
   },
+  "watchdate_arr": [
+   "20212104"
+  ],
   "id": "akira-1988",
   "dbid": 149,
   "runtime_m": 124
@@ -15403,7 +15425,7 @@
   ],
   "id": "mallrats-1995",
   "dbid": 2293,
-  "runtime_m": 94
+  "runtime_m": 95
  },
  {
   "watched": true,
@@ -19983,7 +20005,8 @@
   "runtime_m": 109
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "12.06.25",
   "title": "Eurotrip",
   "year": "2004",
   "runtime_hm": "1h32m",
@@ -19992,6 +20015,9 @@
     "https://youtu.be/yZSoJtFxP4A"
    ]
   },
+  "watchdate_arr": [
+   "20251206"
+  ],
   "id": "eurotrip-2004",
   "dbid": 9352,
   "runtime_m": 92
@@ -20629,6 +20655,20 @@
  },
  {
   "watched": true,
+  "watchdate": "12.26.21",
+  "title": "Miracle on 34th Street",
+  "year": "1994",
+  "runtime_hm": "1h53m",
+  "links": {},
+  "watchdate_arr": [
+   "20211226"
+  ],
+  "id": "miracle-on-34th-street-1994",
+  "dbid": 10510,
+  "runtime_m": 114
+ },
+ {
+  "watched": true,
   "watchdate": "12.24.22./12.21.24",
   "title": "It's a Wonderful Life",
   "year": "1946",
@@ -20876,7 +20916,8 @@
   "runtime_m": 86
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "12.09.24",
   "title": "Dr. Seuss' How the Grinch Stole Christmas",
   "year": "2000",
   "runtime_hm": "1h44m",
@@ -20885,6 +20926,9 @@
     "https://youtu.be/YQV5Pr7pWtM"
    ]
   },
+  "watchdate_arr": [
+   "20241209"
+  ],
   "id": "dr-seuss-how-the-grinch-stole-christmas-2000",
   "dbid": 8871,
   "runtime_m": 104
@@ -21072,6 +21116,20 @@
   "id": "four-christmases-2008",
   "dbid": 12193,
   "runtime_m": 88
+ },
+ {
+  "watched": false,
+  "title": "Go",
+  "year": "1999",
+  "runtime_hm": "1h42m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/WSOBdkzG1YI"
+   ]
+  },
+  "id": "go-1999",
+  "dbid": 9430,
+  "runtime_m": 102
  },
  {
   "watched": false,
