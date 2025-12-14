@@ -617,7 +617,7 @@ Bubba Ho Tep (2002) [] trailer:
 -08.31.25.|Spider-Man (2002) [2h1m] trailer: https://youtu.be/_yhFofFZGcc trailer: https://youtu.be/t06RUxPbp_c
 -11.15.25.|Daredevil (2003) [1h43m] trailer: https://youtu.be/Y6p_3s0d9TI trailer: https://youtu.be/muPX9Oi7-EE
 -08.16.25.|X2: X-Men United (2003) [2h14m] trailer: https://youtu.be/KjzPi5hfv9c
-Hulk (2003) [2h18m] trailer: https://youtu.be/2ErnLuJKQA4 trailer: https://youtu.be/2ErnLuJKQA4 teaser: https://youtu.be/3tpRDs0z3zc
+-12.13.25.|Hulk (2003) [2h18m] trailer: https://youtu.be/2ErnLuJKQA4 trailer: https://youtu.be/2ErnLuJKQA4 teaser: https://youtu.be/3tpRDs0z3zc
 -11.29.25.|The Punisher (2004) [2h4m] trailer: https://youtu.be/q7CMnRv8Mqc trailer: https://youtu.be/G59cD1NSbS8
 -09.06.25.|Spider-Man 2 (2004) [2h7m] trailer: https://youtu.be/1s9Yln0YwCw
 -10.18.25.|Blade: Trinity (2004) [1h53m] trailer: https://youtu.be/fPcNbsW69Eg
@@ -638,15 +638,21 @@ X-Men: First Class (2011) [2h12m] trailer:
 -11.08.25.|Ghost Rider: Spirit of Vengeance (2011) [1h36m] trailer: https://youtu.be/UUObgxCoUgA
 Captain America: The First Avenger (2011) [2h4m] trailer: 
 The Avengers (2012) [2h23m] trailer: 
+The Amazing Spider-Man (2012) [] trailer: 
+
 #Phase Two
 The Wolverine (2013) [2h6m] trailer: 
 Iron Man 3 (2013) [2h10m] trailer: 
 Thor: The Dark World (2013) [1h52m] trailer: 
+The Amazing Spider-Man 2 (2014) [] trailer: 
+
 Captain America: The Winter Soldier (2014) [2h16m] trailer: 
 X-Men: Days of Future Past (2014) [2h12m] trailer: 
 Guardians of the Galaxy (2014) [2h1m] trailer: 
 Avengers: Age of Ultron (2015) [2h21m] trailer: 
 Ant-Man (2015) [1h57m] trailer: 
+The Fantastic Four (2015) [] trailer: 
+
 #Phase Three
 X-Men: Apocalypse (2016) [] trailer: 
 Deadpool (2016) [1h48m] trailer: https://youtu.be/ONHBaC-pfsk
@@ -656,6 +662,8 @@ Logan (2017) [] trailer:
 Guardians of the Galaxy Vol. 2 (2017) [] trailer: 
 Spider-Man: Homecoming (2017) [] trailer: 
 Thor: Ragnarok (2017) [] trailer: 
+Venom (2018) [] trailer: 
+
 Black Panther (2018) [] trailer: 
 Deadpool 2 (2018) [2h] trailer: https://youtu.be/D86RtevtfrA
 Avengers: Infinity War (2018) [] trailer: 
@@ -664,7 +672,24 @@ X-Men: Dark Phoenix (2019) [] trailer:
 Captain Marvel (2019) [] trailer: 
 Avengers: Endgame (2019) [] trailer: 
 Spider-Man: Far From Home (2019) [] trailer: 
+
+
+
+#not phase 4 but still marvel
+The New Mutants (2020) [] trailer: 
+Venom: Let There Be Carnage (2021) [] trailer: 
+Morbius (2022) [] trailer: 
+Madame Web (2024) [] trailer: 
+Kraven the Hunter (2024) [] trailer: 
+the 2 animated movies, optional?
+Spider-Man: Into the Spider-Verse (2018) [] trailer: 
+Spider-Man: Across the Spider-Verse (2023) [] trailer: 
+
 Deadpool & Wolverine (2024) [] trailer: 
+
+
+
+
 
 #nublar
 Unforgiven (1992) [2h10m] trailer: 
@@ -1813,7 +1838,7 @@ A Christmas Carol (1938) [1h9m] trailer: https://youtu.be/yVop9seXSoQ
 -12.24.24.|A Christmas Carol (1999) [1h35m] trailer: https://youtu.be/G7JF5iWZXH4 movie: https://youtu.be/H3wVEnohS7Q
 A Christmas Tale (2008) [2h32m] trailer: https://youtu.be/hukr1SFe4-c
 The Hogfather (2006) [3h9m] trailer: https://youtu.be/cKoJEUodfgA movie: https://youtu.be/42Nz8Dw2_yU
--The Muppet Christmas Carol (1992) [1h26m] trailer: https://youtu.be/pNo-Q0IDJi0
+-12.13.25.|The Muppet Christmas Carol (1992) [1h26m] trailer: https://youtu.be/pNo-Q0IDJi0
 -12.09.24.|Dr. Seuss' How the Grinch Stole Christmas (2000) [1h44m] trailer: https://youtu.be/YQV5Pr7pWtM
 -The Santa Clause (1994) [1h37m] trailer: https://youtu.be/Bx8FX7etF_8
 The Santa Clause 2 (2002) [1h44m] trailer: https://youtu.be/MKyq7YON6BQ

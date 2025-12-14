@@ -2456,7 +2456,7 @@
   },
   "id": "nosferatu-1922",
   "dbid": 653,
-  "runtime_m": 81
+  "runtime_m": 89
  },
  {
   "watched": false,
@@ -6165,7 +6165,7 @@
   },
   "id": "escape-from-l-a-1996",
   "dbid": 10061,
-  "runtime_m": 96
+  "runtime_m": 101
  },
  {
   "watched": false,
@@ -7363,7 +7363,8 @@
   "runtime_m": 133
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "12.13.25",
   "title": "Hulk",
   "year": "2003",
   "runtime_hm": "2h18m",
@@ -7376,6 +7377,9 @@
     "https://youtu.be/3tpRDs0z3zc"
    ]
   },
+  "watchdate_arr": [
+   "20251213"
+  ],
   "id": "hulk-2003",
   "dbid": 1927,
   "runtime_m": 138
@@ -7664,6 +7668,15 @@
  },
  {
   "watched": false,
+  "title": "The Amazing Spider-Man",
+  "year": "2012",
+  "links": {},
+  "id": "the-amazing-spider-man-2012",
+  "dbid": 1930,
+  "runtime_m": 136
+ },
+ {
+  "watched": false,
   "title": "The Wolverine",
   "year": "2013",
   "runtime_hm": "2h6m",
@@ -7691,6 +7704,15 @@
   "id": "thor-the-dark-world-2013",
   "dbid": 76338,
   "runtime_m": 112
+ },
+ {
+  "watched": false,
+  "title": "The Amazing Spider-Man 2",
+  "year": "2014",
+  "links": {},
+  "id": "the-amazing-spider-man-2-2014",
+  "dbid": 102382,
+  "runtime_m": 141
  },
  {
   "watched": false,
@@ -7741,6 +7763,15 @@
   "id": "ant-man-2015",
   "dbid": 102899,
   "runtime_m": 117
+ },
+ {
+  "watched": false,
+  "title": "The Fantastic Four",
+  "year": "2015",
+  "links": {},
+  "id": "the-fantastic-four-2015",
+  "dbid": 216529,
+  "runtime_m": 85
  },
  {
   "watched": false,
@@ -7821,6 +7852,15 @@
  },
  {
   "watched": false,
+  "title": "Venom",
+  "year": "2018",
+  "links": {},
+  "id": "venom-2018",
+  "dbid": 335983,
+  "runtime_m": 112
+ },
+ {
+  "watched": false,
   "title": "Black Panther",
   "year": "2018",
   "links": {},
@@ -7894,6 +7934,69 @@
   "id": "spider-man-far-from-home-2019",
   "dbid": 429617,
   "runtime_m": 129
+ },
+ {
+  "watched": false,
+  "title": "The New Mutants",
+  "year": "2020",
+  "links": {},
+  "id": "the-new-mutants-2020",
+  "dbid": 340102,
+  "runtime_m": 94
+ },
+ {
+  "watched": false,
+  "title": "Venom: Let There Be Carnage",
+  "year": "2021",
+  "links": {},
+  "id": "venom-let-there-be-carnage-2021",
+  "dbid": 580489,
+  "runtime_m": 97
+ },
+ {
+  "watched": false,
+  "title": "Morbius",
+  "year": "2022",
+  "links": {},
+  "id": "morbius-2022",
+  "dbid": 526896,
+  "runtime_m": 105
+ },
+ {
+  "watched": false,
+  "title": "Madame Web",
+  "year": "2024",
+  "links": {},
+  "id": "madame-web-2024",
+  "dbid": 634492,
+  "runtime_m": 117
+ },
+ {
+  "watched": false,
+  "title": "Kraven the Hunter",
+  "year": "2024",
+  "links": {},
+  "id": "kraven-the-hunter-2024",
+  "dbid": 539972,
+  "runtime_m": 127
+ },
+ {
+  "watched": false,
+  "title": "Spider-Man: Into the Spider-Verse",
+  "year": "2018",
+  "links": {},
+  "id": "spider-man-into-the-spider-verse-2018",
+  "dbid": 324857,
+  "runtime_m": 117
+ },
+ {
+  "watched": false,
+  "title": "Spider-Man: Across the Spider-Verse",
+  "year": "2023",
+  "links": {},
+  "id": "spider-man-across-the-spider-verse-2023",
+  "dbid": 569094,
+  "runtime_m": 140
  },
  {
   "watched": false,
@@ -14705,7 +14808,7 @@
   "links": {},
   "id": "the-assassination-of-jesse-james-by-the-coward-robert-ford-2007",
   "dbid": 4512,
-  "runtime_m": 159
+  "runtime_m": 160
  },
  {
   "watched": false,
@@ -20903,6 +21006,7 @@
  },
  {
   "watched": true,
+  "watchdate": "12.13.25",
   "title": "The Muppet Christmas Carol",
   "year": "1992",
   "runtime_hm": "1h26m",
@@ -20911,6 +21015,9 @@
     "https://youtu.be/pNo-Q0IDJi0"
    ]
   },
+  "watchdate_arr": [
+   "20251213"
+  ],
   "id": "the-muppet-christmas-carol-1992",
   "dbid": 10437,
   "runtime_m": 86
@@ -20931,7 +21038,7 @@
   ],
   "id": "dr-seuss-how-the-grinch-stole-christmas-2000",
   "dbid": 8871,
-  "runtime_m": 104
+  "runtime_m": 105
  },
  {
   "watched": true,
