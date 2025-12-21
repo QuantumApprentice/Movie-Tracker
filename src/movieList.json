@@ -9323,6 +9323,20 @@
  },
  {
   "watched": false,
+  "title": "Gordon's War",
+  "year": "1973",
+  "runtime_hm": "1h30m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/OmGOYPFSKFM"
+   ]
+  },
+  "id": "gordons-war-1973",
+  "dbid": 43077,
+  "runtime_m": 90
+ },
+ {
+  "watched": false,
   "title": "The Paper Chase",
   "year": "1973",
   "runtime_hm": "1h53m",
@@ -9587,8 +9601,8 @@
   "runtime_hm": "2h33m",
   "links": {},
   "id": "inglorious-basterds-2009",
-  "dbid": 28447,
-  "runtime_m": 6
+  "dbid": 16869,
+  "runtime_m": 153
  },
  {
   "watched": false,
@@ -17051,6 +17065,28 @@
  },
  {
   "watched": true,
+  "watchdate": "12.20.25",
+  "title": "Star Wars: Holiday Special",
+  "year": "1978",
+  "runtime_hm": "1h20m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/35m33Bml8us"
+   ],
+   "movie": [
+    "https://youtu.be/iJBN0p4Dlqs",
+    "https://youtu.be/LYHSapFnonc"
+   ]
+  },
+  "watchdate_arr": [
+   "20251220"
+  ],
+  "id": "star-wars-holiday-special-1978",
+  "dbid": 74849,
+  "runtime_m": 97
+ },
+ {
+  "watched": true,
   "watchdate": "11.03.24",
   "title": "The Lord of the Rings: Fellowship of the Ring",
   "year": "2001",
@@ -21042,6 +21078,22 @@
  },
  {
   "watched": true,
+  "watchdate": "12.20.25",
+  "title": "Santa Clause Conquers the Martians",
+  "year": "1964",
+  "runtime_hm": "1h9m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/X06DV3Hx_Q4"
+   ]
+  },
+  "watchdate_arr": [
+   "20251220"
+  ],
+  "id": "santa-clause-conquers-the-martians-1964"
+ },
+ {
+  "watched": true,
   "title": "The Santa Clause",
   "year": "1994",
   "runtime_hm": "1h37m",
@@ -21081,6 +21133,19 @@
   "id": "the-santa-clause-3-the-escape-clause-2006",
   "dbid": 13767,
   "runtime_m": 92
+ },
+ {
+  "watched": false,
+  "title": "The Snow Queen",
+  "year": "1957",
+  "links": {
+   "trailer": [
+    "https://youtu.be/lOiJHf6D_0o"
+   ]
+  },
+  "id": "the-snow-queen-1957",
+  "dbid": 72214,
+  "runtime_m": 61
  },
  {
   "watched": true,
@@ -21362,7 +21427,7 @@
  },
  {
   "watched": true,
-  "watchdate": "12.17.21./12.23.22./12.24.24",
+  "watchdate": "12.17.21./12.23.22./12.24.24./12.20.25",
   "title": "Scrooged",
   "year": "1988",
   "runtime_hm": "1h41m",
@@ -21375,6 +21440,7 @@
    ]
   },
   "watchdate_arr": [
+   "20251220",
    "20241224",
    "20221223",
    "20211217"
@@ -21471,6 +21537,19 @@
   "id": "the-nightmare-before-christmas-1993",
   "dbid": 9479,
   "runtime_m": 76
+ },
+ {
+  "watched": false,
+  "title": "Violent Night",
+  "links": {
+   "trailer": [
+    "https://youtu.be/a53e4HHnx_s"
+   ]
+  },
+  "id": "violent-night-2022",
+  "year": "2022",
+  "dbid": 899112,
+  "runtime_m": 111
  },
  {
   "watched": true,
