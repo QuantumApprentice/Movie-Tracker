@@ -14,8 +14,8 @@
    "20251004"
   ],
   "id": "dracula-1931",
-  "dbid": 138,
-  "runtime_m": 74
+  "dbid": 39259,
+  "runtime_m": 104
  },
  {
   "watched": true,
@@ -4223,6 +4223,20 @@
  },
  {
   "watched": false,
+  "title": "Snakes on a Plane",
+  "year": "2006",
+  "runtime_hm": "1h45m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/qRK9SlFadEY"
+   ]
+  },
+  "id": "snakes-on-a-plane-2006",
+  "dbid": 326,
+  "runtime_m": 105
+ },
+ {
+  "watched": false,
   "title": "Eight Legged Freaks",
   "year": "2002",
   "runtime_hm": "1h39m",
@@ -7573,7 +7587,11 @@
   "title": "Iron Man",
   "year": "2008",
   "runtime_hm": "2h6m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/8ugaeA-nMTc"
+   ]
+  },
   "id": "iron-man-2008",
   "dbid": 1726,
   "runtime_m": 126
@@ -7593,7 +7611,11 @@
   "title": "X-Men Origins: Wolverine",
   "year": "2009",
   "runtime_hm": "1h47m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/8IxT7WFL6Ec"
+   ]
+  },
   "id": "x-men-origins-wolverine-2009",
   "dbid": 2080,
   "runtime_m": 107
@@ -20761,7 +20783,7 @@
  },
  {
   "watched": true,
-  "watchdate": "12.17.23./12.28.24",
+  "watchdate": "12.17.23./12.28.24./12.27.25",
   "title": "Elf",
   "year": "2003",
   "runtime_hm": "1h36m",
@@ -20771,6 +20793,7 @@
    ]
   },
   "watchdate_arr": [
+   "20251227",
    "20241228",
    "20231217"
   ],
@@ -20803,12 +20826,12 @@
    "20211226"
   ],
   "id": "miracle-on-34th-street-1994",
-  "dbid": 10510,
-  "runtime_m": 114
+  "dbid": 11881,
+  "runtime_m": 96
  },
  {
   "watched": true,
-  "watchdate": "12.24.22./12.21.24",
+  "watchdate": "12.24.22./12.21.24./12.24.25",
   "title": "It's a Wonderful Life",
   "year": "1946",
   "runtime_hm": "2h10m",
@@ -20818,6 +20841,7 @@
    ]
   },
   "watchdate_arr": [
+   "20251224",
    "20241221",
    "20221224"
   ],
@@ -20841,7 +20865,7 @@
  },
  {
   "watched": true,
-  "watchdate": "12.10.21./12.17.22./12.21.24",
+  "watchdate": "12.10.21./12.17.22./12.21.24./12.25.25",
   "title": "Die Hard",
   "year": "1988",
   "runtime_hm": "2h12m",
@@ -20851,6 +20875,7 @@
    ]
   },
   "watchdate_arr": [
+   "20251225",
    "20241221",
    "20221217",
    "20211210"
@@ -20861,7 +20886,7 @@
  },
  {
   "watched": true,
-  "watchdate": "12.17.21./12.23.22./12.22.24",
+  "watchdate": "12.17.21./12.23.22./12.22.24./12.25.25",
   "title": "Die Hard 2: Die Harder",
   "year": "1990",
   "runtime_hm": "2h4m",
@@ -20871,6 +20896,7 @@
    ]
   },
   "watchdate_arr": [
+   "20251225",
    "20241222",
    "20221223",
    "20211217"
@@ -21020,8 +21046,8 @@
    ]
   },
   "id": "a-christmas-tale-2008",
-  "dbid": 8892,
-  "runtime_m": 152
+  "dbid": 75725,
+  "runtime_m": 75
  },
  {
   "watched": false,
@@ -21369,6 +21395,19 @@
  },
  {
   "watched": false,
+  "title": "The Ref",
+  "year": "1994",
+  "links": {
+   "trailer": [
+    "https://youtu.be/FMPjFRZ-Zro"
+   ]
+  },
+  "id": "the-ref-1994",
+  "dbid": 10872,
+  "runtime_m": 97
+ },
+ {
+  "watched": false,
   "title": "Christmas With the Kranks",
   "year": "2004",
   "runtime_hm": "1h39m",
@@ -21541,13 +21580,13 @@
  {
   "watched": false,
   "title": "Violent Night",
+  "year": "2022",
   "links": {
    "trailer": [
     "https://youtu.be/a53e4HHnx_s"
    ]
   },
   "id": "violent-night-2022",
-  "year": "2022",
   "dbid": 899112,
   "runtime_m": 111
  },
@@ -21734,7 +21773,7 @@
   "year": "2003",
   "links": {},
   "id": "hajime-no-ippo-2003",
-  "dbid": 45287,
-  "runtime_m": 90
+  "dbid": 45288,
+  "runtime_m": 60
  }
 ]
