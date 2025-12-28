@@ -1522,6 +1522,7 @@
  },
  {
   "watched": false,
+  "watchdate": "12.27.25",
   "title": "Gremlins",
   "year": "1984",
   "runtime_hm": "1h46m",
@@ -1530,6 +1531,9 @@
     "https://youtu.be/XBEVwaJEgaA"
    ]
   },
+  "watchdate_arr": [
+   "20251227"
+  ],
   "id": "gremlins-1984",
   "dbid": 927,
   "runtime_m": 106
