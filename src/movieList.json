@@ -14,8 +14,8 @@
    "20251004"
   ],
   "id": "dracula-1931",
-  "dbid": 39259,
-  "runtime_m": 104
+  "dbid": 138,
+  "runtime_m": 74
  },
  {
   "watched": true,
@@ -297,9 +297,7 @@
     "https://youtu.be/I90bPakb1zs"
    ]
   },
-  "id": "house-of-frankenstein-1944",
-  "dbid": 3103,
-  "runtime_m": 71
+  "id": "house-of-frankenstein-1944"
  },
  {
   "watched": false,
@@ -1554,6 +1552,7 @@
  },
  {
   "watched": true,
+  "watchdate": "01.03.26",
   "title": "Ghostbusters",
   "year": "1984",
   "runtime_hm": "1h48m",
@@ -1562,6 +1561,9 @@
     "https://youtu.be/wQAljlSmjC8"
    ]
   },
+  "watchdate_arr": [
+   "20260103"
+  ],
   "id": "ghostbusters-1984",
   "dbid": 620,
   "runtime_m": 107
@@ -7611,7 +7613,8 @@
   "runtime_m": 114
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "01.03.26",
   "title": "X-Men Origins: Wolverine",
   "year": "2009",
   "runtime_hm": "1h47m",
@@ -7620,6 +7623,9 @@
     "https://youtu.be/8IxT7WFL6Ec"
    ]
   },
+  "watchdate_arr": [
+   "20260103"
+  ],
   "id": "x-men-origins-wolverine-2009",
   "dbid": 2080,
   "runtime_m": 107
@@ -7649,7 +7655,11 @@
   "title": "X-Men: First Class",
   "year": "2011",
   "runtime_hm": "2h12m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/kyQKi5-k0UU"
+   ]
+  },
   "id": "x-men-first-class-2011",
   "dbid": 49538,
   "runtime_m": 132
@@ -10058,8 +10068,8 @@
    "20240217"
   ],
   "id": "terminator-2-1991",
-  "dbid": 66664,
-  "runtime_m": 90
+  "dbid": 280,
+  "runtime_m": 137
  },
  {
   "watched": true,
