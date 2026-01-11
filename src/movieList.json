@@ -14,8 +14,8 @@
    "20251004"
   ],
   "id": "dracula-1931",
-  "dbid": 138,
-  "runtime_m": 74
+  "dbid": 39259,
+  "runtime_m": 104
  },
  {
   "watched": true,
@@ -297,7 +297,9 @@
     "https://youtu.be/I90bPakb1zs"
    ]
   },
-  "id": "house-of-frankenstein-1944"
+  "id": "house-of-frankenstein-1944",
+  "dbid": 3103,
+  "runtime_m": 71
  },
  {
   "watched": false,
@@ -1570,6 +1572,7 @@
  },
  {
   "watched": true,
+  "watchdate": "01.10.26",
   "title": "Ghostbusters II",
   "year": "1989",
   "runtime_hm": "1h48m",
@@ -1578,6 +1581,9 @@
     "https://youtu.be/weIqC-oUGmA"
    ]
   },
+  "watchdate_arr": [
+   "20260110"
+  ],
   "id": "ghostbusters-ii-1989",
   "dbid": 2978,
   "runtime_m": 108
@@ -2595,7 +2601,7 @@
   "links": {},
   "id": "piranha-ii-the-spawning-1982",
   "dbid": 31646,
-  "runtime_m": 84
+  "runtime_m": 94
  },
  {
   "watched": true,
@@ -4159,6 +4165,24 @@
  },
  {
   "watched": false,
+  "title": "Radioactive Dreams",
+  "links": {},
+  "id": "radioactive-dreams-1986",
+  "year": "1986",
+  "dbid": 47342,
+  "runtime_m": 98
+ },
+ {
+  "watched": false,
+  "title": "Alien from LA",
+  "links": {},
+  "id": "alien-from-la-1988",
+  "year": "1988",
+  "dbid": 31397,
+  "runtime_m": 87
+ },
+ {
+  "watched": false,
   "title": "Porky's",
   "year": "1981",
   "runtime_hm": "1h34m",
@@ -4623,8 +4647,8 @@
   "runtime_hm": "1h56m",
   "links": {},
   "id": "crimson-tide-1995",
-  "dbid": 1448556,
-  "runtime_m": 20
+  "dbid": 8963,
+  "runtime_m": 116
  },
  {
   "watched": false,
@@ -6418,6 +6442,15 @@
   "runtime_m": 89
  },
  {
+  "watched": false,
+  "title": "Armed and Dangerous",
+  "links": {},
+  "id": "armed-and-dangerous-1986",
+  "year": "1986",
+  "dbid": 2620,
+  "runtime_m": 88
+ },
+ {
   "watched": true,
   "title": "Darkman",
   "year": "1990",
@@ -7651,7 +7684,8 @@
   "runtime_m": 115
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "01.10.26",
   "title": "X-Men: First Class",
   "year": "2011",
   "runtime_hm": "2h12m",
@@ -7660,6 +7694,9 @@
     "https://youtu.be/kyQKi5-k0UU"
    ]
   },
+  "watchdate_arr": [
+   "20260110"
+  ],
   "id": "x-men-first-class-2011",
   "dbid": 49538,
   "runtime_m": 132
@@ -7716,7 +7753,11 @@
   "title": "The Wolverine",
   "year": "2013",
   "runtime_hm": "2h6m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/u1VCP3O8wG0"
+   ]
+  },
   "id": "the-wolverine-2013",
   "dbid": 76170,
   "runtime_m": 126
@@ -7765,7 +7806,12 @@
   "title": "X-Men: Days of Future Past",
   "year": "2014",
   "runtime_hm": "2h12m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/pK2zYHWDZKo",
+    "https://youtu.be/6acRHWnfZAE"
+   ]
+  },
   "id": "x-men-days-of-future-past-2014",
   "dbid": 127585,
   "runtime_m": 132
@@ -10068,8 +10114,8 @@
    "20240217"
   ],
   "id": "terminator-2-1991",
-  "dbid": 280,
-  "runtime_m": 137
+  "dbid": 66664,
+  "runtime_m": 90
  },
  {
   "watched": true,
@@ -12336,7 +12382,7 @@
   ],
   "id": "the-wedding-singer-1998",
   "dbid": 11003,
-  "runtime_m": 97
+  "runtime_m": 100
  },
  {
   "watched": true,
@@ -12956,7 +13002,7 @@
   },
   "id": "boiling-point-2021",
   "dbid": 807196,
-  "runtime_m": 95
+  "runtime_m": 92
  },
  {
   "watched": true,
@@ -21787,7 +21833,7 @@
   "year": "2003",
   "links": {},
   "id": "hajime-no-ippo-2003",
-  "dbid": 45288,
-  "runtime_m": 60
+  "dbid": 45287,
+  "runtime_m": 90
  }
 ]
