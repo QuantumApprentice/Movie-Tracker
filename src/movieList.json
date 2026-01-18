@@ -14,8 +14,8 @@
    "20251004"
   ],
   "id": "dracula-1931",
-  "dbid": 39259,
-  "runtime_m": 104
+  "dbid": 138,
+  "runtime_m": 74
  },
  {
   "watched": true,
@@ -4166,18 +4166,18 @@
  {
   "watched": false,
   "title": "Radioactive Dreams",
+  "year": "1986",
   "links": {},
   "id": "radioactive-dreams-1986",
-  "year": "1986",
   "dbid": 47342,
   "runtime_m": 98
  },
  {
   "watched": false,
   "title": "Alien from LA",
+  "year": "1988",
   "links": {},
   "id": "alien-from-la-1988",
-  "year": "1988",
   "dbid": 31397,
   "runtime_m": 87
  },
@@ -4879,6 +4879,16 @@
   "year": "1985",
   "links": {},
   "id": "mugsys-girls-1985"
+ },
+ {
+  "watched": false,
+  "title": "Sweet Sixteen",
+  "year": "1983",
+  "runtime_hm": "1h30m",
+  "links": {},
+  "id": "sweet-sixteen-1983",
+  "dbid": 78552,
+  "runtime_m": 90
  },
  {
   "watched": false,
@@ -6444,9 +6454,9 @@
  {
   "watched": false,
   "title": "Armed and Dangerous",
+  "year": "1986",
   "links": {},
   "id": "armed-and-dangerous-1986",
-  "year": "1986",
   "dbid": 2620,
   "runtime_m": 88
  },
@@ -7749,7 +7759,8 @@
   "runtime_m": 136
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "01.18.26",
   "title": "The Wolverine",
   "year": "2013",
   "runtime_hm": "2h6m",
@@ -7758,6 +7769,9 @@
     "https://youtu.be/u1VCP3O8wG0"
    ]
   },
+  "watchdate_arr": [
+   "20260118"
+  ],
   "id": "the-wolverine-2013",
   "dbid": 76170,
   "runtime_m": 126
@@ -10302,8 +10316,8 @@
    "20240727"
   ],
   "id": "around-the-world-in-80-days-2004",
-  "dbid": 2897,
-  "runtime_m": 182
+  "dbid": 10204,
+  "runtime_m": 120
  },
  {
   "watched": true,
@@ -14308,7 +14322,9 @@
     "https://youtu.be/r03M1yUjCwQ"
    ]
   },
-  "id": "captain-harlock-arcadia-of-my-youth-1982"
+  "id": "captain-harlock-arcadia-of-my-youth-1982",
+  "dbid": 1531453,
+  "runtime_m": 130
  },
  {
   "watched": false,
@@ -20967,6 +20983,7 @@
  },
  {
   "watched": true,
+  "watchdate": "01.17.26",
   "title": "Die Hard 3: With a Vengeance",
   "year": "1995",
   "runtime_hm": "2h8m",
@@ -20975,6 +20992,9 @@
     "https://youtu.be/gcsk7C7FfQM"
    ]
   },
+  "watchdate_arr": [
+   "20260117"
+  ],
   "id": "die-hard-3-with-a-vengeance-1995",
   "dbid": 1572,
   "runtime_m": 128
@@ -21005,8 +21025,8 @@
    ]
   },
   "id": "die-hard-5-a-good-day-to-die-hard-2013",
-  "dbid": 47964,
-  "runtime_m": 98
+  "dbid": 477063,
+  "runtime_m": 60
  },
  {
   "watched": true,
