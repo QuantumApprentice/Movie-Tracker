@@ -1692,7 +1692,7 @@
   },
   "id": "halloween-3-season-of-the-witch-1982",
   "dbid": 10676,
-  "runtime_m": 99
+  "runtime_m": 98
  },
  {
   "watched": false,
@@ -3022,7 +3022,7 @@
   ],
   "id": "slither-2006",
   "dbid": 9035,
-  "runtime_m": 95
+  "runtime_m": 96
  },
  {
   "watched": true,
@@ -6588,6 +6588,19 @@
  },
  {
   "watched": false,
+  "title": "Warlock",
+  "year": "1989",
+  "links": {
+   "trailer": [
+    "https://youtu.be/jrXieml4Mb4"
+   ]
+  },
+  "id": "warlock-1989",
+  "dbid": 11342,
+  "runtime_m": 103
+ },
+ {
+  "watched": false,
   "title": "Paris, Texas",
   "year": "1984",
   "links": {
@@ -6641,6 +6654,15 @@
   "id": "nineteen-eighty-four-1984",
   "dbid": 9314,
   "runtime_m": 113
+ },
+ {
+  "watched": false,
+  "title": "Schindler's List",
+  "links": {},
+  "id": "schindlers-list-1993",
+  "year": "1993",
+  "dbid": 424,
+  "runtime_m": 195
  },
  {
   "watched": true,
@@ -7816,7 +7838,8 @@
   "runtime_m": 136
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "01.24.26",
   "title": "X-Men: Days of Future Past",
   "year": "2014",
   "runtime_hm": "2h12m",
@@ -7826,6 +7849,9 @@
     "https://youtu.be/6acRHWnfZAE"
    ]
   },
+  "watchdate_arr": [
+   "20260124"
+  ],
   "id": "x-men-days-of-future-past-2014",
   "dbid": 127585,
   "runtime_m": 132
@@ -7873,7 +7899,13 @@
   "watched": false,
   "title": "X-Men: Apocalypse",
   "year": "2016",
-  "links": {},
+  "runtime_hm": "2h24m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/PfBVIHgQbYk",
+    "https://youtu.be/Jer8XjMrUB4"
+   ]
+  },
   "id": "x-men-apocalypse-2016",
   "dbid": 246655,
   "runtime_m": 144
@@ -9269,6 +9301,16 @@
   "runtime_m": 113
  },
  {
+  "watched": false,
+  "title": "Playtime",
+  "year": "1967",
+  "runtime_hm": "2h4m",
+  "links": {},
+  "id": "playtime-1967",
+  "dbid": 10227,
+  "runtime_m": 115
+ },
+ {
   "watched": true,
   "title": "The Dirty Dozen",
   "year": "1967",
@@ -9529,7 +9571,8 @@
   "runtime_m": 106
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "01.24.26",
   "title": "Sorcerer",
   "year": "1977",
   "runtime_hm": "2h1m",
@@ -9538,6 +9581,9 @@
     "https://youtu.be/3BDbIzovuos"
    ]
   },
+  "watchdate_arr": [
+   "20260124"
+  ],
   "id": "sorcerer-1977",
   "dbid": 38985,
   "runtime_m": 122
@@ -12570,8 +12616,8 @@
    ]
   },
   "id": "one-from-the-heart-1982",
-  "dbid": 41291,
-  "runtime_m": 99
+  "dbid": 683033,
+  "runtime_m": 23
  },
  {
   "watched": false,
@@ -14418,7 +14464,7 @@
   },
   "id": "transformers-the-movie-1986",
   "dbid": 1857,
-  "runtime_m": 84
+  "runtime_m": 85
  },
  {
   "watched": true,
@@ -15337,7 +15383,7 @@
   },
   "id": "ski-school-1991",
   "dbid": 21811,
-  "runtime_m": 95
+  "runtime_m": 88
  },
  {
   "watched": false,
@@ -16438,6 +16484,9 @@
   "links": {
    "trailer": [
     "https://youtu.be/SqMPzcGQJzA"
+   ],
+   "modern": [
+    "https://youtu.be/lVQ-diI9PTs"
    ]
   },
   "id": "hard-boiled-1991",
@@ -16955,6 +17004,16 @@
   "id": "the-man-who-killed-don-quixote-2019",
   "dbid": 297725,
   "runtime_m": 133
+ },
+ {
+  "watched": false,
+  "title": "THX 1138",
+  "year": "1971",
+  "runtime_hm": "1h26m",
+  "links": {},
+  "id": "thx-1138-1971",
+  "dbid": 636,
+  "runtime_m": 86
  },
  {
   "watched": true,
@@ -18243,7 +18302,7 @@
   ],
   "id": "star-trek-ii-the-wrath-of-khan-1982",
   "dbid": 154,
-  "runtime_m": 112
+  "runtime_m": 113
  },
  {
   "watched": true,
@@ -21126,8 +21185,8 @@
    ]
   },
   "id": "a-christmas-tale-2008",
-  "dbid": 75725,
-  "runtime_m": 75
+  "dbid": 8892,
+  "runtime_m": 152
  },
  {
   "watched": false,
