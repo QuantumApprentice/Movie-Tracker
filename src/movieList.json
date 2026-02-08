@@ -4252,7 +4252,8 @@
   "runtime_m": 92
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "02.07.26",
   "title": "Snakes on a Plane",
   "year": "2006",
   "runtime_hm": "1h45m",
@@ -4261,6 +4262,9 @@
     "https://youtu.be/qRK9SlFadEY"
    ]
   },
+  "watchdate_arr": [
+   "20260207"
+  ],
   "id": "snakes-on-a-plane-2006",
   "dbid": 326,
   "runtime_m": 105
@@ -7938,7 +7942,8 @@
   "runtime_m": 115
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "02.07.26",
   "title": "Logan",
   "year": "2017",
   "runtime_hm": "2h17m",
@@ -7948,6 +7953,9 @@
     "https://youtu.be/RH3OxVFvTeg"
    ]
   },
+  "watchdate_arr": [
+   "20260207"
+  ],
   "id": "logan-2017",
   "dbid": 263115,
   "runtime_m": 137
