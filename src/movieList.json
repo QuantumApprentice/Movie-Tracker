@@ -2209,7 +2209,7 @@
   ],
   "id": "maximum-overdrive-1986",
   "dbid": 9980,
-  "runtime_m": 97
+  "runtime_m": 98
  },
  {
   "watched": false,
@@ -2581,7 +2581,7 @@
   ],
   "id": "pet-sematary-1989",
   "dbid": 8913,
-  "runtime_m": 102
+  "runtime_m": 103
  },
  {
   "watched": false,
@@ -3462,7 +3462,7 @@
   },
   "id": "the-rocky-horror-picture-show-1975",
   "dbid": 36685,
-  "runtime_m": 100
+  "runtime_m": 99
  },
  {
   "watched": true,
@@ -3771,7 +3771,7 @@
   ],
   "id": "the-birds-1963",
   "dbid": 571,
-  "runtime_m": 120
+  "runtime_m": 119
  },
  {
   "watched": true,
@@ -8037,7 +8037,8 @@
   "runtime_m": 119
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "02.14.26",
   "title": "X-Men: Dark Phoenix",
   "year": "2019",
   "runtime_hm": "1h53m",
@@ -8046,6 +8047,9 @@
     "https://youtu.be/1-q8C_c-nlM"
    ]
   },
+  "watchdate_arr": [
+   "20260214"
+  ],
   "id": "x-men-dark-phoenix-2019",
   "dbid": 320288,
   "runtime_m": 114
@@ -8854,7 +8858,8 @@
   "runtime_m": 125
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "02.14.26",
   "title": "Citizen Kane",
   "year": "1941",
   "runtime_hm": "1h59m",
@@ -8866,6 +8871,9 @@
     "https://youtu.be/2HY35DNYt8g"
    ]
   },
+  "watchdate_arr": [
+   "20260214"
+  ],
   "id": "citizen-kane-1941",
   "dbid": 15,
   "runtime_m": 119
@@ -9011,7 +9019,7 @@
   "links": {},
   "id": "it-came-from-outer-space-1953",
   "dbid": 19483,
-  "runtime_m": 81
+  "runtime_m": 80
  },
  {
   "watched": false,
@@ -9313,7 +9321,7 @@
   "links": {},
   "id": "the-battle-of-algiers-1966",
   "dbid": 17295,
-  "runtime_m": 121
+  "runtime_m": 122
  },
  {
   "watched": false,
@@ -10214,8 +10222,8 @@
    "20240217"
   ],
   "id": "terminator-2-1991",
-  "dbid": 66664,
-  "runtime_m": 90
+  "dbid": 280,
+  "runtime_m": 137
  },
  {
   "watched": true,
@@ -11932,7 +11940,7 @@
   ],
   "id": "logans-run-1976",
   "dbid": 10803,
-  "runtime_m": 119
+  "runtime_m": 118
  },
  {
   "watched": false,
@@ -12692,7 +12700,7 @@
   ],
   "id": "casablanca-1942",
   "dbid": 289,
-  "runtime_m": 103
+  "runtime_m": 98
  },
  {
   "watched": false,
@@ -13534,8 +13542,8 @@
    ]
   },
   "id": "sunny-2011",
-  "dbid": 77117,
-  "runtime_m": 135
+  "dbid": 838072,
+  "runtime_m": 12
  },
  {
   "watched": false,
@@ -15525,7 +15533,11 @@
   "title": "Wedding Crashers",
   "year": "2005",
   "runtime_hm": "1h59m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/GnD48PD84-8"
+   ]
+  },
   "id": "wedding-crashers-2005",
   "dbid": 9522,
   "runtime_m": 119
@@ -17240,7 +17252,7 @@
   ],
   "id": "caravan-of-courage-an-ewok-adventure-1984",
   "dbid": 1884,
-  "runtime_m": 96
+  "runtime_m": 97
  },
  {
   "watched": true,
@@ -18062,7 +18074,7 @@
   "links": {},
   "id": "the-battle-of-algiers-1966",
   "dbid": 17295,
-  "runtime_m": 121
+  "runtime_m": 122
  },
  {
   "watched": false,
@@ -18456,7 +18468,7 @@
   ],
   "id": "star-trek-generations-1994",
   "dbid": 193,
-  "runtime_m": 117
+  "runtime_m": 118
  },
  {
   "watched": true,
@@ -18495,7 +18507,7 @@
   ],
   "id": "star-trek-insurrection-1998",
   "dbid": 200,
-  "runtime_m": 102
+  "runtime_m": 103
  },
  {
   "watched": true,
@@ -20294,6 +20306,19 @@
  },
  {
   "watched": false,
+  "title": "Murder By Death",
+  "links": {
+   "trailer": [
+    "https://youtu.be/NKFWMFJsO8w"
+   ]
+  },
+  "id": "murder-by-death-1976",
+  "year": "1976",
+  "dbid": 6037,
+  "runtime_m": 94
+ },
+ {
+  "watched": false,
   "title": "To Be or Not to Be",
   "year": "1983",
   "runtime_hm": "1h47m",
@@ -20731,8 +20756,8 @@
    ]
   },
   "id": "the-return-2003",
-  "dbid": 77562,
-  "runtime_m": 100
+  "dbid": 122,
+  "runtime_m": 201
  },
  {
   "watched": true,
@@ -21040,7 +21065,7 @@
   ],
   "id": "its-a-wonderful-life-1946",
   "dbid": 1585,
-  "runtime_m": 130
+  "runtime_m": 131
  },
  {
   "watched": true,
