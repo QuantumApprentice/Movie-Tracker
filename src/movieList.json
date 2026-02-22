@@ -1783,8 +1783,8 @@
    "20251108"
   ],
   "id": "house-1977",
-  "dbid": 56379,
-  "runtime_m": 106
+  "dbid": 25623,
+  "runtime_m": 88
  },
  {
   "watched": false,
@@ -3737,6 +3737,21 @@
  },
  {
   "watched": false,
+  "title": "Notorious",
+  "year": "1946",
+  "runtime_hm": "1h42m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/v3kV4EY_2Ng",
+    "https://youtu.be/EhMyp8ZvjWs"
+   ]
+  },
+  "id": "notorious-1946",
+  "dbid": 303,
+  "runtime_m": 103
+ },
+ {
+  "watched": false,
   "title": "Strangers on a Train",
   "year": "1951",
   "runtime_hm": "1h41m",
@@ -4271,6 +4286,20 @@
  },
  {
   "watched": false,
+  "title": "Cocaine Bear",
+  "year": "2023",
+  "runtime_hm": "1h35m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/vwjq-r4TVso"
+   ]
+  },
+  "id": "cocaine-bear-2023",
+  "dbid": 804150,
+  "runtime_m": 95
+ },
+ {
+  "watched": false,
   "title": "Eight Legged Freaks",
   "year": "2002",
   "runtime_hm": "1h39m",
@@ -4529,6 +4558,19 @@
   "id": "ashura-2005",
   "dbid": 45384,
   "runtime_m": 119
+ },
+ {
+  "watched": false,
+  "title": "Hands of Steel",
+  "year": "1986",
+  "links": {
+   "trailer": [
+    "https://youtu.be/up0Dkn2sFCE"
+   ]
+  },
+  "id": "hands-of-steel-1986",
+  "dbid": 67221,
+  "runtime_m": 94
  },
  {
   "watched": false,
@@ -5950,7 +5992,7 @@
   },
   "id": "a-better-tomorrow-1986",
   "dbid": 11471,
-  "runtime_m": 96
+  "runtime_m": 95
  },
  {
   "watched": false,
@@ -5981,7 +6023,7 @@
   },
   "id": "above-the-law-1986",
   "dbid": 66212,
-  "runtime_m": 104
+  "runtime_m": 96
  },
  {
   "watched": false,
@@ -7910,7 +7952,8 @@
   "runtime_m": 144
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "02.22.26",
   "title": "Deadpool",
   "year": "2016",
   "runtime_hm": "1h48m",
@@ -7919,6 +7962,9 @@
     "https://youtu.be/ONHBaC-pfsk"
    ]
   },
+  "watchdate_arr": [
+   "20260222"
+  ],
   "id": "deadpool-2016",
   "dbid": 293660,
   "runtime_m": 108
@@ -10592,8 +10638,8 @@
    "20250412"
   ],
   "id": "aftermath-2017",
-  "dbid": 523098,
-  "runtime_m": 75
+  "dbid": 390051,
+  "runtime_m": 94
  },
  {
   "watched": true,
@@ -12151,7 +12197,7 @@
   },
   "id": "the-sound-of-music-1965",
   "dbid": 15121,
-  "runtime_m": 174
+  "runtime_m": 175
  },
  {
   "watched": false,
@@ -12664,8 +12710,8 @@
    ]
   },
   "id": "one-from-the-heart-1982",
-  "dbid": 683033,
-  "runtime_m": 23
+  "dbid": 41291,
+  "runtime_m": 99
  },
  {
   "watched": false,
@@ -12683,7 +12729,7 @@
  },
  {
   "watched": true,
-  "watchdate": "02.18.23",
+  "watchdate": "02.18.23./02.22.26",
   "title": "Casablanca",
   "year": "1942",
   "runtime_hm": "1h42m",
@@ -12696,6 +12742,7 @@
    ]
   },
   "watchdate_arr": [
+   "20260222",
    "20230218"
   ],
   "id": "casablanca-1942",
@@ -13542,8 +13589,8 @@
    ]
   },
   "id": "sunny-2011",
-  "dbid": 838072,
-  "runtime_m": 12
+  "dbid": 77117,
+  "runtime_m": 135
  },
  {
   "watched": false,
@@ -20307,13 +20354,13 @@
  {
   "watched": false,
   "title": "Murder By Death",
+  "year": "1976",
   "links": {
    "trailer": [
     "https://youtu.be/NKFWMFJsO8w"
    ]
   },
   "id": "murder-by-death-1976",
-  "year": "1976",
   "dbid": 6037,
   "runtime_m": 94
  },
@@ -21167,8 +21214,8 @@
    ]
   },
   "id": "die-hard-5-a-good-day-to-die-hard-2013",
-  "dbid": 477063,
-  "runtime_m": 60
+  "dbid": 47964,
+  "runtime_m": 98
  },
  {
   "watched": true,
