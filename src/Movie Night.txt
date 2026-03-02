@@ -301,7 +301,7 @@ True Romance (1993) [1h59] trailer:
 Delicatessen (1991) [1h39m] trailer: https://youtu.be/A_C6OvHh22w trailer: https://youtu.be/GVL5_I4CvTc
 Death Becomes Her (1992) [1h44m] trailer: 
 Naked Lunch (1991) [1h55m] trailer: https://youtu.be/uq9aHvSjgpk bluray: https://youtu.be/_bgrNm7rdeo
-Pi (1998) [1h24m] trailer: https://youtu.be/r0SC582sJvE
+-02.28.26.|Pi (1998) [1h24m] trailer: https://youtu.be/r0SC582sJvE
 Cube (1997) [1h39m] trailer: https://youtu.be/shcK9b-TQIo
 Cube2: Hypercube (2002) [1h34m] trailer: 
 #5thFunction
@@ -648,7 +648,7 @@ Thor (2011) [1h55m] trailer:
 -11.08.25.|Ghost Rider: Spirit of Vengeance (2011) [1h36m] trailer: https://youtu.be/UUObgxCoUgA
 Captain America: The First Avenger (2011) [2h4m] trailer: 
 The Avengers (2012) [2h23m] trailer: 
-The Amazing Spider-Man (2012) [] trailer: 
+The Amazing Spider-Man (2012) [2h16m] trailer: https://youtu.be/-tnxzJ0SSOw
 
 #Phase Two
 -01.18.26.|The Wolverine (2013) [2h6m] trailer: https://youtu.be/u1VCP3O8wG0
@@ -676,7 +676,7 @@ Thor: Ragnarok (2017) [] trailer:
 Venom (2018) [] trailer: 
 
 Black Panther (2018) [] trailer: 
-Deadpool 2 (2018) [2h] trailer: https://youtu.be/D86RtevtfrA
+-02.28.26.|Deadpool 2 (2018) [2h] trailer: https://youtu.be/D86RtevtfrA
 Avengers: Infinity War (2018) [] trailer: 
 Ant-Man and the Wasp (2018) [] trailer: 
 -02.14.26.|X-Men: Dark Phoenix (2019) [1h53m] trailer: https://youtu.be/1-q8C_c-nlM
@@ -1698,6 +1698,8 @@ Tank Girl (1995) [1h44m] trailer: https://youtu.be/_O2MbGWpHYI movie: https://yo
 -11.25.23.|The Dark Knight (2008) [2h32m] trailer: https://youtu.be/EXeTwQWrcwY
 -12.02.23.|The Dark Knight Rises (2012) [2h44m] trailer: https://youtu.be/7gFwvozMHR4
 -12.10.23.|The Batman (2022) [2h56m] trailer: https://youtu.be/-FZ-pPFAjYY trailer: https://youtu.be/mqqft2x_Aa4
+The Prestige (2006) [2h10m] trailer: 
+
 
 -04.05.25.|The Saint (1997) [1h56m] trailer: https://youtu.be/qkscr4gDcP8
 Tombstone (1993) [2h10m] trailer: https://youtu.be/XTWYKf5hXIg
@@ -1836,6 +1838,7 @@ The Closet/ Le Placard (2001) [1h24m] trailer: https://youtu.be/IHyMHzrBN84
 
 #---------------------------------------------------------------------------------------------
 #Christmas:
+Once Upon a Deadpool () [] trailer: 
 -12.14.24.|Planes, Trains, and Automobiles (1987) [1h33m] trailer: https://youtu.be/ZfnvrPZSFb8 movie: https://youtu.be/AMBxWijjMbQ
 -12.28.24.|Jingle All the Way (1996) [1h29m] trailer: https://youtu.be/jhJYMEzQA-Q movie: https://youtu.be/tXMvUU_w36Y
 -12.17.23./12.28.24./12.27.25.|Elf (2003) [1h36m] trailer: https://youtu.be/BMlmu18gIDM

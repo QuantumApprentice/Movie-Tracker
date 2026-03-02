@@ -1766,7 +1766,7 @@
   },
   "id": "hobgoblins-1988",
   "dbid": 31245,
-  "runtime_m": 92
+  "runtime_m": 88
  },
  {
   "watched": false,
@@ -4053,7 +4053,8 @@
   "runtime_m": 115
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "02.28.26",
   "title": "Pi",
   "year": "1998",
   "runtime_hm": "1h24m",
@@ -4062,6 +4063,9 @@
     "https://youtu.be/r0SC582sJvE"
    ]
   },
+  "watchdate_arr": [
+   "20260228"
+  ],
   "id": "pi-1998",
   "dbid": 473,
   "runtime_m": 84
@@ -5284,7 +5288,7 @@
   },
   "id": "smiley-face-2007",
   "dbid": 13168,
-  "runtime_m": 84
+  "runtime_m": 85
  },
  {
   "watched": false,
@@ -6986,7 +6990,7 @@
   },
   "id": "battle-beyond-the-stars-1980",
   "dbid": 14460,
-  "runtime_m": 104
+  "runtime_m": 103
  },
  {
   "watched": true,
@@ -7812,7 +7816,12 @@
   "watched": false,
   "title": "The Amazing Spider-Man",
   "year": "2012",
-  "links": {},
+  "runtime_hm": "2h16m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/-tnxzJ0SSOw"
+   ]
+  },
   "id": "the-amazing-spider-man-2012",
   "dbid": 1930,
   "runtime_m": 136
@@ -8052,7 +8061,8 @@
   "runtime_m": 135
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "02.28.26",
   "title": "Deadpool 2",
   "year": "2018",
   "links": {
@@ -8060,6 +8070,9 @@
     "https://youtu.be/D86RtevtfrA"
    ]
   },
+  "watchdate_arr": [
+   "20260228"
+  ],
   "id": "deadpool-2-2018",
   "dbid": 383498,
   "runtime_m": 120
@@ -12536,7 +12549,7 @@
   ],
   "id": "the-wedding-singer-1998",
   "dbid": 11003,
-  "runtime_m": 100
+  "runtime_m": 97
  },
  {
   "watched": true,
@@ -12747,7 +12760,7 @@
   ],
   "id": "casablanca-1942",
   "dbid": 289,
-  "runtime_m": 98
+  "runtime_m": 102
  },
  {
   "watched": false,
@@ -17769,8 +17782,8 @@
    ]
   },
   "id": "flesh-blood-1985",
-  "dbid": 36073,
-  "runtime_m": 42
+  "dbid": 12775,
+  "runtime_m": 126
  },
  {
   "watched": true,
@@ -19670,6 +19683,16 @@
   "runtime_m": 177
  },
  {
+  "watched": false,
+  "title": "The Prestige",
+  "year": "2006",
+  "runtime_hm": "2h10m",
+  "links": {},
+  "id": "the-prestige-2006",
+  "dbid": 1124,
+  "runtime_m": 130
+ },
+ {
   "watched": true,
   "watchdate": "04.05.25",
   "title": "The Saint",
@@ -21003,6 +21026,15 @@
   "id": "the-closet-le-placard-2001",
   "dbid": 11444,
   "runtime_m": 84
+ },
+ {
+  "watched": false,
+  "title": "Once Upon a Deadpool",
+  "links": {},
+  "id": "once-upon-a-deadpool-2018",
+  "year": "2018",
+  "dbid": 567604,
+  "runtime_m": 118
  },
  {
   "watched": true,
