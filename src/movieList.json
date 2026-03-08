@@ -4211,8 +4211,8 @@
    ]
   },
   "id": "porkys-1981",
-  "dbid": 10246,
-  "runtime_m": 94
+  "dbid": 10581,
+  "runtime_m": 87
  },
  {
   "watched": false,
@@ -7563,7 +7563,7 @@
   ],
   "id": "blade-trinity-2004",
   "dbid": 36648,
-  "runtime_m": 123
+  "runtime_m": 113
  },
  {
   "watched": true,
@@ -7813,7 +7813,8 @@
   "runtime_m": 143
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "03.07.26",
   "title": "The Amazing Spider-Man",
   "year": "2012",
   "runtime_hm": "2h16m",
@@ -7822,6 +7823,9 @@
     "https://youtu.be/-tnxzJ0SSOw"
    ]
   },
+  "watchdate_arr": [
+   "20260307"
+  ],
   "id": "the-amazing-spider-man-2012",
   "dbid": 1930,
   "runtime_m": 136
@@ -7868,7 +7872,12 @@
   "watched": false,
   "title": "The Amazing Spider-Man 2",
   "year": "2014",
-  "links": {},
+  "runtime_hm": "2h22m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/DlM2CWNTQ84"
+   ]
+  },
   "id": "the-amazing-spider-man-2-2014",
   "dbid": 102382,
   "runtime_m": 141
@@ -10469,8 +10478,8 @@
    "20240727"
   ],
   "id": "around-the-world-in-80-days-2004",
-  "dbid": 10204,
-  "runtime_m": 120
+  "dbid": 2897,
+  "runtime_m": 182
  },
  {
   "watched": true,
@@ -11477,7 +11486,8 @@
   "runtime_m": 97
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "03.07.26",
   "title": "Hell Comes to Frogtown",
   "year": "1988",
   "runtime_hm": "1h28m",
@@ -11487,6 +11497,9 @@
     "https://youtu.be/G7ouC--Yr2E"
    ]
   },
+  "watchdate_arr": [
+   "20260307"
+  ],
   "id": "hell-comes-to-frogtown-1988",
   "dbid": 22572,
   "runtime_m": 88
@@ -21030,9 +21043,9 @@
  {
   "watched": false,
   "title": "Once Upon a Deadpool",
+  "year": "2018",
   "links": {},
   "id": "once-upon-a-deadpool-2018",
-  "year": "2018",
   "dbid": 567604,
   "runtime_m": 118
  },
@@ -21123,8 +21136,8 @@
    "20211226"
   ],
   "id": "miracle-on-34th-street-1994",
-  "dbid": 10510,
-  "runtime_m": 114
+  "dbid": 11881,
+  "runtime_m": 96
  },
  {
   "watched": true,
@@ -21931,7 +21944,7 @@
   ],
   "id": "willy-wonka-the-chocolate-factory-1971",
   "dbid": 252,
-  "runtime_m": 99
+  "runtime_m": 100
  },
  {
   "watched": true,
