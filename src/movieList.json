@@ -1521,7 +1521,7 @@
   "runtime_m": 89
  },
  {
-  "watched": false,
+  "watched": true,
   "watchdate": "12.27.25",
   "title": "Gremlins",
   "year": "1984",
@@ -1769,7 +1769,7 @@
   "runtime_m": 88
  },
  {
-  "watched": false,
+  "watched": true,
   "watchdate": "11.08.25",
   "title": "HOUSE",
   "year": "1977",
@@ -1787,7 +1787,7 @@
   "runtime_m": 88
  },
  {
-  "watched": false,
+  "watched": true,
   "watchdate": "10.18.25",
   "title": "House",
   "year": "1985",
@@ -2454,7 +2454,7 @@
   ],
   "id": "north-by-northwest-1959",
   "dbid": 213,
-  "runtime_m": 136
+  "runtime_m": 137
  },
  {
   "watched": false,
@@ -2566,7 +2566,7 @@
   "runtime_m": 92
  },
  {
-  "watched": false,
+  "watched": true,
   "watchdate": "10.26.24",
   "title": "Pet Sematary",
   "year": "1989",
@@ -7869,7 +7869,8 @@
   "runtime_m": 112
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "03.14.26",
   "title": "The Amazing Spider-Man 2",
   "year": "2014",
   "runtime_hm": "2h22m",
@@ -7878,6 +7879,9 @@
     "https://youtu.be/DlM2CWNTQ84"
    ]
   },
+  "watchdate_arr": [
+   "20260314"
+  ],
   "id": "the-amazing-spider-man-2-2014",
   "dbid": 102382,
   "runtime_m": 141
@@ -7945,7 +7949,12 @@
   "watched": false,
   "title": "The Fantastic Four",
   "year": "2015",
-  "links": {},
+  "runtime_hm": "1h40m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/_rRoD28-WgU"
+   ]
+  },
   "id": "the-fantastic-four-2015",
   "dbid": 216529,
   "runtime_m": 85
@@ -12163,6 +12172,15 @@
  },
  {
   "watched": false,
+  "title": "Return to Oz",
+  "links": {},
+  "id": "return-to-oz-1985",
+  "year": "1985",
+  "dbid": 13155,
+  "runtime_m": 109
+ },
+ {
+  "watched": false,
   "title": "The Wiz",
   "year": "1978",
   "runtime_hm": "2h14m",
@@ -12223,7 +12241,7 @@
   },
   "id": "the-sound-of-music-1965",
   "dbid": 15121,
-  "runtime_m": 175
+  "runtime_m": 174
  },
  {
   "watched": false,
@@ -18772,7 +18790,8 @@
   "runtime_m": 117
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "03.14.26",
   "title": "Team America: World Police",
   "year": "2004",
   "runtime_hm": "1h38m",
@@ -18782,6 +18801,9 @@
     "https://youtu.be/9R5dk0JY2xc"
    ]
   },
+  "watchdate_arr": [
+   "20260314"
+  ],
   "id": "team-america-world-police-2004",
   "dbid": 3989,
   "runtime_m": 98
