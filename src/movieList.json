@@ -4056,6 +4056,20 @@
  },
  {
   "watched": false,
+  "title": "Life of Pi",
+  "year": "2012",
+  "runtime_hm": "2h7m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/3mMN693-F3U"
+   ]
+  },
+  "id": "life-of-pi-2012",
+  "dbid": 87827,
+  "runtime_m": 127
+ },
+ {
+  "watched": false,
   "title": "Cube",
   "year": "1997",
   "runtime_hm": "1h39m",
@@ -4273,7 +4287,8 @@
   "runtime_m": 105
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "03.21.26",
   "title": "Cocaine Bear",
   "year": "2023",
   "runtime_hm": "1h35m",
@@ -4282,6 +4297,9 @@
     "https://youtu.be/vwjq-r4TVso"
    ]
   },
+  "watchdate_arr": [
+   "20260321"
+  ],
   "id": "cocaine-bear-2023",
   "dbid": 804150,
   "runtime_m": 95
@@ -7943,7 +7961,8 @@
   "runtime_m": 117
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "03.21.26",
   "title": "Fantastic Four",
   "year": "2015",
   "runtime_hm": "1h40m",
@@ -7952,6 +7971,9 @@
     "https://youtu.be/_rRoD28-WgU"
    ]
   },
+  "watchdate_arr": [
+   "20260321"
+  ],
   "id": "fantastic-four-2015",
   "dbid": 166424,
   "runtime_m": 100
@@ -8247,7 +8269,11 @@
   "title": "The Quick and the Dead",
   "year": "1995",
   "runtime_hm": "1h48m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/Lo9cGqmHXhg"
+   ]
+  },
   "id": "the-quick-and-the-dead-1995",
   "dbid": 12106,
   "runtime_m": 107
@@ -10804,6 +10830,33 @@
   "id": "suburban-commando-1991",
   "dbid": 11504,
   "runtime_m": 88
+ },
+ {
+  "watched": false,
+  "title": "Blind Fury",
+  "year": "1989",
+  "runtime_hm": "1h26m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/rgnlJ38ntQw"
+   ]
+  },
+  "id": "blind-fury-1989",
+  "dbid": 19124,
+  "runtime_m": 86
+ },
+ {
+  "watched": false,
+  "title": "Zombeavers",
+  "links": {
+   "trailer": [
+    "https://youtu.be/7onFrBK_hKE"
+   ]
+  },
+  "id": "zombeavers-2014",
+  "year": "2014",
+  "dbid": 254474,
+  "runtime_m": 77
  },
  {
   "watched": true,
@@ -17916,8 +17969,8 @@
    ]
   },
   "id": "flesh-blood-1985",
-  "dbid": 36073,
-  "runtime_m": 42
+  "dbid": 12775,
+  "runtime_m": 126
  },
  {
   "watched": true,
