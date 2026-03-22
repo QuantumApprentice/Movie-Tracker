@@ -258,12 +258,11 @@ XTRO (1982) [1h24m] trailer: https://youtu.be/kjEmbIUcsxA
 
 
 #Hitchcock
-Notorious (1946) [1h42m] trailer: https://youtu.be/v3kV4EY_2Ng modern:https://youtu.be/EhMyp8ZvjWs
+Notorious (1946) [1h42m] trailer: https://youtu.be/v3kV4EY_2Ng trailer: https://youtu.be/DTJQfFQ40lI modern:https://youtu.be/EhMyp8ZvjWs
 Strangers on a Train (1951) [1h41m] trailer: https://youtu.be/PC62NBWBkjM modern: https://youtu.be/J1iSS5r0OVE
 -10.07.23.|The Birds (1963) [1h59m] trailer: https://youtu.be/lCxR7dlavwg modern: https://youtu.be/0fJh2gIBOto
 -10.01.23.|Vertigo (1958) [2h8m] trailer: https://youtu.be/Z5jvQwwHQNY modern: https://youtu.be/95o-QM-lz8g
 Psycho (1960) [1h49m] trailer: https://youtu.be/DTJQfFQ40lI
-Notorious (1946) [2h2m] trailer: https://youtu.be/DTJQfFQ40lI modern: https://youtu.be/EhMyp8ZvjWs
 
 
 #requested horror
@@ -616,6 +615,7 @@ The Mask (1994) [1h41m] trailer:
 Fun with Dick and Jane (2005) [1h31m] trailer: 
 
 #Bruce Campbell
+Sundown: The Vampire in Retreat (1989) [] trailer: https://youtu.be/4wXPOlAEhcY
 The Hudsucker Proxy (1994) [1h51m] trailer: https://youtu.be/dBa8p0NFwM8
 Bubba Ho Tep (2002) [] trailer: 
 
@@ -661,7 +661,7 @@ Captain America: The Winter Soldier (2014) [2h16m] trailer:
 Guardians of the Galaxy (2014) [2h1m] trailer: 
 Avengers: Age of Ultron (2015) [2h21m] trailer: 
 Ant-Man (2015) [1h57m] trailer: 
-The Fantastic Four (2015) [1h40m] trailer: https://youtu.be/_rRoD28-WgU
+Fantastic Four (2015) [1h40m] trailer: https://youtu.be/_rRoD28-WgU
 
 #Phase Three
 -01.31.26.|X-Men: Apocalypse (2016) [2h24m] trailer: https://youtu.be/PfBVIHgQbYk trailer: https://youtu.be/Jer8XjMrUB4
@@ -1045,7 +1045,7 @@ Threads (1984) [] trailer: https://youtu.be/vgT4Y30DkaA
 -11.12.22.|Little Shop of Horrors (1986) [1h34m] trailer: https://youtu.be/QqFZuR6UzjA
 #Mary Poppins (1964) [2h19m] trailer: https://youtu.be/YfkEQDPlb8g
 -11.26.22.|Wizard of Oz (1939) [1h42m] trailer: https://youtu.be/FfpF8UUVTeM
-Return to Oz () [] trailer: 
+Return to Oz (1985) [1h53m] trailer: https://youtu.be/14EEGw_sdDQ
 The Wiz (1978) [2h14m] trailer: https://youtu.be/CGtnHaEK66s
 -11.05.2022.|Singin' in the Rain (1952) [1h43m] trailer: https://youtu.be/5_EVHeNEIJY
 -11.19.22.|The Music Man (1962) [2h31m] trailer: https://youtu.be/cbiBx5T2uX0
@@ -1313,6 +1313,14 @@ The Assassination of Jesse James by the Coward Robert Ford (2007) [2h40m] traile
 Der Schuh des Manitu (2001) [1h27m] trailer: 
 Rio Bravo (1959) [2h21m] trailer: https://youtu.be/_abR97mdqyU
 Shane (1953) [1h58m] trailer: https://youtu.be/2AWaGILUCYg
+#Sergio Leone
+-11.05.22.|A Fistful of Dollars (1964) [1h39m] trailer: https://youtu.be/RFWYI5buWlY movie: https://youtu.be/SAsZMSOFOjo
+-11.12.22.|For A Few Dollars More (1965) [2h12m] trailer: https://youtu.be/DDRNEwFOttw movie: https://youtu.be/B1CkZO06Qg4
+-11.19.22.|The Good, the Bad and the Ugly (1966) [2h41m] trailer: https://youtu.be/WCN5JJY_wiA movie: https://youtu.be/s4rh3YrFiEM
+Once Upon a Time in the West (1968) [2h46m] trailer: https://youtu.be/c8CJ6L0I6W8
+Duck, You Sucker! (A Fistful of Dynamite) (Once Upon a Time in the Revolution) (1971) [2h18m] trailer: 
+Once Upon a Time in America (1984) [3h49m] trailer: https://youtu.be/LcpCRyNo8T8
+
 
 #Van Damme
 -5.07.2022.|Bloodsport (1988) [1h32m] trailer: https://youtu.be/WaT9dYalyU0
@@ -1707,14 +1715,6 @@ Tombstone (1993) [2h10m] trailer: https://youtu.be/XTWYKf5hXIg
 Thunderheart (1992) [1h59m] trailer: https://youtu.be/dJp5pxFG6Sg
 
 Fitzcarraldo (1982) [2h37m] trailer: https://youtu.be/xWeb7i8IjYs
-
-#Sergio Leone
--11.05.22.|A Fistful of Dollars (1964) [1h39m] trailer: https://youtu.be/RFWYI5buWlY movie: https://youtu.be/SAsZMSOFOjo
--11.12.22.|For A Few Dollars More (1965) [2h12m] trailer: https://youtu.be/DDRNEwFOttw movie: https://youtu.be/B1CkZO06Qg4
--11.19.22.|The Good, the Bad and the Ugly (1966) [2h41m] trailer: https://youtu.be/WCN5JJY_wiA movie: https://youtu.be/s4rh3YrFiEM
-Once Upon a Time in the West (1968) [2h46m] trailer: https://youtu.be/c8CJ6L0I6W8
-Duck, You Sucker! (A Fistful of Dynamite) (Once Upon a Time in the Revolution) (1971) [2h18m] trailer: 
-Once Upon a Time in America (1984) [3h49m] trailer: https://youtu.be/LcpCRyNo8T8
 
 
 Mom and Dad Save the World (1992) [1h28m] trailer: https://youtu.be/stZpmjnB3ro movie: https://youtu.be/3MCC8eqQ1Vk

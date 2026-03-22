@@ -2064,7 +2064,7 @@
   ],
   "id": "leprechaun-1993",
   "dbid": 11811,
-  "runtime_m": 91
+  "runtime_m": 93
  },
  {
   "watched": false,
@@ -3743,6 +3743,7 @@
   "links": {
    "trailer": [
     "https://youtu.be/v3kV4EY_2Ng",
+    "https://youtu.be/DTJQfFQ40lI",
     "https://youtu.be/EhMyp8ZvjWs"
    ]
   },
@@ -3822,23 +3823,6 @@
   "id": "psycho-1960",
   "dbid": 539,
   "runtime_m": 109
- },
- {
-  "watched": false,
-  "title": "Notorious",
-  "year": "1946",
-  "runtime_hm": "2h2m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/DTJQfFQ40lI"
-   ],
-   "modern": [
-    "https://youtu.be/EhMyp8ZvjWs"
-   ]
-  },
-  "id": "notorious-1946",
-  "dbid": 303,
-  "runtime_m": 103
  },
  {
   "watched": false,
@@ -6342,7 +6326,7 @@
   },
   "id": "missing-in-action-2-the-beginning-1985",
   "dbid": 12764,
-  "runtime_m": 100
+  "runtime_m": 95
  },
  {
   "watched": true,
@@ -7355,6 +7339,19 @@
  },
  {
   "watched": false,
+  "title": "Sundown: The Vampire in Retreat",
+  "year": "1989",
+  "links": {
+   "trailer": [
+    "https://youtu.be/4wXPOlAEhcY"
+   ]
+  },
+  "id": "sundown-the-vampire-in-retreat-1989",
+  "dbid": 16159,
+  "runtime_m": 104
+ },
+ {
+  "watched": false,
   "title": "The Hudsucker Proxy",
   "year": "1994",
   "runtime_hm": "1h51m",
@@ -7947,7 +7944,7 @@
  },
  {
   "watched": false,
-  "title": "The Fantastic Four",
+  "title": "Fantastic Four",
   "year": "2015",
   "runtime_hm": "1h40m",
   "links": {
@@ -7955,9 +7952,9 @@
     "https://youtu.be/_rRoD28-WgU"
    ]
   },
-  "id": "the-fantastic-four-2015",
-  "dbid": 216529,
-  "runtime_m": 85
+  "id": "fantastic-four-2015",
+  "dbid": 166424,
+  "runtime_m": 100
  },
  {
   "watched": true,
@@ -9731,7 +9728,7 @@
   },
   "id": "arabian-adventure-1979",
   "dbid": 82430,
-  "runtime_m": 98
+  "runtime_m": 99
  },
  {
   "watched": false,
@@ -10688,7 +10685,7 @@
   ],
   "id": "killing-gunther-2017",
   "dbid": 412547,
-  "runtime_m": 93
+  "runtime_m": 92
  },
  {
   "watched": true,
@@ -12173,9 +12170,14 @@
  {
   "watched": false,
   "title": "Return to Oz",
-  "links": {},
-  "id": "return-to-oz-1985",
   "year": "1985",
+  "runtime_hm": "1h53m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/14EEGw_sdDQ"
+   ]
+  },
+  "id": "return-to-oz-1985",
   "dbid": 13155,
   "runtime_m": 109
  },
@@ -12754,8 +12756,8 @@
    ]
   },
   "id": "one-from-the-heart-1982",
-  "dbid": 41291,
-  "runtime_m": 99
+  "dbid": 683033,
+  "runtime_m": 23
  },
  {
   "watched": false,
@@ -15145,6 +15147,107 @@
   "id": "shane-1953",
   "dbid": 3110,
   "runtime_m": 118
+ },
+ {
+  "watched": true,
+  "watchdate": "11.05.22",
+  "title": "A Fistful of Dollars",
+  "year": "1964",
+  "runtime_hm": "1h39m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/RFWYI5buWlY"
+   ],
+   "movie": [
+    "https://youtu.be/SAsZMSOFOjo"
+   ]
+  },
+  "watchdate_arr": [
+   "20221105"
+  ],
+  "id": "a-fistful-of-dollars-1964",
+  "dbid": 391,
+  "runtime_m": 99
+ },
+ {
+  "watched": true,
+  "watchdate": "11.12.22",
+  "title": "For A Few Dollars More",
+  "year": "1965",
+  "runtime_hm": "2h12m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/DDRNEwFOttw"
+   ],
+   "movie": [
+    "https://youtu.be/B1CkZO06Qg4"
+   ]
+  },
+  "watchdate_arr": [
+   "20221112"
+  ],
+  "id": "for-a-few-dollars-more-1965",
+  "dbid": 938,
+  "runtime_m": 132
+ },
+ {
+  "watched": true,
+  "watchdate": "11.19.22",
+  "title": "The Good, the Bad and the Ugly",
+  "year": "1966",
+  "runtime_hm": "2h41m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/WCN5JJY_wiA"
+   ],
+   "movie": [
+    "https://youtu.be/s4rh3YrFiEM"
+   ]
+  },
+  "watchdate_arr": [
+   "20221119"
+  ],
+  "id": "the-good-the-bad-and-the-ugly-1966",
+  "dbid": 429,
+  "runtime_m": 161
+ },
+ {
+  "watched": false,
+  "title": "Once Upon a Time in the West",
+  "year": "1968",
+  "runtime_hm": "2h46m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/c8CJ6L0I6W8"
+   ]
+  },
+  "id": "once-upon-a-time-in-the-west-1968",
+  "dbid": 335,
+  "runtime_m": 166
+ },
+ {
+  "watched": false,
+  "title": "Duck, You Sucker! (A Fistful of Dynamite) (Once Upon a Time in the Revolution)",
+  "year": "1971",
+  "runtime_hm": "2h18m",
+  "links": {},
+  "id": "duck-you-sucker-a-fistful-of-dynamite-once-upon-a-time-in-the-revolution-1971",
+  "dbid": 336,
+  "runtime_m": 157
+ },
+ {
+  "watched": false,
+  "title": "Once Upon a Time in America",
+  "year": "1984",
+  "runtime_hm": "3h49m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/LcpCRyNo8T8"
+   ]
+  },
+  "id": "once-upon-a-time-in-america-1984",
+  "dbid": 311,
+  "runtime_m": 229
  },
  {
   "watched": true,
@@ -17813,8 +17916,8 @@
    ]
   },
   "id": "flesh-blood-1985",
-  "dbid": 12775,
-  "runtime_m": 126
+  "dbid": 36073,
+  "runtime_m": 42
  },
  {
   "watched": true,
@@ -19788,107 +19891,6 @@
   "runtime_m": 157
  },
  {
-  "watched": true,
-  "watchdate": "11.05.22",
-  "title": "A Fistful of Dollars",
-  "year": "1964",
-  "runtime_hm": "1h39m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/RFWYI5buWlY"
-   ],
-   "movie": [
-    "https://youtu.be/SAsZMSOFOjo"
-   ]
-  },
-  "watchdate_arr": [
-   "20221105"
-  ],
-  "id": "a-fistful-of-dollars-1964",
-  "dbid": 391,
-  "runtime_m": 99
- },
- {
-  "watched": true,
-  "watchdate": "11.12.22",
-  "title": "For A Few Dollars More",
-  "year": "1965",
-  "runtime_hm": "2h12m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/DDRNEwFOttw"
-   ],
-   "movie": [
-    "https://youtu.be/B1CkZO06Qg4"
-   ]
-  },
-  "watchdate_arr": [
-   "20221112"
-  ],
-  "id": "for-a-few-dollars-more-1965",
-  "dbid": 938,
-  "runtime_m": 132
- },
- {
-  "watched": true,
-  "watchdate": "11.19.22",
-  "title": "The Good, the Bad and the Ugly",
-  "year": "1966",
-  "runtime_hm": "2h41m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/WCN5JJY_wiA"
-   ],
-   "movie": [
-    "https://youtu.be/s4rh3YrFiEM"
-   ]
-  },
-  "watchdate_arr": [
-   "20221119"
-  ],
-  "id": "the-good-the-bad-and-the-ugly-1966",
-  "dbid": 429,
-  "runtime_m": 161
- },
- {
-  "watched": false,
-  "title": "Once Upon a Time in the West",
-  "year": "1968",
-  "runtime_hm": "2h46m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/c8CJ6L0I6W8"
-   ]
-  },
-  "id": "once-upon-a-time-in-the-west-1968",
-  "dbid": 335,
-  "runtime_m": 166
- },
- {
-  "watched": false,
-  "title": "Duck, You Sucker! (A Fistful of Dynamite) (Once Upon a Time in the Revolution)",
-  "year": "1971",
-  "runtime_hm": "2h18m",
-  "links": {},
-  "id": "duck-you-sucker-a-fistful-of-dynamite-once-upon-a-time-in-the-revolution-1971",
-  "dbid": 336,
-  "runtime_m": 157
- },
- {
-  "watched": false,
-  "title": "Once Upon a Time in America",
-  "year": "1984",
-  "runtime_hm": "3h49m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/LcpCRyNo8T8"
-   ]
-  },
-  "id": "once-upon-a-time-in-america-1984",
-  "dbid": 311,
-  "runtime_m": 229
- },
- {
   "watched": false,
   "title": "Mom and Dad Save the World",
   "year": "1992",
@@ -21158,8 +21160,8 @@
    "20211226"
   ],
   "id": "miracle-on-34th-street-1994",
-  "dbid": 11881,
-  "runtime_m": 96
+  "dbid": 10510,
+  "runtime_m": 114
  },
  {
   "watched": true,
