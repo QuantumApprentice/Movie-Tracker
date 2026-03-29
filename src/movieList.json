@@ -6015,7 +6015,7 @@
   },
   "id": "a-better-tomorrow-2-1987",
   "dbid": 18305,
-  "runtime_m": 103
+  "runtime_m": 104
  },
  {
   "watched": false,
@@ -7710,7 +7710,8 @@
   "runtime_m": 102
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "03.28.26",
   "title": "Iron Man",
   "year": "2008",
   "runtime_hm": "2h6m",
@@ -7719,6 +7720,9 @@
     "https://youtu.be/8ugaeA-nMTc"
    ]
   },
+  "watchdate_arr": [
+   "20260328"
+  ],
   "id": "iron-man-2008",
   "dbid": 1726,
   "runtime_m": 126
@@ -7728,7 +7732,11 @@
   "title": "The Incredible Hulk",
   "year": "2008",
   "runtime_hm": "1h54m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/xbqNb2PFKKA"
+   ]
+  },
   "id": "the-incredible-hulk-2008",
   "dbid": 1724,
   "runtime_m": 114
@@ -8265,7 +8273,8 @@
   "runtime_m": 130
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "03.28.26",
   "title": "The Quick and the Dead",
   "year": "1995",
   "runtime_hm": "1h48m",
@@ -8274,6 +8283,9 @@
     "https://youtu.be/Lo9cGqmHXhg"
    ]
   },
+  "watchdate_arr": [
+   "20260328"
+  ],
   "id": "the-quick-and-the-dead-1995",
   "dbid": 12106,
   "runtime_m": 107
@@ -10077,7 +10089,7 @@
   },
   "id": "the-guyver-1991",
   "dbid": 15026,
-  "runtime_m": 88
+  "runtime_m": 92
  },
  {
   "watched": true,
@@ -10510,8 +10522,8 @@
    "20240727"
   ],
   "id": "around-the-world-in-80-days-2004",
-  "dbid": 2897,
-  "runtime_m": 182
+  "dbid": 10204,
+  "runtime_m": 120
  },
  {
   "watched": true,
@@ -12809,8 +12821,8 @@
    ]
   },
   "id": "one-from-the-heart-1982",
-  "dbid": 683033,
-  "runtime_m": 23
+  "dbid": 41291,
+  "runtime_m": 99
  },
  {
   "watched": false,
@@ -15287,6 +15299,24 @@
   "id": "duck-you-sucker-a-fistful-of-dynamite-once-upon-a-time-in-the-revolution-1971",
   "dbid": 336,
   "runtime_m": 157
+ },
+ {
+  "watched": true,
+  "watchdate": "03.25.26",
+  "title": "My Name Is Nobody",
+  "year": "1973",
+  "runtime_hm": "1h56m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/XeCd_yTiSxs"
+   ]
+  },
+  "watchdate_arr": [
+   "20260325"
+  ],
+  "id": "my-name-is-nobody-1973",
+  "dbid": 9474,
+  "runtime_m": 117
  },
  {
   "watched": false,
@@ -17969,8 +17999,8 @@
    ]
   },
   "id": "flesh-blood-1985",
-  "dbid": 12775,
-  "runtime_m": 126
+  "dbid": 36073,
+  "runtime_m": 42
  },
  {
   "watched": true,
@@ -20240,7 +20270,7 @@
   },
   "id": "airplane-ii-1982",
   "dbid": 2665,
-  "runtime_m": 85
+  "runtime_m": 84
  },
  {
   "watched": true,
@@ -20916,8 +20946,8 @@
    ]
   },
   "id": "the-return-2003",
-  "dbid": 122,
-  "runtime_m": 201
+  "dbid": 77562,
+  "runtime_m": 100
  },
  {
   "watched": true,
@@ -21213,8 +21243,8 @@
    "20211226"
   ],
   "id": "miracle-on-34th-street-1994",
-  "dbid": 10510,
-  "runtime_m": 114
+  "dbid": 11881,
+  "runtime_m": 96
  },
  {
   "watched": true,
@@ -21336,8 +21366,8 @@
    ]
   },
   "id": "die-hard-5-a-good-day-to-die-hard-2013",
-  "dbid": 47964,
-  "runtime_m": 98
+  "dbid": 477063,
+  "runtime_m": 60
  },
  {
   "watched": true,
@@ -21672,8 +21702,8 @@
    ]
   },
   "id": "jack-frost-1998",
-  "dbid": 9745,
-  "runtime_m": 101
+  "dbid": 27318,
+  "runtime_m": 86
  },
  {
   "watched": false,
