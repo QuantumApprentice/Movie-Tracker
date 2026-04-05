@@ -898,7 +898,7 @@
   },
   "id": "c-h-u-d-1984",
   "dbid": 23730,
-  "runtime_m": 88
+  "runtime_m": 96
  },
  {
   "watched": false,
@@ -1724,7 +1724,7 @@
   ],
   "id": "hellraiser-1987",
   "dbid": 9003,
-  "runtime_m": 94
+  "runtime_m": 93
  },
  {
   "watched": false,
@@ -4209,8 +4209,8 @@
    ]
   },
   "id": "porkys-1981",
-  "dbid": 10581,
-  "runtime_m": 87
+  "dbid": 10246,
+  "runtime_m": 94
  },
  {
   "watched": false,
@@ -7728,7 +7728,8 @@
   "runtime_m": 126
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "04.04.26",
   "title": "The Incredible Hulk",
   "year": "2008",
   "runtime_hm": "1h54m",
@@ -7737,6 +7738,9 @@
     "https://youtu.be/xbqNb2PFKKA"
    ]
   },
+  "watchdate_arr": [
+   "20260404"
+  ],
   "id": "the-incredible-hulk-2008",
   "dbid": 1724,
   "runtime_m": 114
@@ -7764,7 +7768,11 @@
   "title": "Iron Man 2",
   "year": "2010",
   "runtime_hm": "2h4m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/BoohRoVA9WQ"
+   ]
+  },
   "id": "iron-man-2-2010",
   "dbid": 10138,
   "runtime_m": 124
@@ -7774,7 +7782,11 @@
   "title": "Thor",
   "year": "2011",
   "runtime_hm": "1h55m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/JOddp-nlNvQ"
+   ]
+  },
   "id": "thor-2011",
   "dbid": 10195,
   "runtime_m": 115
@@ -10522,8 +10534,8 @@
    "20240727"
   ],
   "id": "around-the-world-in-80-days-2004",
-  "dbid": 10204,
-  "runtime_m": 120
+  "dbid": 2897,
+  "runtime_m": 182
  },
  {
   "watched": true,
@@ -10860,13 +10872,13 @@
  {
   "watched": false,
   "title": "Zombeavers",
+  "year": "2014",
   "links": {
    "trailer": [
     "https://youtu.be/7onFrBK_hKE"
    ]
   },
   "id": "zombeavers-2014",
-  "year": "2014",
   "dbid": 254474,
   "runtime_m": 77
  },
@@ -12233,7 +12245,8 @@
   "runtime_m": 102
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "04.04.26",
   "title": "Return to Oz",
   "year": "1985",
   "runtime_hm": "1h53m",
@@ -12242,6 +12255,9 @@
     "https://youtu.be/14EEGw_sdDQ"
    ]
   },
+  "watchdate_arr": [
+   "20260404"
+  ],
   "id": "return-to-oz-1985",
   "dbid": 13155,
   "runtime_m": 109
@@ -14842,7 +14858,7 @@
   ],
   "id": "men-at-work-1990",
   "dbid": 10169,
-  "runtime_m": 98
+  "runtime_m": 99
  },
  {
   "watched": false,
