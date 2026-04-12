@@ -314,10 +314,7 @@ function ListMovies({movie, observerHandler})
       <div>[{movie.runtime_hm || tmdbList.find(m=>m.id===movie.dbid).runtime_hm}]</div>
       <div className={movie.watched ? "movie-watched-triangle" : ""} />
       <div className="movie-watched-watched">
-          {
-          // format_date(movie.watchdate_arr?.[0]) || 
-          (movie.watched ? "Watched": "")
-          }
+          {(movie.watched ? "Watched": "")}
       </div>
     </div>
   )

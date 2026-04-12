@@ -1046,7 +1046,7 @@
   },
   "id": "dead-heat-1988",
   "dbid": 40095,
-  "runtime_m": 84
+  "runtime_m": 86
  },
  {
   "watched": false,
@@ -7764,7 +7764,8 @@
   "runtime_m": 107
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "04.11.26",
   "title": "Iron Man 2",
   "year": "2010",
   "runtime_hm": "2h4m",
@@ -7773,6 +7774,9 @@
     "https://youtu.be/BoohRoVA9WQ"
    ]
   },
+  "watchdate_arr": [
+   "20260411"
+  ],
   "id": "iron-man-2-2010",
   "dbid": 10138,
   "runtime_m": 124
@@ -11645,6 +11649,9 @@
   "links": {
    "trailer": [
     "https://youtu.be/vT13a8KzBRM"
+   ],
+   "modern": [
+    "https://youtu.be/1hO56L9Ffws"
    ]
   },
   "id": "highlander-1986",
@@ -14401,7 +14408,7 @@
  },
  {
   "watched": true,
-  "watchdate": "21.04.21",
+  "watchdate": "04.11.26./21.04.21",
   "title": "Akira",
   "year": "1988",
   "runtime_hm": "2h4m",
@@ -14413,7 +14420,8 @@
    ]
   },
   "watchdate_arr": [
-   "20212104"
+   "20212104",
+   "20260411"
   ],
   "id": "akira-1988",
   "dbid": 149,
@@ -14498,7 +14506,7 @@
   },
   "id": "fire-and-ice-1983",
   "dbid": 15035,
-  "runtime_m": 81
+  "runtime_m": 82
  },
  {
   "watched": false,
@@ -14803,7 +14811,7 @@
   },
   "id": "heavy-traffic-1973",
   "dbid": 30593,
-  "runtime_m": 76
+  "runtime_m": 77
  },
  {
   "watched": false,
@@ -15400,7 +15408,7 @@
   ],
   "id": "kickboxer-1989",
   "dbid": 10222,
-  "runtime_m": 97
+  "runtime_m": 98
  },
  {
   "watched": true,
@@ -16207,7 +16215,7 @@
   },
   "id": "police-story-1985",
   "dbid": 9056,
-  "runtime_m": 100
+  "runtime_m": 101
  },
  {
   "watched": true,
@@ -16280,7 +16288,7 @@
   },
   "id": "police-story-5-new-police-story-2004",
   "dbid": 11636,
-  "runtime_m": 122
+  "runtime_m": 123
  },
  {
   "watched": true,
@@ -20345,6 +20353,9 @@
   "links": {
    "trailer": [
     "https://youtu.be/4oeW9sflsdg"
+   ],
+   "modern": [
+    "https://youtu.be/tuER-MHKbQ4"
    ]
   },
   "id": "soldier-1998",
@@ -21718,8 +21729,8 @@
    ]
   },
   "id": "jack-frost-1998",
-  "dbid": 27318,
-  "runtime_m": 86
+  "dbid": 9745,
+  "runtime_m": 101
  },
  {
   "watched": false,

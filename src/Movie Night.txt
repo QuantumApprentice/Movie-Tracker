@@ -643,7 +643,7 @@ Bubba Ho Tep (2002) [] trailer:
 -03.28.26.|Iron Man (2008) [2h6m] trailer: https://youtu.be/8ugaeA-nMTc
 -04.04.26.|The Incredible Hulk (2008) [1h54m] trailer: https://youtu.be/xbqNb2PFKKA
 -01.03.26.|X-Men Origins: Wolverine (2009) [1h47m] trailer: https://youtu.be/8IxT7WFL6Ec
-Iron Man 2 (2010) [2h4m] trailer: https://youtu.be/BoohRoVA9WQ
+-04.11.26.|Iron Man 2 (2010) [2h4m] trailer: https://youtu.be/BoohRoVA9WQ
 Thor (2011) [1h55m] trailer: https://youtu.be/JOddp-nlNvQ
 -01.10.26.|X-Men: First Class (2011) [2h12m] trailer: https://youtu.be/kyQKi5-k0UU
 -11.08.25.|Ghost Rider: Spirit of Vengeance (2011) [1h36m] trailer: https://youtu.be/UUObgxCoUgA
@@ -997,7 +997,7 @@ Heathers (1989) [1h43m] trailer: https://youtu.be/7EsMeYlzwCU
 -01.28.23.|Hercules (1983) [1h38m] trailer: https://youtu.be/S1TOS3yygng
 -02.04.23.|The Adventures of Hercules II (1985) [1h28m] trailer: https://youtu.be/rPnCdZIjPI8
 
--Highlander (1986) [1h56m] trailer: https://youtu.be/vT13a8KzBRM
+-Highlander (1986) [1h56m] trailer: https://youtu.be/vT13a8KzBRM modern: https://youtu.be/1hO56L9Ffws
 -Highlander II: The Quickening (1991) [1h30m] trailer: https://youtu.be/pRgJVvoihCQ movie: https://youtu.be/hrrkusHZGkU
 Highlander III: The Final Dimension (2003) [1h39m] trailer: https://youtu.be/C-nCNKutCno
 -Howard The Duck (1986) [1h50m] trailer: https://youtu.be/S35-SzcsSbI
@@ -1247,7 +1247,7 @@ The Matrix Reloaded (2003) [2h18m] trailer: https://youtu.be/olvtV9zE-yw
 #Animated
 Fantastic Planet (1973) [1h12m] trailer: 
 Redline (2010) [1h42m] trailer: https://youtu.be/2t26m_Q6ENo
--21.04.21.|Akira (1988) [2h4m] trailer: https://youtu.be/nA8KmHC2Z-g https://youtu.be/ooKBenGK3R4 https://youtu.be/4yu8CqrfSQc
+-04.11.26./21.04.21.|Akira (1988) [2h4m] trailer: https://youtu.be/nA8KmHC2Z-g https://youtu.be/ooKBenGK3R4 https://youtu.be/4yu8CqrfSQc
 -04.01.23.|Heavy Metal (1981) [1h30m] https://youtu.be/rKHYv2r4m6k
 Cool World (1992) [1h42m] trailer: https://youtu.be/_kJAVgY8DMk
 -04.15.23.|Who Framed Roger Rabbit (1988) [1h44m] trailer: https://youtu.be/gpDaNqSXxp0
@@ -1757,7 +1757,7 @@ The Super (1991) [1h24m] trailer: https://youtu.be/VzSxVmQ7VMc
 -Nature of the Beast (1995) [1h31m] https://youtu.be/lagpjcTKe9E
 Twilight Zone: The Movie (1983) [1h41m] teaser: https://youtu.be/x1-SjAYJtlY trailer: https://youtu.be/SzkEmm6-y4c
 
--Soldier (1998) [1h39m] https://youtu.be/4oeW9sflsdg
+-Soldier (1998) [1h39m] trailer: https://youtu.be/4oeW9sflsdg modern: https://youtu.be/tuER-MHKbQ4
 The Untouchables (1987) [1h59m] trailer: https://youtu.be/2cGat1xI8G8
 Voyage of the Damned (1976) [2h35m] movie: https://youtu.be/y1RxVTBWKrw
 -WarGames (1983) [1h54m] movie: https://youtu.be/HNLQ-O-Qx3Y trailer: https://youtu.be/TQUsLAAZuhU
