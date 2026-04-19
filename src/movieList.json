@@ -3462,7 +3462,7 @@
   },
   "id": "the-rocky-horror-picture-show-1975",
   "dbid": 36685,
-  "runtime_m": 99
+  "runtime_m": 100
  },
  {
   "watched": true,
@@ -3952,6 +3952,20 @@
   "id": "see-no-evil-hear-no-evil-1989",
   "dbid": 11185,
   "runtime_m": 102
+ },
+ {
+  "watched": false,
+  "title": "Avalon",
+  "year": "2001",
+  "runtime_hm": "1h47m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/KXRXclj99Xg"
+   ]
+  },
+  "id": "avalon-2001",
+  "dbid": 10881,
+  "runtime_m": 107
  },
  {
   "watched": true,
@@ -6316,7 +6330,7 @@
   },
   "id": "martial-law-ii-undercover-1991",
   "dbid": 61802,
-  "runtime_m": 91
+  "runtime_m": 95
  },
  {
   "watched": false,
@@ -7782,7 +7796,8 @@
   "runtime_m": 124
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "04.28.26",
   "title": "Thor",
   "year": "2011",
   "runtime_hm": "1h55m",
@@ -7791,6 +7806,9 @@
     "https://youtu.be/JOddp-nlNvQ"
    ]
   },
+  "watchdate_arr": [
+   "20260428"
+  ],
   "id": "thor-2011",
   "dbid": 10195,
   "runtime_m": 115
@@ -8443,7 +8461,12 @@
   "watched": false,
   "title": "Adventures in Babysitting",
   "year": "1987",
-  "links": {},
+  "runtime_hm": "1h42m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/uvG9ZAQh5Ko"
+   ]
+  },
   "id": "adventures-in-babysitting-1987",
   "dbid": 14367,
   "runtime_m": 102
@@ -14619,7 +14642,7 @@
  },
  {
   "watched": true,
-  "watchdate": "05.13.23",
+  "watchdate": "05.13.23./04.18.26",
   "title": "Ghost in the Shell",
   "year": "1995",
   "runtime_hm": "1h22m",
@@ -14629,6 +14652,7 @@
    ]
   },
   "watchdate_arr": [
+   "20260418",
    "20230513"
   ],
   "id": "ghost-in-the-shell-1995",
@@ -21159,6 +21183,20 @@
   "id": "the-naked-gun-33-1-3-the-final-insult-1994",
   "dbid": 36593,
   "runtime_m": 83
+ },
+ {
+  "watched": false,
+  "title": "Hot Shots",
+  "year": "1991",
+  "runtime_hm": "1h25m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/UOBEvekwBvs"
+   ]
+  },
+  "id": "hot-shots-1991",
+  "dbid": 9595,
+  "runtime_m": 85
  },
  {
   "watched": false,
