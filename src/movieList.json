@@ -764,7 +764,8 @@
   "runtime_m": 88
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "05.23.26",
   "title": "Bad Taste",
   "year": "1987",
   "runtime_hm": "1h31m",
@@ -773,6 +774,9 @@
     "https://youtu.be/7IHwKJOZZ6U"
    ]
   },
+  "watchdate_arr": [
+   "20260523"
+  ],
   "id": "bad-taste-1987",
   "dbid": 9964,
   "runtime_m": 91
@@ -1845,7 +1849,7 @@
   },
   "id": "human-centipede-2010",
   "dbid": 37169,
-  "runtime_m": 91
+  "runtime_m": 92
  },
  {
   "watched": false,
@@ -2008,6 +2012,15 @@
   "id": "killer-klowns-from-outer-space-1988",
   "dbid": 16296,
   "runtime_m": 86
+ },
+ {
+  "watched": false,
+  "title": "Kwaidan",
+  "links": {},
+  "id": "kwaidan-1965",
+  "year": "1965",
+  "dbid": 30959,
+  "runtime_m": 183
  },
  {
   "watched": true,
@@ -3119,6 +3132,16 @@
  },
  {
   "watched": false,
+  "title": "The Watcher in the Woods",
+  "year": "1980",
+  "runtime_hm": "1h24m",
+  "links": {},
+  "id": "the-watcher-in-the-woods-1980",
+  "dbid": 21970,
+  "runtime_m": 83
+ },
+ {
+  "watched": false,
   "title": "Triangle",
   "year": "2009",
   "runtime_hm": "1h39m",
@@ -3129,7 +3152,7 @@
   },
   "id": "triangle-2009",
   "dbid": 26466,
-  "runtime_m": 98
+  "runtime_m": 99
  },
  {
   "watched": false,
@@ -3226,7 +3249,7 @@
   },
   "id": "the-changeling-1980",
   "dbid": 13550,
-  "runtime_m": 105
+  "runtime_m": 107
  },
  {
   "watched": false,
@@ -3625,7 +3648,7 @@
   },
   "id": "vampires-kiss-1988",
   "dbid": 7091,
-  "runtime_m": 103
+  "runtime_m": 104
  },
  {
   "watched": false,
@@ -3682,8 +3705,8 @@
   "runtime_hm": "1h34m",
   "links": {},
   "id": "ben-1972",
-  "dbid": 42476,
-  "runtime_m": 94
+  "dbid": 665,
+  "runtime_m": 212
  },
  {
   "watched": true,
@@ -4069,7 +4092,8 @@
   "runtime_m": 84
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "04.25.26",
   "title": "Life of Pi",
   "year": "2012",
   "runtime_hm": "2h7m",
@@ -4078,6 +4102,9 @@
     "https://youtu.be/3mMN693-F3U"
    ]
   },
+  "watchdate_arr": [
+   "20260425"
+  ],
   "id": "life-of-pi-2012",
   "dbid": 87827,
   "runtime_m": 127
@@ -4347,6 +4374,24 @@
   "runtime_m": 90
  },
  {
+  "watched": true,
+  "watchdate": "05.02.26",
+  "title": "The League of Extraordinary Gentlemen",
+  "year": "2003",
+  "runtime_hm": "1h50m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/vKI2of69xfA"
+   ]
+  },
+  "watchdate_arr": [
+   "20260502"
+  ],
+  "id": "the-league-of-extraordinary-gentlemen-2003",
+  "dbid": 8698,
+  "runtime_m": 110
+ },
+ {
   "watched": false,
   "title": "Hagen - Im Tal der Nibelungen",
   "year": "2024",
@@ -4554,7 +4599,7 @@
   },
   "id": "rising-sun-1993",
   "dbid": 7007,
-  "runtime_m": 125
+  "runtime_m": 129
  },
  {
   "watched": false,
@@ -5445,6 +5490,20 @@
   "id": "basic-instinct-1992",
   "dbid": 402,
   "runtime_m": 128
+ },
+ {
+  "watched": false,
+  "title": "Napoleon Dynamite",
+  "year": "2004",
+  "runtime_hm": "1h36m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/W1IgJoRJ34Q"
+   ]
+  },
+  "id": "napoleon-dynamite-2004",
+  "dbid": 8193,
+  "runtime_m": 95
  },
  {
   "watched": true,
@@ -6498,7 +6557,7 @@
   },
   "id": "delta-force-2-1990",
   "dbid": 19086,
-  "runtime_m": 111
+  "runtime_m": 110
  },
  {
   "watched": true,
@@ -6599,6 +6658,19 @@
   "id": "the-next-karate-kid-1994",
   "dbid": 11231,
   "runtime_m": 107
+ },
+ {
+  "watched": false,
+  "title": "Carbon Copy",
+  "year": "1981",
+  "links": {
+   "trailer": [
+    "https://youtu.be/lSllh1_hRio"
+   ]
+  },
+  "id": "carbon-copy-1981",
+  "dbid": 53922,
+  "runtime_m": 92
  },
  {
   "watched": false,
@@ -7440,8 +7512,8 @@
    "20250809"
   ],
   "id": "x-men-2000",
-  "dbid": 36657,
-  "runtime_m": 104
+  "dbid": 447399,
+  "runtime_m": 22
  },
  {
   "watched": true,
@@ -7847,24 +7919,41 @@
   ],
   "id": "ghost-rider-spirit-of-vengeance-2011",
   "dbid": 71676,
-  "runtime_m": 95
+  "runtime_m": 96
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "04.25.26",
   "title": "Captain America: The First Avenger",
   "year": "2011",
   "runtime_hm": "2h4m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/qi5UTD7kEr0"
+   ]
+  },
+  "watchdate_arr": [
+   "20260425"
+  ],
   "id": "captain-america-the-first-avenger-2011",
   "dbid": 1771,
   "runtime_m": 124
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "05.02.26",
   "title": "The Avengers",
   "year": "2012",
   "runtime_hm": "2h23m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/hIR8Ar-Z4hw",
+    "https://youtu.be/eOrNdBpGMv8"
+   ]
+  },
+  "watchdate_arr": [
+   "20260502"
+  ],
   "id": "the-avengers-2012",
   "dbid": 24428,
   "runtime_m": 143
@@ -7906,21 +7995,37 @@
   "runtime_m": 126
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "05.09.26",
   "title": "Iron Man 3",
   "year": "2013",
   "runtime_hm": "2h10m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/f_h95mEd4TI"
+   ]
+  },
+  "watchdate_arr": [
+   "20260509"
+  ],
   "id": "iron-man-3-2013",
   "dbid": 68721,
   "runtime_m": 130
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "05.16.26",
   "title": "Thor: The Dark World",
   "year": "2013",
   "runtime_hm": "1h52m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/npvJ9FTgZbM"
+   ]
+  },
+  "watchdate_arr": [
+   "20260516"
+  ],
   "id": "thor-the-dark-world-2013",
   "dbid": 76338,
   "runtime_m": 112
@@ -7944,11 +8049,20 @@
   "runtime_m": 141
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "05.23.26",
   "title": "Captain America: The Winter Soldier",
   "year": "2014",
   "runtime_hm": "2h16m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/7SlILk2WMTI",
+    "https://youtu.be/tbayiPxkUMM"
+   ]
+  },
+  "watchdate_arr": [
+   "20260523"
+  ],
   "id": "captain-america-the-winter-soldier-2014",
   "dbid": 100402,
   "runtime_m": 136
@@ -7977,7 +8091,12 @@
   "title": "Guardians of the Galaxy",
   "year": "2014",
   "runtime_hm": "2h1m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/d96cjJhvlMA",
+    "https://youtu.be/2LIQ2-PZBC8"
+   ]
+  },
   "id": "guardians-of-the-galaxy-2014",
   "dbid": 118340,
   "runtime_m": 121
@@ -7987,7 +8106,12 @@
   "title": "Avengers: Age of Ultron",
   "year": "2015",
   "runtime_hm": "2h21m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/tmeOjFno6Do",
+    "https://youtu.be/JAUoeqvedMo"
+   ]
+  },
   "id": "avengers-age-of-ultron-2015",
   "dbid": 99861,
   "runtime_m": 141
@@ -7997,7 +8121,11 @@
   "title": "Ant-Man",
   "year": "2015",
   "runtime_hm": "1h57m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/pWdKf3MneyI"
+   ]
+  },
   "id": "ant-man-2015",
   "dbid": 102899,
   "runtime_m": 117
@@ -8098,7 +8226,12 @@
   "watched": false,
   "title": "Guardians of the Galaxy Vol. 2",
   "year": "2017",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/wX0aiMVvnvg",
+    "https://youtu.be/4hdv_6gl4gk"
+   ]
+  },
   "id": "guardians-of-the-galaxy-vol-2-2017",
   "dbid": 283995,
   "runtime_m": 137
@@ -8218,6 +8351,21 @@
   "id": "spider-man-far-from-home-2019",
   "dbid": 429617,
   "runtime_m": 129
+ },
+ {
+  "watched": false,
+  "title": "Guardians of the Galaxy Vol. 3",
+  "year": "2023",
+  "links": {
+   "trailer": [
+    "https://youtu.be/JqcncLPi9zw",
+    "https://youtu.be/qxwt7La3F94",
+    "https://youtu.be/u3V5KDHRQvk"
+   ]
+  },
+  "id": "guardians-of-the-galaxy-vol-3-2023",
+  "dbid": 447365,
+  "runtime_m": 150
  },
  {
   "watched": false,
@@ -8458,7 +8606,8 @@
   "runtime_m": 103
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "05.16.26",
   "title": "Adventures in Babysitting",
   "year": "1987",
   "runtime_hm": "1h42m",
@@ -8467,6 +8616,9 @@
     "https://youtu.be/uvG9ZAQh5Ko"
    ]
   },
+  "watchdate_arr": [
+   "20260516"
+  ],
   "id": "adventures-in-babysitting-1987",
   "dbid": 14367,
   "runtime_m": 102
@@ -8803,8 +8955,8 @@
    ]
   },
   "id": "virus-1980",
-  "dbid": 21380,
-  "runtime_m": 101
+  "dbid": 41972,
+  "runtime_m": 156
  },
  {
   "watched": false,
@@ -9931,8 +10083,8 @@
   "runtime_hm": "2h33m",
   "links": {},
   "id": "inglorious-basterds-2009",
-  "dbid": 16869,
-  "runtime_m": 153
+  "dbid": 28447,
+  "runtime_m": 6
  },
  {
   "watched": false,
@@ -10561,8 +10713,8 @@
    "20240727"
   ],
   "id": "around-the-world-in-80-days-2004",
-  "dbid": 2897,
-  "runtime_m": 182
+  "dbid": 10204,
+  "runtime_m": 120
  },
  {
   "watched": true,
@@ -11540,7 +11692,7 @@
   },
   "id": "gandhi-1982",
   "dbid": 783,
-  "runtime_m": 191
+  "runtime_m": 192
  },
  {
   "watched": false,
@@ -11762,7 +11914,7 @@
   },
   "id": "idiocracy-2006",
   "dbid": 7512,
-  "runtime_m": 84
+  "runtime_m": 85
  },
  {
   "watched": false,
@@ -12210,7 +12362,7 @@
   },
   "id": "a-boy-and-his-dog-1975",
   "dbid": 4917,
-  "runtime_m": 90
+  "runtime_m": 91
  },
  {
   "watched": false,
@@ -13266,9 +13418,7 @@
     "https://youtu.be/V9kYdfSroTs"
    ]
   },
-  "id": "the-black-lightning-2009",
-  "dbid": 31162,
-  "runtime_m": 102
+  "id": "the-black-lightning-2009"
  },
  {
   "watched": true,
@@ -13584,8 +13734,8 @@
    ]
   },
   "id": "the-room-2003",
-  "dbid": 17473,
-  "runtime_m": 100
+  "dbid": 8070,
+  "runtime_m": 95
  },
  {
   "watched": false,
@@ -13755,9 +13905,7 @@
   "year": "2008",
   "runtime_hm": "2h10m",
   "links": {},
-  "id": "the-good-the-bad-and-the-weird-2008",
-  "dbid": 15067,
-  "runtime_m": 130
+  "id": "the-good-the-bad-and-the-weird-2008"
  },
  {
   "watched": true,
@@ -14426,8 +14574,8 @@
    ]
   },
   "id": "redline-2010",
-  "dbid": 16392,
-  "runtime_m": 95
+  "dbid": 71883,
+  "runtime_m": 102
  },
  {
   "watched": true,
@@ -15854,7 +16002,8 @@
   "runtime_m": 95
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "05.09.26",
   "title": "Wedding Crashers",
   "year": "2005",
   "runtime_hm": "1h59m",
@@ -15863,6 +16012,9 @@
     "https://youtu.be/GnD48PD84-8"
    ]
   },
+  "watchdate_arr": [
+   "20260509"
+  ],
   "id": "wedding-crashers-2005",
   "dbid": 9522,
   "runtime_m": 119
@@ -16000,7 +16152,7 @@
   "links": {},
   "id": "my-cousin-vinny-1992",
   "dbid": 10377,
-  "runtime_m": 120
+  "runtime_m": 119
  },
  {
   "watched": false,
@@ -16947,7 +17099,7 @@
   },
   "id": "once-a-thief-1991",
   "dbid": 47423,
-  "runtime_m": 108
+  "runtime_m": 109
  },
  {
   "watched": true,
@@ -17042,7 +17194,7 @@
   ],
   "id": "the-neverending-story-1984",
   "dbid": 34584,
-  "runtime_m": 97
+  "runtime_m": 101
  },
  {
   "watched": true,
@@ -17063,7 +17215,7 @@
   ],
   "id": "the-neverending-story-ii-the-next-chapter-1991",
   "dbid": 34636,
-  "runtime_m": 89
+  "runtime_m": 90
  },
  {
   "watched": true,
@@ -17412,7 +17564,7 @@
  },
  {
   "watched": true,
-  "watchdate": "05.04.24",
+  "watchdate": "05.04.24./05.03.26",
   "title": "Star Wars (Episode IV) - A New Hope",
   "year": "1977",
   "runtime_hm": "2h1m",
@@ -17429,6 +17581,7 @@
    ]
   },
   "watchdate_arr": [
+   "20260503",
    "20240504"
   ],
   "id": "star-wars-episode-iv-a-new-hope-1977",
@@ -17437,7 +17590,7 @@
  },
  {
   "watched": true,
-  "watchdate": "05.04.24",
+  "watchdate": "05.04.24./05.03.26",
   "title": "Star Wars (Episode V) - The Empire Strikes Back",
   "year": "1980",
   "runtime_hm": "2h4m",
@@ -17449,6 +17602,7 @@
    ]
   },
   "watchdate_arr": [
+   "20260503",
    "20240504"
   ],
   "id": "star-wars-episode-v-the-empire-strikes-back-1980",
@@ -17457,7 +17611,7 @@
  },
  {
   "watched": true,
-  "watchdate": "05.04.24",
+  "watchdate": "05.04.24./05.03.26",
   "title": "Star Wars (Episode VI) - Return of the Jedi",
   "year": "1983",
   "runtime_hm": "2h12m",
@@ -17471,6 +17625,7 @@
    ]
   },
   "watchdate_arr": [
+   "20260503",
    "20240504"
   ],
   "id": "star-wars-episode-vi-return-of-the-jedi-1983",
@@ -18047,8 +18202,8 @@
    ]
   },
   "id": "flesh-blood-1985",
-  "dbid": 36073,
-  "runtime_m": 42
+  "dbid": 12775,
+  "runtime_m": 126
  },
  {
   "watched": true,
@@ -18478,8 +18633,8 @@
    ]
   },
   "id": "runaway-1985",
-  "dbid": 9507,
-  "runtime_m": 100
+  "dbid": 11893,
+  "runtime_m": 111
  },
  {
   "watched": true,
@@ -21308,8 +21463,8 @@
    "20211226"
   ],
   "id": "miracle-on-34th-street-1994",
-  "dbid": 11881,
-  "runtime_m": 96
+  "dbid": 10510,
+  "runtime_m": 114
  },
  {
   "watched": true,
@@ -22074,7 +22229,7 @@
   },
   "id": "violent-night-2022",
   "dbid": 899112,
-  "runtime_m": 111
+  "runtime_m": 112
  },
  {
   "watched": true,
@@ -22222,7 +22377,7 @@
   },
   "id": "the-virgin-psychics-2015",
   "dbid": 350725,
-  "runtime_m": 114
+  "runtime_m": 115
  },
  {
   "watched": false,
