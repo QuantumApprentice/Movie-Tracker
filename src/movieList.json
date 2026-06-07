@@ -594,9 +594,7 @@
     "https://youtu.be/A6X4VAHdDVg"
    ]
   },
-  "id": "the-adams-family-1991",
-  "dbid": 2907,
-  "runtime_m": 100
+  "id": "the-adams-family-1991"
  },
  {
   "watched": false,
@@ -1296,7 +1294,7 @@
   ],
   "id": "firestarter-1984",
   "dbid": 11495,
-  "runtime_m": 115
+  "runtime_m": 114
  },
  {
   "watched": false,
@@ -3977,7 +3975,8 @@
   "runtime_m": 102
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "06.06.26",
   "title": "Avalon",
   "year": "2001",
   "runtime_hm": "1h47m",
@@ -3986,6 +3985,9 @@
     "https://youtu.be/KXRXclj99Xg"
    ]
   },
+  "watchdate_arr": [
+   "20260606"
+  ],
   "id": "avalon-2001",
   "dbid": 10881,
   "runtime_m": 107
@@ -4148,168 +4150,6 @@
   "runtime_m": 119
  },
  {
-  "watched": false,
-  "title": "Resort to Kill (Immortal Combat)",
-  "year": "1994",
-  "runtime_hm": "1h49m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/IPB0LHvFEzA"
-   ]
-  },
-  "id": "resort-to-kill-immortal-combat-1994",
-  "dbid": 134719,
-  "runtime_m": 109
- },
- {
-  "watched": false,
-  "title": "The Lost Skeleton of Cadavra",
-  "year": "2001",
-  "runtime_hm": "1h30m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/zf84oJhmnOc"
-   ]
-  },
-  "id": "the-lost-skeleton-of-cadavra-2001",
-  "dbid": 18841,
-  "runtime_m": 90
- },
- {
-  "watched": false,
-  "title": "Tetsuo: The Bullet Man",
-  "year": "2009",
-  "runtime_hm": "1h11m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/-3v2e0SIDTo"
-   ]
-  },
-  "id": "tetsuo-the-bullet-man-2009",
-  "dbid": 52034,
-  "runtime_m": 71
- },
- {
-  "watched": false,
-  "title": "High and Low",
-  "year": "1963",
-  "links": {
-   "trailer": [
-    "https://youtu.be/ELsgPvgDBoY"
-   ]
-  },
-  "id": "high-and-low-1963",
-  "dbid": 12493,
-  "runtime_m": 142
- },
- {
-  "watched": false,
-  "title": "Immortal Combat",
-  "year": "1994",
-  "runtime_hm": "1h49m",
-  "links": {},
-  "id": "immortal-combat-1994",
-  "dbid": 134719,
-  "runtime_m": 109
- },
- {
-  "watched": false,
-  "title": "Brick",
-  "year": "2005",
-  "links": {},
-  "id": "brick-2005",
-  "dbid": 9270,
-  "runtime_m": 110
- },
- {
-  "watched": false,
-  "title": "Radioactive Dreams",
-  "year": "1986",
-  "links": {},
-  "id": "radioactive-dreams-1986",
-  "dbid": 47342,
-  "runtime_m": 98
- },
- {
-  "watched": false,
-  "title": "Alien from LA",
-  "year": "1988",
-  "links": {},
-  "id": "alien-from-la-1988",
-  "dbid": 31397,
-  "runtime_m": 87
- },
- {
-  "watched": false,
-  "title": "Porky's",
-  "year": "1981",
-  "runtime_hm": "1h34m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/QWmtDAIK03M"
-   ]
-  },
-  "id": "porkys-1981",
-  "dbid": 10246,
-  "runtime_m": 94
- },
- {
-  "watched": false,
-  "title": "Postal",
-  "year": "2007",
-  "runtime_hm": "1h40m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/ZKfMhUrjoCI"
-   ]
-  },
-  "id": "postal-2007",
-  "dbid": 2728,
-  "runtime_m": 100
- },
- {
-  "watched": false,
-  "title": "Thankskilling",
-  "year": "2008",
-  "runtime_hm": "1h10m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/WOjSRoxc6mg"
-   ]
-  },
-  "id": "thankskilling-2008",
-  "dbid": 60366,
-  "runtime_m": 67
- },
- {
-  "watched": false,
-  "title": "Evolution",
-  "year": "2001",
-  "runtime_hm": "1h41m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/-bDStxV8Tkc"
-   ]
-  },
-  "id": "evolution-2001",
-  "dbid": 9397,
-  "runtime_m": 102
- },
- {
-  "watched": false,
-  "title": "The Hole",
-  "year": "2012",
-  "runtime_hm": "1h32m",
-  "links": {
-   "trailer": [
-    "https://youtu.be/b5VGhWJlG5M"
-   ]
-  },
-  "id": "the-hole-2012",
-  "dbid": 45650,
-  "runtime_m": 92
- },
- {
   "watched": true,
   "watchdate": "02.07.26",
   "title": "Snakes on a Plane",
@@ -4418,6 +4258,98 @@
   "id": "blood-red-sky-2021",
   "dbid": 760883,
   "runtime_m": 123
+ },
+ {
+  "watched": false,
+  "title": "Resort to Kill (Immortal Combat)",
+  "year": "1994",
+  "runtime_hm": "1h49m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/IPB0LHvFEzA"
+   ]
+  },
+  "id": "resort-to-kill-immortal-combat-1994",
+  "dbid": 134719,
+  "runtime_m": 109
+ },
+ {
+  "watched": false,
+  "title": "The Lost Skeleton of Cadavra",
+  "year": "2001",
+  "runtime_hm": "1h30m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/zf84oJhmnOc"
+   ]
+  },
+  "id": "the-lost-skeleton-of-cadavra-2001",
+  "dbid": 18841,
+  "runtime_m": 90
+ },
+ {
+  "watched": false,
+  "title": "Tetsuo: The Bullet Man",
+  "year": "2009",
+  "runtime_hm": "1h11m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/-3v2e0SIDTo"
+   ]
+  },
+  "id": "tetsuo-the-bullet-man-2009",
+  "dbid": 52034,
+  "runtime_m": 71
+ },
+ {
+  "watched": false,
+  "title": "High and Low",
+  "year": "1963",
+  "links": {
+   "trailer": [
+    "https://youtu.be/ELsgPvgDBoY"
+   ]
+  },
+  "id": "high-and-low-1963",
+  "dbid": 12493,
+  "runtime_m": 142
+ },
+ {
+  "watched": false,
+  "title": "Immortal Combat",
+  "year": "1994",
+  "runtime_hm": "1h49m",
+  "links": {},
+  "id": "immortal-combat-1994",
+  "dbid": 134719,
+  "runtime_m": 109
+ },
+ {
+  "watched": false,
+  "title": "Brick",
+  "year": "2005",
+  "links": {},
+  "id": "brick-2005",
+  "dbid": 9270,
+  "runtime_m": 110
+ },
+ {
+  "watched": false,
+  "title": "Radioactive Dreams",
+  "year": "1986",
+  "links": {},
+  "id": "radioactive-dreams-1986",
+  "dbid": 47342,
+  "runtime_m": 98
+ },
+ {
+  "watched": false,
+  "title": "Alien from LA",
+  "year": "1988",
+  "links": {},
+  "id": "alien-from-la-1988",
+  "dbid": 31397,
+  "runtime_m": 87
  },
  {
   "watched": false,
@@ -4725,6 +4657,76 @@
  },
  {
   "watched": false,
+  "title": "Porky's",
+  "year": "1981",
+  "runtime_hm": "1h34m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/QWmtDAIK03M"
+   ]
+  },
+  "id": "porkys-1981",
+  "dbid": 10246,
+  "runtime_m": 94
+ },
+ {
+  "watched": false,
+  "title": "Postal",
+  "year": "2007",
+  "runtime_hm": "1h40m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/ZKfMhUrjoCI"
+   ]
+  },
+  "id": "postal-2007",
+  "dbid": 2728,
+  "runtime_m": 100
+ },
+ {
+  "watched": false,
+  "title": "Thankskilling",
+  "year": "2008",
+  "runtime_hm": "1h10m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/WOjSRoxc6mg"
+   ]
+  },
+  "id": "thankskilling-2008",
+  "dbid": 60366,
+  "runtime_m": 67
+ },
+ {
+  "watched": false,
+  "title": "Evolution",
+  "year": "2001",
+  "runtime_hm": "1h41m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/-bDStxV8Tkc"
+   ]
+  },
+  "id": "evolution-2001",
+  "dbid": 9397,
+  "runtime_m": 102
+ },
+ {
+  "watched": false,
+  "title": "The Hole",
+  "year": "2012",
+  "runtime_hm": "1h32m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/b5VGhWJlG5M"
+   ]
+  },
+  "id": "the-hole-2012",
+  "dbid": 45650,
+  "runtime_m": 92
+ },
+ {
+  "watched": false,
   "title": "Replicas",
   "year": "2019",
   "runtime_hm": "1h47m",
@@ -4973,7 +4975,7 @@
   "links": {},
   "id": "below-the-belt-1980",
   "dbid": 134397,
-  "runtime_m": 91
+  "runtime_m": 94
  },
  {
   "watched": false,
@@ -8087,7 +8089,8 @@
   "runtime_m": 132
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "05.30.26",
   "title": "Guardians of the Galaxy",
   "year": "2014",
   "runtime_hm": "2h1m",
@@ -8097,12 +8100,16 @@
     "https://youtu.be/2LIQ2-PZBC8"
    ]
   },
+  "watchdate_arr": [
+   "20260530"
+  ],
   "id": "guardians-of-the-galaxy-2014",
   "dbid": 118340,
   "runtime_m": 121
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "06.06.26",
   "title": "Avengers: Age of Ultron",
   "year": "2015",
   "runtime_hm": "2h21m",
@@ -8112,6 +8119,9 @@
     "https://youtu.be/JAUoeqvedMo"
    ]
   },
+  "watchdate_arr": [
+   "20260606"
+  ],
   "id": "avengers-age-of-ultron-2015",
   "dbid": 99861,
   "runtime_m": 141
@@ -8189,6 +8199,7 @@
   "watched": false,
   "title": "Captain America: Civil War",
   "year": "2016",
+  "runtime_hm": "2h27m",
   "links": {},
   "id": "captain-america-civil-war-2016",
   "dbid": 271110,
@@ -8198,6 +8209,7 @@
   "watched": false,
   "title": "Doctor Strange",
   "year": "2016",
+  "runtime_hm": "1h55m",
   "links": {},
   "id": "doctor-strange-2016",
   "dbid": 284052,
@@ -8226,6 +8238,7 @@
   "watched": false,
   "title": "Guardians of the Galaxy Vol. 2",
   "year": "2017",
+  "runtime_hm": "2h17m",
   "links": {
    "trailer": [
     "https://youtu.be/wX0aiMVvnvg",
@@ -8240,6 +8253,7 @@
   "watched": false,
   "title": "Spider-Man: Homecoming",
   "year": "2017",
+  "runtime_hm": "2h13m",
   "links": {},
   "id": "spider-man-homecoming-2017",
   "dbid": 315635,
@@ -8249,6 +8263,7 @@
   "watched": false,
   "title": "Thor: Ragnarok",
   "year": "2017",
+  "runtime_hm": "2h11m",
   "links": {},
   "id": "thor-ragnarok-2017",
   "dbid": 284053,
@@ -8258,6 +8273,7 @@
   "watched": false,
   "title": "Venom",
   "year": "2018",
+  "runtime_hm": "1h52m",
   "links": {},
   "id": "venom-2018",
   "dbid": 335983,
@@ -8267,6 +8283,7 @@
   "watched": false,
   "title": "Black Panther",
   "year": "2018",
+  "runtime_hm": "2h15m",
   "links": {},
   "id": "black-panther-2018",
   "dbid": 284054,
@@ -8293,6 +8310,7 @@
   "watched": false,
   "title": "Avengers: Infinity War",
   "year": "2018",
+  "runtime_hm": "2h29m",
   "links": {},
   "id": "avengers-infinity-war-2018",
   "dbid": 299536,
@@ -8302,6 +8320,7 @@
   "watched": false,
   "title": "Ant-Man and the Wasp",
   "year": "2018",
+  "runtime_hm": "1h59m",
   "links": {},
   "id": "ant-man-and-the-wasp-2018",
   "dbid": 363088,
@@ -8329,6 +8348,7 @@
   "watched": false,
   "title": "Captain Marvel",
   "year": "2019",
+  "runtime_hm": "2h4m",
   "links": {},
   "id": "captain-marvel-2019",
   "dbid": 299537,
@@ -8338,6 +8358,7 @@
   "watched": false,
   "title": "Avengers: Endgame",
   "year": "2019",
+  "runtime_hm": "3h1m",
   "links": {},
   "id": "avengers-endgame-2019",
   "dbid": 299534,
@@ -8347,6 +8368,7 @@
   "watched": false,
   "title": "Spider-Man: Far From Home",
   "year": "2019",
+  "runtime_hm": "2h9m",
   "links": {},
   "id": "spider-man-far-from-home-2019",
   "dbid": 429617,
@@ -8356,6 +8378,7 @@
   "watched": false,
   "title": "Guardians of the Galaxy Vol. 3",
   "year": "2023",
+  "runtime_hm": "2h30m",
   "links": {
    "trailer": [
     "https://youtu.be/JqcncLPi9zw",
@@ -8385,6 +8408,7 @@
   "watched": false,
   "title": "Venom: Let There Be Carnage",
   "year": "2021",
+  "runtime_hm": "1h37m",
   "links": {},
   "id": "venom-let-there-be-carnage-2021",
   "dbid": 580489,
@@ -8394,6 +8418,7 @@
   "watched": false,
   "title": "Morbius",
   "year": "2022",
+  "runtime_hm": "1h45m",
   "links": {},
   "id": "morbius-2022",
   "dbid": 526896,
@@ -8403,6 +8428,7 @@
   "watched": false,
   "title": "Madame Web",
   "year": "2024",
+  "runtime_hm": "1h57m",
   "links": {},
   "id": "madame-web-2024",
   "dbid": 634492,
@@ -8412,6 +8438,7 @@
   "watched": false,
   "title": "Kraven the Hunter",
   "year": "2024",
+  "runtime_hm": "2h7m",
   "links": {},
   "id": "kraven-the-hunter-2024",
   "dbid": 539972,
@@ -8421,6 +8448,7 @@
   "watched": false,
   "title": "Spider-Man: Into the Spider-Verse",
   "year": "2018",
+  "runtime_hm": "1h57m",
   "links": {},
   "id": "spider-man-into-the-spider-verse-2018",
   "dbid": 324857,
@@ -8430,6 +8458,7 @@
   "watched": false,
   "title": "Spider-Man: Across the Spider-Verse",
   "year": "2023",
+  "runtime_hm": "2h20m",
   "links": {},
   "id": "spider-man-across-the-spider-verse-2023",
   "dbid": 569094,
@@ -8439,6 +8468,7 @@
   "watched": false,
   "title": "Deadpool & Wolverine",
   "year": "2024",
+  "runtime_hm": "2h8m",
   "links": {},
   "id": "deadpool-wolverine-2024",
   "dbid": 533535,
@@ -8476,6 +8506,7 @@
   "watched": false,
   "title": "Trainspotting",
   "year": "1996",
+  "runtime_hm": "1h34m",
   "links": {
    "trailer": [
     "https://youtu.be/8LuxOYIpu-I"
@@ -9008,7 +9039,7 @@
   "links": {},
   "id": "yor-hunter-from-the-future-1983",
   "dbid": 38219,
-  "runtime_m": 98
+  "runtime_m": 89
  },
  {
   "watched": true,
@@ -9107,6 +9138,7 @@
   "watched": false,
   "title": "Shall We Dance",
   "year": "1937",
+  "runtime_hm": "1h49m",
   "links": {},
   "id": "shall-we-dance-1937",
   "dbid": 31530,
@@ -9514,7 +9546,11 @@
   "title": "Teenagers from Outer Space",
   "year": "1959",
   "runtime_hm": "1h26m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/aJzAGF3XLSo"
+   ]
+  },
   "id": "teenagers-from-outer-space-1959",
   "dbid": 35139,
   "runtime_m": 86
@@ -13167,6 +13203,19 @@
  },
  {
   "watched": false,
+  "title": "Three Amigos!",
+  "year": "1986",
+  "links": {
+   "trailer": [
+    "https://youtu.be/g9OAjqs6dOo"
+   ]
+  },
+  "id": "three-amigos-1986",
+  "dbid": 8388,
+  "runtime_m": 103
+ },
+ {
+  "watched": false,
   "title": "Going Overboard",
   "year": "1989",
   "runtime_hm": "1h37m",
@@ -14885,7 +14934,7 @@
   ],
   "id": "nausicaa-of-the-valley-of-the-wind-1984",
   "dbid": 81,
-  "runtime_m": 117
+  "runtime_m": 95
  },
  {
   "watched": false,
@@ -21319,7 +21368,7 @@
   ],
   "id": "the-naked-gun-2-1-2-the-smell-of-fear-1991",
   "dbid": 37137,
-  "runtime_m": 86
+  "runtime_m": 85
  },
  {
   "watched": true,
@@ -21340,7 +21389,8 @@
   "runtime_m": 83
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "05.30.26",
   "title": "Hot Shots",
   "year": "1991",
   "runtime_hm": "1h25m",
@@ -21349,6 +21399,9 @@
     "https://youtu.be/UOBEvekwBvs"
    ]
   },
+  "watchdate_arr": [
+   "20260530"
+  ],
   "id": "hot-shots-1991",
   "dbid": 9595,
   "runtime_m": 85
