@@ -1,4 +1,3 @@
-
 #Movie Tracker https://quantumapprentice.github.io/Movie-Tracker/
 #Horror Trailer Playlist https://youtube.com/playlist?list=PLywwjkBV6ND9OOZ05UxphXtlcle4lEEI0
 
@@ -135,7 +134,7 @@ Body Snatchers (1993) [1h27m] trailer: https://youtu.be/sR8pqAB788U
 Jeepers Creepers (2001) [1h30m] trailer: https://youtu.be/5T7TFIOZ2xU
 Jeepers Creepers 2 (2003) [1h44m] trailer: https://youtu.be/Quy0zQ1PXVw
 Killer Klowns from Outer Space (1988) [1h28m] trailer: https://youtu.be/0w5OB0T1H9Y
-Kwaidan () [] trailer: 
+Kwaidan (1964) [3h3m] trailer: 
 -10..2021.|The Lawnmower Man (1992) [2h21m] trailer: https://youtu.be/zzwPuJklv4w
 Lawnmower Man 2: Beyond Cyberspace (1996) [1h33m] trailer: https://youtu.be/ucS3kOK23G8 modern: https://youtu.be/hBAaf2CTmaE
 -11.01.25.|Leprechaun (1993) [1h32m] trailer: https://youtu.be/pJ_TYkEyNIc movie: https://youtu.be/Uwl5MBzTCRQ https://youtu.be/qdJx--Y0fmg
@@ -292,7 +291,7 @@ See no Evil Hear no Evil (1989) [1h43m] trailer: https://youtu.be/KzzvoOfXG9E
 #Vampire's Kiss (1988) [1h43m] trailer: https://youtu.be/PnoSxO_2ghQ
 #Ringu (1998) [1h36m] trailer: https://youtu.be/AJ2jLZq25J4
 #meleneth
-Avalon (2001) [1h47m] trailer: https://youtu.be/KXRXclj99Xg
+-06.06.26.|Avalon (2001) [1h47m] trailer: https://youtu.be/KXRXclj99Xg
 -08.30.25.|Glengarry Glen Ross (1992) [1h40m] trailer: https://youtu.be/a_3oYY-aPV4
 Heat (1995) [2h50m] trailer: https://youtu.be/2GfZl4kuVNI
 True Romance (1993) [1h59] trailer: 
@@ -307,24 +306,6 @@ Cube2: Hypercube (2002) [1h34m] trailer:
 Transcendence (2014) [1h59m] trailer: https://youtu.be/VCTen3-B8GU
 
 #new Stuff
-#adamfh
-#Hillbillys in a Haunted House (1967) [1h28m] trailer: https://youtu.be/7kNPhC-tDnA
-Resort to Kill (Immortal Combat) (1994) [1h49m] https://youtu.be/IPB0LHvFEzA
-The Lost Skeleton of Cadavra (2001) [1h30m] trailer: https://youtu.be/zf84oJhmnOc
-Tetsuo: The Bullet Man (2009) [1h11m] trailer: https://youtu.be/-3v2e0SIDTo
-High and Low (1963) [] trailer: https://youtu.be/ELsgPvgDBoY
-Immortal Combat (1994) [1h49m] trailer: 
-Brick (2005) [] trailer: 
-Radioactive Dreams (1986) [] trailer:
-Alien from LA (1988) [] trailer:
-
-#ghmiranda
-Porky's (1981) [1h34m] trailer: https://youtu.be/QWmtDAIK03M
-Postal (2007) [1h40m] trailer: https://youtu.be/ZKfMhUrjoCI
-Thankskilling (2008) [1h10m] trailer: https://youtu.be/WOjSRoxc6mg
-Evolution (2001) [1h41m] trailer: https://youtu.be/-bDStxV8Tkc
-The Hole (2012) [1h32m] trailer: https://youtu.be/b5VGhWJlG5M
-
 #vaultdweller
 -02.07.26.|Snakes on a Plane (2006) [1h45m] trailer: https://youtu.be/qRK9SlFadEY
 -03.21.26.|Cocaine Bear (2023) [1h35m] trailer: https://youtu.be/vwjq-r4TVso
@@ -343,6 +324,15 @@ Hagen - Im Tal der Nibelungen (2024) [2h15m] trailer: https://youtu.be/mRAbhPnSB
 Blood Red Sky (2021) [2h3m] trailer: https://youtu.be/U8M_1eyrBtQ
 
 #adamfh(tvjosh)
+#Hillbillys in a Haunted House (1967) [1h28m] trailer: https://youtu.be/7kNPhC-tDnA
+Resort to Kill (Immortal Combat) (1994) [1h49m] https://youtu.be/IPB0LHvFEzA
+The Lost Skeleton of Cadavra (2001) [1h30m] trailer: https://youtu.be/zf84oJhmnOc
+Tetsuo: The Bullet Man (2009) [1h11m] trailer: https://youtu.be/-3v2e0SIDTo
+High and Low (1963) [] trailer: https://youtu.be/ELsgPvgDBoY
+Immortal Combat (1994) [1h49m] trailer: 
+Brick (2005) [] trailer: 
+Radioactive Dreams (1986) [] trailer:
+Alien from LA (1988) [] trailer:
 Arachnophobia (1990) [1h49m] trailer: https://youtu.be/Gbuh4K8_K6E
 Nothing But Trouble (1991) [1h34m] trailer: https://youtu.be/DbvIjtP7lxE
 Drive (2011) [1h40m] trailer: https://youtu.be/KBiOF3y1W0Y
@@ -374,6 +364,12 @@ Mad God (2021) [1h23m] trailer: https://youtu.be/jas8OABbn0Y
 Freddy Got Fingered (2001) [1h27m] trailer: 
 Battlefield Earth (2000) [1h57m] trailer: https://youtu.be/XhNuXvlCTTc
 Bugsy Malone (1976) [1h33m] trailer: https://youtu.be/LcnANBlSzm4
+Porky's (1981) [1h34m] trailer: https://youtu.be/QWmtDAIK03M
+Postal (2007) [1h40m] trailer: https://youtu.be/ZKfMhUrjoCI
+Thankskilling (2008) [1h10m] trailer: https://youtu.be/WOjSRoxc6mg
+Evolution (2001) [1h41m] trailer: https://youtu.be/-bDStxV8Tkc
+The Hole (2012) [1h32m] trailer: https://youtu.be/b5VGhWJlG5M
+
 
 #avasarahc5
 Replicas (2019) [1h47m] trailer: https://youtu.be/bKdpGHazAqs
@@ -660,48 +656,49 @@ Bubba Ho Tep (2002) [] trailer:
 
 -05.23.26.|Captain America: The Winter Soldier (2014) [2h16m] trailer: https://youtu.be/7SlILk2WMTI trailer: https://youtu.be/tbayiPxkUMM
 -01.24.26.|X-Men: Days of Future Past (2014) [2h12m] trailer: https://youtu.be/pK2zYHWDZKo trailer: https://youtu.be/6acRHWnfZAE
-Guardians of the Galaxy (2014) [2h1m] trailer: https://youtu.be/d96cjJhvlMA trailer: https://youtu.be/2LIQ2-PZBC8
-Avengers: Age of Ultron (2015) [2h21m] trailer: https://youtu.be/tmeOjFno6Do trailer: https://youtu.be/JAUoeqvedMo
-Ant-Man (2015) [1h57m] trailer: https://youtu.be/pWdKf3MneyI
+-05.30.26.|Guardians of the Galaxy (2014) [2h1m] trailer: https://youtu.be/d96cjJhvlMA trailer: https://youtu.be/2LIQ2-PZBC8
+-06.06.26.|Avengers: Age of Ultron (2015) [2h21m] trailer: https://youtu.be/tmeOjFno6Do trailer: https://youtu.be/JAUoeqvedMo
+-06.13.26.|Ant-Man (2015) [1h57m] trailer: https://youtu.be/pWdKf3MneyI
 -03.21.26.|Fantastic Four (2015) [1h40m] trailer: https://youtu.be/_rRoD28-WgU
 
 #Phase Three
 -01.31.26.|X-Men: Apocalypse (2016) [2h24m] trailer: https://youtu.be/PfBVIHgQbYk trailer: https://youtu.be/Jer8XjMrUB4
 -02.22.26.|Deadpool (2016) [1h48m] trailer: https://youtu.be/ONHBaC-pfsk
-Captain America: Civil War (2016) [] trailer: 
-Doctor Strange (2016) [] trailer: 
+Captain America: Civil War (2016) [2h27m] trailer: https://youtu.be/43NWzay3W4s trailer: https://youtu.be/dKrVegVI0Us
+Dr. Strange (1978) [] trailer: https://youtu.be/u4SWirU14p0
+Doctor Strange (2016) [1h55m] teaser: https://youtu.be/WxwSmlQlt9o trailer: https://youtu.be/h7gvFravm4A
 -02.07.26.|Logan (2017) [2h17m] trailer: https://youtu.be/Div0iP65aZo trailer: https://youtu.be/RH3OxVFvTeg
-Guardians of the Galaxy Vol. 2 (2017) [] trailer: https://youtu.be/wX0aiMVvnvg trailer: https://youtu.be/4hdv_6gl4gk
-Spider-Man: Homecoming (2017) [] trailer: 
-Thor: Ragnarok (2017) [] trailer: 
+Guardians of the Galaxy Vol. 2 (2017) [2h17m] trailer: https://youtu.be/wX0aiMVvnvg trailer: https://youtu.be/4hdv_6gl4gk
+Spider-Man: Homecoming (2017) [2h13m] trailer: 
+Thor: Ragnarok (2017) [2h11m] trailer: 
 
-Venom (2018) [] trailer: 
+Venom (2018) [1h52m] trailer: 
 
-Black Panther (2018) [] trailer: 
+Black Panther (2018) [2h15m] trailer: 
 -02.28.26.|Deadpool 2 (2018) [2h] trailer: https://youtu.be/D86RtevtfrA
-Avengers: Infinity War (2018) [] trailer: 
-Ant-Man and the Wasp (2018) [] trailer: 
+Avengers: Infinity War (2018) [2h29m] trailer: 
+Ant-Man and the Wasp (2018) [1h59m] trailer: 
 -02.14.26.|X-Men: Dark Phoenix (2019) [1h53m] trailer: https://youtu.be/1-q8C_c-nlM
-Captain Marvel (2019) [] trailer: 
-Avengers: Endgame (2019) [] trailer: 
-Spider-Man: Far From Home (2019) [] trailer: 
+Captain Marvel (2019) [2h4m] trailer: 
+Avengers: Endgame (2019) [3h1m] trailer: 
+Spider-Man: Far From Home (2019) [2h9m] trailer: 
 
 #Phase Five
-Guardians of the Galaxy Vol. 3 (2023) [] trailer: https://youtu.be/JqcncLPi9zw trailer: https://youtu.be/qxwt7La3F94 trailer: https://youtu.be/u3V5KDHRQvk
+Guardians of the Galaxy Vol. 3 (2023) [2h30m] trailer: https://youtu.be/JqcncLPi9zw trailer: https://youtu.be/qxwt7La3F94 trailer: https://youtu.be/u3V5KDHRQvk
 
 
 
 #not phase 4 but still marvel
 The New Mutants (2020) [1h34m] trailer: https://youtu.be/W_vJhUAOFpI
-Venom: Let There Be Carnage (2021) [] trailer: 
-Morbius (2022) [] trailer: 
-Madame Web (2024) [] trailer: 
-Kraven the Hunter (2024) [] trailer: 
-the 2 animated movies, optional?
-Spider-Man: Into the Spider-Verse (2018) [] trailer: 
-Spider-Man: Across the Spider-Verse (2023) [] trailer: 
+Venom: Let There Be Carnage (2021) [1h37m] trailer: 
+Morbius (2022) [1h45m] trailer: 
+Madame Web (2024) [1h57m] trailer: 
+Kraven the Hunter (2024) [2h7m] trailer: 
+#the 2 animated movies, optional?
+Spider-Man: Into the Spider-Verse (2018) [1h57m] trailer: 
+Spider-Man: Across the Spider-Verse (2023) [2h20m] trailer: 
 
-Deadpool & Wolverine (2024) [] trailer: 
+Deadpool & Wolverine (2024) [2h8m] trailer: 
 
 
 
@@ -712,7 +709,7 @@ Unforgiven (1992) [2h10m] trailer:
 -03.28.26.|The Quick and the Dead (1995) [1h48m] trailer: https://youtu.be/Lo9cGqmHXhg
 
 
-Trainspotting (1996) [] trailer: https://youtu.be/8LuxOYIpu-I
+Trainspotting (1996) [1h34m] trailer: https://youtu.be/8LuxOYIpu-I
 
 -09.27.25.|Knightriders (1981) [2h26m] trailer: https://youtu.be/ltPyKNm-4QE
 Just One of The Guys (1985) [1h40m] trailer: https://youtu.be/eZv_0oXHfGs
@@ -761,7 +758,7 @@ City Lights (1931) [1h27m] trailer:
 Island of Lost Souls (1932) [1h10m] trailer: 
 I Am a Fugitive from a Chain Gang (1932) [1h32m] trailer: 
 Things to Come (1936) [1h32m] trailer:  movie: https://youtu.be/eB_DxSZO6mA
-Shall We Dance (1937) [] trailer: 
+Shall We Dance (1937) [1h49m] trailer: 
 -07.05.25.|Gone With the Wind (1939) [3h42m] trailer: https://youtu.be/0X94oZgJis4 modern: https://youtu.be/h2oX0zQA67U
 
 #1940s
@@ -786,7 +783,7 @@ Robot Monster (1953) [1h6m] trailer:
 Them (1954) [1h34m] trailer:
 20,000 Leagues under the Sea (1954) [2h7m] trailer: 
 #The Creature from the Black Lagoon (1954) [1h19m] trailer: 
-The Court Jester (1955) [1h41m] trailer: https://youtu.be/Pt37TRvU_Mw
+-06.13.26.|The Court Jester (1955) [1h41m] trailer: https://youtu.be/Pt37TRvU_Mw
 The Quatermass Experiment (1955) [1h22m] trailer: 
 This Island Earth (1955) [1h25m] trailer: 
 It Came from Beneath the Sea (1955) [1h19m] trailer: 
@@ -800,7 +797,7 @@ Attack of the 50ft Woman (1958) [1h6m] trailer:
 The Vikings (1958) [1h56m] trailer: 
 The Trollenberg Terror/The Crawling Eye (1958) [1h24m] trailer:
 Battle in Outer Space (1959) [1h30m] trailer: 
-Teenagers from Outer Space (1959) [1h26m] trailer: 
+Teenagers from Outer Space (1959) [1h26m] trailer: https://youtu.be/aJzAGF3XLSo
 
 
 
@@ -950,7 +947,7 @@ Dead Poets Society (1989) [2h8m] trailer: https://youtu.be/ye4KFyWu2do
 Awakenings (1990) [2h1m] trailer: https://youtu.be/7exeVt7CaE4
 The Fisher King (1991) [2h17m] trailer: https://youtu.be/E65wgbFGGeM
 Hook (1991) [2h22m] trailer: https://youtu.be/c-vwgt8cwEM
-Toys (1992) [1h58m] trailer: https://youtu.be/d_vxkIm9z8k
+-Toys (1992) [1h58m] trailer: https://youtu.be/d_vxkIm9z8k
 Mrs Doubtfire (1993) [2h5m] trailer: https://youtu.be/NBZ2ioWBxD8 trailer: https://youtu.be/3euGQ7-brs4
 Jumanji (1995) [1h44m] trailer: 
 -Good Will Hunting (1997) [2h6m] trailer: https://youtu.be/ReIJ1lbL-Q8
@@ -1114,7 +1111,7 @@ Breakfast at Tiffany's (1961) [1h55m] trailer: https://youtu.be/OPQkbvo99Ug mode
 #bollywood
 Pushpa 2: The Rule (2025) [] trailer: https://youtu.be/MSNL6OIr9kU
 
-
+Three Amigos! (1986) [1h44] trailer: https://youtu.be/g9OAjqs6dOo
 
 #Adam Sandler
 Going Overboard (1989) [1h37m] trailer: https://youtu.be/MKNZqnJ0hzU
@@ -1630,10 +1627,10 @@ Space Raiders (1983) [1h24m] trailer: https://youtu.be/XBham6MnKYE
 
 
 -Starman (1984) [1h55m] trailer: https://youtu.be/N_43Zci6Jq4
-Stargate (1994) [1h56m] trailer: https://youtu.be/kiJtZUPvJxY movie: https://youtu.be/u0oFZ8LAFkk
+Stargate (1994) [1h56m] trailer: https://youtu.be/kiJtZUPvJxY
 Steel Dawn (1987) [1h40m] trailer: https://youtu.be/uhqY4NxLKFw
-Strange Invaders (1983) [1h34m] https://youtu.be/XvQGWDh9ybQ
--Stripes (1981) [1h46m] https://youtu.be/mV9kxSK_-0I
+Strange Invaders (1983) [1h34m] trailer: https://youtu.be/XvQGWDh9ybQ
+-Stripes (1981) [1h46m] trailer:  https://youtu.be/mV9kxSK_-0I
 -Tron (1982) [1h36m] trailer: https://youtu.be/INv-OQ1clmw https://youtu.be/hMT8tRrEMC4
 -12.14.24.|Trading Places (1983) [1h58m] teaser: https://youtu.be/lhAilpSsL4k trailer: https://youtu.be/vEaXAsbvHV4 modern: https://youtu.be/Fupg2r1EJ9w
 -Coming to America (1988) [1h57m] trailer: https://youtu.be/KFroCRDXw5E modern: https://youtu.be/ZDme5Y5E-bI
@@ -1843,7 +1840,7 @@ Toxic Avenger (1984) [1h22m] trailer: https://youtu.be/sKeONEIskWI
 -01.07.23.|The Naked Gun (1988) [1h26m] trailer: https://youtu.be/xvTfKg9sRR8
 -01.14.23.|The Naked Gun 2 1/2: The Smell of Fear (1991) [1h25m] trailer: https://youtu.be/H4RssRXLWhQ
 -02.11.23.|The Naked Gun 33 1/3: The Final Insult (1994) [1h23m] trailer: https://youtu.be/9BrYBoCk1aw
-Hot Shots (1991) [1h25m] trailer: https://youtu.be/UOBEvekwBvs
+-05.30.26.|Hot Shots (1991) [1h25m] trailer: https://youtu.be/UOBEvekwBvs
 
 #French
 The Closet/ Le Placard (2001) [1h24m] trailer: https://youtu.be/IHyMHzrBN84
