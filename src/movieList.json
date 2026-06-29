@@ -2014,9 +2014,10 @@
  {
   "watched": false,
   "title": "Kwaidan",
+  "year": "1964",
+  "runtime_hm": "3h3m",
   "links": {},
-  "id": "kwaidan-1965",
-  "year": "1965",
+  "id": "kwaidan-1964",
   "dbid": 30959,
   "runtime_m": 183
  },
@@ -4340,7 +4341,7 @@
   "links": {},
   "id": "radioactive-dreams-1986",
   "dbid": 47342,
-  "runtime_m": 98
+  "runtime_m": 94
  },
  {
   "watched": false,
@@ -8200,7 +8201,8 @@
   "runtime_m": 108
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "06.20.26",
   "title": "Captain America: Civil War",
   "year": "2016",
   "runtime_hm": "2h27m",
@@ -8210,16 +8212,30 @@
     "https://youtu.be/dKrVegVI0Us"
    ]
   },
+  "watchdate_arr": [
+   "20260620"
+  ],
   "id": "captain-america-civil-war-2016",
   "dbid": 271110,
   "runtime_m": 147
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "06.27.26",
   "title": "Doctor Strange",
   "year": "2016",
   "runtime_hm": "1h55m",
-  "links": {},
+  "links": {
+   "teaser": [
+    "https://youtu.be/WxwSmlQlt9o"
+   ],
+   "trailer": [
+    "https://youtu.be/h7gvFravm4A"
+   ]
+  },
+  "watchdate_arr": [
+   "20260627"
+  ],
   "id": "doctor-strange-2016",
   "dbid": 284052,
   "runtime_m": 115
@@ -8277,16 +8293,6 @@
   "id": "thor-ragnarok-2017",
   "dbid": 284053,
   "runtime_m": 131
- },
- {
-  "watched": false,
-  "title": "Venom",
-  "year": "2018",
-  "runtime_hm": "1h52m",
-  "links": {},
-  "id": "venom-2018",
-  "dbid": 335983,
-  "runtime_m": 112
  },
  {
   "watched": false,
@@ -8385,6 +8391,78 @@
  },
  {
   "watched": false,
+  "title": "Black Widow",
+  "year": "2021",
+  "links": {},
+  "id": "black-widow-2021",
+  "dbid": 497698,
+  "runtime_m": 134
+ },
+ {
+  "watched": false,
+  "title": "Shang-Chi and the Legend of the Ten Rings",
+  "year": "2021",
+  "links": {},
+  "id": "shang-chi-and-the-legend-of-the-ten-rings-2021",
+  "dbid": 566525,
+  "runtime_m": 132
+ },
+ {
+  "watched": false,
+  "title": "Eternals",
+  "year": "2021",
+  "links": {},
+  "id": "eternals-2021",
+  "dbid": 524434,
+  "runtime_m": 156
+ },
+ {
+  "watched": false,
+  "title": "Spider-Man: No Way Home",
+  "year": "2021",
+  "links": {},
+  "id": "spider-man-no-way-home-2021",
+  "dbid": 634649,
+  "runtime_m": 148
+ },
+ {
+  "watched": false,
+  "title": "Doctor Strange in the Multiverse of Madness",
+  "year": "2022",
+  "links": {},
+  "id": "doctor-strange-in-the-multiverse-of-madness-2022",
+  "dbid": 453395,
+  "runtime_m": 126
+ },
+ {
+  "watched": false,
+  "title": "Thor: Love and Thunder",
+  "year": "2022",
+  "links": {},
+  "id": "thor-love-and-thunder-2022",
+  "dbid": 616037,
+  "runtime_m": 119
+ },
+ {
+  "watched": false,
+  "title": "Black Panther: Wakanda Forever",
+  "year": "2022",
+  "links": {},
+  "id": "black-panther-wakanda-forever-2022",
+  "dbid": 505642,
+  "runtime_m": 162
+ },
+ {
+  "watched": false,
+  "title": "Ant-Man and the Wasp: Quantumania",
+  "year": "2023",
+  "links": {},
+  "id": "ant-man-and-the-wasp-quantumania-2023",
+  "dbid": 640146,
+  "runtime_m": 125
+ },
+ {
+  "watched": false,
   "title": "Guardians of the Galaxy Vol. 3",
   "year": "2023",
   "runtime_hm": "2h30m",
@@ -8401,6 +8479,43 @@
  },
  {
   "watched": false,
+  "title": "The Marvels",
+  "year": "2023",
+  "links": {},
+  "id": "the-marvels-2023",
+  "dbid": 609681,
+  "runtime_m": 105
+ },
+ {
+  "watched": false,
+  "title": "Deadpool & Wolverine",
+  "year": "2024",
+  "runtime_hm": "2h8m",
+  "links": {},
+  "id": "deadpool-wolverine-2024",
+  "dbid": 533535,
+  "runtime_m": 128
+ },
+ {
+  "watched": false,
+  "title": "Captain America: Brave New World",
+  "year": "2025",
+  "links": {},
+  "id": "captain-america-brave-new-world-2025",
+  "dbid": 822119,
+  "runtime_m": 119
+ },
+ {
+  "watched": false,
+  "title": "Thunderbolts*",
+  "year": "2025",
+  "links": {},
+  "id": "thunderbolts-2025",
+  "dbid": 986056,
+  "runtime_m": 127
+ },
+ {
+  "watched": false,
   "title": "The New Mutants",
   "year": "2020",
   "runtime_hm": "1h34m",
@@ -8412,6 +8527,16 @@
   "id": "the-new-mutants-2020",
   "dbid": 340102,
   "runtime_m": 94
+ },
+ {
+  "watched": false,
+  "title": "Venom",
+  "year": "2018",
+  "runtime_hm": "1h52m",
+  "links": {},
+  "id": "venom-2018",
+  "dbid": 335983,
+  "runtime_m": 112
  },
  {
   "watched": false,
@@ -8475,13 +8600,16 @@
  },
  {
   "watched": false,
-  "title": "Deadpool & Wolverine",
-  "year": "2024",
-  "runtime_hm": "2h8m",
-  "links": {},
-  "id": "deadpool-wolverine-2024",
-  "dbid": 533535,
-  "runtime_m": 128
+  "title": "Dr. Strange",
+  "year": "1978",
+  "links": {
+   "trailer": [
+    "https://youtu.be/u4SWirU14p0"
+   ]
+  },
+  "id": "dr-strange-1978",
+  "dbid": 50468,
+  "runtime_m": 93
  },
  {
   "watched": false,
@@ -11084,7 +11212,8 @@
   "runtime_m": 88
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "06.20.26",
   "title": "Blind Fury",
   "year": "1989",
   "runtime_hm": "1h26m",
@@ -11093,6 +11222,9 @@
     "https://youtu.be/rgnlJ38ntQw"
    ]
   },
+  "watchdate_arr": [
+   "20260620"
+  ],
   "id": "blind-fury-1989",
   "dbid": 19124,
   "runtime_m": 86
@@ -11109,6 +11241,19 @@
   "id": "zombeavers-2014",
   "dbid": 254474,
   "runtime_m": 77
+ },
+ {
+  "watched": false,
+  "title": "Where the Heart Is",
+  "year": "1990",
+  "links": {
+   "trailer": [
+    "https://youtu.be/-iOPVK1sH7s"
+   ]
+  },
+  "id": "where-the-heart-is-1990",
+  "dbid": 48864,
+  "runtime_m": 107
  },
  {
   "watched": true,
@@ -12628,7 +12773,7 @@
   },
   "id": "the-wizard-of-speed-and-time-1989",
   "dbid": 44276,
-  "runtime_m": 95
+  "runtime_m": 98
  },
  {
   "watched": false,
@@ -13215,7 +13360,8 @@
   "runtime_m": 201
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "06.27.26",
   "title": "Three Amigos!",
   "year": "1986",
   "links": {
@@ -13223,6 +13369,9 @@
     "https://youtu.be/g9OAjqs6dOo"
    ]
   },
+  "watchdate_arr": [
+   "20260627"
+  ],
   "id": "three-amigos-1986",
   "dbid": 8388,
   "runtime_m": 103
@@ -13641,7 +13790,7 @@
   },
   "id": "the-conversation-1974",
   "dbid": 592,
-  "runtime_m": 114
+  "runtime_m": 115
  },
  {
   "watched": true,
@@ -13959,7 +14108,7 @@
   },
   "id": "sunny-2011",
   "dbid": 77117,
-  "runtime_m": 135
+  "runtime_m": 136
  },
  {
   "watched": false,
@@ -14636,8 +14785,8 @@
    ]
   },
   "id": "redline-2010",
-  "dbid": 71883,
-  "runtime_m": 102
+  "dbid": 16392,
+  "runtime_m": 95
  },
  {
   "watched": true,
@@ -16398,7 +16547,11 @@
   "title": "Men in Black",
   "year": "1997",
   "runtime_hm": "1h38m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/UxUTTrU6PA4"
+   ]
+  },
   "id": "men-in-black-1997",
   "dbid": 607,
   "runtime_m": 98
@@ -16453,7 +16606,7 @@
   },
   "id": "police-story-1985",
   "dbid": 9056,
-  "runtime_m": 101
+  "runtime_m": 99
  },
  {
   "watched": true,
@@ -16622,7 +16775,7 @@
   },
   "id": "city-hunter-1993",
   "dbid": 11198,
-  "runtime_m": 100
+  "runtime_m": 99
  },
  {
   "watched": false,
@@ -17115,7 +17268,7 @@
   },
   "id": "hard-target-1993",
   "dbid": 2019,
-  "runtime_m": 97
+  "runtime_m": 99
  },
  {
   "watched": false,
@@ -18662,6 +18815,22 @@
   "id": "welcome-to-the-rileys-2010",
   "dbid": 31007,
   "runtime_m": 110
+ },
+ {
+  "watched": false,
+  "title": "Barb Wire",
+  "year": "1996",
+  "links": {
+   "trailer": [
+    "https://youtu.be/8bNMwKRVbWA"
+   ],
+   "modern": [
+    "https://youtu.be/GWKo3pSdGpg"
+   ]
+  },
+  "id": "barb-wire-1996",
+  "dbid": 11867,
+  "runtime_m": 98
  },
  {
   "watched": true,
@@ -21106,7 +21275,7 @@
   "links": {},
   "id": "nemesis-1992",
   "dbid": 24230,
-  "runtime_m": 95
+  "runtime_m": 96
  },
  {
   "watched": false,

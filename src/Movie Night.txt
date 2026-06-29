@@ -664,16 +664,12 @@ Bubba Ho Tep (2002) [] trailer:
 #Phase Three
 -01.31.26.|X-Men: Apocalypse (2016) [2h24m] trailer: https://youtu.be/PfBVIHgQbYk trailer: https://youtu.be/Jer8XjMrUB4
 -02.22.26.|Deadpool (2016) [1h48m] trailer: https://youtu.be/ONHBaC-pfsk
-Captain America: Civil War (2016) [2h27m] trailer: https://youtu.be/43NWzay3W4s trailer: https://youtu.be/dKrVegVI0Us
-Dr. Strange (1978) [] trailer: https://youtu.be/u4SWirU14p0
-Doctor Strange (2016) [1h55m] teaser: https://youtu.be/WxwSmlQlt9o trailer: https://youtu.be/h7gvFravm4A
+-06.20.26.|Captain America: Civil War (2016) [2h27m] trailer: https://youtu.be/43NWzay3W4s trailer: https://youtu.be/dKrVegVI0Us
+-06.27.26.|Doctor Strange (2016) [1h55m] teaser: https://youtu.be/WxwSmlQlt9o trailer: https://youtu.be/h7gvFravm4A
 -02.07.26.|Logan (2017) [2h17m] trailer: https://youtu.be/Div0iP65aZo trailer: https://youtu.be/RH3OxVFvTeg
 Guardians of the Galaxy Vol. 2 (2017) [2h17m] trailer: https://youtu.be/wX0aiMVvnvg trailer: https://youtu.be/4hdv_6gl4gk
 Spider-Man: Homecoming (2017) [2h13m] trailer: 
 Thor: Ragnarok (2017) [2h11m] trailer: 
-
-Venom (2018) [1h52m] trailer: 
-
 Black Panther (2018) [2h15m] trailer: 
 -02.28.26.|Deadpool 2 (2018) [2h] trailer: https://youtu.be/D86RtevtfrA
 Avengers: Infinity War (2018) [2h29m] trailer: 
@@ -683,13 +679,26 @@ Captain Marvel (2019) [2h4m] trailer:
 Avengers: Endgame (2019) [3h1m] trailer: 
 Spider-Man: Far From Home (2019) [2h9m] trailer: 
 
+#Phase Four
+Black Widow (2021) [] trailer: 
+Shang-Chi and the Legend of the Ten Rings (2021) [] trailer: 
+Eternals (2021) [] trailer: 
+Spider-Man: No Way Home (2021) [] trailer: 
+Doctor Strange in the Multiverse of Madness (2022) [] trailer: 
+Thor: Love and Thunder (2022) [] trailer: 
+Black Panther: Wakanda Forever (2022) [] trailer: 
+
 #Phase Five
+Ant-Man and the Wasp: Quantumania (2023) [] trailer: 
 Guardians of the Galaxy Vol. 3 (2023) [2h30m] trailer: https://youtu.be/JqcncLPi9zw trailer: https://youtu.be/qxwt7La3F94 trailer: https://youtu.be/u3V5KDHRQvk
+The Marvels (2023) [] trailer: 
+Deadpool & Wolverine (2024) [2h8m] trailer: 
+Captain America: Brave New World (2025) [] trailer: 
+Thunderbolts* (2025) [] trailer: 
 
-
-
-#not phase 4 but still marvel
+#not any phase but still marvel
 The New Mutants (2020) [1h34m] trailer: https://youtu.be/W_vJhUAOFpI
+Venom (2018) [1h52m] trailer: 
 Venom: Let There Be Carnage (2021) [1h37m] trailer: 
 Morbius (2022) [1h45m] trailer: 
 Madame Web (2024) [1h57m] trailer: 
@@ -697,8 +706,8 @@ Kraven the Hunter (2024) [2h7m] trailer:
 #the 2 animated movies, optional?
 Spider-Man: Into the Spider-Verse (2018) [1h57m] trailer: 
 Spider-Man: Across the Spider-Verse (2023) [2h20m] trailer: 
+Dr. Strange (1978) [] trailer: https://youtu.be/u4SWirU14p0
 
-Deadpool & Wolverine (2024) [2h8m] trailer: 
 
 
 
@@ -926,10 +935,11 @@ Leon the Professional (1994) [1h50m] trailer: https://youtu.be/aNQqoExfQsg
 Men With Brooms (2002) [1h42m] trailer: 
 Suburban Commando (1991) [1h30m] trailer: https://youtu.be/CwwXrgvzIc4 trailer: https://youtu.be/7zlvyiB6_2w
 
-Blind Fury (1989) [1h26m] trailer: https://youtu.be/rgnlJ38ntQw
+-06.20.26.|Blind Fury (1989) [1h26m] trailer: https://youtu.be/rgnlJ38ntQw
 
 Zombeavers (2014) [] trailer: https://youtu.be/7onFrBK_hKE
 
+Where the Heart Is (1990) [] trailer: https://youtu.be/-iOPVK1sH7s
 
 -09.28.24.|Children of Men (2006) [1h49m] trailer: https://youtu.be/3CdJYhtjEns
 -09.14.24.|Waiting for Godot (2001) [2h] trailer: https://youtu.be/dP7b-ITmAEA movie: https://youtu.be/izX5dIzI2RE
@@ -1111,7 +1121,7 @@ Breakfast at Tiffany's (1961) [1h55m] trailer: https://youtu.be/OPQkbvo99Ug mode
 #bollywood
 Pushpa 2: The Rule (2025) [] trailer: https://youtu.be/MSNL6OIr9kU
 
-Three Amigos! (1986) [1h44] trailer: https://youtu.be/g9OAjqs6dOo
+-06.27.26.|Three Amigos! (1986) [1h44] trailer: https://youtu.be/g9OAjqs6dOo
 
 #Adam Sandler
 Going Overboard (1989) [1h37m] trailer: https://youtu.be/MKNZqnJ0hzU
@@ -1403,7 +1413,7 @@ Jay and Silent Bob Reboot (2019) [1h45m] https://youtu.be/MyQyEvX9eaY
 
 -Cannibal Women in the Avocado Jungle of Death (1989) [1h29m] https://youtu.be/Hwy_-rV3ksY
 
-Men in Black (1997) [1h38m] trailer: 
+Men in Black (1997) [1h38m] trailer: https://youtu.be/UxUTTrU6PA4
 
 #Sean Connery
 -Outland (1981) [1h52m] trailer: https://youtu.be/g0ua0Z5duXU modern: https://youtu.be/Z7OzKVHzfiI
@@ -1595,7 +1605,7 @@ Where is the Friend's Home? (1987) [] trailer:
 
 
 Welcome to The Rileys (2010) [] trailer: 
-
+Barb Wire (1996) [] trailer: https://youtu.be/8bNMwKRVbWA modern: https://youtu.be/GWKo3pSdGpg
 
 -1.21.23.|Spartacus (1960) [3h17m] trailer: https://youtu.be/5QH6t8ptijY
 -Runaway (1985) [1h39m] trailer: https://youtu.be/zCZY9Z6WvSY modern: https://youtu.be/Vn0BAP6kdDE
