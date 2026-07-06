@@ -6228,7 +6228,7 @@
   },
   "id": "beverly-hills-cop-axel-f-2024",
   "dbid": 280180,
-  "runtime_m": 115
+  "runtime_m": 118
  },
  {
   "watched": true,
@@ -8260,7 +8260,8 @@
   "runtime_m": 137
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "07.04.26",
   "title": "Guardians of the Galaxy Vol. 2",
   "year": "2017",
   "runtime_hm": "2h17m",
@@ -8270,6 +8271,9 @@
     "https://youtu.be/4hdv_6gl4gk"
    ]
   },
+  "watchdate_arr": [
+   "20260704"
+  ],
   "id": "guardians-of-the-galaxy-vol-2-2017",
   "dbid": 283995,
   "runtime_m": 137
@@ -8279,7 +8283,12 @@
   "title": "Spider-Man: Homecoming",
   "year": "2017",
   "runtime_hm": "2h13m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/rk-dF1lIbIg",
+    "https://youtu.be/DiTECkLZ8HM"
+   ]
+  },
   "id": "spider-man-homecoming-2017",
   "dbid": 315635,
   "runtime_m": 133
@@ -8289,7 +8298,12 @@
   "title": "Thor: Ragnarok",
   "year": "2017",
   "runtime_hm": "2h11m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/ue80QwXMRHg",
+    "https://youtu.be/JBxQ_XYQJhc"
+   ]
+  },
   "id": "thor-ragnarok-2017",
   "dbid": 284053,
   "runtime_m": 131
@@ -8299,7 +8313,12 @@
   "title": "Black Panther",
   "year": "2018",
   "runtime_hm": "2h15m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/dxWvtMOGAhw",
+    "https://youtu.be/xjDjIWPwcPU"
+   ]
+  },
   "id": "black-panther-2018",
   "dbid": 284054,
   "runtime_m": 135
@@ -8326,7 +8345,12 @@
   "title": "Avengers: Infinity War",
   "year": "2018",
   "runtime_hm": "2h29m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/6ZfuNTqbHE8",
+    "https://youtu.be/QwievZ1Tx-8"
+   ]
+  },
   "id": "avengers-infinity-war-2018",
   "dbid": 299536,
   "runtime_m": 149
@@ -8336,7 +8360,12 @@
   "title": "Ant-Man and the Wasp",
   "year": "2018",
   "runtime_hm": "1h59m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/8_rTIAOohas",
+    "https://youtu.be/UUkn-enk2RU"
+   ]
+  },
   "id": "ant-man-and-the-wasp-2018",
   "dbid": 363088,
   "runtime_m": 119
@@ -8364,7 +8393,12 @@
   "title": "Captain Marvel",
   "year": "2019",
   "runtime_hm": "2h4m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/Z1BCujX3pw8",
+    "https://youtu.be/0LHxvxdRnYc"
+   ]
+  },
   "id": "captain-marvel-2019",
   "dbid": 299537,
   "runtime_m": 124
@@ -8374,7 +8408,12 @@
   "title": "Avengers: Endgame",
   "year": "2019",
   "runtime_hm": "3h1m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/TcMBFSGVi1c",
+    "https://youtu.be/hA6hldpSTF8"
+   ]
+  },
   "id": "avengers-endgame-2019",
   "dbid": 299534,
   "runtime_m": 181
@@ -8384,7 +8423,13 @@
   "title": "Spider-Man: Far From Home",
   "year": "2019",
   "runtime_hm": "2h9m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/LFoz8ZJWmPs",
+    "https://youtu.be/DYYtuKyMtY8",
+    "https://youtu.be/V38cLTYYXNw"
+   ]
+  },
   "id": "spider-man-far-from-home-2019",
   "dbid": 429617,
   "runtime_m": 129
@@ -8393,7 +8438,14 @@
   "watched": false,
   "title": "Black Widow",
   "year": "2021",
-  "links": {},
+  "runtime_hm": "2h14m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/ybji16u608U",
+    "https://youtu.be/RxAtuMu_ph4",
+    "https://youtu.be/Fp9pNPdNwjI"
+   ]
+  },
   "id": "black-widow-2021",
   "dbid": 497698,
   "runtime_m": 134
@@ -8402,6 +8454,7 @@
   "watched": false,
   "title": "Shang-Chi and the Legend of the Ten Rings",
   "year": "2021",
+  "runtime_hm": "2h12m",
   "links": {},
   "id": "shang-chi-and-the-legend-of-the-ten-rings-2021",
   "dbid": 566525,
@@ -8411,6 +8464,7 @@
   "watched": false,
   "title": "Eternals",
   "year": "2021",
+  "runtime_hm": "2h36m",
   "links": {},
   "id": "eternals-2021",
   "dbid": 524434,
@@ -8420,6 +8474,7 @@
   "watched": false,
   "title": "Spider-Man: No Way Home",
   "year": "2021",
+  "runtime_hm": "2h28m",
   "links": {},
   "id": "spider-man-no-way-home-2021",
   "dbid": 634649,
@@ -8429,6 +8484,7 @@
   "watched": false,
   "title": "Doctor Strange in the Multiverse of Madness",
   "year": "2022",
+  "runtime_hm": "2h6m",
   "links": {},
   "id": "doctor-strange-in-the-multiverse-of-madness-2022",
   "dbid": 453395,
@@ -8438,6 +8494,7 @@
   "watched": false,
   "title": "Thor: Love and Thunder",
   "year": "2022",
+  "runtime_hm": "1h59m",
   "links": {},
   "id": "thor-love-and-thunder-2022",
   "dbid": 616037,
@@ -8447,7 +8504,13 @@
   "watched": false,
   "title": "Black Panther: Wakanda Forever",
   "year": "2022",
-  "links": {},
+  "runtime_hm": "2h42m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/RlOB3UALvrQ",
+    "https://youtu.be/_Z3QKkl1WyM"
+   ]
+  },
   "id": "black-panther-wakanda-forever-2022",
   "dbid": 505642,
   "runtime_m": 162
@@ -8456,7 +8519,13 @@
   "watched": false,
   "title": "Ant-Man and the Wasp: Quantumania",
   "year": "2023",
-  "links": {},
+  "runtime_hm": "2h5m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/5WfTEZJnv_8",
+    "https://youtu.be/ZlNFpri-Y40"
+   ]
+  },
   "id": "ant-man-and-the-wasp-quantumania-2023",
   "dbid": 640146,
   "runtime_m": 125
@@ -8481,7 +8550,12 @@
   "watched": false,
   "title": "The Marvels",
   "year": "2023",
-  "links": {},
+  "runtime_hm": "1h45m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/wS_qbDztgVY"
+   ]
+  },
   "id": "the-marvels-2023",
   "dbid": 609681,
   "runtime_m": 105
@@ -8500,6 +8574,7 @@
   "watched": false,
   "title": "Captain America: Brave New World",
   "year": "2025",
+  "runtime_hm": "1h59m",
   "links": {},
   "id": "captain-america-brave-new-world-2025",
   "dbid": 822119,
@@ -8509,6 +8584,7 @@
   "watched": false,
   "title": "Thunderbolts*",
   "year": "2025",
+  "runtime_hm": "2h7m",
   "links": {},
   "id": "thunderbolts-2025",
   "dbid": 986056,
@@ -9197,7 +9273,8 @@
   "runtime_m": 101
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "07.04.26",
   "title": "The Fall",
   "year": "2006",
   "runtime_hm": "1h57m",
@@ -9206,6 +9283,9 @@
     "https://youtu.be/OTn5XUFP_iA"
    ]
   },
+  "watchdate_arr": [
+   "20260704"
+  ],
   "id": "the-fall-2006",
   "dbid": 14784,
   "runtime_m": 117
@@ -12908,7 +12988,7 @@
   },
   "id": "my-fair-lady-1964",
   "dbid": 11113,
-  "runtime_m": 170
+  "runtime_m": 173
  },
  {
   "watched": false,
@@ -15037,6 +15117,32 @@
  },
  {
   "watched": false,
+  "title": "Demon City Shinjuku",
+  "year": "1988",
+  "links": {
+   "trailer": [
+    "https://youtu.be/BaPCcn9H378"
+   ]
+  },
+  "id": "demon-city-shinjuku-1988",
+  "dbid": 44179,
+  "runtime_m": 80
+ },
+ {
+  "watched": false,
+  "title": "Memories",
+  "links": {
+   "trailer": [
+    "https://youtu.be/NTyRMfdDfc8"
+   ]
+  },
+  "id": "memories-1995",
+  "year": "1995",
+  "dbid": 42994,
+  "runtime_m": 113
+ },
+ {
+  "watched": false,
   "title": "Metropolis",
   "year": "2001",
   "runtime_hm": "1h47m",
@@ -16606,7 +16712,7 @@
   },
   "id": "police-story-1985",
   "dbid": 9056,
-  "runtime_m": 99
+  "runtime_m": 100
  },
  {
   "watched": true,
@@ -18689,7 +18795,7 @@
   ],
   "id": "scarface-1983",
   "dbid": 111,
-  "runtime_m": 170
+  "runtime_m": 169
  },
  {
   "watched": true,
@@ -18820,6 +18926,7 @@
   "watched": false,
   "title": "Barb Wire",
   "year": "1996",
+  "runtime_hm": "1h38m",
   "links": {
    "trailer": [
     "https://youtu.be/8bNMwKRVbWA"
