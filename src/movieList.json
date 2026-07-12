@@ -4262,6 +4262,16 @@
  },
  {
   "watched": false,
+  "title": "Never Too Young to Die",
+  "year": "1986",
+  "runtime_hm": "1h32m",
+  "links": {},
+  "id": "never-too-young-to-die-1986",
+  "dbid": 27408,
+  "runtime_m": 92
+ },
+ {
+  "watched": false,
   "title": "Resort to Kill (Immortal Combat)",
   "year": "1994",
   "runtime_hm": "1h49m",
@@ -5477,7 +5487,8 @@
   "runtime_hm": "1h53m",
   "links": {
    "trailer": [
-    "https://youtu.be/BD5ofrSNDFA"
+    "https://youtu.be/BD5ofrSNDFA",
+    "https://youtu.be/IBLKb8GSjW4"
    ]
   },
   "id": "falling-down-1993",
@@ -6586,6 +6597,20 @@
   "links": {},
   "id": "armed-and-dangerous-1986",
   "dbid": 2620,
+  "runtime_m": 88
+ },
+ {
+  "watched": false,
+  "title": "The Perils of Gwendoline in the Land of the Yik Yak",
+  "year": "1984",
+  "runtime_hm": "1h27m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/Y8oBgxm9B10"
+   ]
+  },
+  "id": "the-perils-of-gwendoline-in-the-land-of-the-yik-yak-1984",
+  "dbid": 19400,
   "runtime_m": 88
  },
  {
@@ -8279,7 +8304,8 @@
   "runtime_m": 137
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "07.11.26",
   "title": "Spider-Man: Homecoming",
   "year": "2017",
   "runtime_hm": "2h13m",
@@ -8289,6 +8315,9 @@
     "https://youtu.be/DiTECkLZ8HM"
    ]
   },
+  "watchdate_arr": [
+   "20260711"
+  ],
   "id": "spider-man-homecoming-2017",
   "dbid": 315635,
   "runtime_m": 133
@@ -8455,7 +8484,13 @@
   "title": "Shang-Chi and the Legend of the Ten Rings",
   "year": "2021",
   "runtime_hm": "2h12m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/8YjFbMbfXaQ",
+    "https://youtu.be/giWIr7U1deA",
+    "https://youtu.be/MfVyikMrJ_o"
+   ]
+  },
   "id": "shang-chi-and-the-legend-of-the-ten-rings-2021",
   "dbid": 566525,
   "runtime_m": 132
@@ -8465,7 +8500,12 @@
   "title": "Eternals",
   "year": "2021",
   "runtime_hm": "2h36m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/x_me3xsvDgk",
+    "https://youtu.be/0WVDKZJkGlY"
+   ]
+  },
   "id": "eternals-2021",
   "dbid": 524434,
   "runtime_m": 156
@@ -8475,7 +8515,12 @@
   "title": "Spider-Man: No Way Home",
   "year": "2021",
   "runtime_hm": "2h28m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/rt-2cxAiPJk",
+    "https://youtu.be/JfVOs4VSpmA"
+   ]
+  },
   "id": "spider-man-no-way-home-2021",
   "dbid": 634649,
   "runtime_m": 148
@@ -8589,6 +8634,28 @@
   "id": "thunderbolts-2025",
   "dbid": 986056,
   "runtime_m": 127
+ },
+ {
+  "watched": false,
+  "title": "The Fantastic Four: First Steps",
+  "year": "2025",
+  "links": {},
+  "id": "the-fantastic-four-first-steps-2025",
+  "dbid": 617126,
+  "runtime_m": 115
+ },
+ {
+  "watched": false,
+  "title": "Spider-Man: Brand New Day",
+  "year": "2026",
+  "links": {
+   "trailer": [
+    "https://youtu.be/62bIsvRcPv0"
+   ]
+  },
+  "id": "spider-man-brand-new-day-2026",
+  "dbid": 969681,
+  "runtime_m": 144
  },
  {
   "watched": false,
@@ -12582,7 +12649,8 @@
   "runtime_m": 112
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "07.11.26",
   "title": "The Big Lebowski",
   "year": "1998",
   "runtime_hm": "1h57m",
@@ -12591,6 +12659,9 @@
     "https://youtu.be/cd-go0oBF4Y"
    ]
   },
+  "watchdate_arr": [
+   "20260711"
+  ],
   "id": "the-big-lebowski-1998",
   "dbid": 115,
   "runtime_m": 117
@@ -13437,7 +13508,7 @@
   },
   "id": "pushpa-2-the-rule-2025",
   "dbid": 857598,
-  "runtime_m": 201
+  "runtime_m": 225
  },
  {
   "watched": true,
@@ -15119,6 +15190,7 @@
   "watched": false,
   "title": "Demon City Shinjuku",
   "year": "1988",
+  "runtime_hm": "1h20m",
   "links": {
    "trailer": [
     "https://youtu.be/BaPCcn9H378"
@@ -15131,13 +15203,14 @@
  {
   "watched": false,
   "title": "Memories",
+  "year": "1995",
+  "runtime_hm": "1h53m",
   "links": {
    "trailer": [
     "https://youtu.be/NTyRMfdDfc8"
    ]
   },
   "id": "memories-1995",
-  "year": "1995",
   "dbid": 42994,
   "runtime_m": 113
  },
@@ -16712,7 +16785,7 @@
   },
   "id": "police-story-1985",
   "dbid": 9056,
-  "runtime_m": 100
+  "runtime_m": 99
  },
  {
   "watched": true,
@@ -17420,7 +17493,7 @@
   },
   "id": "once-a-thief-1991",
   "dbid": 47423,
-  "runtime_m": 109
+  "runtime_m": 108
  },
  {
   "watched": true,
@@ -18795,7 +18868,7 @@
   ],
   "id": "scarface-1983",
   "dbid": 111,
-  "runtime_m": 169
+  "runtime_m": 170
  },
  {
   "watched": true,
@@ -21312,7 +21385,7 @@
   "links": {},
   "id": "hardware-1990",
   "dbid": 11309,
-  "runtime_m": 93
+  "runtime_m": 94
  },
  {
   "watched": false,
