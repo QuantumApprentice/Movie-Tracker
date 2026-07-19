@@ -3429,7 +3429,7 @@
   },
   "id": "the-people-under-the-stairs-1991",
   "dbid": 13122,
-  "runtime_m": 103
+  "runtime_m": 102
  },
  {
   "watched": false,
@@ -4265,7 +4265,11 @@
   "title": "Never Too Young to Die",
   "year": "1986",
   "runtime_hm": "1h32m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/F4o4bQiBYt8"
+   ]
+  },
   "id": "never-too-young-to-die-1986",
   "dbid": 27408,
   "runtime_m": 92
@@ -8323,7 +8327,8 @@
   "runtime_m": 133
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "07.18.26",
   "title": "Thor: Ragnarok",
   "year": "2017",
   "runtime_hm": "2h11m",
@@ -8333,6 +8338,9 @@
     "https://youtu.be/JBxQ_XYQJhc"
    ]
   },
+  "watchdate_arr": [
+   "20260718"
+  ],
   "id": "thor-ragnarok-2017",
   "dbid": 284053,
   "runtime_m": 131
@@ -8655,7 +8663,7 @@
   },
   "id": "spider-man-brand-new-day-2026",
   "dbid": 969681,
-  "runtime_m": 144
+  "runtime_m": 145
  },
  {
   "watched": false,
@@ -9447,7 +9455,7 @@
   ],
   "id": "gone-with-the-wind-1939",
   "dbid": 770,
-  "runtime_m": 233
+  "runtime_m": 238
  },
  {
   "watched": false,
@@ -15188,6 +15196,20 @@
  },
  {
   "watched": false,
+  "title": "Gandahar",
+  "year": "1987",
+  "runtime_hm": "1h18m",
+  "links": {
+   "modern": [
+    "https://youtu.be/u55roqzrOwQ"
+   ]
+  },
+  "id": "gandahar-1987",
+  "dbid": 22500,
+  "runtime_m": 83
+ },
+ {
+  "watched": false,
   "title": "Demon City Shinjuku",
   "year": "1988",
   "runtime_hm": "1h20m",
@@ -16986,6 +17008,7 @@
  },
  {
   "watched": true,
+  "watchdate": "07.18.26",
   "title": "Fight Club",
   "year": "1999",
   "runtime_hm": "2h19m",
@@ -16994,6 +17017,9 @@
     "https://youtu.be/6JnN1DmbqoU"
    ]
   },
+  "watchdate_arr": [
+   "20260718"
+  ],
   "id": "fight-club-1999",
   "dbid": 550,
   "runtime_m": 139
@@ -21691,7 +21717,7 @@
   },
   "id": "toxic-avenger-1984",
   "dbid": 15239,
-  "runtime_m": 82
+  "runtime_m": 110
  },
  {
   "watched": true,
@@ -22135,7 +22161,7 @@
   ],
   "id": "the-muppet-christmas-carol-1992",
   "dbid": 10437,
-  "runtime_m": 86
+  "runtime_m": 89
  },
  {
   "watched": true,

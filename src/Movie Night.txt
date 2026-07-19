@@ -670,7 +670,7 @@ Bubba Ho Tep (2002) [] trailer:
 -02.07.26.|Logan (2017) [2h17m] trailer: https://youtu.be/Div0iP65aZo trailer: https://youtu.be/RH3OxVFvTeg
 -07.04.26.|Guardians of the Galaxy Vol. 2 (2017) [2h17m] trailer: https://youtu.be/wX0aiMVvnvg trailer: https://youtu.be/4hdv_6gl4gk
 -07.11.26.|Spider-Man: Homecoming (2017) [2h13m] trailer: https://youtu.be/rk-dF1lIbIg trailer: https://youtu.be/DiTECkLZ8HM
-Thor: Ragnarok (2017) [2h11m] trailer: https://youtu.be/ue80QwXMRHg trailer: https://youtu.be/JBxQ_XYQJhc
+-07.18.26.|Thor: Ragnarok (2017) [2h11m] trailer: https://youtu.be/ue80QwXMRHg trailer: https://youtu.be/JBxQ_XYQJhc
 Black Panther (2018) [2h15m] trailer: https://youtu.be/dxWvtMOGAhw trailer: https://youtu.be/xjDjIWPwcPU
 -02.28.26.|Deadpool 2 (2018) [2h] trailer: https://youtu.be/D86RtevtfrA
 Avengers: Infinity War (2018) [2h29m] trailer: https://youtu.be/6ZfuNTqbHE8 trailer: https://youtu.be/QwievZ1Tx-8
@@ -1279,6 +1279,7 @@ Captain Harlock: Arcadia of My Youth (1982) [2h10m] trailer: https://youtu.be/r0
 Space Pirate Captain Harlock (2013) [1h55m] trailer: https://youtu.be/1vdw0If6Zzg
 -05.13.23./04.18.26.|Ghost in the Shell (1995) [1h22m] trailer: https://youtu.be/8RF09G8Ymqg
 Ninja Scroll (1993) [1h39m] trailer: https://youtu.be/fwc7wNCvDs4 short: https://youtu.be/U4H32pFc-Qk
+Gandahar (1987) [1h18m] modern: https://youtu.be/u55roqzrOwQ
 Demon City Shinjuku (1988) [1h20m] trailer: https://youtu.be/BaPCcn9H378
 Memories (1995) [1h53m] trailer: https://youtu.be/NTyRMfdDfc8
 Metropolis (2001) [1h47m] trailer: https://youtu.be/lj9ruL8B310
@@ -1446,7 +1447,7 @@ Thunderbolt (1995) [1h50m] movie: https://youtu.be/2c19fdanuVo
 The Medallion (2003) [1h28m] trailer: https://youtu.be/IfpNtRuoR-E
 
 #New Years
--Fight Club (1999) [2h19m] trailer: https://youtu.be/6JnN1DmbqoU
+-07.18.26.|Fight Club (1999) [2h19m] trailer: https://youtu.be/6JnN1DmbqoU
 -They Live (1988) [1h33m] trailer: https://youtu.be/PeB3vdxF_jM
 -Strange Days (1995) [2h25m] trailer: https://youtu.be/I_CRzVM1GuM
 
