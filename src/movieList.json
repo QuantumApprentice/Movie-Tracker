@@ -8346,7 +8346,8 @@
   "runtime_m": 131
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "07.25.26",
   "title": "Black Panther",
   "year": "2018",
   "runtime_hm": "2h15m",
@@ -8356,6 +8357,9 @@
     "https://youtu.be/xjDjIWPwcPU"
    ]
   },
+  "watchdate_arr": [
+   "20260725"
+  ],
   "id": "black-panther-2018",
   "dbid": 284054,
   "runtime_m": 135
@@ -15210,6 +15214,20 @@
  },
  {
   "watched": false,
+  "title": "The Time Masters",
+  "year": "1982",
+  "runtime_hm": "1h18m",
+  "links": {
+   "modern": [
+    "https://youtu.be/D4f4tprXSiA"
+   ]
+  },
+  "id": "the-time-masters-1982",
+  "dbid": 22501,
+  "runtime_m": 80
+ },
+ {
+  "watched": false,
   "title": "Demon City Shinjuku",
   "year": "1988",
   "runtime_hm": "1h20m",
@@ -19501,7 +19519,8 @@
   "runtime_m": 115
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "07.25.26",
   "title": "Stargate",
   "year": "1994",
   "runtime_hm": "1h56m",
@@ -19510,6 +19529,9 @@
     "https://youtu.be/kiJtZUPvJxY"
    ]
   },
+  "watchdate_arr": [
+   "20260725"
+  ],
   "id": "stargate-1994",
   "dbid": 2164,
   "runtime_m": 121
