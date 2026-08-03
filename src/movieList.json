@@ -3484,7 +3484,7 @@
   },
   "id": "the-rocky-horror-picture-show-1975",
   "dbid": 36685,
-  "runtime_m": 100
+  "runtime_m": 99
  },
  {
   "watched": true,
@@ -7461,7 +7461,7 @@
   ],
   "id": "the-majestic-2001",
   "dbid": 11086,
-  "runtime_m": 152
+  "runtime_m": 153
  },
  {
   "watched": false,
@@ -8382,7 +8382,8 @@
   "runtime_m": 120
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "08.01.26",
   "title": "Avengers: Infinity War",
   "year": "2018",
   "runtime_hm": "2h29m",
@@ -8392,6 +8393,9 @@
     "https://youtu.be/QwievZ1Tx-8"
    ]
   },
+  "watchdate_arr": [
+   "20260801"
+  ],
   "id": "avengers-infinity-war-2018",
   "dbid": 299536,
   "runtime_m": 149
@@ -12072,15 +12076,19 @@
   "runtime_m": 101
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "08.01.26",
   "title": "Hackers",
   "year": "1995",
   "runtime_hm": "1h47m",
   "links": {
-   "movie": [
-    "https://youtu.be/5T_CqqjOPDc"
+   "trailer": [
+    "https://youtu.be/piI9vJ9-UZ0"
    ]
   },
+  "watchdate_arr": [
+   "20260801"
+  ],
   "id": "hackers-1995",
   "dbid": 10428,
   "runtime_m": 105
