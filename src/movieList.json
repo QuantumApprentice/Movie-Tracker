@@ -2480,7 +2480,7 @@
   },
   "id": "nosferatu-1922",
   "dbid": 653,
-  "runtime_m": 89
+  "runtime_m": 94
  },
  {
   "watched": false,
@@ -2574,7 +2574,7 @@
    ]
   },
   "id": "orca-1977",
-  "dbid": 12707,
+  "dbid": 157209,
   "runtime_m": 92
  },
  {
@@ -3074,8 +3074,8 @@
    ]
   },
   "id": "tales-from-the-darkside-1990",
-  "dbid": 285798,
-  "runtime_m": 90
+  "dbid": 20701,
+  "runtime_m": 93
  },
  {
   "watched": true,
@@ -3484,7 +3484,7 @@
   },
   "id": "the-rocky-horror-picture-show-1975",
   "dbid": 36685,
-  "runtime_m": 99
+  "runtime_m": 100
  },
  {
   "watched": true,
@@ -3675,7 +3675,7 @@
   },
   "id": "village-of-the-damned-1995",
   "dbid": 12122,
-  "runtime_m": 99
+  "runtime_m": 98
  },
  {
   "watched": false,
@@ -3917,9 +3917,6 @@
   "year": "1992",
   "runtime_hm": "2h6m",
   "links": {
-   "trailer": [
-    "https://youtu.be/zg5yUvMgoWE"
-   ],
    "modern": [
     "https://youtu.be/rzbNyLaizE0"
    ],
@@ -3974,6 +3971,24 @@
   "id": "see-no-evil-hear-no-evil-1989",
   "dbid": 11185,
   "runtime_m": 102
+ },
+ {
+  "watched": true,
+  "watchdate": "09.12.26",
+  "title": "Zatoichi",
+  "year": "2003",
+  "runtime_hm": "1h56m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/hfMSfvmUPH8"
+   ]
+  },
+  "watchdate_arr": [
+   "20260912"
+  ],
+  "id": "zatoichi-2003",
+  "dbid": 246,
+  "runtime_m": 116
  },
  {
   "watched": true,
@@ -4032,7 +4047,7 @@
   "links": {},
   "id": "true-romance-1993",
   "dbid": 319,
-  "runtime_m": 121
+  "runtime_m": 119
  },
  {
   "watched": false,
@@ -4134,6 +4149,19 @@
   "links": {},
   "id": "cube2-hypercube-2002",
   "dbid": 437,
+  "runtime_m": 94
+ },
+ {
+  "watched": false,
+  "title": "High Anxiety",
+  "year": "1977",
+  "links": {
+   "trailer": [
+    "https://youtu.be/QrtPz_ziwds"
+   ]
+  },
+  "id": "high-anxiety-1977",
+  "dbid": 12535,
   "runtime_m": 94
  },
  {
@@ -4261,7 +4289,8 @@
   "runtime_m": 123
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "09.06.26",
   "title": "Never Too Young to Die",
   "year": "1986",
   "runtime_hm": "1h32m",
@@ -4270,6 +4299,9 @@
     "https://youtu.be/F4o4bQiBYt8"
    ]
   },
+  "watchdate_arr": [
+   "20260906"
+  ],
   "id": "never-too-young-to-die-1986",
   "dbid": 27408,
   "runtime_m": 92
@@ -4654,7 +4686,7 @@
   },
   "id": "battlefield-earth-2000",
   "dbid": 5491,
-  "runtime_m": 119
+  "runtime_m": 117
  },
  {
   "watched": false,
@@ -5341,7 +5373,8 @@
   "runtime_m": 86
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "08.29.26",
   "title": "Dude, Where's My Car?",
   "year": "2000",
   "runtime_hm": "1h23m",
@@ -5350,6 +5383,9 @@
     "https://youtu.be/jH_nkW3QtFg"
    ]
   },
+  "watchdate_arr": [
+   "20260829"
+  ],
   "id": "dude-wheres-my-car-2000",
   "dbid": 8859,
   "runtime_m": 83
@@ -5461,8 +5497,8 @@
   "runtime_hm": "1h42m",
   "links": {},
   "id": "running-1979",
-  "dbid": 146322,
-  "runtime_m": 102
+  "dbid": 811,
+  "runtime_m": 89
  },
  {
   "watched": false,
@@ -6604,7 +6640,8 @@
   "runtime_m": 88
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "08.08.26",
   "title": "The Perils of Gwendoline in the Land of the Yik Yak",
   "year": "1984",
   "runtime_hm": "1h27m",
@@ -6613,6 +6650,9 @@
     "https://youtu.be/Y8oBgxm9B10"
    ]
   },
+  "watchdate_arr": [
+   "20260808"
+  ],
   "id": "the-perils-of-gwendoline-in-the-land-of-the-yik-yak-1984",
   "dbid": 19400,
   "runtime_m": 88
@@ -8401,7 +8441,8 @@
   "runtime_m": 149
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "08.08.26",
   "title": "Ant-Man and the Wasp",
   "year": "2018",
   "runtime_hm": "1h59m",
@@ -8411,6 +8452,9 @@
     "https://youtu.be/UUkn-enk2RU"
    ]
   },
+  "watchdate_arr": [
+   "20260808"
+  ],
   "id": "ant-man-and-the-wasp-2018",
   "dbid": 363088,
   "runtime_m": 119
@@ -8434,7 +8478,8 @@
   "runtime_m": 114
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "08.15.26",
   "title": "Captain Marvel",
   "year": "2019",
   "runtime_hm": "2h4m",
@@ -8444,12 +8489,16 @@
     "https://youtu.be/0LHxvxdRnYc"
    ]
   },
+  "watchdate_arr": [
+   "20260815"
+  ],
   "id": "captain-marvel-2019",
   "dbid": 299537,
   "runtime_m": 124
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "08.22.26",
   "title": "Avengers: Endgame",
   "year": "2019",
   "runtime_hm": "3h1m",
@@ -8459,12 +8508,16 @@
     "https://youtu.be/hA6hldpSTF8"
    ]
   },
+  "watchdate_arr": [
+   "20260822"
+  ],
   "id": "avengers-endgame-2019",
   "dbid": 299534,
   "runtime_m": 181
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "08.29.26",
   "title": "Spider-Man: Far From Home",
   "year": "2019",
   "runtime_hm": "2h9m",
@@ -8475,12 +8528,16 @@
     "https://youtu.be/V38cLTYYXNw"
    ]
   },
+  "watchdate_arr": [
+   "20260829"
+  ],
   "id": "spider-man-far-from-home-2019",
   "dbid": 429617,
   "runtime_m": 129
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "09.06.26",
   "title": "Black Widow",
   "year": "2021",
   "runtime_hm": "2h14m",
@@ -8491,12 +8548,16 @@
     "https://youtu.be/Fp9pNPdNwjI"
    ]
   },
+  "watchdate_arr": [
+   "20260906"
+  ],
   "id": "black-widow-2021",
   "dbid": 497698,
   "runtime_m": 134
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "09.12.26",
   "title": "Shang-Chi and the Legend of the Ten Rings",
   "year": "2021",
   "runtime_hm": "2h12m",
@@ -8507,6 +8568,9 @@
     "https://youtu.be/MfVyikMrJ_o"
    ]
   },
+  "watchdate_arr": [
+   "20260912"
+  ],
   "id": "shang-chi-and-the-legend-of-the-ten-rings-2021",
   "dbid": 566525,
   "runtime_m": 132
@@ -9198,8 +9262,8 @@
    "20220409"
   ],
   "id": "downfall-der-untergang-2004",
-  "dbid": 613,
-  "runtime_m": 155
+  "dbid": 1099066,
+  "runtime_m": 58
  },
  {
   "watched": false,
@@ -10424,7 +10488,7 @@
   "links": {},
   "id": "inglorious-basterds-2009",
   "dbid": 28447,
-  "runtime_m": 6
+  "runtime_m": 7
  },
  {
   "watched": false,
@@ -12446,7 +12510,12 @@
   "watched": false,
   "title": "The Fugitive",
   "year": "1993",
-  "links": {},
+  "runtime_hm": "2h10m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/ETPVU0acnrE"
+   ]
+  },
   "id": "the-fugitive-1993",
   "dbid": 5503,
   "runtime_m": 131
@@ -13901,7 +13970,7 @@
   ],
   "id": "dodgeball-2004",
   "dbid": 9472,
-  "runtime_m": 93
+  "runtime_m": 92
  },
  {
   "watched": false,
@@ -15964,7 +16033,7 @@
   },
   "id": "once-upon-a-time-in-america-1984",
   "dbid": 311,
-  "runtime_m": 229
+  "runtime_m": 139
  },
  {
   "watched": true,
@@ -16582,6 +16651,21 @@
   "id": "uncle-buck-1989",
   "dbid": 2616,
   "runtime_m": 100
+ },
+ {
+  "watched": false,
+  "title": "Tomcats",
+  "year": "2001",
+  "runtime_hm": "1h35m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/NEzAYcGxZp4",
+    "https://youtu.be/nfJaRb8UdiI"
+   ]
+  },
+  "id": "tomcats-2001",
+  "dbid": 10646,
+  "runtime_m": 95
  },
  {
   "watched": false,
@@ -21392,7 +21476,8 @@
   "runtime_m": 137
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "08.15.26",
   "title": "A Knight's Tale",
   "year": "2001",
   "runtime_hm": "2h12m",
@@ -21401,6 +21486,9 @@
     "https://youtu.be/_KzsTKqTq1M"
    ]
   },
+  "watchdate_arr": [
+   "20260815"
+  ],
   "id": "a-knights-tale-2001",
   "dbid": 9476,
   "runtime_m": 133
@@ -22141,8 +22229,8 @@
    "20241224"
   ],
   "id": "a-christmas-carol-1999",
-  "dbid": 16716,
-  "runtime_m": 97
+  "dbid": 47257,
+  "runtime_m": 72
  },
  {
   "watched": false,
@@ -22191,7 +22279,7 @@
   ],
   "id": "the-muppet-christmas-carol-1992",
   "dbid": 10437,
-  "runtime_m": 89
+  "runtime_m": 86
  },
  {
   "watched": true,
@@ -22882,7 +22970,7 @@
   "year": "2003",
   "links": {},
   "id": "hajime-no-ippo-2003",
-  "dbid": 45288,
-  "runtime_m": 60
+  "dbid": 45287,
+  "runtime_m": 90
  }
 ]
