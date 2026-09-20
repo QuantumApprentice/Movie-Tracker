@@ -1230,7 +1230,7 @@
   ],
   "id": "army-of-darkness-1993",
   "dbid": 766,
-  "runtime_m": 81
+  "runtime_m": 89
  },
  {
   "watched": true,
@@ -7584,8 +7584,8 @@
    "20250809"
   ],
   "id": "x-men-2000",
-  "dbid": 447399,
-  "runtime_m": 22
+  "dbid": 36657,
+  "runtime_m": 104
  },
  {
   "watched": true,
@@ -8576,7 +8576,8 @@
   "runtime_m": 132
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "09.19.26",
   "title": "Eternals",
   "year": "2021",
   "runtime_hm": "2h36m",
@@ -8586,6 +8587,9 @@
     "https://youtu.be/0WVDKZJkGlY"
    ]
   },
+  "watchdate_arr": [
+   "20260919"
+  ],
   "id": "eternals-2021",
   "dbid": 524434,
   "runtime_m": 156
@@ -8610,7 +8614,13 @@
   "title": "Doctor Strange in the Multiverse of Madness",
   "year": "2022",
   "runtime_hm": "2h6m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/aWzlQ2N6qqg",
+    "https://youtu.be/Rt_UqUm38BI",
+    "https://youtu.be/Rf8LAYJSOL8"
+   ]
+  },
   "id": "doctor-strange-in-the-multiverse-of-madness-2022",
   "dbid": 453395,
   "runtime_m": 126
@@ -8620,7 +8630,12 @@
   "title": "Thor: Love and Thunder",
   "year": "2022",
   "runtime_hm": "1h59m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/Go8nTmfrQd8",
+    "https://youtu.be/tgB1wUcmbbw"
+   ]
+  },
   "id": "thor-love-and-thunder-2022",
   "dbid": 616037,
   "runtime_m": 119
@@ -12996,7 +13011,7 @@
   },
   "id": "the-pirate-movie-1982",
   "dbid": 25872,
-  "runtime_m": 105
+  "runtime_m": 104
  },
  {
   "watched": true,
@@ -14185,8 +14200,8 @@
    ]
   },
   "id": "the-room-2003",
-  "dbid": 8070,
-  "runtime_m": 95
+  "dbid": 17473,
+  "runtime_m": 100
  },
  {
   "watched": false,
@@ -22891,7 +22906,7 @@
   },
   "id": "django-1966",
   "dbid": 10772,
-  "runtime_m": 93
+  "runtime_m": 92
  },
  {
   "watched": false,
