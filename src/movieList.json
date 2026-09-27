@@ -120,7 +120,7 @@
   },
   "id": "draculas-daughter-1936",
   "dbid": 22440,
-  "runtime_m": 68
+  "runtime_m": 71
  },
  {
   "watched": false,
@@ -261,7 +261,7 @@
   },
   "id": "son-of-dracula-1943",
   "dbid": 32023,
-  "runtime_m": 77
+  "runtime_m": 80
  },
  {
   "watched": false,
@@ -450,6 +450,20 @@
  },
  {
   "watched": false,
+  "title": "Plan 9 from Outer Space",
+  "year": "1957",
+  "runtime_hm": "1h19m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/aiZp2sXkVUg"
+   ]
+  },
+  "id": "plan-9-from-outer-space-1957",
+  "dbid": 10513,
+  "runtime_m": 78
+ },
+ {
+  "watched": false,
   "title": "The Curse of the Werewolf",
   "year": "1961",
   "runtime_hm": "1h33m",
@@ -564,6 +578,16 @@
   "id": "the-mummy-tomb-of-the-dragon-emperor-2008",
   "dbid": 1735,
   "runtime_m": 112
+ },
+ {
+  "watched": false,
+  "title": "Phase IV",
+  "year": "1974",
+  "runtime_hm": "1h26m",
+  "links": {},
+  "id": "phase-iv-1974",
+  "dbid": 59189,
+  "runtime_m": 86
  },
  {
   "watched": false,
@@ -1277,6 +1301,20 @@
   "id": "the-exorcist-iii-1990",
   "dbid": 11587,
   "runtime_m": 110
+ },
+ {
+  "watched": false,
+  "title": "Frankenhooker",
+  "year": "1990",
+  "runtime_hm": "1h25m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/8-LQ01M32LA"
+   ]
+  },
+  "id": "frankenhooker-1990",
+  "dbid": 27274,
+  "runtime_m": 85
  },
  {
   "watched": true,
@@ -8595,7 +8633,8 @@
   "runtime_m": 156
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "09.26.26",
   "title": "Spider-Man: No Way Home",
   "year": "2021",
   "runtime_hm": "2h28m",
@@ -8605,6 +8644,9 @@
     "https://youtu.be/JfVOs4VSpmA"
    ]
   },
+  "watchdate_arr": [
+   "20260926"
+  ],
   "id": "spider-man-no-way-home-2021",
   "dbid": 634649,
   "runtime_m": 148
@@ -11132,8 +11174,8 @@
    "20240727"
   ],
   "id": "around-the-world-in-80-days-2004",
-  "dbid": 10204,
-  "runtime_m": 120
+  "dbid": 2897,
+  "runtime_m": 182
  },
  {
   "watched": true,
@@ -17085,9 +17127,7 @@
     "https://youtu.be/la-J5K_dJA4"
    ]
   },
-  "id": "island-of-fire-1990",
-  "dbid": 18767,
-  "runtime_m": 124
+  "id": "island-of-fire-1990"
  },
  {
   "watched": false,
