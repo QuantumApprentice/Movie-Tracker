@@ -3950,7 +3950,8 @@
   "runtime_m": 93
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "09.26.26",
   "title": "Sneakers",
   "year": "1992",
   "runtime_hm": "2h6m",
@@ -3962,6 +3963,9 @@
     "https://youtu.be/DXWdj5-CTjI"
    ]
   },
+  "watchdate_arr": [
+   "20260926"
+  ],
   "id": "sneakers-1992",
   "dbid": 2322,
   "runtime_m": 125
@@ -22298,8 +22302,8 @@
    ]
   },
   "id": "a-christmas-tale-2008",
-  "dbid": 8892,
-  "runtime_m": 152
+  "dbid": 75725,
+  "runtime_m": 75
  },
  {
   "watched": false,
