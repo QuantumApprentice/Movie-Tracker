@@ -841,7 +841,7 @@ function MovieTitle({movie, tmdb})
           Back to list
         </Link>
         <div className='movie-rating'>
-          {USrating?.rating}
+          {USrating?.rating /*TODO: add "No Rating" for older movies */}
         </div>
       </div>
 
@@ -851,12 +851,14 @@ function MovieTitle({movie, tmdb})
               // style={{"--font_size": `${fontSize}px`}}
               >{movie.title}
           </h1>
-          <h2>({movie.year ||
-                tmdb?.release_date?.slice(0,4)})
+          <h2>
+            ({movie.year || tmdb?.release_date?.slice(0,4)})
+             {copy_to_clipboard(movie)}
           </h2>
-          <h2>{movie.runtime_hm || 
-                tmdb.runtime_hm
-          }</h2>
+          <h2>
+            {movie.runtime_hm || 
+              tmdb.runtime_hm    }
+          </h2>
         </div>
       </div>
 
@@ -870,6 +872,19 @@ function MovieTitle({movie, tmdb})
       </div>
     </div>
   )
+}
+
+function copy_to_clipboard(movie)
+{
+  return <img className='clipboard'
+    src={"/Movie-Tracker/public/copy to clipboard symbol.svg"}
+    onClick={()=>{
+      navigator.clipboard.writeText(
+        `${movie.title} (${movie.year}) [${movie.runtime_hm}] trailer: ${movie.links.trailer.join(" trailer: ")}`
+      );
+    }}
+    onError={()=>{setErr(true)}}
+    />
 }
 
 function Trailer({movie, idx, css})
