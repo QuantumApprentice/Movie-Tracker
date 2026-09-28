@@ -2536,6 +2536,16 @@
  },
  {
   "watched": false,
+  "title": "Obsession",
+  "year": "2025",
+  "runtime_hm": "1h49m",
+  "links": {},
+  "id": "obsession-2025",
+  "dbid": 1339713,
+  "runtime_m": 109
+ },
+ {
+  "watched": false,
   "title": "Oculus",
   "year": "2013",
   "runtime_hm": "1h45m",
@@ -3094,8 +3104,19 @@
  },
  {
   "watched": false,
+  "title": "Smile",
+  "year": "2022",
+  "runtime_hm": "1h55m",
+  "links": {},
+  "id": "smile-2022",
+  "dbid": 882598,
+  "runtime_m": 115
+ },
+ {
+  "watched": false,
   "title": "Smiley",
   "year": "2012",
+  "runtime_hm": "1h35m",
   "links": {},
   "id": "smiley-2012",
   "dbid": 119278,
@@ -3205,6 +3226,7 @@
   "watched": false,
   "title": "Terrifier",
   "year": "2016",
+  "runtime_hm": "1h25m",
   "links": {},
   "id": "terrifier-2016",
   "dbid": 420634,
@@ -4205,6 +4227,16 @@
   "id": "high-anxiety-1977",
   "dbid": 12535,
   "runtime_m": 94
+ },
+ {
+  "watched": false,
+  "title": "The Imitation Game",
+  "year": "2014",
+  "runtime_hm": "1h54m",
+  "links": {},
+  "id": "the-imitation-game-2014",
+  "dbid": 205596,
+  "runtime_m": 113
  },
  {
   "watched": false,
@@ -6700,6 +6732,14 @@
   "runtime_m": 88
  },
  {
+  "watched": false,
+  "title": "Time Cop",
+  "year": "1994",
+  "runtime_hm": "1h39m",
+  "links": {},
+  "id": "time-cop-1994"
+ },
+ {
   "watched": true,
   "title": "Darkman",
   "year": "1990",
@@ -7021,6 +7061,16 @@
   "id": "alien-resurrection-1997",
   "dbid": 8078,
   "runtime_m": 109
+ },
+ {
+  "watched": false,
+  "title": "Fargo",
+  "year": "1996",
+  "runtime_hm": "1h38m",
+  "links": {},
+  "id": "fargo-1996",
+  "dbid": 275,
+  "runtime_m": 98
  },
  {
   "watched": false,
@@ -12568,7 +12618,8 @@
   "runtime_m": 100
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "09.19.26",
   "title": "The Fugitive",
   "year": "1993",
   "runtime_hm": "2h10m",
@@ -12577,6 +12628,9 @@
     "https://youtu.be/ETPVU0acnrE"
    ]
   },
+  "watchdate_arr": [
+   "20260919"
+  ],
   "id": "the-fugitive-1993",
   "dbid": 5503,
   "runtime_m": 131
@@ -12585,6 +12639,7 @@
   "watched": false,
   "title": "U.S. Marshals",
   "year": "1998",
+  "runtime_hm": "2h11m",
   "links": {},
   "id": "u-s-marshals-1998",
   "dbid": 11808,
@@ -16927,6 +16982,16 @@
   "id": "men-in-black-1997",
   "dbid": 607,
   "runtime_m": 98
+ },
+ {
+  "watched": false,
+  "title": "Men in Black II",
+  "year": "2002",
+  "runtime_hm": "1h28m",
+  "links": {},
+  "id": "men-in-black-ii-2002",
+  "dbid": 608,
+  "runtime_m": 88
  },
  {
   "watched": true,
