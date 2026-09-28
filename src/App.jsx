@@ -877,13 +877,13 @@ function MovieTitle({movie, tmdb})
 function copy_to_clipboard(movie)
 {
   return <img className='clipboard'
-    src={"/Movie-Tracker/copy to clipboard symbol.svg"}
-    onClick={()=>{
-      navigator.clipboard.writeText(
-        `${movie.title} (${movie.year}) [${movie.runtime_hm}] trailer: ${movie.links.trailer.join(" trailer: ")}`
-      );
-    }}
-    onError={()=>{setErr(true)}}
+      src={"/Movie-Tracker/copy to clipboard symbol.svg"}
+      onClick={()=>{
+        navigator.clipboard.writeText(
+          `${movie.title} (${movie.year}) [${movie.runtime_hm}] trailer: ${movie.links.trailer.join(" trailer: ")}`
+        );
+      }}
+      onError={()=>{setErr(true)}}
     />
 }
 
