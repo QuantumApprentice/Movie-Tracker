@@ -1424,7 +1424,8 @@
   "runtime_m": 91
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "10.03.26",
   "title": "Friday the 13th - Part 5 - A New Beginning",
   "year": "1985",
   "runtime_hm": "1h32m",
@@ -1433,6 +1434,9 @@
     "https://youtu.be/e_q7Pz2HNJc"
    ]
   },
+  "watchdate_arr": [
+   "20261003"
+  ],
   "id": "friday-the-13th-part-5-a-new-beginning-1985",
   "dbid": 9731,
   "runtime_m": 92
@@ -6137,6 +6141,20 @@
  },
  {
   "watched": false,
+  "title": "Summer School",
+  "year": "1987",
+  "runtime_hm": "1h37m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/R0zK5ggTyYQ"
+   ]
+  },
+  "id": "summer-school-1987",
+  "dbid": 14671,
+  "runtime_m": 97
+ },
+ {
+  "watched": false,
   "title": "A Scanner Darkly",
   "year": "2006",
   "runtime_hm": "1h40m",
@@ -8706,7 +8724,8 @@
   "runtime_m": 148
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "10.03.26",
   "title": "Doctor Strange in the Multiverse of Madness",
   "year": "2022",
   "runtime_hm": "2h6m",
@@ -8717,6 +8736,9 @@
     "https://youtu.be/Rf8LAYJSOL8"
    ]
   },
+  "watchdate_arr": [
+   "20261003"
+  ],
   "id": "doctor-strange-in-the-multiverse-of-madness-2022",
   "dbid": 453395,
   "runtime_m": 126
@@ -13935,7 +13957,7 @@
   "links": {},
   "id": "chungking-express-1994",
   "dbid": 11104,
-  "runtime_m": 103
+  "runtime_m": 102
  },
  {
   "watched": false,
