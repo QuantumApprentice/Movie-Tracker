@@ -1878,8 +1878,9 @@
   "runtime_m": 95
  },
  {
-  "watched": false,
-  "title": "Human Centipede",
+  "watched": true,
+  "watchdate": "10.10.26",
+  "title": "The Human Centipede",
   "year": "2010",
   "runtime_hm": "1h32m",
   "links": {
@@ -1887,7 +1888,10 @@
     "https://youtu.be/JdW1yPTBPFA"
    ]
   },
-  "id": "human-centipede-2010",
+  "watchdate_arr": [
+   "20261010"
+  ],
+  "id": "the-human-centipede-2010",
   "dbid": 37169,
   "runtime_m": 92
  },
@@ -8744,7 +8748,8 @@
   "runtime_m": 126
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "10.10.26",
   "title": "Thor: Love and Thunder",
   "year": "2022",
   "runtime_hm": "1h59m",
@@ -8754,6 +8759,9 @@
     "https://youtu.be/tgB1wUcmbbw"
    ]
   },
+  "watchdate_arr": [
+   "20261010"
+  ],
   "id": "thor-love-and-thunder-2022",
   "dbid": 616037,
   "runtime_m": 119
@@ -8870,7 +8878,7 @@
   "links": {
    "trailer": [
     "https://youtu.be/mvP1DRM4Sqw",
-    "https://youtu.be/mvP1DRM4Sqw"
+    "https://youtu.be/18QQWa5MEcs"
    ]
   },
   "id": "the-fantastic-four-first-steps-2025",
