@@ -449,7 +449,8 @@
   "runtime_m": 79
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "10.17.26",
   "title": "Plan 9 from Outer Space",
   "year": "1957",
   "runtime_hm": "1h19m",
@@ -458,6 +459,9 @@
     "https://youtu.be/aiZp2sXkVUg"
    ]
   },
+  "watchdate_arr": [
+   "20261017"
+  ],
   "id": "plan-9-from-outer-space-1957",
   "dbid": 10513,
   "runtime_m": 78
@@ -4734,6 +4738,16 @@
  },
  {
   "watched": false,
+  "title": "Backrooms",
+  "year": "2026",
+  "runtime_hm": "2h6m",
+  "links": {},
+  "id": "backrooms-2026",
+  "dbid": 1083381,
+  "runtime_m": 111
+ },
+ {
+  "watched": false,
   "title": "Mad God",
   "year": "2021",
   "runtime_hm": "1h23m",
@@ -4853,6 +4867,16 @@
   "id": "the-hole-2012",
   "dbid": 45650,
   "runtime_m": 92
+ },
+ {
+  "watched": false,
+  "title": "Midnight Diner",
+  "year": "2014",
+  "runtime_hm": "1h59m",
+  "links": {},
+  "id": "midnight-diner-2014",
+  "dbid": 309028,
+  "runtime_m": 119
  },
  {
   "watched": false,
@@ -7886,7 +7910,7 @@
   ],
   "id": "fantastic-four-2005",
   "dbid": 9738,
-  "runtime_m": 106
+  "runtime_m": 125
  },
  {
   "watched": true,
@@ -8767,7 +8791,8 @@
   "runtime_m": 119
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "10.17.26",
   "title": "Black Panther: Wakanda Forever",
   "year": "2022",
   "runtime_hm": "2h42m",
@@ -8777,6 +8802,9 @@
     "https://youtu.be/_Z3QKkl1WyM"
    ]
   },
+  "watchdate_arr": [
+   "20261017"
+  ],
   "id": "black-panther-wakanda-forever-2022",
   "dbid": 505642,
   "runtime_m": 162
@@ -15090,6 +15118,37 @@
   "runtime_m": 138
  },
  {
+  "watched": false,
+  "title": "The Matrix Revolutions",
+  "year": "2003",
+  "runtime_hm": "2h9m",
+  "links": {
+   "teaser": [
+    "https://youtu.be/iG7bjkKYS_U"
+   ],
+   "trailer": [
+    "https://youtu.be/hMbexEPAOQI"
+   ]
+  },
+  "id": "the-matrix-revolutions-2003",
+  "dbid": 605,
+  "runtime_m": 129
+ },
+ {
+  "watched": false,
+  "title": "The Matrix Resurrections",
+  "year": "2021",
+  "runtime_hm": "2h28m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/9ix7TUGVYIo"
+   ]
+  },
+  "id": "the-matrix-resurrections-2021",
+  "dbid": 624860,
+  "runtime_m": 148
+ },
+ {
   "watched": true,
   "watchdate": "11.29.25",
   "title": "Speed Racer",
@@ -15598,6 +15657,16 @@
  },
  {
   "watched": false,
+  "title": "Harmony",
+  "year": "2015",
+  "runtime_hm": "1h59m",
+  "links": {},
+  "id": "harmony-2015",
+  "dbid": 357411,
+  "runtime_m": 119
+ },
+ {
+  "watched": false,
   "title": "Empire of Corpses",
   "year": "2016",
   "links": {
@@ -15608,6 +15677,16 @@
   "id": "empire-of-corpses-2016",
   "dbid": 342588,
   "runtime_m": 120
+ },
+ {
+  "watched": false,
+  "title": "Genocidal Organ",
+  "year": "2017",
+  "runtime_hm": "1h55m",
+  "links": {},
+  "id": "genocidal-organ-2017",
+  "dbid": 357407,
+  "runtime_m": 115
  },
  {
   "watched": false,
@@ -15685,6 +15764,26 @@
   "id": "an-american-tail-fievel-goes-west-1991",
   "dbid": 10380,
   "runtime_m": 75
+ },
+ {
+  "watched": false,
+  "title": "Vampire Hunter D",
+  "year": "1985",
+  "runtime_hm": "1h20m",
+  "links": {},
+  "id": "vampire-hunter-d-1985",
+  "dbid": 9463,
+  "runtime_m": 80
+ },
+ {
+  "watched": false,
+  "title": "Vampire Hunter D: Bloodlust",
+  "year": "2000",
+  "runtime_hm": "1h43m",
+  "links": {},
+  "id": "vampire-hunter-d-bloodlust-2000",
+  "dbid": 15999,
+  "runtime_m": 103
  },
  {
   "watched": false,
