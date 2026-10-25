@@ -822,6 +822,16 @@
   "runtime_m": 91
  },
  {
+  "watched": false,
+  "title": "Beyond the Black Rainbow",
+  "year": "2010",
+  "runtime_hm": "1h50m",
+  "links": {},
+  "id": "beyond-the-black-rainbow-2010",
+  "dbid": 50037,
+  "runtime_m": 110
+ },
+ {
   "watched": true,
   "watchdate": "10..2021",
   "title": "Beetlejuice",
@@ -1446,7 +1456,8 @@
   "runtime_m": 92
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "10.24.26",
   "title": "Friday the 13th - Part 6 - Jason Lives",
   "year": "1986",
   "runtime_hm": "1h30m",
@@ -1455,6 +1466,9 @@
     "https://youtu.be/s3-MMNUlM6o"
    ]
   },
+  "watchdate_arr": [
+   "20261024"
+  ],
   "id": "friday-the-13th-part-6-jason-lives-1986",
   "dbid": 10225,
   "runtime_m": 86
@@ -3136,6 +3150,16 @@
  },
  {
   "watched": false,
+  "title": "Society",
+  "year": "1989",
+  "runtime_hm": "1h39m",
+  "links": {},
+  "id": "society-1989",
+  "dbid": 207,
+  "runtime_m": 129
+ },
+ {
+  "watched": false,
   "title": "Tales from the Darkside",
   "year": "1990",
   "runtime_hm": "1h33m",
@@ -3352,6 +3376,20 @@
  },
  {
   "watched": false,
+  "title": "The Entity",
+  "year": "1982",
+  "runtime_hm": "2h5m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/PkPaOvXd10o"
+   ]
+  },
+  "id": "the-entity-1982",
+  "dbid": 24740,
+  "runtime_m": 125
+ },
+ {
+  "watched": false,
   "title": "The Fly",
   "year": "1958",
   "runtime_hm": "1h34m",
@@ -3458,6 +3496,23 @@
   "runtime_m": 97
  },
  {
+  "watched": false,
+  "title": "The Keep",
+  "year": "1983",
+  "runtime_hm": "1h36m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/jQKZn3Rrinw"
+   ],
+   "modern": [
+    "https://youtu.be/fkvLpLQm6xs"
+   ]
+  },
+  "id": "the-keep-1983",
+  "dbid": 26198,
+  "runtime_m": 96
+ },
+ {
   "watched": true,
   "watchdate": "10..2021",
   "title": "The Monster Squad",
@@ -3507,6 +3562,7 @@
   "watched": false,
   "title": "The Prophecy",
   "year": "1995",
+  "runtime_hm": "1h38m",
   "links": {},
   "id": "the-prophecy-1995",
   "dbid": 11980,
@@ -3516,6 +3572,7 @@
   "watched": false,
   "title": "The Prophecy II",
   "year": "1998",
+  "runtime_hm": "1h23m",
   "links": {},
   "id": "the-prophecy-ii-1998",
   "dbid": 9033,
@@ -3525,10 +3582,21 @@
   "watched": false,
   "title": "The Prophecy 3: The Ascent",
   "year": "2000",
+  "runtime_hm": "1h24m",
   "links": {},
   "id": "the-prophecy-3-the-ascent-2000",
   "dbid": 9011,
   "runtime_m": 84
+ },
+ {
+  "watched": false,
+  "title": "The Stepfather",
+  "year": "1987",
+  "runtime_hm": "1h29m",
+  "links": {},
+  "id": "the-stepfather-1987",
+  "dbid": 25155,
+  "runtime_m": 89
  },
  {
   "watched": false,
@@ -5564,6 +5632,31 @@
  },
  {
   "watched": false,
+  "title": "Next Friday",
+  "year": "2000",
+  "runtime_hm": "1h38m",
+  "links": {},
+  "id": "next-friday-2000",
+  "dbid": 10471,
+  "runtime_m": 98
+ },
+ {
+  "watched": false,
+  "title": "Friday After Next",
+  "year": "2002",
+  "runtime_hm": "1h25m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/H3g5QQynaJk",
+    "https://youtu.be/MveF6S5b2qY"
+   ]
+  },
+  "id": "friday-after-next-2002",
+  "dbid": 10426,
+  "runtime_m": 85
+ },
+ {
+  "watched": false,
   "title": "Puff, Puff, Pass",
   "year": "2006",
   "runtime_hm": "1h34m",
@@ -6987,6 +7080,9 @@
   "links": {
    "trailer": [
     "https://youtu.be/urrqW4_3IBg"
+   ],
+   "modern": [
+    "https://youtu.be/SXq3yMhobEU"
    ]
   },
   "id": "nineteen-eighty-four-1984",
@@ -7274,7 +7370,7 @@
   "links": {},
   "id": "battle-royale-2000",
   "dbid": 3176,
-  "runtime_m": 113
+  "runtime_m": 114
  },
  {
   "watched": true,
@@ -8810,7 +8906,8 @@
   "runtime_m": 162
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "10.24.26",
   "title": "Ant-Man and the Wasp: Quantumania",
   "year": "2023",
   "runtime_hm": "2h5m",
@@ -8820,6 +8917,9 @@
     "https://youtu.be/ZlNFpri-Y40"
    ]
   },
+  "watchdate_arr": [
+   "20261024"
+  ],
   "id": "ant-man-and-the-wasp-quantumania-2023",
   "dbid": 640146,
   "runtime_m": 125
@@ -20943,7 +21043,7 @@
   "links": {},
   "id": "the-prestige-2006",
   "dbid": 1124,
-  "runtime_m": 130
+  "runtime_m": 131
  },
  {
   "watched": true,
