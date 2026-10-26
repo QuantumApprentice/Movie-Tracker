@@ -114,7 +114,7 @@ button:focus-visible {
   left: 0;
   width: 15rem;
   height: 300px;
-  border: solid red;
+  /* border: solid red; */
   background-color: rgba(40, 40, 40, 0);
   pointer-events: none;
   z-index: 1;
@@ -164,7 +164,7 @@ then in the CSS something like
  */
 
 .poster-array {
-  border: solid red;
+  /* border: solid red; */
   display: flex;
   flex-flow: row wrap;
   min-width: 930px;

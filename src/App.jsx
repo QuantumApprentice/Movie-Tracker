@@ -371,7 +371,7 @@ function observer_modify_dom_indirectly() {
         if (e.isIntersecting) {
           //get the callback function for the
           //visible node from observed_nodes map
-          let visibleCallback = observed_nodes.get(e.target)
+          let visibleCallback = observed_nodes.get(e.target);
           if (visibleCallback) {
             //if there is one, call it
             visibleCallback();
