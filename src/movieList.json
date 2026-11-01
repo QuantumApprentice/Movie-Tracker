@@ -1317,7 +1317,8 @@
   "runtime_m": 110
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "10.31.26",
   "title": "Frankenhooker",
   "year": "1990",
   "runtime_hm": "1h25m",
@@ -1326,6 +1327,9 @@
     "https://youtu.be/8-LQ01M32LA"
    ]
   },
+  "watchdate_arr": [
+   "20261031"
+  ],
   "id": "frankenhooker-1990",
   "dbid": 27274,
   "runtime_m": 85
@@ -2487,7 +2491,8 @@
   "runtime_m": 90
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "10.31.26",
   "title": "Night of the Living Dead",
   "year": "1968",
   "runtime_hm": "1h36m",
@@ -2496,6 +2501,9 @@
     "https://youtu.be/pd5a0gs-UCQ"
    ]
   },
+  "watchdate_arr": [
+   "20261031"
+  ],
   "id": "night-of-the-living-dead-1968",
   "dbid": 10331,
   "runtime_m": 96
@@ -4313,7 +4321,11 @@
   "title": "The Imitation Game",
   "year": "2014",
   "runtime_hm": "1h54m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/Fg85ggZSHMw"
+   ]
+  },
   "id": "the-imitation-game-2014",
   "dbid": 205596,
   "runtime_m": 113
@@ -6875,7 +6887,14 @@
   "title": "Time Cop",
   "year": "1994",
   "runtime_hm": "1h39m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/VYw_24STp8o"
+   ],
+   "modern": [
+    "https://youtu.be/A7kvEavoiAc"
+   ]
+  },
   "id": "time-cop-1994"
  },
  {
@@ -8925,7 +8944,8 @@
   "runtime_m": 125
  },
  {
-  "watched": false,
+  "watched": true,
+  "watchdate": "10.31.26",
   "title": "Guardians of the Galaxy Vol. 3",
   "year": "2023",
   "runtime_hm": "2h30m",
@@ -8936,6 +8956,9 @@
     "https://youtu.be/u3V5KDHRQvk"
    ]
   },
+  "watchdate_arr": [
+   "20261031"
+  ],
   "id": "guardians-of-the-galaxy-vol-3-2023",
   "dbid": 447365,
   "runtime_m": 150
@@ -12705,7 +12728,12 @@
   "title": "V for Vendetta",
   "year": "2005",
   "runtime_hm": "2h12m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/j-ucMM4y-OY",
+    "https://youtu.be/NpEU9NY58IE"
+   ]
+  },
   "id": "v-for-vendetta-2005",
   "dbid": 752,
   "runtime_m": 132
@@ -12819,7 +12847,11 @@
   "title": "U.S. Marshals",
   "year": "1998",
   "runtime_hm": "2h11m",
-  "links": {},
+  "links": {
+   "trailer": [
+    "https://youtu.be/_shXM-868Q8"
+   ]
+  },
   "id": "u-s-marshals-1998",
   "dbid": 11808,
   "runtime_m": 131
@@ -16532,7 +16564,7 @@
   ],
   "id": "universal-soldier-1992",
   "dbid": 9349,
-  "runtime_m": 103
+  "runtime_m": 102
  },
  {
   "watched": false,
@@ -16542,7 +16574,7 @@
   "links": {},
   "id": "timecop-1994",
   "dbid": 8831,
-  "runtime_m": 98
+  "runtime_m": 99
  },
  {
   "watched": false,
@@ -17342,7 +17374,7 @@
   },
   "id": "supercop-2-1993",
   "dbid": 38955,
-  "runtime_m": 101
+  "runtime_m": 102
  },
  {
   "watched": true,
@@ -19041,7 +19073,7 @@
   },
   "id": "rocky-iii-1982",
   "dbid": 1371,
-  "runtime_m": 100
+  "runtime_m": 99
  },
  {
   "watched": true,
@@ -21697,6 +21729,20 @@
   "id": "tin-cup-1996",
   "dbid": 10478,
   "runtime_m": 135
+ },
+ {
+  "watched": false,
+  "title": "Wild Hogs",
+  "year": "2007",
+  "runtime_hm": "1h40m",
+  "links": {
+   "trailer": [
+    "https://youtu.be/zSvwmgWCJ2s"
+   ]
+  },
+  "id": "wild-hogs-2007",
+  "dbid": 11199,
+  "runtime_m": 100
  },
  {
   "watched": false,
