@@ -396,7 +396,6 @@ iframe {
   cursor: pointer;
   height: 48px;
   position: absolute;
-  /* top: 10px; */
   filter: invert(100%);
 
 }
